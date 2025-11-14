@@ -56,7 +56,7 @@ export interface match {
   awayTeam: team;
   preGame: string;
   postGame: string;
-  date: number;
+  week: number;
   homeScore: number;
   awayScore: number;
   slug: string;
@@ -65,7 +65,7 @@ export interface match {
 export interface match_progress {
   homeTeam: team;
   awayTeam: team;
-  date: number;
+  week: number;
   homeScore: number;
   awayScore: number;
   possession: player | null;

@@ -60,7 +60,7 @@ export const gameLoop = async (gameState: match_progress) => {
   }
   gameState.plays = [...fiction, ...gameState.plays];
   fs.writeFile(
-    `./results/${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.date}.json`,
+    `./results/${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}.json`,
     JSON.stringify(gameState),
     "utf8",
     (err) => {

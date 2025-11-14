@@ -15,7 +15,7 @@ export async function getStaticPaths() {
   // Loop over your GAMES array to create the slugs
   const paths = GAMES.map((game) => ({
     params: {
-      game: `${game.homeTeam.slug}-${game.awayTeam.slug}-${game.date}`,
+      game: `${game.homeTeam.slug}-${game.awayTeam.slug}-${game.week}`,
     },
   }));
 
@@ -60,8 +60,15 @@ export default function GamePage({ gameData }: { gameData: match }) {
 
   const [isScoreVisible, setIsScoreVisible] = useState(false);
 
-  const { homeTeam, awayTeam, preGame, postGame, date, homeScore, awayScore } =
-    gameData;
+  const {
+    homeTeam,
+    awayTeam,
+    preGame,
+    postGame,
+    week: date,
+    homeScore,
+    awayScore,
+  } = gameData;
   // Helper to determine winner for styling
   const homeWon = homeScore > awayScore;
   const awayWon = awayScore > homeScore;
@@ -107,18 +114,18 @@ export default function GamePage({ gameData }: { gameData: match }) {
             ) : (
               <div className="flex flex-col justify-center items-center p-4 min-h-[200px] gap-4">
                 <div className="flex justify-around items-center text-center p-4 w-full">
-                  {/* Away Team */}
-                  <div className="flex flex-col items-center gap-2 w-1/3">
-                    <TeamIcon size={80} team={awayTeam.name} />
-                    <h2 className="text-xl md:text-2xl font-bold">
-                      {awayTeam.name}
-                    </h2>
-                  </div>
                   {/* Home Team */}
                   <div className="flex flex-col items-center gap-2 w-1/3">
                     <TeamIcon size={80} team={homeTeam.name} />
                     <h2 className="text-xl md:text-2xl font-bold">
                       {homeTeam.name}
+                    </h2>
+                  </div>
+                  {/* Away Team */}
+                  <div className="flex flex-col items-center gap-2 w-1/3">
+                    <TeamIcon size={80} team={awayTeam.name} />
+                    <h2 className="text-xl md:text-2xl font-bold">
+                      {awayTeam.name}
                     </h2>
                   </div>
                 </div>

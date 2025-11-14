@@ -17,7 +17,7 @@ interface GamesByWeek {
 export default function GamesPage() {
   // 1. Group games by week
   const gamesByWeek = GAMES.reduce((acc, game) => {
-    const week = game.date;
+    const week = game.week;
 
     if (!acc[week]) {
       acc[week] = [];
