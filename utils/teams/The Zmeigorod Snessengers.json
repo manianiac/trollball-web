@@ -1,0 +1,222 @@
+{
+  "name": "The Zmeigorod Snessengers",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 53,
+  "stadium": {
+    "name": "",
+    "location": "Zmeigorod, just west of the lumber mill",
+    "description": "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it"
+  },
+  "healer": {
+    "name": "Waldon Tadeo",
+    "team": "The Zmeigorod Snessengers",
+    "stats": {
+      "pass": 56,
+      "catch": 65,
+      "run": 55,
+      "block": 56,
+      "fight": 54,
+      "throw": 60,
+      "luck": 50,
+      "pronouns": "She/Them",
+      "civic_engagement": 56,
+      "alcohol_tolerance": 53,
+      "favorite_weapon": "Battle Axe",
+      "pregame_ritual": "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+      "literate": false
+    }
+  },
+  "players": [
+    {
+      "name": "Delija Dowling",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 47,
+        "catch": 55,
+        "run": 50,
+        "block": 51,
+        "fight": 53,
+        "throw": 56,
+        "luck": 58,
+        "pronouns": "He/Him",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Seax",
+        "pregame_ritual": "Chugging a raw egg, shell and all.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Northway Orran",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 54,
+        "catch": 49,
+        "run": 60,
+        "block": 55,
+        "fight": 66,
+        "throw": 53,
+        "luck": 53,
+        "pronouns": "She/Them",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 59,
+        "favorite_weapon": "Machete",
+        "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Evalyn Pierrepont",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 57,
+        "catch": 49,
+        "run": 66,
+        "block": 54,
+        "fight": 48,
+        "throw": 50,
+        "luck": 53,
+        "pronouns": "He/Him",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Seax",
+        "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Rose Kluge",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 51,
+        "catch": 54,
+        "run": 63,
+        "block": 49,
+        "fight": 52,
+        "throw": 52,
+        "luck": 55,
+        "pronouns": "She/Her",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 46,
+        "favorite_weapon": "Cudgel",
+        "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Gere Cordelie",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 55,
+        "catch": 47,
+        "run": 42,
+        "block": 68,
+        "fight": 53,
+        "throw": 48,
+        "luck": 46,
+        "pronouns": "She/Her",
+        "civic_engagement": 50,
+        "alcohol_tolerance": 47,
+        "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Kleinstein MacGregor",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 43,
+        "catch": 59,
+        "run": 61,
+        "block": 53,
+        "fight": 52,
+        "throw": 59,
+        "luck": 68,
+        "pronouns": "She/Her",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 63,
+        "favorite_weapon": "Machete",
+        "pregame_ritual": "Clapping their hands a prime number of times.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Avaria Revell",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 53,
+        "catch": 46,
+        "run": 67,
+        "block": 50,
+        "fight": 54,
+        "throw": 57,
+        "luck": 61,
+        "pronouns": "She/Her",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Bastard Sword",
+        "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Alded Sanjay",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 45,
+        "catch": 61,
+        "run": 56,
+        "block": 54,
+        "fight": 51,
+        "throw": 61,
+        "luck": 57,
+        "pronouns": "He/Him",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "War Scythe",
+        "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Arni Griffith",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 47,
+        "catch": 62,
+        "run": 43,
+        "block": 56,
+        "fight": 51,
+        "throw": 55,
+        "luck": 53,
+        "pronouns": "He/Them",
+        "civic_engagement": 47,
+        "alcohol_tolerance": 49,
+        "favorite_weapon": "Woodsman's Axe",
+        "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Dare Wynnie",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 64,
+        "catch": 54,
+        "run": 50,
+        "block": 54,
+        "fight": 62,
+        "throw": 52,
+        "luck": 59,
+        "pronouns": "She/Them",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 45,
+        "favorite_weapon": "Quarterstaff",
+        "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+        "literate": false
+      }
+    }
+  ]
+}

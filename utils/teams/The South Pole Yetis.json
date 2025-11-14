@@ -1,0 +1,219 @@
+{
+  "name": "The South Pole Yetis",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 55,
+  "stadium": {},
+  "healer": {
+    "name": "Seiter Aida",
+    "team": "The South Pole Yetis",
+    "stats": {
+      "pass": 50,
+      "catch": 50,
+      "run": 59,
+      "block": 46,
+      "fight": 48,
+      "throw": 67,
+      "luck": 52,
+      "pronouns": "They/Them",
+      "civic_engagement": 51,
+      "alcohol_tolerance": 57,
+      "favorite_weapon": "Club",
+      "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+      "literate": false
+    }
+  },
+  "players": [
+    {
+      "name": "Sale Tocci",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 60,
+        "catch": 51,
+        "run": 54,
+        "block": 54,
+        "fight": 52,
+        "throw": 55,
+        "luck": 63,
+        "pronouns": "She/Her",
+        "civic_engagement": 69,
+        "alcohol_tolerance": 42,
+        "favorite_weapon": "Talwar",
+        "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Ajit Serge",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 50,
+        "catch": 54,
+        "run": 55,
+        "block": 51,
+        "fight": 59,
+        "throw": 58,
+        "luck": 62,
+        "pronouns": "He/Him",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 57,
+        "favorite_weapon": "War Pick",
+        "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Isborne Krause",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 50,
+        "catch": 55,
+        "run": 46,
+        "block": 61,
+        "fight": 51,
+        "throw": 47,
+        "luck": 56,
+        "pronouns": "He/Him",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 58,
+        "favorite_weapon": "Flail",
+        "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Selima Si",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 58,
+        "catch": 61,
+        "run": 65,
+        "block": 60,
+        "fight": 53,
+        "throw": 49,
+        "luck": 55,
+        "pronouns": "She/Them",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Broadsword",
+        "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Duky Orelee",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 55,
+        "catch": 41,
+        "run": 59,
+        "block": 67,
+        "fight": 48,
+        "throw": 56,
+        "luck": 52,
+        "pronouns": "He/Him",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Kriegsmesser",
+        "pregame_ritual": "Clapping their hands a prime number of times.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Sayers Erdda",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 60,
+        "catch": 45,
+        "run": 49,
+        "block": 54,
+        "fight": 48,
+        "throw": 69,
+        "luck": 62,
+        "pronouns": "They/Them",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 52,
+        "favorite_weapon": "Dagger",
+        "pregame_ritual": "Polishing their boots with bacon grease.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Jessy Debbie",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 61,
+        "catch": 53,
+        "run": 60,
+        "block": 48,
+        "fight": 59,
+        "throw": 54,
+        "luck": 44,
+        "pronouns": "They/Them",
+        "civic_engagement": 62,
+        "alcohol_tolerance": 49,
+        "favorite_weapon": "Great Axe",
+        "pregame_ritual": "Clapping their hands a prime number of times.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Hilaire Guevara",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 60,
+        "catch": 51,
+        "run": 47,
+        "block": 52,
+        "fight": 56,
+        "throw": 54,
+        "luck": 51,
+        "pronouns": "She/Her",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Quarterstaff",
+        "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Coussoule Bidle",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 58,
+        "catch": 58,
+        "run": 63,
+        "block": 59,
+        "fight": 59,
+        "throw": 47,
+        "luck": 46,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 45,
+        "favorite_weapon": "Mallet",
+        "pregame_ritual": "Turning their helmet around three times before putting it on.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Udela Dorkus",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 54,
+        "catch": 60,
+        "run": 58,
+        "block": 54,
+        "fight": 53,
+        "throw": 59,
+        "luck": 51,
+        "pronouns": "She/Them",
+        "civic_engagement": 63,
+        "alcohol_tolerance": 47,
+        "favorite_weapon": "Quarterstaff",
+        "pregame_ritual": "Licking a whetstone.",
+        "literate": true
+      }
+    }
+  ]
+}

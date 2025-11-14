@@ -1,0 +1,218 @@
+{
+  "name": "The Kerlauger Runeguard",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 60,
+  "stadium": {},
+  "healer": {
+    "name": "Eal Caundra",
+    "team": "The Kerlauger Runeguard",
+    "stats": {
+      "pass": 63,
+      "catch": 55,
+      "run": 51,
+      "block": 57,
+      "fight": 46,
+      "throw": 59,
+      "luck": 54,
+      "pronouns": "He/Them",
+      "civic_engagement": 45,
+      "alcohol_tolerance": 54,
+      "favorite_weapon": "War Scythe",
+      "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Lashondra Niehaus",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 62,
+        "catch": 55,
+        "run": 57,
+        "block": 58,
+        "fight": 62,
+        "throw": 48,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 67,
+        "alcohol_tolerance": 50,
+        "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Reginauld Cordell",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 50,
+        "catch": 55,
+        "run": 65,
+        "block": 58,
+        "fight": 51,
+        "throw": 55,
+        "luck": 58,
+        "pronouns": "He/Them",
+        "civic_engagement": 50,
+        "alcohol_tolerance": 36,
+        "favorite_weapon": "Main-gauche",
+        "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Benjie Foulk",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 50,
+        "catch": 63,
+        "run": 54,
+        "block": 58,
+        "fight": 51,
+        "throw": 54,
+        "luck": 59,
+        "pronouns": "She/Her",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 46,
+        "favorite_weapon": "Axe",
+        "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Johnna Beetner",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 68,
+        "catch": 60,
+        "run": 69,
+        "block": 56,
+        "fight": 43,
+        "throw": 49,
+        "luck": 54,
+        "pronouns": "She/Her",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 49,
+        "favorite_weapon": "Scimitar",
+        "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Harilda Sigsmond",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 58,
+        "catch": 56,
+        "run": 65,
+        "block": 59,
+        "fight": 51,
+        "throw": 60,
+        "luck": 65,
+        "pronouns": "He/Them",
+        "civic_engagement": 49,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Vivia Namara",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 59,
+        "catch": 53,
+        "run": 51,
+        "block": 57,
+        "fight": 50,
+        "throw": 59,
+        "luck": 49,
+        "pronouns": "She/Them",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 46,
+        "favorite_weapon": "Great Axe",
+        "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Lon Gabriell",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 56,
+        "catch": 41,
+        "run": 55,
+        "block": 67,
+        "fight": 53,
+        "throw": 61,
+        "luck": 55,
+        "pronouns": "She/Her",
+        "civic_engagement": 65,
+        "alcohol_tolerance": 48,
+        "favorite_weapon": "Lance",
+        "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Shepperd Trefler",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 50,
+        "catch": 58,
+        "run": 59,
+        "block": 55,
+        "fight": 66,
+        "throw": 51,
+        "luck": 54,
+        "pronouns": "He/Him",
+        "civic_engagement": 47,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Spiked Gauntlet",
+        "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Gurney Fadiman",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 58,
+        "catch": 42,
+        "run": 52,
+        "block": 59,
+        "fight": 53,
+        "throw": 49,
+        "luck": 58,
+        "pronouns": "They/Them",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Shortsword",
+        "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Lorilee Aldred",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 49,
+        "catch": 54,
+        "run": 55,
+        "block": 56,
+        "fight": 64,
+        "throw": 55,
+        "luck": 54,
+        "pronouns": "He/Them",
+        "civic_engagement": 49,
+        "alcohol_tolerance": 50,
+        "favorite_weapon": "Katar",
+        "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+        "literate": true
+      }
+    }
+  ]
+}

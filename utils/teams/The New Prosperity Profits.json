@@ -1,0 +1,219 @@
+{
+  "name": "The New Prosperity Profits",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 50,
+  "stadium": {},
+  "healer": {
+    "name": "Merissa Mathian",
+    "team": "The New Prosperity Profits",
+    "stats": {
+      "pass": 54,
+      "catch": 54,
+      "run": 53,
+      "block": 45,
+      "fight": 52,
+      "throw": 59,
+      "luck": 49,
+      "pronouns": "She/Her",
+      "civic_engagement": 66,
+      "alcohol_tolerance": 51,
+      "favorite_weapon": "Longsword",
+      "pregame_ritual": "Washing their hands with dirt.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Pulchi Benyamin",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 54,
+        "catch": 63,
+        "run": 67,
+        "block": 63,
+        "fight": 47,
+        "throw": 44,
+        "luck": 56,
+        "pronouns": "She/Them",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Swordstaff",
+        "pregame_ritual": "Eating a dandelion, stem and all.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Boleslaw Heathcote",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 60,
+        "catch": 48,
+        "run": 51,
+        "block": 58,
+        "fight": 48,
+        "throw": 47,
+        "luck": 56,
+        "pronouns": "She/Her",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Zweihander",
+        "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Gladdie Farika",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 48,
+        "catch": 48,
+        "run": 60,
+        "block": 54,
+        "fight": 58,
+        "throw": 59,
+        "luck": 51,
+        "pronouns": "They/Them",
+        "civic_engagement": 77,
+        "alcohol_tolerance": 62,
+        "favorite_weapon": "Morning Star",
+        "pregame_ritual": "Meticulously cleaning each stud on their boots with a special brush.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Yoshi Cathy",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 47,
+        "catch": 50,
+        "run": 56,
+        "block": 60,
+        "fight": 74,
+        "throw": 57,
+        "luck": 58,
+        "pronouns": "He/Them",
+        "civic_engagement": 54,
+        "alcohol_tolerance": 50,
+        "favorite_weapon": "Spear",
+        "pregame_ritual": "Eating a raw onion, layer by layer, without crying.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Aufmann Tedric",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 62,
+        "catch": 51,
+        "run": 61,
+        "block": 55,
+        "fight": 55,
+        "throw": 58,
+        "luck": 54,
+        "pronouns": "She/Them",
+        "civic_engagement": 62,
+        "alcohol_tolerance": 58,
+        "favorite_weapon": "Dane Axe",
+        "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Krueger Jacinthe",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 61,
+        "catch": 53,
+        "run": 49,
+        "block": 57,
+        "fight": 59,
+        "throw": 47,
+        "luck": 53,
+        "pronouns": "He/Him",
+        "civic_engagement": 44,
+        "alcohol_tolerance": 42,
+        "favorite_weapon": "Spear",
+        "pregame_ritual": "A team-wide moment of absolute silence to 'gather their thoughts'.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Abramson Doxia",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 51,
+        "catch": 61,
+        "run": 53,
+        "block": 57,
+        "fight": 55,
+        "throw": 45,
+        "luck": 50,
+        "pronouns": "He/Them",
+        "civic_engagement": 66,
+        "alcohol_tolerance": 70,
+        "favorite_weapon": "Arming Sword",
+        "pregame_ritual": "Sharpening the edges of their blunted weapon (an exercise in futility).",
+        "literate": true
+      }
+    },
+    {
+      "name": "Milman Galvan",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 51,
+        "catch": 66,
+        "run": 56,
+        "block": 50,
+        "fight": 52,
+        "throw": 68,
+        "luck": 56,
+        "pronouns": "She/Them",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 62,
+        "favorite_weapon": "Boar Spear",
+        "pregame_ritual": "Humming a tune they believe only they know.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Faina Hendrix",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 52,
+        "catch": 55,
+        "run": 63,
+        "block": 67,
+        "fight": 53,
+        "throw": 57,
+        "luck": 56,
+        "pronouns": "He/Him",
+        "civic_engagement": 54,
+        "alcohol_tolerance": 65,
+        "favorite_weapon": "Greatsword",
+        "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Pellikka Concettina",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 64,
+        "catch": 44,
+        "run": 58,
+        "block": 62,
+        "fight": 54,
+        "throw": 51,
+        "luck": 58,
+        "pronouns": "He/Him",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Spear",
+        "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+        "literate": true
+      }
+    }
+  ]
+}

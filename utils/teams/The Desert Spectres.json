@@ -1,0 +1,219 @@
+{
+  "name": "The Desert Spectres",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 61,
+  "stadium": {},
+  "healer": {
+    "name": "Verlee Dacia",
+    "team": "The Desert Spectres",
+    "stats": {
+      "pass": 54,
+      "catch": 53,
+      "run": 68,
+      "block": 50,
+      "fight": 40,
+      "throw": 47,
+      "luck": 57,
+      "pronouns": "She/Her",
+      "civic_engagement": 60,
+      "alcohol_tolerance": 66,
+      "favorite_weapon": "Billhook",
+      "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Fidellia Mozelle",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 40,
+        "catch": 57,
+        "run": 60,
+        "block": 56,
+        "fight": 65,
+        "throw": 67,
+        "luck": 57,
+        "pronouns": "She/Them",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 60,
+        "favorite_weapon": "Swordstaff",
+        "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Muscolo Jaehne",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 58,
+        "catch": 50,
+        "run": 53,
+        "block": 39,
+        "fight": 60,
+        "throw": 53,
+        "luck": 49,
+        "pronouns": "They/Them",
+        "civic_engagement": 46,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Seax",
+        "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Eileen Mikihisa",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 45,
+        "catch": 54,
+        "run": 59,
+        "block": 60,
+        "fight": 55,
+        "throw": 55,
+        "luck": 57,
+        "pronouns": "He/Him",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "Longsword",
+        "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Bahr Ethelstan",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 62,
+        "catch": 61,
+        "run": 62,
+        "block": 49,
+        "fight": 60,
+        "throw": 52,
+        "luck": 53,
+        "pronouns": "They/Them",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Blackjack",
+        "pregame_ritual": "Humming a tune they believe only they know.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Heyes Iver",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 55,
+        "catch": 60,
+        "run": 61,
+        "block": 51,
+        "fight": 54,
+        "throw": 71,
+        "luck": 49,
+        "pronouns": "He/Him",
+        "civic_engagement": 67,
+        "alcohol_tolerance": 48,
+        "favorite_weapon": "Woodsman's Axe",
+        "pregame_ritual": "Tugging on their left earlobe three times.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Angelita Darce",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 52,
+        "catch": 50,
+        "run": 58,
+        "block": 53,
+        "fight": 56,
+        "throw": 58,
+        "luck": 58,
+        "pronouns": "He/Him",
+        "civic_engagement": 62,
+        "alcohol_tolerance": 65,
+        "favorite_weapon": "Bardiche",
+        "pregame_ritual": "Shaving one half of their mustache for important games.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Shelman McQuoid",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 58,
+        "catch": 50,
+        "run": 53,
+        "block": 44,
+        "fight": 54,
+        "throw": 65,
+        "luck": 65,
+        "pronouns": "He/Them",
+        "civic_engagement": 64,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Pike",
+        "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Lovash Marius",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 52,
+        "catch": 46,
+        "run": 42,
+        "block": 56,
+        "fight": 43,
+        "throw": 53,
+        "luck": 57,
+        "pronouns": "She/Them",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "War Pick",
+        "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Unni Schlicher",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 59,
+        "catch": 63,
+        "run": 55,
+        "block": 59,
+        "fight": 64,
+        "throw": 48,
+        "luck": 54,
+        "pronouns": "She/Her",
+        "civic_engagement": 42,
+        "alcohol_tolerance": 57,
+        "favorite_weapon": "Halberd",
+        "pregame_ritual": "Organizing a small betting pool on who will score first.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Huesman Ring",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 48,
+        "catch": 56,
+        "run": 41,
+        "block": 48,
+        "fight": 58,
+        "throw": 38,
+        "luck": 44,
+        "pronouns": "He/Them",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 58,
+        "favorite_weapon": "Military Fork",
+        "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+        "literate": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "name": "The Oread's Summit Tamers",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 67,
+  "stadium": {},
+  "healer": {
+    "name": "Carn Tibbetts",
+    "team": "The Oread's Summit Tamers",
+    "stats": {
+      "pass": 54,
+      "catch": 51,
+      "run": 59,
+      "block": 57,
+      "fight": 51,
+      "throw": 52,
+      "luck": 65,
+      "pronouns": "He/Him",
+      "civic_engagement": 59,
+      "alcohol_tolerance": 51,
+      "favorite_weapon": "Shortsword",
+      "pregame_ritual": "Tying a small, hand-carved wooden bird to their gear.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Odericus Juxon",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 51,
+        "catch": 62,
+        "run": 56,
+        "block": 50,
+        "fight": 45,
+        "throw": 60,
+        "luck": 55,
+        "pronouns": "She/Them",
+        "civic_engagement": 50,
+        "alcohol_tolerance": 58,
+        "favorite_weapon": "Talwar",
+        "pregame_ritual": "Slapping their own helmet until their ears ring.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Kass Fogel",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 55,
+        "catch": 46,
+        "run": 59,
+        "block": 50,
+        "fight": 57,
+        "throw": 59,
+        "luck": 60,
+        "pronouns": "She/Them",
+        "civic_engagement": 57,
+        "alcohol_tolerance": 58,
+        "favorite_weapon": "Voulge",
+        "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Zadoc Wyatan",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 53,
+        "catch": 67,
+        "run": 60,
+        "block": 58,
+        "fight": 58,
+        "throw": 54,
+        "luck": 51,
+        "pronouns": "They/Them",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 57,
+        "favorite_weapon": "Halberd",
+        "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Alwyn Wandy",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 58,
+        "catch": 34,
+        "run": 56,
+        "block": 64,
+        "fight": 53,
+        "throw": 65,
+        "luck": 63,
+        "pronouns": "They/Them",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Kriegsmesser",
+        "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Dric Trilley",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 53,
+        "catch": 54,
+        "run": 59,
+        "block": 67,
+        "fight": 45,
+        "throw": 49,
+        "luck": 56,
+        "pronouns": "She/Them",
+        "civic_engagement": 48,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Flail",
+        "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Swamy Ahasuerus",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 69,
+        "catch": 53,
+        "run": 50,
+        "block": 53,
+        "fight": 52,
+        "throw": 60,
+        "luck": 51,
+        "pronouns": "She/Them",
+        "civic_engagement": 50,
+        "alcohol_tolerance": 55,
+        "favorite_weapon": "Axe",
+        "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Clippard Burr",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 38,
+        "catch": 60,
+        "run": 65,
+        "block": 57,
+        "fight": 57,
+        "throw": 62,
+        "luck": 60,
+        "pronouns": "She/Them",
+        "civic_engagement": 70,
+        "alcohol_tolerance": 49,
+        "favorite_weapon": "Lance",
+        "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Mitran Mariand",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 58,
+        "catch": 54,
+        "run": 63,
+        "block": 42,
+        "fight": 57,
+        "throw": 51,
+        "luck": 44,
+        "pronouns": "He/Him",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 60,
+        "favorite_weapon": "Dirk",
+        "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Edme Virgil",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 60,
+        "catch": 45,
+        "run": 63,
+        "block": 56,
+        "fight": 62,
+        "throw": 62,
+        "luck": 59,
+        "pronouns": "They/Them",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "War Pick",
+        "pregame_ritual": "Singing a sea shanty completely out of tune.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Saloma Talich",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 66,
+        "catch": 53,
+        "run": 48,
+        "block": 45,
+        "fight": 52,
+        "throw": 57,
+        "luck": 51,
+        "pronouns": "He/Him",
+        "civic_engagement": 57,
+        "alcohol_tolerance": 72,
+        "favorite_weapon": "Axe",
+        "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+        "literate": true
+      }
+    }
+  ]
+}

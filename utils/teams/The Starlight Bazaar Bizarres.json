@@ -1,0 +1,219 @@
+{
+  "name": "The Starlight Bazaar Bizarres",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 63,
+  "stadium": {},
+  "healer": {
+    "name": "Essa Pattie",
+    "team": "The Starlight Bazaar Bizarres",
+    "stats": {
+      "pass": 57,
+      "catch": 55,
+      "run": 67,
+      "block": 56,
+      "fight": 52,
+      "throw": 45,
+      "luck": 53,
+      "pronouns": "He/Him",
+      "civic_engagement": 46,
+      "alcohol_tolerance": 54,
+      "favorite_weapon": "Horseman's Pick",
+      "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Bush Heiner",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 54,
+        "catch": 52,
+        "run": 66,
+        "block": 62,
+        "fight": 51,
+        "throw": 50,
+        "luck": 50,
+        "pronouns": "She/Her",
+        "civic_engagement": 50,
+        "alcohol_tolerance": 59,
+        "favorite_weapon": "Bastard Sword",
+        "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Kristin Kronfeld",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 58,
+        "catch": 56,
+        "run": 53,
+        "block": 55,
+        "fight": 41,
+        "throw": 59,
+        "luck": 45,
+        "pronouns": "She/Her",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 60,
+        "favorite_weapon": "Broadsword",
+        "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Milo Nelie",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 61,
+        "catch": 66,
+        "run": 44,
+        "block": 45,
+        "fight": 49,
+        "throw": 53,
+        "luck": 52,
+        "pronouns": "He/Them",
+        "civic_engagement": 47,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Military Fork",
+        "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Pompei Hephzipa",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 50,
+        "catch": 62,
+        "run": 48,
+        "block": 39,
+        "fight": 57,
+        "throw": 64,
+        "luck": 46,
+        "pronouns": "He/Him",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "Broadsword",
+        "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Melesa Zelten",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 43,
+        "catch": 61,
+        "run": 59,
+        "block": 60,
+        "fight": 57,
+        "throw": 49,
+        "luck": 50,
+        "pronouns": "He/Him",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 47,
+        "favorite_weapon": "Spear",
+        "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Demp Chet",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 63,
+        "catch": 46,
+        "run": 52,
+        "block": 53,
+        "fight": 48,
+        "throw": 50,
+        "luck": 58,
+        "pronouns": "He/Him",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 47,
+        "favorite_weapon": "Cutlass",
+        "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Gagliano Tallbott",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 57,
+        "catch": 48,
+        "run": 57,
+        "block": 53,
+        "fight": 64,
+        "throw": 61,
+        "luck": 56,
+        "pronouns": "He/Him",
+        "civic_engagement": 49,
+        "alcohol_tolerance": 64,
+        "favorite_weapon": "Broadsword",
+        "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Aggri Cookie",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 51,
+        "catch": 65,
+        "run": 54,
+        "block": 49,
+        "fight": 59,
+        "throw": 58,
+        "luck": 61,
+        "pronouns": "He/Him",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Halberd",
+        "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Willa Lois",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 45,
+        "catch": 41,
+        "run": 59,
+        "block": 63,
+        "fight": 43,
+        "throw": 43,
+        "luck": 51,
+        "pronouns": "They/Them",
+        "civic_engagement": 64,
+        "alcohol_tolerance": 52,
+        "favorite_weapon": "Dagger",
+        "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Quintessa Austine",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 54,
+        "catch": 56,
+        "run": 46,
+        "block": 61,
+        "fight": 51,
+        "throw": 49,
+        "luck": 44,
+        "pronouns": "He/Him",
+        "civic_engagement": 53,
+        "alcohol_tolerance": 48,
+        "favorite_weapon": "Spiked Gauntlet",
+        "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+        "literate": true
+      }
+    }
+  ]
+}
