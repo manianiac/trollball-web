@@ -29,11 +29,11 @@ export const TEAMS = {
     score: 0,
     luck: 53,
     stadium: {
-      name: "The Foundry Yard",
-      location: "Brimstone",
+      name: "The Su'akour Bowl",
+      location: "Brimstone (Su'akour Ruins)",
       description:
-        "Located in the industrial heart of the city, this stadium is perpetually covered in a layer of soot. The air is thick with smog from the surrounding smithies and forges.",
-      modifiers: ["Industrial Smog", "Soot-Stained Ball", "Guild Riot"],
+        "A crude, rowdy stadium built within the half-finished, black-stone walls of the warlord Su'akour's abandoned fortress. The stands are crumbling ruins, and the entire arena perpetually stinks of the nearby sulfur marshes.",
+      modifiers: ["Noxious Fumes", "Crumbling Walls", "Uneven Ground"],
     },
     healer: {
       name: "Raphael Miyasawa",
@@ -262,11 +262,11 @@ export const TEAMS = {
     score: 0,
     luck: 60,
     stadium: {
-      name: "The Captains' Green",
-      location: "Confluence",
+      name: "The Glowstone Terrace",
+      location: "Confluence (World's Spine Mountains)",
       description:
-        "A prestigious field on a large island where the city's great rivers meet. While the pitch is pristine, it's surrounded by the noise of the river trade and the judgment of the city's elites.",
-      modifiers: ["River Fog", "Toll Dispute", "Hometown Politics"],
+        "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+      modifiers: ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"],
     },
     healer: {
       name: "Kant Langill",
@@ -729,11 +729,11 @@ export const TEAMS = {
     score: 0,
     luck: 55,
     stadium: {
-      name: "The Beacon Green",
-      location: "Haven",
+      name: "The Aegis Field",
+      location: "Haven (Temple of Light Compound)",
       description:
-        "A perfectly manicured field adjacent to the city's famed university, The Scholarium. The crowd is quiet, judgmental, and quick to criticize any perceived lack of sportsmanship.",
-      modifiers: ["Scholarly Debate", "Harbor Bells", "Public Scrutiny"],
+        "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+      modifiers: ["Hallowed Ground", "Shield's Watch", "Twinlight's Glow"],
     },
     healer: {
       name: "Riffle Harrington",
@@ -1894,11 +1894,11 @@ export const TEAMS = {
     score: 0,
     luck: 64,
     stadium: {
-      name: "The Bailey",
-      location: "New Ravenfall",
+      name: "The Stronghold Bailey",
+      location: "New Ravenfall (Stronghold Castle)",
       description:
-        "The team plays in the central training yard, or 'bailey', of the city's grim, black-stone fortress. The crowd watches from the ramparts, and the game is often interrupted by guard drills.",
-      modifiers: ["Uneven Ground", "Watchtower Sentries", "Call to Arms"],
+        "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
+      modifiers: ["Cobblestone Pitch", "Rampart Shadows", "Castle Echo"],
     },
     healer: {
       name: "Hooge Imtiaz",
@@ -2824,11 +2824,11 @@ export const TEAMS = {
     score: 0,
     luck: 63,
     stadium: {
-      name: "The Grand Souk",
-      location: "The Starlight Bazaar",
+      name: "The Prismatic Pavilion",
+      location: "Starlight Bazaar (Starlight Lagoon)",
       description:
-        "A temporary, fenced-off pitch in the absolute center of the chaotic Grand Bazaar. The game is constantly interrupted by merchants, stray animals, and thieves.",
-      modifiers: ["Crowd Interference", "Exotic Animal Loose", "Pickpockets"],
+        "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+      modifiers: ["Lagoon Splash", "Troupe Distraction", "Unstable Footing"],
     },
     healer: {
       name: "Essa Pattie",
@@ -3061,11 +3061,11 @@ export const TEAMS = {
     score: 0,
     luck: 48,
     stadium: {
-      name: "The Junction Box",
-      location: "Confluence",
+      name: "The Buccaneer's Bowl",
+      location: "Toast Island Resort",
       description:
-        "A state-of-the-art stadium built at the precise point where the two great rivers of the megacity meet. Features retractable roofing and luxury boxes for the city's elite.",
-      modifiers: ["Urban Distractions", "River Fog", "Hometown Crowd"],
+        "A flashy, pristine stadium built on a private beach exclusively for resort guests. The field is imported turf, and a massive, puppet kraken in the bay entertains the crowd at halftime.",
+      modifiers: ["Distracted Tourists", "Blinding Sun", "Resort Security"],
     },
     healer: {
       name: "Eugen Zacks",
@@ -3294,11 +3294,11 @@ export const TEAMS = {
     score: 0,
     luck: 66,
     stadium: {
-      name: "The Sawpit",
-      location: "Wyrmwood",
+      name: "The Hollow Mine",
+      location: "Wyrmwood Hollow",
       description:
-        "A huge clearing in the ancient forest, surrounded by giant, felled trees that serve as crude bleachers. The 'field' is a mix of sawdust, mud, and tangled roots.",
-      modifiers: ["Tangled Roots", "Sawdust Cloud", "'Timber!'"],
+        "The playing field is the circular, wildflower-covered clearing at the base of the imposing, ivy-covered Watch Tower. The ground hums with a strange energy, and the home team makes their entrance from the newly-opened mine shaft that bores deep into the tower's foundation.",
+      modifiers: ["Humming Earth", "Tangled Vines", "Mine Draft"],
     },
     healer: {
       name: "Hamburger Marthe",
@@ -3527,7 +3527,7 @@ export const TEAMS = {
       location: "Zmeigorod, just west of the lumber mill",
       modifiers: ["Altitude Sickness", "Sudden Downpour", "Rockslide"],
       description:
-        "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it",
+        "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it.",
     },
     healer: {
       name: "Waldon Tadeo",

@@ -8,6 +8,7 @@ import { TEAMS } from "../../../utils/teams";
 import { subtitle, title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 import { player, stats, team } from "@/utils/consts";
+import { TeamIcon } from "@/components/icons";
 
 const getTeamBySlug = (slug: string) => {
   return Object.values(TEAMS).find((team) => team.slug === slug);
@@ -97,6 +98,10 @@ export default function TeamPage({ team }: { team: team }) {
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+        <TeamIcon
+          className="object-cover h-[140px]" // <-- Removed 'w-full'
+          team={team.name}
+        />
         <div className="inline-block max-w-xl text-center justify-center">
           {/* You can use your title/subtitle styles here! */}
           <h1 className={title()}>{team.name}</h1>
@@ -111,8 +116,8 @@ export default function TeamPage({ team }: { team: team }) {
         <div className="gap-2 grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
           {team.players.map((player: player, index: Key) => (
             <Card key={index} shadow="sm">
-              <CardHeader className="overflow-visible p-0">
-                {player.name}
+              <CardHeader className="flex flex-col gap-4">
+                <strong>{player.name}</strong>
               </CardHeader>
               <CardBody className="flex flex-col gap-4">
                 {/* --- Text Stats --- */}
