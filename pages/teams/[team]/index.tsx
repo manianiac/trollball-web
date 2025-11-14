@@ -1,13 +1,13 @@
 // app/teams/[slug]/page.jsx
 import Error from "next/error";
 import { Card, CardBody, CardHeader } from "@heroui/card";
+import { Key } from "react";
 
 import { TEAMS } from "../../../utils/teams";
 
 import { subtitle, title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 import { player, stats, team } from "@/utils/consts";
-import { Key } from "react";
 
 const getTeamBySlug = (slug: string) => {
   return Object.values(TEAMS).find((team) => team.slug === slug);
@@ -15,9 +15,9 @@ const getTeamBySlug = (slug: string) => {
 
 export async function getStaticPaths() {
   const paths = Object.values(TEAMS)
-    .filter((team) => team && team.slug) // <-- Kept our safety filter!
+    .filter((team) => team && team.slug)
     .map((team) => ({
-      params: { team: team.slug }, // 'team' MUST match the file name [team].jsx
+      params: { team: team.slug },
     }));
 
   return {
@@ -26,17 +26,14 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params }: { params: { team: string } }) {
-  // 'params.team' comes from the file name and getStaticPaths
   const team = getTeamBySlug(params.team.toString());
 
-  // This is the correct way to handle "Not Found" in the Pages Router
   if (!team) {
     return {
       notFound: true,
     };
   }
 
-  // We pass the 'team' data as a prop to our component
   return {
     props: {
       team,
@@ -52,19 +49,15 @@ export default function TeamPage({ team }: { team: team }) {
     return (
       <div className="flex items-center">
         {[...Array(5)].map((_, i) => {
-          const ratingValue = i + 1; // This star represents 1, 2, 3, 4, or 5
+          const ratingValue = i + 1;
 
-          // This is the play!
           if (rating >= ratingValue) {
-            // If rating is 2.5, and this star is 1 or 2... FULL STAR!
             return (
               <span key={`full-${i}`} className="text-2xl text-yellow-400">
                 ★
               </span>
             );
           } else if (rating >= ratingValue - 0.5) {
-            // If rating is 2.5, and this star is 3... (2.5 >= 3 - 0.5)... HALF STAR!
-            // Golly, what a beautiful piece of code!
             return (
               <span
                 key={`half-${i}`}
@@ -79,7 +72,6 @@ export default function TeamPage({ team }: { team: team }) {
               </span>
             );
           } else {
-            // If rating is 2.5, and this star is 4 or 5... EMPTY STAR!
             return (
               <span key={`empty-${i}`} className="text-2xl text-gray-500">
                 ☆
@@ -112,66 +104,62 @@ export default function TeamPage({ team }: { team: team }) {
             <strong>Home Field:</strong> TODO
             <br />
             <p>{team.healer.name}</p>
-            <div className="gap-2 grid grid-cols-2 sm:grid-cols-2">
-              {team.players.map((player: player, index: Key) => (
-                <Card key={index} shadow="sm">
-                  <CardHeader className="overflow-visible p-0">
-                    {player.name}
-                  </CardHeader>
-                  <CardBody className="flex flex-col gap-4">
-                    {/* --- Text Stats --- */}
-                    <div className="flex flex-col gap-1 text-sm">
-                      <p>
-                        <strong>Pronouns:</strong> {player.stats.pronouns}
-                      </p>
-                      <p>
-                        <strong>Favorite Weapon:</strong>{" "}
-                        {player.stats.favorite_weapon}
-                      </p>
-                      <p>
-                        <strong>Pregame Ritual:</strong>{" "}
-                        {player.stats.pregame_ritual}
-                      </p>
-                      <p>
-                        <strong>Literate:</strong>{" "}
-                        {player.stats.literate ? "Yes" : "No"}
-                      </p>
-                    </div>
-                    {/* --- Numerical Stats --- */}
-                    <div className="flex flex-col gap-3">
-                      {getNumericalStats(player.stats).map((stat) => {
-                        const clampedValue = Math.max(
-                          20,
-                          Math.min(80, stat.value)
-                        );
-                        const normalizedValue = clampedValue - 20;
-                        const ratingOutOfFive = (normalizedValue / 60) * 5;
-                        const roundedRating =
-                          Math.round(ratingOutOfFive * 2) / 2;
+          </div>
+        </div>
+        <div className="gap-2 grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
+          {team.players.map((player: player, index: Key) => (
+            <Card key={index} shadow="sm">
+              <CardHeader className="overflow-visible p-0">
+                {player.name}
+              </CardHeader>
+              <CardBody className="flex flex-col gap-4">
+                {/* --- Text Stats --- */}
+                <div className="flex flex-col gap-1 text-sm">
+                  <p>
+                    <strong>Pronouns:</strong> {player.stats.pronouns}
+                  </p>
+                  <p>
+                    <strong>Favorite Weapon:</strong>{" "}
+                    {player.stats.favorite_weapon}
+                  </p>
+                  <p>
+                    <strong>Pregame Ritual:</strong>{" "}
+                    {player.stats.pregame_ritual}
+                  </p>
+                  <p>
+                    <strong>Literate:</strong>{" "}
+                    {player.stats.literate ? "Yes" : "No"}
+                  </p>
+                </div>
+                {/* --- Numerical Stats --- */}
+                <div className="flex flex-col gap-3">
+                  {getNumericalStats(player.stats).map((stat) => {
+                    const clampedValue = Math.max(20, Math.min(80, stat.value));
+                    const normalizedValue = clampedValue - 20;
+                    const ratingOutOfFive = (normalizedValue / 60) * 5;
+                    const roundedRating = Math.round(ratingOutOfFive * 2) / 2;
 
-                        return (
-                          <div
-                            key={stat.label}
-                            className="flex justify-between items-center w-full"
-                          >
-                            <span className="text-sm font-medium">
-                              {stat.label}
-                            </span>
-                            <StarRating rating={roundedRating} />
-                          </div>
-                        );
-                      })}
-                    </div>
+                    return (
+                      <div
+                        key={stat.label}
+                        className="flex flex-col justify-between items-center w-full"
+                      >
+                        <span className="text-sm font-medium">
+                          {stat.label}
+                        </span>
+                        <StarRating rating={roundedRating} />
+                      </div>
+                    );
+                  })}
+                </div>
 
-                    <hr className="my-2 border-gray-600" />
-                  </CardBody>
-                  {/* <CardFooter className="text-small justify-between">
+                <hr className="my-2 border-gray-600" />
+              </CardBody>
+              {/* <CardFooter className="text-small justify-between">
                     {JSON.stringify(team.stadium).toString()}
                   </CardFooter> */}
-                </Card>
-              ))}
-            </div>
-          </div>
+            </Card>
+          ))}
         </div>
       </section>
     </DefaultLayout>
