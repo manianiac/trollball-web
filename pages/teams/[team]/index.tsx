@@ -6,6 +6,8 @@ import { TEAMS } from "../../../utils/teams";
 
 import { subtitle, title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
+import { player, stats, team } from "@/utils/consts";
+import { Key } from "react";
 
 const getTeamBySlug = (slug: string) => {
   return Object.values(TEAMS).find((team) => team.slug === slug);
@@ -23,7 +25,7 @@ export async function getStaticPaths() {
     fallback: false, // This means any slug not listed here will 404
   };
 }
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params }: { params: { team: string } }) {
   // 'params.team' comes from the file name and getStaticPaths
   const team = getTeamBySlug(params.team.toString());
 
@@ -41,7 +43,7 @@ export async function getStaticProps({ params }) {
     },
   };
 }
-export default function TeamPage({ team }) {
+export default function TeamPage({ team }: { team: team }) {
   if (!team) {
     // We return the official 404 Error component!
     return <Error statusCode={404} />;
@@ -88,7 +90,7 @@ export default function TeamPage({ team }) {
       </div>
     );
   };
-  const getNumericalStats = (stats) => [
+  const getNumericalStats = (stats: stats) => [
     { label: "Pass", value: stats.pass },
     { label: "Catch", value: stats.catch },
     { label: "Run", value: stats.run },
@@ -111,7 +113,7 @@ export default function TeamPage({ team }) {
             <br />
             <p>{team.healer.name}</p>
             <div className="gap-2 grid grid-cols-2 sm:grid-cols-2">
-              {team.players.map((player, index) => (
+              {team.players.map((player: player, index: Key) => (
                 <Card key={index} shadow="sm">
                   <CardHeader className="overflow-visible p-0">
                     {player.name}
