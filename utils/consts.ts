@@ -9,6 +9,7 @@ export interface team {
   activePlayers?: player[];
   inactivePlayers?: player[];
   score: number;
+  slug: string;
 }
 
 export interface player {
@@ -27,7 +28,7 @@ export interface stats {
   throw: number;
   luck: number;
   // player details
-  pronouns: PRONOUNS;
+  pronouns: PRONOUNS | string;
   // silly stats
   literate: boolean;
   alcohol_tolerance: number;
@@ -53,13 +54,12 @@ export interface activePlayers {
 export interface match {
   homeTeam: team;
   awayTeam: team;
-  arena: stadium;
-  possession: player | null;
-  possessionTeam: TEAM_NAMES;
-  currentZone: ZONE;
-  plays: string[];
-  context?: string;
-  latestAction?: string;
+  preGame: string;
+  postGame: string;
+  date: number;
+  homeScore: number;
+  awayScore: number;
+  slug: string;
 }
 
 export enum ZONE {

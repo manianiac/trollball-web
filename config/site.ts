@@ -27,8 +27,8 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Home",
-      href: "/",
+      label: "Games",
+      href: "/games",
     },
     {
       label: "Teams",

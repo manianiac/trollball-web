@@ -1,7 +1,7 @@
 import { team } from "./consts";
 
 export enum TEAM_NAMES {
-  "No Team" = "No Team",
+  //   "No Team" = "No Team",
   "The Tortell Privateers" = "The Tortell Privateers",
   "The South Pole Yetis" = "The South Pole Yetis",
   "The Confluence Captains" = "The Confluence Captains",
@@ -20,9 +20,9 @@ export enum TEAM_NAMES {
   "The Oread's Summit Tamers" = "The Oread's Summit Tamers",
 }
 
-export const TEAMS = {
+export const TEAMS: Record<TEAM_NAMES, team> = {
   [TEAM_NAMES["The Brimstone Fire Eaters"]]: {
-    name: "The Brimstone Fire Eaters",
+    name: TEAM_NAMES["The Brimstone Fire Eaters"],
     slug: "brimstone",
     losses: 0,
     wins: 0,
@@ -37,7 +37,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Raphael Miyasawa",
-      team: "The Brimstone Fire Eaters",
+      team: TEAM_NAMES["The Brimstone Fire Eaters"],
       stats: {
         pass: 46,
         catch: 49,
@@ -58,7 +58,7 @@ export const TEAMS = {
     players: [
       {
         name: "Bollinger Susette",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 59,
           catch: 52,
@@ -78,7 +78,7 @@ export const TEAMS = {
       },
       {
         name: "Nachison Icken",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 61,
           catch: 55,
@@ -98,7 +98,7 @@ export const TEAMS = {
       },
       {
         name: "Glassman Solley",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 54,
           catch: 50,
@@ -117,7 +117,7 @@ export const TEAMS = {
       },
       {
         name: "Wylde Jutta",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 63,
           catch: 61,
@@ -137,7 +137,7 @@ export const TEAMS = {
       },
       {
         name: "Selimah Tully",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 57,
           catch: 54,
@@ -156,7 +156,7 @@ export const TEAMS = {
       },
       {
         name: "Campball Fink",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 56,
           catch: 60,
@@ -176,7 +176,7 @@ export const TEAMS = {
       },
       {
         name: "Lowson Hersh",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 58,
           catch: 43,
@@ -196,7 +196,7 @@ export const TEAMS = {
       },
       {
         name: "Oona Jane",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 42,
           catch: 55,
@@ -215,7 +215,7 @@ export const TEAMS = {
       },
       {
         name: "Orlina Jerrine",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 61,
           catch: 57,
@@ -234,7 +234,7 @@ export const TEAMS = {
       },
       {
         name: "Nigel Rothmuller",
-        team: "The Brimstone Fire Eaters",
+        team: TEAM_NAMES["The Brimstone Fire Eaters"],
         stats: {
           pass: 58,
           catch: 60,
@@ -255,7 +255,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Confluence Captains"]]: {
-    name: "The Confluence Captains",
+    name: TEAM_NAMES["The Confluence Captains"],
     slug: "confluence",
     losses: 0,
     wins: 0,
@@ -270,7 +270,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Kant Langill",
-      team: "The Confluence Captains",
+      team: TEAM_NAMES["The Confluence Captains"],
       stats: {
         pass: 51,
         catch: 55,
@@ -291,7 +291,7 @@ export const TEAMS = {
     players: [
       {
         name: "Ladew Evelina",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 56,
           catch: 65,
@@ -310,7 +310,7 @@ export const TEAMS = {
       },
       {
         name: "Deach Sharlene",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 56,
           catch: 55,
@@ -330,7 +330,7 @@ export const TEAMS = {
       },
       {
         name: "Stephan Lisk",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 60,
           catch: 57,
@@ -350,7 +350,7 @@ export const TEAMS = {
       },
       {
         name: "O'Conner Maighdlin",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 56,
           catch: 66,
@@ -370,7 +370,7 @@ export const TEAMS = {
       },
       {
         name: "Belding Chloe",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 53,
           catch: 65,
@@ -389,7 +389,7 @@ export const TEAMS = {
       },
       {
         name: "Behl Berstine",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 61,
           catch: 58,
@@ -409,7 +409,7 @@ export const TEAMS = {
       },
       {
         name: "Caves Cestar",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 54,
           catch: 52,
@@ -429,7 +429,7 @@ export const TEAMS = {
       },
       {
         name: "Vonni Geoff",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 60,
           catch: 62,
@@ -449,7 +449,7 @@ export const TEAMS = {
       },
       {
         name: "Carnahan Laud",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 46,
           catch: 63,
@@ -468,7 +468,7 @@ export const TEAMS = {
       },
       {
         name: "Richia Pazit",
-        team: "The Confluence Captains",
+        team: TEAM_NAMES["The Confluence Captains"],
         stats: {
           pass: 61,
           catch: 42,
@@ -488,7 +488,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Desert Spectres"]]: {
-    name: "The Desert Spectres",
+    name: TEAM_NAMES["The Desert Spectres"],
     slug: "desert",
     losses: 0,
     wins: 0,
@@ -503,7 +503,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Verlee Dacia",
-      team: "The Desert Spectres",
+      team: TEAM_NAMES["The Desert Spectres"],
       stats: {
         pass: 54,
         catch: 53,
@@ -524,7 +524,7 @@ export const TEAMS = {
     players: [
       {
         name: "Fidellia Mozelle",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 40,
           catch: 57,
@@ -543,7 +543,7 @@ export const TEAMS = {
       },
       {
         name: "Muscolo Jaehne",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 58,
           catch: 50,
@@ -563,7 +563,7 @@ export const TEAMS = {
       },
       {
         name: "Eileen Mikihisa",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 45,
           catch: 54,
@@ -583,7 +583,7 @@ export const TEAMS = {
       },
       {
         name: "Bahr Ethelstan",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 62,
           catch: 61,
@@ -602,7 +602,7 @@ export const TEAMS = {
       },
       {
         name: "Heyes Iver",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 55,
           catch: 60,
@@ -621,7 +621,7 @@ export const TEAMS = {
       },
       {
         name: "Angelita Darce",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 52,
           catch: 50,
@@ -641,7 +641,7 @@ export const TEAMS = {
       },
       {
         name: "Shelman McQuoid",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 58,
           catch: 50,
@@ -661,7 +661,7 @@ export const TEAMS = {
       },
       {
         name: "Lovash Marius",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 52,
           catch: 46,
@@ -681,7 +681,7 @@ export const TEAMS = {
       },
       {
         name: "Unni Schlicher",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 59,
           catch: 63,
@@ -701,7 +701,7 @@ export const TEAMS = {
       },
       {
         name: "Huesman Ring",
-        team: "The Desert Spectres",
+        team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 48,
           catch: 56,
@@ -722,7 +722,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Haven Lights"]]: {
-    name: "The Haven Lights",
+    name: TEAM_NAMES["The Haven Lights"],
     slug: "haven",
     losses: 0,
     wins: 0,
@@ -737,7 +737,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Riffle Harrington",
-      team: "The Haven Lights",
+      team: TEAM_NAMES["The Haven Lights"],
       stats: {
         pass: 56,
         catch: 49,
@@ -758,7 +758,7 @@ export const TEAMS = {
     players: [
       {
         name: "Shiroma Salim",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 50,
           catch: 51,
@@ -777,7 +777,7 @@ export const TEAMS = {
       },
       {
         name: "Zwart Bunns",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 63,
           catch: 66,
@@ -797,7 +797,7 @@ export const TEAMS = {
       },
       {
         name: "Riffle Heyde",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 55,
           catch: 56,
@@ -816,7 +816,7 @@ export const TEAMS = {
       },
       {
         name: "Tybi Reo",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 55,
           catch: 48,
@@ -836,7 +836,7 @@ export const TEAMS = {
       },
       {
         name: "Berkin Waters",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 51,
           catch: 46,
@@ -856,7 +856,7 @@ export const TEAMS = {
       },
       {
         name: "Farand Keil",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 57,
           catch: 49,
@@ -876,7 +876,7 @@ export const TEAMS = {
       },
       {
         name: "Wieren Ivar",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 66,
           catch: 63,
@@ -896,7 +896,7 @@ export const TEAMS = {
       },
       {
         name: "Coward Tarton",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 56,
           catch: 51,
@@ -916,7 +916,7 @@ export const TEAMS = {
       },
       {
         name: "Dickenson Beker",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 58,
           catch: 69,
@@ -936,7 +936,7 @@ export const TEAMS = {
       },
       {
         name: "Marlane Lounge",
-        team: "The Haven Lights",
+        team: TEAM_NAMES["The Haven Lights"],
         stats: {
           pass: 64,
           catch: 59,
@@ -957,7 +957,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Ebon Gate Corruptors"]]: {
-    name: "The Ebon Gate Corruptors",
+    name: TEAM_NAMES["The Ebon Gate Corruptors"],
     slug: "ebon-gate",
     losses: 0,
     wins: 0,
@@ -972,7 +972,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Terle Chenay",
-      team: "The Ebon Gate Corruptors",
+      team: TEAM_NAMES["The Ebon Gate Corruptors"],
       stats: {
         pass: 62,
         catch: 64,
@@ -992,7 +992,7 @@ export const TEAMS = {
     players: [
       {
         name: "Bullion Iglesias",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 51,
           catch: 62,
@@ -1012,7 +1012,7 @@ export const TEAMS = {
       },
       {
         name: "Olnek Vizzone",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 54,
           catch: 48,
@@ -1031,7 +1031,7 @@ export const TEAMS = {
       },
       {
         name: "As Utter",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 56,
           catch: 57,
@@ -1051,7 +1051,7 @@ export const TEAMS = {
       },
       {
         name: "Smith Syst",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 51,
           catch: 59,
@@ -1070,7 +1070,7 @@ export const TEAMS = {
       },
       {
         name: "Napoleon Anzovin",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 50,
           catch: 63,
@@ -1090,7 +1090,7 @@ export const TEAMS = {
       },
       {
         name: "Simsar Carrelli",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 68,
           catch: 54,
@@ -1109,7 +1109,7 @@ export const TEAMS = {
       },
       {
         name: "Ahasuerus An",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 39,
           catch: 56,
@@ -1129,7 +1129,7 @@ export const TEAMS = {
       },
       {
         name: "Ellette Paz",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 54,
           catch: 49,
@@ -1149,7 +1149,7 @@ export const TEAMS = {
       },
       {
         name: "Judi Carrington",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 61,
           catch: 53,
@@ -1168,7 +1168,7 @@ export const TEAMS = {
       },
       {
         name: "Amedeo Bari",
-        team: "The Ebon Gate Corruptors",
+        team: TEAM_NAMES["The Ebon Gate Corruptors"],
         stats: {
           pass: 60,
           catch: 54,
@@ -1188,7 +1188,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Kerlauger Runeguard"]]: {
-    name: "The Kerlauger Runeguard",
+    name: TEAM_NAMES["The Kerlauger Runeguard"],
     slug: "kerlauger",
     losses: 0,
     wins: 0,
@@ -1203,7 +1203,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Eal Caundra",
-      team: "The Kerlauger Runeguard",
+      team: TEAM_NAMES["The Kerlauger Runeguard"],
       stats: {
         pass: 63,
         catch: 55,
@@ -1224,7 +1224,7 @@ export const TEAMS = {
     players: [
       {
         name: "Lashondra Niehaus",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 62,
           catch: 55,
@@ -1239,11 +1239,12 @@ export const TEAMS = {
           pregame_ritual:
             "Getting a teammate to punch them in the shoulder, hard.",
           literate: true,
+          favorite_weapon: "",
         },
       },
       {
         name: "Reginauld Cordell",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 50,
           catch: 55,
@@ -1263,7 +1264,7 @@ export const TEAMS = {
       },
       {
         name: "Benjie Foulk",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 50,
           catch: 63,
@@ -1283,7 +1284,7 @@ export const TEAMS = {
       },
       {
         name: "Johnna Beetner",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 68,
           catch: 60,
@@ -1303,7 +1304,7 @@ export const TEAMS = {
       },
       {
         name: "Harilda Sigsmond",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 58,
           catch: 56,
@@ -1323,7 +1324,7 @@ export const TEAMS = {
       },
       {
         name: "Vivia Namara",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 59,
           catch: 53,
@@ -1343,7 +1344,7 @@ export const TEAMS = {
       },
       {
         name: "Lon Gabriell",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 56,
           catch: 41,
@@ -1363,7 +1364,7 @@ export const TEAMS = {
       },
       {
         name: "Shepperd Trefler",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 50,
           catch: 58,
@@ -1382,7 +1383,7 @@ export const TEAMS = {
       },
       {
         name: "Gurney Fadiman",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 58,
           catch: 42,
@@ -1402,7 +1403,7 @@ export const TEAMS = {
       },
       {
         name: "Lorilee Aldred",
-        team: "The Kerlauger Runeguard",
+        team: TEAM_NAMES["The Kerlauger Runeguard"],
         stats: {
           pass: 49,
           catch: 54,
@@ -1423,7 +1424,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The New Monteforte Chaos Creatures"]]: {
-    name: "The New Monteforte Chaos Creatures",
+    name: TEAM_NAMES["The New Monteforte Chaos Creatures"],
     slug: "new-monteforte",
     losses: 0,
     wins: 0,
@@ -1438,7 +1439,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Lian Denton",
-      team: "The New Monteforte Chaos Creatures",
+      team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
       stats: {
         pass: 55,
         catch: 62,
@@ -1458,7 +1459,7 @@ export const TEAMS = {
     players: [
       {
         name: "Boulanger Procto",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 53,
           catch: 48,
@@ -1478,7 +1479,7 @@ export const TEAMS = {
       },
       {
         name: "Urata Oriana",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 46,
           catch: 42,
@@ -1498,7 +1499,7 @@ export const TEAMS = {
       },
       {
         name: "Gabriele Klehm",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 59,
           catch: 57,
@@ -1517,7 +1518,7 @@ export const TEAMS = {
       },
       {
         name: "Tucker Hett",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 50,
           catch: 50,
@@ -1536,7 +1537,7 @@ export const TEAMS = {
       },
       {
         name: "Mouldon Earl",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 55,
           catch: 55,
@@ -1556,7 +1557,7 @@ export const TEAMS = {
       },
       {
         name: "Placido Kora",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 67,
           catch: 59,
@@ -1576,7 +1577,7 @@ export const TEAMS = {
       },
       {
         name: "Alben Diantha",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 53,
           catch: 54,
@@ -1596,7 +1597,7 @@ export const TEAMS = {
       },
       {
         name: "Fogel Raynold",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 48,
           catch: 48,
@@ -1615,7 +1616,7 @@ export const TEAMS = {
       },
       {
         name: "Wolbrom Ariella",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 63,
           catch: 71,
@@ -1634,7 +1635,7 @@ export const TEAMS = {
       },
       {
         name: "Raouf Dragone",
-        team: "The New Monteforte Chaos Creatures",
+        team: TEAM_NAMES["The New Monteforte Chaos Creatures"],
         stats: {
           pass: 48,
           catch: 61,
@@ -1654,7 +1655,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The New Prosperity Profits"]]: {
-    name: "The New Prosperity Profits",
+    name: TEAM_NAMES["The New Prosperity Profits"],
     slug: "new-prosperity",
     losses: 0,
     wins: 0,
@@ -1669,7 +1670,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Merissa Mathian",
-      team: "The New Prosperity Profits",
+      team: TEAM_NAMES["The New Prosperity Profits"],
       stats: {
         pass: 54,
         catch: 54,
@@ -1689,7 +1690,7 @@ export const TEAMS = {
     players: [
       {
         name: "Pulchi Benyamin",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 54,
           catch: 63,
@@ -1708,7 +1709,7 @@ export const TEAMS = {
       },
       {
         name: "Boleslaw Heathcote",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 60,
           catch: 48,
@@ -1728,7 +1729,7 @@ export const TEAMS = {
       },
       {
         name: "Gladdie Farika",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 48,
           catch: 48,
@@ -1748,7 +1749,7 @@ export const TEAMS = {
       },
       {
         name: "Yoshi Cathy",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 47,
           catch: 50,
@@ -1767,7 +1768,7 @@ export const TEAMS = {
       },
       {
         name: "Aufmann Tedric",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 62,
           catch: 51,
@@ -1787,7 +1788,7 @@ export const TEAMS = {
       },
       {
         name: "Krueger Jacinthe",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 61,
           catch: 53,
@@ -1807,7 +1808,7 @@ export const TEAMS = {
       },
       {
         name: "Abramson Doxia",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 51,
           catch: 61,
@@ -1827,7 +1828,7 @@ export const TEAMS = {
       },
       {
         name: "Milman Galvan",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 51,
           catch: 66,
@@ -1846,7 +1847,7 @@ export const TEAMS = {
       },
       {
         name: "Faina Hendrix",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 52,
           catch: 55,
@@ -1866,7 +1867,7 @@ export const TEAMS = {
       },
       {
         name: "Pellikka Concettina",
-        team: "The New Prosperity Profits",
+        team: TEAM_NAMES["The New Prosperity Profits"],
         stats: {
           pass: 64,
           catch: 44,
@@ -1887,7 +1888,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The New Ravenfall Commanders"]]: {
-    name: "The New Ravenfall Commanders",
+    name: TEAM_NAMES["The New Ravenfall Commanders"],
     slug: "new-ravenfall",
     losses: 0,
     wins: 0,
@@ -1902,7 +1903,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Hooge Imtiaz",
-      team: "The New Ravenfall Commanders",
+      team: TEAM_NAMES["The New Ravenfall Commanders"],
       stats: {
         pass: 57,
         catch: 50,
@@ -1923,7 +1924,7 @@ export const TEAMS = {
     players: [
       {
         name: "Dusa Curson",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 47,
           catch: 52,
@@ -1943,7 +1944,7 @@ export const TEAMS = {
       },
       {
         name: "Moir Sass",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 58,
           catch: 50,
@@ -1962,7 +1963,7 @@ export const TEAMS = {
       },
       {
         name: "Theis Loredo",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 56,
           catch: 46,
@@ -1981,7 +1982,7 @@ export const TEAMS = {
       },
       {
         name: "Nitz Alis",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 52,
           catch: 53,
@@ -2001,7 +2002,7 @@ export const TEAMS = {
       },
       {
         name: "Estes Adrian",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 56,
           catch: 52,
@@ -2021,7 +2022,7 @@ export const TEAMS = {
       },
       {
         name: "Rhett Gavrilla",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 68,
           catch: 64,
@@ -2041,7 +2042,7 @@ export const TEAMS = {
       },
       {
         name: "Jessalin Zobias",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 57,
           catch: 54,
@@ -2060,7 +2061,7 @@ export const TEAMS = {
       },
       {
         name: "Jozef Pepe",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 50,
           catch: 56,
@@ -2079,7 +2080,7 @@ export const TEAMS = {
       },
       {
         name: "Croteau Osmo",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 68,
           catch: 51,
@@ -2098,7 +2099,7 @@ export const TEAMS = {
       },
       {
         name: "Pirozzo Opal",
-        team: "The New Ravenfall Commanders",
+        team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 47,
           catch: 58,
@@ -2118,7 +2119,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Oread's Summit Tamers"]]: {
-    name: "The Oread's Summit Tamers",
+    name: TEAM_NAMES["The Oread's Summit Tamers"],
     slug: "oreads-summit",
     losses: 0,
     wins: 0,
@@ -2133,7 +2134,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Carn Tibbetts",
-      team: "The Oread's Summit Tamers",
+      team: TEAM_NAMES["The Oread's Summit Tamers"],
       stats: {
         pass: 54,
         catch: 51,
@@ -2153,7 +2154,7 @@ export const TEAMS = {
     players: [
       {
         name: "Odericus Juxon",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 51,
           catch: 62,
@@ -2172,7 +2173,7 @@ export const TEAMS = {
       },
       {
         name: "Kass Fogel",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 55,
           catch: 46,
@@ -2192,7 +2193,7 @@ export const TEAMS = {
       },
       {
         name: "Zadoc Wyatan",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 53,
           catch: 67,
@@ -2212,7 +2213,7 @@ export const TEAMS = {
       },
       {
         name: "Alwyn Wandy",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 58,
           catch: 34,
@@ -2232,7 +2233,7 @@ export const TEAMS = {
       },
       {
         name: "Dric Trilley",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 53,
           catch: 54,
@@ -2252,7 +2253,7 @@ export const TEAMS = {
       },
       {
         name: "Swamy Ahasuerus",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 69,
           catch: 53,
@@ -2272,7 +2273,7 @@ export const TEAMS = {
       },
       {
         name: "Clippard Burr",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 38,
           catch: 60,
@@ -2292,7 +2293,7 @@ export const TEAMS = {
       },
       {
         name: "Mitran Mariand",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 58,
           catch: 54,
@@ -2312,7 +2313,7 @@ export const TEAMS = {
       },
       {
         name: "Edme Virgil",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 60,
           catch: 45,
@@ -2331,7 +2332,7 @@ export const TEAMS = {
       },
       {
         name: "Saloma Talich",
-        team: "The Oread's Summit Tamers",
+        team: TEAM_NAMES["The Oread's Summit Tamers"],
         stats: {
           pass: 66,
           catch: 53,
@@ -2352,7 +2353,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The South Pole Yetis"]]: {
-    name: "The South Pole Yetis",
+    name: TEAM_NAMES["The South Pole Yetis"],
     slug: "south-pole",
     losses: 0,
     wins: 0,
@@ -2367,7 +2368,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Seiter Aida",
-      team: "The South Pole Yetis",
+      team: TEAM_NAMES["The South Pole Yetis"],
       stats: {
         pass: 50,
         catch: 50,
@@ -2388,7 +2389,7 @@ export const TEAMS = {
     players: [
       {
         name: "Sale Tocci",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 60,
           catch: 51,
@@ -2407,7 +2408,7 @@ export const TEAMS = {
       },
       {
         name: "Ajit Serge",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 50,
           catch: 54,
@@ -2427,7 +2428,7 @@ export const TEAMS = {
       },
       {
         name: "Isborne Krause",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 50,
           catch: 55,
@@ -2447,7 +2448,7 @@ export const TEAMS = {
       },
       {
         name: "Selima Si",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 58,
           catch: 61,
@@ -2467,7 +2468,7 @@ export const TEAMS = {
       },
       {
         name: "Duky Orelee",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 55,
           catch: 41,
@@ -2486,7 +2487,7 @@ export const TEAMS = {
       },
       {
         name: "Sayers Erdda",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 60,
           catch: 45,
@@ -2505,7 +2506,7 @@ export const TEAMS = {
       },
       {
         name: "Jessy Debbie",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 61,
           catch: 53,
@@ -2524,7 +2525,7 @@ export const TEAMS = {
       },
       {
         name: "Hilaire Guevara",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 60,
           catch: 51,
@@ -2543,7 +2544,7 @@ export const TEAMS = {
       },
       {
         name: "Coussoule Bidle",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 58,
           catch: 58,
@@ -2563,7 +2564,7 @@ export const TEAMS = {
       },
       {
         name: "Udela Dorkus",
-        team: "The South Pole Yetis",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 54,
           catch: 60,
@@ -2583,7 +2584,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Southport Narwhals"]]: {
-    name: "The Southport Narwhals",
+    name: TEAM_NAMES["The Southport Narwhals"],
     slug: "southport",
     losses: 0,
     wins: 0,
@@ -2598,7 +2599,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Sand Denys",
-      team: "The Southport Narwhals",
+      team: TEAM_NAMES["The South Pole Yetis"],
       stats: {
         pass: 55,
         catch: 54,
@@ -2619,7 +2620,7 @@ export const TEAMS = {
     players: [
       {
         name: "Blood Eppes",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 56,
           catch: 54,
@@ -2639,7 +2640,7 @@ export const TEAMS = {
       },
       {
         name: "Malcolm Goer",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 56,
           catch: 36,
@@ -2658,7 +2659,7 @@ export const TEAMS = {
       },
       {
         name: "Blanc Fantasia",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 51,
           catch: 51,
@@ -2678,7 +2679,7 @@ export const TEAMS = {
       },
       {
         name: "Loralyn Lyndy",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 58,
           catch: 47,
@@ -2698,7 +2699,7 @@ export const TEAMS = {
       },
       {
         name: "Cibis Areta",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 63,
           catch: 48,
@@ -2718,7 +2719,7 @@ export const TEAMS = {
       },
       {
         name: "Braden Gaile",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 47,
           catch: 52,
@@ -2738,7 +2739,7 @@ export const TEAMS = {
       },
       {
         name: "Crescint Sonia",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 65,
           catch: 64,
@@ -2757,7 +2758,7 @@ export const TEAMS = {
       },
       {
         name: "Cilurzo Sochor",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 58,
           catch: 43,
@@ -2777,7 +2778,7 @@ export const TEAMS = {
       },
       {
         name: "Torey Dannye",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 49,
           catch: 59,
@@ -2797,7 +2798,7 @@ export const TEAMS = {
       },
       {
         name: "Fineman Dolhenty",
-        team: "The Southport Narwhals",
+        team: TEAM_NAMES["The South Pole Yetis"],
         stats: {
           pass: 51,
           catch: 49,
@@ -2817,7 +2818,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Starlight Bazaar Bizarres"]]: {
-    name: "The Starlight Bazaar Bizarres",
+    name: TEAM_NAMES["The Starlight Bazaar Bizarres"],
     slug: "starlight-bazaar",
     losses: 0,
     wins: 0,
@@ -2832,7 +2833,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Essa Pattie",
-      team: "The Starlight Bazaar Bizarres",
+      team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
       stats: {
         pass: 57,
         catch: 55,
@@ -2853,7 +2854,7 @@ export const TEAMS = {
     players: [
       {
         name: "Bush Heiner",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 54,
           catch: 52,
@@ -2873,7 +2874,7 @@ export const TEAMS = {
       },
       {
         name: "Kristin Kronfeld",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 58,
           catch: 56,
@@ -2893,7 +2894,7 @@ export const TEAMS = {
       },
       {
         name: "Milo Nelie",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 61,
           catch: 66,
@@ -2913,7 +2914,7 @@ export const TEAMS = {
       },
       {
         name: "Pompei Hephzipa",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 50,
           catch: 62,
@@ -2933,7 +2934,7 @@ export const TEAMS = {
       },
       {
         name: "Melesa Zelten",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 43,
           catch: 61,
@@ -2953,7 +2954,7 @@ export const TEAMS = {
       },
       {
         name: "Demp Chet",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 63,
           catch: 46,
@@ -2973,7 +2974,7 @@ export const TEAMS = {
       },
       {
         name: "Gagliano Tallbott",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 57,
           catch: 48,
@@ -2993,7 +2994,7 @@ export const TEAMS = {
       },
       {
         name: "Aggri Cookie",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 51,
           catch: 65,
@@ -3013,7 +3014,7 @@ export const TEAMS = {
       },
       {
         name: "Willa Lois",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 45,
           catch: 41,
@@ -3033,7 +3034,7 @@ export const TEAMS = {
       },
       {
         name: "Quintessa Austine",
-        team: "The Starlight Bazaar Bizarres",
+        team: TEAM_NAMES["The Starlight Bazaar Bizarres"],
         stats: {
           pass: 54,
           catch: 56,
@@ -3054,7 +3055,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Tortell Privateers"]]: {
-    name: "The Tortell Privateers",
+    name: TEAM_NAMES["The Tortell Privateers"],
     slug: "tortell",
     losses: 0,
     wins: 0,
@@ -3069,7 +3070,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Eugen Zacks",
-      team: "The Tortell Privateers",
+      team: TEAM_NAMES["The Tortell Privateers"],
       stats: {
         pass: 55,
         catch: 60,
@@ -3089,7 +3090,7 @@ export const TEAMS = {
     players: [
       {
         name: "Lilithe Royce",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 52,
           catch: 59,
@@ -3109,7 +3110,7 @@ export const TEAMS = {
       },
       {
         name: "Castorina Gies",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 48,
           catch: 65,
@@ -3129,7 +3130,7 @@ export const TEAMS = {
       },
       {
         name: "Melisande Eustacia",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 70,
           catch: 59,
@@ -3148,7 +3149,7 @@ export const TEAMS = {
       },
       {
         name: "Loralee Sunny",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 46,
           catch: 54,
@@ -3168,7 +3169,7 @@ export const TEAMS = {
       },
       {
         name: "Kidder Starkey",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 50,
           catch: 59,
@@ -3188,7 +3189,7 @@ export const TEAMS = {
       },
       {
         name: "Keisling Damalas",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 56,
           catch: 55,
@@ -3208,7 +3209,7 @@ export const TEAMS = {
       },
       {
         name: "Goldberg Tova",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 50,
           catch: 58,
@@ -3228,7 +3229,7 @@ export const TEAMS = {
       },
       {
         name: "Ellan Elburt",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 51,
           catch: 57,
@@ -3248,7 +3249,7 @@ export const TEAMS = {
       },
       {
         name: "Payson Jan",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 54,
           catch: 52,
@@ -3267,7 +3268,7 @@ export const TEAMS = {
       },
       {
         name: "Dib Tufts",
-        team: "The Tortell Privateers",
+        team: TEAM_NAMES["The Tortell Privateers"],
         stats: {
           pass: 63,
           catch: 60,
@@ -3287,7 +3288,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Wyrmwood Stronghammers"]]: {
-    name: "The Wyrmwood Stronghammers",
+    name: TEAM_NAMES["The Wyrmwood Stronghammers"],
     slug: "wyrmwood",
     losses: 0,
     wins: 0,
@@ -3302,7 +3303,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Hamburger Marthe",
-      team: "The Wyrmwood Stronghammers",
+      team: TEAM_NAMES["The Wyrmwood Stronghammers"],
       stats: {
         pass: 51,
         catch: 54,
@@ -3323,7 +3324,7 @@ export const TEAMS = {
     players: [
       {
         name: "Sabian Gleason",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 51,
           catch: 54,
@@ -3342,7 +3343,7 @@ export const TEAMS = {
       },
       {
         name: "Ultun Barthelemy",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 55,
           catch: 58,
@@ -3361,7 +3362,7 @@ export const TEAMS = {
       },
       {
         name: "Autumn Jodoin",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 53,
           catch: 43,
@@ -3380,7 +3381,7 @@ export const TEAMS = {
       },
       {
         name: "Kerwin Gasper",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 60,
           catch: 48,
@@ -3399,7 +3400,7 @@ export const TEAMS = {
       },
       {
         name: "Calvinna Isador",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 57,
           catch: 47,
@@ -3419,7 +3420,7 @@ export const TEAMS = {
       },
       {
         name: "Cornela Piscatelli",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 55,
           catch: 62,
@@ -3433,11 +3434,12 @@ export const TEAMS = {
           alcohol_tolerance: 68,
           pregame_ritual: "Braiding a teammate's nose hair.",
           literate: false,
+          favorite_weapon: "",
         },
       },
       {
         name: "Rebane Kendy",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 61,
           catch: 51,
@@ -3456,7 +3458,7 @@ export const TEAMS = {
       },
       {
         name: "Sondra Elaina",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 55,
           catch: 54,
@@ -3475,7 +3477,7 @@ export const TEAMS = {
       },
       {
         name: "Odelia Abbott",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 66,
           catch: 48,
@@ -3495,7 +3497,7 @@ export const TEAMS = {
       },
       {
         name: "Godart Urissa",
-        team: "The Wyrmwood Stronghammers",
+        team: TEAM_NAMES["The Wyrmwood Stronghammers"],
         stats: {
           pass: 49,
           catch: 56,
@@ -3516,7 +3518,7 @@ export const TEAMS = {
     ],
   },
   [TEAM_NAMES["The Zmeigorod Snessengers"]]: {
-    name: "The Zmeigorod Snessengers",
+    name: TEAM_NAMES["The Zmeigorod Snessengers"],
     slug: "zmeigorod",
     losses: 0,
     wins: 0,
@@ -3531,7 +3533,7 @@ export const TEAMS = {
     },
     healer: {
       name: "Waldon Tadeo",
-      team: "The Zmeigorod Snessengers",
+      team: TEAM_NAMES["The Zmeigorod Snessengers"],
       stats: {
         pass: 56,
         catch: 65,
@@ -3552,7 +3554,7 @@ export const TEAMS = {
     players: [
       {
         name: "Delija Dowling",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 47,
           catch: 55,
@@ -3571,7 +3573,7 @@ export const TEAMS = {
       },
       {
         name: "Northway Orran",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 54,
           catch: 49,
@@ -3591,7 +3593,7 @@ export const TEAMS = {
       },
       {
         name: "Evalyn Pierrepont",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 57,
           catch: 49,
@@ -3611,7 +3613,7 @@ export const TEAMS = {
       },
       {
         name: "Rose Kluge",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 51,
           catch: 54,
@@ -3631,7 +3633,7 @@ export const TEAMS = {
       },
       {
         name: "Gere Cordelie",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 55,
           catch: 47,
@@ -3646,11 +3648,12 @@ export const TEAMS = {
           pregame_ritual:
             "Performing a series of aggressive, theatrical poses.",
           literate: true,
+          favorite_weapon: "Spiked Gauntlet",
         },
       },
       {
         name: "Kleinstein MacGregor",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 43,
           catch: 59,
@@ -3669,7 +3672,7 @@ export const TEAMS = {
       },
       {
         name: "Avaria Revell",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 53,
           catch: 46,
@@ -3689,7 +3692,7 @@ export const TEAMS = {
       },
       {
         name: "Alded Sanjay",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 45,
           catch: 61,
@@ -3709,7 +3712,7 @@ export const TEAMS = {
       },
       {
         name: "Arni Griffith",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 47,
           catch: 62,
@@ -3729,7 +3732,7 @@ export const TEAMS = {
       },
       {
         name: "Dare Wynnie",
-        team: "The Zmeigorod Snessengers",
+        team: TEAM_NAMES["The Zmeigorod Snessengers"],
         stats: {
           pass: 64,
           catch: 54,
