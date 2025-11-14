@@ -19,4 +19,16 @@ export const GAMES: match[] = [
       "-" +
       0,
   },
+  {
+    homeTeam: TEAMS["The South Pole Yetis"],
+    awayTeam: TEAMS["The Confluence Captains"],
+    preGame:
+      "(Static crackles, followed by the distant sound of howling wolves)\n\n\"Helloooo, Osterra, and welcome back to the only sport that matters! This is Nok the Corrupter, your favorite fiend, broadcasting live... and let me tell you, I mean *live*... from **The South Pole Palisade**!\n\nAnd folks, what a venue! It’s less a stadium and more a stockade to keep the wilderness out. The pitch is frozen mud and straw, there's a lovely bit of freezing rain coming down, and the local wolf pack is singing the song of their people! It is *glorious*!\n\nOur home team, **The South Pole Yetis**, look completely unfazed by the cold. Their healer, Seiter Aida, was just seen getting ready by... uh... smelling their own game-worn socks from the last match. That’s a level of commitment you just don't see in civilized lands! \n\nAnd in the visiting corner, **The Confluence Captains** are a long, long way from their fancy, polished 'Glowstone Terrace' back home. Can they handle the mud? Well, I'm not sure, but I *did* see Ladew Evelina chug a raw egg—shell and all—and their healer Kant Langill is doing a very clumsy dance to keep warm. They might just be weird enough to thrive here!\n\nThe whistle is about to blow! It's the city slickers versus the survivalists! This is going to be a messy one, folks, and I cannot wait!\"",
+    postGame:
+      "(The roar of a small, bundled-up crowd and a final, sharp whistle blast)\n\n\"And that's the game! The Confluence Captains have done it! They marched into the frozen wastes and took the win from the home team, with a final score of **5 to 2**!\n\nWhat a game, folks! It was a real back-and-forth brawl out there on the ice! The Yetis looked strong when **Duky Orelee** landed a beautiful 2-point shot from Home Field, sending the local crowd into a frenzy!\n\nBut the Captains, led by **Ladew Evelina**, answered right back after the half with a 2-pointer of their own! And then—oh, my friends, you should have seen it—**Stephan Lisk**! From *Center Field*! Lisk just wound up and launched the troll head from the dead center of the pitch for 2 points! I haven't seen a throw like that all season! \n\n**O'Conner Maighdlin** added one more goal for the Captains to seal the deal. A tough loss for the Yetis at home, but what a spectacular offensive showing from The Confluence Captains! \n\nThis has been Nok the Corrupter, signing off from the South Pole Palisade. My horns are frozen solid, but my heart is warm with the love of the game. Now, go cause some trouble!\"",
+    date: 0,
+    homeScore: 2,
+    awayScore: 5,
+    slug: "south-pole-confluence-0",
+  },
 ];

@@ -75,21 +75,6 @@ export default function GamePage({ gameData }: { gameData: match }) {
             {isScoreVisible ? (
               // IF TRUE: Show the scores
               <div className="flex justify-around items-center text-center p-4">
-                {/* Away Team */}
-                <div className="flex flex-col items-center gap-2 w-1/3">
-                  <TeamIcon size={80} team={awayTeam.name} />
-                  <h2 className="text-xl md:text-2xl font-bold">
-                    {awayTeam.name}
-                  </h2>
-                  <span
-                    className={`text-4xl font-bold ${
-                      !awayWon && "text-default-500"
-                    }`}
-                  >
-                    {awayScore}
-                  </span>
-                </div>
-
                 {/* Home Team */}
                 <div className="flex flex-col items-center gap-2 w-1/3">
                   <TeamIcon size={80} team={homeTeam.name} />
@@ -102,6 +87,20 @@ export default function GamePage({ gameData }: { gameData: match }) {
                     }`}
                   >
                     {homeScore}
+                  </span>
+                </div>
+                {/* Away Team */}
+                <div className="flex flex-col items-center gap-2 w-1/3">
+                  <TeamIcon size={80} team={awayTeam.name} />
+                  <h2 className="text-xl md:text-2xl font-bold">
+                    {awayTeam.name}
+                  </h2>
+                  <span
+                    className={`text-4xl font-bold ${
+                      !awayWon && "text-default-500"
+                    }`}
+                  >
+                    {awayScore}
                   </span>
                 </div>
               </div>
@@ -136,7 +135,7 @@ export default function GamePage({ gameData }: { gameData: match }) {
           </CardBody>
           <Divider />
           <CardFooter className="flex justify-center text-small text-default-500">
-            {date} at {homeTeam.stadium.name}
+            Week {date} at {homeTeam.stadium.name}
           </CardFooter>
         </Card>
         {/* Sections 2 & 3: Pregame / Postgame */}

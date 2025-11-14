@@ -62,6 +62,19 @@ export interface match {
   slug: string;
 }
 
+export interface match_progress {
+  homeTeam: team;
+  awayTeam: team;
+  date: number;
+  homeScore: number;
+  awayScore: number;
+  possession: player | null;
+  possessionTeam: TEAM_NAMES;
+  currentZone: ZONE;
+  plays: string[];
+  latestAction?: string;
+}
+
 export enum ZONE {
   "Home Goal" = "Home Goal",
   "Home 2-Point" = "Home 2-Point",
