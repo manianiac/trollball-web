@@ -101,9 +101,11 @@ export default function TeamPage({ team }: { team: team }) {
           {/* You can use your title/subtitle styles here! */}
           <h1 className={title()}>{team.name}</h1>
           <div className={subtitle({ class: "mt-4" })}>
-            <strong>Home Field:</strong> TODO
+            <strong>Home Field:</strong> {team.stadium.name}
             <br />
-            <p>{team.healer.name}</p>
+            <strong>Location:</strong> {team.stadium.location}
+            <p className="mt-2 text-sm">{team.stadium.description}</p>
+            <strong>Healer:</strong> {team.healer.name}
           </div>
         </div>
         <div className="gap-2 grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">

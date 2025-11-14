@@ -1,3 +1,5 @@
+import { team } from "./consts";
+
 export enum TEAM_NAMES {
   "No Team" = "No Team",
   "The Tortell Privateers" = "The Tortell Privateers",
@@ -26,7 +28,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 53,
-    stadium: {},
+    stadium: {
+      name: "The Foundry Yard",
+      location: "Brimstone",
+      description:
+        "Located in the industrial heart of the city, this stadium is perpetually covered in a layer of soot. The air is thick with smog from the surrounding smithies and forges.",
+      modifiers: ["Industrial Smog", "Soot-Stained Ball", "Guild Riot"],
+    },
     healer: {
       name: "Raphael Miyasawa",
       team: "The Brimstone Fire Eaters",
@@ -253,7 +261,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 60,
-    stadium: {},
+    stadium: {
+      name: "The Captains' Green",
+      location: "Confluence",
+      description:
+        "A prestigious field on a large island where the city's great rivers meet. While the pitch is pristine, it's surrounded by the noise of the river trade and the judgment of the city's elites.",
+      modifiers: ["River Fog", "Toll Dispute", "Hometown Politics"],
+    },
     healer: {
       name: "Kant Langill",
       team: "The Confluence Captains",
@@ -480,7 +494,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 61,
-    stadium: {},
+    stadium: {
+      name: "The Sun-Baked Bowl",
+      location: "The Great Desert",
+      description:
+        "A simple, deep bowl dug from clay and sandstone on the edge of a caravan oasis. The heat is oppressive, and the 'stands' are just blankets laid on the sun-baked dunes.",
+      modifiers: ["Intense Heat", "Sandstorm", "Dehydration"],
+    },
     healer: {
       name: "Verlee Dacia",
       team: "The Desert Spectres",
@@ -708,7 +728,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 55,
-    stadium: {},
+    stadium: {
+      name: "The Beacon Green",
+      location: "Haven",
+      description:
+        "A perfectly manicured field adjacent to the city's famed university, The Scholarium. The crowd is quiet, judgmental, and quick to criticize any perceived lack of sportsmanship.",
+      modifiers: ["Scholarly Debate", "Harbor Bells", "Public Scrutiny"],
+    },
     healer: {
       name: "Riffle Harrington",
       team: "The Haven Lights",
@@ -937,7 +963,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 59,
-    stadium: {},
+    stadium: {
+      name: "The Sinking Field",
+      location: "Ebon Gate",
+      description:
+        "A notoriously poorly-maintained stadium built on reclaimed marshland. The ground is unstable, often waterlogged, and sections of the stands are known to collapse.",
+      modifiers: ["Thick Mud", "Noxious Fumes", "Sinkhole"],
+    },
     healer: {
       name: "Terle Chenay",
       team: "The Ebon Gate Corruptors",
@@ -1162,7 +1194,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 60,
-    stadium: {},
+    stadium: {
+      name: "The Old Fort",
+      location: "Kerlauger",
+      description:
+        "The team plays within the crumbling, stone-ringed ruins of an ancient hill-fort. The 'runes' are just old, weathered carvings on the standing stones that serve as obstacles.",
+      modifiers: ["Ancient Ruins", "Dense Fog", "Uneven Footing"],
+    },
     healer: {
       name: "Eal Caundra",
       team: "The Kerlauger Runeguard",
@@ -1391,7 +1429,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 65,
-    stadium: {},
+    stadium: {
+      name: "The Unruly Yard",
+      location: "New Monteforte",
+      description:
+        "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+      modifiers: ["Rowdy Crowd", "Unstable Scaffolding", "Street Performer"],
+    },
     healer: {
       name: "Lian Denton",
       team: "The New Monteforte Chaos Creatures",
@@ -1616,7 +1660,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 50,
-    stadium: {},
+    stadium: {
+      name: "The Guilder's Field",
+      location: "New Prosperity",
+      description:
+        "An opulent stadium sponsored by the powerful Merchant's Guild. The stands feature luxurious, velvet-lined boxes for bankers, who are often more focused on making deals than the game.",
+      modifiers: ["Hostile Takeover", "Hired Hecklers", "Market Fluctuation"],
+    },
     healer: {
       name: "Merissa Mathian",
       team: "The New Prosperity Profits",
@@ -1844,9 +1894,11 @@ export const TEAMS = {
     score: 0,
     luck: 64,
     stadium: {
-      name: "The New Ravenfall Colliseum",
-      location: "New Ravenfall, Eponore",
-      modifiers: [],
+      name: "The Bailey",
+      location: "New Ravenfall",
+      description:
+        "The team plays in the central training yard, or 'bailey', of the city's grim, black-stone fortress. The crowd watches from the ramparts, and the game is often interrupted by guard drills.",
+      modifiers: ["Uneven Ground", "Watchtower Sentries", "Call to Arms"],
     },
     healer: {
       name: "Hooge Imtiaz",
@@ -2072,7 +2124,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 67,
-    stadium: {},
+    stadium: {
+      name: "The High-Pass Pitch",
+      location: "Oread's Summit",
+      description:
+        "A field built at a breathtaking altitude in a fortified mountain pass. The air is painfully thin, and the weather is dangerously unpredictable.",
+      modifiers: ["Thin Air", "Sudden Blizzard", "Vertigo"],
+    },
     healer: {
       name: "Carn Tibbetts",
       team: "The Oread's Summit Tamers",
@@ -2300,7 +2358,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 55,
-    stadium: {},
+    stadium: {
+      name: "The South Pole Palisade",
+      location: "A remote southern frontier town",
+      description:
+        "A crude, fortified playing field built from rough-hewn logs. It's less a stadium and more a stockade against the wilderness. The 'grass' is mostly frozen mud and straw.",
+      modifiers: ["Freezing Rain", "Icy Field", "Wolf Pack Howling"],
+    },
     healer: {
       name: "Seiter Aida",
       team: "The South Pole Yetis",
@@ -2525,7 +2589,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 48,
-    stadium: {},
+    stadium: {
+      name: "The Cliffside Pitch",
+      location: "Southport",
+      description:
+        "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
+      modifiers: ["Gale-Force Winds", "Sea Spray", "Rocky Outcropping"],
+    },
     healer: {
       name: "Sand Denys",
       team: "The Southport Narwhals",
@@ -2753,7 +2823,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 63,
-    stadium: {},
+    stadium: {
+      name: "The Grand Souk",
+      location: "The Starlight Bazaar",
+      description:
+        "A temporary, fenced-off pitch in the absolute center of the chaotic Grand Bazaar. The game is constantly interrupted by merchants, stray animals, and thieves.",
+      modifiers: ["Crowd Interference", "Exotic Animal Loose", "Pickpockets"],
+    },
     healer: {
       name: "Essa Pattie",
       team: "The Starlight Bazaar Bizarres",
@@ -2984,7 +3060,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 48,
-    stadium: {},
+    stadium: {
+      name: "The Junction Box",
+      location: "Confluence",
+      description:
+        "A state-of-the-art stadium built at the precise point where the two great rivers of the megacity meet. Features retractable roofing and luxury boxes for the city's elite.",
+      modifiers: ["Urban Distractions", "River Fog", "Hometown Crowd"],
+    },
     healer: {
       name: "Eugen Zacks",
       team: "The Tortell Privateers",
@@ -3211,7 +3293,13 @@ export const TEAMS = {
     wins: 0,
     score: 0,
     luck: 66,
-    stadium: {},
+    stadium: {
+      name: "The Sawpit",
+      location: "Wyrmwood",
+      description:
+        "A huge clearing in the ancient forest, surrounded by giant, felled trees that serve as crude bleachers. The 'field' is a mix of sawdust, mud, and tangled roots.",
+      modifiers: ["Tangled Roots", "Sawdust Cloud", "'Timber!'"],
+    },
     healer: {
       name: "Hamburger Marthe",
       team: "The Wyrmwood Stronghammers",
@@ -3435,8 +3523,9 @@ export const TEAMS = {
     score: 0,
     luck: 53,
     stadium: {
-      name: "",
+      name: "The Serpent's Pass",
       location: "Zmeigorod, just west of the lumber mill",
+      modifiers: ["Altitude Sickness", "Sudden Downpour", "Rockslide"],
       description:
         "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it",
     },

@@ -40,6 +40,7 @@ export interface stadium {
   name: string;
   location: string;
   description: string;
+  modifiers: string[];
 }
 
 export interface activePlayers {
