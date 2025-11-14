@@ -5,10 +5,6 @@ export const siteConfig = {
   description: "Bringing you the best of the action.",
   navItems: [
     {
-      label: "Home",
-      href: "/",
-    },
-    {
       label: "Teams",
       href: "/teams",
     },
