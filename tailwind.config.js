@@ -1,5 +1,5 @@
 import {heroui} from "@heroui/theme"
-
+require('@tailwindcss/typography')
 /** @type {import('tailwindcss').Config} */
 const config = {
   content: [
