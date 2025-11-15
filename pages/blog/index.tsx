@@ -3,7 +3,7 @@ import { Card, CardBody } from "@heroui/card";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import ReactMarkdown from "react-markdown";
 
-import { BLOG_POSTS } from "./posts";
+import { BLOG_POSTS } from "../../utils/posts";
 
 import DefaultLayout from "@/layouts/default";
 
@@ -13,6 +13,13 @@ import DefaultLayout from "@/layouts/default";
  * To add a new post, you only need to edit `utils/blogPosts.ts`.
  */
 export default function BlogPage() {
+  function formatText(text: string) {
+    // 1. Clean up outer quotes (if they exist from the mock data)
+    const cleanText = text.replace(/^"|"$/g, "");
+
+    return cleanText.replaceAll("\n\n", "\n\n&nbsp;\n\n");
+  }
+
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center gap-4 p-4 md:p-8">
@@ -42,7 +49,7 @@ export default function BlogPage() {
                   for styling markdown output automatically.
                 */}
                   <div className="prose dark:prose-invert max-w-none">
-                    <ReactMarkdown>{post.content}</ReactMarkdown>
+                    <ReactMarkdown>{formatText(post.content)}</ReactMarkdown>
                   </div>
                 </CardBody>
               </Card>
