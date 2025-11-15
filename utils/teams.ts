@@ -1983,7 +1983,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
         },
       },
       {
-        name: "Nitz Alis",
+        name: "Fleme Alis",
         team: TEAM_NAMES["The New Ravenfall Commanders"],
         stats: {
           pass: 52,
