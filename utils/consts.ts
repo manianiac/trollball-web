@@ -1,5 +1,5 @@
 export interface team {
-  name: TEAM_NAMES;
+  name: TEAM_NAMES | string;
   players: player[];
   stadium: stadium;
   luck: number;
@@ -14,7 +14,7 @@ export interface team {
 
 export interface player {
   name: string;
-  team: TEAM_NAMES;
+  team: TEAM_NAMES | string;
   stats: stats;
 }
 
@@ -69,7 +69,7 @@ export interface match_progress {
   homeScore: number;
   awayScore: number;
   possession: player | null;
-  possessionTeam: TEAM_NAMES;
+  possessionTeam: TEAM_NAMES | string;
   currentZone: ZONE;
   plays: string[];
   latestAction?: string;

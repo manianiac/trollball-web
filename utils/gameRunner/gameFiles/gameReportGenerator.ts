@@ -9,7 +9,7 @@ import {
   Type,
 } from "@google/genai";
 
-import { match_progress } from "@/utils/consts";
+import { match_progress, TEAM_NAMES } from "@/utils/consts";
 
 // --- API Key Setup ---
 // The package will automatically find the GOOGLE_API_KEY environment variable
@@ -34,44 +34,16 @@ const GAME_REPORT_SCHEMA = {
     preGameReport: {
       type: Type.STRING, // <-- USE THE ENUM
       description:
-        "The pre-game report, written in character as Nok the Corrupter. Should build anticipation and introduce the teams, referencing their pre-game rituals or stats from the provided data.",
+        "The pre-game report, written in character as Nok the Corrupter. Should build anticipation and introduce the teams, referencing their pre-game rituals or stats from the provided data. Write several paragraphs",
     },
     postGameReport: {
       type: Type.STRING, // <-- USE THE ENUM
       description:
-        "The post-game report, written in character as Nok the Corrupter. Should summarize the game's key plays (from the 'plays' array), state the final score, and celebrate the action. Can throw shade at heroes if relevant.",
-    },
-    finalScore: {
-      type: Type.OBJECT, // <-- USE THE ENUM
-      description: "The final scores of the game.",
-      properties: {
-        homeTeam: {
-          type: Type.STRING, // <-- USE THE ENUM
-          description: "The name of the home team.",
-        },
-        homeScore: {
-          type: Type.NUMBER, // <-- USE THE ENUM
-          description: "The final score of the home team.",
-        },
-        awayTeam: {
-          type: Type.STRING, // <-- USE THE ENUM
-          description: "The name of the away team.",
-        },
-        awayScore: {
-          type: Type.NUMBER, // <-- USE THE ENUM
-          description: "The final score of the away team.",
-        },
-      },
-      required: ["homeTeam", "homeScore", "awayTeam", "awayScore"],
+        "The post-game report, written in character as Nok the Corrupter. Should summarize the game's key plays (from the 'plays' array), state the final score, and celebrate the action. Can throw shade at heroes if relevant. Write at least 10 paragraphs",
     },
   },
-  required: ["preGameReport", "postGameReport", "finalScore"],
-}; // <-- 'as const' has been removed
-
-/**
- * The System Instruction: This defines the persona and rules for the AI.
- * This is where you put all your context.
- */
+  required: ["preGameReport", "postGameReport"],
+};
 const NOK_THE_CORRUPTER_PERSONA = `
 You are Nok the Corrupter, a demon announcer for the fantasy sport Trollball.
 You speak with the over-the-top enthusiasm of a 1950's baseball radio announcer.
@@ -84,19 +56,8 @@ RULES:
 - Pre-game: Build hype, mention the teams, and maybe a player's pre-game ritual (found in their stats).
 - Post-game: Summarize the action using the 'plays' array. Announce the final score and winner.
 - Throw shade at the "heroes" of the realm when possible.
-  - Related to New Ravenfall: Sir Tanos the Paladin, Sir Artorias the Moonslayer, Morgwai the Warlock.
-  - Related to New Monteforte: Dame Terra the Mage, Colm the Warrior.
 - Your response MUST be in the specified JSON format.
 `;
-
-// Configuration for the model generation
-const generationConfig: GenerationConfig = {
-  // Enforce the JSON output
-  responseMimeType: "application/json",
-  responseSchema: GAME_REPORT_SCHEMA,
-  // We can add temperature for creativity, but for reports, 0.5 is fine
-  temperature: 0.5,
-};
 
 // Set safety settings to allow for fantasy violence descriptions
 const safetySettings: SafetySetting[] = [
@@ -119,6 +80,51 @@ const safetySettings: SafetySetting[] = [
   },
 ];
 
+const heroesOfTheRealm = [
+  {
+    faction: "Eponore",
+    associatedTeams: [
+      TEAM_NAMES["The New Ravenfall Commanders"],
+      TEAM_NAMES["The Brimstone Fire Eaters"],
+    ],
+    characters: [
+      "Sir Tanos, the Paladin",
+      "Sir Artorias the Moonslayer",
+      "Morgwae, the Warlock",
+      "Dima, the shadow king",
+      "King Zenku",
+    ],
+  },
+  {
+    faction: "The Grove",
+    associatedTeams: [
+      TEAM_NAMES["The Zmeigorod Snessengers"],
+      TEAM_NAMES["The Wyrmwood Stronghammers"],
+    ],
+    characters: [
+      "Sir Trez Arrigo, the former pirate",
+      "Oona, High Priestess of the Green Goddess",
+      "Valos, Bog Queen of Zmeigorod",
+      "Dame Gwion, Absent but still feared",
+      "Dane, peddler of cursed anti-corruption",
+    ],
+  },
+  {
+    faction: "The Guild of the Black Sky",
+    associatedTeams: [
+      TEAM_NAMES["The Confluence Captains"],
+      TEAM_NAMES["The New Prosperity Profits"],
+    ],
+    characters: [
+      "Chairman Sir Garon Ironrock",
+      "Chairman High Venture Brennen Farno, money priest",
+      "Chairman Toland, Necromancer Archaeologist",
+      "Nikos Thanae the Benevolent, who shoots people in the streets",
+      "Cyfnerth the Butcher of Confluece, a man after my own stomach",
+    ],
+  },
+];
+
 /**
  * Generates game reports by calling the Gemini API.
  * @param gameData The full JSON object of the game progress file (like testOut.json).
@@ -133,9 +139,16 @@ export async function generateGameReports(
     const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
 
+      This is a pre-season batch of games
+
       <game_data>
       ${JSON.stringify(gameData)}
       </game_data>
+
+      This is a list of some of the Heroes of the Realm. Feel free to riff and mock these characters
+      <hero_data>
+      ${JSON.stringify(heroesOfTheRealm)}
+      </hero_data>
     `;
 
     // Generate the content
@@ -147,6 +160,7 @@ export async function generateGameReports(
         responseMimeType: "application/json",
         responseSchema: GAME_REPORT_SCHEMA,
         systemInstruction: NOK_THE_CORRUPTER_PERSONA,
+        temperature: 1.0,
       }, // Pass the JSON config here
     });
     const candidate = result.candidates?.[0];
@@ -180,39 +194,3 @@ export async function generateGameReports(
     return null;
   }
 }
-
-// --- Example Usage ---
-// This is how you would run this script
-/*
-async function runExample() {
-  console.log("Loading game data...");
-  // Load your game data file (e.g., testOut.json)
-  const gameDataPath = path.join(__dirname, "testOut.json"); // Assumes testOut.json is in the same folder
-  
-  try {
-    const gameDataFile = fs.readFileSync(gameDataPath, "utf-8");
-    const gameData = JSON.parse(gameDataFile);
-
-    console.log("Generating reports with Gemini API...");
-    const report = await generateGameReports(gameData);
-
-    if (report) {
-      console.log("--- SUCCESS: Got structured JSON response ---");
-      console.log(JSON.stringify(report, null, 2));
-
-      console.log("\n--- Pre-Game Report ---");
-      console.log(report.preGameReport);
-
-      console.log("\n--- Post-Game Report ---");
-      console.log(report.postGameReport);
-    } else {
-      console.log("Failed to generate reports.");
-    }
-  } catch (error) {
-    console.error("Error loading or parsing game data:", error);
-  }
-}
-
-// Uncomment the line below to run the example
-// runExample();
-*/

@@ -1,30 +1,30 @@
 import { TEAMS } from "../teams";
 import { TEAM_NAMES, ZONE, match, match_progress, team } from "../consts";
-import fs from "fs";
 
 import { gameLoop } from "./gameFiles/gameRunner";
+import path from "path";
+import fs from "fs";
 import { LEAGUE_SCHEDULE } from "./roundRobin";
-import { generateTeam } from "./utils/generateTeam";
-import { generateNameGenerator } from "../utils";
-let ng = generateNameGenerator();
-let oo = generateTeam(TEAM_NAMES["Oak & Onslaught"], ng);
 
-let gw = generateTeam(TEAM_NAMES["The Greenwatch"], ng);
+// let ng = generateNameGenerator();
+// let oo = generateTeam(TEAM_NAMES["Oak & Onslaught"], ng);
 
-fs.writeFile(`./Oak.json`, JSON.stringify(oo), "utf8", (err) => {
-  if (err) {
-    console.error("Error writing to file", err);
-  } else {
-    console.log(`Data written to JSON.`);
-  }
-});
-fs.writeFile(`./green.json`, JSON.stringify(gw), "utf8", (err) => {
-  if (err) {
-    console.error("Error writing to file", err);
-  } else {
-    console.log(`Data written to JSON.`);
-  }
-});
+// let gw = generateTeam(TEAM_NAMES["The Greenwatch"], ng);
+
+// fs.writeFile(`./Oak.json`, JSON.stringify(oo), "utf8", (err) => {
+//   if (err) {
+//     console.error("Error writing to file", err);
+//   } else {
+//     console.log(`Data written to JSON.`);
+//   }
+// });
+// fs.writeFile(`./green.json`, JSON.stringify(gw), "utf8", (err) => {
+//   if (err) {
+//     console.error("Error writing to file", err);
+//   } else {
+//     console.log(`Data written to JSON.`);
+//   }
+// });
 
 const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
   let gameState: match_progress = {} as match_progress;
@@ -40,13 +40,14 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
 
   gameLoop(gameState);
 };
-// runMatch(
-//   TEAMS["The Brimstone Fire Eaters"],
-//   TEAMS["The Confluence Captains"],
-//   0
-// );
 
-// LEAGUE_SCHEDULE.filter((match) => match.week == 1).forEach((baseMatch) => {
+runMatch(
+  TEAMS["The Brimstone Fire Eaters"],
+  TEAMS["The Confluence Captains"],
+  0
+);
+
+// LEAGUE_SCHEDULE.filter((match) => match.week == 0).forEach((baseMatch) => {
 //   // Run the game simulation
 //   console.log(
 //     "generating match for " +

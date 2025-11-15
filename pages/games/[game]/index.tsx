@@ -3,10 +3,8 @@ import { Card, CardBody, CardFooter } from "@heroui/card";
 import { Divider } from "@heroui/divider";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import ReactMarkdown from "react-markdown";
-import { notFound } from "next/navigation";
 
-import { GAMES } from "@/utils/games";
-import { TEAMS } from "@/utils/teams";
+import { GAMES } from "@/utils/gameRunner/utils/games.generated";
 import { TeamIcon } from "@/components/icons"; // Adjust path to your TeamIcon
 import { match } from "@/utils/consts";
 import DefaultLayout from "@/layouts/default";
