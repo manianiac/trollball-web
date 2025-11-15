@@ -41,19 +41,19 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
   gameLoop(gameState);
 };
 
-runMatch(
-  TEAMS["The Brimstone Fire Eaters"],
-  TEAMS["The Confluence Captains"],
-  0
-);
+// runMatch(
+//   TEAMS["The Brimstone Fire Eaters"],
+//   TEAMS["The Confluence Captains"],
+//   0
+// );
 
-// LEAGUE_SCHEDULE.filter((match) => match.week == 0).forEach((baseMatch) => {
-//   // Run the game simulation
-//   console.log(
-//     "generating match for " +
-//       baseMatch.homeTeam.name +
-//       " vs " +
-//       baseMatch.awayTeam.name
-//   );
-//   runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
-// });
+LEAGUE_SCHEDULE.filter((match) => match.week == 0).forEach((baseMatch) => {
+  // Run the game simulation
+  console.log(
+    "generating match for " +
+      baseMatch.homeTeam.name +
+      " vs " +
+      baseMatch.awayTeam.name
+  );
+  runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
+});

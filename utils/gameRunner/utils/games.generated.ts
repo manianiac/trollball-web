@@ -293,6 +293,25 @@ export const GAMES: match[] = [
           }
         },
         {
+          "name": "Wylde Jutta",
+          "team": "The Brimstone Fire Eaters",
+          "stats": {
+            "pass": 63,
+            "catch": 61,
+            "run": 61,
+            "block": 49,
+            "fight": 67,
+            "throw": 51,
+            "luck": 52,
+            "pronouns": "She/Them",
+            "civic_engagement": 66,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Voulge",
+            "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+            "literate": true
+          }
+        },
+        {
           "name": "Selimah Tully",
           "team": "The Brimstone Fire Eaters",
           "stats": {
@@ -350,25 +369,6 @@ export const GAMES: match[] = [
           }
         },
         {
-          "name": "Nigel Rothmuller",
-          "team": "The Brimstone Fire Eaters",
-          "stats": {
-            "pass": 58,
-            "catch": 60,
-            "run": 56,
-            "block": 52,
-            "fight": 43,
-            "throw": 59,
-            "luck": 62,
-            "pronouns": "They/Them",
-            "civic_engagement": 52,
-            "alcohol_tolerance": 57,
-            "favorite_weapon": "Spear",
-            "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
-            "literate": true
-          }
-        },
-        {
           "name": "Oona Jane",
           "team": "The Brimstone Fire Eaters",
           "stats": {
@@ -385,46 +385,6 @@ export const GAMES: match[] = [
             "favorite_weapon": "Cudgel",
             "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
             "literate": true
-          }
-        }
-      ],
-      "inactivePlayers": [
-        {
-          "name": "Wylde Jutta",
-          "team": "The Brimstone Fire Eaters",
-          "stats": {
-            "pass": 63,
-            "catch": 61,
-            "run": 61,
-            "block": 49,
-            "fight": 67,
-            "throw": 51,
-            "luck": 52,
-            "pronouns": "She/Them",
-            "civic_engagement": 66,
-            "alcohol_tolerance": 52,
-            "favorite_weapon": "Voulge",
-            "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
-            "literate": true
-          }
-        },
-        {
-          "name": "Caves Cestar",
-          "team": "The Confluence Captains",
-          "stats": {
-            "pass": 54,
-            "catch": 52,
-            "run": 63,
-            "block": 50,
-            "fight": 60,
-            "throw": 55,
-            "luck": 66,
-            "pronouns": "He/Him",
-            "civic_engagement": 57,
-            "alcohol_tolerance": 54,
-            "favorite_weapon": "Maul",
-            "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
-            "literate": false
           }
         },
         {
@@ -447,25 +407,26 @@ export const GAMES: match[] = [
           }
         },
         {
-          "name": "Carnahan Laud",
-          "team": "The Confluence Captains",
+          "name": "Nigel Rothmuller",
+          "team": "The Brimstone Fire Eaters",
           "stats": {
-            "pass": 46,
-            "catch": 63,
-            "run": 73,
-            "block": 49,
-            "fight": 59,
-            "throw": 53,
-            "luck": 60,
-            "pronouns": "She/Her",
-            "civic_engagement": 62,
-            "alcohol_tolerance": 68,
-            "favorite_weapon": "Lance",
-            "pregame_ritual": "Eating a dandelion, stem and all.",
-            "literate": false
+            "pass": 58,
+            "catch": 60,
+            "run": 56,
+            "block": 52,
+            "fight": 43,
+            "throw": 59,
+            "luck": 62,
+            "pronouns": "They/Them",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+            "literate": true
           }
         }
-      ]
+      ],
+      "inactivePlayers": []
     },
     "awayTeam": {
       "name": "The Confluence Captains",
@@ -697,6 +658,25 @@ export const GAMES: match[] = [
       ],
       "activePlayers": [
         {
+          "name": "Ladew Evelina",
+          "team": "The Confluence Captains",
+          "stats": {
+            "pass": 56,
+            "catch": 65,
+            "run": 58,
+            "block": 63,
+            "fight": 65,
+            "throw": 64,
+            "luck": 71,
+            "pronouns": "She/Them",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        },
+        {
           "name": "Deach Sharlene",
           "team": "The Confluence Captains",
           "stats": {
@@ -754,6 +734,25 @@ export const GAMES: match[] = [
           }
         },
         {
+          "name": "Belding Chloe",
+          "team": "The Confluence Captains",
+          "stats": {
+            "pass": 53,
+            "catch": 65,
+            "run": 62,
+            "block": 72,
+            "fight": 58,
+            "throw": 61,
+            "luck": 42,
+            "pronouns": "She/Her",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Lance",
+            "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+            "literate": true
+          }
+        },
+        {
           "name": "Behl Berstine",
           "team": "The Confluence Captains",
           "stats": {
@@ -792,22 +791,22 @@ export const GAMES: match[] = [
           }
         },
         {
-          "name": "Vonni Geoff",
-          "team": "The Confluence Captains",
+          "name": "Nachison Icken",
+          "team": "The Brimstone Fire Eaters",
           "stats": {
-            "pass": 60,
-            "catch": 62,
-            "run": 57,
-            "block": 51,
-            "fight": 49,
-            "throw": 49,
-            "luck": 58,
-            "pronouns": "He/Him",
-            "civic_engagement": 67,
-            "alcohol_tolerance": 65,
-            "favorite_weapon": "Sap",
-            "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
-            "literate": false
+            "pass": 61,
+            "catch": 55,
+            "run": 43,
+            "block": 52,
+            "fight": 50,
+            "throw": 46,
+            "luck": 47,
+            "pronouns": "She/Them",
+            "civic_engagement": 42,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Claymore",
+            "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+            "literate": true
           }
         },
         {
@@ -826,6 +825,25 @@ export const GAMES: match[] = [
             "alcohol_tolerance": 68,
             "favorite_weapon": "Lance",
             "pregame_ritual": "Eating a dandelion, stem and all.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Campball Fink",
+          "team": "The Brimstone Fire Eaters",
+          "stats": {
+            "pass": 56,
+            "catch": 60,
+            "run": 51,
+            "block": 61,
+            "fight": 66,
+            "throw": 43,
+            "luck": 61,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
             "literate": false
           }
         },
@@ -849,44 +867,6 @@ export const GAMES: match[] = [
           }
         },
         {
-          "name": "Belding Chloe",
-          "team": "The Confluence Captains",
-          "stats": {
-            "pass": 53,
-            "catch": 65,
-            "run": 62,
-            "block": 72,
-            "fight": 58,
-            "throw": 61,
-            "luck": 42,
-            "pronouns": "She/Her",
-            "civic_engagement": 57,
-            "alcohol_tolerance": 47,
-            "favorite_weapon": "Lance",
-            "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
-            "literate": true
-          }
-        },
-        {
-          "name": "Ladew Evelina",
-          "team": "The Confluence Captains",
-          "stats": {
-            "pass": 56,
-            "catch": 65,
-            "run": 58,
-            "block": 63,
-            "fight": 65,
-            "throw": 64,
-            "luck": 71,
-            "pronouns": "She/Them",
-            "civic_engagement": 46,
-            "alcohol_tolerance": 56,
-            "favorite_weapon": "Axe",
-            "pregame_ritual": "Chugging a raw egg, shell and all.",
-            "literate": true
-          }
-        },
-        {
           "name": "Oona Jane",
           "team": "The Brimstone Fire Eaters",
           "stats": {
@@ -904,53 +884,7562 @@ export const GAMES: match[] = [
             "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
             "literate": true
           }
-        },
+        }
+      ],
+      "inactivePlayers": [
         {
-          "name": "Bollinger Susette",
-          "team": "The Brimstone Fire Eaters",
+          "name": "Vonni Geoff",
+          "team": "The Confluence Captains",
           "stats": {
-            "pass": 59,
-            "catch": 52,
-            "run": 46,
-            "block": 47,
-            "fight": 42,
-            "throw": 53,
-            "luck": 50,
+            "pass": 60,
+            "catch": 62,
+            "run": 57,
+            "block": 51,
+            "fight": 49,
+            "throw": 49,
+            "luck": 58,
             "pronouns": "He/Him",
+            "civic_engagement": 67,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Sap",
+            "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+            "literate": false
+          }
+        }
+      ]
+    },
+    "preGame": "Helloooo sports fans, and welcome to the Su'akour Bowl! This is your favorite announcer, Nok the Corrupter, coming to you live with what promises to be a truly spectacular preseason Trollball clash! The air here is thick with the smell of sulfur and anticipation, a perfect perfume for our sport! In one corner, we have the home team, the rough-and-tumble Brimstone Fire Eaters! These warriors are ready for anything, just look at Campball Fink out there stomping in a mud puddle with bare feet to get ready! That's the kind of grit you don't see from those polished Eponore 'heroes' like Sir Artorias, who probably spends an hour just polishing his own reflection. And in the other corner, visiting from their shiny mountain home, it's The Confluence Captains! They may look fancy, coming from a city run by a door enthusiast and a 'strangely beautiful' money priest, but don't let that fool you! Ladew Evelina is over there chugging a raw egg, shell and all, to prepare for the violence! They're just as hungry for bloodshed as the home team! Two very different teams, two very different cities, but one shared goal: glorious, unadulterated victory! Get ready folks, because the carnage is about to begin!",
+    "postGame": "WHAT A GAME! WHAT A SLOBBERKNOCKER! Folks, you have just witnessed Trollball at its finest here in the lovely, fetid Su'akour Bowl! The action started right from the get-go, with O'Conner Maighdlin of the Captains snatching the ball and making a valiant, but ultimately short, attempt at a score. But where one player fails, another succeeds! The ball landed right in the home team's two-point zone, where the ever-ready Behl Berstine scooped it up and slammed it home for the first score of the game! A beautiful play that put the Confluence Captains up by two! That's how you start a game, people! The Fire Eaters were not about to take that lying down, oh no! The field erupted into a beautiful symphony of destruction! Selimah Tully used that dagger to great effect, taking Richia Pazit out of the action, but Pazit got their revenge moments later, knocking Oona Jane out! It was a glorious, back-and-forth ballet of brutality! We saw fumbled catches, incredible runs, and enough knockouts to make a necromancer like Chairman Toland blush with envy. The Fire Eaters' own Bollinger Susette made a fantastic run, slipping past a block to get deep into enemy territory, showing the home crowd they were still in this fight! But oh, the drama! Just as Bollinger Susette tried to advance again, they were stonewalled by the Captains' Behl Berstine, and the ball was dropped! The tension was thicker than the fumes from the marsh! The Captains regained control, with Stephan Lisk making a great run of his own, only to also fall short of the goal line. We saw healers working overtime, players taking each other out in magnificent dual knockouts—it was pure, unadulterated chaos, the way the game is meant to be played! After a much-needed halftime break to patch up the wounded and re-sharpen the weapons, the second half began with the same blistering intensity. Oona Jane made a magnificent run for the Fire Eaters, driving the ball downfield and giving the home fans a spark of hope. But just as things were looking up, a brutal clash between Oona Jane and Richia Pazit saw them BOTH knocked out of the game, leaving the Trollball free for the taking! What a turn of events! The Captains' Deach Sharlene was johnny-on-the-spot, grabbing the loose ball and charging into the Fire Eaters' two-point zone, setting up another prime scoring opportunity! But again, a heroic defensive stand by Glassman Solley forced a fumble! The ball was live again! And who should come up with it but Vonni Geoff for the Confluence Captains! With the game on the line, Geoff saw an opening and took it, dodging a block from Oona Jane and finding the goal! ANOTHER SCORE FOR THE CAPTAINS! That, my friends, was the nail in the coffin! The final horn has sounded, and your final score is The Confluence Captains: 2, The Brimstone Fire Eaters: 0! A hard-fought victory for the visitors in this preseason exhibition! Let's hear it for both teams, who left it all on the field today! What a magnificent display of violence, skill, and mayhem! This is Nok the Corrupter, signing off!",
+    "week": 0,
+    "homeScore": 0,
+    "awayScore": 2,
+    "slug": "brimstone-confluence-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The Desert Spectres",
+      "slug": "desert",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 61,
+      "stadium": {
+        "name": "The Sun-Baked Bowl",
+        "location": "The Great Desert",
+        "description": "A simple, deep bowl dug from clay and sandstone on the edge of a caravan oasis. The heat is oppressive, and the 'stands' are just blankets laid on the sun-baked dunes.",
+        "modifiers": [
+          "Intense Heat",
+          "Sandstorm",
+          "Dehydration"
+        ]
+      },
+      "healer": {
+        "name": "Verlee Dacia",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 54,
+          "catch": 53,
+          "run": 68,
+          "block": 50,
+          "fight": 40,
+          "throw": 47,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Fidellia Mozelle",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 40,
+            "catch": 57,
+            "run": 60,
+            "block": 56,
+            "fight": 65,
+            "throw": 67,
+            "luck": 57,
+            "pronouns": "She/Them",
             "civic_engagement": 56,
             "alcohol_tolerance": 60,
-            "favorite_weapon": "Hatchet",
-            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Muscolo Jaehne",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 58,
+            "catch": 50,
+            "run": 53,
+            "block": 39,
+            "fight": 60,
+            "throw": 53,
+            "luck": 49,
+            "pronouns": "They/Them",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Eileen Mikihisa",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 45,
+            "catch": 54,
+            "run": 59,
+            "block": 60,
+            "fight": 55,
+            "throw": 55,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Longsword",
+            "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Bahr Ethelstan",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 62,
+            "catch": 61,
+            "run": 62,
+            "block": 49,
+            "fight": 60,
+            "throw": 52,
+            "luck": 53,
+            "pronouns": "They/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Humming a tune they believe only they know.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Heyes Iver",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 55,
+            "catch": 60,
+            "run": 61,
+            "block": 51,
+            "fight": 54,
+            "throw": 71,
+            "luck": 49,
+            "pronouns": "He/Him",
+            "civic_engagement": 67,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Woodsman's Axe",
+            "pregame_ritual": "Tugging on their left earlobe three times.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Angelita Darce",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 52,
+            "catch": 50,
+            "run": 58,
+            "block": 53,
+            "fight": 56,
+            "throw": 58,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 62,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Bardiche",
+            "pregame_ritual": "Shaving one half of their mustache for important games.",
             "literate": true
           }
         },
         {
-          "name": "Selimah Tully",
-          "team": "The Brimstone Fire Eaters",
+          "name": "Shelman McQuoid",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 58,
+            "catch": 50,
+            "run": 53,
+            "block": 44,
+            "fight": 54,
+            "throw": 65,
+            "luck": 65,
+            "pronouns": "He/Them",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Pike",
+            "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lovash Marius",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 52,
+            "catch": 46,
+            "run": 42,
+            "block": 56,
+            "fight": 43,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Unni Schlicher",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 59,
+            "catch": 63,
+            "run": 55,
+            "block": 59,
+            "fight": 64,
+            "throw": 48,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 42,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Organizing a small betting pool on who will score first.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Huesman Ring",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 48,
+            "catch": 56,
+            "run": 41,
+            "block": 48,
+            "fight": 58,
+            "throw": 38,
+            "luck": 44,
+            "pronouns": "He/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Military Fork",
+            "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Fidellia Mozelle",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 40,
+            "catch": 57,
+            "run": 60,
+            "block": 56,
+            "fight": 65,
+            "throw": 67,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Muscolo Jaehne",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 58,
+            "catch": 50,
+            "run": 53,
+            "block": 39,
+            "fight": 60,
+            "throw": 53,
+            "luck": 49,
+            "pronouns": "They/Them",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Eileen Mikihisa",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 45,
+            "catch": 54,
+            "run": 59,
+            "block": 60,
+            "fight": 55,
+            "throw": 55,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Longsword",
+            "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Bahr Ethelstan",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 62,
+            "catch": 61,
+            "run": 62,
+            "block": 49,
+            "fight": 60,
+            "throw": 52,
+            "luck": 53,
+            "pronouns": "They/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Humming a tune they believe only they know.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Heyes Iver",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 55,
+            "catch": 60,
+            "run": 61,
+            "block": 51,
+            "fight": 54,
+            "throw": 71,
+            "luck": 49,
+            "pronouns": "He/Him",
+            "civic_engagement": 67,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Woodsman's Axe",
+            "pregame_ritual": "Tugging on their left earlobe three times.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Angelita Darce",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 52,
+            "catch": 50,
+            "run": 58,
+            "block": 53,
+            "fight": 56,
+            "throw": 58,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 62,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Bardiche",
+            "pregame_ritual": "Shaving one half of their mustache for important games.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Shelman McQuoid",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 58,
+            "catch": 50,
+            "run": 53,
+            "block": 44,
+            "fight": 54,
+            "throw": 65,
+            "luck": 65,
+            "pronouns": "He/Them",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Pike",
+            "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Unni Schlicher",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 59,
+            "catch": 63,
+            "run": 55,
+            "block": 59,
+            "fight": 64,
+            "throw": 48,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 42,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Organizing a small betting pool on who will score first.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Huesman Ring",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 48,
+            "catch": 56,
+            "run": 41,
+            "block": 48,
+            "fight": 58,
+            "throw": 38,
+            "luck": 44,
+            "pronouns": "He/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Military Fork",
+            "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Darin Berliner",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 62,
+            "catch": 60,
+            "run": 48,
+            "block": 56,
+            "fight": 63,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 56,
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": false,
+            "favorite_weapon": "Bardiche"
+          }
+        },
+        {
+          "name": "Rese Halpern",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 62,
+            "catch": 50,
+            "run": 68,
+            "block": 56,
+            "fight": 51,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "She/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Club",
+            "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Drona Jacklin",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 51,
+            "catch": 59,
+            "run": 51,
+            "block": 45,
+            "fight": 52,
+            "throw": 51,
+            "luck": 59,
+            "pronouns": "She/Her",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Organizing a small betting pool on who will score first.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Lovash Marius",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 52,
+            "catch": 46,
+            "run": 42,
+            "block": 56,
+            "fight": 43,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+            "literate": true
+          }
+        }
+      ]
+    },
+    "awayTeam": {
+      "name": "The Greenwatch",
+      "slug": "greenwatch",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 53,
+      "stadium": {
+        "name": "The Oakmaul Grounds",
+        "location": "Hafting",
+        "description": "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+        "modifiers": [
+          "Ritual Focus",
+          "Scarred Oak's Shadow",
+          "Hallowed Ground"
+        ]
+      },
+      "healer": {
+        "name": "Nariko Javed",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 52,
+          "catch": 55,
+          "run": 58,
+          "block": 56,
+          "fight": 50,
+          "throw": 55,
+          "luck": 73,
+          "pronouns": "They/Them",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Wiggling their fingers in a complex, magical-looking pattern.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Madea Mensch",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 51,
+            "catch": 52,
+            "run": 54,
+            "block": 55,
+            "fight": 54,
+            "throw": 48,
+            "luck": 63,
+            "pronouns": "He/Him",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Goldenberg Rimola",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 79,
+            "catch": 59,
+            "run": 54,
+            "block": 60,
+            "fight": 50,
+            "throw": 54,
+            "luck": 42,
+            "pronouns": "He/Them",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Attempting to communicate with birds.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Herriott Dhiren",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 53,
+            "catch": 51,
+            "run": 56,
+            "block": 51,
+            "fight": 56,
+            "throw": 55,
+            "luck": 59,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Nobe Haukom",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 53,
+            "catch": 62,
+            "run": 44,
+            "block": 53,
+            "fight": 49,
+            "throw": 51,
+            "luck": 55,
+            "pronouns": "He/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Mallet",
+            "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Verne Methuselah",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 51,
+            "catch": 60,
+            "run": 60,
+            "block": 61,
+            "fight": 61,
+            "throw": 59,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Morning Star",
+            "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Drona Jacklin",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 51,
+            "catch": 59,
+            "run": 51,
+            "block": 45,
+            "fight": 52,
+            "throw": 51,
+            "luck": 59,
+            "pronouns": "She/Her",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Organizing a small betting pool on who will score first.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Troy Jorgan",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 56,
+            "catch": 62,
+            "run": 64,
+            "block": 64,
+            "fight": 59,
+            "throw": 55,
+            "luck": 45,
+            "pronouns": "They/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Rese Halpern",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 62,
+            "catch": 50,
+            "run": 68,
+            "block": 56,
+            "fight": 51,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "She/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Club",
+            "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Salahi Bushey",
+          "team": "The Greenwatch",
           "stats": {
             "pass": 57,
-            "catch": 54,
-            "run": 57,
-            "block": 60,
-            "fight": 52,
-            "throw": 53,
-            "luck": 48,
+            "catch": 55,
+            "run": 60,
+            "block": 50,
+            "fight": 68,
+            "throw": 62,
+            "luck": 57,
             "pronouns": "He/Him",
-            "civic_engagement": 61,
-            "alcohol_tolerance": 58,
-            "favorite_weapon": "Dagger",
-            "pregame_ritual": "Asking the referee to bless their weapon.",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Sap",
+            "pregame_ritual": "Anointing their forehead with morning dew.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Darin Berliner",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 62,
+            "catch": 60,
+            "run": 48,
+            "block": 56,
+            "fight": 63,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 56,
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": false,
+            "favorite_weapon": "Bardiche"
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Madea Mensch",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 51,
+            "catch": 52,
+            "run": 54,
+            "block": 55,
+            "fight": 54,
+            "throw": 48,
+            "luck": 63,
+            "pronouns": "He/Him",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Herriott Dhiren",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 53,
+            "catch": 51,
+            "run": 56,
+            "block": 51,
+            "fight": 56,
+            "throw": 55,
+            "luck": 59,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Nobe Haukom",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 53,
+            "catch": 62,
+            "run": 44,
+            "block": 53,
+            "fight": 49,
+            "throw": 51,
+            "luck": 55,
+            "pronouns": "He/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Mallet",
+            "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Verne Methuselah",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 51,
+            "catch": 60,
+            "run": 60,
+            "block": 61,
+            "fight": 61,
+            "throw": 59,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Morning Star",
+            "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Drona Jacklin",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 51,
+            "catch": 59,
+            "run": 51,
+            "block": 45,
+            "fight": 52,
+            "throw": 51,
+            "luck": 59,
+            "pronouns": "She/Her",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Organizing a small betting pool on who will score first.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Troy Jorgan",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 56,
+            "catch": 62,
+            "run": 64,
+            "block": 64,
+            "fight": 59,
+            "throw": 55,
+            "luck": 45,
+            "pronouns": "They/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Rese Halpern",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 62,
+            "catch": 50,
+            "run": 68,
+            "block": 56,
+            "fight": 51,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "She/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Club",
+            "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Salahi Bushey",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 57,
+            "catch": 55,
+            "run": 60,
+            "block": 50,
+            "fight": 68,
+            "throw": 62,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Sap",
+            "pregame_ritual": "Anointing their forehead with morning dew.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Darin Berliner",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 62,
+            "catch": 60,
+            "run": 48,
+            "block": 56,
+            "fight": 63,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 56,
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": false,
+            "favorite_weapon": "Bardiche"
+          }
+        },
+        {
+          "name": "Goldenberg Rimola",
+          "team": "The Greenwatch",
+          "stats": {
+            "pass": 79,
+            "catch": 59,
+            "run": 54,
+            "block": 60,
+            "fight": 50,
+            "throw": 54,
+            "luck": 42,
+            "pronouns": "He/Them",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Attempting to communicate with birds.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lovash Marius",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 52,
+            "catch": 46,
+            "run": 42,
+            "block": 56,
+            "fight": 43,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Fidellia Mozelle",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 40,
+            "catch": 57,
+            "run": 60,
+            "block": 56,
+            "fight": 65,
+            "throw": 67,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Eileen Mikihisa",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 45,
+            "catch": 54,
+            "run": 59,
+            "block": 60,
+            "fight": 55,
+            "throw": 55,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Longsword",
+            "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Unni Schlicher",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 59,
+            "catch": 63,
+            "run": 55,
+            "block": 59,
+            "fight": 64,
+            "throw": 48,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 42,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Organizing a small betting pool on who will score first.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Bahr Ethelstan",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 62,
+            "catch": 61,
+            "run": 62,
+            "block": 49,
+            "fight": 60,
+            "throw": 52,
+            "luck": 53,
+            "pronouns": "They/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Humming a tune they believe only they know.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Bahr Ethelstan",
+          "team": "The Desert Spectres",
+          "stats": {
+            "pass": 62,
+            "catch": 61,
+            "run": 62,
+            "block": 49,
+            "fight": 60,
+            "throw": 52,
+            "luck": 53,
+            "pronouns": "They/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Humming a tune they believe only they know.",
             "literate": false
           }
         }
       ],
       "inactivePlayers": []
     },
-    "preGame": "HELLOOOOOO TROLLBALL FANS, and welcome back to another glorious season of pain! This is your favorite fiend, Nok the Corrupter, coming to you live from the stinking, sulfurous pits of the Su'akour Bowl! What a matchup we have for you today, folks! A true clash of civilizations! In this corner, the visiting Confluence Captains, hailing from their shiny, opulent Glowstone Terrace, probably polished with the tears of the poor. They represent the so-called 'progress' of the Guild of the Black Sky, a group of fellas like Cyfnerth the Butcher who at least understands a good time, but I'm sure the rest of them are too busy counting their gold to watch a real sport! And in this corner, our home team, the rough-and-tumble Brimstone Fire Eaters! They don't need fancy stadiums; they have grit, they have grime, and they have the home-field advantage of these delightful noxious fumes! The players are getting ready, and their rituals are a sight to behold! I see the Captains' Ladew Evelina getting pumped by chugging a raw egg, shell and all! That's the kind of competitor you want! Meanwhile, the Fire Eaters' own Bollinger Susette is preparing by getting a teammate to punch him square in the shoulder! You won't see any of those paladins from Eponore doing that; they'd probably break a nail! This is going to be a slobberknocker, folks, a real donnybrook! The whistle is about to blow, so grab your grog and settle in for some beautiful, beautiful violence!",
-    "postGame": "WHAT A GAME, FOLKS! WHAT A GAME! An absolute masterclass in brutality and scoring from the visiting team! When the dust settled and the last bits of armor were swept off the field, the final score stood: The Confluence Captains, 5, and your Brimstone Fire Eaters, 2! A tough loss for the home team, but what a spectacle they gave us!\n\nThe action started fast and furious! The Captains' Richia Pazit grabbed the ball, but was immediately shut down by Selimah Tully of the Fire Eaters! A tremendous block and steal to get things going!\n\nBut then, oh, you love to see it! Tully immediately gets into a scrap with Belding Chloe, and BAM! A double knockout! Both players are dragged off the field, their weapons, a Dagger and a Lance, having done their glorious work! That's the spirit of Trollball!\n\nThe loose ball was scooped up by the Captains' Carnahan Laud, who was off like a shot, running it deep into Fire Eater territory! We saw another beautiful double KO moments later, with Richia Pazit and Glassman Solley taking each other out of the action! The healers were certainly earning their pay today!\n\nIt all paid off for the visitors when Carnahan Laud punched it in for the first score of the game! A magnificent run, slipping right past Lowson Hersh to put the Captains on the board! The Fire Eaters tried to answer back, with Campball Fink leading a charge, but the first half was defined by pure, unadulterated carnage!\n\nWe saw Oona Jane and Ladew Evelina trade blows and knock each other senseless! We saw Caves Cestar lay out Bollinger Susette with a Maul! The ball changed hands, bodies hit the floor, and the crowd roared! This is what those so-called 'heroes' like Sir Tanos the Paladin just don't understand! This isn't about 'honor,' it's about victory!\n\nAfter the half, the Captains came out with a vengeance! Richia Pazit started things off with a beautiful throw to Deach Sharlene, who promptly shot and scored two more points! An incredible play! But they weren't done! Not a minute later, Behl Berstine stunned the crowd by launching a shot from CENTER FIELD that found the goal! Two more points for the Captains, who were simply on fire!\n\nThe Brimstone boys and girls didn't give up, though! Nachison Icken showed incredible heart, weaving through the defense on a spectacular multi-zone run and scoring two points to keep hope alive! It was a brilliant display of athleticism that brought the home crowd to its feet!\n\nBut in the end, the Captains' defense and overwhelming offense were just too much. The game ended with a flurry of hits, another double knockout between Caves Cestar and Wylde Jutta, and the ball loose on the field after a fantastic block by O'Conner Maighdlin. The Confluence Captains proved today that they are a force to be reckoned with!\n\nIt was a glorious, violent, high-scoring affair, folks! Everything we could ask for in a game of Trollball! This is Nok the Corrupter, signing off and reminding you that heroes are temporary, but a good knockout lasts forever!",
+    "preGame": "Helloooooo Trollball fanatics, and welcome back to the greatest sport this side of the abyss! This is your favorite fiend, Nok the Corrupter, coming to you live from the blistering sands of The Sun-Baked Bowl! The heat is rising, the crowd is roaring, and the air is thick with the sweet, sweet smell of impending violence!\n\nWhat a matchup we have for you today, folks! It's the first game of the pre-season, a time for shaking off the rust and putting on a real show of force! In one corner, the visiting team, The Greenwatch! Hailing from those oh-so-sacred Oakmaul Grounds, they probably think the trees are on their side. Let's hope they play better than their so-called hero patrons, like that prim-and-proper Sir Randy and his 'fancy' bow. A bow won't help you here, pal!\n\nAnd in the other corner, your hometown heroes, the daunting, the dazzling, The Desert Spectres! These warriors are no strangers to the heat, and they're looking to give The Greenwatch a very warm welcome. I've got my eye on their player Angelita Darce, who I'm told shaves half their mustache for important games. Now that's commitment! It's a far cry from some of the Greenwatch rituals, like Verne Methuselah rubbing the ball in their armpits for 'grip'. You just can't make this stuff up! The whistle's about to blow, folks, so grab your grog and settle in! This is gonna be a barn burner!",
+    "postGame": "And that's the final whistle, folks! What a game! What a glorious, brutal, beautiful game of Trollball! Your Desert Spectres have done it, defending their home turf and sending The Greenwatch back to their trees with a final score of one to nothing!\n\nThe action started hot and heavy right from the get-go! We saw some spectacular brawling early on, with Madea Mensch sending Bahr Ethelstan for a little nap, only to see Lovash Marius and Goldenberg Rimola take each other out in a magnificent double knockout! That's the kind of symmetry that brings a tear to this demon's eye.\n\nThe first half was a masterclass in turnovers! Greenwatch's Darin Berliner tried to make a run for it but was stuffed by Bahr Ethelstan, who snatched the ball right out of their hands! Ethelstan then tried a spectacular long shot from Center Field! It didn't quite make it, but what an arm! What ambition!\n\nThe ball was like a greased goblin out there, I tell ya! Greenwatch would get it, move it up a bit, then BAM! Blocked and dropped! Herriott Dhiren tried to be a hero, got stopped. Troy Jorgan picked it up, got stopped! The Desert Spectres' defense was a wall of sun-baked brick!\n\nThen we saw some of the most inspiring fisticuffs of the match! Salahi Bushey and Angelita Darce traded blows and both went down! Rese Halpern laid out Shelman McQuoid with their club! It was a beautiful symphony of destruction leading into halftime.\n\nThe second half began, and the Spectres came out with fire in their bellies! Huesman Ring made a fantastic run deep into Greenwatch territory, only to be stopped and robbed by Drona Jacklin! What a steal!\n\nBut wait, the ball just didn't want a permanent home! Drona Jacklin ran it back, got blocked by Eileen Mikihisa, who took it right back! Then Mikihisa was blocked by Jacklin and dropped it AGAIN! I haven't seen this many fumbles since Sir Garon Ironrock tried to explain his tax policy!\n\nThe chaos continued, folks! We saw friendly fire as Eileen Mikihisa knocked out their own teammate! We saw a player, Bahr Ethelstan, knock *themselves* out with their own Blackjack! Not once, but TWICE! You have to respect that level of pure, unadulterated mayhem! That's a play they'll be talking about for ages!\n\nThen, in the dying moments of the game, the hero emerged! With the ball in the 2-point zone, Heyes Iver tucked it under their arm and ran like a bat out of my own home! They dodged, they weaved, they powered through a block attempt from Lovash Marius and... SCORES! The Desert Spectres take the lead! The crowd goes wild!\n\nThat was the nail in the coffin, folks. The Greenwatch just couldn't answer back. A hard-fought, low-scoring, and incredibly violent game ends with a well-deserved victory for The Desert Spectres. Maybe next time The Wardens can send Levania to distract the Spectres with shiny things, because their Trollball skills certainly weren't enough today! This is Nok the Corrupter, signing off! What a day! What a lovely day!",
+    "week": 0,
+    "homeScore": 1,
+    "awayScore": 0,
+    "slug": "desert-greenwatch-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The Ebon Gate Corruptors",
+      "slug": "ebon-gate",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 59,
+      "stadium": {
+        "name": "The Sinking Field",
+        "location": "Ebon Gate",
+        "description": "A notoriously poorly-maintained stadium built on reclaimed marshland. The ground is unstable, often waterlogged, and sections of the stands are known to collapse.",
+        "modifiers": [
+          "Thick Mud",
+          "Noxious Fumes",
+          "Sinkhole"
+        ]
+      },
+      "healer": {
+        "name": "Terle Chenay",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 62,
+          "catch": 64,
+          "run": 70,
+          "block": 58,
+          "fight": 46,
+          "throw": 62,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": false
+        }
+      },
+      "players": [
+        {
+          "name": "Bullion Iglesias",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 51,
+            "catch": 62,
+            "run": 55,
+            "block": 52,
+            "fight": 52,
+            "throw": 62,
+            "luck": 57,
+            "pronouns": "He/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Meditating silently in the corner of the locker room.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Olnek Vizzone",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 54,
+            "catch": 48,
+            "run": 53,
+            "block": 59,
+            "fight": 49,
+            "throw": 63,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Sickle",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "As Utter",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 56,
+            "catch": 57,
+            "run": 48,
+            "block": 50,
+            "fight": 67,
+            "throw": 38,
+            "luck": 51,
+            "pronouns": "He/Him",
+            "civic_engagement": 70,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Greatsword",
+            "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Smith Syst",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 51,
+            "catch": 59,
+            "run": 49,
+            "block": 47,
+            "fight": 63,
+            "throw": 59,
+            "luck": 52,
+            "pronouns": "She/Her",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Voulge",
+            "pregame_ritual": "Daring a teammate to eat a live worm.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Napoleon Anzovin",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 50,
+            "catch": 63,
+            "run": 52,
+            "block": 45,
+            "fight": 59,
+            "throw": 49,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Simsar Carrelli",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 68,
+            "catch": 54,
+            "run": 53,
+            "block": 56,
+            "fight": 53,
+            "throw": 49,
+            "luck": 68,
+            "pronouns": "He/Him",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Billhook",
+            "pregame_ritual": "Counting the number of clouds in the sky.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Ahasuerus An",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 39,
+            "catch": 56,
+            "run": 49,
+            "block": 61,
+            "fight": 51,
+            "throw": 63,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 64,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Ellette Paz",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 54,
+            "catch": 49,
+            "run": 54,
+            "block": 65,
+            "fight": 54,
+            "throw": 66,
+            "luck": 44,
+            "pronouns": "She/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Judi Carrington",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 61,
+            "catch": 53,
+            "run": 58,
+            "block": 53,
+            "fight": 55,
+            "throw": 56,
+            "luck": 45,
+            "pronouns": "He/Him",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Estoc",
+            "pregame_ritual": "Singing a sea shanty completely out of tune.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Amedeo Bari",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 60,
+            "catch": 54,
+            "run": 67,
+            "block": 53,
+            "fight": 53,
+            "throw": 53,
+            "luck": 45,
+            "pronouns": "He/Him",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Rapier",
+            "pregame_ritual": "Polishing their boots with bacon grease.",
+            "literate": false
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Bullion Iglesias",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 51,
+            "catch": 62,
+            "run": 55,
+            "block": 52,
+            "fight": 52,
+            "throw": 62,
+            "luck": 57,
+            "pronouns": "He/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Meditating silently in the corner of the locker room.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Olnek Vizzone",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 54,
+            "catch": 48,
+            "run": 53,
+            "block": 59,
+            "fight": 49,
+            "throw": 63,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Sickle",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "As Utter",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 56,
+            "catch": 57,
+            "run": 48,
+            "block": 50,
+            "fight": 67,
+            "throw": 38,
+            "luck": 51,
+            "pronouns": "He/Him",
+            "civic_engagement": 70,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Greatsword",
+            "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Smith Syst",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 51,
+            "catch": 59,
+            "run": 49,
+            "block": 47,
+            "fight": 63,
+            "throw": 59,
+            "luck": 52,
+            "pronouns": "She/Her",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Voulge",
+            "pregame_ritual": "Daring a teammate to eat a live worm.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Napoleon Anzovin",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 50,
+            "catch": 63,
+            "run": 52,
+            "block": 45,
+            "fight": 59,
+            "throw": 49,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Simsar Carrelli",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 68,
+            "catch": 54,
+            "run": 53,
+            "block": 56,
+            "fight": 53,
+            "throw": 49,
+            "luck": 68,
+            "pronouns": "He/Him",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Billhook",
+            "pregame_ritual": "Counting the number of clouds in the sky.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Ahasuerus An",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 39,
+            "catch": 56,
+            "run": 49,
+            "block": 61,
+            "fight": 51,
+            "throw": 63,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 64,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Ellette Paz",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 54,
+            "catch": 49,
+            "run": 54,
+            "block": 65,
+            "fight": 54,
+            "throw": 66,
+            "luck": 44,
+            "pronouns": "She/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Amedeo Bari",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 60,
+            "catch": 54,
+            "run": 67,
+            "block": 53,
+            "fight": 53,
+            "throw": 53,
+            "luck": 45,
+            "pronouns": "He/Him",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Rapier",
+            "pregame_ritual": "Polishing their boots with bacon grease.",
+            "literate": false
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Judi Carrington",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 61,
+            "catch": 53,
+            "run": 58,
+            "block": 53,
+            "fight": 55,
+            "throw": 56,
+            "luck": 45,
+            "pronouns": "He/Him",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Estoc",
+            "pregame_ritual": "Singing a sea shanty completely out of tune.",
+            "literate": true
+          }
+        }
+      ]
+    },
+    "awayTeam": {
+      "name": "The Zmeigorod Snessengers",
+      "slug": "zmeigorod",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 53,
+      "stadium": {
+        "name": "The Serpent's Pass",
+        "location": "Zmeigorod, just west of the lumber mill",
+        "modifiers": [
+          "Altitude Sickness",
+          "Sudden Downpour",
+          "Rockslide"
+        ],
+        "description": "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it."
+      },
+      "healer": {
+        "name": "Waldon Tadeo",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 55,
+          "block": 56,
+          "fight": 54,
+          "throw": 60,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+          "literate": false
+        }
+      },
+      "players": [
+        {
+          "name": "Delija Dowling",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 47,
+            "catch": 55,
+            "run": 50,
+            "block": 51,
+            "fight": 53,
+            "throw": 56,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Northway Orran",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 54,
+            "catch": 49,
+            "run": 60,
+            "block": 55,
+            "fight": 66,
+            "throw": 53,
+            "luck": 53,
+            "pronouns": "She/Them",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Machete",
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Evalyn Pierrepont",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 57,
+            "catch": 49,
+            "run": 66,
+            "block": 54,
+            "fight": 48,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Rose Kluge",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 51,
+            "catch": 54,
+            "run": 63,
+            "block": 49,
+            "fight": 52,
+            "throw": 52,
+            "luck": 55,
+            "pronouns": "She/Her",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Cudgel",
+            "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Gere Cordelie",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 55,
+            "catch": 47,
+            "run": 42,
+            "block": 68,
+            "fight": 53,
+            "throw": 48,
+            "luck": 46,
+            "pronouns": "She/Her",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 47,
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": true,
+            "favorite_weapon": "Spiked Gauntlet"
+          }
+        },
+        {
+          "name": "Kleinstein MacGregor",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 43,
+            "catch": 59,
+            "run": 61,
+            "block": 53,
+            "fight": 52,
+            "throw": 59,
+            "luck": 68,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Machete",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Avaria Revell",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 53,
+            "catch": 46,
+            "run": 67,
+            "block": 50,
+            "fight": 54,
+            "throw": 57,
+            "luck": 61,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Bastard Sword",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Alded Sanjay",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 45,
+            "catch": 61,
+            "run": 56,
+            "block": 54,
+            "fight": 51,
+            "throw": 61,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "War Scythe",
+            "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Arni Griffith",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 47,
+            "catch": 62,
+            "run": 43,
+            "block": 56,
+            "fight": 51,
+            "throw": 55,
+            "luck": 53,
+            "pronouns": "He/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Woodsman's Axe",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Dare Wynnie",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 64,
+            "catch": 54,
+            "run": 50,
+            "block": 54,
+            "fight": 62,
+            "throw": 52,
+            "luck": 59,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+            "literate": false
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Delija Dowling",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 47,
+            "catch": 55,
+            "run": 50,
+            "block": 51,
+            "fight": 53,
+            "throw": 56,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Rose Kluge",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 51,
+            "catch": 54,
+            "run": 63,
+            "block": 49,
+            "fight": 52,
+            "throw": 52,
+            "luck": 55,
+            "pronouns": "She/Her",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Cudgel",
+            "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Gere Cordelie",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 55,
+            "catch": 47,
+            "run": 42,
+            "block": 68,
+            "fight": 53,
+            "throw": 48,
+            "luck": 46,
+            "pronouns": "She/Her",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 47,
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": true,
+            "favorite_weapon": "Spiked Gauntlet"
+          }
+        },
+        {
+          "name": "Kleinstein MacGregor",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 43,
+            "catch": 59,
+            "run": 61,
+            "block": 53,
+            "fight": 52,
+            "throw": 59,
+            "luck": 68,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Machete",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Avaria Revell",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 53,
+            "catch": 46,
+            "run": 67,
+            "block": 50,
+            "fight": 54,
+            "throw": 57,
+            "luck": 61,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Bastard Sword",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Arni Griffith",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 47,
+            "catch": 62,
+            "run": 43,
+            "block": 56,
+            "fight": 51,
+            "throw": 55,
+            "luck": 53,
+            "pronouns": "He/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Woodsman's Axe",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Dare Wynnie",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 64,
+            "catch": 54,
+            "run": 50,
+            "block": 54,
+            "fight": 62,
+            "throw": 52,
+            "luck": 59,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Evalyn Pierrepont",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 57,
+            "catch": 49,
+            "run": 66,
+            "block": 54,
+            "fight": 48,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+            "literate": false
+          }
+        },
+        {
+          "name": "As Utter",
+          "team": "The Ebon Gate Corruptors",
+          "stats": {
+            "pass": 56,
+            "catch": 57,
+            "run": 48,
+            "block": 50,
+            "fight": 67,
+            "throw": 38,
+            "luck": 51,
+            "pronouns": "He/Him",
+            "civic_engagement": 70,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Greatsword",
+            "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Northway Orran",
+          "team": "The Zmeigorod Snessengers",
+          "stats": {
+            "pass": 54,
+            "catch": 49,
+            "run": 60,
+            "block": 55,
+            "fight": 66,
+            "throw": 53,
+            "luck": 53,
+            "pronouns": "She/Them",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Machete",
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": false
+          }
+        }
+      ],
+      "inactivePlayers": []
+    },
+    "preGame": "Helloooooo Trollball fanatics, and welcome to another glorious pre-season exhibition of pain and prowess! This is your favorite demonic announcer, Nok the Corrupter, coming to you live from the delightfully unstable Sinking Field in Ebon Gate! What a matchup we have for you today, folks! In this corner, the hometown heroes of havoc, my very own Ebon Gate Corruptors! And in the other corner, trekking all the way from that swamp they call a home, The Zmeigorod Snessengers! The air here is thick with noxious fumes and anticipation, a perfect day for Trollball! The Corruptors are looking ready to rumble, with Smith Syst already daring teammates to eat live worms to get the blood pumping! That’s the kind of dedication those so-called 'heroes' like Valos the Eternal just don't understand! Meanwhile, the Snessengers are preparing with their own... unique methods. I see Delija Dowling chugging a raw egg, shell and all! Golly, what fortitude! This is going to be a slobberknocker, a real donnybrook, and you’ve got the best seat in the house!",
+    "postGame": "What a game! What a game, folks! If your heart is still beating, you weren't paying attention! That was pure, unadulterated Trollball from start to finish! The action kicked off immediately with Kleinstein MacGregor of the Snessengers scooping up that beautiful ball. But before you could even blink, Ahasuerus An of the Corruptors laid out Evalyn Pierrepont with a lovely swing of their Talwar! That's how you say hello in Ebon Gate! The Snessengers tried to get something going, but the ball was just too slippery. Ellette Paz sent Northway Orran to the sidelines for a quick nap with a Blackjack, showing some real hometown muscle! But the Snessengers answered back! Kleinstein MacGregor, after a failed attempt, finally connected with Dare Wynnie for a magnificent advance! What an arm on that one! Wynnie then took matters into their own hands, running the ball right into the 2-point zone! The crowd was on its feet! But tragedy strikes! A fumble on the pass to Gere Cordelie, and the ball is loose! Olnek Vizzone of the Corruptors pounces on it! The momentum swings, see! The hitting was just spectacular! We had a double knockout, a thing of sheer beauty, as Smith Syst and Northway Orran took each other out of the play! You just love to see it! Olnek Vizzone tried to run it, got blocked, dropped the ball, picked it RIGHT back up, and charged into Home Field! The tenacity! The grit! Then it was overtime, folks! OVERTIME! You can't write this stuff! The Corruptors' Amedeo Bari got the ball, but in a stunning turn of events, was blocked by Evalyn Pierrepont, who ripped the ball away! What a steal! Pierrepont wasn't done, running it deep into scoring territory before finding Rose Kluge with a perfect pass! Kluge dodged a block from Ellette Paz and... SCORES! She scores! The Zmeigorod Snessengers win it in overtime! Holy smokes! While my beloved Corruptors may have fallen today, the real winner was the violence! What a beautiful, brutal game! Your final score: The Zmeigorod Snessengers 3, The Ebon Gate Corruptors 2! Now that's entertainment you won't get from those preening 'heroes' like Sir Tanos!",
     "week": 0,
     "homeScore": 2,
-    "awayScore": 5,
-    "slug": "brimstone-confluence-0"
+    "awayScore": 3,
+    "slug": "ebon-gate-zmeigorod-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The Haven Lights",
+      "slug": "haven",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 55,
+      "stadium": {
+        "name": "The Aegis Field",
+        "location": "Haven (Temple of Light Compound)",
+        "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+        "modifiers": [
+          "Hallowed Ground",
+          "Shield's Watch",
+          "Twinlight's Glow"
+        ]
+      },
+      "healer": {
+        "name": "Riffle Harrington",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 49,
+          "run": 49,
+          "block": 43,
+          "fight": 66,
+          "throw": 52,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": false
+        }
+      },
+      "players": [
+        {
+          "name": "Shiroma Salim",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 50,
+            "catch": 51,
+            "run": 54,
+            "block": 55,
+            "fight": 54,
+            "throw": 62,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Zwart Bunns",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 63,
+            "catch": 66,
+            "run": 51,
+            "block": 51,
+            "fight": 47,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 40,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Cestus",
+            "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Riffle Heyde",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 55,
+            "catch": 56,
+            "run": 48,
+            "block": 53,
+            "fight": 50,
+            "throw": 44,
+            "luck": 48,
+            "pronouns": "They/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Tybi Reo",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 55,
+            "catch": 48,
+            "run": 66,
+            "block": 56,
+            "fight": 55,
+            "throw": 48,
+            "luck": 50,
+            "pronouns": "She/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Berkin Waters",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 51,
+            "catch": 46,
+            "run": 58,
+            "block": 50,
+            "fight": 54,
+            "throw": 60,
+            "luck": 49,
+            "pronouns": "He/Him",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Farand Keil",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 57,
+            "catch": 49,
+            "run": 55,
+            "block": 37,
+            "fight": 50,
+            "throw": 64,
+            "luck": 48,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Whip",
+            "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Wieren Ivar",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 66,
+            "catch": 63,
+            "run": 52,
+            "block": 54,
+            "fight": 64,
+            "throw": 42,
+            "luck": 54,
+            "pronouns": "He/Them",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Warhammer",
+            "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Coward Tarton",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 56,
+            "catch": 51,
+            "run": 62,
+            "block": 47,
+            "fight": 52,
+            "throw": 63,
+            "luck": 51,
+            "pronouns": "She/Her",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Tabar",
+            "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Dickenson Beker",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 58,
+            "catch": 69,
+            "run": 58,
+            "block": 53,
+            "fight": 52,
+            "throw": 46,
+            "luck": 63,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Billhook",
+            "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Marlane Lounge",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 64,
+            "catch": 59,
+            "run": 54,
+            "block": 53,
+            "fight": 52,
+            "throw": 52,
+            "luck": 58,
+            "pronouns": "They/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Main-gauche",
+            "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+            "literate": false
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Shiroma Salim",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 50,
+            "catch": 51,
+            "run": 54,
+            "block": 55,
+            "fight": 54,
+            "throw": 62,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Riffle Heyde",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 55,
+            "catch": 56,
+            "run": 48,
+            "block": 53,
+            "fight": 50,
+            "throw": 44,
+            "luck": 48,
+            "pronouns": "They/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Tybi Reo",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 55,
+            "catch": 48,
+            "run": 66,
+            "block": 56,
+            "fight": 55,
+            "throw": 48,
+            "luck": 50,
+            "pronouns": "She/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Berkin Waters",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 51,
+            "catch": 46,
+            "run": 58,
+            "block": 50,
+            "fight": 54,
+            "throw": 60,
+            "luck": 49,
+            "pronouns": "He/Him",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Farand Keil",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 57,
+            "catch": 49,
+            "run": 55,
+            "block": 37,
+            "fight": 50,
+            "throw": 64,
+            "luck": 48,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Whip",
+            "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Coward Tarton",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 56,
+            "catch": 51,
+            "run": 62,
+            "block": 47,
+            "fight": 52,
+            "throw": 63,
+            "luck": 51,
+            "pronouns": "She/Her",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Tabar",
+            "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Dickenson Beker",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 58,
+            "catch": 69,
+            "run": 58,
+            "block": 53,
+            "fight": 52,
+            "throw": 46,
+            "luck": 63,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Billhook",
+            "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Marlane Lounge",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 64,
+            "catch": 59,
+            "run": 54,
+            "block": 53,
+            "fight": 52,
+            "throw": 52,
+            "luck": 58,
+            "pronouns": "They/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Main-gauche",
+            "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+            "literate": false
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Wieren Ivar",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 66,
+            "catch": 63,
+            "run": 52,
+            "block": 54,
+            "fight": 64,
+            "throw": 42,
+            "luck": 54,
+            "pronouns": "He/Them",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Warhammer",
+            "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Symer Crissy",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 53,
+            "catch": 53,
+            "run": 53,
+            "block": 55,
+            "fight": 44,
+            "throw": 63,
+            "luck": 58,
+            "pronouns": "She/Her",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Pollaxe",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Zwart Bunns",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 63,
+            "catch": 66,
+            "run": 51,
+            "block": 51,
+            "fight": 47,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 40,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Cestus",
+            "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+            "literate": false
+          }
+        }
+      ]
+    },
+    "awayTeam": {
+      "name": "Oak & Onslaught",
+      "slug": "oak-and-onslaught",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 52,
+      "stadium": {
+        "name": "Fletchings Field",
+        "location": "Fletchings",
+        "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+        "modifiers": [
+          "Shifting Terrain",
+          "Warden's Watch",
+          "Natural Advantages"
+        ]
+      },
+      "healer": {
+        "name": "Ahron Latashia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 52,
+          "run": 56,
+          "block": 45,
+          "fight": 64,
+          "throw": 59,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 68,
+          "alcohol_tolerance": 59,
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": true,
+          "favorite_weapon": "Kriegsmesser"
+        }
+      },
+      "players": [
+        {
+          "name": "Milt Casady",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 54,
+            "catch": 57,
+            "run": 54,
+            "block": 65,
+            "fight": 47,
+            "throw": 65,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Wynnie Faina",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 50,
+            "catch": 64,
+            "run": 66,
+            "block": 55,
+            "fight": 51,
+            "throw": 60,
+            "luck": 71,
+            "pronouns": "He/Him",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 72,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Normi Glaudia",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 47,
+            "catch": 52,
+            "run": 64,
+            "block": 63,
+            "fight": 48,
+            "throw": 60,
+            "luck": 62,
+            "pronouns": "He/Him",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 71,
+            "favorite_weapon": "Mallet",
+            "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Symer Crissy",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 53,
+            "catch": 53,
+            "run": 53,
+            "block": 55,
+            "fight": 44,
+            "throw": 63,
+            "luck": 58,
+            "pronouns": "She/Her",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Pollaxe",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Teria Ravo",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 51,
+            "catch": 48,
+            "run": 54,
+            "block": 58,
+            "fight": 53,
+            "throw": 63,
+            "luck": 52,
+            "pronouns": "She/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Headbutting their own team's goal post (gently).",
+            "literate": true
+          }
+        },
+        {
+          "name": "Millham Evangeline",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 53,
+            "catch": 48,
+            "run": 56,
+            "block": 44,
+            "fight": 56,
+            "throw": 62,
+            "luck": 57,
+            "pronouns": "They/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Bardiche",
+            "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Hole Bowerman",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 39,
+            "catch": 49,
+            "run": 60,
+            "block": 64,
+            "fight": 60,
+            "throw": 49,
+            "luck": 58,
+            "pronouns": "She/Her",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Lance",
+            "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Affra Yanaton",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 48,
+            "catch": 50,
+            "run": 63,
+            "block": 57,
+            "fight": 52,
+            "throw": 54,
+            "luck": 60,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Longsword",
+            "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Abner Seidel",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 55,
+            "catch": 61,
+            "run": 60,
+            "block": 56,
+            "fight": 54,
+            "throw": 51,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 42,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Ema Ulrick",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 53,
+            "catch": 54,
+            "run": 57,
+            "block": 57,
+            "fight": 52,
+            "throw": 66,
+            "luck": 52,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Cutlass",
+            "pregame_ritual": "Always putting on their left gauntlet before their right.",
+            "literate": false
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Wynnie Faina",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 50,
+            "catch": 64,
+            "run": 66,
+            "block": 55,
+            "fight": 51,
+            "throw": 60,
+            "luck": 71,
+            "pronouns": "He/Him",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 72,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Normi Glaudia",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 47,
+            "catch": 52,
+            "run": 64,
+            "block": 63,
+            "fight": 48,
+            "throw": 60,
+            "luck": 62,
+            "pronouns": "He/Him",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 71,
+            "favorite_weapon": "Mallet",
+            "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Symer Crissy",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 53,
+            "catch": 53,
+            "run": 53,
+            "block": 55,
+            "fight": 44,
+            "throw": 63,
+            "luck": 58,
+            "pronouns": "She/Her",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Pollaxe",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Teria Ravo",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 51,
+            "catch": 48,
+            "run": 54,
+            "block": 58,
+            "fight": 53,
+            "throw": 63,
+            "luck": 52,
+            "pronouns": "She/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Headbutting their own team's goal post (gently).",
+            "literate": true
+          }
+        },
+        {
+          "name": "Millham Evangeline",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 53,
+            "catch": 48,
+            "run": 56,
+            "block": 44,
+            "fight": 56,
+            "throw": 62,
+            "luck": 57,
+            "pronouns": "They/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Bardiche",
+            "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Hole Bowerman",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 39,
+            "catch": 49,
+            "run": 60,
+            "block": 64,
+            "fight": 60,
+            "throw": 49,
+            "luck": 58,
+            "pronouns": "She/Her",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Lance",
+            "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Affra Yanaton",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 48,
+            "catch": 50,
+            "run": 63,
+            "block": 57,
+            "fight": 52,
+            "throw": 54,
+            "luck": 60,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Longsword",
+            "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Abner Seidel",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 55,
+            "catch": 61,
+            "run": 60,
+            "block": 56,
+            "fight": 54,
+            "throw": 51,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 42,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Ema Ulrick",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 53,
+            "catch": 54,
+            "run": 57,
+            "block": 57,
+            "fight": 52,
+            "throw": 66,
+            "luck": 52,
+            "pronouns": "She/Her",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Cutlass",
+            "pregame_ritual": "Always putting on their left gauntlet before their right.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Berkin Waters",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 51,
+            "catch": 46,
+            "run": 58,
+            "block": 50,
+            "fight": 54,
+            "throw": 60,
+            "luck": 49,
+            "pronouns": "He/Him",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Dickenson Beker",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 58,
+            "catch": 69,
+            "run": 58,
+            "block": 53,
+            "fight": 52,
+            "throw": 46,
+            "luck": 63,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Billhook",
+            "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Milt Casady",
+          "team": "Oak & Onslaught",
+          "stats": {
+            "pass": 54,
+            "catch": 57,
+            "run": 54,
+            "block": 65,
+            "fight": 47,
+            "throw": 65,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Blackjack",
+            "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Zwart Bunns",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 63,
+            "catch": 66,
+            "run": 51,
+            "block": 51,
+            "fight": 47,
+            "throw": 50,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 40,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Cestus",
+            "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Coward Tarton",
+          "team": "The Haven Lights",
+          "stats": {
+            "pass": 56,
+            "catch": 51,
+            "run": 62,
+            "block": 47,
+            "fight": 52,
+            "throw": 63,
+            "luck": 51,
+            "pronouns": "She/Her",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "Tabar",
+            "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+            "literate": false
+          }
+        }
+      ],
+      "inactivePlayers": []
+    },
+    "preGame": "Hellooo Trollball fans, and welcome to another glorious exhibition of grit, guts, and ground-and-pound! This is your favorite fiend of the field, Nok the Corrupter, coming to you live from the oh-so-pristine Aegis Field in Haven. They call this 'Hallowed Ground,' folks, but I'm hoping we see it get a little un-hallowed today! What a matchup we have for you, a real clash of ideals! In one corner, we have the home team, those shining paragons of something-or-other, The Haven Lights! And in the other, a team with a name that truly understands the sport, Oak & Onslaught! Now that's a name with some promise! I tell you, while those so-called 'heroes' like Sir Randy are off polishing their bows, these fine athletes are preparing for some real sport! And what preparation it is! I'm told that The Haven Lights' own Coward Tarton gets ready by kissing her biceps and whispering sweet nothings to them! You love to see it! Meanwhile, on the Oak & Onslaught side, Symer Crissy gives the Trollball a heroic backstory before every game. A heroic backstory before it gets punted, pummeled, and smashed into the goal! That's poetry, my friends, pure poetry! The whistle is about to blow, so grab your grog, place your bets, and get ready for some beautiful, beautiful brutality!",
+    "postGame": "And that's the final whistle, folks! What a game! What a glorious, bone-crunching spectacle of athletic carnage right here on Haven's 'Hallowed Ground'! It seems the 'Twinlight's Glow' wasn't quite enough to light up the scoreboard for the home team today! Your final score: the visiting Oak & Onslaught, 2! The home team, The Haven Lights, a big fat 0! A shutout! You just love to see that kind of defensive dominance!\n\nThe action started fast and furious, folks, right from the get-go! The Lights got possession first, but Riffle Heyde was absolutely stonewalled by the magnificent Affra Yanaton, who ripped the ball right out of their hands! That's how you play Trollball!\n\nWe didn't have to wait long for the fists to fly! In a beautiful moment of mutual respect and violence, Normi Glaudia and Wieren Ivar knocked each other clean out! A double knockout! Is there any finer sight in the sporting world? I think not!\n\nAfter a failed scoring attempt by Oak & Onslaught, Berkin Waters of the Lights made a valiant run, but it was not to be! The first half was defined by turnovers and tremendous tackles! Teria Ravo and Shiroma Salim also traded blows, sending each other to the healers' tent in another stunning display of simultaneous smashing!\n\nBut the big moment of the first half, the play that put the points on the board, came from Normi Glaudia! After snatching the ball from Berkin Waters, Glaudia barreled through the defense, found an opening in the Home 2-Point zone, and let it fly! GOOOOAL! Two points for Oak & Onslaught, and the crowd went wild!\n\nThe second half was just as chaotic! It was a festival of fumbles and ferocious fighting! Abner Seidel for the Onslaught tried to get a drive going, but was blocked! Ema Ulrick recovered the loose ball, only to be blocked herself! The Trollball was bouncing around like a fey in a funhouse!\n\nWynnie Faina eventually scooped it up and made a great run into the center field, but was ultimately stripped of the ball by Zwart Bunns! The Haven Lights just couldn't seem to capitalize on their opportunities today. Every time they got a glimmer of hope, an Oak & Onslaught player was there to smash it to pieces!\n\nWe saw more incredible knockouts! Hole Bowerman took out Dickenson Beker with a Lance! Zwart Bunns and Milt Casady traded blows and both went down! The healers were certainly earning their keep today, unlike some so-called 'healers' of the realm who are probably just brewing potions to make flowers grow or some other such nonsense.\n\nThe game ended with a flurry of action, a desperate pass attempt by the Lights, and a final, punctuation-mark knockout by Ema Ulrick. But it was too little, too late for the home team.\n\nSo let's hear it for your winners, the tough-as-nails, the magnificent, the victorious OAK & ONSLAUGHT! They came into enemy territory, onto sacred soil, and taught The Haven Lights a lesson in good, old-fashioned violence! This has been Nok the Corrupter, reminding you that while heroes preen and pontificate, true glory is found right here, on the bloody fields of Trollball! Goodnight, everybody!",
+    "week": 0,
+    "homeScore": 0,
+    "awayScore": 2,
+    "slug": "haven-oak-and-onslaught-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The Kerlauger Runeguard",
+      "slug": "kerlauger",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 60,
+      "stadium": {
+        "name": "The Old Fort",
+        "location": "Kerlauger",
+        "description": "The team plays within the crumbling, stone-ringed ruins of an ancient hill-fort. The 'runes' are just old, weathered carvings on the standing stones that serve as obstacles.",
+        "modifiers": [
+          "Ancient Ruins",
+          "Dense Fog",
+          "Uneven Footing"
+        ]
+      },
+      "healer": {
+        "name": "Eal Caundra",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 63,
+          "catch": 55,
+          "run": 51,
+          "block": 57,
+          "fight": 46,
+          "throw": 59,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Lashondra Niehaus",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 62,
+            "catch": 55,
+            "run": 57,
+            "block": 58,
+            "fight": 62,
+            "throw": 48,
+            "luck": 57,
+            "pronouns": "She/Her",
+            "civic_engagement": 67,
+            "alcohol_tolerance": 50,
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true,
+            "favorite_weapon": ""
+          }
+        },
+        {
+          "name": "Reginauld Cordell",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 50,
+            "catch": 55,
+            "run": 65,
+            "block": 58,
+            "fight": 51,
+            "throw": 55,
+            "luck": 58,
+            "pronouns": "He/Them",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 36,
+            "favorite_weapon": "Main-gauche",
+            "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Benjie Foulk",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 50,
+            "catch": 63,
+            "run": 54,
+            "block": 58,
+            "fight": 51,
+            "throw": 54,
+            "luck": 59,
+            "pronouns": "She/Her",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Johnna Beetner",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 68,
+            "catch": 60,
+            "run": 69,
+            "block": 56,
+            "fight": 43,
+            "throw": 49,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Scimitar",
+            "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Harilda Sigsmond",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 58,
+            "catch": 56,
+            "run": 65,
+            "block": 59,
+            "fight": 51,
+            "throw": 60,
+            "luck": 65,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Battle Axe",
+            "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Vivia Namara",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 59,
+            "catch": 53,
+            "run": 51,
+            "block": 57,
+            "fight": 50,
+            "throw": 59,
+            "luck": 49,
+            "pronouns": "She/Them",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Great Axe",
+            "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lon Gabriell",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 56,
+            "catch": 41,
+            "run": 55,
+            "block": 67,
+            "fight": 53,
+            "throw": 61,
+            "luck": 55,
+            "pronouns": "She/Her",
+            "civic_engagement": 65,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Lance",
+            "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Shepperd Trefler",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 50,
+            "catch": 58,
+            "run": 59,
+            "block": 55,
+            "fight": 66,
+            "throw": 51,
+            "luck": 54,
+            "pronouns": "He/Him",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Spiked Gauntlet",
+            "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Gurney Fadiman",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 58,
+            "catch": 42,
+            "run": 52,
+            "block": 59,
+            "fight": 53,
+            "throw": 49,
+            "luck": 58,
+            "pronouns": "They/Them",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Shortsword",
+            "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lorilee Aldred",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 49,
+            "catch": 54,
+            "run": 55,
+            "block": 56,
+            "fight": 64,
+            "throw": 55,
+            "luck": 54,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Katar",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Reginauld Cordell",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 50,
+            "catch": 55,
+            "run": 65,
+            "block": 58,
+            "fight": 51,
+            "throw": 55,
+            "luck": 58,
+            "pronouns": "He/Them",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 36,
+            "favorite_weapon": "Main-gauche",
+            "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Benjie Foulk",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 50,
+            "catch": 63,
+            "run": 54,
+            "block": 58,
+            "fight": 51,
+            "throw": 54,
+            "luck": 59,
+            "pronouns": "She/Her",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Johnna Beetner",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 68,
+            "catch": 60,
+            "run": 69,
+            "block": 56,
+            "fight": 43,
+            "throw": 49,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Scimitar",
+            "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Vivia Namara",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 59,
+            "catch": 53,
+            "run": 51,
+            "block": 57,
+            "fight": 50,
+            "throw": 59,
+            "luck": 49,
+            "pronouns": "She/Them",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Great Axe",
+            "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lon Gabriell",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 56,
+            "catch": 41,
+            "run": 55,
+            "block": 67,
+            "fight": 53,
+            "throw": 61,
+            "luck": 55,
+            "pronouns": "She/Her",
+            "civic_engagement": 65,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Lance",
+            "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Shepperd Trefler",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 50,
+            "catch": 58,
+            "run": 59,
+            "block": 55,
+            "fight": 66,
+            "throw": 51,
+            "luck": 54,
+            "pronouns": "He/Him",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Spiked Gauntlet",
+            "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Gurney Fadiman",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 58,
+            "catch": 42,
+            "run": 52,
+            "block": 59,
+            "fight": 53,
+            "throw": 49,
+            "luck": 58,
+            "pronouns": "They/Them",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Shortsword",
+            "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lorilee Aldred",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 49,
+            "catch": 54,
+            "run": 55,
+            "block": 56,
+            "fight": 64,
+            "throw": 55,
+            "luck": 54,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Katar",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Godart Urissa",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 49,
+            "catch": 56,
+            "run": 58,
+            "block": 52,
+            "fight": 43,
+            "throw": 70,
+            "luck": 52,
+            "pronouns": "They/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Cestus",
+            "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Harilda Sigsmond",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 58,
+            "catch": 56,
+            "run": 65,
+            "block": 59,
+            "fight": 51,
+            "throw": 60,
+            "luck": 65,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Battle Axe",
+            "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Sondra Elaina",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 54,
+            "run": 56,
+            "block": 59,
+            "fight": 49,
+            "throw": 59,
+            "luck": 53,
+            "pronouns": "She/Her",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Cudgel",
+            "pregame_ritual": "Polishing their boots with bacon grease.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Ultun Barthelemy",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 58,
+            "run": 58,
+            "block": 54,
+            "fight": 59,
+            "throw": 58,
+            "luck": 59,
+            "pronouns": "He/Him",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Partisan",
+            "pregame_ritual": "Braiding a teammate's nose hair.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Lashondra Niehaus",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 62,
+            "catch": 55,
+            "run": 57,
+            "block": 58,
+            "fight": 62,
+            "throw": 48,
+            "luck": 57,
+            "pronouns": "She/Her",
+            "civic_engagement": 67,
+            "alcohol_tolerance": 50,
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true,
+            "favorite_weapon": ""
+          }
+        },
+        {
+          "name": "Sabian Gleason",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 51,
+            "catch": 54,
+            "run": 48,
+            "block": 42,
+            "fight": 67,
+            "throw": 52,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 44,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Maul",
+            "pregame_ritual": "Counting the number of clouds in the sky.",
+            "literate": false
+          }
+        }
+      ]
+    },
+    "awayTeam": {
+      "name": "The Wyrmwood Stronghammers",
+      "slug": "wyrmwood",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 66,
+      "stadium": {
+        "name": "The Hollow Mine",
+        "location": "Wyrmwood Hollow",
+        "description": "The playing field is the circular, wildflower-covered clearing at the base of the imposing, ivy-covered Watch Tower. The ground hums with a strange energy, and the home team makes their entrance from the newly-opened mine shaft that bores deep into the tower's foundation.",
+        "modifiers": [
+          "Humming Earth",
+          "Tangled Vines",
+          "Mine Draft"
+        ]
+      },
+      "healer": {
+        "name": "Hamburger Marthe",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 46,
+          "block": 67,
+          "fight": 61,
+          "throw": 54,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Arming Sword",
+          "pregame_ritual": "Seeing how many dried beans they can fit in their nostril.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Sabian Gleason",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 51,
+            "catch": 54,
+            "run": 48,
+            "block": 42,
+            "fight": 67,
+            "throw": 52,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 44,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Maul",
+            "pregame_ritual": "Counting the number of clouds in the sky.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Ultun Barthelemy",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 58,
+            "run": 58,
+            "block": 54,
+            "fight": 59,
+            "throw": 58,
+            "luck": 59,
+            "pronouns": "He/Him",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Partisan",
+            "pregame_ritual": "Braiding a teammate's nose hair.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Autumn Jodoin",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 53,
+            "catch": 43,
+            "run": 59,
+            "block": 54,
+            "fight": 48,
+            "throw": 63,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 61,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Trident",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Kerwin Gasper",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 60,
+            "catch": 48,
+            "run": 51,
+            "block": 55,
+            "fight": 58,
+            "throw": 63,
+            "luck": 54,
+            "pronouns": "They/Them",
+            "civic_engagement": 65,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Asking the referee to bless their weapon.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Calvinna Isador",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 57,
+            "catch": 47,
+            "run": 44,
+            "block": 41,
+            "fight": 57,
+            "throw": 51,
+            "luck": 66,
+            "pronouns": "She/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Dagger",
+            "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Cornela Piscatelli",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 62,
+            "run": 59,
+            "block": 58,
+            "fight": 56,
+            "throw": 66,
+            "luck": 60,
+            "pronouns": "He/Him",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 68,
+            "pregame_ritual": "Braiding a teammate's nose hair.",
+            "literate": false,
+            "favorite_weapon": ""
+          }
+        },
+        {
+          "name": "Rebane Kendy",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 61,
+            "catch": 51,
+            "run": 53,
+            "block": 56,
+            "fight": 45,
+            "throw": 60,
+            "luck": 43,
+            "pronouns": "He/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Bastard Sword",
+            "pregame_ritual": "Tugging on their left earlobe three times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Sondra Elaina",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 54,
+            "run": 56,
+            "block": 59,
+            "fight": 49,
+            "throw": 59,
+            "luck": 53,
+            "pronouns": "She/Her",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Cudgel",
+            "pregame_ritual": "Polishing their boots with bacon grease.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Odelia Abbott",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 66,
+            "catch": 48,
+            "run": 54,
+            "block": 58,
+            "fight": 56,
+            "throw": 55,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Whip",
+            "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Godart Urissa",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 49,
+            "catch": 56,
+            "run": 58,
+            "block": 52,
+            "fight": 43,
+            "throw": 70,
+            "luck": 52,
+            "pronouns": "They/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Cestus",
+            "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Ultun Barthelemy",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 58,
+            "run": 58,
+            "block": 54,
+            "fight": 59,
+            "throw": 58,
+            "luck": 59,
+            "pronouns": "He/Him",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Partisan",
+            "pregame_ritual": "Braiding a teammate's nose hair.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Autumn Jodoin",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 53,
+            "catch": 43,
+            "run": 59,
+            "block": 54,
+            "fight": 48,
+            "throw": 63,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 61,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Trident",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Kerwin Gasper",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 60,
+            "catch": 48,
+            "run": 51,
+            "block": 55,
+            "fight": 58,
+            "throw": 63,
+            "luck": 54,
+            "pronouns": "They/Them",
+            "civic_engagement": 65,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Asking the referee to bless their weapon.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Cornela Piscatelli",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 62,
+            "run": 59,
+            "block": 58,
+            "fight": 56,
+            "throw": 66,
+            "luck": 60,
+            "pronouns": "He/Him",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 68,
+            "pregame_ritual": "Braiding a teammate's nose hair.",
+            "literate": false,
+            "favorite_weapon": ""
+          }
+        },
+        {
+          "name": "Rebane Kendy",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 61,
+            "catch": 51,
+            "run": 53,
+            "block": 56,
+            "fight": 45,
+            "throw": 60,
+            "luck": 43,
+            "pronouns": "He/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Bastard Sword",
+            "pregame_ritual": "Tugging on their left earlobe three times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Sondra Elaina",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 55,
+            "catch": 54,
+            "run": 56,
+            "block": 59,
+            "fight": 49,
+            "throw": 59,
+            "luck": 53,
+            "pronouns": "She/Her",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Cudgel",
+            "pregame_ritual": "Polishing their boots with bacon grease.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Odelia Abbott",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 66,
+            "catch": 48,
+            "run": 54,
+            "block": 58,
+            "fight": 56,
+            "throw": 55,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Whip",
+            "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Godart Urissa",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 49,
+            "catch": 56,
+            "run": 58,
+            "block": 52,
+            "fight": 43,
+            "throw": 70,
+            "luck": 52,
+            "pronouns": "They/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Cestus",
+            "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lorilee Aldred",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 49,
+            "catch": 54,
+            "run": 55,
+            "block": 56,
+            "fight": 64,
+            "throw": 55,
+            "luck": 54,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Katar",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Calvinna Isador",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 57,
+            "catch": 47,
+            "run": 44,
+            "block": 41,
+            "fight": 57,
+            "throw": 51,
+            "luck": 66,
+            "pronouns": "She/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Dagger",
+            "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Sabian Gleason",
+          "team": "The Wyrmwood Stronghammers",
+          "stats": {
+            "pass": 51,
+            "catch": 54,
+            "run": 48,
+            "block": 42,
+            "fight": 67,
+            "throw": 52,
+            "luck": 57,
+            "pronouns": "He/Him",
+            "civic_engagement": 44,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Maul",
+            "pregame_ritual": "Counting the number of clouds in the sky.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Johnna Beetner",
+          "team": "The Kerlauger Runeguard",
+          "stats": {
+            "pass": 68,
+            "catch": 60,
+            "run": 69,
+            "block": 56,
+            "fight": 43,
+            "throw": 49,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Scimitar",
+            "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+            "literate": false
+          }
+        }
+      ]
+    },
+    "preGame": "Helloooooo Trollball fanatics, and welcome to another glorious, bone-crunching preseason spectacle! This is your favorite demonic announcer, Nok the Corrupter, coming to you live from the crumbling, fog-shrouded ruins of The Old Fort! What a magnificent day for brutality! The air is thick with anticipation and the smell of ancient curses, a perfect atmosphere for our sport!\n\nIn this corner, visiting from the wildflower-covered fields of Wyrmwood Hollow, we have The Wyrmwood Stronghammers! These titans of the turf are looking to start their season with a bang, and I hear their pre-game preparations are something to behold! My sources tell me that the mighty Autumn Jodoin gets ready for a match by chugging a raw egg, shell and all! Now that's commitment! That's the kind of grit you won't see from those so-called 'heroes' like that pirate-turned-bureaucrat Count Trez Arrigo!\n\nAnd in the home corner, defending their ancestral stones, it's The Kerlauger Runeguard! These warriors are no strangers to hardship, playing on uneven footing day in and day out. Their preparation is just as intense, with the likes of Vivia Namara getting fired up by spitting into her own hand and slapping her face with it! You have to love it, folks! This isn't some fancy tea party with Dame Terra Monteforte; this is real, honest-to-goodness Trollball! Get ready for a clash that will shake the very foundations of this old fort!",
+    "postGame": "WHAT A GAME, FOLKS! WHAT A FINISH! If you weren't on the edge of your seat, you might already be in the healer's tent! The Kerlauger Runeguard have snatched victory from the jaws of defeat right here in their home stadium, taking it in a brutal overtime slugfest!\n\nThe final score, for those of you keeping track at home, is The Kerlauger Runeguard with 3 points to The Wyrmwood Stronghammers' 2 points! An absolute nail-biter from start to finish!\n\nThe first half was a tense, grinding affair. The ball was picked up by the Runeguard's Benjie Foulk, but she was immediately stuffed by the incredible Kerwin Gasper of the Stronghammers, who snagged the ball right out of her hands! A beautiful, aggressive start to the match!\n\nPossession was a slippery thing, folks! Gasper tried a throw, but couldn't find a target. Then, out of nowhere, Lorilee Aldred laid out Johnna Beetner with that beautiful Katar! You love to see it! A moment later, Gasper was blocked by Reginauld Cordell, dropping the ball in the ensuing chaos.\n\nSondra Elaina of the Stronghammers saw an opportunity, scooping up the Trollball and launching a prayer from center field! Oh, it had the distance, but not the accuracy, landing deep in the Runeguard's territory. A gutsy play that set the stage for more mayhem!\n\nThe ball changed hands again, with Godart Urissa making a spectacular throw to Lorilee Aldred, who then charged forward like a runaway boulder! But alas, another block, another dropped ball! It was a true defensive stalemate!\n\nWe even saw a player, Johnna Beetner, knocked clean out of the game only to be patched up by the healer and sent right back in! That's the spirit of Trollball! Play until you can't play anymore, and then play a little more!\n\nThen came OVERTIME! And let me tell you, friends, the gloves came off! The second half wasn't about strategy; it was about pure, unadulterated violence! We saw Gurney Fadiman take out Godart Urissa with a shortsword! We saw a magnificent double-knockout as Sondra Elaina and Harilda Sigsmond took each other down in a blaze of glory!\n\nThe bodies just kept dropping! Shepperd Trefler used that nasty Spiked Gauntlet to send Ultun Barthelemy to the sidelines. Sabian Gleason and Lashondra Niehaus traded blows that would make a blacksmith blush! It was a beautiful, chaotic mess, the kind of action those so-called heroes of the realm are too cowardly to face!\n\nAnd then, with the field littered with the bruised and battered, Shepperd Trefler of the Runeguard saw his chance! He grabbed that loose Trollball, tucked it under his arm, and charged for the goal line! Godart Urissa lunged for a heroic block but couldn't get a grip! HE'S IN! HE SCORES! Shepperd Trefler scores the winning point as time expires! The crowd is going wild, and rightfully so! That, my friends, is Trollball!",
+    "week": 0,
+    "homeScore": 3,
+    "awayScore": 2,
+    "slug": "kerlauger-wyrmwood-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The New Monteforte Chaos Creatures",
+      "slug": "new-monteforte",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 65,
+      "stadium": {
+        "name": "The Unruly Yard",
+        "location": "New Monteforte",
+        "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+        "modifiers": [
+          "Rowdy Crowd",
+          "Unstable Scaffolding",
+          "Street Performer"
+        ]
+      },
+      "healer": {
+        "name": "Lian Denton",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 56,
+          "block": 58,
+          "fight": 45,
+          "throw": 60,
+          "luck": 50,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+          "literate": false
+        }
+      },
+      "players": [
+        {
+          "name": "Boulanger Procto",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 53,
+            "catch": 48,
+            "run": 57,
+            "block": 66,
+            "fight": 60,
+            "throw": 57,
+            "luck": 54,
+            "pronouns": "He/Him",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Urata Oriana",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 46,
+            "catch": 42,
+            "run": 49,
+            "block": 49,
+            "fight": 52,
+            "throw": 54,
+            "luck": 50,
+            "pronouns": "He/Them",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Gabriele Klehm",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 59,
+            "catch": 57,
+            "run": 47,
+            "block": 62,
+            "fight": 50,
+            "throw": 56,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 66,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Tucker Hett",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 50,
+            "catch": 50,
+            "run": 49,
+            "block": 59,
+            "fight": 52,
+            "throw": 61,
+            "luck": 42,
+            "pronouns": "She/Them",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Billhook",
+            "pregame_ritual": "Reviewing hand signals for secret plays.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Mouldon Earl",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 55,
+            "catch": 55,
+            "run": 63,
+            "block": 56,
+            "fight": 44,
+            "throw": 55,
+            "luck": 57,
+            "pronouns": "They/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Rondel Dagger",
+            "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Placido Kora",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 67,
+            "catch": 59,
+            "run": 48,
+            "block": 52,
+            "fight": 56,
+            "throw": 46,
+            "luck": 46,
+            "pronouns": "She/Her",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Alben Diantha",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 53,
+            "catch": 54,
+            "run": 48,
+            "block": 55,
+            "fight": 63,
+            "throw": 65,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Hammer",
+            "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Fogel Raynold",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 48,
+            "catch": 48,
+            "run": 54,
+            "block": 54,
+            "fight": 48,
+            "throw": 57,
+            "luck": 60,
+            "pronouns": "He/Them",
+            "civic_engagement": 61,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Horseman's Pick",
+            "pregame_ritual": "Slapping their own helmet until their ears ring.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Wolbrom Ariella",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 63,
+            "catch": 71,
+            "run": 59,
+            "block": 40,
+            "fight": 60,
+            "throw": 58,
+            "luck": 72,
+            "pronouns": "He/Them",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Scythe",
+            "pregame_ritual": "Singing a sea shanty completely out of tune.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Raouf Dragone",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 48,
+            "catch": 61,
+            "run": 52,
+            "block": 44,
+            "fight": 50,
+            "throw": 61,
+            "luck": 52,
+            "pronouns": "They/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Trident",
+            "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+            "literate": false
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Boulanger Procto",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 53,
+            "catch": 48,
+            "run": 57,
+            "block": 66,
+            "fight": 60,
+            "throw": 57,
+            "luck": 54,
+            "pronouns": "He/Him",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Urata Oriana",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 46,
+            "catch": 42,
+            "run": 49,
+            "block": 49,
+            "fight": 52,
+            "throw": 54,
+            "luck": 50,
+            "pronouns": "He/Them",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Gabriele Klehm",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 59,
+            "catch": 57,
+            "run": 47,
+            "block": 62,
+            "fight": 50,
+            "throw": 56,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 66,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Tucker Hett",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 50,
+            "catch": 50,
+            "run": 49,
+            "block": 59,
+            "fight": 52,
+            "throw": 61,
+            "luck": 42,
+            "pronouns": "She/Them",
+            "civic_engagement": 46,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Billhook",
+            "pregame_ritual": "Reviewing hand signals for secret plays.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Mouldon Earl",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 55,
+            "catch": 55,
+            "run": 63,
+            "block": 56,
+            "fight": 44,
+            "throw": 55,
+            "luck": 57,
+            "pronouns": "They/Them",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Rondel Dagger",
+            "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Placido Kora",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 67,
+            "catch": 59,
+            "run": 48,
+            "block": 52,
+            "fight": 56,
+            "throw": 46,
+            "luck": 46,
+            "pronouns": "She/Her",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Alben Diantha",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 53,
+            "catch": 54,
+            "run": 48,
+            "block": 55,
+            "fight": 63,
+            "throw": 65,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Hammer",
+            "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Raouf Dragone",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 48,
+            "catch": 61,
+            "run": 52,
+            "block": 44,
+            "fight": 50,
+            "throw": 61,
+            "luck": 52,
+            "pronouns": "They/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Trident",
+            "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Wolbrom Ariella",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 63,
+            "catch": 71,
+            "run": 59,
+            "block": 40,
+            "fight": 60,
+            "throw": 58,
+            "luck": 72,
+            "pronouns": "He/Them",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Scythe",
+            "pregame_ritual": "Singing a sea shanty completely out of tune.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Dib Tufts",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 63,
+            "catch": 60,
+            "run": 57,
+            "block": 59,
+            "fight": 58,
+            "throw": 62,
+            "luck": 58,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Fogel Raynold",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 48,
+            "catch": 48,
+            "run": 54,
+            "block": 54,
+            "fight": 48,
+            "throw": 57,
+            "luck": 60,
+            "pronouns": "He/Them",
+            "civic_engagement": 61,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Horseman's Pick",
+            "pregame_ritual": "Slapping their own helmet until their ears ring.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Lilithe Royce",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 52,
+            "catch": 59,
+            "run": 59,
+            "block": 51,
+            "fight": 49,
+            "throw": 57,
+            "luck": 52,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+            "literate": false
+          }
+        }
+      ]
+    },
+    "awayTeam": {
+      "name": "The Tortell Privateers",
+      "slug": "tortell",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 48,
+      "stadium": {
+        "name": "The Buccaneer's Bowl",
+        "location": "Toast Island Resort",
+        "description": "A flashy, pristine stadium built on a private beach exclusively for resort guests. The field is imported turf, and a massive, puppet kraken in the bay entertains the crowd at halftime.",
+        "modifiers": [
+          "Distracted Tourists",
+          "Blinding Sun",
+          "Resort Security"
+        ]
+      },
+      "healer": {
+        "name": "Eugen Zacks",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 55,
+          "catch": 60,
+          "run": 55,
+          "block": 51,
+          "fight": 65,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Lilithe Royce",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 52,
+            "catch": 59,
+            "run": 59,
+            "block": 51,
+            "fight": 49,
+            "throw": 57,
+            "luck": 52,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Castorina Gies",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 48,
+            "catch": 65,
+            "run": 66,
+            "block": 52,
+            "fight": 59,
+            "throw": 51,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Sickle",
+            "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Melisande Eustacia",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 70,
+            "catch": 59,
+            "run": 53,
+            "block": 61,
+            "fight": 61,
+            "throw": 39,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 44,
+            "alcohol_tolerance": 64,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Reviewing hand signals for secret plays.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Loralee Sunny",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 46,
+            "catch": 54,
+            "run": 60,
+            "block": 59,
+            "fight": 53,
+            "throw": 55,
+            "luck": 66,
+            "pronouns": "She/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "War Scythe",
+            "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Kidder Starkey",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 50,
+            "catch": 59,
+            "run": 65,
+            "block": 64,
+            "fight": 57,
+            "throw": 58,
+            "luck": 53,
+            "pronouns": "He/Them",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Rapier",
+            "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Keisling Damalas",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 56,
+            "catch": 55,
+            "run": 53,
+            "block": 63,
+            "fight": 64,
+            "throw": 63,
+            "luck": 46,
+            "pronouns": "He/Them",
+            "civic_engagement": 65,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Rondel Dagger",
+            "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Goldberg Tova",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 50,
+            "catch": 58,
+            "run": 62,
+            "block": 65,
+            "fight": 66,
+            "throw": 54,
+            "luck": 65,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Glaive",
+            "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Ellan Elburt",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 51,
+            "catch": 57,
+            "run": 54,
+            "block": 50,
+            "fight": 64,
+            "throw": 59,
+            "luck": 44,
+            "pronouns": "He/Them",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Tabar",
+            "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Payson Jan",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 54,
+            "catch": 52,
+            "run": 60,
+            "block": 56,
+            "fight": 59,
+            "throw": 63,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Tabar",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Dib Tufts",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 63,
+            "catch": 60,
+            "run": 57,
+            "block": 59,
+            "fight": 58,
+            "throw": 62,
+            "luck": 58,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Lilithe Royce",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 52,
+            "catch": 59,
+            "run": 59,
+            "block": 51,
+            "fight": 49,
+            "throw": 57,
+            "luck": 52,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Mace",
+            "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Castorina Gies",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 48,
+            "catch": 65,
+            "run": 66,
+            "block": 52,
+            "fight": 59,
+            "throw": 51,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Sickle",
+            "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Melisande Eustacia",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 70,
+            "catch": 59,
+            "run": 53,
+            "block": 61,
+            "fight": 61,
+            "throw": 39,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 44,
+            "alcohol_tolerance": 64,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Reviewing hand signals for secret plays.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Loralee Sunny",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 46,
+            "catch": 54,
+            "run": 60,
+            "block": 59,
+            "fight": 53,
+            "throw": 55,
+            "luck": 66,
+            "pronouns": "She/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 63,
+            "favorite_weapon": "War Scythe",
+            "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Kidder Starkey",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 50,
+            "catch": 59,
+            "run": 65,
+            "block": 64,
+            "fight": 57,
+            "throw": 58,
+            "luck": 53,
+            "pronouns": "He/Them",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Rapier",
+            "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Keisling Damalas",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 56,
+            "catch": 55,
+            "run": 53,
+            "block": 63,
+            "fight": 64,
+            "throw": 63,
+            "luck": 46,
+            "pronouns": "He/Them",
+            "civic_engagement": 65,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Rondel Dagger",
+            "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Ellan Elburt",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 51,
+            "catch": 57,
+            "run": 54,
+            "block": 50,
+            "fight": 64,
+            "throw": 59,
+            "luck": 44,
+            "pronouns": "He/Them",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 44,
+            "favorite_weapon": "Tabar",
+            "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Payson Jan",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 54,
+            "catch": 52,
+            "run": 60,
+            "block": 56,
+            "fight": 59,
+            "throw": 63,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Tabar",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Goldberg Tova",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 50,
+            "catch": 58,
+            "run": 62,
+            "block": 65,
+            "fight": 66,
+            "throw": 54,
+            "luck": 65,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Glaive",
+            "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Gabriele Klehm",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 59,
+            "catch": 57,
+            "run": 47,
+            "block": 62,
+            "fight": 50,
+            "throw": 56,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 66,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Wolbrom Ariella",
+          "team": "The New Monteforte Chaos Creatures",
+          "stats": {
+            "pass": 63,
+            "catch": 71,
+            "run": 59,
+            "block": 40,
+            "fight": 60,
+            "throw": 58,
+            "luck": 72,
+            "pronouns": "He/Them",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Scythe",
+            "pregame_ritual": "Singing a sea shanty completely out of tune.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Dib Tufts",
+          "team": "The Tortell Privateers",
+          "stats": {
+            "pass": 63,
+            "catch": 60,
+            "run": 57,
+            "block": 59,
+            "fight": 58,
+            "throw": 62,
+            "luck": 58,
+            "pronouns": "He/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Chugging a raw egg, shell and all.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": []
+    },
+    "preGame": "Hello, all you delightful degenerates, and welcome back to another glorious season of TROLLBALL! This is your favorite fiend of the field, Nok the Corrupter, broadcasting live from the heart of the action! Tonight, we're kicking off the pre-season in the magnificent Unruly Yard, home of the New Monteforte Chaos Creatures! Just look at this place! The graffiti is vibrant, the scaffolding looks ready to collapse at any moment, and the roar of this rowdy crowd is music to my demonic ears! You won't find this kind of passion in some stuffy 'hero's' tournament, I'll tell you that for free! \n\nTonight's home team, the Chaos Creatures, are looking to make their patron, Dame Terra Monteforte, proud. Let's hope they're better at scoring than she is at holding onto prophets! They're facing off against the slick and salty Tortell Privateers, a squad that enjoys the finer things in life but isn't afraid to get their hands dirty. I'm sure their associate Elspeth Ortell will appreciate the, ah, 'disintegration' of their opponents' hopes and dreams! \n\nThe air is thick with anticipation and strange smells, folks! I saw Privateers brawler Dib Tufts getting ready for the game by chugging a raw egg—shell and all! Now that's commitment! That's the kind of grit you need to win! Not like those so-called 'heroes' who probably prepare by polishing their fancy bows or writing bad poetry. The players are on the field, the Trollball is practically humming with violent energy, and we are moments away from the opening whistle! Get ready for carnage, folks, because it's time for TROLLBALL!",
+    "postGame": "AND THAT'S THE GAME, FOLKS! What a spectacular display of brutality and skill we witnessed here tonight in the Unruly Yard! The hometown crowd is stunned into a simmering, riotous silence as the visiting Tortell Privateers shut out the New Monteforte Chaos Creatures with a final score of TWO to NOTHING! A beautiful, dominant performance! \n\nLet's take a look back at the glorious chaos. The first half started with a bang! The Privateers' Lilithe Royce scooped up the ball, looking to make a move, but was absolutely stonewalled by Tucker Hett, forcing a fumble right out of the gate! Oh, the delicious uncertainty! \n\nThe action was non-stop! Players were dropping like flies in a paladin's prayer circle! Goldberg Tova and Gabriele Klehm took each other out in a magnificent double knockout that brought a tear to my eye. True warriors, both of them! \n\nThe Chaos Creatures got a taste of possession after Tucker Hett recovered that first fumble, but they couldn't hold onto it! A pass to Boulanger Procto went right through his hands! You hate to see it, unless you're me, in which case you absolutely love it! \n\nThe Privateers took over, with Payson Jan fighting tooth and nail, getting blocked, dropping the ball, but picking it right back up! He made a valiant attempt on the goal but fell just short. But have no fear, because his teammate Castorina Gies was right there! He scooped up that loose Trollball in the two-point zone and slammed it home for the first score of the game! ONE-NOTHING, PRIVATEERS! \n\nThe Chaos Creatures didn't take that sitting down! The bodies started piling up! Keisling Damalas sent Gabriele Klehm to the healer's tent. Urata Oriana got some payback by knocking out Loralee Sunny. Then Boulanger Procto laid out the scorer, Castorina Gies, with a beautiful broadsword bash! This is the sport I love! \n\nNew Monteforte tried to mount a comeback before the half, with a beautiful pass from Mouldon Earl to Wolbrom Ariella putting them in scoring position. But their dreams were dashed! Ariella tried to run it and was met by a wall named Dib Tufts, who stripped the ball and ended the threat! What a defensive stand! \n\nAfter the halftime break, where the healers worked their thankless magic, the Privateers came out swinging! Lilithe Royce, remembering that early fumble, went on an absolute tear! She grabbed the ball and ran, and ran, and ran! Through the Away Field! Through Center Field! All the way to the Home Field, dodging blockers like they were tax collectors! A truly inspiring run! \n\nBut just when it looked like Royce would score, a fumbled pass near the goal line sent the ball tumbling! And who was there to clean up the mess? None other than the egg-chugging champion himself, DIB TUFTS! He snatched that ball and plunged across the line for the Privateers' second score! TWO-NOTHING! \n\nThe final minutes were a desperate scramble for the Chaos Creatures, but it was too little, too late. Another fumble, this time by Boulanger Procto, sealed their fate. The Privateers' defense was just too tough, too aggressive, too perfect tonight. A well-deserved victory for the Tortell Privateers, and a whole lot of bumps and bruises for the New Monteforte Chaos Creatures to remember them by! What a game! WHAT A SPORT! GOODNIGHT, EVERYBODY!",
+    "week": 0,
+    "homeScore": 0,
+    "awayScore": 2,
+    "slug": "new-monteforte-tortell-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The New Prosperity Profits",
+      "slug": "new-prosperity",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 50,
+      "stadium": {
+        "name": "The Guilder's Field",
+        "location": "New Prosperity",
+        "description": "An opulent stadium sponsored by the powerful Merchant's Guild. The stands feature luxurious, velvet-lined boxes for bankers, who are often more focused on making deals than the game.",
+        "modifiers": [
+          "Hostile Takeover",
+          "Hired Hecklers",
+          "Market Fluctuation"
+        ]
+      },
+      "healer": {
+        "name": "Merissa Mathian",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 54,
+          "catch": 54,
+          "run": 53,
+          "block": 45,
+          "fight": 52,
+          "throw": 59,
+          "luck": 49,
+          "pronouns": "She/Her",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Pulchi Benyamin",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 54,
+            "catch": 63,
+            "run": 67,
+            "block": 63,
+            "fight": 47,
+            "throw": 44,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Eating a dandelion, stem and all.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Boleslaw Heathcote",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 60,
+            "catch": 48,
+            "run": 51,
+            "block": 58,
+            "fight": 48,
+            "throw": 47,
+            "luck": 56,
+            "pronouns": "She/Her",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Gladdie Farika",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 48,
+            "catch": 48,
+            "run": 60,
+            "block": 54,
+            "fight": 58,
+            "throw": 59,
+            "luck": 51,
+            "pronouns": "They/Them",
+            "civic_engagement": 77,
+            "alcohol_tolerance": 62,
+            "favorite_weapon": "Morning Star",
+            "pregame_ritual": "Meticulously cleaning each stud on their boots with a special brush.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Yoshi Cathy",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 47,
+            "catch": 50,
+            "run": 56,
+            "block": 60,
+            "fight": 74,
+            "throw": 57,
+            "luck": 58,
+            "pronouns": "He/Them",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "Eating a raw onion, layer by layer, without crying.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Aufmann Tedric",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 62,
+            "catch": 51,
+            "run": 61,
+            "block": 55,
+            "fight": 55,
+            "throw": 58,
+            "luck": 54,
+            "pronouns": "She/Them",
+            "civic_engagement": 62,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Dane Axe",
+            "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Krueger Jacinthe",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 61,
+            "catch": 53,
+            "run": 49,
+            "block": 57,
+            "fight": 59,
+            "throw": 47,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 44,
+            "alcohol_tolerance": 42,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "A team-wide moment of absolute silence to 'gather their thoughts'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Abramson Doxia",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 51,
+            "catch": 61,
+            "run": 53,
+            "block": 57,
+            "fight": 55,
+            "throw": 45,
+            "luck": 50,
+            "pronouns": "He/Them",
+            "civic_engagement": 66,
+            "alcohol_tolerance": 70,
+            "favorite_weapon": "Arming Sword",
+            "pregame_ritual": "Sharpening the edges of their blunted weapon (an exercise in futility).",
+            "literate": true
+          }
+        },
+        {
+          "name": "Milman Galvan",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 51,
+            "catch": 66,
+            "run": 56,
+            "block": 50,
+            "fight": 52,
+            "throw": 68,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 62,
+            "favorite_weapon": "Boar Spear",
+            "pregame_ritual": "Humming a tune they believe only they know.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Faina Hendrix",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 52,
+            "catch": 55,
+            "run": 63,
+            "block": 67,
+            "fight": 53,
+            "throw": 57,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Greatsword",
+            "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Pellikka Concettina",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 64,
+            "catch": 44,
+            "run": 58,
+            "block": 62,
+            "fight": 54,
+            "throw": 51,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Boleslaw Heathcote",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 60,
+            "catch": 48,
+            "run": 51,
+            "block": 58,
+            "fight": 48,
+            "throw": 47,
+            "luck": 56,
+            "pronouns": "She/Her",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Yoshi Cathy",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 47,
+            "catch": 50,
+            "run": 56,
+            "block": 60,
+            "fight": 74,
+            "throw": 57,
+            "luck": 58,
+            "pronouns": "He/Them",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 50,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "Eating a raw onion, layer by layer, without crying.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Krueger Jacinthe",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 61,
+            "catch": 53,
+            "run": 49,
+            "block": 57,
+            "fight": 59,
+            "throw": 47,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 44,
+            "alcohol_tolerance": 42,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "A team-wide moment of absolute silence to 'gather their thoughts'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Abramson Doxia",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 51,
+            "catch": 61,
+            "run": 53,
+            "block": 57,
+            "fight": 55,
+            "throw": 45,
+            "luck": 50,
+            "pronouns": "He/Them",
+            "civic_engagement": 66,
+            "alcohol_tolerance": 70,
+            "favorite_weapon": "Arming Sword",
+            "pregame_ritual": "Sharpening the edges of their blunted weapon (an exercise in futility).",
+            "literate": true
+          }
+        },
+        {
+          "name": "Milman Galvan",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 51,
+            "catch": 66,
+            "run": 56,
+            "block": 50,
+            "fight": 52,
+            "throw": 68,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 62,
+            "favorite_weapon": "Boar Spear",
+            "pregame_ritual": "Humming a tune they believe only they know.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Faina Hendrix",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 52,
+            "catch": 55,
+            "run": 63,
+            "block": 67,
+            "fight": 53,
+            "throw": 57,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 65,
+            "favorite_weapon": "Greatsword",
+            "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Pellikka Concettina",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 64,
+            "catch": 44,
+            "run": 58,
+            "block": 62,
+            "fight": 54,
+            "throw": 51,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Gladdie Farika",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 48,
+            "catch": 48,
+            "run": 60,
+            "block": 54,
+            "fight": 58,
+            "throw": 59,
+            "luck": 51,
+            "pronouns": "They/Them",
+            "civic_engagement": 77,
+            "alcohol_tolerance": 62,
+            "favorite_weapon": "Morning Star",
+            "pregame_ritual": "Meticulously cleaning each stud on their boots with a special brush.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Pulchi Benyamin",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 54,
+            "catch": 63,
+            "run": 67,
+            "block": 63,
+            "fight": 47,
+            "throw": 44,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Eating a dandelion, stem and all.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Kristin Kronfeld",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 58,
+            "catch": 56,
+            "run": 53,
+            "block": 55,
+            "fight": 41,
+            "throw": 59,
+            "luck": 45,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Aufmann Tedric",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 62,
+            "catch": 51,
+            "run": 61,
+            "block": 55,
+            "fight": 55,
+            "throw": 58,
+            "luck": 54,
+            "pronouns": "She/Them",
+            "civic_engagement": 62,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Dane Axe",
+            "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Kristin Kronfeld",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 58,
+            "catch": 56,
+            "run": 53,
+            "block": 55,
+            "fight": 41,
+            "throw": 59,
+            "luck": 45,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Quintessa Austine",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 54,
+            "catch": 56,
+            "run": 46,
+            "block": 61,
+            "fight": 51,
+            "throw": 49,
+            "luck": 44,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Spiked Gauntlet",
+            "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Bush Heiner",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 54,
+            "catch": 52,
+            "run": 66,
+            "block": 62,
+            "fight": 51,
+            "throw": 50,
+            "luck": 50,
+            "pronouns": "She/Her",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Bastard Sword",
+            "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": []
+    },
+    "awayTeam": {
+      "name": "The Starlight Bazaar Bizarres",
+      "slug": "starlight-bazaar",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 63,
+      "stadium": {
+        "name": "The Prismatic Pavilion",
+        "location": "Starlight Bazaar (Starlight Lagoon)",
+        "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+        "modifiers": [
+          "Lagoon Splash",
+          "Troupe Distraction",
+          "Unstable Footing"
+        ]
+      },
+      "healer": {
+        "name": "Essa Pattie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 55,
+          "run": 67,
+          "block": 56,
+          "fight": 52,
+          "throw": 45,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Bush Heiner",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 54,
+            "catch": 52,
+            "run": 66,
+            "block": 62,
+            "fight": 51,
+            "throw": 50,
+            "luck": 50,
+            "pronouns": "She/Her",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Bastard Sword",
+            "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Kristin Kronfeld",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 58,
+            "catch": 56,
+            "run": 53,
+            "block": 55,
+            "fight": 41,
+            "throw": 59,
+            "luck": 45,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Milo Nelie",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 61,
+            "catch": 66,
+            "run": 44,
+            "block": 45,
+            "fight": 49,
+            "throw": 53,
+            "luck": 52,
+            "pronouns": "He/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Military Fork",
+            "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Pompei Hephzipa",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 50,
+            "catch": 62,
+            "run": 48,
+            "block": 39,
+            "fight": 57,
+            "throw": 64,
+            "luck": 46,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Melesa Zelten",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 43,
+            "catch": 61,
+            "run": 59,
+            "block": 60,
+            "fight": 57,
+            "throw": 49,
+            "luck": 50,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Demp Chet",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 63,
+            "catch": 46,
+            "run": 52,
+            "block": 53,
+            "fight": 48,
+            "throw": 50,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Cutlass",
+            "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Gagliano Tallbott",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 57,
+            "catch": 48,
+            "run": 57,
+            "block": 53,
+            "fight": 64,
+            "throw": 61,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 64,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Aggri Cookie",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 51,
+            "catch": 65,
+            "run": 54,
+            "block": 49,
+            "fight": 59,
+            "throw": 58,
+            "luck": 61,
+            "pronouns": "He/Him",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Willa Lois",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 45,
+            "catch": 41,
+            "run": 59,
+            "block": 63,
+            "fight": 43,
+            "throw": 43,
+            "luck": 51,
+            "pronouns": "They/Them",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Dagger",
+            "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Quintessa Austine",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 54,
+            "catch": 56,
+            "run": 46,
+            "block": 61,
+            "fight": 51,
+            "throw": 49,
+            "luck": 44,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Spiked Gauntlet",
+            "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Bush Heiner",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 54,
+            "catch": 52,
+            "run": 66,
+            "block": 62,
+            "fight": 51,
+            "throw": 50,
+            "luck": 50,
+            "pronouns": "She/Her",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Bastard Sword",
+            "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Milo Nelie",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 61,
+            "catch": 66,
+            "run": 44,
+            "block": 45,
+            "fight": 49,
+            "throw": 53,
+            "luck": 52,
+            "pronouns": "He/Them",
+            "civic_engagement": 47,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Military Fork",
+            "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Pompei Hephzipa",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 50,
+            "catch": 62,
+            "run": 48,
+            "block": 39,
+            "fight": 57,
+            "throw": 64,
+            "luck": 46,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Melesa Zelten",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 43,
+            "catch": 61,
+            "run": 59,
+            "block": 60,
+            "fight": 57,
+            "throw": 49,
+            "luck": 50,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Spear",
+            "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Demp Chet",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 63,
+            "catch": 46,
+            "run": 52,
+            "block": 53,
+            "fight": 48,
+            "throw": 50,
+            "luck": 58,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Cutlass",
+            "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Aggri Cookie",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 51,
+            "catch": 65,
+            "run": 54,
+            "block": 49,
+            "fight": 59,
+            "throw": 58,
+            "luck": 61,
+            "pronouns": "He/Him",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Willa Lois",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 45,
+            "catch": 41,
+            "run": 59,
+            "block": 63,
+            "fight": 43,
+            "throw": 43,
+            "luck": 51,
+            "pronouns": "They/Them",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Dagger",
+            "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Quintessa Austine",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 54,
+            "catch": 56,
+            "run": 46,
+            "block": 61,
+            "fight": 51,
+            "throw": 49,
+            "luck": 44,
+            "pronouns": "He/Him",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 48,
+            "favorite_weapon": "Spiked Gauntlet",
+            "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Abramson Doxia",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 51,
+            "catch": 61,
+            "run": 53,
+            "block": 57,
+            "fight": 55,
+            "throw": 45,
+            "luck": 50,
+            "pronouns": "He/Them",
+            "civic_engagement": 66,
+            "alcohol_tolerance": 70,
+            "favorite_weapon": "Arming Sword",
+            "pregame_ritual": "Sharpening the edges of their blunted weapon (an exercise in futility).",
+            "literate": true
+          }
+        },
+        {
+          "name": "Gagliano Tallbott",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 57,
+            "catch": 48,
+            "run": 57,
+            "block": 53,
+            "fight": 64,
+            "throw": 61,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 64,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Kristin Kronfeld",
+          "team": "The Starlight Bazaar Bizarres",
+          "stats": {
+            "pass": 58,
+            "catch": 56,
+            "run": 53,
+            "block": 55,
+            "fight": 41,
+            "throw": 59,
+            "luck": 45,
+            "pronouns": "She/Her",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Boleslaw Heathcote",
+          "team": "The New Prosperity Profits",
+          "stats": {
+            "pass": 60,
+            "catch": 48,
+            "run": 51,
+            "block": 58,
+            "fight": 48,
+            "throw": 47,
+            "luck": 56,
+            "pronouns": "She/Her",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+            "literate": false
+          }
+        }
+      ],
+      "inactivePlayers": []
+    },
+    "preGame": "Helloooooo Trollball fanatics, and welcome back to another glorious season of the grandest game ever conceived! This is your favorite fiend, Nok the Corrupter, broadcasting live from the opulent Guilder's Field in New Prosperity! The velvet-lined boxes are filled with those so-called 'chairmen' like that money-grubbing Brennen Farno, probably too busy counting their gold to watch the beautiful brutality about to unfold! But we know what you're here for, folks! You're here for the action!\n\nAnd what a matchup we have for you today! In the home corner, sponsored by the ever-so-generous Merchant's Guild, we have The New Prosperity Profits! These calculating competitors are all business, on and off the field. I've seen their man, Yoshi Cathy, getting ready for the game by... eating a raw onion, layer by layer, without crying! Now that's the kind of soulless dedication that wins championships, my friends!\n\nAnd their opponents, visiting from the chaotic Starlight Lagoon, are The Starlight Bazaar Bizarres! A traveling troupe of troublemakers who bring the carnival wherever they go! Their preparation is just as bizarre as their name! I saw Kristin Kronfeld getting a teammate to punch her square in the shoulder just to get the blood pumping! That's how you prepare for glory! Forget your 'heroic' meditations and prayers; a good wallop is all the blessing you need! The coin is about to be tossed, the weapons are (mostly) blunted, and the crowd is roaring for carnage! Stick around, folks, this one's gonna be a brouhaha for the ages!",
+    "postGame": "AND THAT'S THE GAME, FOLKS! What a spectacular, bone-crunching display of athletic artistry! When the dust settled and the healers tallied up their work for the day, your final score is The New Prosperity Profits, zero! And your visiting victors, The Starlight Bazaar Bizarres, with one! A hard-fought win on the road for the circus crew!\n\nLet's take a look back at how it all went down! The Profits started with the ball, with the onion-eating powerhouse Yoshi Cathy snatching it right up! But before you could even blink, the field erupted in glorious violence! Gagliano Tallbott and Gladdie Farika took each other out in a beautiful, simultaneous knockout! That's what we call teamwork, people!\n\nNot to be outdone, Abramson Doxia immediately sent Willa Lois to the healer's tent, then got tangled up with Milo Nelie in a stalemate that proved neither was willing to give an inch! All the while, Yoshi Cathy was on the move, blasting through the line into Bizarre territory! What a run!\n\nBut the Bizarres answered back with more mayhem! Abramson Doxia and Kristin Kronfeld traded blows and both went down for a nap! The healers were sprinting back and forth like panicked goblins! It was beautiful!\n\nJust when it looked like Yoshi Cathy might go all the way, he was stopped dead in his tracks by Quintessa Austine, who forced a fumble! A huge defensive play! The Bizarres' own Aggri Cookie scooped up the loose ball and started rumbling the other way!\n\nBut the fisticuffs just wouldn't stop! Boleslaw Heathcote and Gagliano Tallbott decided they'd had enough of each other for the moment and traded knockouts! This is better than any gladiator pit! Cookie tried to score from deep, a valiant effort, but the ball fell short and into enemy hands.\n\nThen came the play of the game! The Profits' Pellikka Concettina had the ball and tried to make a move, but the magnificent Quintessa Austine was there again! Not only did he block the run, he ripped the ball away, dodged a block from Doxia, and dove into the goal zone! SCORE! The Bizarres go up 1-0 just before the half!\n\nAfter the break, the second half was a brutal, defensive slugfest! We had another immediate double-KO between Heathcote and Kronfeld, because why not! The ball changed hands, but the real story was the absolute carnage in the middle of the field. Players were dropping like flies! It was a symphony of destruction that would make a warlord weep with joy!\n\nLate in the game, the Profits had a chance! Boleslaw Heathcote had the ball after a great defensive stop and launched a pass to a wide-open Krueger Jacinthe... BUT HE FUMBLED THE CATCH! Oh, the agony! The Bizarres recovered the ball, and Milo Nelie expertly ran out the clock with a fantastic dash into Profits territory.\n\nAnd that's how it ended, folks! A defensive masterclass filled with more knockouts than a royal boxing tournament! The Starlight Bazaar Bizarres showed true grit and deserved their victory here today. This is the kind of brutal efficiency you'll never see from those preening 'heroes' and their 'noble' quests. This is real sport! This is Trollball! Until next time, this is Nok the Corrupter, signing off!",
+    "week": 0,
+    "homeScore": 0,
+    "awayScore": 1,
+    "slug": "new-prosperity-starlight-bazaar-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The New Ravenfall Commanders",
+      "slug": "new-ravenfall",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 64,
+      "stadium": {
+        "name": "The Stronghold Bailey",
+        "location": "New Ravenfall (Stronghold Castle)",
+        "description": "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
+        "modifiers": [
+          "Cobblestone Pitch",
+          "Rampart Shadows",
+          "Castle Echo"
+        ]
+      },
+      "healer": {
+        "name": "Hooge Imtiaz",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 50,
+          "run": 39,
+          "block": 59,
+          "fight": 53,
+          "throw": 63,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Dusa Curson",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 47,
+            "catch": 52,
+            "run": 55,
+            "block": 56,
+            "fight": 59,
+            "throw": 41,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Hatchet",
+            "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Moir Sass",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 58,
+            "catch": 50,
+            "run": 51,
+            "block": 48,
+            "fight": 60,
+            "throw": 56,
+            "luck": 61,
+            "pronouns": "They/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Trident",
+            "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Theis Loredo",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 56,
+            "catch": 46,
+            "run": 55,
+            "block": 54,
+            "fight": 62,
+            "throw": 61,
+            "luck": 59,
+            "pronouns": "She/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Claymore",
+            "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Nitz Alis",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 52,
+            "catch": 53,
+            "run": 52,
+            "block": 61,
+            "fight": 63,
+            "throw": 58,
+            "luck": 48,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Glaive",
+            "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Estes Adrian",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 56,
+            "catch": 52,
+            "run": 54,
+            "block": 54,
+            "fight": 51,
+            "throw": 49,
+            "luck": 68,
+            "pronouns": "He/Them",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Katar",
+            "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Rhett Gavrilla",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 68,
+            "catch": 64,
+            "run": 53,
+            "block": 56,
+            "fight": 68,
+            "throw": 59,
+            "luck": 59,
+            "pronouns": "They/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Woodsman's Axe",
+            "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Jessalin Zobias",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 57,
+            "catch": 54,
+            "run": 55,
+            "block": 42,
+            "fight": 52,
+            "throw": 53,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Military Fork",
+            "pregame_ritual": "Tugging on their left earlobe three times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Jozef Pepe",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 50,
+            "catch": 56,
+            "run": 60,
+            "block": 43,
+            "fight": 50,
+            "throw": 49,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Seeing who on the team can belch the loudest.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Croteau Osmo",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 68,
+            "catch": 51,
+            "run": 55,
+            "block": 50,
+            "fight": 62,
+            "throw": 52,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Tying a red string around their pinky finger.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Pirozzo Opal",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 47,
+            "catch": 58,
+            "run": 54,
+            "block": 51,
+            "fight": 51,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "He/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Dusa Curson",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 47,
+            "catch": 52,
+            "run": 55,
+            "block": 56,
+            "fight": 59,
+            "throw": 41,
+            "luck": 57,
+            "pronouns": "She/Them",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 51,
+            "favorite_weapon": "Hatchet",
+            "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Moir Sass",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 58,
+            "catch": 50,
+            "run": 51,
+            "block": 48,
+            "fight": 60,
+            "throw": 56,
+            "luck": 61,
+            "pronouns": "They/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Trident",
+            "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Theis Loredo",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 56,
+            "catch": 46,
+            "run": 55,
+            "block": 54,
+            "fight": 62,
+            "throw": 61,
+            "luck": 59,
+            "pronouns": "She/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Claymore",
+            "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Estes Adrian",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 56,
+            "catch": 52,
+            "run": 54,
+            "block": 54,
+            "fight": 51,
+            "throw": 49,
+            "luck": 68,
+            "pronouns": "He/Them",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Katar",
+            "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Jessalin Zobias",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 57,
+            "catch": 54,
+            "run": 55,
+            "block": 42,
+            "fight": 52,
+            "throw": 53,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 54,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Military Fork",
+            "pregame_ritual": "Tugging on their left earlobe three times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Croteau Osmo",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 68,
+            "catch": 51,
+            "run": 55,
+            "block": 50,
+            "fight": 62,
+            "throw": 52,
+            "luck": 54,
+            "pronouns": "She/Her",
+            "civic_engagement": 45,
+            "alcohol_tolerance": 66,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Tying a red string around their pinky finger.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Rhett Gavrilla",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 68,
+            "catch": 64,
+            "run": 53,
+            "block": 56,
+            "fight": 68,
+            "throw": 59,
+            "luck": 59,
+            "pronouns": "They/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 59,
+            "favorite_weapon": "Woodsman's Axe",
+            "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Blanc Fantasia",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 51,
+            "catch": 51,
+            "run": 60,
+            "block": 58,
+            "fight": 64,
+            "throw": 52,
+            "luck": 52,
+            "pronouns": "He/Them",
+            "civic_engagement": 43,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Cilurzo Sochor",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 58,
+            "catch": 43,
+            "run": 54,
+            "block": 65,
+            "fight": 66,
+            "throw": 53,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Hatchet",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Nitz Alis",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 52,
+            "catch": 53,
+            "run": 52,
+            "block": 61,
+            "fight": 63,
+            "throw": 58,
+            "luck": 48,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 46,
+            "favorite_weapon": "Glaive",
+            "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Jozef Pepe",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 50,
+            "catch": 56,
+            "run": 60,
+            "block": 43,
+            "fight": 50,
+            "throw": 49,
+            "luck": 55,
+            "pronouns": "He/Him",
+            "civic_engagement": 64,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Zweihander",
+            "pregame_ritual": "Seeing who on the team can belch the loudest.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Pirozzo Opal",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 47,
+            "catch": 58,
+            "run": 54,
+            "block": 51,
+            "fight": 51,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "He/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Malcolm Goer",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 56,
+            "catch": 36,
+            "run": 63,
+            "block": 65,
+            "fight": 56,
+            "throw": 58,
+            "luck": 59,
+            "pronouns": "They/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Morning Star",
+            "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+            "literate": true
+          }
+        }
+      ]
+    },
+    "awayTeam": {
+      "name": "The Southport Narwhals",
+      "slug": "southport",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 48,
+      "stadium": {
+        "name": "The Cliffside Pitch",
+        "location": "Southport",
+        "description": "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
+        "modifiers": [
+          "Gale-Force Winds",
+          "Sea Spray",
+          "Rocky Outcropping"
+        ]
+      },
+      "healer": {
+        "name": "Sand Denys",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 50,
+          "block": 53,
+          "fight": 61,
+          "throw": 64,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 68,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Telling each other exaggerated lies about their own strength.",
+          "literate": false
+        }
+      },
+      "players": [
+        {
+          "name": "Blood Eppes",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 56,
+            "catch": 54,
+            "run": 52,
+            "block": 47,
+            "fight": 64,
+            "throw": 63,
+            "luck": 54,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Cutlass",
+            "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Malcolm Goer",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 56,
+            "catch": 36,
+            "run": 63,
+            "block": 65,
+            "fight": 56,
+            "throw": 58,
+            "luck": 59,
+            "pronouns": "They/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Morning Star",
+            "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Blanc Fantasia",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 51,
+            "catch": 51,
+            "run": 60,
+            "block": 58,
+            "fight": 64,
+            "throw": 52,
+            "luck": 52,
+            "pronouns": "He/Them",
+            "civic_engagement": 43,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Loralyn Lyndy",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 58,
+            "catch": 47,
+            "run": 58,
+            "block": 57,
+            "fight": 57,
+            "throw": 59,
+            "luck": 61,
+            "pronouns": "She/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Main-gauche",
+            "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Cibis Areta",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 63,
+            "catch": 48,
+            "run": 57,
+            "block": 59,
+            "fight": 54,
+            "throw": 45,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 61,
+            "alcohol_tolerance": 71,
+            "favorite_weapon": "Estoc",
+            "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Braden Gaile",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 47,
+            "catch": 52,
+            "run": 53,
+            "block": 67,
+            "fight": 68,
+            "throw": 65,
+            "luck": 53,
+            "pronouns": "He/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 62,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Crescint Sonia",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 65,
+            "catch": 64,
+            "run": 67,
+            "block": 47,
+            "fight": 44,
+            "throw": 53,
+            "luck": 59,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Warhammer",
+            "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Cilurzo Sochor",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 58,
+            "catch": 43,
+            "run": 54,
+            "block": 65,
+            "fight": 66,
+            "throw": 53,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Hatchet",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Torey Dannye",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 49,
+            "catch": 59,
+            "run": 55,
+            "block": 56,
+            "fight": 45,
+            "throw": 57,
+            "luck": 60,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Fineman Dolhenty",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 51,
+            "catch": 49,
+            "run": 60,
+            "block": 55,
+            "fight": 54,
+            "throw": 48,
+            "luck": 48,
+            "pronouns": "She/Her",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Wearing a necklace of polished river stones.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Blood Eppes",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 56,
+            "catch": 54,
+            "run": 52,
+            "block": 47,
+            "fight": 64,
+            "throw": 63,
+            "luck": 54,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Cutlass",
+            "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Malcolm Goer",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 56,
+            "catch": 36,
+            "run": 63,
+            "block": 65,
+            "fight": 56,
+            "throw": 58,
+            "luck": 59,
+            "pronouns": "They/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Morning Star",
+            "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Blanc Fantasia",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 51,
+            "catch": 51,
+            "run": 60,
+            "block": 58,
+            "fight": 64,
+            "throw": 52,
+            "luck": 52,
+            "pronouns": "He/Them",
+            "civic_engagement": 43,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Seax",
+            "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Loralyn Lyndy",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 58,
+            "catch": 47,
+            "run": 58,
+            "block": 57,
+            "fight": 57,
+            "throw": 59,
+            "luck": 61,
+            "pronouns": "She/Them",
+            "civic_engagement": 49,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Main-gauche",
+            "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Cibis Areta",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 63,
+            "catch": 48,
+            "run": 57,
+            "block": 59,
+            "fight": 54,
+            "throw": 45,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 61,
+            "alcohol_tolerance": 71,
+            "favorite_weapon": "Estoc",
+            "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Braden Gaile",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 47,
+            "catch": 52,
+            "run": 53,
+            "block": 67,
+            "fight": 68,
+            "throw": 65,
+            "luck": 53,
+            "pronouns": "He/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 62,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Crescint Sonia",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 65,
+            "catch": 64,
+            "run": 67,
+            "block": 47,
+            "fight": 44,
+            "throw": 53,
+            "luck": 59,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 54,
+            "favorite_weapon": "Warhammer",
+            "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Cilurzo Sochor",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 58,
+            "catch": 43,
+            "run": 54,
+            "block": 65,
+            "fight": 66,
+            "throw": 53,
+            "luck": 53,
+            "pronouns": "He/Him",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Hatchet",
+            "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Torey Dannye",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 49,
+            "catch": 59,
+            "run": 55,
+            "block": 56,
+            "fight": 45,
+            "throw": 57,
+            "luck": 60,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Swordstaff",
+            "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Fineman Dolhenty",
+          "team": "The Southport Narwhals",
+          "stats": {
+            "pass": 51,
+            "catch": 49,
+            "run": 60,
+            "block": 55,
+            "fight": 54,
+            "throw": 48,
+            "luck": 48,
+            "pronouns": "She/Her",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Kirkhammer",
+            "pregame_ritual": "Wearing a necklace of polished river stones.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Pirozzo Opal",
+          "team": "The New Ravenfall Commanders",
+          "stats": {
+            "pass": 47,
+            "catch": 58,
+            "run": 54,
+            "block": 51,
+            "fight": 51,
+            "throw": 53,
+            "luck": 57,
+            "pronouns": "He/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": []
+    },
+    "preGame": "Helloooooo Trollball fanatics and welcome to another glorious, gore-soaked preseason matchup! Nok the Corrupter here, coming to you live from the magnificent Stronghold Bailey, home of the New Ravenfall Commanders! The packed earth and cobblestone are practically humming with anticipation, and the shadows from the ramparts are long and menacing. What a perfect day for some bone-crunching action!\n\nVisiting us today are the Southport Narwhals, all the way from their breezy, precarious Cliffside Pitch. I tell ya, folks, these sea-dogs are a tough bunch, and I've seen them getting ready for this bout. Their healer, Sand Denys, has the team telling each other wild, exaggerated lies about their own strength to get the blood pumping. Meanwhile, I saw Malcolm Goer rubbing the Trollball all over their armpits for 'extra grip'! Now that's the kind of dedication you don't see from those so-called 'heroes' like that bore Sir Tanos, who probably spends his pre-game time polishing his cutlery.\n\nBut don't you count out the home team! The New Ravenfall Commanders look ready to defend their fortress! Their healer, Hooge Imtiaz, led them in a chant that shook the very foundations of this castle. And for a little extra luck, Estes Adrian was seen eating a piece of honeycomb to 'sweeten' the coming victory. It's the Narwhals versus the Commanders! The sea versus the stone! Get ready folks, because the whistle is about to blow, and the carnage is about to begin!",
+    "postGame": "And that's the final whistle, folks! What a decisive victory here at the Stronghold Bailey! Your New Ravenfall Commanders have put on an absolute clinic of violence and skill, defeating the visiting Southport Narwhals with a resounding final score of 4 to 1! Let's break down the beautiful brutality we all just witnessed!\n\nThe action started fast, with Blood Eppes of the Narwhals scooping up the ball right at midfield. But before you could blink, Rhett Gavrilla of the Commanders introduced Malcolm Goer to their Woodsman's Axe, sending them straight to the sidelines for a little nap! What a hit! That's how you set the tone, people!\n\nSouthport looked like they might answer right back. Blood Eppes made a fantastic run, dodging a block and getting into scoring position. He winds up, he throws to Loralyn Lyndy for what looks like an easy score... AND SHE FUMBLES IT! Oh, you hate to see that! The ball squirts loose and is picked up by teammate Blanc Fantasia, but the golden opportunity is gone!\n\nThe Commanders' defense was just a wall of muscle and hate today. Blanc Fantasia tried to run it, but Moir Sass was there to stop them dead in their tracks and strip the ball away! A huge momentum shift as the Commanders take possession and look to make a statement.\n\nAnd then, folks, the mayhem truly began! We saw a flurry of knockouts that would make a battlefield surgeon blush. Fineman Dolhenty and Malcolm Goer traded shots and knocked each other out cold! Loralyn Lyndy sent Jessalin Zobias packing! Cibis Areta took out Croteau Osmo with a beautiful Estoc strike! This is Trollball at its finest! None of that prancing around you see from the likes of Dame Terra Monteforte!\n\nWith the field littered with groaning bodies, Moir Sass saw an opening. From deep in their own territory, practically on their own goal line, they launched an absolute prayer of a shot. The Trollball sailed through the air, end over end, a beautiful arc against the sky...\n\nAND IT'S A GOAL! A magnificent 2-point score for Moir Sass and the New Ravenfall Commanders! The crowd here at the Bailey is going absolutely wild! What an unbelievable play to put the home team on the board first! What a display of raw power!\n\nThe Narwhals tried to mount a counter-attack before the half, stringing together a couple of nice passes, but the Commanders' defense held firm. The whistle blew for halftime, giving the healers a chance to scrape their friends off the cobblestones and get them ready for the second half. The score stood at 2-0 for the Commanders.\n\nThe second half started with more of the same dominance from the home team. Fineman Dolhenty got the ball for the Narwhals, but was immediately stuffed and stripped by a ferocious Jessalin Zobias. Zobias then took off like a shot, juking past a defender and firing from the Home Field... BINGO! Another 2 points for the Commanders! They extended their lead to a commanding 4-0!\n\nGive the Narwhals credit, though, they didn't quit. They kept fighting, scrapping for every inch. After a chaotic scrum where the ball was dropped and recovered multiple times, Cilurzo Sochor of Southport finally found some space. He dodged a block attempt from Jessalin Zobias and slammed the Trollball home for a score!\n\nIt was only a 1-point goal, but it saved the Narwhals from the utter humiliation of a shutout. A small victory on a day that belonged entirely to the Commanders. A final desperation shot from Blanc Fantasia fell well short as time expired.\n\nSo let's say it again! Your winners, by a spectacular score of 4 to 1, are the New Ravenfall Commanders! A performance as solid as the castle they play in! This is Nok the Corrupter, signing off and reminding you that true glory isn't found in a king's court, but right here on the blood-soaked pitch!",
+    "week": 0,
+    "homeScore": 4,
+    "awayScore": 1,
+    "slug": "new-ravenfall-southport-0"
+  },
+  {
+    "homeTeam": {
+      "name": "The Oread's Summit Tamers",
+      "slug": "oreads-summit",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 67,
+      "stadium": {
+        "name": "The High-Pass Pitch",
+        "location": "Oread's Summit",
+        "description": "A field built at a breathtaking altitude in a fortified mountain pass. The air is painfully thin, and the weather is dangerously unpredictable.",
+        "modifiers": [
+          "Thin Air",
+          "Sudden Blizzard",
+          "Vertigo"
+        ]
+      },
+      "healer": {
+        "name": "Carn Tibbetts",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 54,
+          "catch": 51,
+          "run": 59,
+          "block": 57,
+          "fight": 51,
+          "throw": 52,
+          "luck": 65,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Shortsword",
+          "pregame_ritual": "Tying a small, hand-carved wooden bird to their gear.",
+          "literate": true
+        }
+      },
+      "players": [
+        {
+          "name": "Odericus Juxon",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 51,
+            "catch": 62,
+            "run": 56,
+            "block": 50,
+            "fight": 45,
+            "throw": 60,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Slapping their own helmet until their ears ring.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Kass Fogel",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 55,
+            "catch": 46,
+            "run": 59,
+            "block": 50,
+            "fight": 57,
+            "throw": 59,
+            "luck": 60,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Voulge",
+            "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Zadoc Wyatan",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 53,
+            "catch": 67,
+            "run": 60,
+            "block": 58,
+            "fight": 58,
+            "throw": 54,
+            "luck": 51,
+            "pronouns": "They/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Alwyn Wandy",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 58,
+            "catch": 34,
+            "run": 56,
+            "block": 64,
+            "fight": 53,
+            "throw": 65,
+            "luck": 63,
+            "pronouns": "They/Them",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Dric Trilley",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 53,
+            "catch": 54,
+            "run": 59,
+            "block": 67,
+            "fight": 45,
+            "throw": 49,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Flail",
+            "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Swamy Ahasuerus",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 69,
+            "catch": 53,
+            "run": 50,
+            "block": 53,
+            "fight": 52,
+            "throw": 60,
+            "luck": 51,
+            "pronouns": "She/Them",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Clippard Burr",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 38,
+            "catch": 60,
+            "run": 65,
+            "block": 57,
+            "fight": 57,
+            "throw": 62,
+            "luck": 60,
+            "pronouns": "She/Them",
+            "civic_engagement": 70,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Lance",
+            "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Mitran Mariand",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 58,
+            "catch": 54,
+            "run": 63,
+            "block": 42,
+            "fight": 57,
+            "throw": 51,
+            "luck": 44,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Dirk",
+            "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Edme Virgil",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 60,
+            "catch": 45,
+            "run": 63,
+            "block": 56,
+            "fight": 62,
+            "throw": 62,
+            "luck": 59,
+            "pronouns": "They/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Singing a sea shanty completely out of tune.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Saloma Talich",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 66,
+            "catch": 53,
+            "run": 48,
+            "block": 45,
+            "fight": 52,
+            "throw": 57,
+            "luck": 51,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 72,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Odericus Juxon",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 51,
+            "catch": 62,
+            "run": 56,
+            "block": 50,
+            "fight": 45,
+            "throw": 60,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Slapping their own helmet until their ears ring.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Kass Fogel",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 55,
+            "catch": 46,
+            "run": 59,
+            "block": 50,
+            "fight": 57,
+            "throw": 59,
+            "luck": 60,
+            "pronouns": "She/Them",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Voulge",
+            "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Zadoc Wyatan",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 53,
+            "catch": 67,
+            "run": 60,
+            "block": 58,
+            "fight": 58,
+            "throw": 54,
+            "luck": 51,
+            "pronouns": "They/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Alwyn Wandy",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 58,
+            "catch": 34,
+            "run": 56,
+            "block": 64,
+            "fight": 53,
+            "throw": 65,
+            "luck": 63,
+            "pronouns": "They/Them",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Dric Trilley",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 53,
+            "catch": 54,
+            "run": 59,
+            "block": 67,
+            "fight": 45,
+            "throw": 49,
+            "luck": 56,
+            "pronouns": "She/Them",
+            "civic_engagement": 48,
+            "alcohol_tolerance": 56,
+            "favorite_weapon": "Flail",
+            "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Swamy Ahasuerus",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 69,
+            "catch": 53,
+            "run": 50,
+            "block": 53,
+            "fight": 52,
+            "throw": 60,
+            "luck": 51,
+            "pronouns": "She/Them",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Clippard Burr",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 38,
+            "catch": 60,
+            "run": 65,
+            "block": 57,
+            "fight": 57,
+            "throw": 62,
+            "luck": 60,
+            "pronouns": "She/Them",
+            "civic_engagement": 70,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Lance",
+            "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Mitran Mariand",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 58,
+            "catch": 54,
+            "run": 63,
+            "block": 42,
+            "fight": 57,
+            "throw": 51,
+            "luck": 44,
+            "pronouns": "He/Him",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 60,
+            "favorite_weapon": "Dirk",
+            "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Edme Virgil",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 60,
+            "catch": 45,
+            "run": 63,
+            "block": 56,
+            "fight": 62,
+            "throw": 62,
+            "luck": 59,
+            "pronouns": "They/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Singing a sea shanty completely out of tune.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Saloma Talich",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 66,
+            "catch": 53,
+            "run": 48,
+            "block": 45,
+            "fight": 52,
+            "throw": 57,
+            "luck": 51,
+            "pronouns": "He/Him",
+            "civic_engagement": 57,
+            "alcohol_tolerance": 72,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Isborne Krause",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 50,
+            "catch": 55,
+            "run": 46,
+            "block": 61,
+            "fight": 51,
+            "throw": 47,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Flail",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": []
+    },
+    "awayTeam": {
+      "name": "The South Pole Yetis",
+      "slug": "south-pole",
+      "losses": 0,
+      "wins": 0,
+      "score": 0,
+      "luck": 55,
+      "stadium": {
+        "name": "The South Pole Palisade",
+        "location": "A remote southern frontier town",
+        "description": "A crude, fortified playing field built from rough-hewn logs. It's less a stadium and more a stockade against the wilderness. The 'grass' is mostly frozen mud and straw.",
+        "modifiers": [
+          "Freezing Rain",
+          "Icy Field",
+          "Wolf Pack Howling"
+        ]
+      },
+      "healer": {
+        "name": "Seiter Aida",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 59,
+          "block": 46,
+          "fight": 48,
+          "throw": 67,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": false
+        }
+      },
+      "players": [
+        {
+          "name": "Sale Tocci",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 60,
+            "catch": 51,
+            "run": 54,
+            "block": 54,
+            "fight": 52,
+            "throw": 55,
+            "luck": 63,
+            "pronouns": "She/Her",
+            "civic_engagement": 69,
+            "alcohol_tolerance": 42,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Ajit Serge",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 50,
+            "catch": 54,
+            "run": 55,
+            "block": 51,
+            "fight": 59,
+            "throw": 58,
+            "luck": 62,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Isborne Krause",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 50,
+            "catch": 55,
+            "run": 46,
+            "block": 61,
+            "fight": 51,
+            "throw": 47,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Flail",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Selima Si",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 58,
+            "catch": 61,
+            "run": 65,
+            "block": 60,
+            "fight": 53,
+            "throw": 49,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Duky Orelee",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 55,
+            "catch": 41,
+            "run": 59,
+            "block": 67,
+            "fight": 48,
+            "throw": 56,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Sayers Erdda",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 60,
+            "catch": 45,
+            "run": 49,
+            "block": 54,
+            "fight": 48,
+            "throw": 69,
+            "luck": 62,
+            "pronouns": "They/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Dagger",
+            "pregame_ritual": "Polishing their boots with bacon grease.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Jessy Debbie",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 61,
+            "catch": 53,
+            "run": 60,
+            "block": 48,
+            "fight": 59,
+            "throw": 54,
+            "luck": 44,
+            "pronouns": "They/Them",
+            "civic_engagement": 62,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Great Axe",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Hilaire Guevara",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 60,
+            "catch": 51,
+            "run": 47,
+            "block": 52,
+            "fight": 56,
+            "throw": 54,
+            "luck": 51,
+            "pronouns": "She/Her",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Coussoule Bidle",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 58,
+            "catch": 58,
+            "run": 63,
+            "block": 59,
+            "fight": 59,
+            "throw": 47,
+            "luck": 46,
+            "pronouns": "He/Him",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Mallet",
+            "pregame_ritual": "Turning their helmet around three times before putting it on.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Udela Dorkus",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 54,
+            "catch": 60,
+            "run": 58,
+            "block": 54,
+            "fight": 53,
+            "throw": 59,
+            "luck": 51,
+            "pronouns": "She/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Licking a whetstone.",
+            "literate": true
+          }
+        }
+      ],
+      "activePlayers": [
+        {
+          "name": "Sale Tocci",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 60,
+            "catch": 51,
+            "run": 54,
+            "block": 54,
+            "fight": 52,
+            "throw": 55,
+            "luck": 63,
+            "pronouns": "She/Her",
+            "civic_engagement": 69,
+            "alcohol_tolerance": 42,
+            "favorite_weapon": "Talwar",
+            "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Ajit Serge",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 50,
+            "catch": 54,
+            "run": 55,
+            "block": 51,
+            "fight": 59,
+            "throw": 58,
+            "luck": 62,
+            "pronouns": "He/Him",
+            "civic_engagement": 51,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "War Pick",
+            "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Isborne Krause",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 50,
+            "catch": 55,
+            "run": 46,
+            "block": 61,
+            "fight": 51,
+            "throw": 47,
+            "luck": 56,
+            "pronouns": "He/Him",
+            "civic_engagement": 58,
+            "alcohol_tolerance": 58,
+            "favorite_weapon": "Flail",
+            "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Selima Si",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 58,
+            "catch": 61,
+            "run": 65,
+            "block": 60,
+            "fight": 53,
+            "throw": 49,
+            "luck": 55,
+            "pronouns": "She/Them",
+            "civic_engagement": 55,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Broadsword",
+            "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Duky Orelee",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 55,
+            "catch": 41,
+            "run": 59,
+            "block": 67,
+            "fight": 48,
+            "throw": 56,
+            "luck": 52,
+            "pronouns": "He/Him",
+            "civic_engagement": 52,
+            "alcohol_tolerance": 61,
+            "favorite_weapon": "Kriegsmesser",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Sayers Erdda",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 60,
+            "catch": 45,
+            "run": 49,
+            "block": 54,
+            "fight": 48,
+            "throw": 69,
+            "luck": 62,
+            "pronouns": "They/Them",
+            "civic_engagement": 56,
+            "alcohol_tolerance": 52,
+            "favorite_weapon": "Dagger",
+            "pregame_ritual": "Polishing their boots with bacon grease.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Jessy Debbie",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 61,
+            "catch": 53,
+            "run": 60,
+            "block": 48,
+            "fight": 59,
+            "throw": 54,
+            "luck": 44,
+            "pronouns": "They/Them",
+            "civic_engagement": 62,
+            "alcohol_tolerance": 49,
+            "favorite_weapon": "Great Axe",
+            "pregame_ritual": "Clapping their hands a prime number of times.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Hilaire Guevara",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 60,
+            "catch": 51,
+            "run": 47,
+            "block": 52,
+            "fight": 56,
+            "throw": 54,
+            "luck": 51,
+            "pronouns": "She/Her",
+            "civic_engagement": 53,
+            "alcohol_tolerance": 53,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Udela Dorkus",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 54,
+            "catch": 60,
+            "run": 58,
+            "block": 54,
+            "fight": 53,
+            "throw": 59,
+            "luck": 51,
+            "pronouns": "She/Them",
+            "civic_engagement": 63,
+            "alcohol_tolerance": 47,
+            "favorite_weapon": "Quarterstaff",
+            "pregame_ritual": "Licking a whetstone.",
+            "literate": true
+          }
+        },
+        {
+          "name": "Swamy Ahasuerus",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 69,
+            "catch": 53,
+            "run": 50,
+            "block": 53,
+            "fight": 52,
+            "throw": 60,
+            "luck": 51,
+            "pronouns": "She/Them",
+            "civic_engagement": 50,
+            "alcohol_tolerance": 55,
+            "favorite_weapon": "Axe",
+            "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+            "literate": false
+          }
+        },
+        {
+          "name": "Coussoule Bidle",
+          "team": "The South Pole Yetis",
+          "stats": {
+            "pass": 58,
+            "catch": 58,
+            "run": 63,
+            "block": 59,
+            "fight": 59,
+            "throw": 47,
+            "luck": 46,
+            "pronouns": "He/Him",
+            "civic_engagement": 59,
+            "alcohol_tolerance": 45,
+            "favorite_weapon": "Mallet",
+            "pregame_ritual": "Turning their helmet around three times before putting it on.",
+            "literate": true
+          }
+        }
+      ],
+      "inactivePlayers": [
+        {
+          "name": "Zadoc Wyatan",
+          "team": "The Oread's Summit Tamers",
+          "stats": {
+            "pass": 53,
+            "catch": 67,
+            "run": 60,
+            "block": 58,
+            "fight": 58,
+            "throw": 54,
+            "luck": 51,
+            "pronouns": "They/Them",
+            "civic_engagement": 60,
+            "alcohol_tolerance": 57,
+            "favorite_weapon": "Halberd",
+            "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+            "literate": true
+          }
+        }
+      ]
+    },
+    "preGame": "Hello, fiends and fanatics, and welcome to another glorious broadcast of TROLLBALL! This is your favorite announcer, Nok the Corrupter, coming to you live from the absolutely breathtaking High-Pass Pitch, home of The Oread's Summit Tamers! The air is thin, the wind is biting, and there's a chance of a sudden blizzard! What a perfect day for some bone-crunching action!\n\nToday, the hometown Tamers are facing off against the formidable visitors from the south, The South Pole Yetis! Both teams are coming into this pre-season match with a clean slate, zero wins and zero losses, but you know they are absolutely hungry to draw first blood and set the tone for the season to come! This isn't some prissy tournament for those so-called 'heroes' of the realm; this is a trial by combat where only the strong survive!\n\nThe players are looking ready to rumble down on that frozen pitch. I'm told the Yetis' own Duky Orelee has been getting ready by clapping his hands a prime number of times. What a delightfully odd way to prepare for mayhem! Not to be outdone, the Tamers' Odericus Juxon has been slapping her own helmet until her ears ring! That's the kind of dedication I love to see, folks! Forget your meditations and your prayers to some goody-two-shoes deity, a good smack to the head is all you need to get in the zone!\n\nThe whistle is about to blow, and the tension up here is thicker than the mountain fog! Will the Summit Tamers defend their vertigo-inducing home turf, or will the Yetis make them wish they'd stayed at the South Pole Palisade? Stick around, folks, because it's going to be a slobberknocker!",
+    "postGame": "AND THAT'S THE GAME, FOLKS! What a magnificent display of grit, guts, and glorious violence! The final horn has sounded here at the High-Pass Pitch, and it is The South Pole Yetis who walk away with the victory!\n\nThe final score: The South Pole Yetis, 2! The Oread's Summit Tamers, a big ol' ZERO! A shutout victory to start the pre-season! You love to see it!\n\nThe action started fast and furious right from the get-go! The Yetis' own Selima Si scooped up that ball and made it her personal mission to score. But before she could even take a step, her teammate Sale Tocci laid out Swamy Ahasuerus with that beautiful Talwar! That's how you support your ball carrier, folks! Take out the opposition!\n\nAnd what a run it was! Selima Si was a woman possessed! She dodged Edme Virgil, she slipped past Alwyn Wandy, she danced her way right into the 2-point zone like she owned the place! It was a masterclass in aggressive running, the kind that makes those pampered rangers like Sir Randy look like they're standing still.\n\nFrom the Home 2-Point zone, Selima Si let it fly... AND IT'S GOOD! Two points for the Yetis! An absolutely stunning opening drive that left the Summit Tamers reeling and the crowd breathless! What a start for the visitors!\n\nThe Tamers just couldn't seem to find their footing after that. The Yetis kept the pressure on, and the field soon turned into a beautiful chaotic melee! We saw Sale Tocci and Odericus Juxon take each other out in a glorious flash of steel! We saw Ajit Serge and Zadoc Wyatan trade blows and knock each other senseless! It was a symphony of destruction, and every note was pitch-perfect!\n\nThen came the highlight of the half, maybe the whole game! Swamy Ahasuerus of the Tamers finally got her hands on the ball, a chance to be the hero... only to somehow knock HERSELF out of play with her own axe! You can't make this stuff up! A self-inflicted knockout! The sheer incompetence is almost as beautiful as a well-executed block! The ball dropped, and the Yetis recovered as the halftime whistle blew.\n\nAfter a much-needed break where the healers on both sides certainly earned their pay, the second half was a brutal defensive stalemate. The Yetis had a chance with a deep pass, but it was fumbled! The Tamers got the ball back, drove downfield, and... fumbled their own pass! It seems the thin mountain air makes the Trollball as slippery as a politician's promise!\n\nBoth teams fought tooth and nail, with players like Jessy Debbie and Clippard Burr dishing out punishment left and right. The Summit Tamers tried to mount a comeback, but they were consistently shut down by the Yetis' defense, led by the unstoppable Selima Si, who forced a crucial turnover late in the game.\n\nThe final play saw the Yetis complete a short pass to Udela Dorkus as time expired, cementing their hard-fought victory. A magnificent effort from The South Pole Yetis, who showed us all that a powerful offense and an even more punishing defense is the key to winning Trollball! My congratulations to them, and my commiserations to the Tamers, who will need more than a few slaps to the helmet to recover from this one! What a game!",
+    "week": 0,
+    "homeScore": 0,
+    "awayScore": 2,
+    "slug": "oreads-summit-south-pole-0"
   }
 ];

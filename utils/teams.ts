@@ -2601,7 +2601,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
     },
     healer: {
       name: "Sand Denys",
-      team: TEAM_NAMES["The South Pole Yetis"],
+      team: TEAM_NAMES["The Southport Narwhals"],
       stats: {
         pass: 55,
         catch: 54,
@@ -2622,7 +2622,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
     players: [
       {
         name: "Blood Eppes",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 56,
           catch: 54,
@@ -2642,7 +2642,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Malcolm Goer",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 56,
           catch: 36,
@@ -2661,7 +2661,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Blanc Fantasia",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 51,
           catch: 51,
@@ -2681,7 +2681,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Loralyn Lyndy",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 58,
           catch: 47,
@@ -2701,7 +2701,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Cibis Areta",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 63,
           catch: 48,
@@ -2721,7 +2721,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Braden Gaile",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 47,
           catch: 52,
@@ -2741,7 +2741,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Crescint Sonia",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 65,
           catch: 64,
@@ -2760,7 +2760,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Cilurzo Sochor",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 58,
           catch: 43,
@@ -2780,7 +2780,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Torey Dannye",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 49,
           catch: 59,
@@ -2800,7 +2800,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
       {
         name: "Fineman Dolhenty",
-        team: TEAM_NAMES["The South Pole Yetis"],
+        team: TEAM_NAMES["The Southport Narwhals"],
         stats: {
           pass: 51,
           catch: 49,

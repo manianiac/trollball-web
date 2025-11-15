@@ -55,7 +55,7 @@ RULES:
 - You MUST write in character at all times.
 - Pre-game: Build hype, mention the teams, and maybe a player's pre-game ritual (found in their stats).
 - Post-game: Summarize the action using the 'plays' array. Announce the final score and winner.
-- Throw shade at the "heroes" of the realm when possible.
+- Throw shade at the "heroes" of the realm when possible, but don't be repetitive.
 - Your response MUST be in the specified JSON format.
 `;
 
@@ -63,7 +63,7 @@ RULES:
 const safetySettings: SafetySetting[] = [
   {
     category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-    threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+    threshold: HarmBlockThreshold.BLOCK_ONLY_HIGH,
   },
   {
     category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
@@ -71,7 +71,7 @@ const safetySettings: SafetySetting[] = [
   },
   {
     category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
-    threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+    threshold: HarmBlockThreshold.BLOCK_ONLY_HIGH,
   },
   {
     // Allow descriptions of the in-game fighting
@@ -88,11 +88,13 @@ const heroesOfTheRealm = [
       TEAM_NAMES["The Brimstone Fire Eaters"],
     ],
     characters: [
-      "Sir Tanos, the Paladin",
-      "Sir Artorias the Moonslayer",
-      "Morgwae, the Warlock",
-      "Dima, the shadow king",
-      "King Zenku",
+      "Sir Tanos, the Bold, wielder of the cursed Sunbringer",
+      "God King Sir Artorias the Moonslayer, Friend of the Fey, Former Chairman, Osterra's Celebrity, slayer of monsters",
+      "Morgwae, the Warlock, Chief Arcanist",
+      "Dima, the shadow king and assassin",
+      "Governer-King Zenku, who is ashamed of his face",
+      "Notable Fey Hater Linaeus",
+      "Sawyer, the rogueiest rogue, circus escapee",
     ],
   },
   {
@@ -102,9 +104,9 @@ const heroesOfTheRealm = [
       TEAM_NAMES["The Wyrmwood Stronghammers"],
     ],
     characters: [
-      "Sir Trez Arrigo, the former pirate",
-      "Oona, High Priestess of the Green Goddess",
-      "Valos, Bog Queen of Zmeigorod",
+      "Count Trez Arrigo, the former pirate, captain of commerce, who wooed his high priestess",
+      "Oona, High Priestess of the Green Goddess, executor of my corrupted friends",
+      "Valos the Eternal, Bog Queen of Zmeigorod, self proclaimed god",
       "Dame Gwion, Absent but still feared",
       "Dane, peddler of cursed anti-corruption",
     ],
@@ -116,11 +118,69 @@ const heroesOfTheRealm = [
       TEAM_NAMES["The New Prosperity Profits"],
     ],
     characters: [
-      "Chairman Sir Garon Ironrock",
-      "Chairman High Venture Brennen Farno, money priest",
-      "Chairman Toland, Necromancer Archaeologist",
-      "Nikos Thanae the Benevolent, who shoots people in the streets",
-      "Cyfnerth the Butcher of Confluece, a man after my own stomach",
+      "Chairman Sir Garon Ironrock of the People, Door Enjoyer",
+      "Chairman High Venture Brennen Farno, money priest, kissless virgin, strangely beautiful",
+      "Chairman Toland, Necromancer Archaeologist, cheese enthusiast, decent baker",
+      "Nikos Thanae the Benevolent, who shoots people in the streets, my least friend",
+      "Cyfnerth the Butcher of Confluece, a man after my own stomach, dedicated recycler",
+    ],
+  },
+  {
+    faction: "Geth",
+    associatedTeams: [TEAM_NAMES["The Desert Spectres"]],
+    characters: ["Geth the Gravelord, the realm's best frenemy"],
+  },
+  {
+    faction: "The White Ravens",
+    associatedTeams: [
+      TEAM_NAMES["The Kerlauger Runeguard"],
+      TEAM_NAMES["The New Monteforte Chaos Creatures"],
+    ],
+    characters: [
+      "Dame Terra Monteforte, dirt wizard, kidnapper of prophets",
+      "Colm, warrior of the White Ravens, Osterra's most cursed man, excellent handshake",
+    ],
+  },
+  {
+    faction: "The Prismatic Troups",
+    associatedTeams: [
+      TEAM_NAMES["The Oread's Summit Tamers"],
+      TEAM_NAMES["The Starlight Bazaar Bizarres"],
+    ],
+    characters: [
+      "Kython, the ringleader of the fey circus, fun guy",
+      "Caenis the Fatebreaker, but maybe the Oathbreaker,but maybe the Morrigan? She's going through it",
+    ],
+  },
+  {
+    faction: "Cedar Hill",
+    associatedTeams: [
+      TEAM_NAMES["The South Pole Yetis"],
+      TEAM_NAMES["The Tortell Privateers"],
+    ],
+    characters: [
+      "Imra, Master of Elixers, Dust Afficionado. Seriously, pay your bar tab",
+      "Elspeth Ortell, Osterra's friendliest Disintegrate Dealer, makes a mean ritual sangria, almost money priestess",
+      "Joslyn, who runs that contemptible greenhouse",
+    ],
+  },
+  {
+    faction: "Grimfrost",
+    associatedTeams: [TEAM_NAMES["The Southport Narwhals"]],
+    characters: [
+      "King Nezmear, of the north(but not the north pole), breeder of werewolves",
+    ],
+  },
+  {
+    faction: "The Wardens",
+    associatedTeams: [
+      TEAM_NAMES["Oak & Onslaught"],
+      TEAM_NAMES["The Greenwatch"],
+    ],
+    characters: [
+      "Sir Randy, the ranger with the FANCY bow",
+      "Falric, thief of hearts, backbone of the economy, Saint of the Church of Pecune",
+      "Levania, who loves shiny things, the reason Falric is broke",
     ],
   },
 ];
