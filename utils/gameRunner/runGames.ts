@@ -1,18 +1,30 @@
 import { TEAMS } from "../teams";
-import { TEAM_NAMES, ZONE, match_progress, team } from "../consts";
+import { TEAM_NAMES, ZONE, match, match_progress, team } from "../consts";
+import fs from "fs";
 
 import { gameLoop } from "./gameFiles/gameRunner";
+import { LEAGUE_SCHEDULE } from "./roundRobin";
+import { generateTeam } from "./utils/generateTeam";
+import { generateNameGenerator } from "../utils";
+let ng = generateNameGenerator();
+let oo = generateTeam(TEAM_NAMES["Oak & Onslaught"], ng);
 
-// gameState.awayTeam = TEAMS["The Confluence Captains"];
-// gameState.homeTeam = TEAMS["The South Pole Yetis"];
-// gameState.currentZone = ZONE["Center Field"];
-// gameState.possessionTeam = TEAM_NAMES["No Team"];
-// gameState.plays = [];
-// gameState.awayScore = 0;
-// gameState.homeScore = 0;
-// gameState.week = 0;
+let gw = generateTeam(TEAM_NAMES["The Greenwatch"], ng);
 
-// gameLoop(gameState);
+fs.writeFile(`./Oak.json`, JSON.stringify(oo), "utf8", (err) => {
+  if (err) {
+    console.error("Error writing to file", err);
+  } else {
+    console.log(`Data written to JSON.`);
+  }
+});
+fs.writeFile(`./green.json`, JSON.stringify(gw), "utf8", (err) => {
+  if (err) {
+    console.error("Error writing to file", err);
+  } else {
+    console.log(`Data written to JSON.`);
+  }
+});
 
 const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
   let gameState: match_progress = {} as match_progress;
@@ -28,9 +40,19 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
 
   gameLoop(gameState);
 };
+// runMatch(
+//   TEAMS["The Brimstone Fire Eaters"],
+//   TEAMS["The Confluence Captains"],
+//   0
+// );
 
-runMatch(
-  TEAMS["The Kerlauger Runeguard"],
-  TEAMS["The Zmeigorod Snessengers"],
-  1
-);
+// LEAGUE_SCHEDULE.filter((match) => match.week == 1).forEach((baseMatch) => {
+//   // Run the game simulation
+//   console.log(
+//     "generating match for " +
+//       baseMatch.homeTeam.name +
+//       " vs " +
+//       baseMatch.awayTeam.name
+//   );
+//   runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
+// });

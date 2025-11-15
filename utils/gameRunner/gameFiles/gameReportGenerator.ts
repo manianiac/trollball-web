@@ -1,0 +1,218 @@
+// Import the Google GenAI package
+import {
+  GoogleGenAI,
+  GenerationConfig,
+  SafetySetting,
+  HarmCategory,
+  HarmBlockThreshold,
+  Schema,
+  Type,
+} from "@google/genai";
+
+import { match_progress } from "@/utils/consts";
+
+// --- API Key Setup ---
+// The package will automatically find the GOOGLE_API_KEY environment variable
+const genAI = new GoogleGenAI({});
+
+// This is the JSON structure we will force the model to return.
+// It includes the pre/post-game reports and extracts the final score.
+interface GameReport {
+  preGameReport: string;
+  postGameReport: string;
+  finalScore: {
+    homeTeam: string;
+    homeScore: number;
+    awayTeam: string;
+    awayScore: number;
+  };
+}
+
+const GAME_REPORT_SCHEMA = {
+  type: Type.OBJECT, // <-- USE THE ENUM
+  properties: {
+    preGameReport: {
+      type: Type.STRING, // <-- USE THE ENUM
+      description:
+        "The pre-game report, written in character as Nok the Corrupter. Should build anticipation and introduce the teams, referencing their pre-game rituals or stats from the provided data.",
+    },
+    postGameReport: {
+      type: Type.STRING, // <-- USE THE ENUM
+      description:
+        "The post-game report, written in character as Nok the Corrupter. Should summarize the game's key plays (from the 'plays' array), state the final score, and celebrate the action. Can throw shade at heroes if relevant.",
+    },
+    finalScore: {
+      type: Type.OBJECT, // <-- USE THE ENUM
+      description: "The final scores of the game.",
+      properties: {
+        homeTeam: {
+          type: Type.STRING, // <-- USE THE ENUM
+          description: "The name of the home team.",
+        },
+        homeScore: {
+          type: Type.NUMBER, // <-- USE THE ENUM
+          description: "The final score of the home team.",
+        },
+        awayTeam: {
+          type: Type.STRING, // <-- USE THE ENUM
+          description: "The name of the away team.",
+        },
+        awayScore: {
+          type: Type.NUMBER, // <-- USE THE ENUM
+          description: "The final score of the away team.",
+        },
+      },
+      required: ["homeTeam", "homeScore", "awayTeam", "awayScore"],
+    },
+  },
+  required: ["preGameReport", "postGameReport", "finalScore"],
+}; // <-- 'as const' has been removed
+
+/**
+ * The System Instruction: This defines the persona and rules for the AI.
+ * This is where you put all your context.
+ */
+const NOK_THE_CORRUPTER_PERSONA = `
+You are Nok the Corrupter, a demon announcer for the fantasy sport Trollball.
+You speak with the over-the-top enthusiasm of a 1950's baseball radio announcer.
+You are very positive about Trollball and the brutal action of the game.
+You will be given a JSON object containing all the data for a completed game.
+Your task is to generate a pre-game and a post-game report based *only* on the data provided.
+
+RULES:
+- You MUST write in character at all times.
+- Pre-game: Build hype, mention the teams, and maybe a player's pre-game ritual (found in their stats).
+- Post-game: Summarize the action using the 'plays' array. Announce the final score and winner.
+- Throw shade at the "heroes" of the realm when possible.
+  - Related to New Ravenfall: Sir Tanos the Paladin, Sir Artorias the Moonslayer, Morgwai the Warlock.
+  - Related to New Monteforte: Dame Terra the Mage, Colm the Warrior.
+- Your response MUST be in the specified JSON format.
+`;
+
+// Configuration for the model generation
+const generationConfig: GenerationConfig = {
+  // Enforce the JSON output
+  responseMimeType: "application/json",
+  responseSchema: GAME_REPORT_SCHEMA,
+  // We can add temperature for creativity, but for reports, 0.5 is fine
+  temperature: 0.5,
+};
+
+// Set safety settings to allow for fantasy violence descriptions
+const safetySettings: SafetySetting[] = [
+  {
+    category: HarmCategory.HARM_CATEGORY_HARASSMENT,
+    threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+  },
+  {
+    category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
+    threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+  },
+  {
+    category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,
+    threshold: HarmBlockThreshold.BLOCK_MEDIUM_AND_ABOVE,
+  },
+  {
+    // Allow descriptions of the in-game fighting
+    category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,
+    threshold: HarmBlockThreshold.BLOCK_ONLY_HIGH,
+  },
+];
+
+/**
+ * Generates game reports by calling the Gemini API.
+ * @param gameData The full JSON object of the game progress file (like testOut.json).
+ * @returns A promise that resolves to the structured GameReport object.
+ */
+export async function generateGameReports(
+  gameData: match_progress
+): Promise<GameReport | null> {
+  try {
+    // The User Prompt: This is the specific task and the data to use.
+    // We stringify the game data and pass it in the prompt.
+    const userQuery = `
+      Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
+
+      <game_data>
+      ${JSON.stringify(gameData)}
+      </game_data>
+    `;
+
+    // Generate the content
+    const result = await genAI.models.generateContent({
+      model: "gemini-2.5-pro",
+      contents: userQuery,
+      config: {
+        safetySettings: safetySettings,
+        responseMimeType: "application/json",
+        responseSchema: GAME_REPORT_SCHEMA,
+        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
+      }, // Pass the JSON config here
+    });
+    const candidate = result.candidates?.[0];
+
+    if (candidate && candidate.content?.parts?.[0]?.text) {
+      // The model's response is a *string* of JSON. We need to parse it.
+      const jsonResponseText = candidate.content.parts[0].text;
+
+      return JSON.parse(jsonResponseText) as GameReport;
+    } else {
+      // Log the reason if it was blocked
+      if (result.promptFeedback) {
+        console.error(
+          "Error: Prompt was blocked.",
+          JSON.stringify(result.promptFeedback, null, 2)
+        );
+      }
+      if (candidate?.finishReason) {
+        console.error(
+          "Error: Generation finished early.",
+          candidate.finishReason,
+          candidate.safetyRatings
+        );
+      }
+
+      return null;
+    }
+  } catch (error) {
+    console.error("Error calling Gemini API:", error);
+
+    return null;
+  }
+}
+
+// --- Example Usage ---
+// This is how you would run this script
+/*
+async function runExample() {
+  console.log("Loading game data...");
+  // Load your game data file (e.g., testOut.json)
+  const gameDataPath = path.join(__dirname, "testOut.json"); // Assumes testOut.json is in the same folder
+  
+  try {
+    const gameDataFile = fs.readFileSync(gameDataPath, "utf-8");
+    const gameData = JSON.parse(gameDataFile);
+
+    console.log("Generating reports with Gemini API...");
+    const report = await generateGameReports(gameData);
+
+    if (report) {
+      console.log("--- SUCCESS: Got structured JSON response ---");
+      console.log(JSON.stringify(report, null, 2));
+
+      console.log("\n--- Pre-Game Report ---");
+      console.log(report.preGameReport);
+
+      console.log("\n--- Post-Game Report ---");
+      console.log(report.postGameReport);
+    } else {
+      console.log("Failed to generate reports.");
+    }
+  } catch (error) {
+    console.error("Error loading or parsing game data:", error);
+  }
+}
+
+// Uncomment the line below to run the example
+// runExample();
+*/

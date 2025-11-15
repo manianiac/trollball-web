@@ -54,7 +54,7 @@ export const getRandomInt = (min: number, max: number): number => {
 // };
 
 export const generateNameGenerator = (): Markov => {
-  const filePath: string = join(__dirname, "data", "names.txt");
+  const filePath: string = join(__dirname, "names.txt");
   const fileContent: string = readFileSync(filePath, "utf-8");
   const lines: string[] = fileContent.split("\n");
   const nameGenerator = new Markov();

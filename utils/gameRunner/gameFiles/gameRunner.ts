@@ -14,6 +14,7 @@ import {
 import { getRandomInt, selectRandomPlayer } from "../../utils";
 
 import { actionHandler } from "./actions";
+import { generateGameReports } from "./gameReportGenerator";
 
 // each 20 second span: choose a player at random and give them an action.
 //TODO check if team has no active players: if so, heal immediately
@@ -59,18 +60,37 @@ export const gameLoop = async (gameState: match_progress) => {
     }
   }
   gameState.plays = [...fiction, ...gameState.plays];
-  fs.writeFile(
-    `./results/${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}.json`,
-    JSON.stringify(gameState),
-    "utf8",
-    (err) => {
-      if (err) {
-        console.error("Error writing to file", err);
-      } else {
-        console.log(`Data written to JSON.`);
-      }
+  console.log("Finished match");
+  try {
+    console.log("Generating reports with Gemini API...");
+    const report = await generateGameReports(gameState);
+    if (report) {
+      console.log("--- SUCCESS: Got structured JSON response ---");
+      console.log(JSON.stringify(report, null, 2));
+
+      console.log("\n--- Pre-Game Report ---");
+      console.log(report.preGameReport);
+
+      console.log("\n--- Post-Game Report ---");
+      console.log(report.postGameReport);
+    } else {
+      console.log("Failed to generate reports.");
     }
-  );
+  } catch (error) {
+    console.error("Error loading or parsing game data:", error);
+  }
+  // fs.writeFile(
+  //   `./results/${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}.json`,
+  //   JSON.stringify(gameState),
+  //   "utf8",
+  //   (err) => {
+  //     if (err) {
+  //       console.error("Error writing to file", err);
+  //     } else {
+  //       console.log(`Data written to JSON.`);
+  //     }
+  //   }
+  // );
 };
 
 const handleGamePhase = async (

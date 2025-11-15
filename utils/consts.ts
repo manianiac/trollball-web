@@ -176,6 +176,8 @@ export enum TEAM_NAMES {
   "The Kerlauger Runeguard" = "The Kerlauger Runeguard",
   "The Starlight Bazaar Bizarres" = "The Starlight Bazaar Bizarres",
   "The Oread's Summit Tamers" = "The Oread's Summit Tamers",
+  "The Greenwatch" = "The Greenwatch",
+  "Oak & Onslaught" = "Oak & Onslaught",
 }
 
 export const PREGAME_RITUAL = [
