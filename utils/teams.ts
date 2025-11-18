@@ -682,7 +682,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
         },
       },
       {
-        name: "Unni Schlicher",
+        name: "Steve",
         team: TEAM_NAMES["The Desert Spectres"],
         stats: {
           pass: 59,
@@ -691,7 +691,7 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
           block: 59,
           fight: 64,
           throw: 48,
-          luck: 54,
+          luck: 74,
           pronouns: "She/Her",
           civic_engagement: 42,
           alcohol_tolerance: 57,

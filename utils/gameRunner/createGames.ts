@@ -2,6 +2,7 @@ import path from "path";
 import fs from "fs";
 
 import { match } from "../consts";
+import { generateWeeklyReport } from "./gameFiles/gameReportGenerator";
 export const generateGamesTS = () => {
   // Define the directory where your game data JSON files are stored
   // This MUST match the DATA_DIR in 'scripts/buildGameData.ts'
@@ -28,7 +29,10 @@ export const generateGamesTS = () => {
     const filenames = fs.readdirSync(GAMES_DIR);
 
     const games = filenames
-      .filter((filename: string) => filename.endsWith(".json"))
+      .filter(
+        (filename: string) =>
+          filename.endsWith(".json") && !filename.includes("weeklyRecap")
+      )
       .map((filename: string) => {
         const filePath = path.join(GAMES_DIR, filename);
         const fileContents = fs.readFileSync(filePath, "utf-8");
@@ -86,7 +90,28 @@ export const GAMES: match[] = ${JSON.stringify(games, null, 2)};
   }
 }
 
+async function makeWeeklyRecap(allGamesData: match[]) {
+  const recap = await generateWeeklyReport(allGamesData);
+  const OUTPUT_FILE = path.join(process.cwd(), "results", `weeklyRecap.json`);
+  const outputDir = path.dirname(OUTPUT_FILE);
+
+  try {
+    // Ensure the 'utils' directory exists
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    // Write the file synchronously
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(recap), "utf8");
+    console.log(`Successfully generated: ${OUTPUT_FILE}`);
+  } catch (err) {
+    console.error("Error writing games.generated.ts file:", err);
+  }
+}
+
 // --- Main Execution ---
 const allGamesData = generateGamesTS();
 
 writeGeneratedTSFile(allGamesData);
+
+makeWeeklyRecap(allGamesData);

@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown";
 import { BLOG_POSTS } from "../../utils/posts";
 
 import DefaultLayout from "@/layouts/default";
+import { formatText } from "@/utils/utils";
 
 /**
  * The main blog page.
@@ -13,13 +14,6 @@ import DefaultLayout from "@/layouts/default";
  * To add a new post, you only need to edit `utils/blogPosts.ts`.
  */
 export default function BlogPage() {
-  function formatText(text: string) {
-    // 1. Clean up outer quotes (if they exist from the mock data)
-    const cleanText = text.replace(/^"|"$/g, "");
-
-    return cleanText.replaceAll("\n\n", "\n\n&nbsp;\n\n");
-  }
-
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center gap-4 p-4 md:p-8">

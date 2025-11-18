@@ -8,6 +8,7 @@ import { GAMES } from "@/utils/gameRunner/utils/games.generated";
 import { TeamIcon } from "@/components/icons"; // Adjust path to your TeamIcon
 import { match } from "@/utils/consts";
 import DefaultLayout from "@/layouts/default";
+import { formatText } from "@/utils/utils";
 
 export async function getStaticPaths() {
   // Loop over your GAMES array to create the slugs
@@ -44,18 +45,6 @@ export async function getStaticProps({ params }: { params: { game: string } }) {
 }
 // This page component will receive 'params' from the dynamic route
 export default function GamePage({ gameData }: { gameData: match }) {
-  // --- Data Fetching (Mockup) ---
-  // In a real app, you would use 'params.game' to fetch this data
-  // from your API or database.
-  // const gameData = await fetchGameData(params.game);
-
-  function formatAnnouncerText(text: string) {
-    // 1. Clean up outer quotes (if they exist from the mock data)
-    const cleanText = text.replace(/^"|"$/g, "");
-
-    return cleanText.replaceAll("\n\n", "\n\n&nbsp;\n\n");
-  }
-
   const [isScoreVisible, setIsScoreVisible] = useState(false);
 
   const {
@@ -154,9 +143,7 @@ export default function GamePage({ gameData }: { gameData: match }) {
             <Card>
               <CardBody>
                 <div className="prose text-default-700">
-                  <ReactMarkdown>
-                    {formatAnnouncerText(preGame)}
-                  </ReactMarkdown>{" "}
+                  <ReactMarkdown>{formatText(preGame)}</ReactMarkdown>{" "}
                 </div>
               </CardBody>
             </Card>
@@ -171,9 +158,7 @@ export default function GamePage({ gameData }: { gameData: match }) {
               <CardBody>
                 <div className="prose text-default-700">
                   <ReactMarkdown>
-                    {isScoreVisible
-                      ? formatAnnouncerText(postGame)
-                      : "RESULTS HIDDEN"}
+                    {isScoreVisible ? formatText(postGame) : "RESULTS HIDDEN"}
                   </ReactMarkdown>{" "}
                 </div>
               </CardBody>

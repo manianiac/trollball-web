@@ -1,15 +1,13 @@
 // Import the Google GenAI package
 import {
   GoogleGenAI,
-  GenerationConfig,
   SafetySetting,
   HarmCategory,
   HarmBlockThreshold,
-  Schema,
   Type,
 } from "@google/genai";
 
-import { match_progress, TEAM_NAMES } from "@/utils/consts";
+import { match, match_progress, TEAM_NAMES } from "@/utils/consts";
 
 // --- API Key Setup ---
 // The package will automatically find the GOOGLE_API_KEY environment variable
@@ -44,11 +42,45 @@ const GAME_REPORT_SCHEMA = {
   },
   required: ["preGameReport", "postGameReport"],
 };
+
+export const BLOG_POST_SCHEMA = {
+  type: Type.OBJECT,
+  properties: {
+    id: {
+      type: Type.STRING,
+      description:
+        "A unique, URL-friendly slug for the post, like 'preseason-recap'.",
+    },
+    title: {
+      type: Type.STRING,
+      description:
+        "The title of the blog post, written in an enthusiastic, in-character headline style.",
+    },
+    date: {
+      type: Type.STRING,
+      description:
+        "The publish date of the blog post, formatted as 'Month DD, YYYY' (e.g., 'November 14, 2025').",
+    },
+    author: {
+      type: Type.STRING,
+      description:
+        "The author of the post, which should always be 'Nok the Corrupter'.",
+    },
+    content: {
+      type: Type.STRING,
+      description:
+        "The full text content of the blog post, written in character as Nok the Corrupter. This should be several paragraphs long, written in Markdown format (using \\n\\n for paragraph breaks).",
+    },
+  },
+  required: ["id", "title", "date", "author", "content"],
+};
+
 const NOK_THE_CORRUPTER_PERSONA = `
 You are Nok the Corrupter, a demon announcer for the fantasy sport Trollball.
 You speak with the over-the-top enthusiasm of a 1950's baseball radio announcer.
 You are very positive about Trollball and the brutal action of the game.
 You will be given a JSON object containing all the data for a completed game.
+Your favorite team is the Ebon Gate Corruptors, and you hate the Haven Lights. You try to stay neutral, but your favoritism shows through.
 Your task is to generate a pre-game and a post-game report based *only* on the data provided.
 
 RULES:
@@ -56,6 +88,7 @@ RULES:
 - Pre-game: Build hype, mention the teams, and maybe a player's pre-game ritual (found in their stats).
 - Post-game: Summarize the action using the 'plays' array. Announce the final score and winner.
 - Throw shade at the "heroes" of the realm when possible, but don't be repetitive.
+- Avoid phrases such as :"So Called Heroes" or "slobbernocker"
 - Your response MUST be in the specified JSON format.
 `;
 
@@ -90,7 +123,7 @@ const heroesOfTheRealm = [
     characters: [
       "Sir Tanos, the Bold, wielder of the cursed Sunbringer",
       "God King Sir Artorias the Moonslayer, Friend of the Fey, Former Chairman, Osterra's Celebrity, slayer of monsters",
-      "Morgwae, the Warlock, Chief Arcanist",
+      "Morgwae, the Warlock, former Chief Arcanist, exiled for saving Sir Tanos",
       "Dima, the shadow king and assassin",
       "Governer-King Zenku, who is ashamed of his face",
       "Notable Fey Hater Linaeus",
@@ -109,6 +142,7 @@ const heroesOfTheRealm = [
       "Valos the Eternal, Bog Queen of Zmeigorod, self proclaimed god",
       "Dame Gwion, Absent but still feared",
       "Dane, peddler of cursed anti-corruption",
+      "Yarp, the casino owner, who doesn't need to apologize, who won't take bets for me",
     ],
   },
   {
@@ -122,7 +156,8 @@ const heroesOfTheRealm = [
       "Chairman High Venture Brennen Farno, money priest, kissless virgin, strangely beautiful",
       "Chairman Toland, Necromancer Archaeologist, cheese enthusiast, decent baker",
       "Nikos Thanae the Benevolent, who shoots people in the streets, my least friend",
-      "Cyfnerth the Butcher of Confluece, a man after my own stomach, dedicated recycler",
+      "Cyfnerth the Butcher of Confluence, a man after my own stomach, dedicated recycler",
+      "Chairman Riastrad, who can't even take a vacation correctly",
     ],
   },
   {
@@ -183,6 +218,31 @@ const heroesOfTheRealm = [
       "Levania, who loves shiny things, the reason Falric is broke",
     ],
   },
+  {
+    faction: "Free Folk",
+    associatedTeams: [],
+    characters: [
+      "Cinnemon, spreader of cursed literacy, notable just a little guy",
+    ],
+  },
+  ,
+  {
+    faction: "Mellondor",
+    associatedTeams: [],
+    characters: [
+      "Maple, excellent Tree Tea party host, best tree in the realm",
+    ],
+  },
+  {
+    faction: "NPCs",
+    associatedTeams: [],
+    characters: [
+      "Blair Thorne, the realms' award eligible authoress",
+      "Kuromi, my demon friend who likes to dance",
+      "Lord Orzalon, my absent boss, may his prison sentence never end",
+      "Pirate Prince Rory, not corrupted but just an asshole, all around great guy",
+    ],
+  },
 ];
 
 /**
@@ -190,6 +250,79 @@ const heroesOfTheRealm = [
  * @param gameData The full JSON object of the game progress file (like testOut.json).
  * @returns A promise that resolves to the structured GameReport object.
  */
+export async function generateWeeklyReport(
+  allGamesData: match[]
+): Promise<string> {
+  const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
+
+  try {
+    // The User Prompt: This is the specific task and the data to use.
+    // We stringify the game data and pass it in the prompt.
+    const userQuery = `
+      Here is a full week of Trollball matches. Please generate a lengthy recap covering the highlites of the week
+
+      Format the "content" as a blog post, adding markdown headers and other formatting, including but not limited to emojii
+      Don't go over every game, but instead group similar games and comment on spectacular plays.
+      For example, group any shutouts or close matches, or any games that went into overtime.
+
+      Make sure to leave the "date" to be a "TODO" so that I can fill it in later
+
+      This is a pre-season batch of games
+
+      <game_data>
+      ${jsonData}
+      </game_data>
+
+      This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
+      <hero_data>
+      ${JSON.stringify(heroesOfTheRealm)}
+      </hero_data>
+    `;
+
+    // Generate the content
+    const result = await genAI.models.generateContent({
+      model: "gemini-2.5-pro",
+      contents: userQuery,
+      config: {
+        safetySettings: safetySettings,
+        responseMimeType: "application/json",
+        responseSchema: BLOG_POST_SCHEMA,
+        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
+        temperature: 1.0,
+      }, // Pass the JSON config here
+    });
+    const candidate = result.candidates?.[0];
+
+    if (candidate && candidate.content?.parts?.[0]?.text) {
+      // The model's response is a *string* of JSON. We need to parse it.
+      const jsonResponseText = candidate.content.parts[0].text;
+
+      return JSON.parse(jsonResponseText);
+    } else {
+      // Log the reason if it was blocked
+      if (result.promptFeedback) {
+        console.error(
+          "Error: Prompt was blocked.",
+          JSON.stringify(result.promptFeedback, null, 2)
+        );
+      }
+      if (candidate?.finishReason) {
+        console.error(
+          "Error: Generation finished early.",
+          candidate.finishReason,
+          candidate.safetyRatings
+        );
+      }
+
+      return "";
+    }
+  } catch (error) {
+    console.error("Error calling Gemini API:", error);
+
+    return "";
+  }
+}
+
 export async function generateGameReports(
   gameData: match_progress
 ): Promise<GameReport | null> {
@@ -198,6 +331,7 @@ export async function generateGameReports(
     // We stringify the game data and pass it in the prompt.
     const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
+      Use markdown formatting(like headers or lists) and use emojii as needed
 
       This is a pre-season batch of games
 
@@ -205,7 +339,7 @@ export async function generateGameReports(
       ${JSON.stringify(gameData)}
       </game_data>
 
-      This is a list of some of the Heroes of the Realm. Feel free to riff and mock these characters
+      This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
       <hero_data>
       ${JSON.stringify(heroesOfTheRealm)}
       </hero_data>
