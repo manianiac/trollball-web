@@ -50,7 +50,7 @@ Check the rosters! From the pathetic **Haven Lights** (boo!) to the glorious, un
 Numbers don't lie, folks. See who is king of the hill and who is rotting in the cellar. Tracking kills, goals, and total regenerations!
 
 ### 📅 [SCHEDULE](/schedule)
-Mark your calendars! Find out when **Sir Tanos** swings that cursed sword next, or when **Geth the Gravelord** plans to ruin everyone's day!
+Mark your calendars! Find out when your favorite(or least favorite) team is playing next!
 
 ### 🎙️ [NOK'S BLOG](/blog)
 Weekly recaps, rumors, betting odds (though **Yarp** won't take my money), and my personal musings on why **Nikos Thanae** is the worst person in the realm.
