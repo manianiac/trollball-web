@@ -28,7 +28,7 @@ export default function IndexPage() {
 
 Good evening, sports fans, thrill-seekers, and sentient oozes! Pull up a chair, pour yourself a pint of Imra's finest dust-brew, and turn your ears this way! You are listening to the golden voice of **Tuesday Night Trollball**, coming to you LIVE across the planes of Osterra!
 
-Since my liberation from that dusty old Demon Prison—thanks to the "heroic" efforts of **Morgwai** and the celebrity-king **Artorias** (a demon's gotta pay his debts, folks!)—I have dedicated my immortal existence to one thing: **THE BEAUTIFUL GAME.**
+Since my liberation from that dusty old Demon Prison—thanks to the "heroic" efforts of **Morgwae** and the celebrity-king **Artorias** (a demon's gotta pay his debts, folks!)—I have dedicated my immortal existence to one thing: **THE BEAUTIFUL GAME.**
 
 We are living in the age of the **Everwar**, folks! Where death is just a halftime break and the memories of your demise wash away like blood in the rain! So why *not* spend your immortality smashing your neighbor with a morning star for possession of a leather troll head? 
 

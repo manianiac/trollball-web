@@ -77,8 +77,8 @@ export default function SchedulePage() {
 
         <Accordion
           // Automatically expand the current week
-          className="w-full max-w-4xl mt-4"
           defaultExpandedKeys={[defaultExpandedKey]}
+          className="w-full max-w-4xl mt-4"
         >
           {visibleWeekKeys.map((weekNum) => {
             const status = getWeekStatus(weekNum);
@@ -103,28 +103,34 @@ export default function SchedulePage() {
                   <CardBody>
                     <div className="flex flex-col gap-3">
                       {gamesByWeek[weekNum].map((match, index) => (
+                        // Main Match Container: Stacks vertically on mobile, switches to space-between on medium screens
                         <div
                           key={index}
-                          className="flex justify-between items-center p-3 rounded-lg border border-default-200 dark:border-default-700 hover:bg-default-100 transition-colors"
+                          className="flex flex-col md:flex-row md:justify-between md:items-center 
+                                     p-3 rounded-lg border border-default-200 dark:border-default-700 
+                                     hover:bg-default-100 transition-colors"
                         >
-                          <div className="flex items-center gap-4 text-medium font-semibold">
+                          {/* Team Info Group: Stacks on mobile */}
+                          <div className="flex flex-col items-start gap-1 mb-2 md:flex-row md:items-center md:gap-4 md:mb-0 text-medium font-semibold">
                             {/* Home Team */}
                             <div className="flex items-center gap-2">
-                              <TeamIcon size={24} team={match.homeTeam.name} />
+                              <TeamIcon team={match.homeTeam.name} size={24} />
                               <span>{match.homeTeam.name}</span>
                             </div>
-                            <span className="text-default-500 font-normal">
+
+                            <span className="text-default-500 font-normal ml-8 md:ml-0">
                               vs
                             </span>
+
                             {/* Away Team */}
                             <div className="flex items-center gap-2">
-                              <TeamIcon size={24} team={match.awayTeam.name} />
+                              <TeamIcon team={match.awayTeam.name} size={24} />
                               <span>{match.awayTeam.name}</span>
                             </div>
                           </div>
 
-                          {/* Stadium */}
-                          <span className="text-sm text-default-600 dark:text-default-400">
+                          {/* Stadium Info: Centered under the teams on mobile, right-aligned on desktop */}
+                          <span className="text-sm text-default-600 dark:text-default-400 md:text-right">
                             @ {match.homeTeam.stadium.name}
                           </span>
                         </div>

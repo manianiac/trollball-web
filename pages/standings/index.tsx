@@ -160,83 +160,94 @@ export default function TeamsPage() {
           </p>
         </div>
 
-        <Card className="w-full max-w-5xl">
-          <CardBody>
-            <Table
-              isStriped
-              aria-label="Trollball League Standings"
-              sortDescriptor={sortDescriptor}
-              onSortChange={setSortDescriptor}
+        <Table
+          isStriped
+          aria-label="Trollball League Standings"
+          sortDescriptor={sortDescriptor}
+          onSortChange={setSortDescriptor}
+        >
+          <TableHeader>
+            <TableColumn key="rank" allowsSorting>
+              RANK
+            </TableColumn>
+            <TableColumn key="teamName" allowsSorting>
+              TEAM
+            </TableColumn>
+            <TableColumn key="wins" align="center" allowsSorting>
+              W
+            </TableColumn>
+            <TableColumn
+              key="losses"
+              align="center"
+              allowsSorting
+              className="hidden md:table-cell"
             >
-              <TableHeader>
-                <TableColumn key="rank" allowsSorting>
-                  RANK
-                </TableColumn>
-                <TableColumn key="teamName" allowsSorting>
-                  TEAM
-                </TableColumn>
-                <TableColumn key="wins" align="center" allowsSorting>
-                  W
-                </TableColumn>
-                <TableColumn key="losses" align="center" allowsSorting>
-                  L
-                </TableColumn>
-                <TableColumn key="pointsFor" align="center" allowsSorting>
-                  PF
-                </TableColumn>
-                <TableColumn key="pointsAgainst" align="center" allowsSorting>
-                  PA
-                </TableColumn>
-                <TableColumn key="pointDiff" align="center" allowsSorting>
-                  DIFF
-                </TableColumn>
-              </TableHeader>
-              <TableBody>
-                {sortedStandings.map((team) => (
-                  <TableRow key={team.teamName}>
-                    <TableCell>
-                      <span className="font-bold text-lg text-default-500">
-                        {team.rank}
-                      </span>
-                    </TableCell>
-                    <TableCell>
-                      <div className="flex items-center gap-3">
-                        <TeamIcon size={32} team={team.teamName} />
-                        <span className="font-semibold text-medium">
-                          {team.teamName}
-                        </span>
-                      </div>
-                    </TableCell>
-                    <TableCell className="text-center font-bold text-lg">
-                      {team.wins}
-                    </TableCell>
-                    <TableCell className="text-center text-lg text-default-500">
-                      {team.losses}
-                    </TableCell>
-                    <TableCell className="text-center">
-                      {team.pointsFor}
-                    </TableCell>
-                    <TableCell className="text-center text-default-400">
-                      {team.pointsAgainst}
-                    </TableCell>
-                    <TableCell
-                      className={`text-center font-bold ${
-                        team.pointDiff > 0
-                          ? "text-success"
-                          : team.pointDiff < 0
-                            ? "text-danger"
-                            : "text-default-400"
-                      }`}
-                    >
-                      {team.pointDiff > 0 ? "+" : ""}
-                      {team.pointDiff}
-                    </TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </CardBody>
-        </Card>
+              L
+            </TableColumn>
+            <TableColumn
+              key="pointsFor"
+              align="center"
+              allowsSorting
+              className="hidden md:table-cell"
+            >
+              PF
+            </TableColumn>
+            <TableColumn
+              key="pointsAgainst"
+              align="center"
+              allowsSorting
+              className="hidden md:table-cell"
+            >
+              PA
+            </TableColumn>
+            <TableColumn key="pointDiff" align="center" allowsSorting>
+              DIFF
+            </TableColumn>
+          </TableHeader>
+          <TableBody>
+            {sortedStandings.map((team) => (
+              <TableRow key={team.teamName}>
+                <TableCell>
+                  <span className="font-bold text-lg text-default-500">
+                    {team.rank}
+                  </span>
+                </TableCell>
+                <TableCell>
+                  <div className="flex items-center gap-3">
+                    <TeamIcon size={32} team={team.teamName} />
+                    <span className="font-semibold text-medium">
+                      {team.teamName}
+                    </span>
+                  </div>
+                </TableCell>
+                <TableCell className="text-center font-bold text-lg">
+                  {team.wins}
+                </TableCell>
+                <TableCell className="text-center text-lg text-default-500 hidden md:table-cell">
+                  {team.losses}
+                </TableCell>
+                <TableCell className="text-center hidden md:table-cell">
+                  {team.pointsFor}
+                </TableCell>
+                <TableCell className="text-center text-default-400 hidden md:table-cell">
+                  {team.pointsAgainst}
+                </TableCell>
+                <TableCell
+                  className={`text-center font-bold ${
+                    team.pointDiff > 0
+                      ? "text-success"
+                      : team.pointDiff < 0
+                        ? "text-danger"
+                        : "text-default-400"
+                  }`}
+                >
+                  {team.pointDiff > 0 ? "+" : ""}
+                  {team.pointDiff}
+                </TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
       </section>
     </DefaultLayout>
   );

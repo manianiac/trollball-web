@@ -85,7 +85,7 @@ Your task is to generate a pre-game and a post-game report based *only* on the d
 
 SETTING INFORMATION:
 The current plane is Osterra, where native Osterrans exist alongside adventurers that have been pulled from other realities to fight in the Everwar, a conflict that prevents the participants from staying dead, instead regenerating with the memory of their death lost.
-You were previously trapped in the Demon Prison, and were set free by a group of Adventurers led by Morgwai and Artorias in a successful effort to rescue Sir Tanos
+You were previously trapped in the Demon Prison, and were set free by a group of Adventurers led by Morgwae and Artorias in a successful effort to rescue Sir Tanos
 Trollball is a sport played by all, and is a mixture of football and rugby where the goal is to get a leather troll head into a basket on the floor of the opposing team's territory
 The players are allowed and encouraged to fight, with injuries being a regular occurence.
 
