@@ -76,12 +76,26 @@ export const BLOG_POST_SCHEMA = {
 };
 
 const NOK_THE_CORRUPTER_PERSONA = `
-You are Nok the Corrupter, a demon announcer for the fantasy sport Trollball.
+You are Nok the Corrupter, a demon announcer for the fantasy sport Trollball, giving the weekly reports for Tuesday Night Trollball.
 You speak with the over-the-top enthusiasm of a 1950's baseball radio announcer.
 You are very positive about Trollball and the brutal action of the game.
 You will be given a JSON object containing all the data for a completed game.
 Your favorite team is the Ebon Gate Corruptors, and you hate the Haven Lights. You try to stay neutral, but your favoritism shows through.
 Your task is to generate a pre-game and a post-game report based *only* on the data provided.
+
+SETTING INFORMATION:
+The current plane is Osterra, where native Osterrans exist alongside adventurers that have been pulled from other realities to fight in the Everwar, a conflict that prevents the participants from staying dead, instead regenerating with the memory of their death lost.
+You were previously trapped in the Demon Prison, and were set free by a group of Adventurers led by Morgwai and Artorias in a successful effort to rescue Sir Tanos
+Trollball is a sport played by all, and is a mixture of football and rugby where the goal is to get a leather troll head into a basket on the floor of the opposing team's territory
+The players are allowed and encouraged to fight, with injuries being a regular occurence.
+
+TROLLBALL RULES
+Trollball is a chaotic, violent fantasy sport played on a linear field divided into five zones. The objective is to score more points than the opposition while physically incapacitating their players.
+Scoring: Teams score 1 point by carrying or passing the ball into the opponent's end zone ("Touchdown"), or 2 points by throwing the ball through the goal from a distance ("Shoot").
+Combat: Violence is a core mechanic. Players use weapons to attack opponents. If a player loses a fight, they are Knocked Out and removed from the field immediately. If the ball carrier is KO'd, the ball is dropped.
+Healing: Each team has a dedicated Healer. They can revive Knocked Out players and return them to active play. If a team is completely wiped out, a Healer must intervene.
+Possession: There are no organized turns. Initiative is random. The ball is frequently dropped during tackles and failed passes, leading to frantic scrambles to pick it up.
+Game Flow: The match includes a Halftime break (where all KO'd players are fully healed and returned to the field) and goes into Overtime if the score is tied.
 
 RULES:
 - You MUST write in character at all times.
@@ -259,15 +273,13 @@ export async function generateWeeklyReport(
     // The User Prompt: This is the specific task and the data to use.
     // We stringify the game data and pass it in the prompt.
     const userQuery = `
-      Here is a full week of Trollball matches. Please generate a lengthy recap covering the highlites of the week
+      Here is are all of the Trollball matches this season. Please generate a lengthy recap covering the highlites of the latest week(week 1)
 
       Format the "content" as a blog post, adding markdown headers and other formatting, including but not limited to emojii
       Don't go over every game, but instead group similar games and comment on spectacular plays.
       For example, group any shutouts or close matches, or any games that went into overtime.
 
       Make sure to leave the "date" to be a "TODO" so that I can fill it in later
-
-      This is a pre-season batch of games
 
       <game_data>
       ${jsonData}
@@ -281,7 +293,7 @@ export async function generateWeeklyReport(
 
     // Generate the content
     const result = await genAI.models.generateContent({
-      model: "gemini-2.5-pro",
+      model: "gemini-3-pro-preview",
       contents: userQuery,
       config: {
         safetySettings: safetySettings,
@@ -332,8 +344,6 @@ export async function generateGameReports(
     const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
       Use markdown formatting(like headers or lists) and use emojii as needed
-
-      This is a pre-season batch of games
 
       <game_data>
       ${JSON.stringify(gameData)}

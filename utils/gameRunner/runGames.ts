@@ -47,7 +47,8 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
 //   0
 // );
 
-LEAGUE_SCHEDULE.filter((match) => match.week == 0).forEach((baseMatch) => {
+LEAGUE_SCHEDULE.filter((match) => match.week === 0).forEach((baseMatch) => {
+  baseMatch.week++;
   // Run the game simulation
   console.log(
     "generating match for " +

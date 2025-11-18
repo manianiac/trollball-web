@@ -18,33 +18,50 @@ export default function IndexPage() {
         </h1>
         <div className={subtitle({ class: "mt-4" })}>
           <ReactMarkdown>
-            {formatText(`Helloooooo fiends and fanatics, and welcome back! This is your favorite demon of the airwaves, Nok the Corrupter, here to introduce the one and only magical hub for the greatest sport ever conceived!
+            {formatText(`# TUESDAY NIGHT TROLLBALL
 
-Forget those dusty, "hallowed" libraries in Haven or the self-important ranger reports from Sir Randy and his FANCY bow. *This* is where the real action lives! We’ve organized all the glorious carnage, every bone-crunching tackle, and every magnificent knockout into three beautiful pages, just for you delightful degenerates!
+***
 
-### [🏟️ The "Games" Page](https://blacksky.wiki/games)
+### "Live from the jagged peaks of the Void to the rolling hills of Eponore, it's the sport that refuses to stay dead!"
 
-Want to know who got pulverized last night? Thirsty for the gory details of every brutal shutout and nail-biting overtime brawl? The **Games** page is your personal, blood-soaked ledger!
+**Your Host: Nok the Corrupter**
 
-This is the beating heart of the sport, folks! We've got the full schedule, the final scores, and, of course, my very own masterful post-game reports. I'll give you the play-by-play on every spectacular knockout, every humiliating fumble, and every game-winning charge. This is where you relive the glory!
+Good evening, sports fans, thrill-seekers, and sentient oozes! Pull up a chair, pour yourself a pint of Imra's finest dust-brew, and turn your ears this way! You are listening to the golden voice of **Tuesday Night Trollball**, coming to you LIVE across the planes of Osterra!
 
-### [🪓 The "Teams" Page](https://blacksky.wiki/teams)
+Since my liberation from that dusty old Demon Prison—thanks to the "heroic" efforts of **Morgwai** and the celebrity-king **Artorias** (a demon's gotta pay his debts, folks!)—I have dedicated my immortal existence to one thing: **THE BEAUTIFUL GAME.**
 
-Who are these magnificent brutes? Who are these titans of the turf and masters of mayhem? The **Teams** page is your official guide to the warriors who make this sport so spectacular!
+We are living in the age of the **Everwar**, folks! Where death is just a halftime break and the memories of your demise wash away like blood in the rain! So why *not* spend your immortality smashing your neighbor with a morning star for possession of a leather troll head? 
 
-Forget those so-called "heroes" like that preening "celebrity" Sir Artorias or that Bog Queen Valos the Eternal. These are the *real* athletes! Get the inside scoop on every squad, from the **New Ravenfall Commanders** to the **Wyrmwood Stronghammers**. You'll find their full rosters, their player stats, and my favorite part: their wonderfully bizarre pre-game rituals!
+It's fast! It's brutal! It's the only game where "unnecessary roughness" is a requirement! It's **TROLLBALL!**
 
-Who gets ready by chugging a raw egg, shell and all? Who kisses their own biceps for good luck? Who eats a raw onion, layer by layer, without crying? It's all in here, and it's all glorious!
+***
 
-### [🎙️ The "Blog" Page](https://blacksky.wiki/blog)
+## LEAGUE NAVIGATION
 
-You want the real story? You want the unfiltered truth you won't get from some "official" decree written by a king or a count?
+Don't be shy, click around! See the carnage for yourself!
 
-The **Blog** is where *I*, Nok the Corrupter, give you my unfiltered analysis, opinions, and predictions! This is the word, straight from the demon's mouth! This isn't some prissy gossip column about what Dame Terra Monteforte is digging up this week. This is real Trollball talk! I'll be breaking down the most spectacular plays, ranking the most brutal brawlers, and keeping you up-to-date on all the league news that's fit to print in blood!
+### 🏈 [GAME REPORTS](/games)
+Did you miss the match? Shame on you! Read the play-by-play breakdowns here. Find out who scored, who died, and who got back up to die again!
 
----
+### 🛡️ [THE TEAMS](/teams)
+Check the rosters! From the pathetic **Haven Lights** (boo!) to the glorious, unstoppable juggernauts, the **Ebon Gate Corruptors** (YEAH!), see who is taking the field this week.
 
-So what are you waiting for? Click those pages! Gorge yourselves on the stats! Revel in the glorious violence! This is **TROLLBALL**, and it's never been better!`)}
+### 🏆 [SEASON STANDINGS](/standings)
+Numbers don't lie, folks. See who is king of the hill and who is rotting in the cellar. Tracking kills, goals, and total regenerations!
+
+### 📅 [SCHEDULE](/schedule)
+Mark your calendars! Find out when **Sir Tanos** swings that cursed sword next, or when **Geth the Gravelord** plans to ruin everyone's day!
+
+### 🎙️ [NOK'S BLOG](/blog)
+Weekly recaps, rumors, betting odds (though **Yarp** won't take my money), and my personal musings on why **Nikos Thanae** is the worst person in the realm.
+
+***
+
+### SO TUNE IN!
+
+The leather is tough, the steel is sharp, and the magic is unstable! It's **Tuesday Night Trollball**! 
+
+*And remember, if the **Haven Lights** are playing, I'm rooting for the other guys!*`)}
           </ReactMarkdown>
         </div>
       </div>
