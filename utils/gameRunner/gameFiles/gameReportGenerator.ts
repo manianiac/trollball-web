@@ -142,6 +142,7 @@ const heroesOfTheRealm = [
       "Governer-King Zenku, who is ashamed of his face",
       "Notable Fey Hater Linaeus",
       "Sawyer, the rogueiest rogue, circus escapee",
+      "High Prince Duke Barőn, the realm's least eligible bachelor",
     ],
   },
   {
@@ -218,6 +219,7 @@ const heroesOfTheRealm = [
     associatedTeams: [TEAM_NAMES["The Southport Narwhals"]],
     characters: [
       "King Nezmear, of the north(but not the north pole), breeder of werewolves",
+      "Elizabeef the werecow, valued higher than all heads of state",
     ],
   },
   {
