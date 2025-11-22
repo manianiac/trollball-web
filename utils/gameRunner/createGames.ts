@@ -55,6 +55,28 @@ export const generateGamesTS = () => {
   return loadAllGames();
 };
 
+// Create a simple in-memory cache to avoid re-reading files during build
+const loadAllRecaps = () => {
+  const GAMES_DIR = path.join(process.cwd(), "results");
+
+  console.log(GAMES_DIR);
+  const filenames = fs.readdirSync(GAMES_DIR);
+
+  const recaps = filenames
+    .filter(
+      (filename: string) =>
+        filename.endsWith(".json") && filename.includes("weeklyRecap")
+    )
+    .map((filename: string) => {
+      const filePath = path.join(GAMES_DIR, filename);
+      const fileContents = fs.readFileSync(filePath, "utf-8");
+      const gameData: match = JSON.parse(fileContents);
+
+      return gameData;
+    });
+  return recaps;
+};
+
 function writeGeneratedTSFile(games: match[]) {
   if (!games || games.length === 0) {
     console.log("No games found to write. Skipping file generation.");
@@ -91,8 +113,10 @@ export const GAMES: match[] = ${JSON.stringify(games, null, 2)};
 }
 
 async function makeWeeklyRecap(allGamesData: match[]) {
-  const recap = await generateWeeklyReport(allGamesData);
-  const OUTPUT_FILE = path.join(process.cwd(), "results", `weeklyRecap.json`);
+  const week = Math.max(...allGamesData.map((game) => game.week));
+  const pastRecaps = loadAllRecaps();
+  const recap = await generateWeeklyReport(allGamesData, pastRecaps, week);
+  const OUTPUT_FILE = path.join(process.cwd(), "results", `weeklyRecap-2.json`);
   const outputDir = path.dirname(OUTPUT_FILE);
 
   try {

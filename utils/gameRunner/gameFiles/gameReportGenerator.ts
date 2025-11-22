@@ -265,15 +265,20 @@ const heroesOfTheRealm = [
  * @returns A promise that resolves to the structured GameReport object.
  */
 export async function generateWeeklyReport(
-  allGamesData: match[]
+  allGamesData: match[],
+  pastRecaps: any[],
+  week: number
 ): Promise<string> {
   const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
+  const pastRecapsData = `{results:${pastRecaps
+    .map((val) => JSON.stringify(val))
+    .join(",")}}`;
 
   try {
     // The User Prompt: This is the specific task and the data to use.
     // We stringify the game data and pass it in the prompt.
     const userQuery = `
-      Here is are all of the Trollball matches this season. Please generate a lengthy recap covering the highlites of the latest week(week 1)
+      Here is are all of the Trollball matches this season. Please generate a lengthy recap covering the highlites of the latest week(week ${week}).
 
       Format the "content" as a blog post, adding markdown headers and other formatting, including but not limited to emojii
       Don't go over every game, but instead group similar games and comment on spectacular plays.
@@ -284,6 +289,10 @@ export async function generateWeeklyReport(
       <game_data>
       ${jsonData}
       </game_data>
+
+      <past_recaps>
+      ${pastRecapsData}
+      </past_recaps>
 
       This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
       <hero_data>
@@ -357,7 +366,7 @@ export async function generateGameReports(
 
     // Generate the content
     const result = await genAI.models.generateContent({
-      model: "gemini-2.5-pro",
+      model: "gemini-3-pro-preview",
       contents: userQuery,
       config: {
         safetySettings: safetySettings,
