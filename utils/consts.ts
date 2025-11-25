@@ -1,6 +1,6 @@
 export interface team {
   name: TEAM_NAMES | string;
-  players: player[];
+  players?: player[];
   stadium: stadium;
   luck: number;
   wins: number;

@@ -4,7 +4,7 @@ import { TEAM_NAMES, ZONE, match, match_progress, team } from "../consts";
 import { gameLoop } from "./gameFiles/gameRunner";
 import path from "path";
 import fs from "fs";
-import { LEAGUE_SCHEDULE } from "./roundRobin";
+import { STATIC_LEAGUE_SCHEDULE } from "./schedule";
 
 // let ng = generateNameGenerator();
 // let oo = generateTeam(TEAM_NAMES["Oak & Onslaught"], ng);
@@ -47,14 +47,16 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
 //   0
 // );
 
-LEAGUE_SCHEDULE.filter((match) => match.week === 0).forEach((baseMatch) => {
-  baseMatch.week++;
-  // Run the game simulation
-  console.log(
-    "generating match for " +
-      baseMatch.homeTeam.name +
-      " vs " +
-      baseMatch.awayTeam.name
-  );
-  runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
-});
+STATIC_LEAGUE_SCHEDULE.filter((match) => match.week === 1).forEach(
+  (baseMatch) => {
+    baseMatch.week++;
+    // Run the game simulation
+    console.log(
+      "generating match for " +
+        baseMatch.homeTeam.name +
+        " vs " +
+        baseMatch.awayTeam.name
+    );
+    runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
+  }
+);

@@ -23,9 +23,9 @@ export const gameLoop = async (gameState: match_progress) => {
   let fiction: string[] = [];
 
   //set up team data
-  gameState.homeTeam.activePlayers = [...gameState.homeTeam.players];
+  gameState.homeTeam.activePlayers = [...(gameState.homeTeam.players ?? [])];
   gameState.homeTeam.inactivePlayers = [];
-  gameState.awayTeam.activePlayers = [...gameState.awayTeam.players];
+  gameState.awayTeam.activePlayers = [...(gameState.awayTeam.players ?? [])];
   gameState.awayTeam.inactivePlayers = [];
   for (
     let round = 0;

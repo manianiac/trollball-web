@@ -1,5 +1,6 @@
-import { TEAM_NAMES } from "@/utils/consts";
 import { SVGProps } from "react";
+
+import { TEAM_NAMES } from "@/utils/consts";
 
 export type IconSvgProps = SVGProps<SVGSVGElement> & {
   size?: number;
