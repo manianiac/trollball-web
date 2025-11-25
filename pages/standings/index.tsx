@@ -1,4 +1,3 @@
-import { Card, CardBody } from "@heroui/card";
 import {
   Table,
   TableHeader,
@@ -8,13 +7,12 @@ import {
   TableCell,
   SortDescriptor,
 } from "@heroui/table";
+import React from "react";
 
 import DefaultLayout from "@/layouts/default";
 import { TeamIcon } from "@/components/icons";
 import { match, TEAM_NAMES } from "@/utils/consts";
 import { GAMES } from "@/utils/gameRunner/utils/games.generated";
-import { useAsyncList } from "@react-stately/data";
-import React from "react";
 
 interface TeamStats {
   rank: number;
@@ -173,34 +171,34 @@ export default function TeamsPage() {
             <TableColumn key="teamName" allowsSorting>
               TEAM
             </TableColumn>
-            <TableColumn key="wins" align="center" allowsSorting>
+            <TableColumn key="wins" allowsSorting align="center">
               W
             </TableColumn>
             <TableColumn
               key="losses"
-              align="center"
               allowsSorting
+              align="center"
               className="hidden md:table-cell"
             >
               L
             </TableColumn>
             <TableColumn
               key="pointsFor"
-              align="center"
               allowsSorting
+              align="center"
               className="hidden md:table-cell"
             >
               PF
             </TableColumn>
             <TableColumn
               key="pointsAgainst"
-              align="center"
               allowsSorting
+              align="center"
               className="hidden md:table-cell"
             >
               PA
             </TableColumn>
-            <TableColumn key="pointDiff" align="center" allowsSorting>
+            <TableColumn key="pointDiff" allowsSorting align="center">
               DIFF
             </TableColumn>
           </TableHeader>

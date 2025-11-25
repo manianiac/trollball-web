@@ -77,12 +77,11 @@ export default function SchedulePage() {
 
         <Accordion
           // Automatically expand the current week
-          defaultExpandedKeys={[defaultExpandedKey]}
           className="w-full max-w-4xl mt-4"
+          defaultExpandedKeys={[defaultExpandedKey]}
         >
           {visibleWeekKeys.map((weekNum) => {
             const status = getWeekStatus(weekNum);
-            const isFutureWeek = weekNum > LATEST_COMPLETED_WEEK;
 
             return (
               <AccordionItem
@@ -114,7 +113,7 @@ export default function SchedulePage() {
                           <div className="flex flex-col items-start gap-1 mb-2 md:flex-row md:items-center md:gap-4 md:mb-0 text-medium font-semibold">
                             {/* Home Team */}
                             <div className="flex items-center gap-2">
-                              <TeamIcon team={match.homeTeam.name} size={24} />
+                              <TeamIcon size={24} team={match.homeTeam.name} />
                               <span>{match.homeTeam.name}</span>
                             </div>
 
@@ -124,7 +123,7 @@ export default function SchedulePage() {
 
                             {/* Away Team */}
                             <div className="flex items-center gap-2">
-                              <TeamIcon team={match.awayTeam.name} size={24} />
+                              <TeamIcon size={24} team={match.awayTeam.name} />
                               <span>{match.awayTeam.name}</span>
                             </div>
                           </div>

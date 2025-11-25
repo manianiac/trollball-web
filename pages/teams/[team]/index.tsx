@@ -114,59 +114,63 @@ export default function TeamPage({ team }: { team: team }) {
           </div>
         </div>
         <div className="gap-2 grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
-          {team.players.map((player: player, index: Key) => (
-            <Card key={index} shadow="sm">
-              <CardHeader className="flex flex-col gap-4">
-                <strong>{player.name}</strong>
-              </CardHeader>
-              <CardBody className="flex flex-col gap-4">
-                {/* --- Text Stats --- */}
-                <div className="flex flex-col gap-1 text-sm">
-                  <p>
-                    <strong>Pronouns:</strong> {player.stats.pronouns}
-                  </p>
-                  <p>
-                    <strong>Favorite Weapon:</strong>{" "}
-                    {player.stats.favorite_weapon}
-                  </p>
-                  <p>
-                    <strong>Pregame Ritual:</strong>{" "}
-                    {player.stats.pregame_ritual}
-                  </p>
-                  <p>
-                    <strong>Literate:</strong>{" "}
-                    {player.stats.literate ? "Yes" : "No"}
-                  </p>
-                </div>
-                {/* --- Numerical Stats --- */}
-                <div className="flex flex-col gap-3">
-                  {getNumericalStats(player.stats).map((stat) => {
-                    const clampedValue = Math.max(20, Math.min(80, stat.value));
-                    const normalizedValue = clampedValue - 20;
-                    const ratingOutOfFive = (normalizedValue / 60) * 5;
-                    const roundedRating = Math.round(ratingOutOfFive * 2) / 2;
+          {!!team.players &&
+            team.players.map((player: player, index: Key) => (
+              <Card key={index} shadow="sm">
+                <CardHeader className="flex flex-col gap-4">
+                  <strong>{player.name}</strong>
+                </CardHeader>
+                <CardBody className="flex flex-col gap-4">
+                  {/* --- Text Stats --- */}
+                  <div className="flex flex-col gap-1 text-sm">
+                    <p>
+                      <strong>Pronouns:</strong> {player.stats.pronouns}
+                    </p>
+                    <p>
+                      <strong>Favorite Weapon:</strong>{" "}
+                      {player.stats.favorite_weapon}
+                    </p>
+                    <p>
+                      <strong>Pregame Ritual:</strong>{" "}
+                      {player.stats.pregame_ritual}
+                    </p>
+                    <p>
+                      <strong>Literate:</strong>{" "}
+                      {player.stats.literate ? "Yes" : "No"}
+                    </p>
+                  </div>
+                  {/* --- Numerical Stats --- */}
+                  <div className="flex flex-col gap-3">
+                    {getNumericalStats(player.stats).map((stat) => {
+                      const clampedValue = Math.max(
+                        20,
+                        Math.min(80, stat.value)
+                      );
+                      const normalizedValue = clampedValue - 20;
+                      const ratingOutOfFive = (normalizedValue / 60) * 5;
+                      const roundedRating = Math.round(ratingOutOfFive * 2) / 2;
 
-                    return (
-                      <div
-                        key={stat.label}
-                        className="flex flex-col justify-between items-center w-full"
-                      >
-                        <span className="text-sm font-medium">
-                          {stat.label}
-                        </span>
-                        <StarRating rating={roundedRating} />
-                      </div>
-                    );
-                  })}
-                </div>
+                      return (
+                        <div
+                          key={stat.label}
+                          className="flex flex-col justify-between items-center w-full"
+                        >
+                          <span className="text-sm font-medium">
+                            {stat.label}
+                          </span>
+                          <StarRating rating={roundedRating} />
+                        </div>
+                      );
+                    })}
+                  </div>
 
-                <hr className="my-2 border-gray-600" />
-              </CardBody>
-              {/* <CardFooter className="text-small justify-between">
+                  <hr className="my-2 border-gray-600" />
+                </CardBody>
+                {/* <CardFooter className="text-small justify-between">
                     {JSON.stringify(team.stadium).toString()}
                   </CardFooter> */}
-            </Card>
-          ))}
+              </Card>
+            ))}
         </div>
       </section>
     </DefaultLayout>

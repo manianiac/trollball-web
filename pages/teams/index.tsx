@@ -12,7 +12,7 @@ export default function TeamsPage() {
       <div className="gap-2 grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
         {Object.values(TEAMS).map((team, index) => (
           <Link key={index} href={`/teams/${team.slug}`}>
-            <Card key={index} shadow="sm" className="w-full">
+            <Card key={index} className="w-full" shadow="sm">
               <CardBody className="overflow-visible p-2 flex justify-center items-center">
                 <TeamIcon
                   className="object-cover h-[140px]" // <-- Removed 'w-full'
