@@ -142,7 +142,7 @@ async function makeWeeklyRecap(allGamesData: match[]) {
   const OUTPUT_FILE = path.join(
     process.cwd(),
     "results",
-    `weeklyRecap-${week}.json`,
+    `weeklyRecap-${week}.json`
   );
   const outputDir = path.dirname(OUTPUT_FILE);
 
