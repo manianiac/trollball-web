@@ -47,7 +47,7 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
 //   0
 // );
 
-STATIC_LEAGUE_SCHEDULE.filter((match) => match.week === 1).forEach(
+STATIC_LEAGUE_SCHEDULE.filter((match) => match.week === 2).forEach(
   (baseMatch) => {
     baseMatch.week++;
     // Run the game simulation
