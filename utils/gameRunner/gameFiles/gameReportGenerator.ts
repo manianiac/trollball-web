@@ -10,6 +10,7 @@ import {
 import { match, match_progress, TEAM_NAMES } from "@/utils/consts";
 import { popularity } from "./popularity";
 import { heroesOfTheRealm } from "./heroes";
+import { STATIC_LEAGUE_SCHEDULE } from "../schedule";
 
 // --- API Key Setup ---
 // The package will automatically find the GOOGLE_API_KEY environment variable
@@ -105,7 +106,8 @@ RULES:
 - Post-game: Summarize the action using the 'plays' array. Announce the final score and winner.
 - Throw shade at the "heroes" of the realm when possible, but don't be repetitive.
 - Avoid phrases such as :"So Called Heroes" or "slobbernocker"
-- Your response MUST be in the specified JSON format.
+- If there is a specified format, your response MUST be in the specified JSON format.
+- If there is no specified format, respond in markdown only.
 `;
 
 // Set safety settings to allow for fantasy violence descriptions
@@ -129,11 +131,6 @@ const safetySettings: SafetySetting[] = [
   },
 ];
 
-/**
- * Generates game reports by calling the Gemini API.
- * @param gameData The full JSON object of the game progress file (like testOut.json).
- * @returns A promise that resolves to the structured GameReport object.
- */
 export async function generateWeeklyReport(
   allGamesData: match[],
   pastRecaps: any[],
@@ -181,7 +178,7 @@ export async function generateWeeklyReport(
 
     // Generate the content
     const result = await genAI.models.generateContent({
-      model: "gemini-3-pro-preview",
+      model: "gemini-2.5-pro",
       contents: userQuery,
       config: {
         safetySettings: safetySettings,
@@ -245,7 +242,7 @@ export async function generateGameReports(
 
     // Generate the content
     const result = await genAI.models.generateContent({
-      model: "gemini-3-pro-preview",
+      model: "gemini-2.5-pro",
       contents: userQuery,
       config: {
         safetySettings: safetySettings,
@@ -284,5 +281,236 @@ export async function generateGameReports(
     console.error("Error calling Gemini API:", error);
 
     return null;
+  }
+}
+
+export async function generateDiscordAnnouncement(
+  allGamesData: match[],
+  pastRecaps: any[],
+  week: number
+): Promise<string> {
+  const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
+  const pastRecapsData = `{results:${pastRecaps
+    .map((val) => JSON.stringify(val))
+    .join(",")}}`;
+
+  try {
+    // The User Prompt: This is the specific task and the data to use.
+    // We stringify the game data and pass it in the prompt.
+    const userQuery = `
+      Here is are all of the Trollball matches, as well as your recaps this season. Please generate an announcement post for the LARP Discord Server for week(week ${week}).
+
+      Format the "content" as an announcement, using Discord formatting, including but not limited to emojii. Feel free to insert Faction or Team emojii, even if one doesn't exist as there are custom emojii for all factions.
+      Don't spoil any results, but instead build hype for the past week, mentioning any rivalries or anticipated matchups.
+
+      Format it into a text file(no JSON formatting at all) with appropriate line breaks.
+
+      A sample format is as follows:
+        [Celebrate Tuesday Night Trollball!]
+        [Hint at any exciting plays or rivalries that happened this week, but DO NOT hint at who won or lost]
+        [Encourage fans to check out the full recap on the Trollball Website]
+        [Call to action to vote for their favorite team in the popularity contest next time it appears] 
+        // [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
+
+      <game_data>
+      ${jsonData}
+      </game_data>
+
+      If you made fun of a character recently, try to avoid repeating the same jokes as well as pick on other characters.
+      <past_recaps>
+      ${pastRecapsData}
+      </past_recaps>
+
+      Here is the current popularity of each team, which you can reference to comment on fan reactions and attendance
+      These are relative popularity scores based off of discord votes, with 0(no votes) being the least popular.
+      Don't mention numbers directly, but use them to guide your commentary on fan engagement.
+      <current popularity>
+      ${JSON.stringify(popularity)}
+      </current popularity>
+
+      This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
+      <hero_data>
+      ${JSON.stringify(heroesOfTheRealm)}
+      </hero_data>
+    `;
+
+    // Generate the content
+    const result = await genAI.models.generateContent({
+      model: "gemini-2.5-pro",
+      contents: userQuery,
+      config: {
+        safetySettings: safetySettings,
+        responseMimeType: "text/plain",
+        // responseSchema: BLOG_POST_SCHEMA,
+        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
+        temperature: 1.3,
+      },
+    });
+    const candidate = result.candidates?.[0];
+
+    if (candidate && candidate.content?.parts?.[0]?.text) {
+      // The model's response is a *string* of JSON. We need to parse it.
+      const jsonResponseText = candidate.content.parts[0].text;
+
+      return jsonResponseText;
+    } else {
+      // Log the reason if it was blocked
+      if (result.promptFeedback) {
+        console.error(
+          "Error: Prompt was blocked.",
+          JSON.stringify(result.promptFeedback, null, 2)
+        );
+      }
+      if (candidate?.finishReason) {
+        console.error(
+          "Error: Generation finished early.",
+          candidate.finishReason,
+          candidate.safetyRatings
+        );
+      }
+
+      return "";
+    }
+  } catch (error) {
+    console.error("Error calling Gemini API:", error);
+
+    return "";
+  }
+}
+
+export async function generatePopularityPost(
+  allGamesData: match[],
+  pastRecaps: any[],
+  week: number
+): Promise<string> {
+  const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
+  const pastRecapsData = `{results:${pastRecaps
+    .map((val) => JSON.stringify(val))
+    .join(",")}}`;
+
+  try {
+    // The User Prompt: This is the specific task and the data to use.
+    // We stringify the game data and pass it in the prompt.
+    const userQuery = `
+      Here is are all of the Trollball matches, as well as your recaps this season. Please generate an popularity post for the LARP Discord Server for week(${week}).
+
+      Format the "content" using Discord formatting, including but not limited to emojii. Feel free to insert Faction or Team emojii, even if one doesn't exist as there are custom emojii for all factions.
+Mention any rivalries or anticipated matchups for the upcoming week.
+      Format it into a text file(no JSON formatting at all) with appropriate line breaks.
+
+      A sample format is as follows:
+        [Celebrate the past week of Tuesday Night Trollball]
+        [Reveal the results of the previous feature vote, celebrating the winning choice and teasing how it will impact future games]
+          [This week, the choices were: 
+            Natural Intervention
+            Unnatural Intervention
+            Alcoholic Intervention
+            Commisioner Intervention
+          and Alcoholic Intervention won. These features will not be implemented until later, so don't bring them up for the next week of games]
+        [Call to action to vote for their favorite team in the popularity contest]
+        [List the matchings for the next week, hyping up any rivalries or anticipated matchups]
+
+      <game_data>
+      ${jsonData}
+      </game_data>
+
+      If you made fun of a character recently, try to avoid repeating the same jokes as well as pick on other characters.
+      <past_recaps>
+      ${pastRecapsData}
+      </past_recaps>
+
+      Here is the previous popularity of each team, which you can reference to comment on fan reactions and attendance
+      These are relative popularity scores based off of discord votes, with 0(no votes) being the least popular.
+      Don't mention numbers directly, but use them to guide your commentary on fan engagement.
+      <current popularity>
+      ${JSON.stringify(popularity)}
+      </current popularity>
+
+      This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
+      <hero_data>
+      ${JSON.stringify(heroesOfTheRealm)}
+      </hero_data>
+
+      <schedule>
+          The Starlight Bazaar Bizarres
+          vs
+          The Tortell Privateers
+          @ The Prismatic Pavilion
+          The New Ravenfall Commanders
+          vs
+          The South Pole Yetis
+          @ The Stronghold Bailey
+          The Desert Spectres
+          vs
+          The Wyrmwood Stronghammers
+          @ The Sun-Baked Bowl
+          The Southport Narwhals
+          vs
+          The Zmeigorod Snessengers
+          @ The Cliffside Pitch
+          The Brimstone Fire Eaters
+          vs
+          The Kerlauger Runeguard
+          @ The Su'akour Bowl
+          The Confluence Captains
+          vs
+          The Greenwatch
+          @ The Glowstone Terrace
+          The Oread's Summit Tamers
+          vs
+          The New Prosperity Profits
+          @ The High-Pass Pitch
+          Oak & Onslaught
+          vs
+          The New Monteforte Chaos Creatures
+          @ Fletchings Field
+          The Haven Lights
+          vs
+          The Ebon Gate Corruptors
+          @ The Aegis Field
+      </schedule>
+    `;
+
+    // Generate the content
+    const result = await genAI.models.generateContent({
+      model: "gemini-2.5-pro",
+      contents: userQuery,
+      config: {
+        safetySettings: safetySettings,
+        responseMimeType: "text/plain",
+        // responseSchema: BLOG_POST_SCHEMA,
+        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
+        temperature: 1.3,
+      },
+    });
+    const candidate = result.candidates?.[0];
+
+    if (candidate && candidate.content?.parts?.[0]?.text) {
+      // The model's response is a *string* of JSON. We need to parse it.
+      const jsonResponseText = candidate.content.parts[0].text;
+
+      return jsonResponseText;
+    } else {
+      // Log the reason if it was blocked
+      if (result.promptFeedback) {
+        console.error(
+          "Error: Prompt was blocked.",
+          JSON.stringify(result.promptFeedback, null, 2)
+        );
+      }
+      if (candidate?.finishReason) {
+        console.error(
+          "Error: Generation finished early.",
+          candidate.finishReason,
+          candidate.safetyRatings
+        );
+      }
+
+      return "";
+    }
+  } catch (error) {
+    console.error("Error calling Gemini API:", error);
+
+    return "";
   }
 }

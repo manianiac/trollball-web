@@ -2,7 +2,11 @@ import path from "path";
 import fs from "fs";
 
 import { match } from "../consts";
-import { generateWeeklyReport } from "./gameFiles/gameReportGenerator";
+import {
+  generateDiscordAnnouncement,
+  generatePopularityPost,
+  generateWeeklyReport,
+} from "./gameFiles/gameReportGenerator";
 export const generateGamesTS = () => {
   // Define the directory where your game data JSON files are stored
   // This MUST match the DATA_DIR in 'scripts/buildGameData.ts'
@@ -142,9 +146,66 @@ async function makeWeeklyRecap(allGamesData: match[]) {
   }
 }
 
+async function makeDiscordAnnouncement(allGamesData: match[]) {
+  const week = Math.max(...allGamesData.map((game) => game.week));
+  const pastRecaps = loadAllRecaps();
+  const recap = await generateDiscordAnnouncement(
+    allGamesData,
+    pastRecaps,
+    week
+  );
+  const OUTPUT_FILE = path.join(
+    process.cwd(),
+    "results",
+    `discordAnnouncement.md`
+  );
+  const outputDir = path.dirname(OUTPUT_FILE);
+
+  try {
+    // Ensure the 'utils' directory exists
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    // Write the file synchronously
+    fs.writeFileSync(OUTPUT_FILE, recap.replace(/\n/g, "\r\n"), "utf8");
+    console.log(`Successfully generated: ${OUTPUT_FILE}`);
+  } catch (err) {
+    console.error("Error writing games.generated.ts file:", err);
+  }
+}
+
+async function makePopularityPost(allGamesData: match[]) {
+  const week = Math.max(...allGamesData.map((game) => game.week));
+  const pastRecaps = loadAllRecaps();
+  const recap = await generatePopularityPost(allGamesData, pastRecaps, week);
+  const OUTPUT_FILE = path.join(
+    process.cwd(),
+    "results",
+    `popularityAnnouncement.md`
+  );
+  const outputDir = path.dirname(OUTPUT_FILE);
+
+  try {
+    // Ensure the 'utils' directory exists
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    // Write the file synchronously
+    fs.writeFileSync(OUTPUT_FILE, recap.replace(/\n/g, "\r\n"), "utf8");
+    console.log(`Successfully generated: ${OUTPUT_FILE}`);
+  } catch (err) {
+    console.error("Error writing games.generated.ts file:", err);
+  }
+}
+
 // --- Main Execution ---
 const allGamesData = generateGamesTS();
 
-writeGeneratedTSFile(allGamesData);
+// writeGeneratedTSFile(allGamesData);
 
-makeWeeklyRecap(allGamesData);
+// makeWeeklyRecap(allGamesData);
+
+makeDiscordAnnouncement(allGamesData);
+// makePopularityPost(allGamesData);
