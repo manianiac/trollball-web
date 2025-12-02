@@ -86,6 +86,86 @@ export const GAMES: match[] = [
   },
   {
     homeTeam: {
+      name: "The Confluence Captains",
+      slug: "confluence",
+      losses: 0,
+      wins: 0,
+      score: 0,
+      luck: 60,
+      stadium: {
+        name: "The Glowstone Terrace",
+        location: "Confluence (World's Spine Mountains)",
+        description:
+          "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+        modifiers: ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"],
+      },
+      healer: {
+        name: "Kant Langill",
+        team: "The Confluence Captains",
+        stats: {
+          pass: 51,
+          catch: 55,
+          run: 54,
+          block: 49,
+          fight: 59,
+          throw: 59,
+          luck: 65,
+          pronouns: "He/Him",
+          civic_engagement: 68,
+          alcohol_tolerance: 65,
+          favorite_weapon: "Scimitar",
+          pregame_ritual:
+            "Doing a terrible, clumsy dance to 'loosen the joints'.",
+          literate: true,
+        },
+      },
+    },
+    awayTeam: {
+      name: "The Greenwatch",
+      slug: "greenwatch",
+      losses: 0,
+      wins: 0,
+      score: 0,
+      luck: 53,
+      stadium: {
+        name: "The Oakmaul Grounds",
+        location: "Hafting",
+        description:
+          "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+        modifiers: ["Ritual Focus", "Scarred Oak's Shadow", "Hallowed Ground"],
+      },
+      healer: {
+        name: "Nariko Javed",
+        team: "The Greenwatch",
+        stats: {
+          pass: 52,
+          catch: 55,
+          run: 58,
+          block: 56,
+          fight: 50,
+          throw: 55,
+          luck: 73,
+          pronouns: "They/Them",
+          civic_engagement: 44,
+          alcohol_tolerance: 61,
+          favorite_weapon: "Pike",
+          pregame_ritual:
+            "Wiggling their fingers in a complex, magical-looking pattern.",
+          literate: true,
+        },
+      },
+    },
+    preGame:
+      "Hello, hello, and a blood-soaked welcome back to Tuesday Night Trollball! This is your favorite fiend of the field, Nok the Corrupter, coming to you live from the magnificent Glowstone Terrace! The mountain winds are whipping, the market crowd is roaring, and that famous Glowstone Glare is making everything shimmer! What a perfect night for some bone-crunching action! 🏟️\n\nTonight, we've got a real barn-burner for you, folks! The hometown heroes, The Confluence Captains, are squaring off against the travelling titans, The Greenwatch! The Captains, representing the Guild of the Black Sky, are looking to make a statement here on their home turf. I see Ladew Evelina getting ready by chugging a raw egg, shell and all! Now that's commitment! And listen closely... you might hear O'Conner Maighdlin warming up by speaking only in rhymes. Annoying? Maybe. Effective? We're about to find out!\n\nBut don't count out The Greenwatch! They've made the long trip and they look hungry! I saw Verne Methuselah getting a good 'grip' on the Trollball by rubbing it in her armpits, a time-honored tradition! And you've gotta love the focus of Herriott Dhiren, chewing on a bitter root for night vision. She'll need it under this Glowstone Glare! The teams are lining up, the tension is thicker than bog mud, and the Trollball is about to fly! Get ready for chaos, carnage, and pure, unadulterated SPORT! Let's get this game started!",
+    postGame:
+      "WOW! What a game, ladies and gentlemen and everyone in between! That was Trollball at its absolute finest! From the first whistle to the last, the field was a whirlwind of beautiful, brutal poetry in motion. If you weren't on the edge of your seat, you might have already been knocked unconscious! An absolute spectacle here at the Glowstone Terrace! 💥\n\nThe first half kicked off with more brawling than a tavern on payday! It was a symphony of destruction! Troy Jorgan laid out Deach Sharlene with a Kirkhammer, only for Richia Pazit to answer right back with a Pike to the gut! The healers were earning their keep from the get-go, I'll tell ya that much!\n\nAnd would you believe it, we had a double KO! Behl Berstine and Goldenberg Rimola decided they'd both had enough of being conscious and took each other out of the action simultaneously! You just love to see that kind of mutual respect and aggression! That's the spirit of the game right there!\n\nAmidst the chaos, the Confluence Captains drew first blood! After a failed run by her teammate, Belding Chloe scooped up the loose ball, dodged a tackle, and then, with incredible poise, sank a magnificent 2-point shot from Away Field! The home crowd went absolutely wild! A 2-0 lead for the Captains!\n\nBut hold on to your helmets, folks, because The Greenwatch came roaring back! Darin Berliner got the ball, powered through the defense into Home Field, and answered with a 2-point shot of their own! Just like that, we were all tied up! The back-and-forth action was simply breathtaking! What a response!\n\nThe rest of the half was a glorious, messy scramble! Fumbled passes, dropped balls, and to cap it all off, another spectacular double knockout! Vonni Geoff and Nobe Haukom traded blows with a Sap and a Mallet, sending both of them to the healers' tent for a nice nap. The whistle blew for halftime with the score knotted at 2-2. A perfectly balanced contest of violence and skill!\n\nWhen we came back for the second half, the carnage picked right back up where it left off! Salahi Bushey and Behl Berstine immediately took each other out in another stunning double KO. These players were leaving it ALL on the field tonight, folks!\n\nThen came the run of the game! The Greenwatch's own Salahi Bushey, fresh from the healer, picked up the ball deep in his own territory and took off like a demon out of the Abyss! He weaved through player after player, running the ball from the Away 2-Point zone, through Away Field, through Center Field, and all the way into Home Field! An absolutely legendary run that covered almost the entire length of the pitch!\n\nBut after that heroic effort, the pass was fumbled! The Captains recovered, only to be blocked by Rese Halpern of The Greenwatch, who ripped the ball away! With the defense in disarray, Halpern saw an opening and punched it through for a touchdown! The Greenwatch takes the lead, 3-2! What a stunning turn of events!\n\nThe game ended as it began: with pure, unadulterated violence. One last double KO for the road, as Caves Cestar and Salahi Bushey decided to call it a night. And that's the final whistle, folks! What a match! The final score from the Glowstone Terrace: your visiting The Greenwatch take it with a score of 3, defeating the hometown The Confluence Captains, who finish with 2! A hard-fought victory on the road for The Greenwatch! This is Nok the Corrupter, signing off! Now THAT was Trollball! 😈",
+    week: 3,
+    homeScore: 2,
+    awayScore: 3,
+    slug: "confluence-greenwatch-3",
+  },
+  {
+    homeTeam: {
       name: "The Desert Spectres",
       slug: "desert",
       losses: 0,
@@ -401,6 +481,165 @@ export const GAMES: match[] = [
     homeScore: 0,
     awayScore: 2,
     slug: "oak-and-onslaught-new-monteforte-3",
+  },
+  {
+    homeTeam: {
+      name: "The Oread's Summit Tamers",
+      slug: "oreads-summit",
+      losses: 0,
+      wins: 0,
+      score: 0,
+      luck: 67,
+      stadium: {
+        name: "The High-Pass Pitch",
+        location: "Oread's Summit",
+        description:
+          "A field built at a breathtaking altitude in a fortified mountain pass. The air is painfully thin, and the weather is dangerously unpredictable.",
+        modifiers: ["Thin Air", "Sudden Blizzard", "Vertigo"],
+      },
+      healer: {
+        name: "Carn Tibbetts",
+        team: "The Oread's Summit Tamers",
+        stats: {
+          pass: 54,
+          catch: 51,
+          run: 59,
+          block: 57,
+          fight: 51,
+          throw: 52,
+          luck: 65,
+          pronouns: "He/Him",
+          civic_engagement: 59,
+          alcohol_tolerance: 51,
+          favorite_weapon: "Shortsword",
+          pregame_ritual:
+            "Tying a small, hand-carved wooden bird to their gear.",
+          literate: true,
+        },
+      },
+    },
+    awayTeam: {
+      name: "The New Prosperity Profits",
+      slug: "new-prosperity",
+      losses: 0,
+      wins: 0,
+      score: 0,
+      luck: 50,
+      stadium: {
+        name: "The Guilder's Field",
+        location: "New Prosperity",
+        description:
+          "An opulent stadium sponsored by the powerful Merchant's Guild. The stands feature luxurious, velvet-lined boxes for bankers, who are often more focused on making deals than the game.",
+        modifiers: ["Hostile Takeover", "Hired Hecklers", "Market Fluctuation"],
+      },
+      healer: {
+        name: "Merissa Mathian",
+        team: "The New Prosperity Profits",
+        stats: {
+          pass: 54,
+          catch: 54,
+          run: 53,
+          block: 45,
+          fight: 52,
+          throw: 59,
+          luck: 49,
+          pronouns: "She/Her",
+          civic_engagement: 66,
+          alcohol_tolerance: 51,
+          favorite_weapon: "Longsword",
+          pregame_ritual: "Washing their hands with dirt.",
+          literate: true,
+        },
+      },
+    },
+    preGame:
+      "Hello, Trollball fanatics, and welcome to another glorious Tuesday Night Trollball! This is your favorite fiend, Nok the Corrupter, coming to you live from the absolutely breathtaking, and I do mean that literally, High-Pass Pitch in Oread's Summit! The air up here is so thin it'll make your lungs scream, and the winds are colder than a tax collector's heart! It's the perfect weather for some bone-shattering, soul-stirring Trollball!\n\nTonight, our hometown heroes, The Oread's Summit Tamers, are looking to tame more than just mountains as they face off against the visiting New Prosperity Profits! The Tamers are looking FIERCE, folks! I saw Saloma Talich getting a teammate to punch him square in the shoulder just to get the blood flowing, and Edme Virgil is warming up their vocal cords with a sea shanty that could curdle milk! Now THAT is preparation!\n\nThe Profits aren't just here to count their gold, either! These scrappers from the Guild of the Black Sky mean business. I watched Yoshi Cathy eat a raw onion, layer by layer, without shedding a single tear. If that doesn't tell you he's ready to bring the pain, I don't know what will! And let's not forget Pulchi Benyamin, who's fueling up by eating a dandelion, stem and all! A little bit of nature before the unnatural carnage begins!\n\nThis is going to be a clash of titans, a battle of wills, a symphony of destruction! Will the high-altitude advantage and bizarre rituals of the Tamers carry them to victory? Or will the cold, calculating precision of the Profits pay dividends? Grab your grog, hold on to your helmets, because the whistle is about to blow, and the beautiful brutality is about to begin!",
+    postGame:
+      "WHAT A GAME! WHAT A NIGHT! Folks, if you weren't on the edge of your seat, you must have been knocked out of it! The Oread's Summit Tamers have defended their home turf with a stunning display of power and precision, putting down the New Prosperity Profits with a final score of 4 to 1! An absolute masterclass in violence and scoring!\n\nThe action started faster than a rumor in the Adventurer's Guild! The Profits' Gladdie Farika scooped up the ball, but BAM! Clippard Burr of the Tamers laid them out with a lance! But in a twist you only see in Trollball, Farika took Burr down with them! A double knockout on the first play! Oh, it brings a tear to my eye!\n\nWith the field already littered with bodies, the Tamers seized the moment! Dric Trilley grabbed the troll head and went on a rampage, bowling over Pellikka Concettina like a ninepin! This is what the game is all about, my friends!\n\nAnd then, the moment of magic! Trilley zipped a pass to Zadoc Wyatan, who was waiting in the 2-point zone. Wyatan took aim, let it fly, and SWISH! Two points for the Tamers! The hometown crowd erupted!\n\nBut they weren't done! Not by a long shot! On the very next possession, Saloma Talich got the ball at center field, looked at the goal, and just CHUCKED IT! I've never seen anything like it! The ball sailed through the air and right through the hoop for another TWO POINTS! In the blink of an eye, the Tamers were up 4-0! The Profits looked absolutely stunned!\n\nThe first half was a whirlwind of beautiful brutality! Swamy Ahasuerus and Aufmann Tedric traded knockouts, Edme Virgil and Clippard Burr took each other out of the game... the healers were working harder than Sir Artorias's publicist! It was glorious chaos, a testament to the spirit of the sport!\n\nAfter a much-needed halftime where the healers scraped our warriors off the pitch and glued them back together, the second half began. The Profits knew they had a mountain to climb, and to their credit, they came out fighting!\n\nKrueger Jacinthe finally put the visitors on the board, bulldozing his way into the endzone for a touchdown! A glimmer of hope for the Profits, making the score 4-1. Could they mount a comeback for the ages?\n\nThey certainly tried! Abramson Doxia made a fantastic run deep into Tamer territory, dodging and weaving, looking for an opening. But the Tamers' defense stiffened, becoming an unbreakable wall of muscle and steel. Possession was wrestled back and forth, the ball dropped and recovered in frantic scrambles that looked more like a mosh pit than a sporting event! It was magnificent!\n\nIn the end, the Tamers' early lead and tenacious defense were too much to overcome. As the final whistle blew, it was Swamy Ahasuerus holding the ball, and the victory, firmly in her grasp. A well-deserved win for The Oread's Summit Tamers, who showed everyone tonight how Trollball is played in the mountains! Until next time, this is Nok the Corrupter, reminding you that a broken bone is just a souvenir from a game well played!",
+    week: 3,
+    homeScore: 4,
+    awayScore: 1,
+    slug: "oreads-summit-new-prosperity-3",
+  },
+  {
+    homeTeam: {
+      name: "The Southport Narwhals",
+      slug: "southport",
+      losses: 0,
+      wins: 0,
+      score: 0,
+      luck: 48,
+      stadium: {
+        name: "The Cliffside Pitch",
+        location: "Southport",
+        description:
+          "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
+        modifiers: ["Gale-Force Winds", "Sea Spray", "Rocky Outcropping"],
+      },
+      healer: {
+        name: "Sand Denys",
+        team: "The Southport Narwhals",
+        stats: {
+          pass: 55,
+          catch: 54,
+          run: 50,
+          block: 53,
+          fight: 61,
+          throw: 64,
+          luck: 60,
+          pronouns: "She/Her",
+          civic_engagement: 68,
+          alcohol_tolerance: 46,
+          favorite_weapon: "Cestus",
+          pregame_ritual:
+            "Telling each other exaggerated lies about their own strength.",
+          literate: false,
+        },
+      },
+    },
+    awayTeam: {
+      name: "The Zmeigorod Snessengers",
+      slug: "zmeigorod",
+      losses: 0,
+      wins: 0,
+      score: 0,
+      luck: 53,
+      stadium: {
+        name: "The Serpent's Pass",
+        location: "Zmeigorod, just west of the lumber mill",
+        modifiers: ["Altitude Sickness", "Sudden Downpour", "Rockslide"],
+        description:
+          "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it.",
+      },
+      healer: {
+        name: "Waldon Tadeo",
+        team: "The Zmeigorod Snessengers",
+        stats: {
+          pass: 56,
+          catch: 65,
+          run: 55,
+          block: 56,
+          fight: 54,
+          throw: 60,
+          luck: 50,
+          pronouns: "She/Them",
+          civic_engagement: 56,
+          alcohol_tolerance: 53,
+          favorite_weapon: "Battle Axe",
+          pregame_ritual:
+            "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+          literate: false,
+        },
+      },
+    },
+    preGame:
+      "Hello, hello, HELLO, sports fans, and welcome back to another glorious Tuesday Night Trollball! This is your favorite host, Nok the Corrupter, coming to you live from the very edge of the world, it seems! We're at The Cliffside Pitch in Southport, home of the Narwhals, where the only thing more dangerous than the players is the real estate! I'm telling you folks, one wrong step and you're fish food! The sea spray is so thick you can taste the salt, and those gale-force winds are whipping up something fierce! It’s the perfect weather for TROLLBALL!\n\nTonight, our hometown heroes, The Southport Narwhals, are taking on the swampy stompers themselves, The Zmeigorod Snessengers! Now, the Narwhals are looking mighty confident on their home turf. I saw Malcolm Goer getting ready by rubbing the Trollball in their armpits for 'extra grip'—that's the kind of dedication that wins championships, my friends! It’s certainly a better look than some of those stuffy heroes from Eponore. You won't see Sir Tanos doing that with Sunbringer, I'll tell you that for free!\n\nThe Snessengers, fresh from the bogs of Zmeigorod, don't look intimidated by a little ocean water! Their warm-up rituals are a sight to behold! Delija Dowling was seen chugging a raw egg, shell and all, while Evalyn Pierrepont was polishing his helmet with a live snail! That’s the kind of strange bog-magic that High Priestess Oona probably frowns upon, which makes me love it all the more! Will their swampy toughness overcome the Narwhals' seaside savagery? We're about to find out! Get ready for a bone-crunching, rock-smashing, tide-turning good time! It's almost time for kickoff!",
+    postGame:
+      "WOW! WHAT A GAME, FOLKS! An absolute cliffhanger here at the Cliffside Pitch, and I mean that literally! When the salt spray settled and the last whistle blew, your Southport Narwhals have clawed out a victory by the skin of their tusks! The final score: The Southport Narwhals, 4, and the Zmeigorod Snessengers, 3! An absolute battle from start to finish!\n\nThe action started immediately! The first half was a symphony of destruction! We had Arni Griffith for the Snessengers making a bold run right out of the gate, but the real story was the mutual annihilation! Alded Sanjay and Loralyn Lyndy knocked each other clean out of the game in a beautiful, simultaneous display of violence! That's the kind of parity you love to see!\n\nBut the Narwhals drew first blood on the scoreboard! Braden Gaile, standing in the Away 2-point zone, took a look, took a breath, and launched that troll head through the goal for a spectacular 2-point score! The hometown crowd went absolutely bananas!\n\nNot to be outdone, the Snessengers answered right back! Rose Kluge, with ice in her veins, fired off a long bomb of her own from Center Field! It sailed through the air, perfect and true, for two points! We were all tied up, and the tension was thick enough to chew!\n\nThe rest of the half was just pure, unadulterated chaos! More mutual knockouts! Dare Wynnie and Cilurzo Sochor took each other out! Then Arni Griffith and Torey Dannye followed suit! The healers, Waldon Tadeo and Sand Denys, were working harder than a one-legged goblin in a kicking contest! What a display of carnage before the halftime whistle!\n\nAfter the break, the intensity only ramped up! The Narwhals came out swinging, with Malcolm Goer channeling the fury of a storm and knocking out two Snessengers back-to-back with that glorious Morning Star! That's how you make a statement!\n\nThe ball was a hot potato, dropped and recovered amidst a flurry of devastating blows. Alded Sanjay and Cilurzo Sochor had a rematch that sent them both to the healers' tent once again, leaving the troll head just sitting there for the taking!\n\nAnd who should scoop it up but Crescint Sonia for the Narwhals! With a clear look at the goal, he let it fly from the 2-point zone and... IT'S GOOD! Southport takes a 4-2 lead, and it looked like that might just seal the deal!\n\nBut you can never, EVER count out a team from Zmeigorod! With time winding down, the Snessengers mounted a furious comeback! Northway Orran, a whirlwind of aggression all night, grabbed the ball and plowed through the defense for a hard-earned touchdown! The score was 4-3! The Snessengers were just one point away from tying it all up!\n\nThe final moments were a desperate, frantic scramble, but the Narwhals' defense held on! They protected their lead as the final whistle blew, securing a magnificent victory for the home team! A tip of the hat to King Nezmear; his team fought like the werewolves he's so fond of! A hard-fought win and a fantastic start to their season! As for the Snessengers, they have nothing to be ashamed of. They brought the pain, they scored, and they made the Narwhals earn every single inch. A loss, but a glorious one! Until next time, this is Nok the Corrupter, signing off! KEEP. IT. BRUTAL!",
+    week: 3,
+    homeScore: 4,
+    awayScore: 3,
+    slug: "southport-zmeigorod-3",
   },
   {
     homeTeam: {

@@ -5,6 +5,7 @@ import { gameLoop } from "./gameFiles/gameRunner";
 import path from "path";
 import fs from "fs";
 import { STATIC_LEAGUE_SCHEDULE } from "./schedule";
+import { TeamIcon } from "@/components/icons";
 
 // let ng = generateNameGenerator();
 // let oo = generateTeam(TEAM_NAMES["Oak & Onslaught"], ng);
@@ -47,16 +48,28 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
 //   0
 // );
 
-STATIC_LEAGUE_SCHEDULE.filter((match) => match.week === 2).forEach(
-  (baseMatch) => {
-    baseMatch.week++;
-    // Run the game simulation
-    console.log(
-      "generating match for " +
-        baseMatch.homeTeam.name +
-        " vs " +
-        baseMatch.awayTeam.name
-    );
-    runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
-  }
+// STATIC_LEAGUE_SCHEDULE.filter((match) => match.week === 2).forEach(
+//   (baseMatch) => {
+//     baseMatch.week++;
+//     // Run the game simulation
+//     console.log(
+//       "generating match for " +
+//         baseMatch.homeTeam.name +
+//         " vs " +
+//         baseMatch.awayTeam.name
+//     );
+//     runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
+//   }
+// );
+
+runMatch(TEAMS["The Confluence Captains"], TEAMS["The Greenwatch"], 3);
+runMatch(
+  TEAMS["The Oread's Summit Tamers"],
+  TEAMS["The New Prosperity Profits"],
+  3
+);
+runMatch(
+  TEAMS["The Southport Narwhals"],
+  TEAMS["The Zmeigorod Snessengers"],
+  3
 );
