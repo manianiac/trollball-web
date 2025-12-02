@@ -5,6 +5,7 @@ import { gameLoop } from "./gameFiles/gameRunner";
 import path from "path";
 import fs from "fs";
 import { STATIC_LEAGUE_SCHEDULE } from "./schedule";
+import { TeamIcon } from "@/components/icons";
 
 // let ng = generateNameGenerator();
 // let oo = generateTeam(TEAM_NAMES["Oak & Onslaught"], ng);

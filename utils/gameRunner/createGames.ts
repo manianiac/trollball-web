@@ -129,7 +129,11 @@ async function makeWeeklyRecap(allGamesData: match[]) {
   const week = Math.max(...allGamesData.map((game) => game.week));
   const pastRecaps = loadAllRecaps();
   const recap = await generateWeeklyReport(allGamesData, pastRecaps, week);
-  const OUTPUT_FILE = path.join(process.cwd(), "results", `weeklyRecap-2.json`);
+  const OUTPUT_FILE = path.join(
+    process.cwd(),
+    "results",
+    `weeklyRecap-${week}.json`
+  );
   const outputDir = path.dirname(OUTPUT_FILE);
 
   try {
