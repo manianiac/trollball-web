@@ -1,5 +1,5 @@
-import { TEAMS, TEAM_NAMES } from "../teams"; // Ensure these paths are correct
-import { team } from "../consts"; // Ensure team interface is correct
+import { TEAMS } from "../teams";
+import { team, TEAM_NAMES } from "@/utils/types"; // Ensure team interface is correct
 
 /**
  * Defines the structure for a pre-season match in the hard-coded schedule.

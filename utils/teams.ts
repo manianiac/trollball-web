@@ -1,26 +1,4 @@
-import { team } from "./consts";
-
-export enum TEAM_NAMES {
-  //   "No Team" = "No Team",
-  "The Tortell Privateers" = "The Tortell Privateers",
-  "The South Pole Yetis" = "The South Pole Yetis",
-  "The Confluence Captains" = "The Confluence Captains",
-  "The New Prosperity Profits" = "The New Prosperity Profits",
-  "The Southport Narwhals" = "The Southport Narwhals",
-  "The New Ravenfall Commanders" = "The New Ravenfall Commanders",
-  "The Brimstone Fire Eaters" = "The Brimstone Fire Eaters",
-  "The Zmeigorod Snessengers" = "The Zmeigorod Snessengers",
-  "The Haven Lights" = "The Haven Lights",
-  "The Desert Spectres" = "The Desert Spectres",
-  "The Ebon Gate Corruptors" = "The Ebon Gate Corruptors",
-  "The Wyrmwood Stronghammers" = "The Wyrmwood Stronghammers",
-  "The New Monteforte Chaos Creatures" = "The New Monteforte Chaos Creatures",
-  "The Kerlauger Runeguard" = "The Kerlauger Runeguard",
-  "The Starlight Bazaar Bizarres" = "The Starlight Bazaar Bizarres",
-  "The Oread's Summit Tamers" = "The Oread's Summit Tamers",
-  "The Greenwatch" = "The Greenwatch",
-  "Oak & Onslaught" = "Oak & Onslaught",
-}
+import { team, TEAM_NAMES } from "@/utils/types";
 
 export const TEAMS: Record<TEAM_NAMES, team> = {
   [TEAM_NAMES["The Brimstone Fire Eaters"]]: {
@@ -4224,4 +4202,4 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       },
     ],
   },
-};
+} as Record<TEAM_NAMES, team>;

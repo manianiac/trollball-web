@@ -1,5 +1,5 @@
 import { TEAMS } from "../teams";
-import { TEAM_NAMES, ZONE, match, match_progress, team } from "../consts";
+import { TEAM_NAMES, ZONE, match, match_progress, team } from "@/utils/types";
 
 import { gameLoop } from "./gameFiles/gameRunner";
 import path from "path";

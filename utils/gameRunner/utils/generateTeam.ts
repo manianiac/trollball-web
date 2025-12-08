@@ -3,11 +3,10 @@ import { Markov } from "ts-markov";
 import { generateNormalRandom } from "../../utils";
 
 import {
-  stadium,
   STARTING_ROSTER_SIZE,
-  team,
-  TEAM_NAMES,
-} from "./../../consts";
+} from "@/utils/constants";
+import { stadium, team, TEAM_NAMES } from "@/utils/types";
+import { STADIUM_MODIFIERS } from "@/utils/flavor";
 import { generatePlayer } from "./generatePlayer";
 
 export const generateTeam = (teamName: TEAM_NAMES, nameGenerator: Markov) => {

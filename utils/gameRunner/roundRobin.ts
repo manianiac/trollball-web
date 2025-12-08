@@ -1,5 +1,5 @@
 import { TEAMS } from "../teams"; // Adjust path to your TEAMS file
-import { team } from "../consts"; // Adjust path to your consts file
+import { team } from "@/utils/types"; // Adjust path to your consts file
 import { seededShuffle } from "../utils";
 
 /**
