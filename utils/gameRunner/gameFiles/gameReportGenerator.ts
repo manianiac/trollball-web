@@ -7,7 +7,7 @@ import {
   Type,
 } from "@google/genai";
 
-import { match, match_progress, TEAM_NAMES } from "@/utils/consts";
+import { match, match_progress, TEAM_NAMES } from "@/utils/types";
 import { popularity } from "./popularity";
 import { heroesOfTheRealm } from "./heroes";
 import { STATIC_LEAGUE_SCHEDULE } from "../schedule";
@@ -131,6 +131,50 @@ const safetySettings: SafetySetting[] = [
   },
 ];
 
+const generateContentHelper = async (
+  prompt: string,
+  schema?: any,
+  mimeType: string = "text/plain",
+  temperature: number = 1.0
+): Promise<string | null> => {
+  try {
+    const result = await genAI.models.generateContent({
+      model: "gemini-2.5-pro",
+      contents: prompt,
+      config: {
+        safetySettings: safetySettings,
+        responseMimeType: mimeType,
+        responseSchema: schema,
+        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
+        temperature: temperature,
+      },
+    });
+    const candidate = result.candidates?.[0];
+
+    if (candidate && candidate.content?.parts?.[0]?.text) {
+      return candidate.content.parts[0].text;
+    } else {
+      if (result.promptFeedback) {
+        console.error(
+          "Error: Prompt was blocked.",
+          JSON.stringify(result.promptFeedback, null, 2)
+        );
+      }
+      if (candidate?.finishReason) {
+        console.error(
+          "Error: Generation finished early.",
+          candidate.finishReason,
+          candidate.safetyRatings
+        );
+      }
+      return null;
+    }
+  } catch (error) {
+    console.error("Error calling Gemini API:", error);
+    return null;
+  }
+};
+
 export async function generateWeeklyReport(
   allGamesData: match[],
   pastRecaps: any[],
@@ -141,10 +185,7 @@ export async function generateWeeklyReport(
     .map((val) => JSON.stringify(val))
     .join(",")}}`;
 
-  try {
-    // The User Prompt: This is the specific task and the data to use.
-    // We stringify the game data and pass it in the prompt.
-    const userQuery = `
+  const userQuery = `
       Here is are all of the Trollball matches this season. Please generate a lengthy recap covering the highlites of the latest week(week ${week}).
 
       Format the "content" as a blog post, adding markdown headers and other formatting, including but not limited to emojii
@@ -176,57 +217,20 @@ export async function generateWeeklyReport(
       </hero_data>
     `;
 
-    // Generate the content
-    const result = await genAI.models.generateContent({
-      model: "gemini-2.5-pro",
-      contents: userQuery,
-      config: {
-        safetySettings: safetySettings,
-        responseMimeType: "application/json",
-        responseSchema: BLOG_POST_SCHEMA,
-        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
-        temperature: 1.3,
-      }, // Pass the JSON config here
-    });
-    const candidate = result.candidates?.[0];
+  const result = await generateContentHelper(
+    userQuery,
+    BLOG_POST_SCHEMA,
+    "application/json",
+    1.3
+  );
 
-    if (candidate && candidate.content?.parts?.[0]?.text) {
-      // The model's response is a *string* of JSON. We need to parse it.
-      const jsonResponseText = candidate.content.parts[0].text;
-
-      return JSON.parse(jsonResponseText);
-    } else {
-      // Log the reason if it was blocked
-      if (result.promptFeedback) {
-        console.error(
-          "Error: Prompt was blocked.",
-          JSON.stringify(result.promptFeedback, null, 2)
-        );
-      }
-      if (candidate?.finishReason) {
-        console.error(
-          "Error: Generation finished early.",
-          candidate.finishReason,
-          candidate.safetyRatings
-        );
-      }
-
-      return "";
-    }
-  } catch (error) {
-    console.error("Error calling Gemini API:", error);
-
-    return "";
-  }
+  return result ? JSON.parse(result) : "";
 }
 
 export async function generateGameReports(
   gameData: match_progress
 ): Promise<GameReport | null> {
-  try {
-    // The User Prompt: This is the specific task and the data to use.
-    // We stringify the game data and pass it in the prompt.
-    const userQuery = `
+  const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
       Use markdown formatting(like headers or lists) and use emojii as needed
 
@@ -240,48 +244,14 @@ export async function generateGameReports(
       </hero_data>
     `;
 
-    // Generate the content
-    const result = await genAI.models.generateContent({
-      model: "gemini-2.5-pro",
-      contents: userQuery,
-      config: {
-        safetySettings: safetySettings,
-        responseMimeType: "application/json",
-        responseSchema: GAME_REPORT_SCHEMA,
-        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
-        temperature: 1.0,
-      }, // Pass the JSON config here
-    });
-    const candidate = result.candidates?.[0];
+  const result = await generateContentHelper(
+    userQuery,
+    GAME_REPORT_SCHEMA,
+    "application/json",
+    1.0
+  );
 
-    if (candidate && candidate.content?.parts?.[0]?.text) {
-      // The model's response is a *string* of JSON. We need to parse it.
-      const jsonResponseText = candidate.content.parts[0].text;
-
-      return JSON.parse(jsonResponseText) as GameReport;
-    } else {
-      // Log the reason if it was blocked
-      if (result.promptFeedback) {
-        console.error(
-          "Error: Prompt was blocked.",
-          JSON.stringify(result.promptFeedback, null, 2)
-        );
-      }
-      if (candidate?.finishReason) {
-        console.error(
-          "Error: Generation finished early.",
-          candidate.finishReason,
-          candidate.safetyRatings
-        );
-      }
-
-      return null;
-    }
-  } catch (error) {
-    console.error("Error calling Gemini API:", error);
-
-    return null;
-  }
+  return result ? (JSON.parse(result) as GameReport) : null;
 }
 
 export async function generateDiscordAnnouncement(
@@ -294,10 +264,7 @@ export async function generateDiscordAnnouncement(
     .map((val) => JSON.stringify(val))
     .join(",")}}`;
 
-  try {
-    // The User Prompt: This is the specific task and the data to use.
-    // We stringify the game data and pass it in the prompt.
-    const userQuery = `
+  const userQuery = `
       Here is are all of the Trollball matches, as well as your recaps this season. Please generate an announcement post for the LARP Discord Server for week(week ${week}).
 
       Format the "content" as an announcement, using Discord formatting, including but not limited to emojii. Feel free to insert Faction or Team emojii, even if one doesn't exist as there are custom emojii for all factions.
@@ -334,48 +301,14 @@ export async function generateDiscordAnnouncement(
       </hero_data>
     `;
 
-    // Generate the content
-    const result = await genAI.models.generateContent({
-      model: "gemini-2.5-pro",
-      contents: userQuery,
-      config: {
-        safetySettings: safetySettings,
-        responseMimeType: "text/plain",
-        // responseSchema: BLOG_POST_SCHEMA,
-        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
-        temperature: 1.3,
-      },
-    });
-    const candidate = result.candidates?.[0];
+  const result = await generateContentHelper(
+    userQuery,
+    undefined,
+    "text/plain",
+    1.3
+  );
 
-    if (candidate && candidate.content?.parts?.[0]?.text) {
-      // The model's response is a *string* of JSON. We need to parse it.
-      const jsonResponseText = candidate.content.parts[0].text;
-
-      return jsonResponseText;
-    } else {
-      // Log the reason if it was blocked
-      if (result.promptFeedback) {
-        console.error(
-          "Error: Prompt was blocked.",
-          JSON.stringify(result.promptFeedback, null, 2)
-        );
-      }
-      if (candidate?.finishReason) {
-        console.error(
-          "Error: Generation finished early.",
-          candidate.finishReason,
-          candidate.safetyRatings
-        );
-      }
-
-      return "";
-    }
-  } catch (error) {
-    console.error("Error calling Gemini API:", error);
-
-    return "";
-  }
+  return result || "";
 }
 
 export async function generatePopularityPost(
@@ -388,10 +321,7 @@ export async function generatePopularityPost(
     .map((val) => JSON.stringify(val))
     .join(",")}}`;
 
-  try {
-    // The User Prompt: This is the specific task and the data to use.
-    // We stringify the game data and pass it in the prompt.
-    const userQuery = `
+  const userQuery = `
       Here is are all of the Trollball matches, as well as your recaps this season. Please generate an popularity post for the LARP Discord Server for week(${week}).
 
       Format the "content" using Discord formatting, including but not limited to emojii. Feel free to insert Faction or Team emojii, even if one doesn't exist as there are custom emojii for all factions.
@@ -401,12 +331,6 @@ Mention any rivalries or anticipated matchups for the upcoming week.
       A sample format is as follows:
         [Celebrate the past week of Tuesday Night Trollball]
         [Reveal the results of the previous feature vote, celebrating the winning choice and teasing how it will impact future games]
-          [This week, the choices were: 
-            Natural Intervention
-            Unnatural Intervention
-            Alcoholic Intervention
-            Commisioner Intervention
-          and Alcoholic Intervention won. These features will not be implemented until later, so don't bring them up for the next week of games]
         [Call to action to vote for their favorite team in the popularity contest]
         [List the matchings for the next week, hyping up any rivalries or anticipated matchups]
 
@@ -432,6 +356,8 @@ Mention any rivalries or anticipated matchups for the upcoming week.
       </hero_data>
 
       <schedule>
+        // (Hardcoded schedule not included in prompt template refactor? It was hardcoded in original file)
+        // I will re-include the static schedule text from original file
           The Starlight Bazaar Bizarres
           vs
           The Tortell Privateers
@@ -471,46 +397,12 @@ Mention any rivalries or anticipated matchups for the upcoming week.
       </schedule>
     `;
 
-    // Generate the content
-    const result = await genAI.models.generateContent({
-      model: "gemini-2.5-pro",
-      contents: userQuery,
-      config: {
-        safetySettings: safetySettings,
-        responseMimeType: "text/plain",
-        // responseSchema: BLOG_POST_SCHEMA,
-        systemInstruction: NOK_THE_CORRUPTER_PERSONA,
-        temperature: 1.3,
-      },
-    });
-    const candidate = result.candidates?.[0];
+  const result = await generateContentHelper(
+    userQuery,
+    undefined,
+    "text/plain",
+    1.3
+  );
 
-    if (candidate && candidate.content?.parts?.[0]?.text) {
-      // The model's response is a *string* of JSON. We need to parse it.
-      const jsonResponseText = candidate.content.parts[0].text;
-
-      return jsonResponseText;
-    } else {
-      // Log the reason if it was blocked
-      if (result.promptFeedback) {
-        console.error(
-          "Error: Prompt was blocked.",
-          JSON.stringify(result.promptFeedback, null, 2)
-        );
-      }
-      if (candidate?.finishReason) {
-        console.error(
-          "Error: Generation finished early.",
-          candidate.finishReason,
-          candidate.safetyRatings
-        );
-      }
-
-      return "";
-    }
-  } catch (error) {
-    console.error("Error calling Gemini API:", error);
-
-    return "";
-  }
+  return result || "";
 }

@@ -1,7 +1,7 @@
 import path from "path";
 import fs from "fs";
 
-import { match } from "../consts";
+import { match } from "@/utils/types";
 import {
   generateDiscordAnnouncement,
   generatePopularityPost,

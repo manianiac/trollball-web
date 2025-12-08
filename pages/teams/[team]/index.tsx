@@ -7,7 +7,7 @@ import { TEAMS } from "../../../utils/teams";
 
 import { subtitle, title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
-import { player, stats, team } from "@/utils/consts";
+import { player, stats, team } from "@/utils/types";
 import { TeamIcon } from "@/components/icons";
 
 const getTeamBySlug = (slug: string) => {

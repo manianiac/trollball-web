@@ -2,14 +2,8 @@ import { Markov } from "ts-markov";
 
 import { boundedNumber, generateNormalRandom, getRandomInt } from "../../utils";
 
-import {
-  player,
-  stats,
-  TEAM_NAMES,
-  PRONOUNS,
-  FAVORITE_WEAPON,
-  PREGAME_RITUAL,
-} from "./../../consts";
+import { player, PRONOUNS, stats, TEAM_NAMES } from "@/utils/types";
+import { FAVORITE_WEAPON, PREGAME_RITUAL } from "@/utils/flavor";
 export const generatePlayer = (team: TEAM_NAMES, nameGenerator: Markov) => {
   let newPlayer: player = {} as player;
 
