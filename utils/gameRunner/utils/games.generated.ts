@@ -37,6 +37,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Kissing their biceps and whispering words of encouragement to them.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -72,6 +73,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Reciting the names of legendary Trollball players of the past.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -117,6 +119,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Doing a terrible, clumsy dance to 'loosen the joints'.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -152,6 +155,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Wiggling their fingers in a complex, magical-looking pattern.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -197,6 +201,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Eating a piece of honeycomb to 'sweeten' their victory.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -232,6 +237,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Seeing how many dried beans they can fit in their nostril.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -277,6 +283,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Tying their bootlaces together and hopping to the starting line.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -311,6 +318,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Mace",
           pregame_ritual: "Seeing who on the team can belch the loudest.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -356,6 +364,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Leading the team in a synchronized chant that slowly gets louder.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -391,6 +400,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Smelling their own game-worn socks from the previous match.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -435,6 +445,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Going over the game plan drawn in the dirt with the team captain.",
           literate: true,
+          current_alcohol: 0,
           favorite_weapon: "Kriegsmesser",
         },
       },
@@ -470,6 +481,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Battle Axe",
           pregame_ritual: "Drinking a shot of hot gravy from a dented tin cup.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -515,6 +527,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Tying a small, hand-carved wooden bird to their gear.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -549,6 +562,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Longsword",
           pregame_ritual: "Washing their hands with dirt.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -594,6 +608,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Telling each other exaggerated lies about their own strength.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -629,6 +644,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -674,6 +690,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Sticking a specific type of feather in their helmet's plume.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -708,6 +725,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Swordstaff",
           pregame_ritual: "Slapping their own helmet until their ears ring.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -753,6 +771,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Kissing their biceps and whispering words of encouragement to them.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -788,6 +807,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Seeing how many dried beans they can fit in their nostril.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -833,6 +853,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Doing a terrible, clumsy dance to 'loosen the joints'.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -868,6 +889,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -913,6 +935,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Eating a piece of honeycomb to 'sweeten' their victory.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -948,6 +971,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Sticking a specific type of feather in their helmet's plume.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -992,6 +1016,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Mace",
           pregame_ritual: "Seeing who on the team can belch the loudest.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1026,6 +1051,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Battle Axe",
           pregame_ritual: "Drinking a shot of hot gravy from a dented tin cup.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1071,6 +1097,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Tying their bootlaces together and hopping to the starting line.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1105,6 +1132,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Longsword",
           pregame_ritual: "Washing their hands with dirt.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1149,6 +1177,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Going over the game plan drawn in the dirt with the team captain.",
           literate: true,
+          current_alcohol: 0,
           favorite_weapon: "Kriegsmesser",
         },
       },
@@ -1185,6 +1214,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Wiggling their fingers in a complex, magical-looking pattern.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1230,6 +1260,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Tying a small, hand-carved wooden bird to their gear.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1265,6 +1296,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Reciting the names of legendary Trollball players of the past.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1310,6 +1342,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Telling each other exaggerated lies about their own strength.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1345,6 +1378,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Smelling their own game-worn socks from the previous match.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1389,6 +1423,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Swordstaff",
           pregame_ritual: "Slapping their own helmet until their ears ring.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1424,6 +1459,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Leading the team in a synchronized chant that slowly gets louder.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1469,6 +1505,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Kissing their biceps and whispering words of encouragement to them.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1504,6 +1541,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Eating a piece of honeycomb to 'sweeten' their victory.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1549,6 +1587,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Doing a terrible, clumsy dance to 'loosen the joints'.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1584,6 +1623,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Leading the team in a synchronized chant that slowly gets louder.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1628,6 +1668,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Mace",
           pregame_ritual: "Seeing who on the team can belch the loudest.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1663,6 +1704,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1708,6 +1750,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Tying their bootlaces together and hopping to the starting line.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1743,6 +1786,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Seeing how many dried beans they can fit in their nostril.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1787,6 +1831,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Battle Axe",
           pregame_ritual: "Drinking a shot of hot gravy from a dented tin cup.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -1822,6 +1867,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Reciting the names of legendary Trollball players of the past.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1866,6 +1912,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Longsword",
           pregame_ritual: "Washing their hands with dirt.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1901,6 +1948,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Wiggling their fingers in a complex, magical-looking pattern.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -1945,6 +1993,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Going over the game plan drawn in the dirt with the team captain.",
           literate: true,
+          current_alcohol: 0,
           favorite_weapon: "Kriegsmesser",
         },
       },
@@ -1981,6 +2030,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Smelling their own game-worn socks from the previous match.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },
@@ -2026,6 +2076,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Tying a small, hand-carved wooden bird to their gear.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -2061,6 +2112,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Sticking a specific type of feather in their helmet's plume.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -2105,6 +2157,7 @@ export const GAMES: match[] = [
           favorite_weapon: "Swordstaff",
           pregame_ritual: "Slapping their own helmet until their ears ring.",
           literate: true,
+          current_alcohol: 0,
         },
       },
     },
@@ -2140,6 +2193,7 @@ export const GAMES: match[] = [
           pregame_ritual:
             "Telling each other exaggerated lies about their own strength.",
           literate: false,
+          current_alcohol: 0,
         },
       },
     },

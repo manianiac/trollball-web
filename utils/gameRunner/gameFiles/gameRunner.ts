@@ -32,6 +32,12 @@ export const gameLoop = async (gameState: match_progress) => {
   // Set up initial team data
   initializeTeamData(gameState);
 
+  // 25% chance for Open Bar
+  gameState.openBar = getRandomInt(0, 100) < 25;
+  if (gameState.openBar) {
+    gameState.plays.push("🍻 IT'S AN OPEN BAR MATCH! DRINKS ARE ON THE HOUSE! 🍻");
+  }
+
   for (
     let round = 0;
     round < GAME_DURATION || gameState.awayScore === gameState.homeScore;

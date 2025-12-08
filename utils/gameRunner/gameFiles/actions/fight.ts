@@ -1,6 +1,6 @@
 import { match_progress, player, TEAM_NAMES } from "@/utils/types";
 import { getRandomInt } from "@/utils/utils";
-import { calculateSuccess } from "./utils";
+import { calculateSuccess, getAlcoholNarration } from "./utils";
 
 export const fight = (
     gameState: match_progress,
@@ -20,20 +20,20 @@ export const fight = (
         getRandomInt(0, defendingTeam.activePlayers!.length - 1)
         ];
 
-    if (calculateSuccess(activePlayer.stats.fight)) {
+    if (calculateSuccess(activePlayer.stats.fight, activePlayer)) {
         // successful fight
-        if (calculateSuccess(defender.stats.block)) {
+        if (calculateSuccess(defender.stats.block, defender)) {
             // successful block
             gameState.plays.push(
                 `${activePlayer.name} tries to Tackle ${defender.name}, but ${defender.name} blocks it!`
             );
-            gameState.latestAction = `${activePlayer.name} tries to Tackle ${defender.name}, but ${defender.name} blocks it!`;
+            gameState.latestAction = `${activePlayer.name} ${getAlcoholNarration(activePlayer)}tries to Tackle ${defender.name}, but ${defender.name} blocks it!`;
         } else {
             // successful tackle / injury
             gameState.plays.push(
-                `${activePlayer.name} Tackles ${defender.name} and INJURES THEM!`
+                `${activePlayer.name} ${getAlcoholNarration(activePlayer)}Tackles ${defender.name} and INJURES THEM!`
             );
-            gameState.latestAction = `${activePlayer.name} Tackles ${defender.name} and INJURES THEM!`;
+            gameState.latestAction = `${activePlayer.name} ${getAlcoholNarration(activePlayer)}Tackles ${defender.name} and INJURES THEM!`;
 
             // handle injury
             if (defendingTeam.name === gameState.homeTeam.name) {
@@ -53,9 +53,9 @@ export const fight = (
     } else {
         // failed fight
         gameState.plays.push(
-            `${activePlayer.name} tries to Tackle ${defender.name}, but misses!`
+            `${activePlayer.name} ${getAlcoholNarration(activePlayer)}tries to Tackle ${defender.name}, but misses!`
         );
-        gameState.latestAction = `${activePlayer.name} tries to Tackle ${defender.name}, but misses!`;
+        gameState.latestAction = `${activePlayer.name} ${getAlcoholNarration(activePlayer)}tries to Tackle ${defender.name}, but misses!`;
     }
 
     return gameState;

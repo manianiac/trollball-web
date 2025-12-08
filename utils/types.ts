@@ -1,54 +1,58 @@
+
 export enum TEAM_NAMES {
-    "No Team" = "No Team",
-    "The Tortell Privateers" = "The Tortell Privateers",
-    "The South Pole Yetis" = "The South Pole Yetis",
-    "The Confluence Captains" = "The Confluence Captains",
-    "The New Prosperity Profits" = "The New Prosperity Profits",
-    "The Southport Narwhals" = "The Southport Narwhals",
-    "The New Ravenfall Commanders" = "The New Ravenfall Commanders",
+    "Oak & Onslaught" = "Oak & Onslaught",
     "The Brimstone Fire Eaters" = "The Brimstone Fire Eaters",
-    "The Zmeigorod Snessengers" = "The Zmeigorod Snessengers",
-    "The Haven Lights" = "The Haven Lights",
+    "The Confluence Captains" = "The Confluence Captains",
     "The Desert Spectres" = "The Desert Spectres",
     "The Ebon Gate Corruptors" = "The Ebon Gate Corruptors",
-    "The Wyrmwood Stronghammers" = "The Wyrmwood Stronghammers",
-    "The New Monteforte Chaos Creatures" = "The New Monteforte Chaos Creatures",
-    "The Kerlauger Runeguard" = "The Kerlauger Runeguard",
-    "The Starlight Bazaar Bizarres" = "The Starlight Bazaar Bizarres",
-    "The Oread's Summit Tamers" = "The Oread's Summit Tamers",
     "The Greenwatch" = "The Greenwatch",
-    "Oak & Onslaught" = "Oak & Onslaught",
-}
-
-export enum PRONOUNS {
-    "He/Him" = "He/Him",
-    "He/Them" = "He/Them",
-    "She/Her" = "She/Her",
-    "She/Them" = "She/Them",
-    "They/Them" = "They/Them",
-}
-
-export enum ZONE {
-    "Home Goal" = "Home Goal",
-    "Home 2-Point" = "Home 2-Point",
-    "Home Field" = "Home Field",
-    "Center Field" = "Center Field",
-    "Away Field" = "Away Field",
-    "Away 2-Point" = "Away 2-Point",
-    "Away Goal" = "Away Goal",
+    "The Haven Lights" = "The Haven Lights",
+    "The Kerlauger Runeguard" = "The Kerlauger Runeguard",
+    "The New Monteforte Chaos Creatures" = "The New Monteforte Chaos Creatures",
+    "The New Prosperity Profits" = "The New Prosperity Profits",
+    "The New Ravenfall Commanders" = "The New Ravenfall Commanders",
+    "The Oread's Summit Tamers" = "The Oread's Summit Tamers",
+    "The South Pole Yetis" = "The South Pole Yetis",
+    "The Southport Narwhals" = "The Southport Narwhals",
+    "The Starlight Bazaar Bizarres" = "The Starlight Bazaar Bizarres",
+    "The Tortell Privateers" = "The Tortell Privateers",
+    "The Wyrmwood Stronghammers" = "The Wyrmwood Stronghammers",
+    "The Zmeigorod Snessengers" = "The Zmeigorod Snessengers",
+    "No Team" = "No Team",
 }
 
 export enum ALL_ACTIONS {
-    "No Action" = -1,
-    "Run",
-    "Pass",
-    "Shoot",
-    "Heal",
-    "Fight",
+    Run = "Run",
+    Pass = "Pass",
+    Shoot = "Shoot",
+    Heal = "Heal",
+    Fight = "Fight",
+    "No Action" = "No Action",
+}
+
+export const PRONOUNS = [
+    "He/Him",
+    "She/Her",
+    "They/Them"
+] as const;
+
+export type Pronoun = typeof PRONOUNS[number];
+
+export enum ZONE {
+    "Home End Zone" = "Home End Zone",
+    "Home Field" = "Home Field",
+    "Center Field" = "Center Field",
+    "Away Field" = "Away Field",
+    "Away End Zone" = "Away End Zone",
+}
+
+export interface player {
+    name: string;
+    team: TEAM_NAMES;
+    stats: stats;
 }
 
 export interface stats {
-    // stats that matter
     pass: number;
     catch: number;
     run: number;
@@ -56,70 +60,47 @@ export interface stats {
     fight: number;
     throw: number;
     luck: number;
-    // player details
-    pronouns: PRONOUNS | string;
-    // silly stats
-    literate: boolean;
-    alcohol_tolerance: number;
+    pronouns: string;
     civic_engagement: number;
-    pregame_ritual: string;
+    alcohol_tolerance: number;
     favorite_weapon: string;
-}
-
-export interface player {
-    name: string;
-    team: TEAM_NAMES | string;
-    stats: stats;
-}
-
-export interface stadium {
-    name: string;
-    location: string;
-    description: string;
-    modifiers: string[];
+    pregame_ritual: string;
+    literate: boolean;
+    current_alcohol?: number; // Added based on usage in generatePlayer.ts
 }
 
 export interface team {
-    name: TEAM_NAMES | string;
-    players?: player[];
-    stadium: stadium;
-    luck: number;
-    wins: number;
+    name: TEAM_NAMES;
+    slug: string;
     losses: number;
+    wins: number;
+    score: number;
+    luck: number;
+    stadium: {
+        name: string;
+        location: string;
+        description: string;
+        modifiers: string[];
+    };
     healer: player;
+    players: player[];
     activePlayers?: player[];
     inactivePlayers?: player[];
-    score: number;
-    slug: string;
-}
-
-export interface activePlayers {
-    homeTeamActive: player[];
-    homeTeamDisabled: player[];
-    awayTeamActive: player[];
-    awayTeamDisabled: player[];
 }
 
 export interface match {
     homeTeam: team;
     awayTeam: team;
-    preGame: string;
-    postGame: string;
-    week: number;
     homeScore: number;
     awayScore: number;
-    slug: string;
+    week: number;
+    plays: string[];
 }
 
-export interface match_progress {
-    homeTeam: team;
-    awayTeam: team;
-    week: number;
-    homeScore: number;
-    awayScore: number;
-    possession: player | null;
+export interface match_progress extends match {
+    openBar?: boolean;
+    possession: player;
     possessionTeam: TEAM_NAMES | string;
     currentZone: ZONE;
-    plays: string[];
     latestAction?: string;
 }
