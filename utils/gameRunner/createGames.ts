@@ -219,7 +219,7 @@ const allGamesData = generateGamesTS();
 
 // writeGeneratedTSFile(allGamesData);
 
-makeWeeklyRecap(allGamesData);
+// makeWeeklyRecap(allGamesData);
 
 // makeDiscordAnnouncement(allGamesData);
 // makePopularityPost(allGamesData);
