@@ -1,8 +1,4 @@
-import {
-  ALL_ACTIONS,
-  match_progress,
-  player,
-} from "@/utils/types";
+import { ALL_ACTIONS, match_progress, player } from "@/utils/types";
 import { fight } from "./actions/fight";
 import { pass } from "./actions/pass";
 import { run } from "./actions/run";
@@ -12,7 +8,7 @@ import { heal } from "./actions/heal";
 export const actionHandler = (
   gameState: match_progress,
   activePlayer: player,
-  chosenAction: ALL_ACTIONS
+  chosenAction: ALL_ACTIONS,
 ): match_progress => {
   switch (chosenAction) {
     case ALL_ACTIONS.Fight: {

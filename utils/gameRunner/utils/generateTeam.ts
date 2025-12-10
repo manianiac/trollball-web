@@ -2,9 +2,7 @@ import { Markov } from "ts-markov";
 
 import { generateNormalRandom } from "../../utils";
 
-import {
-  STARTING_ROSTER_SIZE,
-} from "@/utils/constants";
+import { STARTING_ROSTER_SIZE } from "@/utils/constants";
 import { stadium, team, TEAM_NAMES } from "@/utils/types";
 import { STADIUM_MODIFIERS } from "@/utils/flavor";
 import { generatePlayer } from "./generatePlayer";

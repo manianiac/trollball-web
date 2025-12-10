@@ -12,7 +12,7 @@ import React from "react";
 import DefaultLayout from "@/layouts/default";
 import { TeamIcon } from "@/components/icons";
 import { match, TEAM_NAMES } from "@/utils/types";
-import { GAMES } from "@/utils/gameRunner/utils/games.generated";
+import { GAMES } from "@/utils/games.generated";
 
 interface TeamStats {
   rank: number;

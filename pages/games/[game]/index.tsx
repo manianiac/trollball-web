@@ -4,7 +4,7 @@ import { Divider } from "@heroui/divider";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import ReactMarkdown from "react-markdown";
 
-import { GAMES } from "@/utils/gameRunner/utils/games.generated";
+import { GAMES } from "@/utils/games.generated";
 import { TeamIcon } from "@/components/icons"; // Adjust path to your TeamIcon
 import { match } from "@/utils/types";
 import DefaultLayout from "@/layouts/default";

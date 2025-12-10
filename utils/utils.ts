@@ -1,5 +1,3 @@
-
-
 import { player } from "./types";
 
 export const generateNormalRandom = (mean: number, stdDev: number): number => {
@@ -13,7 +11,7 @@ export const generateNormalRandom = (mean: number, stdDev: number): number => {
 export const boundedNumber = (
   number: number,
   maxBound: number,
-  minNumber: number
+  minNumber: number,
 ) => {
   return Math.min(Math.max(number, minNumber), maxBound);
 };
@@ -28,8 +26,6 @@ export const getRandomInt = (min: number, max: number): number => {
 
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-
-
 
 export const formatText = (text: string) => {
   // 1. Clean up outer quotes (if they exist from the mock data)

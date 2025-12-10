@@ -21,7 +21,7 @@ interface BaseMatch {
  * @returns An array of BaseMatch objects representing the full season.
  */
 export function generateSeasonSchedule(
-  teamRecord: Record<string, team>
+  teamRecord: Record<string, team>,
 ): BaseMatch[] {
   const schedule: BaseMatch[] = [];
   const teamObjects = seededShuffle(Object.values(teamRecord), "Season 1");

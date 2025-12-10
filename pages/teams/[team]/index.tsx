@@ -144,7 +144,7 @@ export default function TeamPage({ team }: { team: team }) {
                     {getNumericalStats(player.stats).map((stat) => {
                       const clampedValue = Math.max(
                         20,
-                        Math.min(80, stat.value)
+                        Math.min(80, stat.value),
                       );
                       const normalizedValue = clampedValue - 20;
                       const ratingOutOfFive = (normalizedValue / 60) * 5;

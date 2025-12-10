@@ -41,7 +41,7 @@ export const heroesOfTheRealm = [
     ],
     characters: [
       "Chairman Sir Garon Ironrock of the People, Door Enjoyer",
-      "Chairman High Venture Brennen Farno, money priest, kissless virgin, strangely beautiful",
+      "Chairman High Venture Brennen Farno, money priest, kissless virgin, strangely beautiful, releaser of the Plagues of Festar",
       "Chairman Toland, Necromancer Archaeologist, cheese enthusiast, decent baker",
       "Nikos Thanae the Benevolent, who shoots people in the streets, my least friend",
       "Cyfnerth the Butcher of Confluence, a man after my own stomach, dedicated recycler",

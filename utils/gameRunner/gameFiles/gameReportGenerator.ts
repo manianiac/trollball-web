@@ -35,12 +35,12 @@ const GAME_REPORT_SCHEMA = {
     preGameReport: {
       type: Type.STRING, // <-- USE THE ENUM
       description:
-        "The pre-game report, written in character as Nok the Corrupter. Should build anticipation and introduce the teams, referencing their pre-game rituals or stats from the provided data. Write several paragraphs",
+        "The pre-game report, written in character as Nok the Corrupter. Should build anticipation and introduce the teams, referencing their pre-game rituals or stats from the provided data. If the game is an open bar, hype up the drinking. Write several paragraphs",
     },
     postGameReport: {
       type: Type.STRING, // <-- USE THE ENUM
       description:
-        "The post-game report, written in character as Nok the Corrupter. Should summarize the game's key plays (from the 'plays' array), state the final score, and celebrate the action. Can throw shade at heroes if relevant. Write at least 10 paragraphs",
+        "The post-game report, written in character as Nok the Corrupter. Should summarize the game's key plays (from the 'plays' array), state the final score, and celebrate the action. Can throw shade at heroes if relevant. If the game is an open bar, comment on the drunkenness of the players. Write at least 10 paragraphs",
     },
   },
   required: ["preGameReport", "postGameReport"],
@@ -135,11 +135,11 @@ const generateContentHelper = async (
   prompt: string,
   schema?: any,
   mimeType: string = "text/plain",
-  temperature: number = 1.0
+  temperature: number = 1.0,
 ): Promise<string | null> => {
   try {
     const result = await genAI.models.generateContent({
-      model: "gemini-2.5-pro",
+      model: "gemini-3-pro-preview",
       contents: prompt,
       config: {
         safetySettings: safetySettings,
@@ -157,14 +157,14 @@ const generateContentHelper = async (
       if (result.promptFeedback) {
         console.error(
           "Error: Prompt was blocked.",
-          JSON.stringify(result.promptFeedback, null, 2)
+          JSON.stringify(result.promptFeedback, null, 2),
         );
       }
       if (candidate?.finishReason) {
         console.error(
           "Error: Generation finished early.",
           candidate.finishReason,
-          candidate.safetyRatings
+          candidate.safetyRatings,
         );
       }
       return null;
@@ -178,7 +178,7 @@ const generateContentHelper = async (
 export async function generateWeeklyReport(
   allGamesData: match[],
   pastRecaps: any[],
-  week: number
+  week: number,
 ): Promise<string> {
   const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
   const pastRecapsData = `{results:${pastRecaps
@@ -191,6 +191,7 @@ export async function generateWeeklyReport(
       Format the "content" as a blog post, adding markdown headers and other formatting, including but not limited to emojii
       Don't go over every game, but instead group similar games and comment on spectacular plays.
       For example, group any shutouts or close matches, or any games that went into overtime.
+      Comment on the drunkenness of the players if the game was an open bar, reveling in the chaos.
 
       Make sure to leave the "date" to be a "TODO" so that I can fill it in later
 
@@ -221,14 +222,14 @@ export async function generateWeeklyReport(
     userQuery,
     BLOG_POST_SCHEMA,
     "application/json",
-    1.3
+    1.3,
   );
 
   return result ? JSON.parse(result) : "";
 }
 
 export async function generateGameReports(
-  gameData: match_progress
+  gameData: match_progress,
 ): Promise<GameReport | null> {
   const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
@@ -238,7 +239,8 @@ export async function generateGameReports(
       ${JSON.stringify(gameData)}
       </game_data>
 
-      This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
+      This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters.
+      If the game is an open bar, comment on the drunkenness of the players.
       <hero_data>
       ${JSON.stringify(heroesOfTheRealm)}
       </hero_data>
@@ -248,7 +250,7 @@ export async function generateGameReports(
     userQuery,
     GAME_REPORT_SCHEMA,
     "application/json",
-    1.0
+    1.0,
   );
 
   return result ? (JSON.parse(result) as GameReport) : null;
@@ -257,7 +259,7 @@ export async function generateGameReports(
 export async function generateDiscordAnnouncement(
   allGamesData: match[],
   pastRecaps: any[],
-  week: number
+  week: number,
 ): Promise<string> {
   const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
   const pastRecapsData = `{results:${pastRecaps
@@ -277,7 +279,7 @@ export async function generateDiscordAnnouncement(
         [Hint at any exciting plays or rivalries that happened this week, but DO NOT hint at who won or lost]
         [Encourage fans to check out the full recap on the Trollball Website]
         [Call to action to vote for their favorite team in the popularity contest next time it appears] 
-        // [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
+        [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
 
       <game_data>
       ${jsonData}
@@ -305,7 +307,7 @@ export async function generateDiscordAnnouncement(
     userQuery,
     undefined,
     "text/plain",
-    1.3
+    1.3,
   );
 
   return result || "";
@@ -314,8 +316,22 @@ export async function generateDiscordAnnouncement(
 export async function generatePopularityPost(
   allGamesData: match[],
   pastRecaps: any[],
-  week: number
+  week: number,
 ): Promise<string> {
+  const nextWeekMatches = STATIC_LEAGUE_SCHEDULE.filter(
+    (match) => match.week === week + 1,
+  );
+
+  const scheduleText = nextWeekMatches
+    .map(
+      (match) => `
+          ${match.homeTeam.name}
+          vs
+          ${match.awayTeam.name}
+          @ ${match.homeTeam.stadium.name}`,
+    )
+    .join("\n");
+
   const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
   const pastRecapsData = `{results:${pastRecaps
     .map((val) => JSON.stringify(val))
@@ -356,44 +372,7 @@ Mention any rivalries or anticipated matchups for the upcoming week.
       </hero_data>
 
       <schedule>
-        // (Hardcoded schedule not included in prompt template refactor? It was hardcoded in original file)
-        // I will re-include the static schedule text from original file
-          The Starlight Bazaar Bizarres
-          vs
-          The Tortell Privateers
-          @ The Prismatic Pavilion
-          The New Ravenfall Commanders
-          vs
-          The South Pole Yetis
-          @ The Stronghold Bailey
-          The Desert Spectres
-          vs
-          The Wyrmwood Stronghammers
-          @ The Sun-Baked Bowl
-          The Southport Narwhals
-          vs
-          The Zmeigorod Snessengers
-          @ The Cliffside Pitch
-          The Brimstone Fire Eaters
-          vs
-          The Kerlauger Runeguard
-          @ The Su'akour Bowl
-          The Confluence Captains
-          vs
-          The Greenwatch
-          @ The Glowstone Terrace
-          The Oread's Summit Tamers
-          vs
-          The New Prosperity Profits
-          @ The High-Pass Pitch
-          Oak & Onslaught
-          vs
-          The New Monteforte Chaos Creatures
-          @ Fletchings Field
-          The Haven Lights
-          vs
-          The Ebon Gate Corruptors
-          @ The Aegis Field
+${scheduleText}
       </schedule>
     `;
 
@@ -401,7 +380,7 @@ Mention any rivalries or anticipated matchups for the upcoming week.
     userQuery,
     undefined,
     "text/plain",
-    1.3
+    1.3,
   );
 
   return result || "";
