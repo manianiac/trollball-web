@@ -1,4 +1,4 @@
-import { TEAM_NAMES } from "@/utils/teams";
+import { TEAM_NAMES } from "@/utils/types";
 
 export const popularity = {
   [TEAM_NAMES["The Brimstone Fire Eaters"]]: 0,

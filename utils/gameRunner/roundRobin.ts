@@ -1,5 +1,5 @@
 import { TEAMS } from "../teams"; // Adjust path to your TEAMS file
-import { team } from "../consts"; // Adjust path to your consts file
+import { team } from "@/utils/types"; // Adjust path to your consts file
 import { seededShuffle } from "../utils";
 
 /**
@@ -21,7 +21,7 @@ interface BaseMatch {
  * @returns An array of BaseMatch objects representing the full season.
  */
 export function generateSeasonSchedule(
-  teamRecord: Record<string, team>
+  teamRecord: Record<string, team>,
 ): BaseMatch[] {
   const schedule: BaseMatch[] = [];
   const teamObjects = seededShuffle(Object.values(teamRecord), "Season 1");

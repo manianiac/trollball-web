@@ -2,7 +2,7 @@ import React from "react";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import { Card, CardBody } from "@heroui/card";
 
-import { GAMES } from "../../utils/gameRunner/utils/games.generated"; // Import the completed match results
+import { GAMES } from "@/utils/games.generated"; // Import the completed match results
 
 import { TeamIcon } from "@/components/icons"; // Adjust path as needed
 import { LEAGUE_SCHEDULE } from "@/utils/gameRunner/roundRobin"; // Import the static schedule

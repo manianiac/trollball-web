@@ -1,5 +1,5 @@
 import { TEAMS } from "../teams";
-import { TEAM_NAMES, ZONE, match, match_progress, team } from "../consts";
+import { TEAM_NAMES, ZONE, match, match_progress, team } from "@/utils/types";
 
 import { gameLoop } from "./gameFiles/gameRunner";
 import path from "path";
@@ -27,7 +27,12 @@ import { TeamIcon } from "@/components/icons";
 //   }
 // });
 
-const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
+const runMatch = async (
+  homeTeam: team,
+  awayTeam: team,
+  week: number,
+  openBar: boolean,
+) => {
   let gameState: match_progress = {} as match_progress;
 
   gameState.awayTeam = awayTeam;
@@ -38,26 +43,62 @@ const runMatch = (homeTeam: team, awayTeam: team, week: number) => {
   gameState.awayScore = 0;
   gameState.homeScore = 0;
   gameState.week = week;
+  gameState.openBar = openBar;
 
-  gameLoop(gameState);
+  await gameLoop(gameState);
 };
 
 // runMatch(
 //   TEAMS["The Brimstone Fire Eaters"],
 //   TEAMS["The Confluence Captains"],
-//   0
+//   0,
+//   true
 // );
 
-STATIC_LEAGUE_SCHEDULE.filter((match) => match.week === 2).forEach(
-  (baseMatch) => {
+const matchesToSimulate = STATIC_LEAGUE_SCHEDULE.filter(
+  (match) => match.week === 3,
+);
+
+// Calculate how many games should be Open Bar (25%)
+const totalGames = matchesToSimulate.length;
+const openBarCount = Math.floor(totalGames * 0.25);
+
+// Create an array of indices [0, 1, 2, ... totalGames-1]
+const indices = Array.from({ length: totalGames }, (_, i) => i);
+
+// Shuffle the indices (Fisher-Yates shuffle)
+for (let i = indices.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [indices[i], indices[j]] = [indices[j], indices[i]];
+}
+
+// Select the first 'openBarCount' indices to be Open Bar games
+const openBarIndices = new Set(indices.slice(0, openBarCount));
+
+const runAllMatches = async () => {
+  for (let i = 0; i < matchesToSimulate.length; i++) {
+    const baseMatch = matchesToSimulate[i];
+    const index = i;
     baseMatch.week++;
     // Run the game simulation
     console.log(
       "generating match for " +
-        baseMatch.homeTeam.name +
-        " vs " +
-        baseMatch.awayTeam.name
+      baseMatch.homeTeam.name +
+      " vs " +
+      baseMatch.awayTeam.name +
+      (openBarIndices.has(index) ? " (Open Bar)" : ""),
     );
-    runMatch(baseMatch.homeTeam, baseMatch.awayTeam, baseMatch.week);
+    await runMatch(
+      baseMatch.homeTeam,
+      baseMatch.awayTeam,
+      baseMatch.week,
+      openBarIndices.has(index),
+    );
+
+    // Wait 5 seconds between matches to avoid rate limits
+    console.log("Waiting 5 seconds...");
+    await new Promise((resolve) => setTimeout(resolve, 15000));
   }
-);
+};
+
+runAllMatches();

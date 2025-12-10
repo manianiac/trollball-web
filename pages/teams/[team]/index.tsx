@@ -7,7 +7,7 @@ import { TEAMS } from "../../../utils/teams";
 
 import { subtitle, title } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
-import { player, stats, team } from "@/utils/consts";
+import { player, stats, team } from "@/utils/types";
 import { TeamIcon } from "@/components/icons";
 
 const getTeamBySlug = (slug: string) => {
@@ -144,7 +144,7 @@ export default function TeamPage({ team }: { team: team }) {
                     {getNumericalStats(player.stats).map((stat) => {
                       const clampedValue = Math.max(
                         20,
-                        Math.min(80, stat.value)
+                        Math.min(80, stat.value),
                       );
                       const normalizedValue = clampedValue - 20;
                       const ratingOutOfFive = (normalizedValue / 60) * 5;

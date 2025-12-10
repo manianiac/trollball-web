@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Card, CardBody } from "@heroui/card";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 
-import { GAMES } from "@/utils/gameRunner/utils/games.generated"; // Adjust path to your GAMES file
-import { match } from "@/utils/consts"; // Adjust path to your consts file
+import { GAMES } from "@/utils/games.generated"; // Adjust path to your GAMES file
+import { match } from "@/utils/types";
 import DefaultLayout from "@/layouts/default";
 
 // This is a helper type for our grouped data

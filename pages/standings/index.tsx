@@ -11,8 +11,8 @@ import React from "react";
 
 import DefaultLayout from "@/layouts/default";
 import { TeamIcon } from "@/components/icons";
-import { match, TEAM_NAMES } from "@/utils/consts";
-import { GAMES } from "@/utils/gameRunner/utils/games.generated";
+import { match, TEAM_NAMES } from "@/utils/types";
+import { GAMES } from "@/utils/games.generated";
 
 interface TeamStats {
   rank: number;
@@ -231,13 +231,12 @@ export default function TeamsPage() {
                   {team.pointsAgainst}
                 </TableCell>
                 <TableCell
-                  className={`text-center font-bold ${
-                    team.pointDiff > 0
+                  className={`text-center font-bold ${team.pointDiff > 0
                       ? "text-success"
                       : team.pointDiff < 0
                         ? "text-danger"
                         : "text-default-400"
-                  }`}
+                    }`}
                 >
                   {team.pointDiff > 0 ? "+" : ""}
                   {team.pointDiff}

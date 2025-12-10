@@ -1,0 +1,969 @@
+{
+    "homeTeam": {
+        "name": "The Southport Narwhals",
+        "slug": "southport",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 48,
+        "stadium": {
+            "name": "The Cliffside Pitch",
+            "location": "Southport",
+            "description": "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
+            "modifiers": [
+                "Gale-Force Winds",
+                "Sea Spray",
+                "Rocky Outcropping"
+            ]
+        },
+        "healer": {
+            "name": "Sand Denys",
+            "team": "The Southport Narwhals",
+            "stats": {
+                "pass": 55,
+                "catch": 54,
+                "run": 50,
+                "block": 53,
+                "fight": 61,
+                "throw": 64,
+                "luck": 60,
+                "pronouns": "She/Her",
+                "civic_engagement": 68,
+                "alcohol_tolerance": 46,
+                "favorite_weapon": "Cestus",
+                "pregame_ritual": "Telling each other exaggerated lies about their own strength.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Blood Eppes",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 56,
+                    "catch": 54,
+                    "run": 52,
+                    "block": 47,
+                    "fight": 64,
+                    "throw": 63,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Malcolm Goer",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 56,
+                    "catch": 36,
+                    "run": 63,
+                    "block": 65,
+                    "fight": 56,
+                    "throw": 58,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Morning Star",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Blanc Fantasia",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 51,
+                    "catch": 51,
+                    "run": 60,
+                    "block": 58,
+                    "fight": 64,
+                    "throw": 52,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 43,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Loralyn Lyndy",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 58,
+                    "catch": 47,
+                    "run": 58,
+                    "block": 57,
+                    "fight": 57,
+                    "throw": 59,
+                    "luck": 61,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Main-gauche",
+                    "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Cibis Areta",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 63,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 59,
+                    "fight": 54,
+                    "throw": 45,
+                    "luck": 56,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Estoc",
+                    "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Braden Gaile",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 53,
+                    "block": 67,
+                    "fight": 68,
+                    "throw": 65,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 62,
+                    "favorite_weapon": "Swordstaff",
+                    "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Crescint Sonia",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 65,
+                    "catch": 64,
+                    "run": 67,
+                    "block": 47,
+                    "fight": 44,
+                    "throw": 53,
+                    "luck": 59,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Warhammer",
+                    "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Cilurzo Sochor",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 58,
+                    "catch": 43,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 66,
+                    "throw": 53,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Hatchet",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Torey Dannye",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 49,
+                    "catch": 59,
+                    "run": 55,
+                    "block": 56,
+                    "fight": 45,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Swordstaff",
+                    "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fineman Dolhenty",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 51,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 48,
+                    "luck": 48,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Wearing a necklace of polished river stones.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Blood Eppes",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 56,
+                    "catch": 54,
+                    "run": 52,
+                    "block": 47,
+                    "fight": 64,
+                    "throw": 63,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Malcolm Goer",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 56,
+                    "catch": 36,
+                    "run": 63,
+                    "block": 65,
+                    "fight": 56,
+                    "throw": 58,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Morning Star",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Blanc Fantasia",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 51,
+                    "catch": 51,
+                    "run": 60,
+                    "block": 58,
+                    "fight": 64,
+                    "throw": 52,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 43,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Braden Gaile",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 53,
+                    "block": 67,
+                    "fight": 68,
+                    "throw": 65,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 62,
+                    "favorite_weapon": "Swordstaff",
+                    "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Crescint Sonia",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 65,
+                    "catch": 64,
+                    "run": 67,
+                    "block": 47,
+                    "fight": 44,
+                    "throw": 53,
+                    "luck": 59,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Warhammer",
+                    "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Torey Dannye",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 49,
+                    "catch": 59,
+                    "run": 55,
+                    "block": 56,
+                    "fight": 45,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Swordstaff",
+                    "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fineman Dolhenty",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 51,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 48,
+                    "luck": 48,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Wearing a necklace of polished river stones.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Cibis Areta",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 63,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 59,
+                    "fight": 54,
+                    "throw": 45,
+                    "luck": 56,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Estoc",
+                    "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Cilurzo Sochor",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 58,
+                    "catch": 43,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 66,
+                    "throw": 53,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Hatchet",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Loralyn Lyndy",
+                "team": "The Southport Narwhals",
+                "stats": {
+                    "pass": 58,
+                    "catch": 47,
+                    "run": 58,
+                    "block": 57,
+                    "fight": 57,
+                    "throw": 59,
+                    "luck": 61,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Main-gauche",
+                    "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "The Greenwatch",
+        "slug": "greenwatch",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 53,
+        "stadium": {
+            "name": "The Oakmaul Grounds",
+            "location": "Hafting",
+            "description": "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+            "modifiers": [
+                "Ritual Focus",
+                "Scarred Oak's Shadow",
+                "Hallowed Ground"
+            ]
+        },
+        "healer": {
+            "name": "Nariko Javed",
+            "team": "The Greenwatch",
+            "stats": {
+                "pass": 52,
+                "catch": 55,
+                "run": 58,
+                "block": 56,
+                "fight": 50,
+                "throw": 55,
+                "luck": 73,
+                "pronouns": "They/Them",
+                "civic_engagement": 44,
+                "alcohol_tolerance": 61,
+                "favorite_weapon": "Pike",
+                "pregame_ritual": "Wiggling their fingers in a complex, magical-looking pattern.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Madea Mensch",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 52,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 48,
+                    "luck": 63,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Goldenberg Rimola",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 79,
+                    "catch": 59,
+                    "run": 54,
+                    "block": 60,
+                    "fight": 50,
+                    "throw": 54,
+                    "luck": 42,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Attempting to communicate with birds.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Herriott Dhiren",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 51,
+                    "run": 56,
+                    "block": 51,
+                    "fight": 56,
+                    "throw": 55,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Nobe Haukom",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 62,
+                    "run": 44,
+                    "block": 53,
+                    "fight": 49,
+                    "throw": 51,
+                    "luck": 55,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Verne Methuselah",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 60,
+                    "run": 60,
+                    "block": 61,
+                    "fight": 61,
+                    "throw": 59,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Morning Star",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Drona Jacklin",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 59,
+                    "run": 51,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 51,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Organizing a small betting pool on who will score first.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Troy Jorgan",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 56,
+                    "catch": 62,
+                    "run": 64,
+                    "block": 64,
+                    "fight": 59,
+                    "throw": 55,
+                    "luck": 45,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Rese Halpern",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 50,
+                    "run": 68,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Club",
+                    "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Salahi Bushey",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 57,
+                    "catch": 55,
+                    "run": 60,
+                    "block": 50,
+                    "fight": 68,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Sap",
+                    "pregame_ritual": "Anointing their forehead with morning dew.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Darin Berliner",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 60,
+                    "run": 48,
+                    "block": 56,
+                    "fight": 63,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 56,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false,
+                    "favorite_weapon": "Bardiche"
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Madea Mensch",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 52,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 48,
+                    "luck": 63,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Nobe Haukom",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 62,
+                    "run": 44,
+                    "block": 53,
+                    "fight": 49,
+                    "throw": 51,
+                    "luck": 55,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Verne Methuselah",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 60,
+                    "run": 60,
+                    "block": 61,
+                    "fight": 61,
+                    "throw": 59,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Morning Star",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Drona Jacklin",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 59,
+                    "run": 51,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 51,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Organizing a small betting pool on who will score first.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Troy Jorgan",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 56,
+                    "catch": 62,
+                    "run": 64,
+                    "block": 64,
+                    "fight": 59,
+                    "throw": 55,
+                    "luck": 45,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Rese Halpern",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 50,
+                    "run": 68,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Club",
+                    "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Salahi Bushey",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 57,
+                    "catch": 55,
+                    "run": 60,
+                    "block": 50,
+                    "fight": 68,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Sap",
+                    "pregame_ritual": "Anointing their forehead with morning dew.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Darin Berliner",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 60,
+                    "run": 48,
+                    "block": 56,
+                    "fight": 63,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 56,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false,
+                    "favorite_weapon": "Bardiche"
+                }
+            },
+            {
+                "name": "Herriott Dhiren",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 51,
+                    "run": 56,
+                    "block": 51,
+                    "fight": 56,
+                    "throw": 55,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Goldenberg Rimola",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 79,
+                    "catch": 59,
+                    "run": 54,
+                    "block": 60,
+                    "fight": 50,
+                    "throw": 54,
+                    "luck": 42,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Attempting to communicate with birds.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "preGame": "# 🎙️ TUESDAY NIGHT TROLLBALL PRE-GAME REPORT 🎙️\n\n**Good evening, Trollball maniacs!** This is your favorite demon announcer, **Nok the Corrupter**, coming to you LIVE from the perilous edge of the world—**The Cliffside Pitch** in Southport! 🌊🌬️ Can you hear that wind howling? Or is that just the players screaming in anticipation? We’ve got a real barn-burner tonight as the visiting **Greenwatch** take on the hometown heroes, **The Southport Narwhals**! The salt spray is heavy, the drop is steep, and the jagged rocks below are hungry for clumsy athletes!\n\nLet’s talk about our visitors, **The Greenwatch**. Now, they hail from Hafting and align themselves with **The Wardens**. Yeah, yeah, I know, *Sir Randy* and his \"fancy bow\" and *Falric* the thief. BOO! 👎 But don't let their goody-two-shoes friends fool you; these players are weirdos! I just watched **Madea Mensch** tie his own bootlaces together and hop to the starting line like a deranged bunny. And **Rese Halpern**? She’s over there taking deep, passionate sniffs of her own dirty socks from last week! If that stench doesn't knock out the opposition, nothing will! 🧦🤢\n\nAnd here come the hosts, **The Southport Narwhals**! They represent the icy grip of **Grimfrost**. They’ve got **King Nezmear** cheering them on, but let's be real, the only royalty I respect in the north is **Elizabeef the Werecow**. 🐄👑 The Narwhals look ready to defend their lighthouse! I see **Loralyn Lyndy** adjusting their codpiece with the pomp and circumstance of a royal coronation—very important business! And keep an eye on **Torey Dannye**; he’s standing perfectly still, listening to the wind. Probably asking it which bone he’s going to break first! 🌪️👂\n\nIt’s going to be wet, it’s going to be windy, and by the Ebon Gate, it’s going to be VIOLENT! The Healers are prepping their bandages, the fans are drunk on cheap ale, and I am ready to see some suffering! **LET'S PLAY TROLLBALL!** 🩸🏈📢",
+    "postGame": "# 🎙️ POST-GAME CARNAGE REPORT 🎙️\n\n**HOLY OSTERRA!** Put the children to bed and mop up the blood, because that was a MASSACRE! The final whistle has blown at the Cliffside, and the silence from the home crowd is sweeter than a siren's song! **The Greenwatch** marched into the gale-force winds and delivered a crushing, bone-shattering **4-0 SHUTOUT** against the Southport Narwhals! 🟢🚫\n\nThe game started with a flurry of limbs and incompetence as everyone tried to find their footing on the rocky turf. We saw missed tackles left and right, but then **Nobe Haukom** decided to stop playing nice. WHAM! Nobe connected with **Braden Gaile** like a battering ram, sending the Narwhal straight to the dirt with the first major INJURY of the night! That is how you say hello in Trollball, folks! 💥🚑\n\nBut the Greenwatch was just getting warmed up! **Darin Berliner**—oh, you beautiful maniac—went on a one-person crusade of pain! First, Darin obliterated **Blanc Fantasia**, leaving them counting seagulls in the sky. And before the ref could even blink, Darin turned around and snapped **Torey Dannye** in half! Two injuries in a row! The Narwhals were dropping like flies in a frost! ❄️😵\n\nSouthport tried to rally! They really did! **Cibis Areta** managed to find the ball and looked toward the goal from Center Field. The crowd gasped... and **WIDE!** A total miss! Maybe too much of that cold water ritual froze her brain? 🧊🤷‍♂️ Capitalizing on the failure, The Greenwatch struck back! **Herriott Dhiren**, eyes wide from chewing that bitter root, launched a rocket from Home Field. **SCORES!** Two points on the board! 🏹⚽\n\nThe bleeding didn't stop there! Before the half could end, **Troy Jorgan**—who I swear was whispering secrets to the ball all game—lined up another shot from distance. The wind howled, the ocean roared, but the ball flew true! **ANOTHER TWO POINTS!** 4-0 Greenwatch! The Narwhals looked absolutely lost in their own lighthouse's shadow! 🕯️📉\n\n**HALFTIME** saw our overworked Healers earning their paychecks. **Sand Denys** and **Nariko Javed** were casting spells and slapping faces, trying to get the bodies back upright. But once the second half started? pure chaos returned! We saw **Salahi Bushey** throw a wild pass that got SNATCHED by **Cilurzo Sochor**! An interception! A spark of hope for Southport? 🦅⚡\n\n**ABSOLUTELY NOT!** The Greenwatch took that interception personally! **Verne Methuselah** decided it was time to shine and absolutely CRUSHED **Fineman Dolhenty**. Folded them like a piece of origami! And while **Crescint Sonia** tried to salvage some pride by taking out **Goldenberg Rimola**, the Greenwatch defense was harder than a dwarven bagel! 🥯🧱\n\nThen came the fury of **Salahi Bushey**. Angry about the turnover, Salahi went BERZERK! First, Salahi tackled **Cibis Areta** into next week! CRACK! And not satisfied with just one victim, Salahi hunted down **Cilurzo Sochor** and sent them to the shadow realm too! Two injuries back-to-back! Nok the Corrupter gives that a standing ovation! 👏😈\n\nThe hits kept coming right down to the wire! **Madea Mensch** laid a devastating tackle on **Loralyn Lyndy**, extinguishing the last bit of fight the Narwhals had. By the time the game ended, the Cliffside Pitch looked more like a battlefield than a sports arena. The Narwhals were battered, bruised, and beaten in their own backyard. ⚰️🌊\n\nSo there you have it, folks! **The Greenwatch wins 4-0!** A terrible day for the North, but a glorious day for violence! **Sir Randy** can keep his fancy bow; his team has fists of steel! This is **Nok the Corrupter**, signing off and reminding you: It’s not about winning or losing, it’s about how many people you send to the Healer! Goodnight, Osterra! 🌙👹",
+    "week": 4,
+    "homeScore": 0,
+    "awayScore": 4,
+    "slug": "southport-greenwatch-4",
+    "plays": [
+        "The Trollball is picked up by Malcolm Goer in zone Center Field",
+        "undefined",
+        "Drona Jacklin tries to Tackle Blood Eppes, but misses!",
+        "Drona Jacklin tries to Tackle Blood Eppes, but misses!",
+        "Herriott Dhiren tries to Tackle Loralyn Lyndy, but misses!",
+        "Herriott Dhiren tries to Tackle Loralyn Lyndy, but misses!",
+        "Blanc Fantasia throws a wild pass and it lands on the ground!",
+        "Blanc Fantasia throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Blanc Fantasia in zone Center Field",
+        "Drona Jacklin tries to Tackle Torey Dannye, but misses!",
+        "Drona Jacklin tries to Tackle Torey Dannye, but misses!",
+        "Nobe Haukom Tackles Braden Gaile and INJURES THEM!",
+        "Nobe Haukom Tackles Braden Gaile and INJURES THEM!",
+        "Darin Berliner Tackles Blanc Fantasia and INJURES THEM!",
+        "Darin Berliner Tackles Blanc Fantasia and INJURES THEM!",
+        "Salahi Bushey tries to Tackle Malcolm Goer, but Malcolm Goer blocks it!",
+        "Salahi Bushey tries to Tackle Malcolm Goer, but Malcolm Goer blocks it!",
+        "Darin Berliner Tackles Torey Dannye and INJURES THEM!",
+        "Darin Berliner Tackles Torey Dannye and INJURES THEM!",
+        "Cibis Areta shoots from Center Field but misses the goal!",
+        "Cibis Areta shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Goldenberg Rimola in zone Center Field",
+        "Darin Berliner tries to Tackle Fineman Dolhenty, but Fineman Dolhenty blocks it!",
+        "Darin Berliner tries to Tackle Fineman Dolhenty, but Fineman Dolhenty blocks it!",
+        "Cilurzo Sochor tries to Tackle Verne Methuselah, but misses!",
+        "Cilurzo Sochor tries to Tackle Verne Methuselah, but misses!",
+        "Drona Jacklin runs with the ball and advances towards the goal!",
+        "Drona Jacklin runs with the ball and advances towards the goal!",
+        "Nobe Haukom Tackles Cilurzo Sochor and INJURES THEM!",
+        "Nobe Haukom Tackles Cilurzo Sochor and INJURES THEM!",
+        "Goldenberg Rimola passes the ball to Verne Methuselah!",
+        "Goldenberg Rimola passes the ball to Verne Methuselah!",
+        "Salahi Bushey tries to Tackle Loralyn Lyndy, but Loralyn Lyndy blocks it!",
+        "Salahi Bushey tries to Tackle Loralyn Lyndy, but Loralyn Lyndy blocks it!",
+        "Crescint Sonia tries to Tackle Drona Jacklin, but Drona Jacklin blocks it!",
+        "Crescint Sonia tries to Tackle Drona Jacklin, but Drona Jacklin blocks it!",
+        "Herriott Dhiren shoots from Home Field and SCORES!",
+        "Herriott Dhiren shoots from Home Field and SCORES!",
+        "The Trollball is picked up by Fineman Dolhenty in zone Center Field",
+        "Crescint Sonia passes the ball to Fineman Dolhenty!",
+        "Crescint Sonia passes the ball to Fineman Dolhenty!",
+        "Salahi Bushey Tackles Fineman Dolhenty and INJURES THEM!",
+        "Salahi Bushey Tackles Fineman Dolhenty and INJURES THEM!",
+        "Darin Berliner tries to Tackle Cibis Areta, but misses!",
+        "Darin Berliner tries to Tackle Cibis Areta, but misses!",
+        "Malcolm Goer throws a wild pass and it lands on the ground!",
+        "Malcolm Goer throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Madea Mensch in zone Center Field",
+        "Salahi Bushey tries to run with the ball but is stopped by the defense!",
+        "Salahi Bushey tries to run with the ball but is stopped by the defense!",
+        "Salahi Bushey runs with the ball and advances towards the goal!",
+        "Salahi Bushey runs with the ball and advances towards the goal!",
+        "Troy Jorgan shoots from Home Field and SCORES!",
+        "Troy Jorgan shoots from Home Field and SCORES!",
+        "The Trollball is picked up by Troy Jorgan in zone Center Field",
+        "Loralyn Lyndy tries to Tackle Herriott Dhiren, but Herriott Dhiren blocks it!",
+        "Loralyn Lyndy tries to Tackle Herriott Dhiren, but Herriott Dhiren blocks it!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Rese Halpern in zone Center Field",
+        "Loralyn Lyndy tries to Tackle Madea Mensch, but misses!",
+        "Loralyn Lyndy tries to Tackle Madea Mensch, but misses!",
+        "Malcolm Goer tries to Tackle Drona Jacklin, but misses!",
+        "Malcolm Goer tries to Tackle Drona Jacklin, but misses!",
+        "Fineman Dolhenty Tackles Herriott Dhiren and INJURES THEM!",
+        "Fineman Dolhenty Tackles Herriott Dhiren and INJURES THEM!",
+        "Salahi Bushey throws a wild pass and it is INTERCEPTED by Cilurzo Sochor!",
+        "Salahi Bushey throws a wild pass and it is INTERCEPTED by Cilurzo Sochor!",
+        "Malcolm Goer tries to run with the ball but is stopped by the defense!",
+        "Malcolm Goer tries to run with the ball but is stopped by the defense!",
+        "Verne Methuselah tries to Tackle Malcolm Goer, but misses!",
+        "Verne Methuselah tries to Tackle Malcolm Goer, but misses!",
+        "Torey Dannye tries to Tackle Madea Mensch, but Madea Mensch blocks it!",
+        "Torey Dannye tries to Tackle Madea Mensch, but Madea Mensch blocks it!",
+        "Crescint Sonia tries to run with the ball but is stopped by the defense!",
+        "Crescint Sonia tries to run with the ball but is stopped by the defense!",
+        "Verne Methuselah Tackles Fineman Dolhenty and INJURES THEM!",
+        "Verne Methuselah Tackles Fineman Dolhenty and INJURES THEM!",
+        "Loralyn Lyndy runs with the ball and advances towards the goal!",
+        "Loralyn Lyndy runs with the ball and advances towards the goal!",
+        "Sand Denys has returned Fineman Dolhenty to play",
+        "Nariko Javed has returned Herriott Dhiren to play",
+        "Crescint Sonia Tackles Goldenberg Rimola and INJURES THEM!",
+        "Crescint Sonia Tackles Goldenberg Rimola and INJURES THEM!",
+        "Nobe Haukom tries to Tackle Blanc Fantasia, but misses!",
+        "Nobe Haukom tries to Tackle Blanc Fantasia, but misses!",
+        "Torey Dannye tries to run with the ball but is stopped by the defense!",
+        "Torey Dannye tries to run with the ball but is stopped by the defense!",
+        "Salahi Bushey Tackles Cibis Areta and INJURES THEM!",
+        "Salahi Bushey Tackles Cibis Areta and INJURES THEM!",
+        "Salahi Bushey Tackles Cilurzo Sochor and INJURES THEM!",
+        "Salahi Bushey Tackles Cilurzo Sochor and INJURES THEM!",
+        "Troy Jorgan tries to Tackle Torey Dannye, but misses!",
+        "Troy Jorgan tries to Tackle Torey Dannye, but misses!",
+        "Rese Halpern tries to Tackle Braden Gaile, but misses!",
+        "Rese Halpern tries to Tackle Braden Gaile, but misses!",
+        "Braden Gaile tries to Tackle Darin Berliner, but misses!",
+        "Braden Gaile tries to Tackle Darin Berliner, but misses!",
+        "Verne Methuselah tries to Tackle Torey Dannye, but Torey Dannye blocks it!",
+        "Verne Methuselah tries to Tackle Torey Dannye, but Torey Dannye blocks it!",
+        "Fineman Dolhenty tries to run with the ball but is stopped by the defense!",
+        "Fineman Dolhenty tries to run with the ball but is stopped by the defense!",
+        "Torey Dannye tries to Tackle Salahi Bushey, but misses!",
+        "Torey Dannye tries to Tackle Salahi Bushey, but misses!",
+        "Madea Mensch Tackles Loralyn Lyndy and INJURES THEM!",
+        "Madea Mensch Tackles Loralyn Lyndy and INJURES THEM!",
+        "Herriott Dhiren tries to Tackle Blood Eppes, but misses!",
+        "Herriott Dhiren tries to Tackle Blood Eppes, but misses!",
+        "Madea Mensch tries to Tackle Crescint Sonia, but misses!",
+        "Madea Mensch tries to Tackle Crescint Sonia, but misses!",
+        "Crescint Sonia passes the ball to Blanc Fantasia, but they drop it!",
+        "Crescint Sonia passes the ball to Blanc Fantasia, but they drop it!",
+        "The Trollball is picked up by Blood Eppes in zone Away Field"
+    ],
+    "openBar": false
+}

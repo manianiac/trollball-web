@@ -4,9 +4,9 @@ import { Divider } from "@heroui/divider";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import ReactMarkdown from "react-markdown";
 
-import { GAMES } from "@/utils/gameRunner/utils/games.generated";
+import { GAMES } from "@/utils/games.generated";
 import { TeamIcon } from "@/components/icons"; // Adjust path to your TeamIcon
-import { match } from "@/utils/consts";
+import { match } from "@/utils/types";
 import DefaultLayout from "@/layouts/default";
 import { formatText } from "@/utils/utils";
 
@@ -76,9 +76,8 @@ export default function GamePage({ gameData }: { gameData: match }) {
                     {homeTeam.name}
                   </h2>
                   <span
-                    className={`text-4xl font-bold ${
-                      !homeWon && "text-default-500"
-                    }`}
+                    className={`text-4xl font-bold ${!homeWon && "text-default-500"
+                      }`}
                   >
                     {homeScore}
                   </span>
@@ -90,9 +89,8 @@ export default function GamePage({ gameData }: { gameData: match }) {
                     {awayTeam.name}
                   </h2>
                   <span
-                    className={`text-4xl font-bold ${
-                      !awayWon && "text-default-500"
-                    }`}
+                    className={`text-4xl font-bold ${!awayWon && "text-default-500"
+                      }`}
                   >
                     {awayScore}
                   </span>
