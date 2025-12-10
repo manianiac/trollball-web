@@ -217,7 +217,7 @@ async function makePopularityPost(allGamesData: match[]) {
 // --- Main Execution ---
 const allGamesData = generateGamesTS();
 
-// writeGeneratedTSFile(allGamesData);
+writeGeneratedTSFile(allGamesData);
 
 // makeWeeklyRecap(allGamesData);
 
