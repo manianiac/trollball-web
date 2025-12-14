@@ -6,6 +6,7 @@ import {
   generateDiscordAnnouncement,
   generatePopularityPost,
   generateWeeklyReport,
+  generateCelebrityPost,
 } from "./gameFiles/gameReportGenerator";
 export const generateGamesTS = () => {
   // Define the directory where your game data JSON files are stored
@@ -214,11 +215,36 @@ async function makePopularityPost(allGamesData: match[]) {
   }
 }
 
+async function makeCelebrityPost(allGamesData: match[]) {
+  const week = Math.max(...allGamesData.map((game) => game.week));
+  const pastRecaps = loadAllRecaps();
+  const recap = await generateCelebrityPost(pastRecaps);
+  const OUTPUT_FILE = path.join(
+    process.cwd(),
+    "results",
+    `celebrityPost.md`
+  );
+  const outputDir = path.dirname(OUTPUT_FILE);
+
+  try {
+    // Ensure the 'utils' directory exists
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    // Write the file synchronously
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(recap), "utf8");
+    console.log(`Successfully generated: ${OUTPUT_FILE}`);
+  } catch (err) {
+    console.error("Error writing games.generated.ts file:", err);
+  }
+}
+
 // --- Main Execution ---
 const allGamesData = generateGamesTS();
 
-writeGeneratedTSFile(allGamesData);
-
+// writeGeneratedTSFile(allGamesData);
+makeCelebrityPost(allGamesData);
 // makeWeeklyRecap(allGamesData);
 
 // makeDiscordAnnouncement(allGamesData);
