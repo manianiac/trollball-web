@@ -385,3 +385,147 @@ ${scheduleText}
 
   return result || "";
 }
+
+
+
+export async function generateCelebrityPost(
+  pastRecaps: any[],
+): Promise<string> {
+  // const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
+  const pastRecapsData = `{results:${pastRecaps
+    .map((val) => JSON.stringify(val))
+    .join(",")}}`;
+
+  const userQuery = `
+      Please generate a blog post for the Celebrity Game at Trollmas 2025.
+      This is a game where the Heroes of the Realm play Trollball, with much more violence than regulation games.
+      The reporting was performed by Nok, Chairman Brennen, and Oenotheera the Necromancer
+      
+      Format the "content" as a blog post, adding markdown headers and other formatting, including but not limited to emojii
+      // Don't go over every game, but instead group similar games and comment on spectacular plays.
+      // For example, group any shutouts or close matches, or any games that went into overtime.
+      // Comment on the drunkenness of the players if the game was an open bar, reveling in the chaos.
+
+      Make sure to leave the "date" to be a "TODO" so that I can fill it in later
+
+      <game_data>
+      Here is the updated, comprehensive report for **Trollball 25 - Oenotheera**, incorporating the handwritten notes, the written play-by-play, and the transcripts from the on-field audio recordings.
+
+### **Match Overview**
+* **Event:** Trollball 25 - Oenotheera
+* **Matchup:** Geth (Yellow) vs. The Order of the Black Sky / "Gribmle's Team" (Red)
+* **Winner:** **Geth** (Final Score: 12 - 11)
+    * *Note:* This marks Geth's **6th Championship victory**, which he described as "Amazing."
+
+---
+
+### **Team Rosters & Strategy**
+
+**Team Geth (Yellow)**
+* **Captain:** Geth
+* **Roster:** Vidarians, Color Guard(Violet, Orange), Yarp, Kython, Maple, Geth Incorporated Incorporeal.
+* **Pre-Game Strategy:** "Just go onto the battlefield in whatever order, we will figure it out later."
+* **Vibe:** Chaotic. "We are Geth."
+
+**Team Order (Red)**
+* **Captain:** Grimble
+* **Roster:** Black Sky(Cyfnerth), Bruni (w/ Sword of Sylvia), Dinosaur Rider, Quinn, Gribmle.
+* **Motto:** "Best defense is murder."
+* **Goal:** "Bring down tyranny of 5 years."
+
+---
+
+### **Game Narrative**
+
+#### **First Half**
+* **Early Game Chaos:** The match began with immediate confusion. Grimble scored the opener (1 point) for Order because Team Geth forgot they needed to retrieve the ball.
+* **Trading Blows:**
+    * Bruni (Order) scores.
+    * Colm (Geth) answers with a valiant score.
+    * Bellocq (White Raven Healer) scores for Order after a bounce-out from Maple.
+    * **The "Air Death":** The guy who looks suspiciously like the Late Vidar Khan(rest in violence) attempts a score but "died valiantly in the air" (No Goal).
+* **Geth Rallies:** Maple scores, followed by Gribmle (Order) failing a throw-in but recovering to score anyway.
+* **"Inflate Gate":** Maple lodges a formal complaint that the Trollball felt light and "floated in the goal."
+* **Late 2nd Quarter:** Arden makes a beautiful toss (2 points). Flax sneaks behind the front line to score.
+
+#### **Halftime Report & Interviews**
+
+**The Great Bakeoff**
+* **Reporter:** Cinnemon
+* **Status:** "Fantastic." There were 9 entries submitted with 3 of the 4 judges having reviewed them.
+* **Winner:** Albert Cline (Dragon Cookie).
+* **Quote:** *"It'll never be too late. Cookies are in your heart."* — Cinnamon.
+
+**Captain Interviews (The Locker Room)**
+* **Geth (Yellow):** Geth appeared exhausted but in high spirits, stating he missed the community. He felt his performance was strong, specifically citing that the **"new rules updated"** and **"clarifications from previous years"** were helping the game flow better.
+* **Grimble (Red):** When asked for his mid-game outlook, Grimble revealed a psychological strategy: *"I want to let Geth think that he still has the trophy in his hands so I can get the satisfaction of ripping it from him... let him get a little bit up, and then we go in, finish him off."*
+
+#### **Second Half**
+* **The Violet Factor:** Violet scores at least 3 times for Geth. Despite written notes that *"Jingle Jingle Jingle"* was heard and *"She is wearing bells, people!"*, the defense failed to track her.
+* **Order Pushes Back:** Lo scores for Order (fighting through his own team to do so). Coriander adds 2 points.
+* **Defensive Stands:** Kython is noted for goaltending.
+* **Fatalities:** The Red Wizard Kay kills someone with a spell ball "for no reason" and fights off the police, only to be killed later by Grimble.
+* **The Finish:** Quartermaster walks it in gracefully for Geth. Lycaenious scores the closer.
+
+#### **Post-Game Aftermath**
+* **The Result:** Geth wins 12-11.
+* **The Skirmish:** Immediately following the win, Order charged Team Geth and "slaughtered them," though the loss stood.
+
+**Post-Game Comments:**
+* **Geth (Winner):** *"Six times is amazing... There [were] a bit of mistakes but... I gotta go celebrate with my team."*
+* **Grimble (Loser):** Refused to speak to reporters, shouting, *"No comment! No media!"* while walking away.
+
+---
+
+### **Official Scoreboard**
+
+| Period | Geth (Yellow) | Order/Skippy (Red) | Notes |
+| :--- | :--- | :--- | :--- |
+| **1st** | 5 | 2 | Geth dominates early despite confusion. |
+| **2nd** | 3 | 4 | Order rallies. |
+| **3rd** | 4 | 0 | **Running Total: Geth 11 - Order 7.** |
+| **4th** | 1 | 4 | Order mounts a comeback. |
+| **FINAL**| **12** | **11** | **Geth Victory.** |
+
+---
+
+### **Match Highlights & Marginalia**
+
+* **Physicality:** 2 swords to the face; 2 ball punches by swords; lots of "out of bounds" calls.
+* **Notable Quotes:**
+    * *"I'm getting blessed so I can SMITE Geth"* — Grimble
+    * *"Are you eating a damn sandwich right now?"* — Colm (referencing a Grilled Cheese incident).
+    * *"Rhiannon is a suck up"* — Boxed note on score sheet.
+* **Doodles:** "Sir K" in a Santa hat wishing everyone a "Happy Trollmas."
+      </game_data>
+
+      This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
+      <hero_data>
+      ${JSON.stringify(heroesOfTheRealm)}
+      </hero_data>
+      
+      Here are past weekly recaps for reference, so you can maintain a consistent tone and style, as well as track any storylines
+      // If you made fun of a character recently, try to avoid repeating the same jokes as well as pick on other characters.
+      <past_recaps>
+      ${pastRecapsData}
+      </past_recaps>
+
+      Here is the current popularity of each team, which you can reference to comment on fan reactions and attendance
+      These are relative popularity scores based off of discord votes, with 0(no votes) being the least popular.
+      Don't mention numbers directly, but use them to guide your commentary on fan engagement.
+      <current popularity>
+      ${JSON.stringify(popularity)}
+      </current popularity>
+
+
+    `;
+
+  const result = await generateContentHelper(
+    userQuery,
+    BLOG_POST_SCHEMA,
+    "application/json",
+    1.3,
+  );
+
+  return result ? JSON.parse(result) : "";
+}

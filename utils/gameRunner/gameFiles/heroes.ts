@@ -8,7 +8,7 @@ export const heroesOfTheRealm = [
       TEAM_NAMES["The Brimstone Fire Eaters"],
     ],
     characters: [
-      "Sir Tanos, the Bold, wielder of the cursed Sunbringer, my boss' best friend",
+      "Sir Tanos, the Bold, wielder of the cursed Sunbringer, my boss' best friend. He hates letters, and likes to stab me",
       "God King Sir Artorias the Moonslayer, Friend of the Fey, Former Chairman, Osterra's Celebrity, slayer of monsters",
       "Morgwae, the Warlock, former Chief Arcanist, exiled for saving Sir Tanos",
       "Dima, the shadow king and assassin",
@@ -51,7 +51,7 @@ export const heroesOfTheRealm = [
   {
     faction: "Geth",
     associatedTeams: [TEAM_NAMES["The Desert Spectres"]],
-    characters: ["Geth the Gravelord, the realm's best frenemy"],
+    characters: ["Geth the Gravelord, the realm's best frenemy, 6 time Trollball Celebrity Match Winner"],
   },
   {
     faction: "The White Ravens",
