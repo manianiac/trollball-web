@@ -53,6 +53,12 @@ export default function GamesPage() {
                   <div className="flex flex-col gap-3">
                     {/* Now map over the games *for this week* */}
                     {gamesByWeek[weekNum].map((game) => {
+                      const { homeTeam, awayTeam } = game;
+                      // Ensure teams are valid (not empty objects)
+                      if (!("name" in homeTeam) || !("name" in awayTeam)) {
+                        return null;
+                      }
+
                       // Create a unique slug for the game URL
                       return (
                         <Link
@@ -63,16 +69,12 @@ export default function GamesPage() {
                           <div className="flex justify-between items-center">
                             {/* Team Names */}
                             <div>
-                              <span className="text-lg">
-                                {game.homeTeam.name}
-                              </span>
+                              <span className="text-lg">{homeTeam.name}</span>
                               <span className="text-lg text-default-600">
                                 {" "}
                                 vs{" "}
                               </span>
-                              <span className="text-lg">
-                                {game.awayTeam.name}
-                              </span>
+                              <span className="text-lg">{awayTeam.name}</span>
                             </div>
                           </div>
                         </Link>

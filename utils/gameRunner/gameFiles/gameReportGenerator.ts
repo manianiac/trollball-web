@@ -11,6 +11,7 @@ import { match, match_progress, TEAM_NAMES } from "@/utils/types";
 import { popularity } from "./popularity";
 import { heroesOfTheRealm } from "./heroes";
 import { STATIC_LEAGUE_SCHEDULE } from "../schedule";
+import { TEAMS } from "@/utils/teams";
 
 // --- API Key Setup ---
 // The package will automatically find the GOOGLE_API_KEY environment variable
@@ -139,7 +140,7 @@ const generateContentHelper = async (
 ): Promise<string | null> => {
   try {
     const result = await genAI.models.generateContent({
-      model: "gemini-3-pro-preview",
+      model: "gemini-2.5-pro",
       contents: prompt,
       config: {
         safetySettings: safetySettings,
@@ -175,15 +176,57 @@ const generateContentHelper = async (
   }
 };
 
-export async function generateWeeklyReport(
-  allGamesData: match[],
-  pastRecaps: any[],
-  week: number,
-): Promise<string> {
-  const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
+export async function generateRecapSummary(pastRecaps: any[]): Promise<string> {
   const pastRecapsData = `{results:${pastRecaps
     .map((val) => JSON.stringify(val))
     .join(",")}}`;
+
+  const userQuery = `
+      Analyze the following past weekly recaps for the fantasy sport Trollball.
+      Extract the writing style and "voice" of the announcer, Nok the Corrupter.
+      Summarize the key ongoing storylines, rivalries, recurring jokes, and character arcs that have been established.
+      Create a "Tone and Storyline Guide" that I can pass to an AI to generate the next week's recap in the exact same style and continuing these stories.
+      
+    Make sure to include the following:
+    - Announcer Voice
+    - Catchphrases
+    - Teams(each team)
+    -- Ongoing Storylines & Rivalries between teams
+    -- Don't include specific heroes here, as those are tracked in a separate document
+
+
+      <past_recaps>
+      ${pastRecapsData}
+      </past_recaps>
+
+      <teams>
+      ${Object.entries(TEAMS)
+        .map(([key, value]) =>
+          JSON.stringify({
+            ...value,
+            players: [],
+          }),
+        )
+        .join(",")}
+      </teams>
+    `;
+
+  const result = await generateContentHelper(
+    userQuery,
+    undefined,
+    "application/json",
+    1.0,
+  );
+
+  return result || "";
+}
+
+export async function generateWeeklyReport(
+  allGamesData: match[],
+  pastRecapsSummary: string,
+  week: number,
+): Promise<string> {
+  const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
 
   const userQuery = `
       Here is are all of the Trollball matches this season. Please generate a lengthy recap covering the highlites of the latest week(week ${week}).
@@ -199,11 +242,11 @@ export async function generateWeeklyReport(
       ${jsonData}
       </game_data>
 
-      Here are past weekly recaps for reference, so you can maintain a consistent tone and style, as well as track any storylines
-      If you made fun of a character recently, try to avoid repeating the same jokes as well as pick on other characters.
-      <past_recaps>
-      ${pastRecapsData}
-      </past_recaps>
+      Here is a summary of the past weeks' storylines and the specific tone/voice of Nok the Corrupter you MUST emulate.
+      Use this guide to ensure continuity with previous posts.
+      <past_context>
+      ${pastRecapsSummary}
+      </past_context>
 
       Here is the current popularity of each team, which you can reference to comment on fan reactions and attendance
       These are relative popularity scores based off of discord votes, with 0(no votes) being the least popular.
@@ -225,7 +268,19 @@ export async function generateWeeklyReport(
     1.3,
   );
 
-  return result ? JSON.parse(result) : "";
+  try {
+    return result ? JSON.parse(result) : "";
+  } catch (error) {
+    console.error("Failed to parse JSON result:", error);
+    if (result) {
+      console.log("Result snippet (start):", result.substring(0, 500));
+      console.log(
+        "Result snippet (end):",
+        result.substring(result.length - 500),
+      );
+    }
+    return "";
+  }
 }
 
 export async function generateGameReports(
@@ -385,8 +440,6 @@ ${scheduleText}
 
   return result || "";
 }
-
-
 
 export async function generateCelebrityPost(
   pastRecaps: any[],
