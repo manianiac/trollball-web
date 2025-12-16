@@ -11,7 +11,7 @@ import React from "react";
 
 import DefaultLayout from "@/layouts/default";
 import { TeamIcon } from "@/components/icons";
-import { match, TEAM_NAMES } from "@/utils/types";
+import { match, TEAM_NAMES, team } from "@/utils/types";
 import { GAMES } from "@/utils/games.generated";
 
 interface TeamStats {
@@ -47,11 +47,17 @@ function calculateStandings(games: match[]): TeamStats[] {
 
   // 2. Process each game
   games.forEach((game) => {
+    if (!("name" in game.homeTeam) || !("name" in game.awayTeam)) {
+      return;
+    }
+    const homeTeam = game.homeTeam as team;
+    const awayTeam = game.awayTeam as team;
+
     // Ensure teams exist in map (in case we didn't initialize all of them)
-    if (!statsMap.has(game.homeTeam.name)) {
-      statsMap.set(game.homeTeam.name, {
+    if (!statsMap.has(homeTeam.name)) {
+      statsMap.set(homeTeam.name, {
         rank: 0,
-        teamName: game.homeTeam.name,
+        teamName: homeTeam.name,
         wins: 0,
         losses: 0,
         pointsFor: 0,
@@ -59,10 +65,10 @@ function calculateStandings(games: match[]): TeamStats[] {
         pointDiff: 0,
       });
     }
-    if (!statsMap.has(game.awayTeam.name)) {
-      statsMap.set(game.awayTeam.name, {
+    if (!statsMap.has(awayTeam.name)) {
+      statsMap.set(awayTeam.name, {
         rank: 0,
-        teamName: game.awayTeam.name,
+        teamName: awayTeam.name,
         wins: 0,
         losses: 0,
         pointsFor: 0,
@@ -71,8 +77,8 @@ function calculateStandings(games: match[]): TeamStats[] {
       });
     }
 
-    const homeStats = statsMap.get(game.homeTeam.name)!;
-    const awayStats = statsMap.get(game.awayTeam.name)!;
+    const homeStats = statsMap.get(homeTeam.name)!;
+    const awayStats = statsMap.get(awayTeam.name)!;
 
     // Update Points
     homeStats.pointsFor += game.homeScore;
@@ -231,12 +237,13 @@ export default function TeamsPage() {
                   {team.pointsAgainst}
                 </TableCell>
                 <TableCell
-                  className={`text-center font-bold ${team.pointDiff > 0
+                  className={`text-center font-bold ${
+                    team.pointDiff > 0
                       ? "text-success"
                       : team.pointDiff < 0
                         ? "text-danger"
                         : "text-default-400"
-                    }`}
+                  }`}
                 >
                   {team.pointDiff > 0 ? "+" : ""}
                   {team.pointDiff}

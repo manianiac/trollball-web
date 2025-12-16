@@ -7,7 +7,9 @@ import {
   generatePopularityPost,
   generateWeeklyReport,
   generateCelebrityPost,
+  generateRecapSummary,
 } from "./gameFiles/gameReportGenerator";
+
 export const generateGamesTS = () => {
   // Define the directory where your game data JSON files are stored
   // This MUST match the DATA_DIR in 'scripts/buildGameData.ts'
@@ -77,7 +79,9 @@ const loadAllRecaps = () => {
   const recaps = filenames
     .filter(
       (filename: string) =>
-        filename.endsWith(".json") && filename.includes("weeklyRecap"),
+        filename.endsWith(".json") &&
+        (filename.includes("weeklyRecap") ||
+          filename.includes("celebrityPost")),
     )
     .map((filename: string) => {
       const filePath = path.join(GAMES_DIR, filename);
@@ -100,12 +104,16 @@ function writeGeneratedTSFile(games: match[]) {
   }
 
   games.forEach((game) => {
-    game.awayTeam.players = [];
-    game.homeTeam.players = [];
-    game.awayTeam.activePlayers = undefined;
-    game.homeTeam.activePlayers = undefined;
-    game.awayTeam.inactivePlayers = undefined;
-    game.homeTeam.inactivePlayers = undefined;
+    if ("name" in game.awayTeam) {
+      game.awayTeam.players = [];
+      game.awayTeam.activePlayers = undefined;
+      game.awayTeam.inactivePlayers = undefined;
+    }
+    if ("name" in game.homeTeam) {
+      game.homeTeam.players = [];
+      game.homeTeam.activePlayers = undefined;
+      game.homeTeam.inactivePlayers = undefined;
+    }
   });
 
   // This is the content that will be written to the file
@@ -139,11 +147,67 @@ export const GAMES: match[] = ${JSON.stringify(games, null, 2)};
 async function makeWeeklyRecap(allGamesData: match[]) {
   const week = Math.max(...allGamesData.map((game) => game.week));
   const pastRecaps = loadAllRecaps();
-  const recap = await generateWeeklyReport(allGamesData, pastRecaps, week);
+
+  // Generate or load the summary of past context
+  const SUMMARY_FILE = path.join(process.cwd(), "results", "recapSummary.json");
+  let pastRecapsSummary = "";
+
+  if (fs.existsSync(SUMMARY_FILE)) {
+    console.log("Loading summary from existing file...");
+    pastRecapsSummary = fs.readFileSync(SUMMARY_FILE, "utf-8");
+    console.log("Summary loaded.");
+  } else {
+    console.log("Generating summary of past recaps...");
+    pastRecapsSummary = await generateRecapSummary(pastRecaps);
+    fs.writeFileSync(SUMMARY_FILE, pastRecapsSummary, "utf-8");
+    console.log("Summary generated and saved to results/recapSummary.txt");
+  }
+
+  const recap = await generateWeeklyReport(
+    allGamesData.map((game) => {
+      const trimmedGame = game;
+      if (trimmedGame.week !== week) {
+        trimmedGame.preGame = "";
+        trimmedGame.postGame = "";
+      }
+
+      const simplifyPlayers = (players: any[]) => {
+        return players.map((p) => ({
+          name: p.name,
+          stats: {
+            pregame_ritual: p.stats.pregame_ritual,
+            pronouns: p.stats.pronouns,
+          },
+        }));
+      };
+
+      if ("players" in trimmedGame.awayTeam) {
+        (trimmedGame.awayTeam as any).players = simplifyPlayers(
+          (trimmedGame.awayTeam as any).players,
+        );
+      }
+      if ("players" in trimmedGame.homeTeam) {
+        (trimmedGame.homeTeam as any).players = simplifyPlayers(
+          (trimmedGame.homeTeam as any).players,
+        );
+      }
+
+      // aggressive delete
+      delete (trimmedGame.homeTeam as any).activePlayers;
+      delete (trimmedGame.homeTeam as any).inactivePlayers;
+      delete (trimmedGame.awayTeam as any).activePlayers;
+      delete (trimmedGame.awayTeam as any).inactivePlayers;
+
+      return trimmedGame;
+    }),
+    pastRecapsSummary,
+    week,
+  );
+
   const OUTPUT_FILE = path.join(
     process.cwd(),
     "results",
-    `weeklyRecap-${week}.json`
+    `weeklyRecap-${week}.json`,
   );
   const outputDir = path.dirname(OUTPUT_FILE);
 
@@ -219,11 +283,7 @@ async function makeCelebrityPost(allGamesData: match[]) {
   const week = Math.max(...allGamesData.map((game) => game.week));
   const pastRecaps = loadAllRecaps();
   const recap = await generateCelebrityPost(pastRecaps);
-  const OUTPUT_FILE = path.join(
-    process.cwd(),
-    "results",
-    `celebrityPost.md`
-  );
+  const OUTPUT_FILE = path.join(process.cwd(), "results", `celebrityPost.json`);
   const outputDir = path.dirname(OUTPUT_FILE);
 
   try {
@@ -241,11 +301,15 @@ async function makeCelebrityPost(allGamesData: match[]) {
 }
 
 // --- Main Execution ---
-const allGamesData = generateGamesTS();
+const run = async () => {
+  const allGamesData = generateGamesTS();
 
-// writeGeneratedTSFile(allGamesData);
-makeCelebrityPost(allGamesData);
-// makeWeeklyRecap(allGamesData);
+  writeGeneratedTSFile(allGamesData);
+  await makeCelebrityPost(allGamesData);
+  await makeWeeklyRecap(allGamesData);
 
-// makeDiscordAnnouncement(allGamesData);
-// makePopularityPost(allGamesData);
+  // await makeDiscordAnnouncement(allGamesData);
+  // await makePopularityPost(allGamesData);
+};
+
+run();

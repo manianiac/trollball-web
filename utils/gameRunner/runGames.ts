@@ -56,9 +56,11 @@ const runMatch = async (
 // );
 
 const matchesToSimulate = STATIC_LEAGUE_SCHEDULE.filter(
-  (match) => match.week === 3,
+  (match) => match.week === 4,
 );
-
+matchesToSimulate.forEach((match) => {
+  console.log(match.homeTeam.name + " vs " + match.awayTeam.name);
+});
 // Calculate how many games should be Open Bar (25%)
 const totalGames = matchesToSimulate.length;
 const openBarCount = Math.floor(totalGames * 0.25);
@@ -83,10 +85,10 @@ const runAllMatches = async () => {
     // Run the game simulation
     console.log(
       "generating match for " +
-      baseMatch.homeTeam.name +
-      " vs " +
-      baseMatch.awayTeam.name +
-      (openBarIndices.has(index) ? " (Open Bar)" : ""),
+        baseMatch.homeTeam.name +
+        " vs " +
+        baseMatch.awayTeam.name +
+        (openBarIndices.has(index) ? " (Open Bar)" : ""),
     );
     await runMatch(
       baseMatch.homeTeam,
@@ -97,7 +99,7 @@ const runAllMatches = async () => {
 
     // Wait 5 seconds between matches to avoid rate limits
     console.log("Waiting 5 seconds...");
-    await new Promise((resolve) => setTimeout(resolve, 15000));
+    await new Promise((resolve) => setTimeout(resolve, 5000));
   }
 };
 

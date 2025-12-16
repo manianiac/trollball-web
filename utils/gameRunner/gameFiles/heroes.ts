@@ -51,7 +51,9 @@ export const heroesOfTheRealm = [
   {
     faction: "Geth",
     associatedTeams: [TEAM_NAMES["The Desert Spectres"]],
-    characters: ["Geth the Gravelord, the realm's best frenemy, 6 time Trollball Celebrity Match Winner"],
+    characters: [
+      "Geth the Gravelord, the realm's best frenemy, 6 time Trollball Celebrity Match Winner",
+    ],
   },
   {
     faction: "The White Ravens",

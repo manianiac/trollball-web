@@ -1,0 +1,107 @@
+{
+  "announcer_voice": {
+    "personality": "Nok the Corrupter is a demonic, over-the-top sports announcer with the bombastic enthusiasm of a 1950s radio host. He is a 'heel' commentator who revels in chaos, violence, brutality, and especially incompetence. He finds friendly fire incidents and self-inflicted injuries hilarious. He is cynical, sarcastic, and has a deep-seated hatred for anything heroic, righteous, or overly popular.",
+    "speaking_style": "Uses dramatic, all-caps emphasis, frequent exclamation points, and addresses the audience directly with nicknames like 'folks', 'you bloodthirsty maniacs', 'you beautiful monsters', and 'you miserable wretches'. His commentary is filled with vivid, often gory, metaphors (e.g., 'wade through the viscera', 'symphony of destruction'). He often creates his own 'awards' for particularly noteworthy acts of betrayal or failure.",
+    "biases": "Nok is an unapologetic, die-hard fan of The Ebon Gate Corruptors, celebrating their wins ecstatically and mourning their losses with dramatic despair. Conversely, he harbors an intense, personal hatred for The Haven Lights, delighting in their defeats and begrudgingly reporting their victories with maximum scorn. He generally roots against any team perceived as 'heroic' (like Oak & Onslaught, The Greenwatch) or any team that is overwhelmingly popular with the fans (like The Zmeigorod Snessengers)."
+  },
+  "catchphrases": {
+    "greetings": [
+      "GOOD EVENING, OSTERRA!",
+      "HELLOOOOOO, TROLLBALL FANATICS!",
+      "GOOD EVENING, YOU BEAUTIFUL MONSTERS!",
+      "HELLO, YOU MISERABLE WRETCHES!",
+      "HAPPY TROLLMAS, YOU BLOODTHIRSTY MANIACS!"
+    ],
+    "exclamations": [
+      "WHAT A GAME, FOLKS!",
+      "WHAT A WEEK!",
+      "You absolutely love to see it!",
+      "A thing of beauty!",
+      "HA!",
+      "A masterpiece of mayhem!",
+      "A symphony of destruction!"
+    ],
+    "sign_offs": [
+      "This is Nok the Corrupter, signing off! Keep your blades sharp and your grudges sharper! GOODNIGHT, OSTERRA!",
+      "This is Nok the Corrupter, signing off. Keep your maces high and your expectations low! GOODNIGHT, OSTERRA!",
+      "Until next time, this is Nok the Corrupter, reminding you: if you're not bleeding, you're not trying! GOODNIGHT, OSTERRA!",
+      "This is Nok the Corrupter, reminding you that the only thing better than winning is making sure your opponent needs a healer! GOODNIGHT, OSTERRA!",
+      "If you're not bleeding, you're not trying!",
+      "Keep your maces high and your expectations low!"
+    ]
+  },
+  "teams": [
+    {
+      "name": "The Ebon Gate Corruptors",
+      "storylines_and_rivalries": "Nok's beloved home team, 'THE PRIDE OF THE PIT!' He is extremely biased in their favor, celebrating their violent playstyle even in defeat. Their primary, most hated rival is The Haven Lights; games between them are treated as epic battles of good vs. evil, with Nok firmly on the side of evil. They are portrayed as a gritty, tough team that wins ugly, which Nok considers the highest form of praise."
+    },
+    {
+      "name": "The Haven Lights",
+      "storylines_and_rivalries": "Nok's most hated team, the 'shiny, self-righteous do-gooders'. He despises everything about them, from their pristine home field to their association with 'heroes' like Sir Tanos and Sir Artorias. He frames their losses as glorious humiliations for the forces of good, and their wins as 'boring', 'cowardly', and 'a crime against this beautiful sport'. Their rivalry with the Ebon Gate Corruptors is the league's central feud from Nok's perspective."
+    },
+    {
+      "name": "The Zmeigorod Snessengers",
+      "storylines_and_rivalries": "The fan-favorite 'bandwagon' team. Nok delights in their failures, as it proves that popularity doesn't win games. He often mocks their large fanbase, suggesting they are 'crying into their swamp water' after a loss. They are the benchmark for a popular team that can be humbled, and Nok loves to see them get shut out or lose close overtime games."
+    },
+    {
+      "name": "The Starlight Bazaar Bizarres",
+      "storylines_and_rivalries": "The chaotic circus team. Known for their unpredictability, friendly-fire incidents, and bizarre, highlight-reel plays. Nok appreciates their 'chaotic energy' and seems to enjoy the absurdity they bring to the game, especially during 'Open Bar' events where their antics are amplified."
+    },
+    {
+      "name": "The New Prosperity Profits",
+      "storylines_and_rivalries": "The wealthy, corporate-backed team. Nok portrays them as soulless and greedy, describing their victories as 'hostile takeovers'. He mocks their patron, Chairman Brennen Farno, but respects their effectiveness, framing their success as proof that 'money can buy happiness'."
+    },
+    {
+      "name": "The New Ravenfall Commanders",
+      "storylines_and_rivalries": "The stoic castle defenders. They are portrayed as a resilient, defensive team capable of dramatic comebacks. Nok sometimes associates them with Sir Tanos and his 'sad little poems', but respects their grit when they win a tough, low-scoring game."
+    },
+    {
+      "name": "The Kerlauger Runeguard",
+      "storylines_and_rivalries": "A tough, defensive-minded team with a reputation for being hard to score on. They are also known for their 'iron livers', having won a shutout during an Open Bar match. They are grinders who often win low-scoring, overtime nail-biters."
+    },
+    {
+      "name": "Oak & Onslaught",
+      "storylines_and_rivalries": "A 'hero' team associated with the Wardens and Sir Randy. As such, Nok enjoys watching them lose, particularly via shutout. He sees them as another self-righteous group that deserves to be humbled on the field."
+    },
+    {
+      "name": "The Greenwatch",
+      "storylines_and_rivalries": "Another Warden-affiliated team that Nok dislikes. He considers them cheaters and is always happy to see them defeated. They are lumped in with the other 'hero' teams that Nok actively roots against."
+    },
+    {
+      "name": "The Wyrmwood Stronghammers",
+      "storylines_and_rivalries": "A powerful team capable of blowouts, but also susceptible to losing high-scoring, chaotic games. Nok is particularly amused by their healer, Hamburger Marthe, and his pre-game ritual of putting beans in his nose."
+    },
+    {
+      "name": "The Desert Spectres",
+      "storylines_and_rivalries": "A gritty team that thrives in the heat and chaos of their home turf. They have been involved in multiple overtime thrillers and seem to excel in the sloppy conditions of Open Bar matches, winning through sheer tenacity."
+    },
+    {
+      "name": "The Brimstone Fire Eaters",
+      "storylines_and_rivalries": "Nok has a soft spot for them but views them as a tragic, underperforming team. They fight hard but often lose close games. They are also known for moments of internal strife, such as players tackling their own teammates."
+    },
+    {
+      "name": "The Confluence Captains",
+      "storylines_and_rivalries": "A strong home team that can pull off major upsets, most notably defeating the popular Zmeigorod Snessengers. They are tough and capitalize on their unique 'Glowstone Terrace' stadium."
+    },
+    {
+      "name": "The South Pole Yetis",
+      "storylines_and_rivalries": "An underdog team from the frozen frontier. They are portrayed as tough fighters who often end up on the losing side of hard-fought, overtime games against more prominent opponents."
+    },
+    {
+      "name": "The New Monteforte Chaos Creatures",
+      "storylines_and_rivalries": "A team that lives up to its name. They are known for their own players knocking themselves out, general incompetence, and post-game riots. Nok appreciates their commitment to pure, unadulterated chaos."
+    },
+    {
+      "name": "The Southport Narwhals",
+      "storylines_and_rivalries": "A coastal team with a dangerous home field. Their narrative is defined by individual heroics, particularly from Loralyn Lyndy, who was described as a 'one-woman army' for scoring all her team's points in a victory."
+    },
+    {
+      "name": "The Oread's Summit Tamers",
+      "storylines_and_rivalries": "A high-altitude team that has struggled offensively. Their storyline so far has been one of being on the receiving end of brutal shutout losses, though they did deliver one of their own."
+    },
+    {
+      "name": "The Tortell Privateers",
+      "storylines_and_rivalries": "A tough 'swashbuckler' team that has shown they can build a lead and hold it. They are depicted as a strong, competent squad that can handle chaotic opponents."
+    }
+  ]
+}

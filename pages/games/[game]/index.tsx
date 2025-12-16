@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 
 import { GAMES } from "@/utils/games.generated";
 import { TeamIcon } from "@/components/icons"; // Adjust path to your TeamIcon
-import { match } from "@/utils/types";
+import { match, team } from "@/utils/types";
 import DefaultLayout from "@/layouts/default";
 import { formatText } from "@/utils/utils";
 
@@ -14,7 +14,7 @@ export async function getStaticPaths() {
   // Loop over your GAMES array to create the slugs
   const paths = GAMES.map((game) => ({
     params: {
-      game: `${game.homeTeam.slug}-${game.awayTeam.slug}-${game.week}`,
+      game: game.slug,
     },
   }));
 
@@ -55,7 +55,15 @@ export default function GamePage({ gameData }: { gameData: match }) {
     week: date,
     homeScore,
     awayScore,
-  } = gameData;
+  } = gameData as {
+    homeTeam: team;
+    awayTeam: team;
+    preGame: string;
+    postGame: string;
+    week: number;
+    homeScore: number;
+    awayScore: number;
+  };
   // Helper to determine winner for styling
   const homeWon = homeScore > awayScore;
   const awayWon = awayScore > homeScore;

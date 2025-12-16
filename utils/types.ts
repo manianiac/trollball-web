@@ -90,8 +90,10 @@ export interface team {
 }
 
 export interface match {
-  homeTeam: team;
-  awayTeam: team;
+  // trimmedGame property removed as it caused build errors and isn't populated
+
+  homeTeam: team | {};
+  awayTeam: team | {};
   homeScore: number;
   awayScore: number;
   week: number;
@@ -103,6 +105,8 @@ export interface match {
 }
 
 export interface match_progress extends match {
+  homeTeam: team;
+  awayTeam: team;
   openBar?: boolean;
   possession: player | null;
   possessionTeam: TEAM_NAMES | string;

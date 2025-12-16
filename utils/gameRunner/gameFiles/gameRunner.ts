@@ -269,7 +269,7 @@ const saveGameResult = async (gameState: match_progress) => {
     const report = await generateGameReports(gameState);
 
     if (report) {
-      const outputPath = `./utils/gameRunner/results/${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}.json`;
+      const outputPath = `./utils/gameRunner/results/${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
 
       fs.writeFile(
         outputPath,
@@ -281,7 +281,7 @@ const saveGameResult = async (gameState: match_progress) => {
           week: gameState.week,
           homeScore: gameState.homeScore,
           awayScore: gameState.awayScore,
-          slug: `${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}`,
+          slug: `${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}`,
           plays: gameState.plays,
           openBar: gameState.openBar,
         }),
@@ -290,7 +290,7 @@ const saveGameResult = async (gameState: match_progress) => {
           if (err) {
             console.error("Error writing to file", err);
             // Fallback to simpler path if nested path fails (backward compatibility/safety)
-            const fallbackPath = `./results/${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}.json`;
+            const fallbackPath = `./results/${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
             fs.writeFile(
               fallbackPath,
               JSON.stringify({
@@ -301,7 +301,7 @@ const saveGameResult = async (gameState: match_progress) => {
                 week: gameState.week,
                 homeScore: gameState.homeScore,
                 awayScore: gameState.awayScore,
-                slug: `${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}`,
+                slug: `${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}`,
                 plays: gameState.plays,
                 openBar: gameState.openBar,
               }),
@@ -322,7 +322,7 @@ const saveGameResult = async (gameState: match_progress) => {
     } else {
       console.log("Failed to generate reports. Using placeholder text.");
       // Fallback for API failure
-      const outputFallback = `./utils/gameRunner/results/${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}.json`;
+      const outputFallback = `./utils/gameRunner/results/${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
       const fallbackData = {
         homeTeam: gameState.homeTeam,
         awayTeam: gameState.awayTeam,
@@ -331,18 +331,23 @@ const saveGameResult = async (gameState: match_progress) => {
         week: gameState.week,
         homeScore: gameState.homeScore,
         awayScore: gameState.awayScore,
-        slug: `${gameState.homeTeam.slug}-${gameState.awayTeam.slug}-${gameState.week}`,
+        slug: `${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}`,
         plays: gameState.plays,
         openBar: gameState.openBar,
       };
 
-      fs.writeFile(outputFallback, JSON.stringify(fallbackData), "utf8", (err) => {
-        if (err) {
-          console.error("Error writing fallback file", err);
-        } else {
-          console.log(`Fallback data written to JSON at ${outputFallback}.`);
-        }
-      });
+      fs.writeFile(
+        outputFallback,
+        JSON.stringify(fallbackData),
+        "utf8",
+        (err) => {
+          if (err) {
+            console.error("Error writing fallback file", err);
+          } else {
+            console.log(`Fallback data written to JSON at ${outputFallback}.`);
+          }
+        },
+      );
     }
   } catch (error) {
     console.error("Error loading or parsing game data:", error);
