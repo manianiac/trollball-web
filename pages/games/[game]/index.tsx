@@ -84,8 +84,9 @@ export default function GamePage({ gameData }: { gameData: match }) {
                     {homeTeam.name}
                   </h2>
                   <span
-                    className={`text-4xl font-bold ${!homeWon && "text-default-500"
-                      }`}
+                    className={`text-4xl font-bold ${
+                      !homeWon && "text-default-500"
+                    }`}
                   >
                     {homeScore}
                   </span>
@@ -97,8 +98,9 @@ export default function GamePage({ gameData }: { gameData: match }) {
                     {awayTeam.name}
                   </h2>
                   <span
-                    className={`text-4xl font-bold ${!awayWon && "text-default-500"
-                      }`}
+                    className={`text-4xl font-bold ${
+                      !awayWon && "text-default-500"
+                    }`}
                   >
                     {awayScore}
                   </span>

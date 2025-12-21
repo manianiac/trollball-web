@@ -164,42 +164,7 @@ async function makeWeeklyRecap(allGamesData: match[]) {
   }
 
   const recap = await generateWeeklyReport(
-    allGamesData.map((game) => {
-      const trimmedGame = game;
-      if (trimmedGame.week !== week) {
-        trimmedGame.preGame = "";
-        trimmedGame.postGame = "";
-      }
-
-      const simplifyPlayers = (players: any[]) => {
-        return players.map((p) => ({
-          name: p.name,
-          stats: {
-            pregame_ritual: p.stats.pregame_ritual,
-            pronouns: p.stats.pronouns,
-          },
-        }));
-      };
-
-      if ("players" in trimmedGame.awayTeam) {
-        (trimmedGame.awayTeam as any).players = simplifyPlayers(
-          (trimmedGame.awayTeam as any).players,
-        );
-      }
-      if ("players" in trimmedGame.homeTeam) {
-        (trimmedGame.homeTeam as any).players = simplifyPlayers(
-          (trimmedGame.homeTeam as any).players,
-        );
-      }
-
-      // aggressive delete
-      delete (trimmedGame.homeTeam as any).activePlayers;
-      delete (trimmedGame.homeTeam as any).inactivePlayers;
-      delete (trimmedGame.awayTeam as any).activePlayers;
-      delete (trimmedGame.awayTeam as any).inactivePlayers;
-
-      return trimmedGame;
-    }),
+    allGamesData,
     pastRecapsSummary,
     week,
   );
@@ -303,13 +268,51 @@ async function makeCelebrityPost(allGamesData: match[]) {
 // --- Main Execution ---
 const run = async () => {
   const allGamesData = generateGamesTS();
+  const week = Math.max(...allGamesData.map((game) => game.week));
 
-  writeGeneratedTSFile(allGamesData);
-  await makeCelebrityPost(allGamesData);
-  await makeWeeklyRecap(allGamesData);
+  const trimmedGamesData = allGamesData.map((game) => {
+    const trimmedGame = game;
+    if (trimmedGame.week !== week) {
+      trimmedGame.preGame = "";
+      trimmedGame.postGame = "";
+    }
 
-  // await makeDiscordAnnouncement(allGamesData);
-  // await makePopularityPost(allGamesData);
+    const simplifyPlayers = (players: any[]) => {
+      return players.map((p) => ({
+        name: p.name,
+        stats: {
+          pregame_ritual: p.stats.pregame_ritual,
+          pronouns: p.stats.pronouns,
+        },
+      }));
+    };
+
+    if ("players" in trimmedGame.awayTeam) {
+      (trimmedGame.awayTeam as any).players = simplifyPlayers(
+        (trimmedGame.awayTeam as any).players,
+      );
+    }
+    if ("players" in trimmedGame.homeTeam) {
+      (trimmedGame.homeTeam as any).players = simplifyPlayers(
+        (trimmedGame.homeTeam as any).players,
+      );
+    }
+
+    // aggressive delete
+    delete (trimmedGame.homeTeam as any).activePlayers;
+    delete (trimmedGame.homeTeam as any).inactivePlayers;
+    delete (trimmedGame.awayTeam as any).activePlayers;
+    delete (trimmedGame.awayTeam as any).inactivePlayers;
+
+    return trimmedGame;
+  });
+
+  // writeGeneratedTSFile(allGamesData);
+  // await makeCelebrityPost(trimmedGamesData);
+  // await makeWeeklyRecap(trimmedGamesData);
+
+  makeDiscordAnnouncement(trimmedGamesData);
+  // await makePopularityPost(trimmedGamesData);
 };
 
 run();
