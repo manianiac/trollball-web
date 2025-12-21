@@ -201,13 +201,13 @@ export async function generateRecapSummary(pastRecaps: any[]): Promise<string> {
 
       <teams>
       ${Object.entries(TEAMS)
-        .map(([key, value]) =>
-          JSON.stringify({
-            ...value,
-            players: [],
-          }),
-        )
-        .join(",")}
+      .map(([key, value]) =>
+        JSON.stringify({
+          ...value,
+          players: [],
+        }),
+      )
+      .join(",")}
       </teams>
     `;
 
@@ -334,7 +334,8 @@ export async function generateDiscordAnnouncement(
         [Hint at any exciting plays or rivalries that happened this week, but DO NOT hint at who won or lost]
         [Encourage fans to check out the full recap on the Trollball Website]
         [Call to action to vote for their favorite team in the popularity contest next time it appears] 
-        [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
+        [Celebrate the results of the previous vote, Unnatural Intervention! Give hints at what this might change, but be cryptic and don't promise anything]
+        // [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
 
       <game_data>
       ${jsonData}
