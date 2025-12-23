@@ -56,7 +56,7 @@ const runMatch = async (
 // );
 
 const matchesToSimulate = STATIC_LEAGUE_SCHEDULE.filter(
-  (match) => match.week === 4,
+  (match) => match.week === 5,
 );
 matchesToSimulate.forEach((match) => {
   console.log(match.homeTeam.name + " vs " + match.awayTeam.name);
@@ -85,10 +85,10 @@ const runAllMatches = async () => {
     // Run the game simulation
     console.log(
       "generating match for " +
-        baseMatch.homeTeam.name +
-        " vs " +
-        baseMatch.awayTeam.name +
-        (openBarIndices.has(index) ? " (Open Bar)" : ""),
+      baseMatch.homeTeam.name +
+      " vs " +
+      baseMatch.awayTeam.name +
+      (openBarIndices.has(index) ? " (Open Bar)" : ""),
     );
     await runMatch(
       baseMatch.homeTeam,

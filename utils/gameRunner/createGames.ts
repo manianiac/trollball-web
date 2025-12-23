@@ -81,7 +81,7 @@ const loadAllRecaps = () => {
       (filename: string) =>
         filename.endsWith(".json") &&
         (filename.includes("weeklyRecap") ||
-          filename.includes("celebrityPost")),
+          filename.includes("celebrityPost") || filename.includes("runeReading")),
     )
     .map((filename: string) => {
       const filePath = path.join(GAMES_DIR, filename);
@@ -309,7 +309,7 @@ const run = async () => {
 
   // writeGeneratedTSFile(allGamesData);
   // await makeCelebrityPost(trimmedGamesData);
-  // await makeWeeklyRecap(trimmedGamesData);
+  makeWeeklyRecap(trimmedGamesData);
 
   makeDiscordAnnouncement(trimmedGamesData);
   // await makePopularityPost(trimmedGamesData);

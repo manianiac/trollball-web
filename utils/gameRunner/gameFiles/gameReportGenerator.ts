@@ -140,7 +140,7 @@ const generateContentHelper = async (
 ): Promise<string | null> => {
   try {
     const result = await genAI.models.generateContent({
-      model: "gemini-2.5-flash",
+      model: "gemini-3-flash-preview",
       contents: prompt,
       config: {
         safetySettings: safetySettings,
