@@ -19,17 +19,7 @@ And at the Pole, the **Greenwatch** 🌿 and the **South Pole Yetis** ❄️ eng
 We also saw some defensive masterpieces—or as I call them, 'accidental failures to score!' Did the **Brimstone Fire Eaters** 🔥 finally catch a break against **Oak & Onslaught** 🌳, or did they spend too much time talking to the birds? And keep your eyes on the **New Prosperity Profits** 💰—did Brennen Farno's checkbook buy enough armor to stop the **Starlight Bazaar Bizarres** 🎡 from juggling the ball into the goal?
 
 **GO TO THE TROLLBALL WEBSITE NOW TO SEE THE FULL, GORY RECAPS!** 📜💀
-[Insert Website Link Here]
-
-## 🗳️ POPULARITY CONTEST & THE FUTURE! 🗳️
-
-Folks, I’ve seen the polls! The **Zmeigorod Snessengers** are more popular than a warm loaf of bread in a famine, while some of you are treating the **Oread's Summit Tamers** and the **Ravenfall Commanders** like they’ve got the Festar Plague! 📉 Show some love for your favorite bruisers next time the poll drops! Your votes are the only thing keeping some of these losers from being turned into literal team snacks! 🥯👹
-
-## ✨ UNNATURAL INTERVENTION! ✨
-
-And a huge cheer (or a terrifying roar) for the results of the **Unnatural Intervention** vote! 🔮 Something strange is brewing in the aether, sports fans. I’m hearing whispers that the very ground might start fighting back, or perhaps the healers will find their magic a little more... 'volatile' than usual. I can't promise what's coming, but I can promise it’ll be a real nightmare for anyone trying to stay in one piece! 🌪️🧙‍♂️
-
-Finally, get ready to cast your votes for the **Future of Trollball**! The league is changing, and you—yes, even you, Cinnemon—get to help decide how the carnage evolves. Keep your eyes peeled for those choices!
+[TROLLBALL](https://blacksky.wiki/blog)
 
 This is **Nok the Corrupter**, reminding you: if you aren't bleeding, you aren't trying! Keep your maces high and your expectations lower than a sinkhole in Ebon Gate! 
 

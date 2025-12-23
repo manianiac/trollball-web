@@ -307,11 +307,11 @@ const run = async () => {
     return trimmedGame;
   });
 
-  // writeGeneratedTSFile(allGamesData);
+  writeGeneratedTSFile(allGamesData);
   // await makeCelebrityPost(trimmedGamesData);
-  makeWeeklyRecap(trimmedGamesData);
+  // makeWeeklyRecap(trimmedGamesData);
 
-  makeDiscordAnnouncement(trimmedGamesData);
+  // makeDiscordAnnouncement(trimmedGamesData);
   // await makePopularityPost(trimmedGamesData);
 };
 
