@@ -1946,7 +1946,7 @@ export const GAMES: match[] = [
       "Abramson Doxia tries to Tackle Nigel Rothmuller, but misses!",
       "Abramson Doxia tries to Tackle Nigel Rothmuller, but misses!",
       "Wylde Jutta Tackles Faina Hendrix and INJURES THEM!",
-      "Wylde Jutta Tackles Faina Hendrix and INJURES THEM!",
+      "Wylde Jutta Tackles Faina Hendrix and INJURES THEM!"
     ],
     openBar: false,
   },
@@ -2143,7 +2143,7 @@ export const GAMES: match[] = [
       "Ladew Evelina tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
       "Ladew Evelina tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
       "Tucker Hett tries to run with the ball but is stopped by the defense!",
-      "Tucker Hett tries to run with the ball but is stopped by the defense!",
+      "Tucker Hett tries to run with the ball but is stopped by the defense!"
     ],
     openBar: false,
   },
