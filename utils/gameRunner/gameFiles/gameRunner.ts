@@ -137,7 +137,7 @@ const handleGamePhase = async (
   gameState = actionHandler(gameState, activePlayer, chosenAction);
 
   if (gameState.latestAction !== "") {
-    gameState.plays.push(gameState.latestAction + "");
+    // gameState.plays.push(gameState.latestAction + "");
     gameState.latestAction = "";
   }
 

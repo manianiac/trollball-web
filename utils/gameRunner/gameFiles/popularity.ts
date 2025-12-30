@@ -2,6 +2,27 @@ import { TEAM_NAMES } from "@/utils/types";
 
 export const popularity = {
   [TEAM_NAMES["The Brimstone Fire Eaters"]]: 0,
+  [TEAM_NAMES["The Confluence Captains"]]: 1,
+  [TEAM_NAMES["The Southport Narwhals"]]: 0,
+  [TEAM_NAMES["The Greenwatch"]]: 1,
+  [TEAM_NAMES["Oak & Onslaught"]]: 3,
+  [TEAM_NAMES["The Desert Spectres"]]: 0,
+  [TEAM_NAMES["The Ebon Gate Corruptors"]]: 0,
+  [TEAM_NAMES["The Haven Lights"]]: 1,
+  [TEAM_NAMES["The Kerlauger Runeguard"]]: 0,
+  [TEAM_NAMES["The New Monteforte Chaos Creatures"]]: 0,
+  [TEAM_NAMES["The New Prosperity Profits"]]: 2,
+  [TEAM_NAMES["The New Ravenfall Commanders"]]: 3,
+  [TEAM_NAMES["The Oread's Summit Tamers"]]: 0,
+  [TEAM_NAMES["The South Pole Yetis"]]: 1,
+  [TEAM_NAMES["The Starlight Bazaar Bizarres"]]: 0,
+  [TEAM_NAMES["The Tortell Privateers"]]: 1,
+  [TEAM_NAMES["The Wyrmwood Stronghammers"]]: 1,
+  [TEAM_NAMES["The Zmeigorod Snessengers"]]: 7,
+};
+
+export const old_popularity = [{
+  [TEAM_NAMES["The Brimstone Fire Eaters"]]: 0,
   [TEAM_NAMES["The Confluence Captains"]]: 2,
   [TEAM_NAMES["The Southport Narwhals"]]: 2,
   [TEAM_NAMES["The Greenwatch"]]: 3,
@@ -19,4 +40,4 @@ export const popularity = {
   [TEAM_NAMES["The Tortell Privateers"]]: 3,
   [TEAM_NAMES["The Wyrmwood Stronghammers"]]: 1,
   [TEAM_NAMES["The Zmeigorod Snessengers"]]: 8,
-};
+}];
