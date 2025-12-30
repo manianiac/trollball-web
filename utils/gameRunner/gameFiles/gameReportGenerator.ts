@@ -8,7 +8,7 @@ import {
 } from "@google/genai";
 
 import { match, match_progress, TEAM_NAMES } from "@/utils/types";
-import { popularity } from "./popularity";
+import { old_popularity, popularity } from "./popularity";
 import { heroesOfTheRealm } from "./heroes";
 import { STATIC_LEAGUE_SCHEDULE } from "../schedule";
 import { TEAMS } from "@/utils/teams";
@@ -254,6 +254,9 @@ export async function generateWeeklyReport(
       <current popularity>
       ${JSON.stringify(popularity)}
       </current popularity>
+      <historical popularity>
+      ${JSON.stringify(old_popularity)}
+      </historical popularity>
 
       This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
       <hero_data>
@@ -294,8 +297,19 @@ export async function generateGameReports(
       ${JSON.stringify(gameData)}
       </game_data>
 
+      Here is the current popularity of each team, which you can reference to comment on fan reactions and attendance
+      These are relative popularity scores based off of discord votes, with 0(no votes) being the least popular.
+      Don't mention numbers directly, but use them to guide your commentary on fan engagement.
+      <current popularity>
+      ${JSON.stringify(popularity)}
+      </current popularity>
+      <historical popularity>
+      ${JSON.stringify(old_popularity)}
+      </historical popularity>
+
       This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters.
       If the game is an open bar, comment on the drunkenness of the players.
+      Comment on how the stadium is influencing the game as well.
       <hero_data>
       ${JSON.stringify(heroesOfTheRealm)}
       </hero_data>
@@ -334,7 +348,7 @@ export async function generateDiscordAnnouncement(
         [Hint at any exciting plays or rivalries that happened this week, but DO NOT hint at who won or lost]
         [Encourage fans to check out the full recap on the Trollball Website]
         [Call to action to vote for their favorite team in the popularity contest next time it appears] 
-        [Celebrate the results of the previous vote, Unnatural Intervention! Give hints at what this might change, but be cryptic and don't promise anything]
+        // [Celebrate the results of the previous vote, Unnatural Intervention! Give hints at what this might change, but be cryptic and don't promise anything]
         // [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
 
       <game_data>
@@ -352,6 +366,9 @@ export async function generateDiscordAnnouncement(
       <current popularity>
       ${JSON.stringify(popularity)}
       </current popularity>
+      <historical popularity>
+      ${JSON.stringify(old_popularity)}
+      </historical popularity>
 
       This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
       <hero_data>
@@ -421,6 +438,9 @@ Mention any rivalries or anticipated matchups for the upcoming week.
       <current popularity>
       ${JSON.stringify(popularity)}
       </current popularity>
+      <historical popularity>
+      ${JSON.stringify(old_popularity)}
+      </historical popularity>
 
       This is a list of some of the Heroes of the Realm. Feel free to riff and mock/praise these characters
       <hero_data>
