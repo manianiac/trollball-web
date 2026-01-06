@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Card, CardBody } from "@heroui/card";
+import { Button, ButtonGroup } from "@heroui/button";
 
 import { GAMES } from "@/utils/games.generated"; // Import the completed match results
 
