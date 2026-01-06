@@ -82,7 +82,8 @@ const loadAllRecaps = () => {
       (filename: string) =>
         filename.endsWith(".json") &&
         (filename.includes("weeklyRecap") ||
-          filename.includes("celebrityPost") || filename.includes("runeReading")),
+          filename.includes("celebrityPost") ||
+          filename.includes("runeReading")),
     )
     .map((filename: string) => {
       const filePath = path.join(GAMES_DIR, filename);

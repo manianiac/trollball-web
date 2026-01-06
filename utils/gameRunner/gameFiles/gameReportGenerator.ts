@@ -201,13 +201,13 @@ export async function generateRecapSummary(pastRecaps: any[]): Promise<string> {
 
       <teams>
       ${Object.entries(TEAMS)
-      .map(([key, value]) =>
-        JSON.stringify({
-          ...value,
-          players: [],
-        }),
-      )
-      .join(",")}
+        .map(([key, value]) =>
+          JSON.stringify({
+            ...value,
+            players: [],
+          }),
+        )
+        .join(",")}
       </teams>
     `;
 

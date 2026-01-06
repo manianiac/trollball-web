@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Accordion, AccordionItem } from "@heroui/accordion";
 import { Card, CardBody } from "@heroui/card";
 import { Button, ButtonGroup } from "@heroui/button";
 
@@ -40,13 +39,11 @@ export default function SchedulePage() {
 
   // 2. Get, filter, and sort the week keys
   const visibleWeekKeys = React.useMemo(() => {
-    return (
-      Object.keys(gamesByWeek)
-        .map(Number)
-        .filter((weekNum) => weekNum <= SEASON_WEEKS)
-        .filter((weekNum) => weekNum > LATEST_COMPLETED_WEEK)
-        .sort((a, b) => a - b)
-    );
+    return Object.keys(gamesByWeek)
+      .map(Number)
+      .filter((weekNum) => weekNum <= SEASON_WEEKS)
+      .filter((weekNum) => weekNum > LATEST_COMPLETED_WEEK)
+      .sort((a, b) => a - b);
   }, [gamesByWeek]);
 
   // Determine the default expanded key (Current Week, if possible)
@@ -79,11 +76,9 @@ export default function SchedulePage() {
             <CardBody className="p-0 overflow-hidden rounded-lg">
               <iframe
                 src="https://challonge.com/lczzekjm/module?show_standings=1"
+                title="Trollball Bracket"
                 width="100%"
                 height="600"
-                frameBorder="0"
-                scrolling="auto"
-                allowTransparency={true}
                 className="w-full"
               />
             </CardBody>
