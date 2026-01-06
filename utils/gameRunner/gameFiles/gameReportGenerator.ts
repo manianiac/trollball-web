@@ -229,7 +229,7 @@ export async function generateWeeklyReport(
   const jsonData = `{results:${allGamesData.map((val) => JSON.stringify(val))}}`;
 
   const userQuery = `
-      Here is are all of the Trollball matches this season. Please generate a lengthy recap covering the highlites of the latest week(week ${week}).
+      Here is are all of the Trollball matches this season. Please generate a lengthy recap covering the highlites of the latest week(week ${week}). This is the final week of the season before we head into the playoffs.
 
       Format the "content" as a blog post, adding markdown headers and other formatting, including but not limited to emojii
       Don't go over every game, but instead group similar games and comment on spectacular plays.
@@ -290,7 +290,7 @@ export async function generateGameReports(
   gameData: match_progress,
 ): Promise<GameReport | null> {
   const userQuery = `
-      Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
+      Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports. This is the final week of the season before we head into the playoffs.
       Use markdown formatting(like headers or lists) and use emojii as needed
 
       <game_data>
@@ -335,8 +335,11 @@ export async function generateDiscordAnnouncement(
     .map((val) => JSON.stringify(val))
     .join(",")}}`;
 
+  // [Celebrate the results of the previous vote, Unnatural Intervention! Give hints at what this might change, but be cryptic and don't promise anything]
+  // [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
+
   const userQuery = `
-      Here is are all of the Trollball matches, as well as your recaps this season. Please generate an announcement post for the LARP Discord Server for week(week ${week}).
+      Here is are all of the Trollball matches, as well as your recaps this season. Please generate an announcement post for the LARP Discord Server for week(week ${week}). This is the final week of the season before we head into the playoffs.
 
       Format the "content" as an announcement, using Discord formatting, including but not limited to emojii. Feel free to insert Faction or Team emojii, even if one doesn't exist as there are custom emojii for all factions.
       Don't spoil any results, but instead build hype for the past week, mentioning any rivalries or anticipated matchups.
@@ -348,8 +351,8 @@ export async function generateDiscordAnnouncement(
         [Hint at any exciting plays or rivalries that happened this week, but DO NOT hint at who won or lost]
         [Encourage fans to check out the full recap on the Trollball Website]
         [Call to action to vote for their favorite team in the popularity contest next time it appears] 
-        // [Celebrate the results of the previous vote, Unnatural Intervention! Give hints at what this might change, but be cryptic and don't promise anything]
-        // [Call to action to vote for the Future of Trollball, where the audience gets to have an influence over how the game evolves. I will provide the choices separately, so don't give suggestions or options here]
+
+      For this week's announcement, it is the season finale! Next week begins the Playoffs, so encourage people to put in their prediction brackets. Entry cost is 1(one) tooth.
 
       <game_data>
       ${jsonData}
@@ -411,7 +414,7 @@ export async function generatePopularityPost(
     .join(",")}}`;
 
   const userQuery = `
-      Here is are all of the Trollball matches, as well as your recaps this season. Please generate an popularity post for the LARP Discord Server for week(${week}).
+      Here is are all of the Trollball matches, as well as your recaps this season. Please generate an popularity post for the LARP Discord Server for week(${week}). This is the final week of the season before we head into the playoffs.
 
       Format the "content" using Discord formatting, including but not limited to emojii. Feel free to insert Faction or Team emojii, even if one doesn't exist as there are custom emojii for all factions.
 Mention any rivalries or anticipated matchups for the upcoming week.

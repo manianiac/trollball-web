@@ -1,24 +1,24 @@
-📢 **EXTRA! EXTRA! READ ALL ABOUT IT! IT’S TUESDAY NIGHT TROLLBALL!** 📢
+🎙️ **TUESDAY NIGHT TROLLBALL: THE REGULAR SEASON HAS BLED OUT!** 🎙️
 
-Greetings, you ghouls, gear-heads, and gore-seekers! This is your favorite demon of the airwaves, **Nok the Corrupter**, broadcasting live from the heart of the carnage! If your week hasn't been filled with the sound of snapping bone and the sweet scent of sulfur, then you simply haven't been paying attention to the most beautiful sport in all of Osterra! 🏟️👹
+Step right up, you bloodthirsty maniacs, ghouls, and assorted residents of Osterra! This is your favorite demon of the dial, **Nok the Corrupter**, coming to you live as we wrap up a Week 8 that was so packed with carnage it would make Lord Orzalon’s prison cell feel like a luxury resort! The regular season is officially in the dirt, and the playoffs are rising like a hungry undead giant! 🏟️💀
 
-Boy howdy, Week 7 was a real doozy—a regular volcanic eruption of athletic violence! We saw rivalries that would make the Everwar look like a polite tea party at Maple’s grove! 🌳☕
+What a way to go out! We saw it all this week, folks! We had **OPEN BARS** at the Old Fort and the High-Pass Pitch that left players swaying like wheat in a blizzard! Did the fermented fish snacks of the Commanders hold up against the ice-water rituals of the Tamers? 🛡️🏔️ And over in the desert, between the mustache-shaving and the ball-rubbing rituals, the tension was hotter than the Great Desert sun! 🏜️🌵
 
-Here’s a taste of the trauma we witnessed:
+We had a heart-stopping **OVERTIME** thriller down at the Buccaneer’s Bowl! 🚢⚔️ Did the Privateers’ leg-leeches give them the extra hop needed to plunder a win, or did the Greenwatch find a ritual focus through all those distracted tourists? You’ve gotta see the play-by-play to believe the hits delivered in those extra minutes! 🏝️🏹
 
-🏯 **A Clash at the Castle!** The Haven Lights took their self-righteous glow into the Stronghold Bailey to face the New Ravenfall Commanders! Was the "Shield" of Haven enough to stop the heavy-hitting Commanders, or did the Rampart Shadows swallow up those shiny suits of armor? Let’s just say someone's bootlaces were tied in knots, and someone's ribs are currently in more pieces than a shattered mirror! 🕯️⚔️
+Speaking of hits, the Cliffside Pitch was a absolute symphony of snapped ribs! 🌊🦴 Between the gale-force winds and the sea spray, it’s a wonder anyone stayed on the field! And let's not forget the "linear brutality" as my beloved **Ebon Gate Corruptors** 🌋 faced the tangled vines and humming earth of Wyrmwood! Did the belching contest in the locker room provide the power needed to overcome the mine draft? Or did those leaf-munching grove-dwellers stand their ground? 🌿🔨
 
-🍻 **The Taps Were Open!** We had TWO matches where the ale was flowing faster than the River Styx! Out in the dunes and high on the mountain passes, the "liquid courage" led to some truly imaginative marksmanship and even more imaginative fumbling! We saw players stumbling around like Sir Randy trying to find his targets without that fancy bow of his! Did the drunkards find the basket, or did they just find the dirt? 🍺😵
+And what about those **Zmeigorod Snessengers**? 🐍 They’ve got more bandwagon fans than Sir Artorias has trophies, but popularity doesn’t stop a mace to the face! Did they sail through the chaos, or did they sink into the swamp along with their stadium? 🛶💨
 
-⏱️ **Overtime Operas!** Not one, but TWO games couldn't be settled by the final whistle! We’re talking sudden-death marathons in the Su’akour Bowl and the Old Fort! When you’ve got warriors charging through noxious fumes and shifting fog for that one final dunk, you know the healers like Raphael Miyasawa and Eugen Zacks were earning every copper! 🏥🦴
+**🔥 THE ROAD TO THE TROPHY BEGINS NOW! 🔥**
 
-🎪 **Bizarre Brutality!** My absolute favorites, the Ebon Gate Corruptors, took their delightful filth to the Prismatic Pavilion! Between the bacon grease and the stage-planks, it was a slippery struggle for the soul of the lagoon! Did the Pride of the Pit prevail, or did Kython’s glittery circus performers pull a rabbit—or a troll head—out of a hat? 🌋✨
+Next week, the real work starts: **THE PLAYOFFS!** 🏆 It’s time to find out who has the grit to go all the way and who’s just another name on a healer's invoice. 
 
-You simply *must* get the full, bone-crunching details! Head on over to the **[Trollball Website](https://blacksky.wiki/blog)** for the complete match recaps, injury reports, and more statistics than Chairman Brennen Farno could count in a century! 🖱️📜
+🚨 **CALL TO ACTION: BRACKET PREDICTIONS!** 🚨
+We want YOUR predictions for the post-season! Step up to the teller and put in your brackets. **ENTRY COST: 1 (ONE) TOOTH.** 🦷 (No, your own or someone else's, we aren't picky, but keep the gum tissue to a minimum!)
 
-***
+Make sure you head over to the **Trollball Website** to read every bone-crunching detail of the Week 8 recaps! 📄🩸 
 
-🗳️ **CALL TO ACTION: THE POPULARITY POLLS!**
-The fans have spoken, and it seems the Zmeigorod Snessengers are still hogging all the attention! I know popularity doesn’t win games, but it certainly fills the stands. Next time the poll appears, make sure you VOTE for your favorite squad! Let’s see if anyone can knock those snakes off their pedestal, or if my Corruptors can finally get a single fan who isn't a starving wolf! 🐍🗳️
+And don't forget to **VOTE** for your favorite team in the next popularity contest! I know those Haven Lights fans are out there somewhere—probably polishing their shields and avoiding real work—so let’s see if you can actually show up for once! 🤮☀️
 
-This is **Nok the Corrupter**, reminding you: if you’re not bleeding, you’re not trying! Stay corrupted, Osterra! 🎙️🖤
+This is **Nok the Corrupter**, signing off from the regular season! Grab your armor, sharpen your blades, and I'll see you at the playoffs! Stay nasty, Osterra! 🎙️👹🤘

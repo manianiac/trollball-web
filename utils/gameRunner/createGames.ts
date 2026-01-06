@@ -1,13 +1,14 @@
 import path from "path";
 import fs from "fs";
 
-import { match } from "@/utils/types";
+import { match, match_progress, ZONE } from "@/utils/types";
 import {
   generateDiscordAnnouncement,
   generatePopularityPost,
   generateWeeklyReport,
   generateCelebrityPost,
   generateRecapSummary,
+  generateGameReports,
 } from "./gameFiles/gameReportGenerator";
 
 export const generateGamesTS = () => {
@@ -265,6 +266,57 @@ async function makeCelebrityPost(allGamesData: match[]) {
   }
 }
 
+async function regenerateWeeklyWriteups(week: number) {
+  const GAMES_DIR = path.join(process.cwd(), "utils", "gameRunner", "results");
+
+  if (!fs.existsSync(GAMES_DIR)) {
+    console.warn(`Directory not found: ${GAMES_DIR}.`);
+    return;
+  }
+
+  const filenames = fs.readdirSync(GAMES_DIR);
+
+  const weekFiles = filenames.filter(
+    (filename) =>
+      filename.startsWith(`${week}-`) &&
+      filename.endsWith(".json") &&
+      !filename.includes("weeklyRecap"),
+  );
+
+  console.log(`Found ${weekFiles.length} games for week ${week}.`);
+
+  for (const filename of weekFiles) {
+    const filePath = path.join(GAMES_DIR, filename);
+    const fileContents = fs.readFileSync(filePath, "utf-8");
+    const gameData: match = JSON.parse(fileContents);
+
+    console.log(`Regenerating writeups for ${filename}...`);
+
+    // Construct a match_progress object for the generator
+    // We provide placeholder values for missing match_progress fields since the game is already finished
+    const matchProgress: match_progress = {
+      ...gameData,
+      homeTeam: gameData.homeTeam as any,
+      awayTeam: gameData.awayTeam as any,
+      possession: null,
+      possessionTeam: "No Team",
+      currentZone: ZONE["Center Field"],
+    };
+
+    const report = await generateGameReports(matchProgress);
+
+    if (report) {
+      gameData.preGame = report.preGameReport;
+      gameData.postGame = report.postGameReport;
+
+      fs.writeFileSync(filePath, JSON.stringify(gameData, null, 2), "utf8");
+      console.log(`Successfully updated ${filename}`);
+    } else {
+      console.error(`Failed to regenerate report for ${filename}`);
+    }
+  }
+}
+
 // --- Main Execution ---
 const run = async () => {
   const allGamesData = generateGamesTS();
@@ -313,6 +365,9 @@ const run = async () => {
 
   makeDiscordAnnouncement(trimmedGamesData);
   // await makePopularityPost(trimmedGamesData);
+
+  // To regenerate writeups for a specific week without rerunning games:
+  // await regenerateWeeklyWriteups(7);
 };
 
 run();
