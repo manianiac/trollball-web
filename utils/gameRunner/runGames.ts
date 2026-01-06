@@ -56,7 +56,7 @@ const runMatch = async (
 // );
 
 const matchesToSimulate = STATIC_LEAGUE_SCHEDULE.filter(
-  (match) => match.week === 6,
+  (match) => match.week === 7,
 );
 matchesToSimulate.forEach((match) => {
   console.log(match.homeTeam.name + " vs " + match.awayTeam.name);

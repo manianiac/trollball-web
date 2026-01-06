@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Accordion, AccordionItem } from "@heroui/accordion";
 import { Card, CardBody } from "@heroui/card";
+import { Button, ButtonGroup } from "@heroui/button";
 
 import { GAMES } from "@/utils/games.generated"; // Import the completed match results
 
@@ -21,6 +22,8 @@ interface GamesByWeek {
 }
 
 export default function SchedulePage() {
+  const [view, setView] = useState<"regular" | "tournament">("tournament");
+
   // 1. Group matches by week number
   const gamesByWeek = React.useMemo(() => {
     return LEAGUE_SCHEDULE.reduce((acc, match) => {
@@ -41,11 +44,9 @@ export default function SchedulePage() {
       Object.keys(gamesByWeek)
         .map(Number)
         .filter((weekNum) => weekNum <= SEASON_WEEKS)
-        // --- CHANGE: Only show current week (LATEST_COMPLETED_WEEK) and future weeks ---
         .filter((weekNum) => weekNum > LATEST_COMPLETED_WEEK)
-        // -------------------------------------------------------------------------------
         .sort((a, b) => a - b)
-    ); // Sort ascending (Week 0, 1, 2, 3...)
+    );
   }, [gamesByWeek]);
 
   // Determine the default expanded key (Current Week, if possible)
@@ -58,89 +59,57 @@ export default function SchedulePage() {
     if (weekNum > LATEST_COMPLETED_WEEK) {
       return { label: "(Upcoming)", color: "text-warning-500" };
     }
-
-    // Note: Past weeks are filtered out in visibleWeekKeys, so this case shouldn't trigger.
     return { label: "", color: "" };
   };
 
   return (
     <DefaultLayout>
-      <section className="flex flex-col items-center gap-6 p-4 md:p-8">
-        <div className="text-center space-y-2">
+      <section className="flex flex-col items-center gap-6 p-4 md:p-8 text-center">
+        <div className="space-y-4 max-w-4xl">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
-            Trollball Season Schedule
+            Trollball Schedule
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400">
-            Viewing upcoming action for the {SEASON_WEEKS} Week Season.
+            Witness the clash of titans in the Post-Season Championship.
           </p>
         </div>
 
-        <Accordion
-          // Automatically expand the current week
-          className="w-full max-w-4xl mt-4"
-          defaultExpandedKeys={[defaultExpandedKey]}
-        >
-          {visibleWeekKeys.map((weekNum) => {
-            const status = getWeekStatus(weekNum);
+        <div className="w-full max-w-5xl mt-4 flex flex-col gap-4">
+          <Card className="p-1 bg-default-50 dark:bg-default-100 border-none shadow-xl">
+            <CardBody className="p-0 overflow-hidden rounded-lg">
+              <iframe
+                src="https://challonge.com/lczzekjm/module?show_standings=1"
+                width="100%"
+                height="600"
+                frameBorder="0"
+                scrolling="auto"
+                allowTransparency={true}
+                className="w-full"
+              />
+            </CardBody>
+          </Card>
+          <p className="text-center text-sm text-default-400 italic">
+            Live updates via Challonge.com
+          </p>
+        </div>
 
-            return (
-              <AccordionItem
-                key={weekNum}
-                aria-label={`Games for Week ${weekNum}`}
-                title={
-                  <span className="text-xl font-semibold">
-                    Week {weekNum}
-                    <span
-                      className={`ml-3 text-sm font-normal ${status.color}`}
-                    >
-                      {status.label}
-                    </span>
-                  </span>
-                }
-              >
-                <Card>
-                  <CardBody>
-                    <div className="flex flex-col gap-3">
-                      {gamesByWeek[weekNum].map((match, index) => (
-                        // Main Match Container: Stacks vertically on mobile, switches to space-between on medium screens
-                        <div
-                          key={index}
-                          className="flex flex-col md:flex-row md:justify-between md:items-center 
-                                     p-3 rounded-lg border border-default-200 dark:border-default-700 
-                                     hover:bg-default-100 transition-colors"
-                        >
-                          {/* Team Info Group: Stacks on mobile */}
-                          <div className="flex flex-col items-start gap-1 mb-2 md:flex-row md:items-center md:gap-4 md:mb-0 text-medium font-semibold">
-                            {/* Home Team */}
-                            <div className="flex items-center gap-2">
-                              <TeamIcon size={24} team={match.homeTeam.name} />
-                              <span>{match.homeTeam.name}</span>
-                            </div>
+        {/* 
+          NOTE: Regular Season view is temporarily hidden. 
+          To restore, uncomment the ButtonGroup and logic below.
+        */}
 
-                            <span className="text-default-500 font-normal ml-8 md:ml-0">
-                              vs
-                            </span>
+        {/* 
+        <ButtonGroup variant="flat" color="primary">
+          <Button onPress={() => setView("regular")}>Regular Season</Button>
+          <Button onPress={() => setView("tournament")}>Tournament Bracket</Button>
+        </ButtonGroup>
+        */}
 
-                            {/* Away Team */}
-                            <div className="flex items-center gap-2">
-                              <TeamIcon size={24} team={match.awayTeam.name} />
-                              <span>{match.awayTeam.name}</span>
-                            </div>
-                          </div>
-
-                          {/* Stadium Info: Centered under the teams on mobile, right-aligned on desktop */}
-                          <span className="text-sm text-default-600 dark:text-default-400 md:text-right">
-                            @ {match.homeTeam.stadium.name}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </CardBody>
-                </Card>
-              </AccordionItem>
-            );
-          })}
-        </Accordion>
+        {/* 
+        {view === "regular" && (
+           <Accordion ... />
+        )}
+        */}
       </section>
     </DefaultLayout>
   );
