@@ -85,10 +85,10 @@ const runAllMatches = async () => {
     // Run the game simulation
     console.log(
       "generating match for " +
-      baseMatch.homeTeam.name +
-      " vs " +
-      baseMatch.awayTeam.name +
-      (openBarIndices.has(index) ? " (Open Bar)" : ""),
+        baseMatch.homeTeam.name +
+        " vs " +
+        baseMatch.awayTeam.name +
+        (openBarIndices.has(index) ? " (Open Bar)" : ""),
     );
     await runMatch(
       baseMatch.homeTeam,

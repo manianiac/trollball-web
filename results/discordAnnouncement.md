@@ -12,12 +12,12 @@ And what about those **Zmeigorod Snessengers**? 🐍 They’ve got more bandwago
 
 **🔥 THE ROAD TO THE TROPHY BEGINS NOW! 🔥**
 
-Next week, the real work starts: **THE PLAYOFFS!** 🏆 It’s time to find out who has the grit to go all the way and who’s just another name on a healer's invoice. 
+Next week, the real work starts: **THE PLAYOFFS!** 🏆 It’s time to find out who has the grit to go all the way and who’s just another name on a healer's invoice.
 
 🚨 **CALL TO ACTION: BRACKET PREDICTIONS!** 🚨
 We want YOUR predictions for the post-season! Step up to the teller and put in your brackets. **ENTRY COST: 1 (ONE) TOOTH.** 🦷 (No, your own or someone else's, we aren't picky, but keep the gum tissue to a minimum!)
 
-Make sure you head over to the **Trollball Website** to read every bone-crunching detail of the Week 8 recaps! 📄🩸 
+Make sure you head over to the **Trollball Website** to read every bone-crunching detail of the Week 8 recaps! 📄🩸
 
 And don't forget to **VOTE** for your favorite team in the next popularity contest! I know those Haven Lights fans are out there somewhere—probably polishing their shields and avoiding real work—so let’s see if you can actually show up for once! 🤮☀️
 

@@ -17,7 +17,7 @@ export const fight = (
 
   const defender =
     defendingTeam.activePlayers![
-    getRandomInt(0, defendingTeam.activePlayers!.length - 1)
+      getRandomInt(0, defendingTeam.activePlayers!.length - 1)
     ];
 
   if (calculateSuccess(activePlayer.stats.fight, activePlayer)) {
