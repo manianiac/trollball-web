@@ -1,0 +1,871 @@
+{
+  "homeTeam": {
+    "name": "The Southport Narwhals",
+    "slug": "southport",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 48,
+    "stadium": {
+      "name": "The Cliffside Pitch",
+      "location": "Southport",
+      "description": "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
+      "modifiers": ["Gale-Force Winds", "Sea Spray", "Rocky Outcropping"]
+    },
+    "healer": {
+      "name": "Sand Denys",
+      "team": "The Southport Narwhals",
+      "stats": {
+        "pass": 55,
+        "catch": 54,
+        "run": 50,
+        "block": 53,
+        "fight": 61,
+        "throw": 64,
+        "luck": 60,
+        "pronouns": "She/Her",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 46,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Telling each other exaggerated lies about their own strength.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Blood Eppes",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 54,
+          "run": 52,
+          "block": 47,
+          "fight": 64,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Malcolm Goer",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 36,
+          "run": 63,
+          "block": 65,
+          "fight": 56,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Blanc Fantasia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 51,
+          "run": 60,
+          "block": 58,
+          "fight": 64,
+          "throw": 52,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 43,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Loralyn Lyndy",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 47,
+          "run": 58,
+          "block": 57,
+          "fight": 57,
+          "throw": 59,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cibis Areta",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 63,
+          "catch": 48,
+          "run": 57,
+          "block": 59,
+          "fight": 54,
+          "throw": 45,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Braden Gaile",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 53,
+          "block": 67,
+          "fight": 68,
+          "throw": 65,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Crescint Sonia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 65,
+          "catch": 64,
+          "run": 67,
+          "block": 47,
+          "fight": 44,
+          "throw": 53,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cilurzo Sochor",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 54,
+          "block": 65,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Torey Dannye",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 49,
+          "catch": 59,
+          "run": 55,
+          "block": 56,
+          "fight": 45,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fineman Dolhenty",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 48,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Wearing a necklace of polished river stones.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Blood Eppes",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 54,
+          "run": 52,
+          "block": 47,
+          "fight": 64,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Malcolm Goer",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 36,
+          "run": 63,
+          "block": 65,
+          "fight": 56,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Blanc Fantasia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 51,
+          "run": 60,
+          "block": 58,
+          "fight": 64,
+          "throw": 52,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 43,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Loralyn Lyndy",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 47,
+          "run": 58,
+          "block": 57,
+          "fight": 57,
+          "throw": 59,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cibis Areta",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 63,
+          "catch": 48,
+          "run": 57,
+          "block": 59,
+          "fight": 54,
+          "throw": 45,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Braden Gaile",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 53,
+          "block": 67,
+          "fight": 68,
+          "throw": 65,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cilurzo Sochor",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 54,
+          "block": 65,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Torey Dannye",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 49,
+          "catch": 59,
+          "run": 55,
+          "block": 56,
+          "fight": 45,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fineman Dolhenty",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 48,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Wearing a necklace of polished river stones.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Crescint Sonia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 65,
+          "catch": 64,
+          "run": 67,
+          "block": 47,
+          "fight": 44,
+          "throw": 53,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Brimstone Fire Eaters",
+    "slug": "brimstone",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Su'akour Bowl",
+      "location": "Brimstone (Su'akour Ruins)",
+      "description": "A crude, rowdy stadium built within the half-finished, black-stone walls of the warlord Su'akour's abandoned fortress. The stands are crumbling ruins, and the entire arena perpetually stinks of the nearby sulfur marshes.",
+      "modifiers": ["Noxious Fumes", "Crumbling Walls", "Uneven Ground"]
+    },
+    "healer": {
+      "name": "Raphael Miyasawa",
+      "team": "The Brimstone Fire Eaters",
+      "stats": {
+        "pass": 46,
+        "catch": 49,
+        "run": 63,
+        "block": 56,
+        "fight": 60,
+        "throw": 60,
+        "luck": 63,
+        "pronouns": "She/Them",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "Step right up, sports fans, ghouls, and battle-hardened veterans! It is a glorious, salt-crusted Tuesday evening here at the Cliffside Pitch in Southport, and boy, do we have a doozy for the final week of the season! I am Nok the Corrupter, coming to you live where the gale-force winds are currently trying to whistle a tune through my ribs, and the sea spray is giving the Trollball a lovely, slippery sheen! We are perched right on the edge of oblivion, folks—one bad step and you are shark bait! It is the Brimstone Fire Eaters taking on our hosts, the Southport Narwhals, in a match that promises more broken bones than a necromancer's workshop!\n\nNow, look at these Fire Eaters! They hail from the Su'akour Bowl, and you can tell by the way Glassman Solley is currently washing his hands with dirt—a classic ritual for a man who loves a Rondel Dagger and a face full of grime! Meanwhile, Nachison Icken has her boots on the wrong feet for the warm-up! That is the kind of chaotic energy that would make even my old pal Sir Tanos blush, and we all know that man hates a letter but loves a good stabbing! The Fire Eaters are looking to burn down the house, and I for one am rooting for the team that brings the most heat to this freezing cliffside!\n\nBut don't count out King Nezmear’s favorites just yet! The Southport Narwhals are looking sharp, literally! Loralyn Lyndy is over there adjusting her codpiece with the kind of theatrical importance you usually only see at a God-King Artorias coronation! And keep an eye on Cilurzo Sochor, who is currently whispering a heroic backstory to the leather troll head. I hope that head likes tragedy, because it is about to be punted into a basket! The fans might be a bit sparse today—I suppose everyone is home tending to their werewolves or feeding Elizabeef the werecow—but the atmosphere is electric with the threat of imminent injury!\n\nThere is no open bar today, folks, which is a crying shame for those of us who like our violence with a side of rotgut, but the players are sober and ready to slaughter! Will the Fire Eaters’ voodoo weather rhymes from Nigel Rothmuller carry them to victory, or will the Narwhals use those rocky outcroppings to cheese a win? It is the last stop before the playoffs, and the Everwar is heating up! Strap in, keep your shields up, and let’s get this Trollball rolling! It’s going to be a real humdinger of a homicide!",
+  "postGame": "Hey-ho, what a display of athletic carnage! The whistle has blown, the spray has settled, and the Southport Narwhals have defended their cliffside with the ferocity of a cornered crab! The final score stands at Narwhals 2, Fire Eaters 0, and my horns are still buzzing from the sheer impact of those collisions! It was a masterclass in linear brutality, and while my favorites from the Fire Eaters couldn't find the basket, they certainly found plenty of bruises to take home as souvenirs!\n\nThe action kicked off with Loralyn Lyndy snagging the ball in Center Field, and from that moment, the Narwhals were moving like a greased lightning bolt! Braden Gaile made a dash for the goal that would have made even the circus-escapee Sawyer jealous, but the Fire Eaters’ defense held firm for a moment. However, the Narwhals’ persistence paid off when Blanc Fantasia—a man who clearly knows his way around a Seax—looted a pass over to Cibis Areta. Cibis didn't hesitate, dunking that troll head into the goal like it was a naughty goblin! 1-0 for the home team, and the wind howled in approval!\n\nBut the real story of the first half was the absolute wreckage in the trenches! Malcolm Goer decided that Nigel Rothmuller’s ribs were surplus to requirements, delivering a tackle that left the spear-wielder seeing stars and visiting the healer! And oh, the beauty of the violence didn't stop there! Fineman Dolhenty went on a absolute rampage, knocking Orlina Jerrine and Selimah Tully right out of their boots! It was a symphony of agony that would have brought a tear to Lord Orzalon's eye if he weren't currently cooling his heels in prison! The Fire Eaters were dropping like flies, folks!\n\nJust when you thought the Fire Eaters might mount a comeback, Loralyn Lyndy showed off some of that 'codpiece confidence' by intercepting a wild pass from Campball Fink! It was a theft so brazen it would make the Guild of the Black Sky proud. Despite the noxious fumes and the slippery sea spray, the Narwhals kept their composure. Even with the lack of alcohol, the players were stumbling around like they’d spent the night at one of Imra’s dust-heavy parties, thanks to the relentless wind and the pounding they were taking!\n\nHalftime came just in time for Raphael Miyasawa to kiss a few more biceps and get the Fire Eaters back on their feet. But the second half was more of the same Southport dominance! Cilurzo Sochor might have dropped the ball once or twice, probably busy narrating the troll head's internal monologue, but the Narwhals didn't let up. Malcolm Goer continued to be a one-man wrecking crew, clearing a path through the dirt-stained Fire Eaters like a plow through a graveyard!\n\nThe nail in the coffin came when Blanc Fantasia, showing the kind of grace Sir Artorias usually reserves for fey-slaying, found Cibis Areta once again in the End Zone! Another dunk, another point, and the Narwhals were sitting pretty at 2-0! The Fire Eaters tried to retaliate, with Wylde Jutta delivering a bone-crunching tackle to Crescint Sonia that sent the Warhammer-wielder to the sidelines, but it was too little, too late. The Brimstone boys just couldn't find the range on their shots, with Bollinger Susette missing a long-distance prayer that sailed wide enough to hit a passing seagull!\n\nBy the closing minutes, the field was a mess of salt, sweat, and shattered dreams. Cibis Areta, not content with scoring, decided to add 'injury to insult' by flattening Lowson Hersh. And just to put a bow on it, Fineman Dolhenty ended the game by taking out Wylde Jutta! It was a bloodbath, pure and simple! The Narwhals played like they had the goddess Oona herself cheering from the lighthouse, while the Fire Eaters looked like they’d spent too much time communicating with birds and not enough time catching the ball!\n\nSo, as the sun dips below the horizon and the werewolves of Southport start their nightly choir, we wrap up the regular season! The Narwhals take the win, the Fire Eaters take the bandages, and we all take a moment to appreciate the glorious lack of sportsmanship! My heart sinks for the Brimstone crew, but you can't win 'em all when you're wearing your boots on the wrong feet, can you?\n\nTake heart, Eponore fans, there is always the playoffs to look forward to! Perhaps Sir Tanos will stop stabbing me long enough to give the team a pep talk. But for now, the Narwhals are the kings of the cliff! This is Nok the Corrupter, signing off from the most dangerous linear field in Osterra! Keep your blades sharp and your healers closer!\n\nFinal Score: The Southport Narwhals 2 - The Brimstone Fire Eaters 0. What a day for a murder, stay tuned for the playoffs, folks! It’s going to be absolutely demonic!",
+  "week": 8,
+  "homeScore": 2,
+  "awayScore": 0,
+  "slug": "8-southport-brimstone",
+  "plays": [
+    "The Trollball is picked up by Loralyn Lyndy in zone Center Field",
+    "Bollinger Susette tries to Tackle Torey Dannye, but misses!",
+    "Braden Gaile runs with the ball and advances towards the goal!",
+    "Orlina Jerrine tries to Tackle Blood Eppes, but misses!",
+    "Braden Gaile tries to Tackle Oona Jane, but Oona Jane blocks it!",
+    "Blanc Fantasia shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Cibis Areta in zone Away Field",
+    "Nachison Icken tries to Tackle Crescint Sonia, but misses!",
+    "Blood Eppes runs with the ball and advances towards the goal!",
+    "Cibis Areta tries to Tackle Wylde Jutta, but misses!",
+    "Wylde Jutta tries to Tackle Crescint Sonia, but misses!",
+    "Nigel Rothmuller tries to Tackle Braden Gaile, but misses!",
+    "Oona Jane Tackles Braden Gaile and INJURES THEM!",
+    "Selimah Tully tries to Tackle Loralyn Lyndy, but Loralyn Lyndy blocks it!",
+    "Blanc Fantasia passes to Blood Eppes in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Lowson Hersh in zone Center Field",
+    "Malcolm Goer Tackles Nigel Rothmuller and INJURES THEM!",
+    "Campball Fink tries to Tackle Malcolm Goer, but misses!",
+    "Campball Fink passes the ball to Campball Fink!",
+    "Fineman Dolhenty Tackles Orlina Jerrine and INJURES THEM!",
+    "Fineman Dolhenty Tackles Selimah Tully and INJURES THEM!",
+    "Campball Fink throws a wild pass and it is INTERCEPTED by Loralyn Lyndy!",
+    "Fineman Dolhenty runs with the ball and advances towards the goal!",
+    "Lowson Hersh tries to Tackle Loralyn Lyndy, but Loralyn Lyndy blocks it!",
+    "Wylde Jutta tries to Tackle Fineman Dolhenty, but misses!",
+    "Blood Eppes passes the ball to Crescint Sonia!",
+    "Blanc Fantasia tries to run with the ball but is stopped by the defense!",
+    "Nigel Rothmuller tries to Tackle Torey Dannye, but Torey Dannye blocks it!",
+    "Bollinger Susette tries to Tackle Fineman Dolhenty, but misses!",
+    "Torey Dannye tries to Tackle Nachison Icken, but misses!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Fineman Dolhenty in zone Away Field",
+    "Cibis Areta tries to Tackle Campball Fink, but misses!",
+    "Nigel Rothmuller tries to Tackle Fineman Dolhenty, but misses!",
+    "Lowson Hersh tries to Tackle Crescint Sonia, but Crescint Sonia blocks it!",
+    "Oona Jane tries to Tackle Blanc Fantasia, but Blanc Fantasia blocks it!",
+    "Fineman Dolhenty passes the ball to Cilurzo Sochor, but they drop it!",
+    "The Trollball is picked up by Cilurzo Sochor in zone Away Field",
+    "Glassman Solley tries to Tackle Fineman Dolhenty, but misses!",
+    "Malcolm Goer runs with the ball and advances towards the goal!",
+    "Torey Dannye tries to Tackle Bollinger Susette, but misses!",
+    "Crescint Sonia passes the ball to Cibis Areta, but they drop it!",
+    "The Trollball is picked up by Loralyn Lyndy in zone Away 2-Point",
+    "Nigel Rothmuller tries to Tackle Torey Dannye, but misses!",
+    "Wylde Jutta tries to Tackle Malcolm Goer, but Malcolm Goer blocks it!",
+    "Glassman Solley tries to Tackle Torey Dannye, but misses!",
+    "Blanc Fantasia passes to Cibis Areta in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Wylde Jutta in zone Center Field",
+    "Campball Fink runs with the ball and advances towards the goal!",
+    "Wylde Jutta Tackles Crescint Sonia and INJURES THEM!",
+    "Glassman Solley tries to run with the ball but is stopped by the defense!",
+    "Lowson Hersh passes the ball to Nachison Icken, but they drop it!",
+    "The Trollball is picked up by Bollinger Susette in zone Home Field",
+    "Cibis Areta Tackles Lowson Hersh and INJURES THEM!",
+    "Cilurzo Sochor tries to Tackle Nigel Rothmuller, but Nigel Rothmuller blocks it!",
+    "Malcolm Goer tries to Tackle Nachison Icken, but misses!",
+    "Bollinger Susette shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Campball Fink in zone Home Field",
+    "Loralyn Lyndy tries to Tackle Glassman Solley, but Glassman Solley blocks it!",
+    "Fineman Dolhenty Tackles Wylde Jutta and INJURES THEM!"
+  ],
+  "openBar": false
+}

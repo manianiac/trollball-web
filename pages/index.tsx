@@ -46,8 +46,10 @@ Did you miss the match? Shame on you! Read the play-by-play breakdowns here. Fin
 ### 🛡️ [THE TEAMS](/teams)
 Check the rosters! From the pathetic **Haven Lights** (boo!) to the glorious, unstoppable juggernauts, the **Ebon Gate Corruptors** (YEAH!), see who is taking the field this week.
 
+{/* 
 ### 🏆 [SEASON STANDINGS](/standings)
-Numbers don't lie, folks. See who is king of the hill and who is rotting in the cellar. Tracking kills, goals, and total regenerations!
+Numbers don't lie, folks. See who is king of the hill and who is rotting in the cellar. Tracking kills, goals, and total regenerations! 
+*/}
 
 ### 📅 [SCHEDULE](/schedule)
 Mark your calendars! Find out when your favorite(or least favorite) team is playing next!

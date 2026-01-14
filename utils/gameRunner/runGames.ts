@@ -32,6 +32,7 @@ const runMatch = async (
   awayTeam: team,
   week: number,
   openBar: boolean,
+  seriesGames?: match[],
 ) => {
   let gameState: match_progress = {} as match_progress;
 
@@ -43,58 +44,143 @@ const runMatch = async (
   gameState.awayScore = 0;
   gameState.homeScore = 0;
   gameState.week = week;
-  gameState.openBar = openBar;
 
-  await gameLoop(gameState);
+  await gameLoop(gameState, seriesGames);
 };
 
+// Helper to find previous games in the series
+const findPreviousSeriesGames = (homeTeam: team, awayTeam: team): match[] => {
+  const resultsDir = path.join(process.cwd(), "utils", "gameRunner", "results");
+
+  if (!fs.existsSync(resultsDir)) {
+    return [];
+  }
+
+  const allFiles = fs.readdirSync(resultsDir);
+
+  const relevantGames: match[] = [];
+
+  for (const file of allFiles) {
+    if (!file.endsWith(".json")) continue;
+
+    try {
+      const filePath = path.join(resultsDir, file);
+      const fileContent = fs.readFileSync(filePath, "utf-8");
+      const gameData = JSON.parse(fileContent);
+
+      // Check if this game involves the same two teams (in either order)
+      const isSameMatchup =
+        (gameData.homeTeam.slug === homeTeam.slug &&
+          gameData.awayTeam.slug === awayTeam.slug) ||
+        (gameData.homeTeam.slug === awayTeam.slug &&
+          gameData.awayTeam.slug === homeTeam.slug);
+
+      if (isSameMatchup) {
+        relevantGames.push(gameData);
+      }
+    } catch (err) {
+      console.warn(`Error parsing file ${file}:`, err);
+    }
+  }
+
+  // Sort by week/index (ascending)
+  relevantGames.sort((a, b) => a.week - b.week);
+
+  return relevantGames;
+};
+
+let matchesToSimulate = [
+  {
+    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
+    awayTeam: TEAMS["The Brimstone Fire Eaters"],
+    week: 1,
+    openBar: false,
+  },
+  {
+    awayTeam: TEAMS["The Starlight Bazaar Bizarres"],
+    homeTeam: TEAMS["The Brimstone Fire Eaters"],
+    week: 2,
+    openBar: false,
+  },
+  {
+    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
+    awayTeam: TEAMS["The Brimstone Fire Eaters"],
+    week: 3,
+    openBar: false,
+  },
+  {
+    homeTeam: TEAMS["The Desert Spectres"],
+    awayTeam: TEAMS["The New Monteforte Chaos Creatures"],
+    week: 1,
+    openBar: true,
+  },
+  {
+    awayTeam: TEAMS["The Desert Spectres"],
+    homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
+    week: 2,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Desert Spectres"],
+    awayTeam: TEAMS["The New Monteforte Chaos Creatures"],
+    week: 3,
+    openBar: true,
+  },
+];
+
 // runMatch(
-//   TEAMS["The Brimstone Fire Eaters"],
-//   TEAMS["The Confluence Captains"],
-//   0,
+//   TEAMS["The Desert Spectres"],
+//   TEAMS["The New Monteforte Chaos Creatures"],
+//   -1,
 //   true
 // );
 
-const matchesToSimulate = STATIC_LEAGUE_SCHEDULE.filter(
-  (match) => match.week === 7,
-);
-matchesToSimulate.forEach((match) => {
-  console.log(match.homeTeam.name + " vs " + match.awayTeam.name);
-});
-// Calculate how many games should be Open Bar (25%)
-const totalGames = matchesToSimulate.length;
-const openBarCount = Math.floor(totalGames * 0.25);
+// const matchesToSimulate = STATIC_LEAGUE_SCHEDULE.filter(
+//   (match) => match.week === 7,
+// );
+// matchesToSimulate.forEach((match) => {
+//   console.log(match.homeTeam.name + " vs " + match.awayTeam.name);
+// });
+// // Calculate how many games should be Open Bar (25%)
+// const totalGames = matchesToSimulate.length;
+// const openBarCount = Math.floor(totalGames * 0.25);
 
-// Create an array of indices [0, 1, 2, ... totalGames-1]
-const indices = Array.from({ length: totalGames }, (_, i) => i);
+// // Create an array of indices [0, 1, 2, ... totalGames-1]
+// const indices = Array.from({ length: totalGames }, (_, i) => i);
 
-// Shuffle the indices (Fisher-Yates shuffle)
-for (let i = indices.length - 1; i > 0; i--) {
-  const j = Math.floor(Math.random() * (i + 1));
-  [indices[i], indices[j]] = [indices[j], indices[i]];
-}
+// // Shuffle the indices (Fisher-Yates shuffle)
+// for (let i = indices.length - 1; i > 0; i--) {
+//   const j = Math.floor(Math.random() * (i + 1));
+//   [indices[i], indices[j]] = [indices[j], indices[i]];
+// }
 
-// Select the first 'openBarCount' indices to be Open Bar games
-const openBarIndices = new Set(indices.slice(0, openBarCount));
+// // Select the first 'openBarCount' indices to be Open Bar games
+// const openBarIndices = new Set(indices.slice(0, openBarCount));
 
 const runAllMatches = async () => {
   for (let i = 0; i < matchesToSimulate.length; i++) {
     const baseMatch = matchesToSimulate[i];
-    const index = i;
     baseMatch.week++;
     // Run the game simulation
     console.log(
       "generating match for " +
         baseMatch.homeTeam.name +
         " vs " +
-        baseMatch.awayTeam.name +
-        (openBarIndices.has(index) ? " (Open Bar)" : ""),
+        baseMatch.awayTeam.name,
     );
+
+    const seriesGames = findPreviousSeriesGames(
+      baseMatch.homeTeam,
+      baseMatch.awayTeam,
+    );
+    console.log(`Found ${seriesGames.length} previous games in this series.`);
+
     await runMatch(
       baseMatch.homeTeam,
       baseMatch.awayTeam,
       baseMatch.week,
-      openBarIndices.has(index),
+      baseMatch.openBar,
+      seriesGames,
     );
 
     // Wait 5 seconds between matches to avoid rate limits

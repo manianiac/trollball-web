@@ -137,7 +137,7 @@ export default function GamePage({ gameData }: { gameData: match }) {
           </CardBody>
           <Divider />
           <CardFooter className="flex justify-center text-small text-default-500">
-            Week {date} at {homeTeam.stadium.name}
+            Round {date + 1} at {homeTeam.stadium.name}
           </CardFooter>
         </Card>
         {/* Sections 2 & 3: Pregame / Postgame */}

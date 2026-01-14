@@ -1,0 +1,921 @@
+{
+  "homeTeam": {
+    "name": "The South Pole Yetis",
+    "slug": "south-pole",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 55,
+    "stadium": {
+      "name": "The South Pole Palisade",
+      "location": "A remote southern frontier town",
+      "description": "A crude, fortified playing field built from rough-hewn logs. It's less a stadium and more a stockade against the wilderness. The 'grass' is mostly frozen mud and straw.",
+      "modifiers": ["Freezing Rain", "Icy Field", "Wolf Pack Howling"]
+    },
+    "healer": {
+      "name": "Seiter Aida",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 50,
+        "catch": 50,
+        "run": 59,
+        "block": 46,
+        "fight": 48,
+        "throw": 67,
+        "luck": 52,
+        "pronouns": "They/Them",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 57,
+        "favorite_weapon": "Club",
+        "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Sale Tocci",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 54,
+          "block": 54,
+          "fight": 52,
+          "throw": 55,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 69,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ajit Serge",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 54,
+          "run": 55,
+          "block": 51,
+          "fight": 59,
+          "throw": 58,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Isborne Krause",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 47,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selima Si",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 61,
+          "run": 65,
+          "block": 60,
+          "fight": 53,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Duky Orelee",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 55,
+          "catch": 41,
+          "run": 59,
+          "block": 67,
+          "fight": 48,
+          "throw": 56,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sayers Erdda",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 49,
+          "block": 54,
+          "fight": 48,
+          "throw": 69,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Jessy Debbie",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 60,
+          "block": 48,
+          "fight": 59,
+          "throw": 54,
+          "luck": 44,
+          "pronouns": "They/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hilaire Guevara",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 47,
+          "block": 52,
+          "fight": 56,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coussoule Bidle",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 58,
+          "run": 63,
+          "block": 59,
+          "fight": 59,
+          "throw": 47,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Turning their helmet around three times before putting it on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Udela Dorkus",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 54,
+          "catch": 60,
+          "run": 58,
+          "block": 54,
+          "fight": 53,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Licking a whetstone.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Ajit Serge",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 54,
+          "run": 55,
+          "block": 51,
+          "fight": 59,
+          "throw": 58,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Selima Si",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 61,
+          "run": 65,
+          "block": 60,
+          "fight": 53,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Duky Orelee",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 55,
+          "catch": 41,
+          "run": 59,
+          "block": 67,
+          "fight": 48,
+          "throw": 56,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sayers Erdda",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 49,
+          "block": 54,
+          "fight": 48,
+          "throw": 69,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Jessy Debbie",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 60,
+          "block": 48,
+          "fight": 59,
+          "throw": 54,
+          "luck": 44,
+          "pronouns": "They/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hilaire Guevara",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 47,
+          "block": 52,
+          "fight": 56,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coussoule Bidle",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 58,
+          "run": 63,
+          "block": 59,
+          "fight": 59,
+          "throw": 47,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Turning their helmet around three times before putting it on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sale Tocci",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 54,
+          "block": 54,
+          "fight": 52,
+          "throw": 55,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 69,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Isborne Krause",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 47,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Udela Dorkus",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 54,
+          "catch": 60,
+          "run": 58,
+          "block": 54,
+          "fight": 53,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Licking a whetstone.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The New Monteforte Chaos Creatures",
+    "slug": "new-monteforte",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 65,
+    "stadium": {
+      "name": "The Unruly Yard",
+      "location": "New Monteforte",
+      "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+      "modifiers": ["Rowdy Crowd", "Unstable Scaffolding", "Street Performer"]
+    },
+    "healer": {
+      "name": "Lian Denton",
+      "team": "The New Monteforte Chaos Creatures",
+      "stats": {
+        "pass": 55,
+        "catch": 62,
+        "run": 56,
+        "block": 58,
+        "fight": 45,
+        "throw": 60,
+        "luck": 50,
+        "pronouns": "They/Them",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Boulanger Procto",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 57,
+          "block": 66,
+          "fight": 60,
+          "throw": 57,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gabriele Klehm",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 59,
+          "catch": 57,
+          "run": 47,
+          "block": 62,
+          "fight": 50,
+          "throw": 56,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alben Diantha",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 48,
+          "block": 55,
+          "fight": 63,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hammer",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Boulanger Procto",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 57,
+          "block": 66,
+          "fight": 60,
+          "throw": 57,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gabriele Klehm",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 59,
+          "catch": 57,
+          "run": 47,
+          "block": 62,
+          "fight": 50,
+          "throw": 56,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "# 🏟️ TUESDAY NIGHT TROLLBALL: FROSTBITE AND FISTFIGHTS! 🏟️\n\nStep right up and huddle close to your receivers, folks! This is your favorite demon of the airwaves, **Nok the Corrupter**, coming to you live from the edge of the map! We are bunkered down inside **The South Pole Palisade**, and let me tell you, it is a real ice-box out here! The wind is howling like a pack of starving wolves—mostly because there is a pack of starving wolves howling right outside the log walls! Ha ha! Tonight is the final week of the season, and the stakes are higher than High Prince Duke Barőn’s wig! ❄️🦴\n\nTonight, we’ve got a real doozy for you. The **South Pole Yetis** are defending their home turf of frozen mud and straw against the visiting **New Monteforte Chaos Creatures**! Now, the Chaos Creatures might be associated with that dirt-wizard Dame Terra Monteforte, but don’t let their lack of fans fool you—these folks are ready to rumble! I saw **Lian Denton** earlier drinking a shot of hot gravy from a dented tin cup! That’s the kind of pre-game fuel that leads to broken ribs, and you know I love to see it! 🍵💥\n\nOn the other side of the field, the Yetis are looking chilly but lethal. **Udela Dorkus** was spotted licking a whetstone to sharpen her appetite for destruction, while **Seiter Aida** was getting a good whiff of some game-worn socks. It’s that kind of rustic charm that really brings the fans out—well, the few fans who weren't eaten by the local wildlife on the way here! It’s a shame my **Ebon Gate Corruptors** aren't out here to show them how it's really done, and thank the Abyss the **Haven Lights** aren't here to bore us with their 'virtue'! Let’s get to the action! ❄️🏔️",
+  "postGame": "# 🏆 POST-GAME WRAP-UP: A CHILLING VICTORY! 🏆\n\n## 🧊 Final Score: South Pole Yetis 1 - Chaos Creatures 0 🧊\n\nHoly smokes, what a game! If you like your sports cold, muddy, and full of medical emergencies, tonight was your Christmas, Hanukkah, and Solstice all rolled into one! The South Pole Yetis have defended their stockade in a game that was as tight as Sir Tanos's armor after a week of feasting! 🍗🛡️\n\nThings started off with a frantic scramble in the center field! **Ajit Serge** scooped up that troll head like it was the last scrap of meat in a famine. The Chaos Creatures tried to put the squeeze on early, with **Mouldon Earl** showing some impressive blocking skills against Udela Dorkus. It was a real tug-of-war in the mud, folks, and the violence was just getting warmed up! I love to see that troll head bouncing around like a decapitated dream! 💥\n\nWe saw our first trip to the infirmary when **Fogel Raynold** absolutely leveled **Selima Si**! A beautiful tackle that sent Selima straight to the sidelines with a glorious injury. That’s what we call a 'South Pole Stinger'! Honestly, Fogel was hitting so hard I thought he might be trying to dig a hole straight back to the Demon Prison! 🤕\n\nThe Chaos Creatures had their chances, believe you me! **Raouf Dragone** was charging toward the goal like a bat out of hell, but the Yetis' defense held firm. **Sale Tocci** had a bit of a butter-fingers moment, dropping a pass to Coussoule Bidle that could have changed the whole complexion of the first half. It was enough to make a demon weep with joy at the incompetence! 🐉❌\n\nJust before the half-time whistle, the Yetis started playing dirty! **Sale Tocci** redeemed herself by injuring **Alben Diantha**, and then **Udela Dorkus** decided to send **Mouldon Earl** to the healer with a bone-crunching tackle! The Chaos Creatures were looking more like 'Chaos Crumbs' at that point! It's a wonder Dame Terra Monteforte didn't try to pull a prophet out of her hat to save them! 🍞🦴\n\nAfter the break—where I assume everyone just huddled for warmth and prayed to whatever gods haven't abandoned Osterra—the blood started flowing again. **Raouf Dragone** came back with a vengeance, taking out **Sale Tocci**! It was a regular revolving door at the healer’s tent! **Seiter Aida** was working overtime, probably using those smelly socks to wake the unconscious players! ⛺🩹\n\n**Fogel Raynold** was a one-man wrecking crew tonight, folks! He sent **Isborne Krause** to the dirt with another injury. Honestly, if Fogel played for my **Ebon Gate Corruptors**, we’d have the league trophy by now! He was hitting harder than a hangover after an open bar—too bad there was no booze tonight to numb the pain of those hits! 🔨💥\n\nWe had some missed opportunities that would make a ghost blush! Both **Udela Dorkus** and **Raouf Dragone** tried to play the big hero with long-distance shots from center field, but they both missed the basket! It’s harder to aim when your fingers are turning blue and the wind is whistling through your helmet, isn’t it? Maybe they should ask Cinnemon for a book on how to aim! 🌬️🏀\n\nAs the clock ticked down, the tension was higher than the blood pressure of a tax collector! **Gabriele Klehm** managed to take out **Udela Dorkus** with a nasty tackle, but it was too little, too late for the New Monteforte squad. They just couldn't find the rhythm, probably because they were too busy listening to **Wolbrom Ariella** sing sea shanties out of tune! 🎶⚓\n\nThen came the play of the game! **Duky Orelee** grabbed the ball, dodged a few desperate swings, and charged into the End Zone like a man possessed! He **DUNKED** that troll head right into the basket! The crowd—mostly just a few frostbitten locals and some very confused White Ravens—went wild! Or at least, they stomped their boots loudly enough to cause an avalanche! 🏀🔥\n\nIt was a tough night for the Chaos Creatures, who go home with nothing but bruises. I bet Imra and Elspeth are already brewing up something to soothe those Yeti muscles, but for the Chaos Creatures, it's a long, cold walk back to New Monteforte. They played like they were stuck in the mud, which, considering the field, they actually were! 🧊🚶‍♂️\n\nAnd that’s all she wrote, folks! A 1-0 victory for the **South Pole Yetis**! They head into the playoffs with momentum, while the Chaos Creatures head home to lick their wounds. This is **Nok the Corrupter**, signing off and heading to the nearest fire! Keep the violence high and the mercy low, Osterra! 🏁👹",
+  "week": 7,
+  "homeScore": 1,
+  "awayScore": 0,
+  "slug": "7-south-pole-new-monteforte",
+  "plays": [
+    "The Trollball is picked up by Ajit Serge in zone Center Field",
+    "undefined",
+    "Udela Dorkus tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+    "Udela Dorkus tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+    "Hilaire Guevara tries to run with the ball but is stopped by the defense!",
+    "Hilaire Guevara tries to run with the ball but is stopped by the defense!",
+    "Ajit Serge runs with the ball and advances towards the goal!",
+    "Ajit Serge runs with the ball and advances towards the goal!",
+    "Raouf Dragone tries to Tackle Duky Orelee, but Duky Orelee blocks it!",
+    "Raouf Dragone tries to Tackle Duky Orelee, but Duky Orelee blocks it!",
+    "Fogel Raynold Tackles Selima Si and INJURES THEM!",
+    "Fogel Raynold Tackles Selima Si and INJURES THEM!",
+    "Sale Tocci passes the ball to Coussoule Bidle, but they drop it!",
+    "Sale Tocci passes the ball to Coussoule Bidle, but they drop it!",
+    "The Trollball is picked up by Tucker Hett in zone Away Field",
+    "Udela Dorkus tries to Tackle Alben Diantha, but misses!",
+    "Udela Dorkus tries to Tackle Alben Diantha, but misses!",
+    "Raouf Dragone runs with the ball and advances towards the goal!",
+    "Raouf Dragone runs with the ball and advances towards the goal!",
+    "Wolbrom Ariella tries to Tackle Jessy Debbie, but misses!",
+    "Wolbrom Ariella tries to Tackle Jessy Debbie, but misses!",
+    "Fogel Raynold tries to Tackle Ajit Serge, but Ajit Serge blocks it!",
+    "Fogel Raynold tries to Tackle Ajit Serge, but Ajit Serge blocks it!",
+    "Seiter Aida has returned Selima Si to play",
+    "Boulanger Procto tries to run with the ball but is stopped by the defense!",
+    "Boulanger Procto tries to run with the ball but is stopped by the defense!",
+    "Gabriele Klehm tries to run with the ball but is stopped by the defense!",
+    "Gabriele Klehm tries to run with the ball but is stopped by the defense!",
+    "Coussoule Bidle tries to Tackle Placido Kora, but misses!",
+    "Coussoule Bidle tries to Tackle Placido Kora, but misses!",
+    "Selima Si tries to Tackle Wolbrom Ariella, but Wolbrom Ariella blocks it!",
+    "Selima Si tries to Tackle Wolbrom Ariella, but Wolbrom Ariella blocks it!",
+    "Sayers Erdda tries to Tackle Gabriele Klehm, but Gabriele Klehm blocks it!",
+    "Sayers Erdda tries to Tackle Gabriele Klehm, but Gabriele Klehm blocks it!",
+    "Isborne Krause tries to Tackle Raouf Dragone, but misses!",
+    "Isborne Krause tries to Tackle Raouf Dragone, but misses!",
+    "Selima Si tries to Tackle Wolbrom Ariella, but misses!",
+    "Selima Si tries to Tackle Wolbrom Ariella, but misses!",
+    "Raouf Dragone tries to Tackle Hilaire Guevara, but misses!",
+    "Raouf Dragone tries to Tackle Hilaire Guevara, but misses!",
+    "Mouldon Earl runs with the ball and advances towards the goal!",
+    "Mouldon Earl runs with the ball and advances towards the goal!",
+    "Udela Dorkus tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+    "Udela Dorkus tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+    "Tucker Hett tries to Tackle Isborne Krause, but Isborne Krause blocks it!",
+    "Tucker Hett tries to Tackle Isborne Krause, but Isborne Krause blocks it!",
+    "Wolbrom Ariella passes the ball to Mouldon Earl!",
+    "Wolbrom Ariella passes the ball to Mouldon Earl!",
+    "Sale Tocci Tackles Alben Diantha and INJURES THEM!",
+    "Sale Tocci Tackles Alben Diantha and INJURES THEM!",
+    "Placido Kora tries to run with the ball but is stopped by the defense!",
+    "Placido Kora tries to run with the ball but is stopped by the defense!",
+    "Udela Dorkus Tackles Mouldon Earl and INJURES THEM!",
+    "Udela Dorkus Tackles Mouldon Earl and INJURES THEM!",
+    "Sale Tocci tries to Tackle Raouf Dragone, but misses!",
+    "Sale Tocci tries to Tackle Raouf Dragone, but misses!",
+    "Isborne Krause tries to Tackle Tucker Hett, but misses!",
+    "Isborne Krause tries to Tackle Tucker Hett, but misses!",
+    "Boulanger Procto tries to run with the ball but is stopped by the defense!",
+    "Boulanger Procto tries to run with the ball but is stopped by the defense!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Coussoule Bidle in zone Home Field",
+    "Raouf Dragone Tackles Sale Tocci and INJURES THEM!",
+    "Raouf Dragone Tackles Sale Tocci and INJURES THEM!",
+    "Jessy Debbie runs with the ball and advances towards the goal!",
+    "Jessy Debbie runs with the ball and advances towards the goal!",
+    "Fogel Raynold tries to Tackle Selima Si, but Selima Si blocks it!",
+    "Fogel Raynold tries to Tackle Selima Si, but Selima Si blocks it!",
+    "Udela Dorkus shoots from Center Field but misses the goal!",
+    "Udela Dorkus shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Gabriele Klehm in zone Center Field",
+    "Tucker Hett tries to run with the ball but is stopped by the defense!",
+    "Tucker Hett tries to run with the ball but is stopped by the defense!",
+    "Raouf Dragone shoots from Center Field but misses the goal!",
+    "Raouf Dragone shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Duky Orelee in zone Center Field",
+    "Fogel Raynold Tackles Isborne Krause and INJURES THEM!",
+    "Fogel Raynold Tackles Isborne Krause and INJURES THEM!",
+    "Fogel Raynold tries to Tackle Udela Dorkus, but Udela Dorkus blocks it!",
+    "Fogel Raynold tries to Tackle Udela Dorkus, but Udela Dorkus blocks it!",
+    "Seiter Aida has returned Sale Tocci to play",
+    "Udela Dorkus runs with the ball and advances towards the goal!",
+    "Udela Dorkus runs with the ball and advances towards the goal!",
+    "Seiter Aida has returned Isborne Krause to play",
+    "Fogel Raynold tries to Tackle Isborne Krause, but misses!",
+    "Fogel Raynold tries to Tackle Isborne Krause, but misses!",
+    "Hilaire Guevara tries to run with the ball but is stopped by the defense!",
+    "Hilaire Guevara tries to run with the ball but is stopped by the defense!",
+    "Coussoule Bidle tries to Tackle Tucker Hett, but misses!",
+    "Coussoule Bidle tries to Tackle Tucker Hett, but misses!",
+    "Jessy Debbie tries to Tackle Gabriele Klehm, but Gabriele Klehm blocks it!",
+    "Jessy Debbie tries to Tackle Gabriele Klehm, but Gabriele Klehm blocks it!",
+    "Duky Orelee runs with the ball and advances towards the goal!",
+    "Duky Orelee runs with the ball and advances towards the goal!",
+    "Jessy Debbie throws a wild pass and it lands on the ground!",
+    "Jessy Debbie throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Isborne Krause in zone Away 2-Point",
+    "Urata Oriana tries to Tackle Isborne Krause, but misses!",
+    "Urata Oriana tries to Tackle Isborne Krause, but misses!",
+    "Wolbrom Ariella tries to Tackle Udela Dorkus, but misses!",
+    "Wolbrom Ariella tries to Tackle Udela Dorkus, but misses!",
+    "Gabriele Klehm Tackles Udela Dorkus and INJURES THEM!",
+    "Gabriele Klehm Tackles Udela Dorkus and INJURES THEM!",
+    "Sayers Erdda throws a wild pass and it lands on the ground!",
+    "Sayers Erdda throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Sale Tocci in zone Away 2-Point",
+    "Placido Kora tries to Tackle Isborne Krause, but misses!",
+    "Placido Kora tries to Tackle Isborne Krause, but misses!",
+    "Duky Orelee runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Duky Orelee runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Urata Oriana in zone Center Field"
+  ],
+  "openBar": false
+}

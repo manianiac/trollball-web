@@ -1,0 +1,927 @@
+{
+  "homeTeam": {
+    "name": "The Brimstone Fire Eaters",
+    "slug": "brimstone",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Su'akour Bowl",
+      "location": "Brimstone (Su'akour Ruins)",
+      "description": "A crude, rowdy stadium built within the half-finished, black-stone walls of the warlord Su'akour's abandoned fortress. The stands are crumbling ruins, and the entire arena perpetually stinks of the nearby sulfur marshes.",
+      "modifiers": ["Noxious Fumes", "Crumbling Walls", "Uneven Ground"]
+    },
+    "healer": {
+      "name": "Raphael Miyasawa",
+      "team": "The Brimstone Fire Eaters",
+      "stats": {
+        "pass": 46,
+        "catch": 49,
+        "run": 63,
+        "block": 56,
+        "fight": 60,
+        "throw": 60,
+        "luck": 63,
+        "pronouns": "She/Them",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Confluence Captains",
+    "slug": "confluence",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "stadium": {
+      "name": "The Glowstone Terrace",
+      "location": "Confluence (World's Spine Mountains)",
+      "description": "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+      "modifiers": ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"]
+    },
+    "healer": {
+      "name": "Kant Langill",
+      "team": "The Confluence Captains",
+      "stats": {
+        "pass": 51,
+        "catch": 55,
+        "run": 54,
+        "block": 49,
+        "fight": 59,
+        "throw": 59,
+        "luck": 65,
+        "pronouns": "He/Him",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 65,
+        "favorite_weapon": "Scimitar",
+        "pregame_ritual": "Doing a terrible, clumsy dance to 'loosen the joints'.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "### 🎙️ LIVE FROM THE SULFUR MARSHES: TUESDAY NIGHT TROLLBALL! 🎙️\n\nStep right up, sports fans, and fill your lungs with the delightful, eye-watering scent of the sulfur marshes! We are coming to you live from **The Su'akour Bowl** for a Tuesday night clash that promises to be more bone-crunching than a meeting with Cyfnerth the Butcher! I'm **Nok the Corrupter**, your favorite demon of the airwaves, and I am absolutely electrified for tonight's matchup between the **Confluence Captains** and the home-team **Brimstone Fire Eaters**! 🏟️🔥\n\nThe Captains, representing the Guild of the Black Sky, are looking focused, with **Ladew Evelina** already chugging raw eggs, shells and all, while Healer **Kant Langill** is 'loosening the joints' with a dance that looks more like a seizure—it is simply marvelous! 🥚💃 Over in the home dugout, the Fire Eaters are embracing the grit of the ruins! **Campball Fink** is bare-foot in a mud puddle as we speak, and **Bollinger Susette** is getting his shoulders tenderized with a teammate’s fists! With the crumbling walls of this fortress threatening to drop a stone on anyone who stands still too long, we are in for a real treat! \n\nThe Guild's boys might have the fancy gear and the backing of money-priests like **Brennen Farno**, but the Fire Eaters have the fumes and the raw, unadulterated spirit of Eponore! Let us see if the Captains can navigate the uneven ground or if they will end up as part of the ruins themselves! While the crowds might be flocking to see those popular snobs in Zmeigorod or Ravenfall, the true connoisseurs of carnage are right here in the ruins! It is Trollball time, and I could not be happier! 😈🏈",
+  "postGame": "### 🏆 OVERTIME AGONY IN THE ASHES: FIRE EATERS TRIUMPH! 🏆\n\nWhat a spectacular display of athletic carnage! The **Brimstone Fire Eaters** have emerged victorious in an overtime nail-biter, defeating the **Confluence Captains** with a final score of **3 to 2**! The Su'akour Bowl lived up to its reputation, with the noxious fumes and crumbling walls providing a perfectly hazardous backdrop for this beautiful game! If you weren't choking on the sulfur, you weren't living, folks! 🏟️🔥\n\nThe action started fast and heavy when **Nigel Rothmuller** decided he did not like the look of **Carnahan Laud’s** face, tackling her so hard she had to be carried off the field! It was a masterpiece of physical persuasion that set the tone for the entire match! Nigel clearly consulted his folk rhymes today, and they told him to choose violence! 👊💥\n\nShortly after, **Selimah Tully** joined the fun by sending **Caves Cestar** to the dirt with an injury that would make even the stoic **Sir Tanos** wince! It's a wonder Tanos can even see the game through all that 'boldness,' but Tully showed no mercy to the Guild's golden boys! The Fire Eaters drew first blood on the scoreboard when **Campball Fink** charged into the end zone for a magnificent dunk! The home crowd went wild, though that might have been the sulfur gas talking! 👃😵‍💫\n\nBut those Captains from the Guild of the Black Sky showed they have more than just deep pockets! **Ladew Evelina**, fueled by that raw egg she ate earlier, pulled off a staggering two-point shot from the home field! It was a display of accuracy that **Chairman Garon Ironrock** would probably try to tax if he could! Just a reminder that money can't buy taste, but it can apparently buy a decent arm! 🎯💰\n\nAs the game went into overtime, the violence only escalated! **Caves Cestar** returned to the field with a grudge, immediately taking out **Orlina Jerrine** and **Nigel Rothmuller** in a flurry of revenge! It was like watching a beautiful, bloody ballet in the mud! I haven't seen that much righteous anger since **Morgwae** was exiled! 🩰🩸\n\nHealer **Raphael Miyasawa** was working at a fever pitch, dragging players back from the brink of the void just to throw them back into the meat grinder! That is the spirit of the Everwar we love to see! Who needs peace when you can have a dedicated professional whispering words of encouragement to their biceps while stitching your liver back in? 💉💪\n\nEven when **Carnahan Laud** managed to retaliate and take out the scoring threat of **Campball Fink**, the Fire Eaters refused to buckle under the pressure! The uneven ground of the stadium seemed to favor the home team as the Captains struggled to maintain their footing. It's hard to look opulent when you're face-down in a sulfur puddle, isn't it? 🏔️🤢\n\nThe defensive struggle was real, folks! We saw **Nachison Icken** and **Wylde Jutta** throwing themselves into tackles with the reckless abandon of a rogue escaping a circus—looking at you, **Sawyer**! The Captains' **Vonni Geoff** even managed to snag an interception off **Orlina Jerrine**, but the momentum shifted back faster than a Fey's mood! 🃏🌀\n\nThe climax of this glorious struggle came when **Oona Jane** delivered a pass that was smoother than a lie from a Fey hater! She found **Bollinger Susette** in the end zone, who slammed the troll head home for the winning dunk! The ruins erupted! Bollinger must have really appreciated that pre-game shoulder punch, because he hit that end zone with the force of a falling fortress wall! 🏆💥\n\nWhat a day for Brimstone! It is a shame the **Haven Lights** were not here to see it; they probably would have spent the whole time crying about the 'sanctity of life' and trying to heal everyone for free. Disgusting! This is the kind of grit that keeps Osterra spinning! 🕯️🤮\n\nTo the **Confluence Captains**, better luck next time—maybe try rubbing more sap on your arms or asking **Nikos Thanae** for some 'benevolent' tips on how to actually hit something! To the Fire Eaters, enjoy your victory in the ruins! This is **Nok the Corrupter**, reminding you that if you are not bleeding, you are not playing! Goodnight, you beautiful monsters! 😈🎙️🖤",
+  "week": 7,
+  "homeScore": 3,
+  "awayScore": 2,
+  "slug": "7-brimstone-confluence",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Wylde Jutta in zone Away 2-Point",
+    "Behl Berstine tries to Tackle Glassman Solley, but misses!",
+    "Behl Berstine tries to Tackle Glassman Solley, but misses!",
+    "Nigel Rothmuller Tackles Carnahan Laud and INJURES THEM!",
+    "Nigel Rothmuller Tackles Carnahan Laud and INJURES THEM!",
+    "Selimah Tully Tackles Caves Cestar and INJURES THEM!",
+    "Selimah Tully Tackles Caves Cestar and INJURES THEM!",
+    "Campball Fink runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Campball Fink runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Stephan Lisk in zone Center Field",
+    "Nachison Icken tries to Tackle Ladew Evelina, but misses!",
+    "Nachison Icken tries to Tackle Ladew Evelina, but misses!",
+    "Wylde Jutta tries to Tackle Behl Berstine, but misses!",
+    "Wylde Jutta tries to Tackle Behl Berstine, but misses!",
+    "Kant Langill has returned Carnahan Laud to play",
+    "Deach Sharlene runs with the ball and advances towards the goal!",
+    "Deach Sharlene runs with the ball and advances towards the goal!",
+    "Orlina Jerrine tries to Tackle Deach Sharlene, but Deach Sharlene blocks it!",
+    "Orlina Jerrine tries to Tackle Deach Sharlene, but Deach Sharlene blocks it!",
+    "Wylde Jutta tries to Tackle Deach Sharlene, but Deach Sharlene blocks it!",
+    "Wylde Jutta tries to Tackle Deach Sharlene, but Deach Sharlene blocks it!",
+    "Nigel Rothmuller Tackles Richia Pazit and INJURES THEM!",
+    "Nigel Rothmuller Tackles Richia Pazit and INJURES THEM!",
+    "Selimah Tully tries to Tackle Deach Sharlene, but Deach Sharlene blocks it!",
+    "Selimah Tully tries to Tackle Deach Sharlene, but Deach Sharlene blocks it!",
+    "Nigel Rothmuller tries to Tackle O'Conner Maighdlin, but O'Conner Maighdlin blocks it!",
+    "Nigel Rothmuller tries to Tackle O'Conner Maighdlin, but O'Conner Maighdlin blocks it!",
+    "Kant Langill has returned Caves Cestar to play",
+    "Glassman Solley Tackles Stephan Lisk and INJURES THEM!",
+    "Glassman Solley Tackles Stephan Lisk and INJURES THEM!",
+    "Caves Cestar passes the ball to Caves Cestar, but they drop it!",
+    "Caves Cestar passes the ball to Caves Cestar, but they drop it!",
+    "The Trollball is picked up by Carnahan Laud in zone Home Field",
+    "Bollinger Susette tries to Tackle Behl Berstine, but misses!",
+    "Bollinger Susette tries to Tackle Behl Berstine, but misses!",
+    "Ladew Evelina shoots from Home Field and SCORES!",
+    "Ladew Evelina shoots from Home Field and SCORES!",
+    "The Trollball is picked up by Caves Cestar in zone Center Field",
+    "Behl Berstine tries to Tackle Lowson Hersh, but misses!",
+    "Behl Berstine tries to Tackle Lowson Hersh, but misses!",
+    "Lowson Hersh tries to Tackle Carnahan Laud, but misses!",
+    "Lowson Hersh tries to Tackle Carnahan Laud, but misses!",
+    "Nigel Rothmuller tries to Tackle Caves Cestar, but misses!",
+    "Nigel Rothmuller tries to Tackle Caves Cestar, but misses!",
+    "Vonni Geoff tries to run with the ball but is stopped by the defense!",
+    "Vonni Geoff tries to run with the ball but is stopped by the defense!",
+    "Kant Langill has returned Richia Pazit to play",
+    "Caves Cestar throws a wild pass and it lands on the ground!",
+    "Caves Cestar throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Campball Fink in zone Center Field",
+    "Nachison Icken tries to run with the ball but is stopped by the defense!",
+    "Nachison Icken tries to run with the ball but is stopped by the defense!",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Campball Fink in zone Center Field",
+    "Nigel Rothmuller runs with the ball and advances towards the goal!",
+    "Nigel Rothmuller runs with the ball and advances towards the goal!",
+    "Caves Cestar Tackles Orlina Jerrine and INJURES THEM!",
+    "Caves Cestar Tackles Orlina Jerrine and INJURES THEM!",
+    "Ladew Evelina tries to Tackle Oona Jane, but misses!",
+    "Ladew Evelina tries to Tackle Oona Jane, but misses!",
+    "Caves Cestar Tackles Nigel Rothmuller and INJURES THEM!",
+    "Caves Cestar Tackles Nigel Rothmuller and INJURES THEM!",
+    "Caves Cestar tries to Tackle Selimah Tully, but misses!",
+    "Caves Cestar tries to Tackle Selimah Tully, but misses!",
+    "Raphael Miyasawa has returned Orlina Jerrine to play",
+    "Raphael Miyasawa has returned Nigel Rothmuller to play",
+    "Selimah Tully Tackles Ladew Evelina and INJURES THEM!",
+    "Selimah Tully Tackles Ladew Evelina and INJURES THEM!",
+    "Vonni Geoff tries to Tackle Nachison Icken, but misses!",
+    "Vonni Geoff tries to Tackle Nachison Icken, but misses!",
+    "Carnahan Laud tries to Tackle Lowson Hersh, but misses!",
+    "Carnahan Laud tries to Tackle Lowson Hersh, but misses!",
+    "Caves Cestar tries to Tackle Bollinger Susette, but Bollinger Susette blocks it!",
+    "Caves Cestar tries to Tackle Bollinger Susette, but Bollinger Susette blocks it!",
+    "Nigel Rothmuller tries to Tackle O'Conner Maighdlin, but O'Conner Maighdlin blocks it!",
+    "Nigel Rothmuller tries to Tackle O'Conner Maighdlin, but O'Conner Maighdlin blocks it!",
+    "Carnahan Laud Tackles Campball Fink and INJURES THEM!",
+    "Carnahan Laud Tackles Campball Fink and INJURES THEM!",
+    "Caves Cestar tries to Tackle Oona Jane, but misses!",
+    "Caves Cestar tries to Tackle Oona Jane, but misses!",
+    "Glassman Solley runs with the ball and advances towards the goal!",
+    "Glassman Solley runs with the ball and advances towards the goal!",
+    "Orlina Jerrine throws a wild pass and it is INTERCEPTED by Vonni Geoff!",
+    "Orlina Jerrine throws a wild pass and it is INTERCEPTED by Vonni Geoff!",
+    "Richia Pazit runs with the ball and advances towards the goal!",
+    "Richia Pazit runs with the ball and advances towards the goal!",
+    "Wylde Jutta tries to Tackle Richia Pazit, but Richia Pazit blocks it!",
+    "Wylde Jutta tries to Tackle Richia Pazit, but Richia Pazit blocks it!",
+    "Caves Cestar runs with the ball and advances towards the goal!",
+    "Caves Cestar runs with the ball and advances towards the goal!",
+    "Caves Cestar Tackles Orlina Jerrine and INJURES THEM!",
+    "Caves Cestar Tackles Orlina Jerrine and INJURES THEM!",
+    "Caves Cestar throws a wild pass and it lands on the ground!",
+    "Caves Cestar throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Glassman Solley in zone Center Field",
+    "Caves Cestar tries to Tackle Wylde Jutta, but misses!",
+    "Caves Cestar tries to Tackle Wylde Jutta, but misses!",
+    "Glassman Solley runs with the ball and advances towards the goal!",
+    "Glassman Solley runs with the ball and advances towards the goal!",
+    "Raphael Miyasawa has returned Campball Fink to play",
+    "Bollinger Susette tries to Tackle Deach Sharlene, but misses!",
+    "Bollinger Susette tries to Tackle Deach Sharlene, but misses!",
+    "Campball Fink tries to run with the ball but is stopped by the defense!",
+    "Campball Fink tries to run with the ball but is stopped by the defense!",
+    "Glassman Solley tries to run with the ball but is stopped by the defense!",
+    "Glassman Solley tries to run with the ball but is stopped by the defense!",
+    "Nachison Icken runs with the ball and advances towards the goal!",
+    "Nachison Icken runs with the ball and advances towards the goal!",
+    "Campball Fink tries to Tackle Caves Cestar, but Caves Cestar blocks it!",
+    "Campball Fink tries to Tackle Caves Cestar, but Caves Cestar blocks it!",
+    "Selimah Tully shoots from Away 2-Point but misses the goal!",
+    "Selimah Tully shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Wylde Jutta in zone Away 2-Point",
+    "Oona Jane passes to Bollinger Susette in the End Zone, who dunks the ball into the goal!",
+    "Oona Jane passes to Bollinger Susette in the End Zone, who dunks the ball into the goal!"
+  ],
+  "openBar": false
+}
