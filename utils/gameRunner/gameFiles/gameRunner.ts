@@ -5,7 +5,13 @@
  */
 
 import fs from "fs";
-import { ALL_ACTIONS, match_progress, player, TEAM_NAMES } from "@/utils/types";
+import {
+  ALL_ACTIONS,
+  match,
+  match_progress,
+  player,
+  TEAM_NAMES,
+} from "@/utils/types";
 import {
   DEFENSIVE_ACTIONS,
   GAME_DURATION,
@@ -21,7 +27,10 @@ import { generateGameReports } from "./gameReportGenerator";
  *
  * @param gameState - The current state of the match.
  */
-export const gameLoop = async (gameState: match_progress) => {
+export const gameLoop = async (
+  gameState: match_progress,
+  seriesGames?: match[],
+) => {
   let fiction: string[] = [];
 
   // Set up initial team data
@@ -56,7 +65,7 @@ export const gameLoop = async (gameState: match_progress) => {
   gameState.plays = [...fiction, ...gameState.plays];
   console.log("Finished match");
 
-  await saveGameResult(gameState);
+  await saveGameResult(gameState, seriesGames);
 };
 
 /**
@@ -148,7 +157,7 @@ const handleGamePhase = async (
       gameState.awayTeam.activePlayers.length < 3)
   ) {
     gameState.plays.push("One of the teams has too few players to continue!");
-    await gameLoop(gameState);
+    await gameLoop(gameState, undefined); // Recursive call for player shortage usually resets/ends, sticking with undefined for now or pass if needed, but this resets loop so maybe acceptable. Actually, looking at logic, it acts as a retry or abort. Keeping undefined.
   }
 
   return gameState;
@@ -263,13 +272,16 @@ const handleHealDecision = (
  *
  * @param gameState - The final state of the match.
  */
-const saveGameResult = async (gameState: match_progress) => {
+const saveGameResult = async (
+  gameState: match_progress,
+  seriesGames?: match[],
+) => {
   try {
     console.log("Generating reports with Gemini API...");
-    const report = await generateGameReports(gameState);
+    const report = await generateGameReports(gameState, seriesGames);
 
     if (report) {
-      const outputPath = `./utils/gameRunner/results/${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
+      const outputPath = `./utils/gameRunner/results/po-${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
 
       fs.writeFile(
         outputPath,

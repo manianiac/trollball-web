@@ -288,9 +288,13 @@ export async function generateWeeklyReport(
 
 export async function generateGameReports(
   gameData: match_progress,
+  seriesGames?: match[],
 ): Promise<GameReport | null> {
   const userQuery = `
-      Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports. This is the final week of the season before we head into the playoffs.
+      Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
+      
+      This is the playoffs, so make sure to comment on the playoff atmosphere. These are played Best of 3, and you will be given each past game in a series. The loser of the BO3 will be sent to the loser's bracket
+      
       Use markdown formatting(like headers or lists) and use emojii as needed
 
       <game_data>
@@ -313,6 +317,13 @@ export async function generateGameReports(
       <hero_data>
       ${JSON.stringify(heroesOfTheRealm)}
       </hero_data>
+      
+      Here are all the games in this series that have already been played
+      <past_games>
+      ${JSON.stringify(seriesGames)}
+      </past_games>
+
+      If the same team won both the first and second games, don't generate a report for the third game.
     `;
 
   const result = await generateContentHelper(

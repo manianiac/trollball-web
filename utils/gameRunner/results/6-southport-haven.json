@@ -1,0 +1,877 @@
+{
+  "homeTeam": {
+    "name": "The Southport Narwhals",
+    "slug": "southport",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 48,
+    "stadium": {
+      "name": "The Cliffside Pitch",
+      "location": "Southport",
+      "description": "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
+      "modifiers": ["Gale-Force Winds", "Sea Spray", "Rocky Outcropping"]
+    },
+    "healer": {
+      "name": "Sand Denys",
+      "team": "The Southport Narwhals",
+      "stats": {
+        "pass": 55,
+        "catch": 54,
+        "run": 50,
+        "block": 53,
+        "fight": 61,
+        "throw": 64,
+        "luck": 60,
+        "pronouns": "She/Her",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 46,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Telling each other exaggerated lies about their own strength.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Blood Eppes",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 54,
+          "run": 52,
+          "block": 47,
+          "fight": 64,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Malcolm Goer",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 36,
+          "run": 63,
+          "block": 65,
+          "fight": 56,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Blanc Fantasia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 51,
+          "run": 60,
+          "block": 58,
+          "fight": 64,
+          "throw": 52,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 43,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Loralyn Lyndy",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 47,
+          "run": 58,
+          "block": 57,
+          "fight": 57,
+          "throw": 59,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cibis Areta",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 63,
+          "catch": 48,
+          "run": 57,
+          "block": 59,
+          "fight": 54,
+          "throw": 45,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Braden Gaile",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 53,
+          "block": 67,
+          "fight": 68,
+          "throw": 65,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Crescint Sonia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 65,
+          "catch": 64,
+          "run": 67,
+          "block": 47,
+          "fight": 44,
+          "throw": 53,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cilurzo Sochor",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 54,
+          "block": 65,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Torey Dannye",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 49,
+          "catch": 59,
+          "run": 55,
+          "block": 56,
+          "fight": 45,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fineman Dolhenty",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 48,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Wearing a necklace of polished river stones.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Blood Eppes",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 54,
+          "run": 52,
+          "block": 47,
+          "fight": 64,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Malcolm Goer",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 36,
+          "run": 63,
+          "block": 65,
+          "fight": 56,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Blanc Fantasia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 51,
+          "run": 60,
+          "block": 58,
+          "fight": 64,
+          "throw": 52,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 43,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Loralyn Lyndy",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 47,
+          "run": 58,
+          "block": 57,
+          "fight": 57,
+          "throw": 59,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cibis Areta",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 63,
+          "catch": 48,
+          "run": 57,
+          "block": 59,
+          "fight": 54,
+          "throw": 45,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Braden Gaile",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 53,
+          "block": 67,
+          "fight": 68,
+          "throw": 65,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Crescint Sonia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 65,
+          "catch": 64,
+          "run": 67,
+          "block": 47,
+          "fight": 44,
+          "throw": 53,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cilurzo Sochor",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 54,
+          "block": 65,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Torey Dannye",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 49,
+          "catch": 59,
+          "run": 55,
+          "block": 56,
+          "fight": 45,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fineman Dolhenty",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 48,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Wearing a necklace of polished river stones.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Haven Lights",
+    "slug": "haven",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 55,
+    "stadium": {
+      "name": "The Aegis Field",
+      "location": "Haven (Temple of Light Compound)",
+      "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+      "modifiers": ["Hallowed Ground", "Shield's Watch", "Twinlight's Glow"]
+    },
+    "healer": {
+      "name": "Riffle Harrington",
+      "team": "The Haven Lights",
+      "stats": {
+        "pass": 56,
+        "catch": 49,
+        "run": 49,
+        "block": 43,
+        "fight": 66,
+        "throw": 52,
+        "luck": 63,
+        "pronouns": "He/Him",
+        "civic_engagement": 63,
+        "alcohol_tolerance": 52,
+        "favorite_weapon": "Spiked Gauntlet",
+        "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      }
+    ]
+  },
+  "preGame": "Hello there, sports fans! This is your favorite demon of the airwaves, Nok the Corrupter, coming to you live from the windswept, bone-chilling heights of The Cliffside Pitch in Southport! 🎙️ Hellfire and brimstone, what a view! We’re perched right on the edge of the world where the sea spray stings like a fresh whip-crack and the gale-force winds threaten to toss any player—or announcer—right into the churning waves below! It’s Tuesday Night Trollball, and the atmosphere is positively electric with the promise of broken bones and shattered dreams! 🌊🏈\n\nTonight, we’ve got a real clash of cultures on the pitch! Our home team, The Southport Narwhals, are looking as salty and mean as a cornered sea-beast. I just saw Malcolm Goer performing his pre-game ritual, rubbing the trollball right under his armpits for that extra 'grip.' Disgusting? Absolutely! Effective? We’ll find out! Meanwhile, Cibis Areta just had a teammate dump a bucket of ice-cold seawater over her head. That’s the kind of grit I love to see, folks! They’re native Osterrans who know how to take a hit and give one back ten-fold! 🐳\n\nBut then... ugh, look at the visitors. The Haven Lights. 🙄 Coming all the way from their 'Hallowed Ground' in the Temple of Light. You can practically smell the incense and self-righteousness from here! They’ve got Shiroma Salim over there meticulously re-taping his shield with fresh leather, looking far too clean for my tastes. And would you believe it? Their healer, Riffle Harrington, is actually tying his bootlaces together and hopping to the starting line! It’s pathetic, really, but I suppose that’s what passes for 'divine inspiration' these days. I’m hoping the Narwhals knock those shiny teeth right down their throats! ☀️\n\nWhether you’re an adventurer pulled from another reality or a local just looking for some carnage, this is the place to be! Remember, in the Everwar, death is just a temporary setback, but the shame of a missed goal lasts until your next regeneration! So, keep your eyes on the field and your hands on your wallets, because the action is about to start, and it’s going to be a real humdinger! Let's get that troll head in the basket! 💀🔥",
+  "postGame": "Sweet mother of mayhem, what a finish! I’m still scraping the salt and blood off my microphone! Nok the Corrupter here to tell you that if you missed tonight’s clash at the Cliffside Pitch, you missed a symphony of suffering! The Haven Lights—ugh, I can barely say it—managed to squeak out a victory over our Southport Narwhals with a final score of 3 to 2! It was a nail-biter that went all the way into Overtime, and while I hate to see those Temple-dwelling light-bringers win, the violence was truly top-shelf! 🥂🏟️\n\nThe action kicked off with a real bang in the second half! Braden Gaile snatched up the trollball in Center Field, but the Haven Lights weren't playing nice! Shiroma Salim—that shield-taping goody-two-shoes—delivered a tackle on Loralyn Lyndy that sounded like a dry branch snapping! Loralyn went down hard, INJURED and sent straight to the sidelines! You love to see it! But the Narwhals didn't stay down for long, oh no! 🦴💥\n\nNot to be outdone, Coward Tarton decided to show the home crowd what 'Haven hospitality' looks like by absolutely leveling Malcolm Goer! Another injury for the Narwhals! It was looking grim for the Southport crew, but Sand Denys, their healer, proved she’s worth her weight in gold, dragging Loralyn Lyndy back onto the field just in time for more punishment. That's the spirit of the Everwar—get up and get hit again! 🚑🔥\n\nThe middle of the game was a chaotic scramble! We saw missed shots from Fineman Dolhenty and Farand Keil that probably hit some poor seagulls in the upper atmosphere. The wind was howling, the ball was slick with sea spray, and players were dropping it like it was a hot coal! Marlane Lounge and Riffle Heyde couldn't seem to find their rhythm, fumbling passes that would make a goblin blush. It was a beautiful, disorganized mess! 🌊🥴\n\nJust when you thought the Narwhals were losing steam, Torey Dannye stepped up and absolutely CRUNCHED Coward Tarton! The Haven player was sent packing to the injury tent, much to my delight! I haven't seen a hit that satisfying since Sir Tanos tried to use a map! It sent the game spiraling into a deadlock as the clock ran out. That’s right, sports fans—OVERTIME! The most delicious words in the demonic language! 😈⏳\n\nIn the Overtime period, the tension was thicker than the fog rolling off the coast. Each team had their wounded patched up and sent back into the meat grinder. Blanc Fantasia scooped up the ball, but the defense was like a stone wall. Then, out of nowhere, Blood Eppes decided he’d had enough of Zwart Bunns' whispering to the ball and laid him out flat! Another Haven Light extinguished and sent to the healer! I was cheering so loud I nearly lost my horns! 📣👊\n\nBut then, the unthinkable happened. With the Narwhals' defense momentarily distracted by the carnage, the Haven Lights found an opening. Farand Keil and Coward Tarton—freshly returned to the field—orchestrated a desperate push toward the end zone. The Narwhals were scrambling, the sea spray was blinding, and the gale was at its peak! 🌬️🏃‍♂️\n\nIn the final, heart-wrenching play, Dickenson Beker found the opening she needed. She didn't just walk it in; she sprinted into the End Zone and DUNKS THE BALL INTO THE GOAL! The lights went wild, the Narwhals fans went silent, and I nearly threw my headset into the ocean in frustration! A 3-2 victory for the away team. Truly a dark day for anyone who appreciates a good underdog story! 🏀😫\n\nI have to say, seeing the Haven Lights celebrate makes my skin crawl. They probably think this victory was 'divinely ordained' or some such nonsense. I bet Nikos Thanae is somewhere 'benevolently' nodding in approval, which is enough to make anyone want to jump off this cliff! Honestly, if these 'heroes' spent half as much time practicing their aim as they do polishing their armor, the game wouldn't have been this close! 🙄✨\n\nDespite the result, you can't deny the Narwhals put on a show! They fought like cornered rats and left plenty of bruises on those shining knights. To the Southport fans: drown your sorrows in some local ale tonight; you earned it! And to the Haven Lights: enjoy your win while it lasts, because the Ebon Gate Corruptors are watching, and we don't play as nice as the Narwhals do! 🍻🖤\n\nThat wraps it up for Tuesday Night Trollball! I’m Nok the Corrupter, signing off from the windiest place in Osterra. Remember, keep your weapons sharp, your healers busy, and always bet on the team that doesn't pray before the coin toss! Goodnight, and may your regenerations be swift and your enemies' bones be brittle! 🎙️👹👋",
+  "week": 6,
+  "homeScore": 2,
+  "awayScore": 3,
+  "slug": "6-southport-haven",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Braden Gaile in zone Center Field",
+    "Shiroma Salim Tackles Loralyn Lyndy and INJURES THEM!",
+    "Shiroma Salim Tackles Loralyn Lyndy and INJURES THEM!",
+    "Fineman Dolhenty shoots from Center Field but misses the goal!",
+    "Fineman Dolhenty shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Shiroma Salim in zone Center Field",
+    "Marlane Lounge tries to run with the ball but is stopped by the defense!",
+    "Marlane Lounge tries to run with the ball but is stopped by the defense!",
+    "Coward Tarton Tackles Malcolm Goer and INJURES THEM!",
+    "Coward Tarton Tackles Malcolm Goer and INJURES THEM!",
+    "Blood Eppes tries to Tackle Dickenson Beker, but Dickenson Beker blocks it!",
+    "Blood Eppes tries to Tackle Dickenson Beker, but Dickenson Beker blocks it!",
+    "Cilurzo Sochor tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Cilurzo Sochor tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Farand Keil shoots from Center Field but misses the goal!",
+    "Farand Keil shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Shiroma Salim in zone Center Field",
+    "Marlane Lounge passes the ball to Riffle Heyde, but they drop it!",
+    "Marlane Lounge passes the ball to Riffle Heyde, but they drop it!",
+    "The Trollball is picked up by Blanc Fantasia in zone Center Field",
+    "Sand Denys has returned Loralyn Lyndy to play",
+    "Coward Tarton tries to Tackle Fineman Dolhenty, but misses!",
+    "Coward Tarton tries to Tackle Fineman Dolhenty, but misses!",
+    "Loralyn Lyndy shoots from Center Field but misses the goal!",
+    "Loralyn Lyndy shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Coward Tarton in zone Center Field",
+    "Loralyn Lyndy tries to Tackle Farand Keil, but Farand Keil blocks it!",
+    "Loralyn Lyndy tries to Tackle Farand Keil, but Farand Keil blocks it!",
+    "Farand Keil passes the ball to Coward Tarton, but they drop it!",
+    "Farand Keil passes the ball to Coward Tarton, but they drop it!",
+    "The Trollball is picked up by Zwart Bunns in zone Center Field",
+    "Crescint Sonia tries to Tackle Marlane Lounge, but Marlane Lounge blocks it!",
+    "Crescint Sonia tries to Tackle Marlane Lounge, but Marlane Lounge blocks it!",
+    "Torey Dannye Tackles Coward Tarton and INJURES THEM!",
+    "Torey Dannye Tackles Coward Tarton and INJURES THEM!",
+    "Zwart Bunns runs with the ball and advances towards the goal!",
+    "Zwart Bunns runs with the ball and advances towards the goal!",
+    "Riffle Heyde shoots from Home Field but misses the goal!",
+    "Riffle Heyde shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Torey Dannye in zone Home Field",
+    "Dickenson Beker tries to Tackle Blood Eppes, but misses!",
+    "Dickenson Beker tries to Tackle Blood Eppes, but misses!",
+    "Cibis Areta runs with the ball and advances towards the goal!",
+    "Cibis Areta runs with the ball and advances towards the goal!",
+    "Loralyn Lyndy tries to run with the ball but is stopped by the defense!",
+    "Loralyn Lyndy tries to run with the ball but is stopped by the defense!",
+    "Zwart Bunns tries to Tackle Braden Gaile, but misses!",
+    "Zwart Bunns tries to Tackle Braden Gaile, but misses!",
+    "Riffle Harrington has returned Coward Tarton to play",
+    "Dickenson Beker tries to Tackle Blood Eppes, but misses!",
+    "Dickenson Beker tries to Tackle Blood Eppes, but misses!",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Blanc Fantasia in zone Center Field",
+    "Cibis Areta tries to run with the ball but is stopped by the defense!",
+    "Cibis Areta tries to run with the ball but is stopped by the defense!",
+    "Torey Dannye passes the ball to Blood Eppes, but they drop it!",
+    "Torey Dannye passes the ball to Blood Eppes, but they drop it!",
+    "The Trollball is picked up by Coward Tarton in zone Center Field",
+    "Blood Eppes Tackles Zwart Bunns and INJURES THEM!",
+    "Blood Eppes Tackles Zwart Bunns and INJURES THEM!",
+    "Farand Keil runs with the ball and advances towards the goal!",
+    "Farand Keil runs with the ball and advances towards the goal!",
+    "Coward Tarton runs with the ball and advances towards the goal!",
+    "Coward Tarton runs with the ball and advances towards the goal!",
+    "Dickenson Beker runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Dickenson Beker runs into the End Zone and DUNKS THE BALL INTO THE GOAL!"
+  ],
+  "openBar": false
+}

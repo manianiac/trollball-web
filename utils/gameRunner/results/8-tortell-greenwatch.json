@@ -1,0 +1,827 @@
+{
+  "homeTeam": {
+    "name": "The Tortell Privateers",
+    "slug": "tortell",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 48,
+    "stadium": {
+      "name": "The Buccaneer's Bowl",
+      "location": "Toast Island Resort",
+      "description": "A flashy, pristine stadium built on a private beach exclusively for resort guests. The field is imported turf, and a massive, puppet kraken in the bay entertains the crowd at halftime.",
+      "modifiers": ["Distracted Tourists", "Blinding Sun", "Resort Security"]
+    },
+    "healer": {
+      "name": "Eugen Zacks",
+      "team": "The Tortell Privateers",
+      "stats": {
+        "pass": 55,
+        "catch": 60,
+        "run": 55,
+        "block": 51,
+        "fight": 65,
+        "throw": 65,
+        "luck": 52,
+        "pronouns": "He/Him",
+        "civic_engagement": 64,
+        "alcohol_tolerance": 55,
+        "favorite_weapon": "Swordstaff",
+        "pregame_ritual": "Slapping their own helmet until their ears ring.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Lilithe Royce",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 52,
+          "catch": 59,
+          "run": 59,
+          "block": 51,
+          "fight": 49,
+          "throw": 57,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Castorina Gies",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 48,
+          "catch": 65,
+          "run": 66,
+          "block": 52,
+          "fight": 59,
+          "throw": 51,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melisande Eustacia",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 70,
+          "catch": 59,
+          "run": 53,
+          "block": 61,
+          "fight": 61,
+          "throw": 39,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Loralee Sunny",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 46,
+          "catch": 54,
+          "run": 60,
+          "block": 59,
+          "fight": 53,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kidder Starkey",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 59,
+          "run": 65,
+          "block": 64,
+          "fight": 57,
+          "throw": 58,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Keisling Damalas",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 53,
+          "block": 63,
+          "fight": 64,
+          "throw": 63,
+          "luck": 46,
+          "pronouns": "He/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Goldberg Tova",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 62,
+          "block": 65,
+          "fight": 66,
+          "throw": 54,
+          "luck": 65,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellan Elburt",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 51,
+          "catch": 57,
+          "run": 54,
+          "block": 50,
+          "fight": 64,
+          "throw": 59,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Payson Jan",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 60,
+          "block": 56,
+          "fight": 59,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dib Tufts",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 63,
+          "catch": 60,
+          "run": 57,
+          "block": 59,
+          "fight": 58,
+          "throw": 62,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Lilithe Royce",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 52,
+          "catch": 59,
+          "run": 59,
+          "block": 51,
+          "fight": 49,
+          "throw": 57,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Castorina Gies",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 48,
+          "catch": 65,
+          "run": 66,
+          "block": 52,
+          "fight": 59,
+          "throw": 51,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melisande Eustacia",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 70,
+          "catch": 59,
+          "run": 53,
+          "block": 61,
+          "fight": 61,
+          "throw": 39,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Loralee Sunny",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 46,
+          "catch": 54,
+          "run": 60,
+          "block": 59,
+          "fight": 53,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kidder Starkey",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 59,
+          "run": 65,
+          "block": 64,
+          "fight": 57,
+          "throw": 58,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Keisling Damalas",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 53,
+          "block": 63,
+          "fight": 64,
+          "throw": 63,
+          "luck": 46,
+          "pronouns": "He/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Goldberg Tova",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 62,
+          "block": 65,
+          "fight": 66,
+          "throw": 54,
+          "luck": 65,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellan Elburt",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 51,
+          "catch": 57,
+          "run": 54,
+          "block": 50,
+          "fight": 64,
+          "throw": 59,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Payson Jan",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 60,
+          "block": 56,
+          "fight": 59,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dib Tufts",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 63,
+          "catch": 60,
+          "run": 57,
+          "block": 59,
+          "fight": 58,
+          "throw": 62,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Greenwatch",
+    "slug": "greenwatch",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Oakmaul Grounds",
+      "location": "Hafting",
+      "description": "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+      "modifiers": ["Ritual Focus", "Scarred Oak's Shadow", "Hallowed Ground"]
+    },
+    "healer": {
+      "name": "Nariko Javed",
+      "team": "The Greenwatch",
+      "stats": {
+        "pass": 52,
+        "catch": 55,
+        "run": 58,
+        "block": 56,
+        "fight": 50,
+        "throw": 55,
+        "luck": 73,
+        "pronouns": "They/Them",
+        "civic_engagement": 44,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Pike",
+        "pregame_ritual": "Wiggling their fingers in a complex, magical-looking pattern.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Madea Mensch",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 52,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nobe Haukom",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 62,
+          "run": 44,
+          "block": 53,
+          "fight": 49,
+          "throw": 51,
+          "luck": 55,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Verne Methuselah",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 60,
+          "run": 60,
+          "block": 61,
+          "fight": 61,
+          "throw": 59,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rese Halpern",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 50,
+          "run": 68,
+          "block": 56,
+          "fight": 51,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Salahi Bushey",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 57,
+          "catch": 55,
+          "run": 60,
+          "block": 50,
+          "fight": 68,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Anointing their forehead with morning dew.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Darin Berliner",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 60,
+          "run": 48,
+          "block": 56,
+          "fight": 63,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false,
+          "favorite_weapon": "Bardiche"
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rese Halpern",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 50,
+          "run": 68,
+          "block": 56,
+          "fight": 51,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Salahi Bushey",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 57,
+          "catch": 55,
+          "run": 60,
+          "block": 50,
+          "fight": 68,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Anointing their forehead with morning dew.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Darin Berliner",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 60,
+          "run": 48,
+          "block": 56,
+          "fight": 63,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false,
+          "favorite_weapon": "Bardiche"
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "# 🏟️ WELCOME TO THE BUCCANEER'S BOWL! 🏟️\\n\\nGreetings, boils and ghouls! Nok the Corrupter here, coming to you live from the sun-drenched, blindingly bright Buccaneer's Bowl at the Toast Island Resort! We're in the final week of the season, folks, and the tension is thicker than a swamp hag's stew! On one side of the line, we've got **The Greenwatch**, those nature-loving Wardens who probably spend more time hugging trees than hitting people! I saw Madea Mensch hopping to the line with his laces tied together—talk about a handicap! And look at Nariko Javed wiggling those fingers; if that's magic, I'm a paladin! It's enough to make a demon weep with boredom!\\n\\nOver in the home dugout, **The Tortell Privateers** are looking lean, mean, and ready to pillage! Lilithe Royce is currently sticking leeches to her legs to 'lighten her step'—now that's the kind of bloodletting I love to see! 💉 Dib Tufts just downed a raw egg, shell and all, a real breakfast of champions! While Elspeth Ortell might be mixing up some of her 'ritual sangria' for the resort guests, these Privateers are thirsty for something much redder! Even that puppet kraken in the bay looks intimidated by the violence about to unfold!\\n\\nThis stadium is a real piece of work, isn't it? Imported turf and 'Resort Security'—I'd like to see those rent-a-cops try to stop a rampaging troll! With the playoffs looming, both teams are fighting for a spot in the history books of Osterra. Will the Greenwatch's 'Ritual Focus' save them, or will they be blinded by the sun and the sheer brilliance of the Privateers? Let's get this carnage started! 🏈💀",
+  "postGame": "# 🏴‍☠️ THE PRIVATEERS PLUNDER A VICTORY! 🏴‍☠️\\n\\nWhat a finish, folks! What a beautiful, brutal display of Trollball here at the Buccaneer's Bowl! The Tortell Privateers have sailed away with a 6 to 4 victory over the Greenwatch in a match that went all the way to a heart-stopping overtime! It was a real barn-burner, or should I say, a ship-sinker! 🚢💥\\n\\nThe game kicked off with a flurry of activity in the Away Field! Castorina Gies snatched up the troll head like a pirate claiming buried treasure! Payson Jan tried a wild pass that went nowhere—probably too much of Elspeth's sangria—but Melisande Eustacia was there to clean up the mess and keep the Privateers' momentum alive! The Greenwatch players looked like they were still trying to communicate with the birds!\\n\\nThe defense for the Greenwatch was looking stout early on, with Darin Berliner putting on a theatrical display of aggression, blocking Dib Tufts and Kidder Starkey with the flair of a stage actor! I haven't seen that much posturing since Sir Artorias last looked in a mirror! But Loralee Sunny wouldn't be denied, charging toward the goal with her war scythe glinting in that blinding resort sun!\\n\\nThe highlight of the first half had to be Keisling Damalas! He lined up from the 2-point zone and let it rip! 🎯 Splash! Two points for the Privateers! He didn't stop there, immediately diving back into center field to reclaim possession! That's the kind of initiative that makes a demon proud! Keisling was playing like he had the luck of the Abyss on his side!\\n\\nThe Greenwatch tried to fight back, with Rese Halpern grabbing the ball and Drona Jacklin making a desperate run for the goal, but the Privateers' defense was like a stone wall! Even Troy Jorgan's attempts to advance were shut down faster than a Haven Lights prayer meeting! Those 'heroes' from the Wardens were looking more like 'zeros' out there on the sand!\\n\\nThen came the real fireworks! Lilithe Royce, probably powered by those leg leeches, absolutely leveled Madea Mensch! 🦵💥 The crack of bone echoed across the imported turf as Madea was sent to the infirmary! It was a masterpiece of violence that would make even Sir Randy's fancy bow snap in half with envy! Madea's ritual of tying his laces together clearly didn't help him stay on his feet!\\n\\nNot to be outdone, Dib Tufts decided to leave his mark before the whistle! He lunged at Verne Methuselah and delivered a tackle so ferocious it left Verne seeing stars and nursing a one-way ticket to the healer's tent! 🏥 That's how you play the game, folks! No mercy, no prisoners! If the ball carrier is breathing, you aren't hitting hard enough!\\n\\nWe headed into overtime tied up, and the atmosphere was electric! Both teams got their wounded back, thanks to the tireless work of Nariko and Eugen, but the exhaustion was showing! Melisande Eustacia secured the ball early in the extra period, setting the stage for the final act while the resort guests watched in slack-jawed horror! 🍹😵\\n\\nThere was one last gasp of defiance from the Greenwatch! Troy Jorgan finally got his hands on Dib Tufts and sent him packing with a brutal injury of his own! Revenge is a dish best served on a Trollball field, even if it came a little too late to save the match! It's just a shame it wasn't a member of the Haven Lights on the receiving end!\\n\\nThe end came when Payson Jan took aim from the Home Field and hammered home the winning score! The crowd of distracted tourists actually stopped looking at the puppet kraken for five seconds to cheer! 🐙 The Greenwatch are headed back to the woods with nothing but bruises, while the Privateers are celebrating a hard-earned win with some high-quality plunder!\\n\\nIn the end, the Wardens just couldn't handle the heat! Maybe if Sir Randy spent less time polishing his 'fancy' equipment and more time teaching his squad how to take a hit, they'd be heading into the playoffs with more than just sore heads! This is Nok the Corrupter, signing off from the Buccaneer's Bowl! Stay nasty, Osterra! 😈🏈",
+  "week": 8,
+  "homeScore": 6,
+  "awayScore": 4,
+  "slug": "8-tortell-greenwatch",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Castorina Gies in zone Away Field",
+    "Payson Jan throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Melisande Eustacia in zone Away Field",
+    "Darin Berliner tries to Tackle Dib Tufts, but Dib Tufts blocks it!",
+    "Loralee Sunny runs with the ball and advances towards the goal!",
+    "Ellan Elburt tries to run with the ball but is stopped by the defense!",
+    "Darin Berliner tries to Tackle Kidder Starkey, but Kidder Starkey blocks it!",
+    "Darin Berliner tries to Tackle Castorina Gies, but misses!",
+    "Keisling Damalas shoots from Away 2-Point and SCORES!",
+    "The Trollball is picked up by Keisling Damalas in zone Center Field",
+    "Loralee Sunny shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Rese Halpern in zone Center Field",
+    "Payson Jan tries to Tackle Goldenberg Rimola, but Goldenberg Rimola blocks it!",
+    "Lilithe Royce tries to Tackle Drona Jacklin, but misses!",
+    "Castorina Gies tries to Tackle Madea Mensch, but Madea Mensch blocks it!",
+    "Keisling Damalas tries to Tackle Drona Jacklin, but Drona Jacklin blocks it!",
+    "Drona Jacklin runs with the ball and advances towards the goal!",
+    "Dib Tufts tries to Tackle Verne Methuselah, but Verne Methuselah blocks it!",
+    "Lilithe Royce tries to Tackle Herriott Dhiren, but misses!",
+    "Verne Methuselah tries to run with the ball but is stopped by the defense!",
+    "Lilithe Royce tries to Tackle Troy Jorgan, but misses!",
+    "Troy Jorgan tries to run with the ball but is stopped by the defense!",
+    "Kidder Starkey tries to Tackle Troy Jorgan, but misses!",
+    "Lilithe Royce Tackles Madea Mensch and INJURES THEM!",
+    "Herriott Dhiren shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Herriott Dhiren in zone Home Field",
+    "Keisling Damalas tries to Tackle Herriott Dhiren, but misses!",
+    "Lilithe Royce tries to Tackle Troy Jorgan, but misses!",
+    "Dib Tufts Tackles Verne Methuselah and INJURES THEM!",
+    "Ellan Elburt tries to Tackle Rese Halpern, but Rese Halpern blocks it!",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Melisande Eustacia in zone Home Field",
+    "Payson Jan tries to Tackle Darin Berliner, but Darin Berliner blocks it!",
+    "Drona Jacklin tries to Tackle Dib Tufts, but misses!",
+    "Troy Jorgan Tackles Dib Tufts and INJURES THEM!",
+    "Payson Jan shoots from Home Field and SCORES!"
+  ],
+  "openBar": false
+}

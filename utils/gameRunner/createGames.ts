@@ -39,12 +39,18 @@ export const generateGamesTS = () => {
     const games = filenames
       .filter(
         (filename: string) =>
-          filename.endsWith(".json") && !filename.includes("weeklyRecap"),
+          filename.endsWith(".json") &&
+          !filename.includes("weeklyRecap") &&
+          filename.startsWith("po-"),
       )
       .map((filename: string) => {
         const filePath = path.join(GAMES_DIR, filename);
         const fileContents = fs.readFileSync(filePath, "utf-8");
         const gameData: match = JSON.parse(fileContents);
+
+        if (filename.startsWith("po-")) {
+          gameData.slug = filename.replace(".json", "");
+        }
 
         return {
           ...gameData,
@@ -324,7 +330,7 @@ const run = async () => {
   const week = Math.max(...allGamesData.map((game) => game.week));
 
   const trimmedGamesData = allGamesData.map((game) => {
-    const trimmedGame = game;
+    const trimmedGame = { ...game };
     if (trimmedGame.week !== week) {
       trimmedGame.preGame = "";
       trimmedGame.postGame = "";
@@ -360,11 +366,11 @@ const run = async () => {
     return trimmedGame;
   });
 
-  // writeGeneratedTSFile(allGamesData);
+  writeGeneratedTSFile(allGamesData);
   // await makeCelebrityPost(trimmedGamesData);
   // makeWeeklyRecap(trimmedGamesData);
 
-  makeDiscordAnnouncement(trimmedGamesData);
+  // makeDiscordAnnouncement(trimmedGamesData);
   // await makePopularityPost(trimmedGamesData);
 
   // To regenerate writeups for a specific week without rerunning games:
