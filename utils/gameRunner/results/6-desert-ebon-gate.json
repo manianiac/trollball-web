@@ -1,0 +1,919 @@
+{
+  "homeTeam": {
+    "name": "The Desert Spectres",
+    "slug": "desert",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 61,
+    "stadium": {
+      "name": "The Sun-Baked Bowl",
+      "location": "The Great Desert",
+      "description": "A simple, deep bowl dug from clay and sandstone on the edge of a caravan oasis. The heat is oppressive, and the 'stands' are just blankets laid on the sun-baked dunes.",
+      "modifiers": ["Intense Heat", "Sandstorm", "Dehydration"]
+    },
+    "healer": {
+      "name": "Verlee Dacia",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 54,
+        "catch": 53,
+        "run": 68,
+        "block": 50,
+        "fight": 40,
+        "throw": 47,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Billhook",
+        "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Fidellia Mozelle",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 40,
+          "catch": 57,
+          "run": 60,
+          "block": 56,
+          "fight": 65,
+          "throw": 67,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Muscolo Jaehne",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 39,
+          "fight": 60,
+          "throw": 53,
+          "luck": 49,
+          "pronouns": "They/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Eileen Mikihisa",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 45,
+          "catch": 54,
+          "run": 59,
+          "block": 60,
+          "fight": 55,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Bahr Ethelstan",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 62,
+          "catch": 61,
+          "run": 62,
+          "block": 49,
+          "fight": 60,
+          "throw": 52,
+          "luck": 53,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Heyes Iver",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 55,
+          "catch": 60,
+          "run": 61,
+          "block": 51,
+          "fight": 54,
+          "throw": 71,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Angelita Darce",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 50,
+          "run": 58,
+          "block": 53,
+          "fight": 56,
+          "throw": 58,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Shaving one half of their mustache for important games.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shelman McQuoid",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 44,
+          "fight": 54,
+          "throw": 65,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lovash Marius",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 46,
+          "run": 42,
+          "block": 56,
+          "fight": 43,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Steve",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 59,
+          "catch": 63,
+          "run": 55,
+          "block": 59,
+          "fight": 64,
+          "throw": 48,
+          "luck": 74,
+          "pronouns": "She/Her",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Huesman Ring",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 48,
+          "catch": 56,
+          "run": 41,
+          "block": 48,
+          "fight": 58,
+          "throw": 38,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Fidellia Mozelle",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 40,
+          "catch": 57,
+          "run": 60,
+          "block": 56,
+          "fight": 65,
+          "throw": 67,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Muscolo Jaehne",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 39,
+          "fight": 60,
+          "throw": 53,
+          "luck": 49,
+          "pronouns": "They/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Eileen Mikihisa",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 45,
+          "catch": 54,
+          "run": 59,
+          "block": 60,
+          "fight": 55,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Angelita Darce",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 50,
+          "run": 58,
+          "block": 53,
+          "fight": 56,
+          "throw": 58,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Shaving one half of their mustache for important games.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shelman McQuoid",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 44,
+          "fight": 54,
+          "throw": 65,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Steve",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 59,
+          "catch": 63,
+          "run": 55,
+          "block": 59,
+          "fight": 64,
+          "throw": 48,
+          "luck": 74,
+          "pronouns": "She/Her",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Huesman Ring",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 48,
+          "catch": 56,
+          "run": 41,
+          "block": 48,
+          "fight": 58,
+          "throw": 38,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Heyes Iver",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 55,
+          "catch": 60,
+          "run": 61,
+          "block": 51,
+          "fight": 54,
+          "throw": 71,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Bahr Ethelstan",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 62,
+          "catch": 61,
+          "run": 62,
+          "block": 49,
+          "fight": 60,
+          "throw": 52,
+          "luck": 53,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lovash Marius",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 46,
+          "run": 42,
+          "block": 56,
+          "fight": 43,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Ebon Gate Corruptors",
+    "slug": "ebon-gate",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 59,
+    "stadium": {
+      "name": "The Sinking Field",
+      "location": "Ebon Gate",
+      "description": "A notoriously poorly-maintained stadium built on reclaimed marshland. The ground is unstable, often waterlogged, and sections of the stands are known to collapse.",
+      "modifiers": ["Thick Mud", "Noxious Fumes", "Sinkhole"]
+    },
+    "healer": {
+      "name": "Terle Chenay",
+      "team": "The Ebon Gate Corruptors",
+      "stats": {
+        "pass": 62,
+        "catch": 64,
+        "run": 70,
+        "block": 58,
+        "fight": 46,
+        "throw": 62,
+        "luck": 58,
+        "pronouns": "She/Her",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Mace",
+        "pregame_ritual": "Seeing who on the team can belch the loudest.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Bullion Iglesias",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 55,
+          "block": 52,
+          "fight": 52,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Meditating silently in the corner of the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Olnek Vizzone",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 48,
+          "run": 53,
+          "block": 59,
+          "fight": 49,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Smith Syst",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 49,
+          "block": 47,
+          "fight": 63,
+          "throw": 59,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Daring a teammate to eat a live worm.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Napoleon Anzovin",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 52,
+          "block": 45,
+          "fight": 59,
+          "throw": 49,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ahasuerus An",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 39,
+          "catch": 56,
+          "run": 49,
+          "block": 61,
+          "fight": 51,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Olnek Vizzone",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 48,
+          "run": 53,
+          "block": 59,
+          "fight": 49,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Napoleon Anzovin",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 52,
+          "block": 45,
+          "fight": 59,
+          "throw": 49,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Smith Syst",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 49,
+          "block": 47,
+          "fight": 63,
+          "throw": 59,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Daring a teammate to eat a live worm.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Bullion Iglesias",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 55,
+          "block": 52,
+          "fight": 52,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Meditating silently in the corner of the locker room.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "Step right up, ladies and gentlemen, ghosts and ghouls! It’s a swell evening for some Tuesday Night Trollball! I’m Nok the Corrupter, and boy howdy, do we have a doozy for you! We’re coming to you live from the Sun-Baked Bowl, where the clay is hot enough to fry a cockatrice egg and the 'stands' are just blankets on the dunes! It’s the home-town Desert Spectres taking on my personal favorites—the meanest, toughest bunch of beauties in Osterra—the Ebon Gate Corruptors! 🏟️🔥\n\nNow, let’s talk about those Corruptors! I saw Smith Syst in the locker room earlier, and she was doing her usual thing, daring a teammate to eat a live worm! That’s the kind of grit you love to see, folks! Meanwhile, Bullion Iglesias was sitting in the corner like a statue, just meditating away. You can feel the focus! They’re looking to give those Spectres a real run for their money, and with Ellette Paz and her blackjack ready to go, I wouldn't want to be on the receiving end of that defense! 🪱🔨\n\nOn the other side of the field, the Desert Spectres are looking sharp—or at least half of them are! Angelita Darce has shaved exactly half of his mustache for this big game. It’s a bold look, folks, almost as bold as their boss, that ol' frenemy Geth the Gravelord! And keep an eye on Steve; she’s already got a betting pool going. I’d put my soul on the Corruptors, but then again, my boss Lord Orzalon might have something to say about that! Let’s get ready for some carnage! 🌵🎲",
+  "postGame": "Holy smokes, what a humdinger of a match! The Ebon Gate Corruptors have pulled off a victory that would make even the grumpiest demon crack a smile! We started things off right after halftime with a frantic scramble in Center Field. Ellette Paz snatched up the troll head like it was a bag of gold, but the Spectres' defense was stickier than a spider's web! Judi Carrington tried to make a break for it twice, but those desert dwellers weren't budging! 🏈💥\n\nThings got spicy when Amedeo Bari tried to take a couple of long shots from Center Field. He missed the basket, sure, but the ambition was enough to give me goosebumps! The ball kept changing hands like a hot potato, and the tension was thicker than the mud at the Sinking Field. You could tell both teams were itching for a little of the old ultra-violence, and boy, did they deliver! 👏✨\n\nThen came the first big crack of the night! Shelman McQuoid of the Spectres decided Bullion Iglesias had been standing for too long and sent him straight to the infirmary! A real bell-ringer, folks! It looked like the Corruptors were in trouble when Amedeo Bari fumbled a pass to Simsar Carrelli, leaving the ball ripe for the picking. Bahr Ethelstan was there to scoop it up, much to the delight of the home crowd. 🤕🚑\n\nBut you can't keep a good Corruptor down! Ellette Paz decided it was time for some payback and absolutely leveled Heyes Iver! I haven't seen a hit like that since Sir Artorias tried to take on a mountain giant! The field was turning into a real scrap-heap. Not to be outdone, Muscolo Jaehne took out our very own Smith Syst, sending her to see Terle Chenay for some quick mending. It was a revolving door of pain! 🔨💢\n\nAs the game wore on, the Spectres tried to make their move. Eileen Mikihisa and Steve were darting toward the goal like thirsty camels toward an oasis, but the Corruptors' defense, led by Olnek Vizzone and Simsar Carrelli, held firm! Even with the intense heat of the desert sun beating down, our boys didn't break a sweat—mostly because they were too busy throwing shoulders! 🌵🏃‍♂️\n\nWe headed into Overtime with a goose-egg on the scoreboard, but the energy was electric! Both teams took a quick breather, and the healers were working overtime. Terle Chenay had Bullion and Smith back on their feet in no time, proving that Ebon Gate dental plans are second to none! The Spectres' Verlee Dacia was just as busy, patching up Heyes Iver for more punishment. ⏰⚡\n\nOvertime was a total free-for-all! Lovash Marius started things off by injuring Ellette Paz, but Smith Syst came back with a vengeance! She didn't just play the game; she dismantled the Spectres! She took out Heyes Iver again, then sent Bahr Ethelstan packing, and finally finished her rampage by injuring Lovash Marius! It was a masterclass in brutality that would make Geth the Gravelord weep into his gravel! 😈💀\n\nIn the midst of all that carnage, Steve managed to catch Bullion Iglesias off guard and sent him back to the sidelines. It was back and forth, hit for hit, a real test of who wanted that leather head more! The Spectres were looking to end it when Angelita Darce tried a wild pass, but oh boy, did he choose the wrong target! Olnek Vizzone read that play like a book and snatched the ball right out of the air! INTERCEPTION! 🏈👐\n\nWith the ball back in the Corruptors' hands, the momentum shifted for good. Olnek Vizzone charged forward, and while the Spectres tried to stop him, they were gassed! Smith Syst was still out there playing like a woman possessed, keeping the defense occupied. The Spectres were looking as confused as Sir Randy trying to find his way out of a paper bag! 📜🤔\n\nThen came the moment of glory! Simsar Carrelli found himself with an opening in the Away Field. He didn't hesitate, he didn't blink—he let that troll head fly! SWISH! A two-point shoot right into the basket! The Ebon Gate Corruptors take it 2 to 0 in a stunning display of skill and savagery! What a night for the fans of the Gate! Until next week, this is Nok the Corrupter saying: keep your weapons sharp and your healers closer! Goodnight, Osterra! 🏆🎉",
+  "week": 6,
+  "homeScore": 0,
+  "awayScore": 2,
+  "slug": "6-desert-ebon-gate",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Ellette Paz in zone Center Field",
+    "Judi Carrington tries to run with the ball but is stopped by the defense!",
+    "Judi Carrington tries to run with the ball but is stopped by the defense!",
+    "Amedeo Bari shoots from Center Field but misses the goal!",
+    "Amedeo Bari shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Judi Carrington in zone Center Field",
+    "Ellette Paz passes the ball to Simsar Carrelli!",
+    "Ellette Paz passes the ball to Simsar Carrelli!",
+    "Shelman McQuoid Tackles Bullion Iglesias and INJURES THEM!",
+    "Shelman McQuoid Tackles Bullion Iglesias and INJURES THEM!",
+    "Amedeo Bari passes the ball to Simsar Carrelli, but they drop it!",
+    "Amedeo Bari passes the ball to Simsar Carrelli, but they drop it!",
+    "The Trollball is picked up by Bahr Ethelstan in zone Center Field",
+    "Huesman Ring tries to Tackle Judi Carrington, but Judi Carrington blocks it!",
+    "Huesman Ring tries to Tackle Judi Carrington, but Judi Carrington blocks it!",
+    "Bahr Ethelstan tries to Tackle Simsar Carrelli, but misses!",
+    "Bahr Ethelstan tries to Tackle Simsar Carrelli, but misses!",
+    "Muscolo Jaehne passes the ball to Angelita Darce!",
+    "Muscolo Jaehne passes the ball to Angelita Darce!",
+    "Simsar Carrelli tries to Tackle Angelita Darce, but Angelita Darce blocks it!",
+    "Simsar Carrelli tries to Tackle Angelita Darce, but Angelita Darce blocks it!",
+    "Ellette Paz Tackles Heyes Iver and INJURES THEM!",
+    "Ellette Paz Tackles Heyes Iver and INJURES THEM!",
+    "Steve tries to run with the ball but is stopped by the defense!",
+    "Steve tries to run with the ball but is stopped by the defense!",
+    "Muscolo Jaehne Tackles Smith Syst and INJURES THEM!",
+    "Muscolo Jaehne Tackles Smith Syst and INJURES THEM!",
+    "Terle Chenay has returned Bullion Iglesias to play",
+    "Eileen Mikihisa runs with the ball and advances towards the goal!",
+    "Eileen Mikihisa runs with the ball and advances towards the goal!",
+    "Simsar Carrelli tries to Tackle Fidellia Mozelle, but misses!",
+    "Simsar Carrelli tries to Tackle Fidellia Mozelle, but misses!",
+    "As Utter tries to Tackle Eileen Mikihisa, but misses!",
+    "As Utter tries to Tackle Eileen Mikihisa, but misses!",
+    "Steve runs with the ball and advances towards the goal!",
+    "Steve runs with the ball and advances towards the goal!",
+    "Olnek Vizzone tries to Tackle Steve, but misses!",
+    "Olnek Vizzone tries to Tackle Steve, but misses!",
+    "Eileen Mikihisa tries to Tackle Judi Carrington, but Judi Carrington blocks it!",
+    "Eileen Mikihisa tries to Tackle Judi Carrington, but Judi Carrington blocks it!",
+    "Olnek Vizzone tries to Tackle Huesman Ring, but misses!",
+    "Olnek Vizzone tries to Tackle Huesman Ring, but misses!",
+    "Terle Chenay has returned Smith Syst to play",
+    "Ellette Paz tries to Tackle Lovash Marius, but Lovash Marius blocks it!",
+    "Ellette Paz tries to Tackle Lovash Marius, but Lovash Marius blocks it!",
+    "Amedeo Bari tries to Tackle Huesman Ring, but misses!",
+    "Amedeo Bari tries to Tackle Huesman Ring, but misses!",
+    "Judi Carrington tries to Tackle Fidellia Mozelle, but misses!",
+    "Judi Carrington tries to Tackle Fidellia Mozelle, but misses!",
+    "Napoleon Anzovin tries to Tackle Huesman Ring, but misses!",
+    "Napoleon Anzovin tries to Tackle Huesman Ring, but misses!",
+    "Steve shoots from Away 2-Point but misses the goal!",
+    "Steve shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Lovash Marius in zone Away 2-Point",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Fidellia Mozelle in zone Away 2-Point",
+    "Lovash Marius Tackles Ellette Paz and INJURES THEM!",
+    "Lovash Marius Tackles Ellette Paz and INJURES THEM!",
+    "Smith Syst Tackles Heyes Iver and INJURES THEM!",
+    "Smith Syst Tackles Heyes Iver and INJURES THEM!",
+    "Terle Chenay has returned Ellette Paz to play",
+    "Judi Carrington tries to Tackle Muscolo Jaehne, but misses!",
+    "Judi Carrington tries to Tackle Muscolo Jaehne, but misses!",
+    "Simsar Carrelli tries to Tackle Steve, but Steve blocks it!",
+    "Simsar Carrelli tries to Tackle Steve, but Steve blocks it!",
+    "Verlee Dacia has returned Heyes Iver to play",
+    "Smith Syst Tackles Bahr Ethelstan and INJURES THEM!",
+    "Smith Syst Tackles Bahr Ethelstan and INJURES THEM!",
+    "Bullion Iglesias tries to Tackle Lovash Marius, but misses!",
+    "Bullion Iglesias tries to Tackle Lovash Marius, but misses!",
+    "Steve tries to Tackle Olnek Vizzone, but misses!",
+    "Steve tries to Tackle Olnek Vizzone, but misses!",
+    "Angelita Darce throws a wild pass and it is INTERCEPTED by Olnek Vizzone!",
+    "Angelita Darce throws a wild pass and it is INTERCEPTED by Olnek Vizzone!",
+    "Smith Syst tries to run with the ball but is stopped by the defense!",
+    "Smith Syst tries to run with the ball but is stopped by the defense!",
+    "Olnek Vizzone runs with the ball and advances towards the goal!",
+    "Olnek Vizzone runs with the ball and advances towards the goal!",
+    "Huesman Ring tries to Tackle Ellette Paz, but misses!",
+    "Huesman Ring tries to Tackle Ellette Paz, but misses!",
+    "Simsar Carrelli tries to Tackle Shelman McQuoid, but misses!",
+    "Simsar Carrelli tries to Tackle Shelman McQuoid, but misses!",
+    "Smith Syst Tackles Lovash Marius and INJURES THEM!",
+    "Smith Syst Tackles Lovash Marius and INJURES THEM!",
+    "Steve Tackles Bullion Iglesias and INJURES THEM!",
+    "Steve Tackles Bullion Iglesias and INJURES THEM!",
+    "Simsar Carrelli shoots from Away Field and SCORES!",
+    "Simsar Carrelli shoots from Away Field and SCORES!"
+  ],
+  "openBar": false
+}

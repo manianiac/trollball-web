@@ -1,0 +1,940 @@
+{
+  "homeTeam": {
+    "name": "The New Ravenfall Commanders",
+    "slug": "new-ravenfall",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 64,
+    "stadium": {
+      "name": "The Stronghold Bailey",
+      "location": "New Ravenfall (Stronghold Castle)",
+      "description": "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
+      "modifiers": ["Cobblestone Pitch", "Rampart Shadows", "Castle Echo"]
+    },
+    "healer": {
+      "name": "Hooge Imtiaz",
+      "team": "The New Ravenfall Commanders",
+      "stats": {
+        "pass": 57,
+        "catch": 50,
+        "run": 39,
+        "block": 59,
+        "fight": 53,
+        "throw": 63,
+        "luck": 59,
+        "pronouns": "She/Her",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 44,
+        "favorite_weapon": "Warhammer",
+        "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Moir Sass",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 51,
+          "block": 48,
+          "fight": 60,
+          "throw": 56,
+          "luck": 61,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Theis Loredo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 46,
+          "run": 55,
+          "block": 54,
+          "fight": 62,
+          "throw": 61,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jessalin Zobias",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 55,
+          "block": 42,
+          "fight": 52,
+          "throw": 53,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Moir Sass",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 51,
+          "block": 48,
+          "fight": 60,
+          "throw": 56,
+          "luck": 61,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Theis Loredo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 46,
+          "run": 55,
+          "block": 54,
+          "fight": 62,
+          "throw": 61,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jessalin Zobias",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 55,
+          "block": 42,
+          "fight": 52,
+          "throw": 53,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Haven Lights",
+    "slug": "haven",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 55,
+    "stadium": {
+      "name": "The Aegis Field",
+      "location": "Haven (Temple of Light Compound)",
+      "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+      "modifiers": ["Hallowed Ground", "Shield's Watch", "Twinlight's Glow"]
+    },
+    "healer": {
+      "name": "Riffle Harrington",
+      "team": "The Haven Lights",
+      "stats": {
+        "pass": 56,
+        "catch": 49,
+        "run": 49,
+        "block": 43,
+        "fight": 66,
+        "throw": 52,
+        "luck": 63,
+        "pronouns": "He/Him",
+        "civic_engagement": 63,
+        "alcohol_tolerance": 52,
+        "favorite_weapon": "Spiked Gauntlet",
+        "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "Well, pull up a crate and lend me your ears, sports fans! This is Nok the Corrupter, coming to you live from the magnificent Stronghold Bailey! 🎙️ The New Ravenfall Commanders are playing host to those shimmering, self-righteous Haven Lights, and the atmosphere is absolutely thick with the scent of competition and damp cobblestones! We are high atop the plateau today, and that Castle Echo is making every pre-game chant sound like a thunderclap from the gods themselves! 🏰 The local fans are out in droves, practically hanging off the ramparts to cheer for their favorites, while the Haven supporters are looking a bit sparse—probably too busy polishing their halos to make the trek! It is a beautiful day for a bit of the old ultra-violence, and the field is just begging for a little fresh paint—if you catch my drift! 🛡️ Over in the Commanders' dugout, Jozef Pepe is currently leading the pack by belching loud enough to rattle the windows of the Great Hall, while Croteau Osmo is meticulously tying a red string around their pinky for luck—let's hope it stays attached to the finger! 🧶 Meanwhile, the Haven Lights are up to their usual 'virtuous' nonsense. Shiroma Salim is re-taping that Kirkhammer for the tenth time, and young Tybi Reo is busy drawing a troll head that looks more like a squashed melon than a trophy! 🍈 They might have the 'Shield's Watch' looking over them, but out here on the Cobblestone Pitch, even the twin lights can't save you from a Claymore to the ribs! 💥 With the playoffs just around the corner, both teams are looking to make a statement! Will the Commanders find their victory as sweet as the honeycomb Estes Adrian is snacking on, or will the Haven Lights manage to 'hop' their way to a win like their healer, Riffle Harrington, and his tied-together bootlaces? 👟 Grab your refreshments and keep your eyes on the shadows, because Tuesday Night Trollball is live! 👹🏈",
+  "postGame": "What a day for the history books, folks! The New Ravenfall Commanders have successfully defended the Stronghold Bailey, taking down the Haven Lights with a final score of 2 to 1 in a match that was as jagged as the cobblestones themselves! 🦴 The action started with a bang as Croteau Osmo snatched the ball right out of the gate, but the 'heroes' from Haven weren't in a mood for games. Riffle Heyde, that mace-wielding menace, absolutely flattened Jozef Pepe early on, proving that even the most pious players have a bit of a mean streak when the leather starts flying! 🤕 The violence was just getting started, though! Wieren Ivar decided to welcome Croteau Osmo to the ground with a tackle that sounded like a bag of dry sticks breaking, sending the ball loose and Croteau to the sidelines! 🏚️ It was a chaotic scramble for possession, with the Commanders trying to find their footing while Marlane Lounge played the heavy, knocking Jessalin Zobias into a stupor! It’s funny how those Haven folks talk about peace until they have a Main-gauche in their hands and a target in front of them! 🏛️ Riffle Heyde continued their rampage, taking out both Dusa Curson and Theis Loredo in quick succession! I haven't seen that much carnage in a single half since Lord Orzalon tried to reorganize the Demon Prison! 🩸 By the time the halftime whistle blew, the field looked more like a battlefield in Eponore than a sporting event, but thanks to the magic of the Everwar, every single one of those mangled athletes was back on their feet and ready for more punishment! 🍖 The second half saw the Haven Lights finally find the basket! Riffle Heyde, after all that hitting, actually remembered there was a ball in play and found Wieren Ivar in the End Zone for a dunk! The few Haven fans in attendance went wild, probably thinking the Twinlights had blessed them, but their celebration was premature! 🕯️ The Commanders roared back like a cornered beast! Croteau Osmo, returning from the infirmary with a vengeance, took a daring shot from way back in Center Field! The ball hummed through the Castle Echo and sailed right through the goal for a massive 2-point score, flipping the game and sending the rampart crowd into a state of absolute delirium! 🎯 The Lights tried to mount a comeback, but their coordination fell apart faster than a cheap shield! Zwart Bunns and Riffle Heyde started dropping passes left and right, their hands shaking as the Commanders' defense turned up the heat! 🔨 Jozef Pepe got his pound of flesh, sending Zwart Bunns back to the dirt with a bone-crunching tackle, while Estes Adrian finished the job by taking Farand Keil out of the equation entirely! 🔨 Even with Riffle Harrington hopping around and doing his best to patch up the wounded, the Lights just couldn't find their rhythm under the weight of the Rampart Shadows. Those 'heroes' like the God King Artorias or that warlock Morgwae might celebrate their grit, but out here, grit doesn't mean much if you're unconscious in the dirt! ☀️ In the end, the Commanders proved that home-field advantage and a bit of fermented fish can carry you a long way! They head into the playoffs with their heads held high and their weapons dripping, while the Haven Lights are left to lick their wounds and pray for a better season next year! 🏆 It’s been a glorious night of Trollball here in New Ravenfall, full of the kind of brutality that makes this the greatest sport in any reality! This is Nok the Corrupter, signing off and reminding you: if you aren't bleeding, you aren't playing! Goodnight, Osterra! 🌙👹",
+  "week": 7,
+  "homeScore": 2,
+  "awayScore": 1,
+  "slug": "7-new-ravenfall-haven",
+  "plays": [
+    "The Trollball is picked up by Croteau Osmo in zone Center Field",
+    "undefined",
+    "Pirozzo Opal tries to Tackle Marlane Lounge, but misses!",
+    "Pirozzo Opal tries to Tackle Marlane Lounge, but misses!",
+    "Rhett Gavrilla tries to Tackle Tybi Reo, but misses!",
+    "Rhett Gavrilla tries to Tackle Tybi Reo, but misses!",
+    "Riffle Heyde Tackles Jozef Pepe and INJURES THEM!",
+    "Riffle Heyde Tackles Jozef Pepe and INJURES THEM!",
+    "Dickenson Beker tries to Tackle Fleme Alis, but Fleme Alis blocks it!",
+    "Dickenson Beker tries to Tackle Fleme Alis, but Fleme Alis blocks it!",
+    "Wieren Ivar Tackles Croteau Osmo and INJURES THEM!",
+    "Wieren Ivar Tackles Croteau Osmo and INJURES THEM!",
+    "Zwart Bunns tries to Tackle Pirozzo Opal, but misses!",
+    "Zwart Bunns tries to Tackle Pirozzo Opal, but misses!",
+    "Coward Tarton tries to Tackle Rhett Gavrilla, but misses!",
+    "Coward Tarton tries to Tackle Rhett Gavrilla, but misses!",
+    "Berkin Waters tries to Tackle Pirozzo Opal, but misses!",
+    "Berkin Waters tries to Tackle Pirozzo Opal, but misses!",
+    "Coward Tarton tries to Tackle Dusa Curson, but misses!",
+    "Coward Tarton tries to Tackle Dusa Curson, but misses!",
+    "Jessalin Zobias tries to run with the ball but is stopped by the defense!",
+    "Jessalin Zobias tries to run with the ball but is stopped by the defense!",
+    "Estes Adrian throws a wild pass and it is INTERCEPTED by Farand Keil!",
+    "Estes Adrian throws a wild pass and it is INTERCEPTED by Farand Keil!",
+    "Marlane Lounge Tackles Jessalin Zobias and INJURES THEM!",
+    "Marlane Lounge Tackles Jessalin Zobias and INJURES THEM!",
+    "Tybi Reo tries to Tackle Fleme Alis, but misses!",
+    "Tybi Reo tries to Tackle Fleme Alis, but misses!",
+    "Pirozzo Opal tries to Tackle Farand Keil, but misses!",
+    "Pirozzo Opal tries to Tackle Farand Keil, but misses!",
+    "Berkin Waters passes the ball to Coward Tarton!",
+    "Berkin Waters passes the ball to Coward Tarton!",
+    "Coward Tarton runs with the ball and advances towards the goal!",
+    "Coward Tarton runs with the ball and advances towards the goal!",
+    "Tybi Reo tries to Tackle Rhett Gavrilla, but misses!",
+    "Tybi Reo tries to Tackle Rhett Gavrilla, but misses!",
+    "Estes Adrian tries to Tackle Tybi Reo, but Tybi Reo blocks it!",
+    "Estes Adrian tries to Tackle Tybi Reo, but Tybi Reo blocks it!",
+    "Wieren Ivar tries to Tackle Theis Loredo, but misses!",
+    "Wieren Ivar tries to Tackle Theis Loredo, but misses!",
+    "Rhett Gavrilla tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Rhett Gavrilla tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Riffle Heyde Tackles Dusa Curson and INJURES THEM!",
+    "Riffle Heyde Tackles Dusa Curson and INJURES THEM!",
+    "Fleme Alis tries to Tackle Tybi Reo, but misses!",
+    "Fleme Alis tries to Tackle Tybi Reo, but misses!",
+    "Estes Adrian Tackles Berkin Waters and INJURES THEM!",
+    "Estes Adrian Tackles Berkin Waters and INJURES THEM!",
+    "Marlane Lounge passes the ball to Dickenson Beker, but they drop it!",
+    "Marlane Lounge passes the ball to Dickenson Beker, but they drop it!",
+    "The Trollball is picked up by Shiroma Salim in zone Home Field",
+    "Riffle Heyde Tackles Theis Loredo and INJURES THEM!",
+    "Riffle Heyde Tackles Theis Loredo and INJURES THEM!",
+    "Riffle Heyde runs with the ball and advances towards the goal!",
+    "Riffle Heyde runs with the ball and advances towards the goal!",
+    "Zwart Bunns throws a wild pass and it lands on the ground!",
+    "Zwart Bunns throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Farand Keil in zone Home 2-Point",
+    "Rhett Gavrilla tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "Rhett Gavrilla tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Shiroma Salim in zone Home 2-Point",
+    "Fleme Alis tries to Tackle Marlane Lounge, but Marlane Lounge blocks it!",
+    "Fleme Alis tries to Tackle Marlane Lounge, but Marlane Lounge blocks it!",
+    "Moir Sass tries to Tackle Riffle Heyde, but misses!",
+    "Moir Sass tries to Tackle Riffle Heyde, but misses!",
+    "Marlane Lounge Tackles Pirozzo Opal and INJURES THEM!",
+    "Marlane Lounge Tackles Pirozzo Opal and INJURES THEM!",
+    "Jozef Pepe Tackles Zwart Bunns and INJURES THEM!",
+    "Jozef Pepe Tackles Zwart Bunns and INJURES THEM!",
+    "Theis Loredo tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Theis Loredo tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Riffle Heyde passes to Wieren Ivar in the End Zone, who dunks the ball into the goal!",
+    "Riffle Heyde passes to Wieren Ivar in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Tybi Reo in zone Center Field",
+    "Estes Adrian tries to Tackle Wieren Ivar, but misses!",
+    "Estes Adrian tries to Tackle Wieren Ivar, but misses!",
+    "Jessalin Zobias tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Jessalin Zobias tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Farand Keil passes the ball to Riffle Heyde!",
+    "Farand Keil passes the ball to Riffle Heyde!",
+    "Hooge Imtiaz has returned Pirozzo Opal to play",
+    "Shiroma Salim tries to Tackle Estes Adrian, but misses!",
+    "Shiroma Salim tries to Tackle Estes Adrian, but misses!",
+    "Estes Adrian Tackles Coward Tarton and INJURES THEM!",
+    "Estes Adrian Tackles Coward Tarton and INJURES THEM!",
+    "Riffle Heyde shoots from Center Field but misses the goal!",
+    "Riffle Heyde shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Marlane Lounge in zone Center Field",
+    "Riffle Harrington has returned Zwart Bunns to play",
+    "Zwart Bunns passes the ball to Riffle Heyde, but they drop it!",
+    "Zwart Bunns passes the ball to Riffle Heyde, but they drop it!",
+    "The Trollball is picked up by Theis Loredo in zone Center Field",
+    "Croteau Osmo shoots from Center Field and SCORES!",
+    "Croteau Osmo shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Dickenson Beker in zone Center Field",
+    "Farand Keil runs with the ball and advances towards the goal!",
+    "Farand Keil runs with the ball and advances towards the goal!",
+    "Riffle Harrington has returned Coward Tarton to play",
+    "Jozef Pepe Tackles Zwart Bunns and INJURES THEM!",
+    "Jozef Pepe Tackles Zwart Bunns and INJURES THEM!",
+    "Estes Adrian Tackles Farand Keil and INJURES THEM!",
+    "Estes Adrian Tackles Farand Keil and INJURES THEM!",
+    "Pirozzo Opal tries to Tackle Tybi Reo, but misses!",
+    "Pirozzo Opal tries to Tackle Tybi Reo, but misses!",
+    "Pirozzo Opal tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "Pirozzo Opal tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "Fleme Alis tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "Fleme Alis tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "Dusa Curson tries to Tackle Tybi Reo, but Tybi Reo blocks it!",
+    "Dusa Curson tries to Tackle Tybi Reo, but Tybi Reo blocks it!"
+  ],
+  "openBar": false
+}

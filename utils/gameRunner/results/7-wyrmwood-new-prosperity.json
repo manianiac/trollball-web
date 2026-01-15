@@ -1,0 +1,939 @@
+{
+  "homeTeam": {
+    "name": "The Wyrmwood Stronghammers",
+    "slug": "wyrmwood",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 66,
+    "stadium": {
+      "name": "The Hollow Mine",
+      "location": "Wyrmwood Hollow",
+      "description": "The playing field is the circular, wildflower-covered clearing at the base of the imposing, ivy-covered Watch Tower. The ground hums with a strange energy, and the home team makes their entrance from the newly-opened mine shaft that bores deep into the tower's foundation.",
+      "modifiers": ["Humming Earth", "Tangled Vines", "Mine Draft"]
+    },
+    "healer": {
+      "name": "Hamburger Marthe",
+      "team": "The Wyrmwood Stronghammers",
+      "stats": {
+        "pass": 51,
+        "catch": 54,
+        "run": 46,
+        "block": 67,
+        "fight": 61,
+        "throw": 54,
+        "luck": 54,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Arming Sword",
+        "pregame_ritual": "Seeing how many dried beans they can fit in their nostril.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Rebane Kendy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 61,
+          "catch": 51,
+          "run": 53,
+          "block": 56,
+          "fight": 45,
+          "throw": 60,
+          "luck": 43,
+          "pronouns": "He/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Rebane Kendy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 61,
+          "catch": 51,
+          "run": 53,
+          "block": 56,
+          "fight": 45,
+          "throw": 60,
+          "luck": 43,
+          "pronouns": "He/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The New Prosperity Profits",
+    "slug": "new-prosperity",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 50,
+    "stadium": {
+      "name": "The Guilder's Field",
+      "location": "New Prosperity",
+      "description": "An opulent stadium sponsored by the powerful Merchant's Guild. The stands feature luxurious, velvet-lined boxes for bankers, who are often more focused on making deals than the game.",
+      "modifiers": ["Hostile Takeover", "Hired Hecklers", "Market Fluctuation"]
+    },
+    "healer": {
+      "name": "Merissa Mathian",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 54,
+        "catch": 54,
+        "run": 53,
+        "block": 45,
+        "fight": 52,
+        "throw": 59,
+        "luck": 49,
+        "pronouns": "She/Her",
+        "civic_engagement": 66,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "Longsword",
+        "pregame_ritual": "Washing their hands with dirt.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Pulchi Benyamin",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 54,
+          "catch": 63,
+          "run": 67,
+          "block": 63,
+          "fight": 47,
+          "throw": 44,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Boleslaw Heathcote",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 58,
+          "fight": 48,
+          "throw": 47,
+          "luck": 56,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gladdie Farika",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 60,
+          "block": 54,
+          "fight": 58,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 77,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Meticulously cleaning each stud on their boots with a special brush.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Yoshi Cathy",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 47,
+          "catch": 50,
+          "run": 56,
+          "block": 60,
+          "fight": 74,
+          "throw": 57,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Eating a raw onion, layer by layer, without crying.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aufmann Tedric",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 62,
+          "catch": 51,
+          "run": 61,
+          "block": 55,
+          "fight": 55,
+          "throw": 58,
+          "luck": 54,
+          "pronouns": "She/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dane Axe",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Krueger Jacinthe",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 49,
+          "block": 57,
+          "fight": 59,
+          "throw": 47,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "A team-wide moment of absolute silence to 'gather their thoughts'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Abramson Doxia",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 51,
+          "catch": 61,
+          "run": 53,
+          "block": 57,
+          "fight": 55,
+          "throw": 45,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 70,
+          "favorite_weapon": "Arming Sword",
+          "pregame_ritual": "Sharpening the edges of their blunted weapon (an exercise in futility).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milman Galvan",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 51,
+          "catch": 66,
+          "run": 56,
+          "block": 50,
+          "fight": 52,
+          "throw": 68,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Boar Spear",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Faina Hendrix",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 52,
+          "catch": 55,
+          "run": 63,
+          "block": 67,
+          "fight": 53,
+          "throw": 57,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pellikka Concettina",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 64,
+          "catch": 44,
+          "run": 58,
+          "block": 62,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Boleslaw Heathcote",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 58,
+          "fight": 48,
+          "throw": 47,
+          "luck": 56,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aufmann Tedric",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 62,
+          "catch": 51,
+          "run": 61,
+          "block": 55,
+          "fight": 55,
+          "throw": 58,
+          "luck": 54,
+          "pronouns": "She/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dane Axe",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Krueger Jacinthe",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 49,
+          "block": 57,
+          "fight": 59,
+          "throw": 47,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "A team-wide moment of absolute silence to 'gather their thoughts'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Abramson Doxia",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 51,
+          "catch": 61,
+          "run": 53,
+          "block": 57,
+          "fight": 55,
+          "throw": 45,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 70,
+          "favorite_weapon": "Arming Sword",
+          "pregame_ritual": "Sharpening the edges of their blunted weapon (an exercise in futility).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milman Galvan",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 51,
+          "catch": 66,
+          "run": 56,
+          "block": 50,
+          "fight": 52,
+          "throw": 68,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Boar Spear",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Faina Hendrix",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 52,
+          "catch": 55,
+          "run": 63,
+          "block": 67,
+          "fight": 53,
+          "throw": 57,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pellikka Concettina",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 64,
+          "catch": 44,
+          "run": 58,
+          "block": 62,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Gladdie Farika",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 60,
+          "block": 54,
+          "fight": 58,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 77,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Meticulously cleaning each stud on their boots with a special brush.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pulchi Benyamin",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 54,
+          "catch": 63,
+          "run": 67,
+          "block": 63,
+          "fight": 47,
+          "throw": 44,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "### 🎙️ STEP RIGHT UP, SPORTS FANS! 🎙️\n\nWelcome to the final regular-season showdown in the heart of Wyrmwood Hollow! I’m your host, Nok the Corrupter, coming to you live from the wildflower-covered clearing of the Hollow Mine! Can you feel that, folks? The ground is literally humming with energy, or maybe that’s just the vibration of the mine shaft opening to spit out our home team, The Wyrmwood Stronghammers! These gritty mine-dwellers are looking to put on a show today, and while they aren't my beloved Ebon Gate Corruptors, they certainly know how to swing a maul!\n\nI just caught a glimpse of the pre-game festivities in the dugout. Ultun Barthelemy is currently braiding a teammate's nose hair for good luck—now that’s the kind of locker-room chemistry that builds a championship legacy! Meanwhile, Autumn Jodoin just downed a raw egg, shell and all! That’s the kind of calcium-rich violence I love to see. They’re facing off against the high-and-mighty New Prosperity Profits, a team backed by the Guild of the Black Sky. I see those velvet-lined boxes filling up with bankers who wouldn’t know a real fight if it bit them on their gold-lined backsides!\n\nSpeaking of the Profits, keep an eye on Boleslaw Heathcote, who is currently inhaling the smoke from a burning piece of parchment. Perhaps she’s looking for divine guidance from that kissless money-priest Brennen Farno? Hah! I doubt the 'Benevolent' Nikos Thanae could even find this stadium without a map and a bodyguard! The Profits might have the popularity and the coin, but the Stronghammers have the Humming Earth and a mean Mine Draft on their side. The playoffs are looming, the Tangled Vines are hungry, and the Everwar is ready to claim its weekly tax of teeth and bone! Let’s get this ball in the air!",
+  "postGame": "### 💥 FINAL SCORE: PROFITS 2 - STRONGHAMMERS 3 💥\n\nWhat a humdinger of a match, folks! The Wyrmwood Stronghammers have held the line in a display of sheer, unbridled grit that would make any demon's heart swell with pride! It was a seesaw of shattered limbs and spectacular plays from the very first whistle. The Profits might have the deeper pockets, but money can't buy you a win when there's a leather troll head on the line and a maul in your face!\n\nThings started off with a real crack as Odelia Abbott absolutely leveled Pulchi Benyamin! The sound of that impact echoed off the Watch Tower, sending the Profits' star straight to the dirt! But these 'Profits' didn't stay down for long—Yoshi Cathy sought immediate vengeance, tackling Odelia right back into a state of unconsciousness. That’s the kind of back-and-forth I live for! It’s certainly more exciting than watching Sir Randy fumble with his fancy bow in the woods!\n\nJust as the dust was settling, Abramson Doxia decided Godart Urissa had seen enough of the sky and put them down hard! The crowd was roaring, the earth was humming, and the stadium was practically vibrating with the thrill of the hunt. Amidst the carnage, Faina Hendrix showed why those merchant-backed suits are so dangerous, launching a spectacular two-point shot from the Home Field to put the Profits up early! You could almost hear Chairman Farno counting the copper in his sleep from here!\n\nBut don't you dare count out the Stronghammers! Autumn Jodoin, clearly fueled by that pre-game raw egg, missed his first attempt but didn't let that dampen his spirits. He scooped that troll head right back up and nailed a shot from the Away Field to tie it up! It was a display of persistence that would leave the Haven Lights weeping into their overpriced tea. Talk about a comeback for the ages!\n\nBy the time Halftime rolled around, the healers were sweating more than a thief in a room full of Wardens. Hamburger Marthe and Merissa Mathian were stitching together what was left of their squads. It’s the beauty of the Everwar, listeners—lose a lung, get it back, and get back in the game! The atmosphere in the second half was thick enough to choke a gargoyle, especially with that Mine Draft chilling the pampered skin of the New Prosperity visitors.\n\nThen came the play that brought the house down! Ultun Barthelemy, with nose hair still impeccably braided, charged through the defense like a runaway cart and dunked that troll head straight into the basket for a touchdown! The Wyrmwood fans went absolutely wild, nearly drowning out the sound of Faina Hendrix trying to break Cornela Piscatelli in half—which he did, by the way! Another injury for the highlight reel!\n\nGodart Urissa returned to the field with a vengeance that would make even Dima the shadow king nervous. Godart went on a total rampage, first injuring Gladdie Farika and then circling back to put Pulchi Benyamin back in the dirt for the second time tonight! It was a masterclass in persistence, folks! It’s a shame Governor-King Zenku wasn't here to see it, though he’d probably just be ashamed of the lack of proper masks on the field.\n\nThe Profits tried to orchestrate a late-game miracle, but their coordination fell apart faster than one of Chairman Toland’s stale biscuits. Passes were dropped, tackles were missed, and Milman Galvan even found time to put Rebane Kendy out of the game just for good measure. The Stronghammers’ defense held firm as the clock ticked down, proving that hard work and nose-hair braiding beats a guild's gold every day of the week!\n\nIn the end, the Guilder's gold couldn't buy a victory in the Hollow Mine. The Wyrmwood Stronghammers walked away with a 3-2 win, leaving the Profits to lick their wounds and explain their losses to the Merchant's Guild. I hope Brennen Farno likes red ink, because his team is swimming in it tonight! \n\nWhat a way to end the season! What a night for violence! No heroes here, just winners and the soon-to-be-resurrected losers! We’re heading into the playoffs with blood on the grass and fire in our hearts! This is Nok the Corrupter signing off from Tuesday Night Trollball! Stay vicious, Osterra! 🏟️👹🔥",
+  "week": 7,
+  "homeScore": 3,
+  "awayScore": 2,
+  "slug": "7-wyrmwood-new-prosperity",
+  "plays": [
+    "The Trollball is picked up by Pellikka Concettina in zone Center Field",
+    "undefined",
+    "Kerwin Gasper tries to Tackle Krueger Jacinthe, but Krueger Jacinthe blocks it!",
+    "Kerwin Gasper tries to Tackle Krueger Jacinthe, but Krueger Jacinthe blocks it!",
+    "Gladdie Farika tries to Tackle Kerwin Gasper, but Kerwin Gasper blocks it!",
+    "Gladdie Farika tries to Tackle Kerwin Gasper, but Kerwin Gasper blocks it!",
+    "Odelia Abbott Tackles Pulchi Benyamin and INJURES THEM!",
+    "Odelia Abbott Tackles Pulchi Benyamin and INJURES THEM!",
+    "Merissa Mathian has returned Pulchi Benyamin to play",
+    "Calvinna Isador tries to Tackle Pellikka Concettina, but misses!",
+    "Calvinna Isador tries to Tackle Pellikka Concettina, but misses!",
+    "Yoshi Cathy Tackles Odelia Abbott and INJURES THEM!",
+    "Yoshi Cathy Tackles Odelia Abbott and INJURES THEM!",
+    "Abramson Doxia Tackles Godart Urissa and INJURES THEM!",
+    "Abramson Doxia Tackles Godart Urissa and INJURES THEM!",
+    "Faina Hendrix runs with the ball and advances towards the goal!",
+    "Faina Hendrix runs with the ball and advances towards the goal!",
+    "Kerwin Gasper Tackles Yoshi Cathy and INJURES THEM!",
+    "Kerwin Gasper Tackles Yoshi Cathy and INJURES THEM!",
+    "Aufmann Tedric tries to Tackle Ultun Barthelemy, but misses!",
+    "Aufmann Tedric tries to Tackle Ultun Barthelemy, but misses!",
+    "Faina Hendrix shoots from Home Field and SCORES!",
+    "Faina Hendrix shoots from Home Field and SCORES!",
+    "The Trollball is picked up by Sondra Elaina in zone Center Field",
+    "Krueger Jacinthe tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Krueger Jacinthe tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Gladdie Farika tries to Tackle Kerwin Gasper, but misses!",
+    "Gladdie Farika tries to Tackle Kerwin Gasper, but misses!",
+    "Gladdie Farika tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Gladdie Farika tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Cornela Piscatelli runs with the ball and advances towards the goal!",
+    "Cornela Piscatelli runs with the ball and advances towards the goal!",
+    "Autumn Jodoin shoots from Away Field but misses the goal!",
+    "Autumn Jodoin shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Autumn Jodoin in zone Away Field",
+    "Autumn Jodoin shoots from Away Field and SCORES!",
+    "Autumn Jodoin shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Cornela Piscatelli in zone Center Field",
+    "Gladdie Farika tries to Tackle Cornela Piscatelli, but Cornela Piscatelli blocks it!",
+    "Gladdie Farika tries to Tackle Cornela Piscatelli, but Cornela Piscatelli blocks it!",
+    "Pellikka Concettina tries to Tackle Cornela Piscatelli, but misses!",
+    "Pellikka Concettina tries to Tackle Cornela Piscatelli, but misses!",
+    "Autumn Jodoin runs with the ball and advances towards the goal!",
+    "Autumn Jodoin runs with the ball and advances towards the goal!",
+    "Calvinna Isador tries to Tackle Pellikka Concettina, but Pellikka Concettina blocks it!",
+    "Calvinna Isador tries to Tackle Pellikka Concettina, but Pellikka Concettina blocks it!",
+    "Hamburger Marthe has returned Odelia Abbott to play",
+    "Odelia Abbott runs with the ball and advances towards the goal!",
+    "Odelia Abbott runs with the ball and advances towards the goal!",
+    "Faina Hendrix tries to Tackle Kerwin Gasper, but Kerwin Gasper blocks it!",
+    "Faina Hendrix tries to Tackle Kerwin Gasper, but Kerwin Gasper blocks it!",
+    "Boleslaw Heathcote tries to Tackle Rebane Kendy, but Rebane Kendy blocks it!",
+    "Boleslaw Heathcote tries to Tackle Rebane Kendy, but Rebane Kendy blocks it!",
+    "Milman Galvan tries to Tackle Odelia Abbott, but misses!",
+    "Milman Galvan tries to Tackle Odelia Abbott, but misses!",
+    "Hamburger Marthe has returned Godart Urissa to play",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Cornela Piscatelli in zone Away 2-Point",
+    "Ultun Barthelemy runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Ultun Barthelemy runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Pellikka Concettina in zone Center Field",
+    "Godart Urissa tries to Tackle Milman Galvan, but misses!",
+    "Godart Urissa tries to Tackle Milman Galvan, but misses!",
+    "Faina Hendrix tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Faina Hendrix tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Godart Urissa tries to Tackle Abramson Doxia, but misses!",
+    "Godart Urissa tries to Tackle Abramson Doxia, but misses!",
+    "Autumn Jodoin tries to Tackle Faina Hendrix, but misses!",
+    "Autumn Jodoin tries to Tackle Faina Hendrix, but misses!",
+    "Faina Hendrix passes the ball to Pulchi Benyamin, but they drop it!",
+    "Faina Hendrix passes the ball to Pulchi Benyamin, but they drop it!",
+    "The Trollball is picked up by Cornela Piscatelli in zone Center Field",
+    "Godart Urissa runs with the ball and advances towards the goal!",
+    "Godart Urissa runs with the ball and advances towards the goal!",
+    "Abramson Doxia tries to Tackle Autumn Jodoin, but misses!",
+    "Abramson Doxia tries to Tackle Autumn Jodoin, but misses!",
+    "Cornela Piscatelli passes the ball to Cornela Piscatelli!",
+    "Cornela Piscatelli passes the ball to Cornela Piscatelli!",
+    "Pulchi Benyamin tries to Tackle Cornela Piscatelli, but misses!",
+    "Pulchi Benyamin tries to Tackle Cornela Piscatelli, but misses!",
+    "Faina Hendrix Tackles Cornela Piscatelli and INJURES THEM!",
+    "Faina Hendrix Tackles Cornela Piscatelli and INJURES THEM!",
+    "Autumn Jodoin passes the ball to Godart Urissa, but they drop it!",
+    "Autumn Jodoin passes the ball to Godart Urissa, but they drop it!",
+    "The Trollball is picked up by Calvinna Isador in zone Away Field",
+    "Godart Urissa Tackles Gladdie Farika and INJURES THEM!",
+    "Godart Urissa Tackles Gladdie Farika and INJURES THEM!",
+    "Ultun Barthelemy passes the ball to Rebane Kendy!",
+    "Ultun Barthelemy passes the ball to Rebane Kendy!",
+    "Godart Urissa Tackles Pulchi Benyamin and INJURES THEM!",
+    "Godart Urissa Tackles Pulchi Benyamin and INJURES THEM!",
+    "Calvinna Isador shoots from Away Field but misses the goal!",
+    "Calvinna Isador shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Odelia Abbott in zone Away Field",
+    "Odelia Abbott shoots from Away Field but misses the goal!",
+    "Odelia Abbott shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Calvinna Isador in zone Away Field",
+    "Autumn Jodoin tries to Tackle Boleslaw Heathcote, but Boleslaw Heathcote blocks it!",
+    "Autumn Jodoin tries to Tackle Boleslaw Heathcote, but Boleslaw Heathcote blocks it!",
+    "Abramson Doxia tries to Tackle Ultun Barthelemy, but Ultun Barthelemy blocks it!",
+    "Abramson Doxia tries to Tackle Ultun Barthelemy, but Ultun Barthelemy blocks it!",
+    "Sondra Elaina tries to Tackle Abramson Doxia, but misses!",
+    "Sondra Elaina tries to Tackle Abramson Doxia, but misses!",
+    "Milman Galvan Tackles Rebane Kendy and INJURES THEM!",
+    "Milman Galvan Tackles Rebane Kendy and INJURES THEM!",
+    "Milman Galvan tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Milman Galvan tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Sondra Elaina passes the ball to Odelia Abbott, but they drop it!",
+    "Sondra Elaina passes the ball to Odelia Abbott, but they drop it!"
+  ],
+  "openBar": false
+}
