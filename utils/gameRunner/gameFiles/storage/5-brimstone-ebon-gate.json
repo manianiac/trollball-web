@@ -1,0 +1,901 @@
+{
+  "homeTeam": {
+    "name": "The Brimstone Fire Eaters",
+    "slug": "brimstone",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Su'akour Bowl",
+      "location": "Brimstone (Su'akour Ruins)",
+      "description": "A crude, rowdy stadium built within the half-finished, black-stone walls of the warlord Su'akour's abandoned fortress. The stands are crumbling ruins, and the entire arena perpetually stinks of the nearby sulfur marshes.",
+      "modifiers": ["Noxious Fumes", "Crumbling Walls", "Uneven Ground"]
+    },
+    "healer": {
+      "name": "Raphael Miyasawa",
+      "team": "The Brimstone Fire Eaters",
+      "stats": {
+        "pass": 46,
+        "catch": 49,
+        "run": 63,
+        "block": 56,
+        "fight": 60,
+        "throw": 60,
+        "luck": 63,
+        "pronouns": "She/Them",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Ebon Gate Corruptors",
+    "slug": "ebon-gate",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 59,
+    "stadium": {
+      "name": "The Sinking Field",
+      "location": "Ebon Gate",
+      "description": "A notoriously poorly-maintained stadium built on reclaimed marshland. The ground is unstable, often waterlogged, and sections of the stands are known to collapse.",
+      "modifiers": ["Thick Mud", "Noxious Fumes", "Sinkhole"]
+    },
+    "healer": {
+      "name": "Terle Chenay",
+      "team": "The Ebon Gate Corruptors",
+      "stats": {
+        "pass": 62,
+        "catch": 64,
+        "run": 70,
+        "block": 58,
+        "fight": 46,
+        "throw": 62,
+        "luck": 58,
+        "pronouns": "She/Her",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Mace",
+        "pregame_ritual": "Seeing who on the team can belch the loudest.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Bullion Iglesias",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 55,
+          "block": 52,
+          "fight": 52,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Meditating silently in the corner of the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Olnek Vizzone",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 48,
+          "run": 53,
+          "block": 59,
+          "fight": 49,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Smith Syst",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 49,
+          "block": 47,
+          "fight": 63,
+          "throw": 59,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Daring a teammate to eat a live worm.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Napoleon Anzovin",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 52,
+          "block": 45,
+          "fight": 59,
+          "throw": 49,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ahasuerus An",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 39,
+          "catch": 56,
+          "run": 49,
+          "block": 61,
+          "fight": 51,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Smith Syst",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 49,
+          "block": 47,
+          "fight": 63,
+          "throw": 59,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Daring a teammate to eat a live worm.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ahasuerus An",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 39,
+          "catch": 56,
+          "run": 49,
+          "block": 61,
+          "fight": 51,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "# 🎙️ LADIES, GENTLEMEN, AND THINGS FROM THE ABYSS! WELCOME TO TUESDAY NIGHT TROLLBALL! 🎙️\n\nCAN YOU SMELL THAT? No, it’s not the rotting carcass of a failed adventurer, it is the SWEET SCENT OF SULFUR! We are live from the crumbling, stink-filled ruins of The Su'akour Bowl for a match that promises to be absolutely **DELICIOUS**! Tonight, my personal favorites, the darkness in my heart, the **EBON GATE CORRUPTORS** are visiting the **BRIMSTONE FIRE EATERS**! 🌋\n\nLet me tell you folks, the air here is thick with noxious fumes, or maybe that's just the stench of fear coming off the home team! The Fire Eaters might have the home-field advantage here in the ruins, but can they handle the pure, unadulterated malice of the Corruptors? I DON'T THINK SO! I saw **As Utter** in the locker room earlier, and true to form, he refused to leave until every other soul had departed! That is focus! That is dedication! That is the kind of creepy behavior that wins championships!\n\nAnd look at the opposition! The Brimstone Fire Eaters! They're backed by the folks over in Eponore. You know, **Sir Tanos**? The guy who hates reading so much he probably eats the playbook instead of studying it? 📜🚫 Their healer, **Raphael Miyasawa**, was seen kissing her own biceps during warm-ups. HA! You're going to need more than self-love to fix the broken bones **Smith Syst** is about to hand out! She's been daring teammates to eat live worms all morning—she is READY TO KILL!\n\nSo grab your popcorn, grab your ale, and grab a bandage, because **IT'S TROLLBALL TIME!** 👹🏈",
+  "postGame": "# 🏁 FINAL REPORT: DOMINATION! DESTRUCTION! VICTORY! 🏁\n\n**FINAL SCORE: EBON GATE CORRUPTORS 3 - BRIMSTONE FIRE EATERS 0**\n\nHAHAHA! YES! IN YOUR FACE, HEROES! What a glorious night for the wicked! The Ebon Gate Corruptors walked into that sulfur-choked pit and absolutely **SHUT OUT** the home team! A big, fat GOOSE EGG for the Fire Eaters! 🥚🚫 It wasn't just a win, folks; it was a dismantling! A masterclass in pain provided by yours truly's favorite squad!\n\nLet's break down this massacre! The game started with some back-and-forth struggling in the mud. **Olnek Vizzone** got things moving for us, but oh, the tragedy early on! **Wylde Jutta** of the Fire Eaters managed to tackle **Bullion Iglesias** and sent them packing with an injury! A cheap shot if I ever saw one! But did that stop the Corruptors? ABSOLUTELY NOT! It only made them ANGRY!\n\nThe momentum shifted when the Fire Eaters' **Campball Fink** tried to get cute with a pass. Bad idea, Fink! **Judi Carrington** was there like a hawk on a field mouse, INTERCEPTING that ball and turning the tide! 🦅 That is what we call situational awareness, folks! Something **Sir Artorias** knows nothing about when he's too busy signing autographs!\n\nThen the bodies started hitting the floor! **As Utter**, the man, the myth, the last-one-out-of-the-locker-room, absolutely leveled **Glassman Solley**, sending them to the shadow realm! Then **Orlina Jerrine** took out our boy Vizzone, but **Campball Fink** took out **Napoleon Anzovin**! It was a bloodbath! But amidst the chaos, a star was born!\n\n**ELLETTE PAZ!** REMEMBER THE NAME! 🌟 With the field littered with bodies, Paz grabbed that leather troll head, sprinted into the End Zone, and **DUNKED THE BALL INTO THE GOAL!** TOUCHDOWN CORRUPTORS! 1-0! The crowd... well, the crowd was mostly Brimstone fans, so they were silent, BUT I WAS SCREAMING!\n\nWe went into Halftime feeling good, and the healers did their work. But the second half? The second half was a CLINIC. **Amedeo Bari** decided running was too much work and launched a shot from the Away Field. It sailed through the air, beautiful and true, and **SCORED!** A 2-point shoot to bring the lead to 3-0! BOOM! 💥\n\nThe Fire Eaters tried to rally. **Oona Jane** tried to make plays, but the Corruptor defense was a STONE WALL. **Amedeo Bari** wasn't done; after scoring, he tackled **Nigel Rothmuller** and INJURED THEM! Then **Smith Syst** took revenge on **Campball Fink** and sent them to the infirmary! AN EYE FOR AN EYE!\n\nBut the MVP of violence in the second half? **AHASUERUS AN!** She went on a rampage! She tackled **Oona Jane**—INJURY! She tackled **Glassman Solley** (who had just come back!)—INJURY! She was handing out concussions like they were party favors! 🎁🤕\n\nEven in the dying moments, the Corruptors kept the pressure on. **Ellette Paz** put the final nail in the coffin by injuring **Wylde Jutta**. The Fire Eaters were broken, battered, and beaten. Their passing game was a joke, their defense was Swiss cheese, and their spirits are crushed!\n\nSo take that back to Eponore! Tell **Sir Tanos** his team fights like a wet paper bag! Tell **Morgwae** he can't magic his way out of this loss! The Ebon Gate Corruptors reign supreme! THE EVIL HAS LANDED! GOODNIGHT, OSTERRA! 🌙😈",
+  "week": 5,
+  "homeScore": 0,
+  "awayScore": 3,
+  "slug": "5-brimstone-ebon-gate",
+  "plays": [
+    "The Trollball is picked up by Olnek Vizzone in zone Center Field",
+    "undefined",
+    "Ahasuerus An runs with the ball and advances towards the goal!",
+    "Ahasuerus An runs with the ball and advances towards the goal!",
+    "As Utter tries to run with the ball but is stopped by the defense!",
+    "As Utter tries to run with the ball but is stopped by the defense!",
+    "Lowson Hersh tries to Tackle Judi Carrington, but misses!",
+    "Lowson Hersh tries to Tackle Judi Carrington, but misses!",
+    "Judi Carrington tries to Tackle Orlina Jerrine, but misses!",
+    "Judi Carrington tries to Tackle Orlina Jerrine, but misses!",
+    "Nigel Rothmuller tries to Tackle Smith Syst, but Smith Syst blocks it!",
+    "Nigel Rothmuller tries to Tackle Smith Syst, but Smith Syst blocks it!",
+    "Ellette Paz passes the ball to Amedeo Bari!",
+    "Ellette Paz passes the ball to Amedeo Bari!",
+    "Wylde Jutta Tackles Bullion Iglesias and INJURES THEM!",
+    "Wylde Jutta Tackles Bullion Iglesias and INJURES THEM!",
+    "Napoleon Anzovin shoots from Home Field but misses the goal!",
+    "Napoleon Anzovin shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Olnek Vizzone in zone Home Field",
+    "Wylde Jutta tries to Tackle Ahasuerus An, but misses!",
+    "Wylde Jutta tries to Tackle Ahasuerus An, but misses!",
+    "Glassman Solley tries to Tackle Smith Syst, but Smith Syst blocks it!",
+    "Glassman Solley tries to Tackle Smith Syst, but Smith Syst blocks it!",
+    "Wylde Jutta tries to Tackle Amedeo Bari, but misses!",
+    "Wylde Jutta tries to Tackle Amedeo Bari, but misses!",
+    "Ahasuerus An shoots from Home Field but misses the goal!",
+    "Ahasuerus An shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Oona Jane in zone Home Field",
+    "Amedeo Bari tries to Tackle Nigel Rothmuller, but misses!",
+    "Amedeo Bari tries to Tackle Nigel Rothmuller, but misses!",
+    "Orlina Jerrine tries to run with the ball but is stopped by the defense!",
+    "Orlina Jerrine tries to run with the ball but is stopped by the defense!",
+    "Smith Syst tries to Tackle Campball Fink, but Campball Fink blocks it!",
+    "Smith Syst tries to Tackle Campball Fink, but Campball Fink blocks it!",
+    "Bollinger Susette tries to Tackle Judi Carrington, but misses!",
+    "Bollinger Susette tries to Tackle Judi Carrington, but misses!",
+    "Campball Fink throws a wild pass and it is INTERCEPTED by Judi Carrington!",
+    "Campball Fink throws a wild pass and it is INTERCEPTED by Judi Carrington!",
+    "As Utter Tackles Glassman Solley and INJURES THEM!",
+    "As Utter Tackles Glassman Solley and INJURES THEM!",
+    "Orlina Jerrine Tackles Olnek Vizzone and INJURES THEM!",
+    "Orlina Jerrine Tackles Olnek Vizzone and INJURES THEM!",
+    "Napoleon Anzovin runs with the ball and advances towards the goal!",
+    "Napoleon Anzovin runs with the ball and advances towards the goal!",
+    "Campball Fink Tackles Napoleon Anzovin and INJURES THEM!",
+    "Campball Fink Tackles Napoleon Anzovin and INJURES THEM!",
+    "Ellette Paz runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Ellette Paz runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Campball Fink in zone Center Field",
+    "Wylde Jutta runs with the ball and advances towards the goal!",
+    "Wylde Jutta runs with the ball and advances towards the goal!",
+    "Nachison Icken shoots from Away Field but misses the goal!",
+    "Nachison Icken shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Orlina Jerrine in zone Away Field",
+    "Nigel Rothmuller passes the ball to Wylde Jutta, but they drop it!",
+    "Nigel Rothmuller passes the ball to Wylde Jutta, but they drop it!",
+    "The Trollball is picked up by Oona Jane in zone Away Field",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Smith Syst in zone Away Field",
+    "Oona Jane tries to Tackle Ellette Paz, but misses!",
+    "Oona Jane tries to Tackle Ellette Paz, but misses!",
+    "Lowson Hersh tries to Tackle As Utter, but misses!",
+    "Lowson Hersh tries to Tackle As Utter, but misses!",
+    "As Utter tries to run with the ball but is stopped by the defense!",
+    "As Utter tries to run with the ball but is stopped by the defense!",
+    "Amedeo Bari shoots from Away Field and SCORES!",
+    "Amedeo Bari shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Oona Jane in zone Center Field",
+    "Amedeo Bari tries to Tackle Campball Fink, but Campball Fink blocks it!",
+    "Amedeo Bari tries to Tackle Campball Fink, but Campball Fink blocks it!",
+    "Amedeo Bari tries to Tackle Lowson Hersh, but Lowson Hersh blocks it!",
+    "Amedeo Bari tries to Tackle Lowson Hersh, but Lowson Hersh blocks it!",
+    "Oona Jane tries to run with the ball but is stopped by the defense!",
+    "Oona Jane tries to run with the ball but is stopped by the defense!",
+    "Amedeo Bari Tackles Nigel Rothmuller and INJURES THEM!",
+    "Amedeo Bari Tackles Nigel Rothmuller and INJURES THEM!",
+    "Smith Syst Tackles Campball Fink and INJURES THEM!",
+    "Smith Syst Tackles Campball Fink and INJURES THEM!",
+    "Lowson Hersh throws a wild pass and it lands on the ground!",
+    "Lowson Hersh throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Selimah Tully in zone Center Field",
+    "Ahasuerus An tries to Tackle Nachison Icken, but misses!",
+    "Ahasuerus An tries to Tackle Nachison Icken, but misses!",
+    "Ahasuerus An Tackles Oona Jane and INJURES THEM!",
+    "Ahasuerus An Tackles Oona Jane and INJURES THEM!",
+    "Ahasuerus An Tackles Glassman Solley and INJURES THEM!",
+    "Ahasuerus An Tackles Glassman Solley and INJURES THEM!",
+    "Selimah Tully runs with the ball and advances towards the goal!",
+    "Selimah Tully runs with the ball and advances towards the goal!",
+    "Lowson Hersh shoots from Away Field but misses the goal!",
+    "Lowson Hersh shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Nachison Icken in zone Away Field",
+    "Raphael Miyasawa has returned Nigel Rothmuller to play",
+    "Ellette Paz tries to Tackle Orlina Jerrine, but Orlina Jerrine blocks it!",
+    "Ellette Paz tries to Tackle Orlina Jerrine, but Orlina Jerrine blocks it!",
+    "Ellette Paz Tackles Wylde Jutta and INJURES THEM!",
+    "Ellette Paz Tackles Wylde Jutta and INJURES THEM!",
+    "Ahasuerus An tries to Tackle Bollinger Susette, but misses!",
+    "Ahasuerus An tries to Tackle Bollinger Susette, but misses!",
+    "Simsar Carrelli tries to Tackle Bollinger Susette, but misses!",
+    "Simsar Carrelli tries to Tackle Bollinger Susette, but misses!",
+    "Raphael Miyasawa has returned Campball Fink to play",
+    "Ellette Paz tries to Tackle Orlina Jerrine, but Orlina Jerrine blocks it!",
+    "Ellette Paz tries to Tackle Orlina Jerrine, but Orlina Jerrine blocks it!",
+    "Smith Syst tries to Tackle Selimah Tully, but misses!",
+    "Smith Syst tries to Tackle Selimah Tully, but misses!",
+    "Smith Syst tries to Tackle Bollinger Susette, but misses!",
+    "Smith Syst tries to Tackle Bollinger Susette, but misses!",
+    "Bollinger Susette tries to Tackle Ahasuerus An, but misses!",
+    "Bollinger Susette tries to Tackle Ahasuerus An, but misses!"
+  ],
+  "openBar": false
+}

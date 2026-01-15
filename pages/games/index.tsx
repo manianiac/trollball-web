@@ -59,18 +59,8 @@ export default function GamesPage() {
   // 2. Process each series: sort games, count wins, add dummy game
   const allSeries: SeriesData[] = Array.from(seriesMap.values()).map(
     (series) => {
-      // Sort games based on slug number (po-0, po-1, po-2)
-      series.games.sort((a, b) => {
-        const getNum = (s: string) => {
-          const parts = s.split("-");
-          if (parts.length >= 2 && parts[0] === "po") {
-            return parseInt(parts[1], 10);
-          }
-          return 0;
-        };
-        // Sort Ascending (Game 1, Game 2, Game 3)
-        return getNum(a.slug) - getNum(b.slug);
-      });
+      // Sort games based on week number
+      series.games.sort((a, b) => a.week - b.week);
 
       // Determine wins based on scores
       // Note: We need to check who won EACH specific game instance
@@ -115,100 +105,140 @@ export default function GamesPage() {
     },
   );
 
+  // 3. Group Series by Round
+  const roundsMap = new Map<number, SeriesData[]>();
+
+  allSeries.forEach((series) => {
+    // Determine round from the first game's slug
+    if (series.games.length === 0) return;
+
+    // Use optional chain/fallback for robustness
+    const firstSlug = series.games[0]?.slug || "";
+    const parts = firstSlug.split("-");
+    // Expected format: po-[Round]-[Week]-... or po-[Round]-...
+    // Assuming the number after 'po' is the round index
+    let roundIndex = 0;
+    if (parts.length >= 2 && parts[0] === "po") {
+      roundIndex = parseInt(parts[1], 10);
+    }
+
+    if (!roundsMap.has(roundIndex)) {
+      roundsMap.set(roundIndex, []);
+    }
+    roundsMap.get(roundIndex)!.push(series);
+  });
+
+  // Sort rounds descending (latest round first)
+  const sortedRounds = Array.from(roundsMap.keys()).sort((a, b) => b - a);
+
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center gap-4 p-4">
         <h1 className="text-3xl font-bold">Playoff Series (Best of 3)</h1>
 
-        <div className="flex flex-col gap-8 w-full max-w-4xl">
-          {allSeries.map((series) => {
-            const { homeTeam, awayTeam, games } = series;
+        <div className="flex flex-col gap-12 w-full max-w-4xl">
+          {sortedRounds.map((roundIndex) => (
+            <div key={roundIndex} className="flex flex-col gap-4">
+              <h2 className="text-2xl font-semibold border-b border-default-200 pb-2">
+                Playoff Round {roundIndex + 1}
+              </h2>
 
-            // We always want to show 3 games
-            // Index 0 -> Game 1
-            // Index 1 -> Game 2
-            // Index 2 -> Game 3
-            const seriesGames = [0, 1, 2].map((i) => {
-              // Find the game corresponding to this index (by slug 'po-i')
-              return games.find((g) => {
-                const parts = g.slug.split("-");
-                if (parts.length >= 2 && parts[0] === "po") {
-                  return parseInt(parts[1], 10) === i;
-                }
-                return false; // Fallback
-              });
-            });
+              <div className="flex flex-col gap-8">
+                {roundsMap.get(roundIndex)!.map((series) => {
+                  const { homeTeam, awayTeam, games } = series;
 
-            return (
-              <Card key={homeTeam.name + awayTeam.name} className="p-4">
-                <CardBody>
-                  <div className="flex justify-between items-center mb-4 border-b pb-2">
-                    <div className="flex flex-col items-center">
-                      <span className="text-xl font-bold">{homeTeam.name}</span>
-                      <span className="text-sm text-default-400">
-                        Wins Hidden
-                      </span>
-                    </div>
-                    <span className="text-default-500 font-bold">VS</span>
-                    <div className="flex flex-col items-center">
-                      <span className="text-xl font-bold">{awayTeam.name}</span>
-                      <span className="text-sm text-default-400">
-                        Wins Hidden
-                      </span>
-                    </div>
-                  </div>
+                  // Determine the starting week for this series (e.g. 0 or 1)
+                  const firstWeek =
+                    games.length > 0
+                      ? Math.min(...games.map((g) => g.week))
+                      : 1;
 
-                  <div className="flex flex-col gap-3">
-                    {seriesGames.map((game, index) => {
-                      const gameNum = index + 1;
+                  // We always want to show 3 games
+                  // Index 0 -> First Game (firstWeek)
+                  // Index 1 -> Second Game (firstWeek + 1)
+                  // Index 2 -> Third Game (firstWeek + 2)
+                  const seriesGames = [0, 1, 2].map((i) => {
+                    // Find the game corresponding to this index
+                    return games.find((g) => g.week === firstWeek + i);
+                  });
 
-                      if (game) {
-                        // REAL GAME
-                        const gHome = game.homeTeam as any;
-                        const gAway = game.awayTeam as any;
-                        return (
-                          <Link
-                            key={game.slug}
-                            className="block p-4 rounded-lg bg-default-50 hover:bg-default-100 transition-colors border border-default-200"
-                            href={`/games/${game.slug}`}
-                          >
-                            <div className="flex justify-between items-center">
-                              <span className="font-semibold text-primary">
-                                Game {gameNum}
-                              </span>
-                              <div className="text-sm">
-                                {gHome.name} vs {gAway.name}
-                              </div>
-                            </div>
-                          </Link>
-                        );
-                      } else {
-                        // DUMMY GAME (Unplayed / Game 3 not needed)
-                        return (
-                          <Link
-                            key={`dummy-${index}`}
-                            className="block p-4 rounded-lg bg-default-50 border border-default-200 hover:bg-default-100 transition-colors"
-                            href="/games/unplayed"
-                          >
-                            <div className="flex justify-between items-center">
-                              <span className="font-semibold text-primary">
-                                Game {gameNum}
-                              </span>
-                              <div className="text-sm">
-                                {homeTeam.name} vs {awayTeam.name}
-                              </div>
-                            </div>
-                          </Link>
-                        );
-                      }
-                    })}
-                  </div>
-                </CardBody>
-              </Card>
-            );
-          })}
+                  return (
+                    <Card key={homeTeam.name + awayTeam.name} className="p-4">
+                      <CardBody>
+                        <div className="flex justify-between items-center mb-4 border-b pb-2">
+                          <div className="flex flex-col items-center">
+                            <span className="text-xl font-bold">
+                              {homeTeam.name}
+                            </span>
+                            <span className="text-sm text-default-400">
+                              Wins Hidden
+                            </span>
+                          </div>
+                          <span className="text-default-500 font-bold">VS</span>
+                          <div className="flex flex-col items-center">
+                            <span className="text-xl font-bold">
+                              {awayTeam.name}
+                            </span>
+                            <span className="text-sm text-default-400">
+                              Wins Hidden
+                            </span>
+                          </div>
+                        </div>
 
-          {allSeries.length === 0 && (
+                        <div className="flex flex-col gap-3">
+                          {seriesGames.map((game, index) => {
+                            const gameNum = index + 1;
+
+                            if (game) {
+                              // REAL GAME
+                              const gHome = game.homeTeam as any;
+                              const gAway = game.awayTeam as any;
+                              return (
+                                <Link
+                                  key={game.slug}
+                                  className="block p-4 rounded-lg bg-default-50 hover:bg-default-100 transition-colors border border-default-200"
+                                  href={`/games/${game.slug}`}
+                                >
+                                  <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-primary">
+                                      Game {gameNum}
+                                    </span>
+                                    <div className="text-sm">
+                                      {gHome.name} vs {gAway.name}
+                                    </div>
+                                  </div>
+                                </Link>
+                              );
+                            } else {
+                              // DUMMY GAME (Unplayed / Game 3 not needed)
+                              return (
+                                <Link
+                                  key={`dummy-${index}`}
+                                  className="block p-4 rounded-lg bg-default-50 border border-default-200 hover:bg-default-100 transition-colors"
+                                  href="/games/unplayed"
+                                >
+                                  <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-primary">
+                                      Game {gameNum}
+                                    </span>
+                                    <div className="text-sm">
+                                      {homeTeam.name} vs {awayTeam.name}
+                                    </div>
+                                  </div>
+                                </Link>
+                              );
+                            }
+                          })}
+                        </div>
+                      </CardBody>
+                    </Card>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+
+          {sortedRounds.length === 0 && (
             <div className="text-center text-default-500">
               No playoff series found. check back later!
             </div>

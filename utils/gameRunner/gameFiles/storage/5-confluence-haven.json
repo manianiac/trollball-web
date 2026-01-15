@@ -1,0 +1,958 @@
+{
+  "homeTeam": {
+    "name": "The Confluence Captains",
+    "slug": "confluence",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "stadium": {
+      "name": "The Glowstone Terrace",
+      "location": "Confluence (World's Spine Mountains)",
+      "description": "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+      "modifiers": ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"]
+    },
+    "healer": {
+      "name": "Kant Langill",
+      "team": "The Confluence Captains",
+      "stats": {
+        "pass": 51,
+        "catch": 55,
+        "run": 54,
+        "block": 49,
+        "fight": 59,
+        "throw": 59,
+        "luck": 65,
+        "pronouns": "He/Him",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 65,
+        "favorite_weapon": "Scimitar",
+        "pregame_ritual": "Doing a terrible, clumsy dance to 'loosen the joints'.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Haven Lights",
+    "slug": "haven",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 55,
+    "stadium": {
+      "name": "The Aegis Field",
+      "location": "Haven (Temple of Light Compound)",
+      "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+      "modifiers": ["Hallowed Ground", "Shield's Watch", "Twinlight's Glow"]
+    },
+    "healer": {
+      "name": "Riffle Harrington",
+      "team": "The Haven Lights",
+      "stats": {
+        "pass": 56,
+        "catch": 49,
+        "run": 49,
+        "block": 43,
+        "fight": 66,
+        "throw": 52,
+        "luck": 63,
+        "pronouns": "He/Him",
+        "civic_engagement": 63,
+        "alcohol_tolerance": 52,
+        "favorite_weapon": "Spiked Gauntlet",
+        "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "GOOD EVENING, TROLLBALL FANS! 🎙️ This is Nok the Corrupter, broadcasting LIVE from the dizzying heights of The Glowstone Terrace in the World's Spine Mountains! 🏔️ Can you smell that? No, it's not the brimstone of my home sweet home, it's the smell of COMMERCE and VIOLENCE! Tonight, we have a match that pits the insufferable piety of The Haven Lights against the chaotic capitalism of The Confluence Captains! 💰\n\nLet me tell you, folks, I took a look at the visitors' locker room, and it makes me sick! 🤢 The Haven Lights are over there engaged in some truly bafflin' behavior. Their Healer, Riffle Harrington, is actually tying his bootlaces together and hopping around! Is that a strategy? Or just the typical incompetence we expect from the Temple of Light? And don't get me started on Tybi Reo, who is drawing an anatomically incorrect troll head on a chalkboard. It looks more like a potato with teeth! 🥔 These do-gooders are protected by \"Dawn's Hope,\" but let's see if hope can stop a raw egg-fueled tackle!\n\nSpeaking of fuel, the home team is READY TO RUMBLE! 🍳 Ladew Evelina of the Captains is chugging raw eggs—shells and all! Now THAT is protein! That is grit! And O'Conner Maighdlin has been speaking in rhymes for the last hour. Is it a curse? Is it annoying? Absolutely! But it's the kind of chaotic energy we love here in Confluence! The Guild of the Black Sky is watching, folks! Chairman Ironrock and that beautiful, plague-loving Brennen Farno are surely expecting a return on their investment! Get your drinks ready, because tonight, we dine on violence! 🍺👺",
+  "postGame": "Well, folks, the dust has settled, the blood has been mopped off the Glowstone, and I am disgusted to report the final score! 🤮 The Haven Lights have somehow, miraculously, defeated The Confluence Captains with a score of 2 to 0! A travesty! A miscarriage of justice! But oh, the VIOLENCE was sweet, sweet candy for the soul! 🍬\n\nThe game started with a BANG! 💥 Ladew Evelina, fueled by those raw eggs, absolutely DEMOLISHED Coward Tarton early in the first half! CRUNCH! Tarton went down faster than Nikos Thanae's approval rating! That's how you start a game of Trollball, folks! Pure, unadulterated aggression from the Captains!\n\nBut then, tragedy struck. The goody-two-shoes Shiroma Salim managed to get a hold of the ball. Instead of fighting like a demon, he took the coward's way out and SHOT the ball from the Home 2-Point zone! 🏀 And of course, it went in. 2 points for Haven. I nearly threw my microphone off the terrace! Disgraceful precision!\n\nRetaliation was swift, but messy! Coward Tarton, miraculously recovered, decided to take out their anger on O'Conner Maighdlin. BAM! The rhyming stopped immediately as Maighdlin was flattened! 🤕 I haven't seen a bard silenced that effectively since Cyfnerth the Butcher reviewed a poetry slam!\n\nBut the Captains weren't done! Ladew Evelina, the MVP of my heart tonight, hunted down the scorer Shiroma Salim and SMASHED him into the pavement! 🚑 Another injury! Another beautiful crack of bone! That is the spirit of Confluence! Who needs points when you can collect medical bills?\n\nThe Haven Lights, despite their shiny armor, fought dirty tonight, folks. Berkin Waters caught Vonni Geoff unaware and sent him to the infirmary! And then Tybi Reo—the one who can't draw—drew a line of pain right across Caves Cestar's face! 🩸 The injuries were piling up faster than paperwork on Chairman Toland's desk!\n\nWe went into Halftime with bodies strewn everywhere! 🚑 A quick break for the Healers to work their underpaid magic, and we were back in the fray! The second half was a defensive slog, a beautiful gridlock of pain!\n\nO'Conner Maighdlin came back with a vengeance! He tackled Marlane Lounge so hard I think Lounge forgot how to play tic-tac-toe! ❌⭕ KO'd! Sent to the benches! That is the Confluence way! You might beat us on the scoreboard, but you'll leave in a wheelchair!\n\nAnd let's not forget Stephan Lisk! He saw Dickenson Beker trying to be useful and said \"NO THANK YOU!\" BOOM! 💥 Another Haven player bites the dust! The Captains were handing out naps like they were free samples at the market!\n\nDespite the brutal beatdown handed out by the Captains, the scoreboard remained frozen. 🧊 The Haven Lights take the win, 2-0. They may have won the game, but they certainly lost the physical battle! Go home and polish your shields, you light-loving nuisances! This is Nok the Corrupter, signing off! REMEMBER: If you can't win, make sure the other team can't walk! 😈👋",
+  "week": 5,
+  "homeScore": 0,
+  "awayScore": 2,
+  "slug": "5-confluence-haven",
+  "plays": [
+    "The Trollball is picked up by Berkin Waters in zone Center Field",
+    "undefined",
+    "Zwart Bunns tries to run with the ball but is stopped by the defense!",
+    "Zwart Bunns tries to run with the ball but is stopped by the defense!",
+    "Caves Cestar tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Caves Cestar tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Carnahan Laud tries to Tackle Marlane Lounge, but misses!",
+    "Carnahan Laud tries to Tackle Marlane Lounge, but misses!",
+    "Ladew Evelina Tackles Coward Tarton and INJURES THEM!",
+    "Ladew Evelina Tackles Coward Tarton and INJURES THEM!",
+    "Wieren Ivar runs with the ball and advances towards the goal!",
+    "Wieren Ivar runs with the ball and advances towards the goal!",
+    "Wieren Ivar runs with the ball and advances towards the goal!",
+    "Wieren Ivar runs with the ball and advances towards the goal!",
+    "Shiroma Salim shoots from Home 2-Point and SCORES!",
+    "Shiroma Salim shoots from Home 2-Point and SCORES!",
+    "The Trollball is picked up by Behl Berstine in zone Center Field",
+    "Deach Sharlene passes the ball to Vonni Geoff!",
+    "Deach Sharlene passes the ball to Vonni Geoff!",
+    "Shiroma Salim tries to Tackle Carnahan Laud, but Carnahan Laud blocks it!",
+    "Shiroma Salim tries to Tackle Carnahan Laud, but Carnahan Laud blocks it!",
+    "Riffle Harrington has returned Coward Tarton to play",
+    "Coward Tarton Tackles O'Conner Maighdlin and INJURES THEM!",
+    "Coward Tarton Tackles O'Conner Maighdlin and INJURES THEM!",
+    "Marlane Lounge tries to Tackle Richia Pazit, but misses!",
+    "Marlane Lounge tries to Tackle Richia Pazit, but misses!",
+    "Zwart Bunns tries to Tackle Ladew Evelina, but Ladew Evelina blocks it!",
+    "Zwart Bunns tries to Tackle Ladew Evelina, but Ladew Evelina blocks it!",
+    "Caves Cestar tries to run with the ball but is stopped by the defense!",
+    "Caves Cestar tries to run with the ball but is stopped by the defense!",
+    "Ladew Evelina shoots from Center Field but misses the goal!",
+    "Ladew Evelina shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Riffle Heyde in zone Center Field",
+    "Ladew Evelina Tackles Shiroma Salim and INJURES THEM!",
+    "Ladew Evelina Tackles Shiroma Salim and INJURES THEM!",
+    "Riffle Harrington has returned Shiroma Salim to play",
+    "Ladew Evelina tries to Tackle Coward Tarton, but misses!",
+    "Ladew Evelina tries to Tackle Coward Tarton, but misses!",
+    "Vonni Geoff tries to Tackle Riffle Heyde, but misses!",
+    "Vonni Geoff tries to Tackle Riffle Heyde, but misses!",
+    "Ladew Evelina tries to Tackle Farand Keil, but Farand Keil blocks it!",
+    "Ladew Evelina tries to Tackle Farand Keil, but Farand Keil blocks it!",
+    "Berkin Waters Tackles Vonni Geoff and INJURES THEM!",
+    "Berkin Waters Tackles Vonni Geoff and INJURES THEM!",
+    "Zwart Bunns tries to Tackle Belding Chloe, but misses!",
+    "Zwart Bunns tries to Tackle Belding Chloe, but misses!",
+    "Belding Chloe tries to Tackle Riffle Heyde, but misses!",
+    "Belding Chloe tries to Tackle Riffle Heyde, but misses!",
+    "Deach Sharlene tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Deach Sharlene tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Carnahan Laud tries to Tackle Farand Keil, but Farand Keil blocks it!",
+    "Carnahan Laud tries to Tackle Farand Keil, but Farand Keil blocks it!",
+    "Tybi Reo Tackles Caves Cestar and INJURES THEM!",
+    "Tybi Reo Tackles Caves Cestar and INJURES THEM!",
+    "Stephan Lisk tries to Tackle Tybi Reo, but misses!",
+    "Stephan Lisk tries to Tackle Tybi Reo, but misses!",
+    "Stephan Lisk tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "Stephan Lisk tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Farand Keil in zone Center Field",
+    "Deach Sharlene tries to Tackle Berkin Waters, but Berkin Waters blocks it!",
+    "Deach Sharlene tries to Tackle Berkin Waters, but Berkin Waters blocks it!",
+    "Zwart Bunns tries to run with the ball but is stopped by the defense!",
+    "Zwart Bunns tries to run with the ball but is stopped by the defense!",
+    "Dickenson Beker passes the ball to Berkin Waters!",
+    "Dickenson Beker passes the ball to Berkin Waters!",
+    "Shiroma Salim passes the ball to Tybi Reo, but they drop it!",
+    "Shiroma Salim passes the ball to Tybi Reo, but they drop it!",
+    "The Trollball is picked up by Wieren Ivar in zone Center Field",
+    "Tybi Reo tries to Tackle Caves Cestar, but Caves Cestar blocks it!",
+    "Tybi Reo tries to Tackle Caves Cestar, but Caves Cestar blocks it!",
+    "Coward Tarton tries to run with the ball but is stopped by the defense!",
+    "Coward Tarton tries to run with the ball but is stopped by the defense!",
+    "O'Conner Maighdlin Tackles Marlane Lounge and INJURES THEM!",
+    "O'Conner Maighdlin Tackles Marlane Lounge and INJURES THEM!",
+    "Carnahan Laud tries to Tackle Shiroma Salim, but misses!",
+    "Carnahan Laud tries to Tackle Shiroma Salim, but misses!",
+    "Stephan Lisk Tackles Dickenson Beker and INJURES THEM!",
+    "Stephan Lisk Tackles Dickenson Beker and INJURES THEM!",
+    "Farand Keil passes the ball to Farand Keil, but they drop it!",
+    "Farand Keil passes the ball to Farand Keil, but they drop it!",
+    "The Trollball is picked up by Vonni Geoff in zone Center Field",
+    "Stephan Lisk passes the ball to Caves Cestar, but they drop it!",
+    "Stephan Lisk passes the ball to Caves Cestar, but they drop it!",
+    "The Trollball is picked up by Wieren Ivar in zone Center Field",
+    "Caves Cestar tries to Tackle Berkin Waters, but misses!",
+    "Caves Cestar tries to Tackle Berkin Waters, but misses!",
+    "Behl Berstine tries to Tackle Farand Keil, but misses!",
+    "Behl Berstine tries to Tackle Farand Keil, but misses!",
+    "Belding Chloe tries to Tackle Berkin Waters, but Berkin Waters blocks it!",
+    "Belding Chloe tries to Tackle Berkin Waters, but Berkin Waters blocks it!",
+    "Berkin Waters tries to Tackle Carnahan Laud, but misses!",
+    "Berkin Waters tries to Tackle Carnahan Laud, but misses!",
+    "Coward Tarton throws a wild pass and it is INTERCEPTED by O'Conner Maighdlin!",
+    "Coward Tarton throws a wild pass and it is INTERCEPTED by O'Conner Maighdlin!",
+    "Deach Sharlene runs with the ball and advances towards the goal!",
+    "Deach Sharlene runs with the ball and advances towards the goal!",
+    "Ladew Evelina runs with the ball and advances towards the goal!",
+    "Ladew Evelina runs with the ball and advances towards the goal!",
+    "Vonni Geoff passes the ball to O'Conner Maighdlin, but they drop it!",
+    "Vonni Geoff passes the ball to O'Conner Maighdlin, but they drop it!",
+    "The Trollball is picked up by Tybi Reo in zone Away 2-Point",
+    "Riffle Heyde tries to Tackle Caves Cestar, but misses!",
+    "Riffle Heyde tries to Tackle Caves Cestar, but misses!",
+    "Coward Tarton tries to run with the ball but is stopped by the defense!",
+    "Coward Tarton tries to run with the ball but is stopped by the defense!",
+    "Riffle Harrington has returned Marlane Lounge to play",
+    "Zwart Bunns shoots from Away 2-Point but misses the goal!",
+    "Zwart Bunns shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Marlane Lounge in zone Away 2-Point"
+  ],
+  "openBar": false
+}

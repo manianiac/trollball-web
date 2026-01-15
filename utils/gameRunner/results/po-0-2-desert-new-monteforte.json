@@ -1,0 +1,856 @@
+{
+  "homeTeam": {
+    "name": "The Desert Spectres",
+    "slug": "desert",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 61,
+    "stadium": {
+      "name": "The Sun-Baked Bowl",
+      "location": "The Great Desert",
+      "description": "A simple, deep bowl dug from clay and sandstone on the edge of a caravan oasis. The heat is oppressive, and the 'stands' are just blankets laid on the sun-baked dunes.",
+      "modifiers": ["Intense Heat", "Sandstorm", "Dehydration"]
+    },
+    "healer": {
+      "name": "Verlee Dacia",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 54,
+        "catch": 53,
+        "run": 68,
+        "block": 50,
+        "fight": 40,
+        "throw": 47,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Billhook",
+        "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Fidellia Mozelle",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 40,
+          "catch": 57,
+          "run": 60,
+          "block": 56,
+          "fight": 65,
+          "throw": 67,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Muscolo Jaehne",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 39,
+          "fight": 60,
+          "throw": 53,
+          "luck": 49,
+          "pronouns": "They/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Eileen Mikihisa",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 45,
+          "catch": 54,
+          "run": 59,
+          "block": 60,
+          "fight": 55,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Bahr Ethelstan",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 62,
+          "catch": 61,
+          "run": 62,
+          "block": 49,
+          "fight": 60,
+          "throw": 52,
+          "luck": 53,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Heyes Iver",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 55,
+          "catch": 60,
+          "run": 61,
+          "block": 51,
+          "fight": 54,
+          "throw": 71,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Angelita Darce",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 50,
+          "run": 58,
+          "block": 53,
+          "fight": 56,
+          "throw": 58,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Shaving one half of their mustache for important games.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shelman McQuoid",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 44,
+          "fight": 54,
+          "throw": 65,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lovash Marius",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 46,
+          "run": 42,
+          "block": 56,
+          "fight": 43,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Steve",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 59,
+          "catch": 63,
+          "run": 55,
+          "block": 59,
+          "fight": 64,
+          "throw": 48,
+          "luck": 74,
+          "pronouns": "She/Her",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Huesman Ring",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 48,
+          "catch": 56,
+          "run": 41,
+          "block": 48,
+          "fight": 58,
+          "throw": 38,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Fidellia Mozelle",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 40,
+          "catch": 57,
+          "run": 60,
+          "block": 56,
+          "fight": 65,
+          "throw": 67,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Muscolo Jaehne",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 39,
+          "fight": 60,
+          "throw": 53,
+          "luck": 49,
+          "pronouns": "They/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Eileen Mikihisa",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 45,
+          "catch": 54,
+          "run": 59,
+          "block": 60,
+          "fight": 55,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Bahr Ethelstan",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 62,
+          "catch": 61,
+          "run": 62,
+          "block": 49,
+          "fight": 60,
+          "throw": 52,
+          "luck": 53,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Heyes Iver",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 55,
+          "catch": 60,
+          "run": 61,
+          "block": 51,
+          "fight": 54,
+          "throw": 71,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Angelita Darce",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 50,
+          "run": 58,
+          "block": 53,
+          "fight": 56,
+          "throw": 58,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Shaving one half of their mustache for important games.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lovash Marius",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 46,
+          "run": 42,
+          "block": 56,
+          "fight": 43,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Steve",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 59,
+          "catch": 63,
+          "run": 55,
+          "block": 59,
+          "fight": 64,
+          "throw": 48,
+          "luck": 74,
+          "pronouns": "She/Her",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Huesman Ring",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 48,
+          "catch": 56,
+          "run": 41,
+          "block": 48,
+          "fight": 58,
+          "throw": 38,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shelman McQuoid",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 44,
+          "fight": 54,
+          "throw": 65,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The New Monteforte Chaos Creatures",
+    "slug": "new-monteforte",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 65,
+    "stadium": {
+      "name": "The Unruly Yard",
+      "location": "New Monteforte",
+      "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+      "modifiers": ["Rowdy Crowd", "Unstable Scaffolding", "Street Performer"]
+    },
+    "healer": {
+      "name": "Lian Denton",
+      "team": "The New Monteforte Chaos Creatures",
+      "stats": {
+        "pass": 55,
+        "catch": 62,
+        "run": 56,
+        "block": 58,
+        "fight": 45,
+        "throw": 60,
+        "luck": 50,
+        "pronouns": "They/Them",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Boulanger Procto",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 57,
+          "block": 66,
+          "fight": 60,
+          "throw": 57,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gabriele Klehm",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 59,
+          "catch": 57,
+          "run": 47,
+          "block": 62,
+          "fight": 50,
+          "throw": 56,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alben Diantha",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 48,
+          "block": 55,
+          "fight": 63,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hammer",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gabriele Klehm",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 59,
+          "catch": 57,
+          "run": 47,
+          "block": 62,
+          "fight": 50,
+          "throw": 56,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "Well, howdy-do, you wonderful ghouls and gladiators! This is Nok the Corrupter, your favorite voice from the void, bringing you the most anticipated conclusion in all of Osterra! We are back at the Sun-Baked Bowl for the third and final installment of this Best-of-Three series between the New Monteforte Chaos Creatures and the Desert Spectres! The series is tied at one a piece, folks! It is do-or-die, win-or-get-buried-in-the-sand! The atmosphere is thicker than Lian Denton’s hot gravy, and the heat is so oppressive I can see the adventurers’ memories evaporating before they even lose their heads!\n\nI just saw Alben Diantha over by the sidelines, and boy oh boy, is he prepared! He’s got his hands deep in a bucket of ice-cold well water, likely trying to keep his fingers from turning into sun-dried jerky before the whistle blows! Meanwhile, Fidellia Mozelle is taking long, deep breaths of a piece of burnt wood. Is it luck? Is it madness? It’s Trollball, baby! And look at Steve, our favoriteHalberd-wielding bookie! She’s already got the betting pool up to a mountain of gold teeth! She knows that in this heat, the only thing more certain than dehydration is a face-full of dirt!\n\nThis is for all the marbles, listeners! The winner moves forward in the playoffs, and the loser gets a one-way ticket to the losers' bracket, probably with a few fewer limbs than they started with! Whether they’re following the weather rhymes of Shelman McQuoid or the tuneless sea shanties of Wolbrom Ariella, these teams are ready to paint the dunes red! Geth the Gravelord is watching, Dame Terra Monteforte is watching, and I’m ready for some glorious, sun-baked slaughter! Let’s get that troll head in the basket!",
+  "postGame": "Holy cow and a side of brimstone! What a barn-burner we just witnessed! The New Monteforte Chaos Creatures have done it! They’ve taken the series 2-1 after a 7-5 thriller that went deep into the heart of Overtime! I haven’t seen this much back-and-forth action since Sir Artorias tried to negotiate with a Fey King! The Sun-Baked Bowl was absolutely rocking, even as the sandstorms started to roll in and the players began to look like they were wading through hot molasses!\n\nThe match kicked off with a real bang as Placido Kora decided she didn't care for the heat, charging straight into the End Zone to dunk the troll head for an early Chaos lead! The Monteforte fans—all three of them—went wild! But you can’t keep a good Spectre down in their own sandbox! Lovash Marius delivered a beautiful pass to Angelita Darce, who slammed it home to even the score. It was a tactical masterpiece that would make Geth the Gravelord proud, if he had a heart to feel pride with!\n\nBut oh, the violence, folks! The real meat of the game started when Bahr Ethelstan decided Alben Diantha’s ribs were looking far too sturdy, delivering a tackle that sent the Chaos player straight to the healer’s tent! The clatter of armor was like music to my ears! Shortly after, Placido Kora struck again, snagging a pass from Fogel Raynold to put the Creatures back on top. It was a display of skill that almost made me forget these people are technically 'heroes'—almost!\n\nThen came the play of the regulation period! Steve, the gambling queen herself, took a look at the basket from Center Field and said, 'Watch this!' She launched a 2-point shot that sailed through the shimmering heat like a bolt from the blue! It was a ring-a-ding-ding of a play that knotted the game and sent us into a heart-stopping Overtime! I haven't seen tension like that since Morgwae was exiled for actually doing something useful!\n\nOvertime was a total meat-grinder, just the way I like it! Tucker Hett decided Shelman McQuoid had seen enough of the field, delivering a billhook-heavy hit that sidelined the weather-prophet indefinitely! But the Spectres had an answer in Eileen Mikihisa. My goodness, what a rampage! Eileen went on a tear, injuring Placido Kora and then Fogel Raynold back-to-back! The Chaos Creatures were dropping like flies in a kiln!\n\nMuscolo Jaehne joined the fray, sending Wolbrom Ariella to the sand with a crunch that I could hear all the way up in the commentary booth! It looked like the Chaos Creatures were going to be picked apart by the vultures, but their resilience is something else! Even with their helmets ringing and their lungs full of sand, they kept scrambling. The ball was jumping around like a greased pig, with Steve and Angelita Darce fumbling under the pressure of the Away Field!\n\nThe desperation was palpable! Huesman Ring tried to keep the Creatures at bay with a series of thunderous hits, taking out Mouldon Earl to keep the Spectres' hopes alive. It was a defensive stand for the ages! But the Chaos Creatures have a secret weapon: pure, unadulterated spite! They kept pushing despite the dehydration and the missing teeth, proving that the White Ravens aren't just about dirt magic and handshakes!\n\nThe climax came when Fogel Raynold, back from the brink of a dirt nap, found the Trollball in Center Field. With the defense reeling and the Spectres gasping for air, he launched a desperate shot that found nothing but net! The roar from the Chaos bench was enough to start a landslide! It was the dagger in the heart of the desert, a 2-point beauty that sealed the deal and sent the Spectres packing!\n\nFinal Score: The New Monteforte Chaos Creatures 7, The Desert Spectres 5! The series goes to Monteforte! I have to say, seeing Geth’s chosen team fall in their own bowl brings a special kind of warmth to my corrupted soul. The Spectres fought like tigers, but in the end, they just couldn't handle the Chaos! They’re headed to the losers' bracket now, where I’m sure they’ll have plenty of time to consult their folk rhymes and shave the other half of their mustaches!\n\nWhat a day for Trollball! We saw touchdowns, long-range snipes, and more injuries than a Sir Tanos 'peace' mission! The Chaos Creatures move on, and I couldn't be happier to see the bracket shaken up! This is Nok the Corrupter, the voice of the playoffs, telling you to keep your weapons sharp and your healers busy! We’ll see you next week for more Tuesday Night Trollball mayhem! Stay violent, Osterra!",
+  "week": 2,
+  "homeScore": 5,
+  "awayScore": 7,
+  "slug": "po-0-2-desert-new-monteforte",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Fogel Raynold in zone Center Field",
+    "Placido Kora throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Mouldon Earl in zone Center Field",
+    "Lovash Marius tries to Tackle Placido Kora, but Placido Kora blocks it!",
+    "Shelman McQuoid tries to Tackle Tucker Hett, but misses!",
+    "Mouldon Earl tries to run with the ball but is stopped by the defense!",
+    "Fogel Raynold runs with the ball and advances towards the goal!",
+    "Urata Oriana runs with the ball and advances towards the goal!",
+    "Placido Kora runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Fidellia Mozelle in zone Center Field",
+    "Mouldon Earl tries to Tackle Angelita Darce, but misses!",
+    "Angelita Darce tries to Tackle Urata Oriana, but misses!",
+    "Fidellia Mozelle runs with the ball and advances towards the goal!",
+    "Eileen Mikihisa runs with the ball and advances towards the goal!",
+    "Lovash Marius passes to Angelita Darce in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Fogel Raynold in zone Center Field",
+    "Tucker Hett runs with the ball and advances towards the goal!",
+    "Angelita Darce tries to Tackle Tucker Hett, but misses!",
+    "Bahr Ethelstan Tackles Alben Diantha and INJURES THEM!",
+    "Gabriele Klehm runs with the ball and advances towards the goal!",
+    "Muscolo Jaehne tries to Tackle Gabriele Klehm, but misses!",
+    "Steve tries to Tackle Fogel Raynold, but misses!",
+    "Steve tries to Tackle Urata Oriana, but misses!",
+    "Wolbrom Ariella tries to Tackle Steve, but misses!",
+    "Fogel Raynold passes to Placido Kora in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Fidellia Mozelle in zone Center Field",
+    "Tucker Hett tries to Tackle Muscolo Jaehne, but misses!",
+    "Steve shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Angelita Darce in zone Center Field",
+    "Huesman Ring throws a wild pass and it lands on the ground!",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Shelman McQuoid in zone Center Field",
+    "Eileen Mikihisa tries to Tackle Mouldon Earl, but misses!",
+    "Fogel Raynold tries to Tackle Huesman Ring, but Huesman Ring blocks it!",
+    "Wolbrom Ariella tries to Tackle Shelman McQuoid, but Shelman McQuoid blocks it!",
+    "Gabriele Klehm tries to Tackle Bahr Ethelstan, but misses!",
+    "Steve runs with the ball and advances towards the goal!",
+    "Tucker Hett Tackles Shelman McQuoid and INJURES THEM!",
+    "Huesman Ring shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Tucker Hett in zone Away Field",
+    "Bahr Ethelstan tries to Tackle Tucker Hett, but misses!",
+    "Lovash Marius tries to Tackle Urata Oriana, but misses!",
+    "Eileen Mikihisa Tackles Placido Kora and INJURES THEM!",
+    "Huesman Ring tries to Tackle Tucker Hett, but misses!",
+    "Eileen Mikihisa tries to Tackle Placido Kora, but Placido Kora blocks it!",
+    "Muscolo Jaehne Tackles Wolbrom Ariella and INJURES THEM!",
+    "Fidellia Mozelle tries to Tackle Mouldon Earl, but misses!",
+    "Eileen Mikihisa Tackles Fogel Raynold and INJURES THEM!",
+    "Placido Kora tries to run with the ball but is stopped by the defense!",
+    "Eileen Mikihisa tries to Tackle Placido Kora, but misses!",
+    "Placido Kora shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Angelita Darce in zone Away Field",
+    "Eileen Mikihisa passes the ball to Angelita Darce, but they drop it!",
+    "The Trollball is picked up by Steve in zone Away Field",
+    "Steve throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Tucker Hett in zone Away Field",
+    "Tucker Hett tries to run with the ball but is stopped by the defense!",
+    "Muscolo Jaehne tries to Tackle Placido Kora, but misses!",
+    "Heyes Iver tries to Tackle Urata Oriana, but Urata Oriana blocks it!",
+    "Heyes Iver tries to Tackle Gabriele Klehm, but misses!",
+    "Heyes Iver Tackles Wolbrom Ariella and INJURES THEM!",
+    "Angelita Darce tries to Tackle Placido Kora, but misses!",
+    "Huesman Ring Tackles Mouldon Earl and INJURES THEM!",
+    "Gabriele Klehm runs with the ball and advances towards the goal!",
+    "Fogel Raynold shoots from Center Field and SCORES!"
+  ]
+}

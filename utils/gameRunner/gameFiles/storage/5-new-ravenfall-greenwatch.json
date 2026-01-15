@@ -1,0 +1,825 @@
+{
+  "homeTeam": {
+    "name": "The New Ravenfall Commanders",
+    "slug": "new-ravenfall",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 64,
+    "stadium": {
+      "name": "The Stronghold Bailey",
+      "location": "New Ravenfall (Stronghold Castle)",
+      "description": "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
+      "modifiers": ["Cobblestone Pitch", "Rampart Shadows", "Castle Echo"]
+    },
+    "healer": {
+      "name": "Hooge Imtiaz",
+      "team": "The New Ravenfall Commanders",
+      "stats": {
+        "pass": 57,
+        "catch": 50,
+        "run": 39,
+        "block": 59,
+        "fight": 53,
+        "throw": 63,
+        "luck": 59,
+        "pronouns": "She/Her",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 44,
+        "favorite_weapon": "Warhammer",
+        "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Moir Sass",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 51,
+          "block": 48,
+          "fight": 60,
+          "throw": 56,
+          "luck": 61,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Theis Loredo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 46,
+          "run": 55,
+          "block": 54,
+          "fight": 62,
+          "throw": 61,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jessalin Zobias",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 55,
+          "block": 42,
+          "fight": 52,
+          "throw": 53,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Moir Sass",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 51,
+          "block": 48,
+          "fight": 60,
+          "throw": 56,
+          "luck": 61,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Theis Loredo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 46,
+          "run": 55,
+          "block": 54,
+          "fight": 62,
+          "throw": 61,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jessalin Zobias",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 55,
+          "block": 42,
+          "fight": 52,
+          "throw": 53,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Greenwatch",
+    "slug": "greenwatch",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Oakmaul Grounds",
+      "location": "Hafting",
+      "description": "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+      "modifiers": ["Ritual Focus", "Scarred Oak's Shadow", "Hallowed Ground"]
+    },
+    "healer": {
+      "name": "Nariko Javed",
+      "team": "The Greenwatch",
+      "stats": {
+        "pass": 52,
+        "catch": 55,
+        "run": 58,
+        "block": 56,
+        "fight": 50,
+        "throw": 55,
+        "luck": 73,
+        "pronouns": "They/Them",
+        "civic_engagement": 44,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Pike",
+        "pregame_ritual": "Wiggling their fingers in a complex, magical-looking pattern.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Madea Mensch",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 52,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nobe Haukom",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 62,
+          "run": 44,
+          "block": 53,
+          "fight": 49,
+          "throw": 51,
+          "luck": 55,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Verne Methuselah",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 60,
+          "run": 60,
+          "block": 61,
+          "fight": 61,
+          "throw": 59,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rese Halpern",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 50,
+          "run": 68,
+          "block": 56,
+          "fight": 51,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Salahi Bushey",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 57,
+          "catch": 55,
+          "run": 60,
+          "block": 50,
+          "fight": 68,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Anointing their forehead with morning dew.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Darin Berliner",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 60,
+          "run": 48,
+          "block": 56,
+          "fight": 63,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false,
+          "favorite_weapon": "Bardiche"
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Madea Mensch",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 52,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Greetings, thrill-seekers, bone-breakers, and blood-spillers! 🎙️ It’s your favorite demon announcer, Nok the Corrupter, shouting to you live from the imposing ramparts of The Stronghold Bailey! We are in New Ravenfall for Week 5, and the air smells like ozone and impending medical bills! 🏰\n\nThe visiting team today is **The Greenwatch**! 🌿 They hail from the lands protected by The Wardens—you know, Sir Randy the Ranger and Falric, the thief who somehow has less gold than I do. I watched their pre-game prep, and folks, it is *weird*. Madea Mensch was literally tying his own bootlaces together and hopping around! Is that a strategy? Or just a cry for help? And keep an eye on Troy Jorgan; I saw them whispering to the Trollball earlier. If the ball starts talking back, I’m leaving! 🏈\n\nFacing them on their home turf are **The New Ravenfall Commanders**! ⚔️ Backed by the mighty faction of Eponore! That’s right, the team associated with Sir Tanos (who definitely hates reading these reports) and the celebrity Moon-slayer himself, Sir Artorias! The home crowd is rowdy, standing atop the castle walls, and Healer Hooge Imtiaz has the squad chanting in perfect, terrifying unison. 🗣️\n\nThe pitch today is cobblestone, ladies and gentlemen! That means we aren't just getting bruises; we are getting road rash! It’s going to be fast, it’s going to be loud, and by the Abyss, I hope it’s going to be violent! Let’s play TROLLBALL! 🔥🩸",
+  "postGame": "LADIES, GENTLEMEN, AND DEMONS OF THE PIT! What a defensive deadlock we witnessed today at the Stronghold Bailey! We went the distance, folks! We went past the distance! We went all the way to OVERTIME before a single point was put on the board! 🕰️\n\nThe cobblestones were slick with sweat and, eventually, a lovely amount of blood. 🩸 You could hear the *clack-clack-CRUNCH* echoing off the castle ramparts every time a body hit the floor. It was music to my pointy ears! The Stronghold Bailey truly lived up to its name—nobody was getting in easily today!\n\nThe action started hot in the second half. Moir Sass grabbed the ball for the Commanders, but the real highlight was the brutality! Verne Methuselah of the Greenwatch decided to make a statement, tackling Jessalin Zobias so hard I think I saw a soul leave a body! 👻 That’s how you start a half, with a little bit of maiming!\n\nBut don't count the Commanders out! Hooge Imtiaz, their healer, rushed in with that synchronized chanting magic and scraped Jessalin off the pavement. Good as new! That's the power of modern medicine and dark arts! 💊 And then? The Commanders got angry. Oh, they got *very* angry.\n\nRhett Gavrilla saw Herriott Dhiren holding the ball—or maybe just standing there breathing—and decided that was unacceptable. BAM! Herriott went down hard! 🤕 The Greenwatch healer, Nariko Javed, had their work cut out for them today, wiggling those fingers frantically to keep the team alive against an onslaught of pain!\n\nLet's talk about the Greenwatch offense... or lack thereof! 📉 Verne Methuselah had a shot from the field. Missed! Drona Jacklin had a shot. Missed! It was embarrassing! I’ve seen goblins with one eye throw better than that! Maybe Troy Jorgan's conversation with the ball distracted everyone, because the ball certainly didn't want to go into the goal!\n\nThe Commanders' defense was a brick wall. A spiky brick wall. Croteau Osmo was an absolute terror out there! First, Croteau takes out Nobe Haukom. Then, later in the game, Croteau hunts down Verne Methuselah and returns the favor for that earlier hit! ⚔️ Justice is served cold, and on cobblestones! 🥶\n\nThe hits just kept coming! Theis Loredo smashed Darin Berliner into the ground, and Estes Adrian nearly folded Rese Halpern in half! The Greenwatch bench looked more like a field hospital by the end of regulation! 🏥 It warms my cold, dead heart to see such commitment to incapacitation.\n\nWith the score deadlocked at 0-0, we went to OVERTIME! The tension was thicker than Sir Artorias's ego! 🌕 Everyone was tired, everyone was bruised, but the desire for glory—and violence—kept them moving!\n\nPirozzo Opal, the hero of the hour, snatched up that Trollball in the Away Field. The Greenwatch tried to stop Pirozzo! Drona missed! Herriott missed! Pirozzo was a runaway cart going downhill, and the Greenwatch were just speedbumps! 🛒💨\n\nThen, the moment of truth! Jozef Pepe with the vision, spotting Estes Adrian in the End Zone! The pass was true! Estes caught it and DUNKED it home! 🏀 TOUCHDOWN COMMANDERS!\n\n**Final Score: The New Ravenfall Commanders 1, The Greenwatch 0!** The Greenwatch limps home to The Wardens with nothing but bruises to show for it. Sir Randy better string his bow with tears tonight! This is Nok the Corrupter, reminding you that pain is temporary, but a loss in the record books is forever! Stay violent, Osterra! 😈👋",
+  "week": 5,
+  "homeScore": 1,
+  "awayScore": 0,
+  "slug": "5-new-ravenfall-greenwatch",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Moir Sass in zone Away Field",
+    "Nobe Haukom tries to Tackle Pirozzo Opal, but misses!",
+    "Nobe Haukom tries to Tackle Pirozzo Opal, but misses!",
+    "Verne Methuselah Tackles Jessalin Zobias and INJURES THEM!",
+    "Verne Methuselah Tackles Jessalin Zobias and INJURES THEM!",
+    "Herriott Dhiren tries to Tackle Fleme Alis, but misses!",
+    "Herriott Dhiren tries to Tackle Fleme Alis, but misses!",
+    "Hooge Imtiaz has returned Jessalin Zobias to play",
+    "Pirozzo Opal throws a wild pass and it lands on the ground!",
+    "Pirozzo Opal throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Drona Jacklin in zone Away Field",
+    "Rhett Gavrilla Tackles Herriott Dhiren and INJURES THEM!",
+    "Rhett Gavrilla Tackles Herriott Dhiren and INJURES THEM!",
+    "Theis Loredo tries to Tackle Drona Jacklin, but misses!",
+    "Theis Loredo tries to Tackle Drona Jacklin, but misses!",
+    "Verne Methuselah shoots from Away Field but misses the goal!",
+    "Verne Methuselah shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Madea Mensch in zone Away Field",
+    "Estes Adrian tries to Tackle Rese Halpern, but Rese Halpern blocks it!",
+    "Estes Adrian tries to Tackle Rese Halpern, but Rese Halpern blocks it!",
+    "Troy Jorgan tries to run with the ball but is stopped by the defense!",
+    "Troy Jorgan tries to run with the ball but is stopped by the defense!",
+    "Drona Jacklin shoots from Away Field but misses the goal!",
+    "Drona Jacklin shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Madea Mensch in zone Away Field",
+    "Croteau Osmo Tackles Nobe Haukom and INJURES THEM!",
+    "Croteau Osmo Tackles Nobe Haukom and INJURES THEM!",
+    "Jessalin Zobias Tackles Salahi Bushey and INJURES THEM!",
+    "Jessalin Zobias Tackles Salahi Bushey and INJURES THEM!",
+    "Jessalin Zobias tries to Tackle Drona Jacklin, but misses!",
+    "Jessalin Zobias tries to Tackle Drona Jacklin, but misses!",
+    "Jessalin Zobias tries to Tackle Drona Jacklin, but misses!",
+    "Jessalin Zobias tries to Tackle Drona Jacklin, but misses!",
+    "Dusa Curson tries to Tackle Troy Jorgan, but misses!",
+    "Dusa Curson tries to Tackle Troy Jorgan, but misses!",
+    "Jessalin Zobias tries to Tackle Troy Jorgan, but misses!",
+    "Jessalin Zobias tries to Tackle Troy Jorgan, but misses!",
+    "Nariko Javed has returned Herriott Dhiren to play",
+    "Dusa Curson tries to Tackle Rese Halpern, but misses!",
+    "Dusa Curson tries to Tackle Rese Halpern, but misses!",
+    "Theis Loredo Tackles Darin Berliner and INJURES THEM!",
+    "Theis Loredo Tackles Darin Berliner and INJURES THEM!",
+    "Croteau Osmo Tackles Verne Methuselah and INJURES THEM!",
+    "Croteau Osmo Tackles Verne Methuselah and INJURES THEM!",
+    "Estes Adrian Tackles Rese Halpern and INJURES THEM!",
+    "Estes Adrian Tackles Rese Halpern and INJURES THEM!",
+    "Rhett Gavrilla tries to Tackle Madea Mensch, but Madea Mensch blocks it!",
+    "Rhett Gavrilla tries to Tackle Madea Mensch, but Madea Mensch blocks it!",
+    "Madea Mensch tries to Tackle Estes Adrian, but misses!",
+    "Madea Mensch tries to Tackle Estes Adrian, but misses!",
+    "Dusa Curson tries to Tackle Drona Jacklin, but misses!",
+    "Dusa Curson tries to Tackle Drona Jacklin, but misses!",
+    "Estes Adrian tries to Tackle Troy Jorgan, but misses!",
+    "Estes Adrian tries to Tackle Troy Jorgan, but misses!",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Pirozzo Opal in zone Away Field",
+    "Croteau Osmo tries to Tackle Troy Jorgan, but misses!",
+    "Croteau Osmo tries to Tackle Troy Jorgan, but misses!",
+    "Moir Sass tries to Tackle Goldenberg Rimola, but Goldenberg Rimola blocks it!",
+    "Moir Sass tries to Tackle Goldenberg Rimola, but Goldenberg Rimola blocks it!",
+    "Goldenberg Rimola tries to Tackle Theis Loredo, but Theis Loredo blocks it!",
+    "Goldenberg Rimola tries to Tackle Theis Loredo, but Theis Loredo blocks it!",
+    "Troy Jorgan tries to Tackle Moir Sass, but misses!",
+    "Troy Jorgan tries to Tackle Moir Sass, but misses!",
+    "Pirozzo Opal runs with the ball and advances towards the goal!",
+    "Pirozzo Opal runs with the ball and advances towards the goal!",
+    "Drona Jacklin tries to Tackle Pirozzo Opal, but misses!",
+    "Drona Jacklin tries to Tackle Pirozzo Opal, but misses!",
+    "Herriott Dhiren tries to Tackle Fleme Alis, but misses!",
+    "Herriott Dhiren tries to Tackle Fleme Alis, but misses!",
+    "Jozef Pepe passes to Estes Adrian in the End Zone, who dunks the ball into the goal!",
+    "Jozef Pepe passes to Estes Adrian in the End Zone, who dunks the ball into the goal!"
+  ],
+  "openBar": false
+}

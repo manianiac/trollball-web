@@ -1,0 +1,868 @@
+{
+  "homeTeam": {
+    "name": "The Starlight Bazaar Bizarres",
+    "slug": "starlight-bazaar",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 63,
+    "stadium": {
+      "name": "The Prismatic Pavilion",
+      "location": "Starlight Bazaar (Starlight Lagoon)",
+      "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+      "modifiers": ["Lagoon Splash", "Troupe Distraction", "Unstable Footing"]
+    },
+    "healer": {
+      "name": "Essa Pattie",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 57,
+        "catch": 55,
+        "run": 67,
+        "block": 56,
+        "fight": 52,
+        "throw": 45,
+        "luck": 53,
+        "pronouns": "He/Him",
+        "civic_engagement": 46,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Horseman's Pick",
+        "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milo Nelie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 61,
+          "catch": 66,
+          "run": 44,
+          "block": 45,
+          "fight": 49,
+          "throw": 53,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melesa Zelten",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 43,
+          "catch": 61,
+          "run": 59,
+          "block": 60,
+          "fight": 57,
+          "throw": 49,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milo Nelie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 61,
+          "catch": 66,
+          "run": 44,
+          "block": 45,
+          "fight": 49,
+          "throw": 53,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melesa Zelten",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 43,
+          "catch": 61,
+          "run": 59,
+          "block": 60,
+          "fight": 57,
+          "throw": 49,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Brimstone Fire Eaters",
+    "slug": "brimstone",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Su'akour Bowl",
+      "location": "Brimstone (Su'akour Ruins)",
+      "description": "A crude, rowdy stadium built within the half-finished, black-stone walls of the warlord Su'akour's abandoned fortress. The stands are crumbling ruins, and the entire arena perpetually stinks of the nearby sulfur marshes.",
+      "modifiers": ["Noxious Fumes", "Crumbling Walls", "Uneven Ground"]
+    },
+    "healer": {
+      "name": "Raphael Miyasawa",
+      "team": "The Brimstone Fire Eaters",
+      "stats": {
+        "pass": 46,
+        "catch": 49,
+        "run": 63,
+        "block": 56,
+        "fight": 60,
+        "throw": 60,
+        "luck": 63,
+        "pronouns": "She/Them",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "🏟️ WELCOME TO THE MAIN EVENT, SPORTS FANS! Nok the Corrupter here, coming to you live from the Prismatic Pavilion! The air is thick with the scent of lagoon water and the palpable desperation of two teams on the brink! This is the big one, folks—the tie-breaking Game Three of this Best of 3 playoff series! The winner moves on, and the loser gets a one-way ticket to the loser's bracket! Can you feel the electricity? Or is that just the unstable footing on these creaky stage-planks? \\n\\nWould you look at the focus on these warriors? I see Bollinger Susette over there for the Fire Eaters, getting his teammate to punch him in the shoulder—now that's a pre-game ritual I can get behind! Give him another one for luck! And look at Nachison Icken, bless her dark heart, she's got her boots on the wrong feet again! She's ready to dance a bloody jig all over this field! On the other side, Quintessa Austine is trying to start a slow clap with the crowd. It’s a bit pathetic since nobody is joining in, but I admire the theatricality! \\n\\nNeither of these teams has much of a following today—it seems the fans are too busy worshipping the likes of Sir Artorias or that fancy-bow-wielding Sir Randy to witness a real massacre! Their loss! More room for us to watch the carnage as the Prismatic Troupe performers swirl around the field! Let's see if the Brimstone Fire Eaters can handle the lagoon splash, or if the Bizarres will send them sinking into the depths of the loser's bracket! 🏈✨",
+  "postGame": "# 🎭 A PRISMATIC PULP-MAKING! THE BIZARRES ASCEND! \\n\\nGreat galloping ghouls, what a beautiful, one-sided slaughter! If you were looking for a close contest, you were in the wrong reality! The Starlight Bazaar Bizarres didn't just win Game Three; they performed a total vivisection on the Brimstone Fire Eaters, winning 9 to 0! I haven't seen this much disappointment in a single stadium since I saw Sir Tanos trying to read a 'Keep Out' sign! The Bizarres take the series 2-1 and march forward, while the Fire Eaters are left to lick their wounds in the loser's bracket! \\n\\nThe Bizarres started the fire early! Aggri Cookie, after staring at his gauntlets like they held the meaning of life, stepped up in Center Field and hammered home a 2-point shoot! The troll head zipped through the air faster than a warlock fleeing a bad contract! It was a masterpiece of precision that silenced the few Fire Eater fans who actually bothered to show up! \\n\\nBut wait, the violence! We love it! The first half was a meat grinder. Campball Fink took a heavy hit from Demp Chet and went down early, looking like a discarded rag doll. But the healers in this Everwar are miracle workers—even if they can't heal the absolute shame of a 9-point blowout! It was a symphony of crunching bones that had the Prismatic Troupe performers cheering from the sidelines! \\n\\nAggri Cookie was a monster tonight! Not content with just scoring, he went on a tackling spree that would make Cyfnerth the Butcher weep with joy! He leveled Campball Fink again and then flattened Selimah Tully right after! It was like watching a professional butcher in a high-speed chase—just absolute efficiency in delivering pain! \\n\\nThe Fire Eaters tried to respond, they really did. Orlina Jerrine snagged a beautiful interception off a wild pass, but the Brimstone offense was more unstable than the footing on these lagoon stilts! Lowson Hersh’s shot went wider than Lord Orzalon’s temper! You simply cannot win if you can't hit the goal, even if the referee is blessing your daggers! \\n\\nHalftime came and went, and whatever Raphael Miyasawa whispered to her biceps, it didn't help! The second half was a non-stop barrage of Bizarres' scoring. Pompei Hephzipa, after performing some truly aggressive theatrical poses, took a pass in the End Zone and dunked the ball right into the goal! That's how you put on a show for the Starlight Lagoon! \\n\\nThen the shoots started raining down like cursed hail! Demp Chet from Center Field—BOOM! Two points! Quintessa Austine, finally finished with his failed slow clap, steps up and hits another! Two more points! The Fire Eaters looked like they were standing still, probably because Nachison Icken was still trying to figure out why her boots felt so strange! \\n\\nMelesa Zelten decided to join the festivities, firing another 2-point rocket from Center Field! The Brimstone defense was more porous than a sponge at the bottom of the lagoon! I bet even Sir Randy and his fancy bow couldn't have hit those shots under the pressure of a playoff finale! The Bizarres were playing with their food at this point! \\n\\nLet's talk about the delicious injuries! Poor Kristin Kronfeld took a beating from Nachison Icken, and Bollinger Susette got pancaked by Bush Heiner later on. It was a glorious display of athletic brutality that makes me proud to call Trollball my favorite sport! The blood on the stage-planks was the most colorful thing in the Pavilion tonight! \\n\\nLate in the game, Nigel Rothmuller threw a pass so wild it looked like he was trying to communicate with a bird in the rafters, and Willa Lois picked it off like a ripe plum. That interception put the final nail in the Fire Eaters' coffin! They were completely demoralized, overwhelmed by the lagoon splashes and the relentless assault of the Starlight Shooters! \\n\\nSo, there you have it! The series ends 2-1 in favor of the Starlight Bazaar Bizarres! They move on in the playoffs, while the Brimstone Fire Eaters head to the loser's bracket to rethink their weather-rhyming strategies. I hope Morgwae and Artorias were watching, because this is what real victory looks like—total, crushing dominance! Final Score: The Starlight Bazaar Bizarres 9 - The Brimstone Fire Eaters 0! Goodnight, Osterra, and keep your heads on your shoulders—unless someone decides to kick them into a basket! 🎇💀",
+  "week": 2,
+  "homeScore": 9,
+  "awayScore": 0,
+  "slug": "po-0-2-starlight-bazaar-brimstone",
+  "plays": [
+    "The Trollball is picked up by Kristin Kronfeld in zone Center Field",
+    "Bush Heiner tries to run with the ball but is stopped by the defense!",
+    "Nachison Icken tries to Tackle Demp Chet, but misses!",
+    "Willa Lois tries to Tackle Selimah Tully, but misses!",
+    "Campball Fink Tackles Demp Chet and INJURES THEM!",
+    "Willa Lois tries to Tackle Selimah Tully, but misses!",
+    "Campball Fink tries to Tackle Bush Heiner, but misses!",
+    "Aggri Cookie shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Milo Nelie in zone Center Field",
+    "Wylde Jutta tries to Tackle Kristin Kronfeld, but Kristin Kronfeld blocks it!",
+    "Nigel Rothmuller tries to Tackle Bush Heiner, but misses!",
+    "Campball Fink tries to Tackle Gagliano Tallbott, but misses!",
+    "Aggri Cookie Tackles Campball Fink and INJURES THEM!",
+    "Aggri Cookie Tackles Selimah Tully and INJURES THEM!",
+    "Kristin Kronfeld tries to run with the ball but is stopped by the defense!",
+    "Bush Heiner tries to Tackle Orlina Jerrine, but misses!",
+    "Willa Lois throws a wild pass and it is INTERCEPTED by Orlina Jerrine!",
+    "Lowson Hersh shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Melesa Zelten in zone Center Field",
+    "Milo Nelie passes the ball to Melesa Zelten, but they drop it!",
+    "The Trollball is picked up by Kristin Kronfeld in zone Center Field",
+    "Pompei Hephzipa passes the ball to Melesa Zelten, but they drop it!",
+    "The Trollball is picked up by Nigel Rothmuller in zone Center Field",
+    "Nachison Icken Tackles Kristin Kronfeld and INJURES THEM!",
+    "Bollinger Susette tries to Tackle Pompei Hephzipa, but misses!",
+    "Bush Heiner Tackles Bollinger Susette and INJURES THEM!",
+    "Nigel Rothmuller shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Bush Heiner in zone Center Field",
+    "Demp Chet tries to run with the ball but is stopped by the defense!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Bush Heiner in zone Center Field",
+    "Kristin Kronfeld runs with the ball and advances towards the goal!",
+    "Bush Heiner tries to run with the ball but is stopped by the defense!",
+    "Kristin Kronfeld tries to Tackle Nachison Icken, but misses!",
+    "Orlina Jerrine tries to Tackle Melesa Zelten, but misses!",
+    "Nachison Icken tries to Tackle Kristin Kronfeld, but misses!",
+    "Gagliano Tallbott passes the ball to Aggri Cookie!",
+    "Bush Heiner runs with the ball and advances towards the goal!",
+    "Pompei Hephzipa passes to Pompei Hephzipa in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Gagliano Tallbott in zone Center Field",
+    "Lowson Hersh Tackles Kristin Kronfeld and INJURES THEM!",
+    "Nachison Icken tries to Tackle Demp Chet, but Demp Chet blocks it!",
+    "Glassman Solley Tackles Aggri Cookie and INJURES THEM!",
+    "Nachison Icken tries to Tackle Melesa Zelten, but Melesa Zelten blocks it!",
+    "Orlina Jerrine tries to Tackle Demp Chet, but Demp Chet blocks it!",
+    "Wylde Jutta tries to Tackle Bush Heiner, but Bush Heiner blocks it!",
+    "Demp Chet passes the ball to Milo Nelie!",
+    "Demp Chet shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Orlina Jerrine in zone Center Field",
+    "Campball Fink passes the ball to Orlina Jerrine, but they drop it!",
+    "The Trollball is picked up by Quintessa Austine in zone Center Field",
+    "Quintessa Austine shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Willa Lois in zone Center Field",
+    "Lowson Hersh tries to Tackle Willa Lois, but misses!",
+    "Pompei Hephzipa tries to run with the ball but is stopped by the defense!",
+    "Melesa Zelten shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Campball Fink in zone Center Field",
+    "Oona Jane tries to Tackle Willa Lois, but misses!",
+    "Nigel Rothmuller throws a wild pass and it is INTERCEPTED by Willa Lois!"
+  ]
+}

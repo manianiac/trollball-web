@@ -1,0 +1,918 @@
+{
+  "homeTeam": {
+    "name": "The Starlight Bazaar Bizarres",
+    "slug": "starlight-bazaar",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 63,
+    "stadium": {
+      "name": "The Prismatic Pavilion",
+      "location": "Starlight Bazaar (Starlight Lagoon)",
+      "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+      "modifiers": ["Lagoon Splash", "Troupe Distraction", "Unstable Footing"]
+    },
+    "healer": {
+      "name": "Essa Pattie",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 57,
+        "catch": 55,
+        "run": 67,
+        "block": 56,
+        "fight": 52,
+        "throw": 45,
+        "luck": 53,
+        "pronouns": "He/Him",
+        "civic_engagement": 46,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Horseman's Pick",
+        "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milo Nelie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 61,
+          "catch": 66,
+          "run": 44,
+          "block": 45,
+          "fight": 49,
+          "throw": 53,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melesa Zelten",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 43,
+          "catch": 61,
+          "run": 59,
+          "block": 60,
+          "fight": 57,
+          "throw": 49,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milo Nelie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 61,
+          "catch": 66,
+          "run": 44,
+          "block": 45,
+          "fight": 49,
+          "throw": 53,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melesa Zelten",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 43,
+          "catch": 61,
+          "run": 59,
+          "block": 60,
+          "fight": 57,
+          "throw": 49,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Ebon Gate Corruptors",
+    "slug": "ebon-gate",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 59,
+    "stadium": {
+      "name": "The Sinking Field",
+      "location": "Ebon Gate",
+      "description": "A notoriously poorly-maintained stadium built on reclaimed marshland. The ground is unstable, often waterlogged, and sections of the stands are known to collapse.",
+      "modifiers": ["Thick Mud", "Noxious Fumes", "Sinkhole"]
+    },
+    "healer": {
+      "name": "Terle Chenay",
+      "team": "The Ebon Gate Corruptors",
+      "stats": {
+        "pass": 62,
+        "catch": 64,
+        "run": 70,
+        "block": 58,
+        "fight": 46,
+        "throw": 62,
+        "luck": 58,
+        "pronouns": "She/Her",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Mace",
+        "pregame_ritual": "Seeing who on the team can belch the loudest.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Bullion Iglesias",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 55,
+          "block": 52,
+          "fight": 52,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Meditating silently in the corner of the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Olnek Vizzone",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 48,
+          "run": 53,
+          "block": 59,
+          "fight": 49,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Smith Syst",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 49,
+          "block": 47,
+          "fight": 63,
+          "throw": 59,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Daring a teammate to eat a live worm.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Napoleon Anzovin",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 52,
+          "block": 45,
+          "fight": 59,
+          "throw": 49,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ahasuerus An",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 39,
+          "catch": 56,
+          "run": 49,
+          "block": 61,
+          "fight": 51,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Napoleon Anzovin",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 52,
+          "block": 45,
+          "fight": 59,
+          "throw": 49,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Bullion Iglesias",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 55,
+          "block": 52,
+          "fight": 52,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Meditating silently in the corner of the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ahasuerus An",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 39,
+          "catch": 56,
+          "run": 49,
+          "block": 61,
+          "fight": 51,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "### 🎙️ STEP RIGHT UP TO THE BLOODIEST SHOW ON OSTERRA! 🎙️\n\nHello, sports fans, ghouls, and unfortunate souls trapped in the Everwar! This is Nok the Corrupter, coming to you live from the Prismatic Pavilion, where the air is thick with the scent of salt water and impending trauma! We’ve got a real Tuesday Night humdinger for you as my absolute favorites, the **Ebon Gate Corruptors**, bring their delightful filth to the high-falutin' stilts of the **Starlight Bazaar Bizarres**! Oh, you can just smell the mud and the noxious fumes wafting off our boys from the Ebon Gate, and it smells like victory! 🦴💥\n\nBefore the opening whistle, I took a peek into the locker rooms! The Corruptors are looking sharp; Amedeo Bari was seen polishing his boots with bacon grease—now that’s what I call a slick move for a slippery field! Meanwhile, over in the Bizarres’ camp, Gagliano Tallbott was seen telling a terrible joke to the Trollball. I hope that leather head has a sense of humor, because it’s about to get kicked across the lagoon! \n\nWe’re perched right over the Starlight Lagoon, folks, and these stage-planks are as unstable as a Warlock’s promise! Kython and his Prismatic Troupe are everywhere, making a real nuisance of themselves, but don’t let the bright colors fool you—the only thing turning red today will be the floorboards! The attendance is... well, it's intimate! I suppose everyone is too busy worshipping that fancy-pants Artorias or the Snessengers in Zmeigorod to witness real culture! Let’s get ready for some beautiful, bone-crunching Trollball! 🎪🔥",
+  "postGame": "### 🏟️ AN ABSOLUTE CORKER AT THE PAVILION! 🏟️\n\nWhat a day for the history books, folks! We just witnessed a display of athletic brutality that would make Lord Orzalon himself weep with joy! It was a seesaw battle of brains, brawn, and broken bones right here on the edge of the lagoon. While the stands were emptier than Sir Tanos' head—seriously, where is the support for these icons?—the action was thicker than the mud in Ebon Gate! 🌊🏒\n\nThings started off with a bang when Amedeo Bari snatched up that beautiful, rotting troll head right in the center field! The Corruptors were moving like a well-oiled machine. Judi Carrington, singing a sea shanty that was mercifully drowned out by the sound of cracking ribs, charged down the field. Despite some early misses, Carrington found the opening and **DUNKS THE BALL**! A beautiful 1-point lead for the good guys! I hasn't seen a more satisfying plunge since the last time a 'hero' tripped over their own cape! 🏆✨\n\nBut oh, the Bizarres didn't come to play nice! Aggri Cookie—what a name for a monster!—absolutely leveled Napoleon Anzovin early on. The sound of that Kirkhammer hitting the planks was music to my ears, even if it meant Napoleon had to take a little nap on the sidelines. Terle Chenay, our lovely healer, had her work cut out for her, belching her way through the revival process to get our boy back in the game! 🔨🤢\n\nThen came the play of the half! Aggri Cookie, showing a level of focus I usually only reserve for torturing adventurers, lined up a shot from way back in the Away Field. He let it fly, and—Swoosh!—right through the goal for **2 POINTS**! A spectacular 'Shoot' that turned the tide and put the Bizarres in the lead! You won't see that kind of precision from those White Raven types; they're too busy having 'cursed' handshakes! 🎯💥\n\nThe violence only escalated from there! Bullion Iglesias, fresh off a silent meditation session, decided to share some peace and quiet with Gagliano Tallbott by knocking him into the next reality! But the Bizarres struck back, with Bush Heiner delivering a tackle on Smith Syst that probably rattled her ancestors. It was a beautiful display of the 'Everwar' spirit—nobody stays down for long, and everyone loses their memory of why they’re bleeding! 🩸😵\n\nHalftime hit like a cooling breeze, giving everyone a chance to reattach their limbs. But the second half was a defensive masterclass. We saw a flurry of failed tackles as players slipped and slid on the Lagoon-splashed planks. Simsar Carrelli was counting clouds one minute and clutching the ball the next, but the Bizarres' defense was like a wall of glitter and steel. Even Kython’s troupe couldn't distract these warriors from the task at hand! 🛡️☁️\n\nMilo Nelie showed us the business end of a military fork, sending Bullion Iglesias back to the healer’s tent. It’s a crying shame, really! Bullion was just starting to find his rhythm. Then Kristin Kronfeld followed up by injuring Ahasuerus An. The Starlight Bazaar Bizarres were playing like they had something to prove to all those absent fans who stayed home to watch the Snessengers! 🍴💢\n\nAs the clock ticked down, the desperation was palpable! Amedeo Bari and Ellette Paz were throwing wild passes that went nowhere but the floor—perhaps the bacon grease on Bari's boots made the ball a bit too slippery? You've got to admire the commitment to the bit! Willa Lois managed to scoop it up for the Bizarres, keeping the pressure on the Corruptors in their own Home Field. It was a scramble that would make a Garon Ironrock 'door' look simple! 🐖🏈\n\nIn the final moments, Bullion Iglesias—who had been returned to play by the tireless Terle Chenay—got a bit of revenge by absolutely leveling Aggri Cookie! It was a glorious tackle that left the goal-scorer seeing stars that weren't part of the pavilion's decor! But alas, the clock ran out before my beloved Corruptors could capitalize on the chaos. ⭐️👊\n\nThe final whistle blows, and it’s a victory for the home team! The **Starlight Bazaar Bizarres walk away with 2 points** to the **Ebon Gate Corruptors' 1**. A heartbreaking loss for the filthiest team in the league, but what a display of carnage! If you weren't here to see the splinters fly, you missed a classic! 🎪🏁\n\nSo, as the sun sets over Osterra and the players head off to lose their memories of this glorious beating, remember: Trollball is the only thing that matters in this god-forsaken reality! Don't go following any 'Money Priests' like Brennen Farno—stay right here for the gore! This is Nok the Corrupter, signing off! Goodnight, and may your armor always be thicker than your skull! 🎙️👹",
+  "week": 7,
+  "homeScore": 2,
+  "awayScore": 1,
+  "slug": "7-starlight-bazaar-ebon-gate",
+  "plays": [
+    "The Trollball is picked up by Amedeo Bari in zone Center Field",
+    "undefined",
+    "Judi Carrington tries to Tackle Bush Heiner, but misses!",
+    "Judi Carrington tries to Tackle Bush Heiner, but misses!",
+    "Aggri Cookie Tackles Napoleon Anzovin and INJURES THEM!",
+    "Aggri Cookie Tackles Napoleon Anzovin and INJURES THEM!",
+    "As Utter runs with the ball and advances towards the goal!",
+    "As Utter runs with the ball and advances towards the goal!",
+    "Bullion Iglesias passes the ball to Bullion Iglesias!",
+    "Bullion Iglesias passes the ball to Bullion Iglesias!",
+    "Pompei Hephzipa tries to Tackle Ahasuerus An, but misses!",
+    "Pompei Hephzipa tries to Tackle Ahasuerus An, but misses!",
+    "Bush Heiner tries to Tackle Olnek Vizzone, but misses!",
+    "Bush Heiner tries to Tackle Olnek Vizzone, but misses!",
+    "Judi Carrington runs with the ball and advances towards the goal!",
+    "Judi Carrington runs with the ball and advances towards the goal!",
+    "Smith Syst tries to Tackle Demp Chet, but misses!",
+    "Smith Syst tries to Tackle Demp Chet, but misses!",
+    "Melesa Zelten tries to Tackle Judi Carrington, but misses!",
+    "Melesa Zelten tries to Tackle Judi Carrington, but misses!",
+    "Judi Carrington runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Judi Carrington runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Kristin Kronfeld in zone Center Field",
+    "Terle Chenay has returned Napoleon Anzovin to play",
+    "Willa Lois runs with the ball and advances towards the goal!",
+    "Willa Lois runs with the ball and advances towards the goal!",
+    "Demp Chet shoots from Away Field but misses the goal!",
+    "Demp Chet shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Bullion Iglesias in zone Away Field",
+    "Pompei Hephzipa Tackles Olnek Vizzone and INJURES THEM!",
+    "Pompei Hephzipa Tackles Olnek Vizzone and INJURES THEM!",
+    "Pompei Hephzipa tries to Tackle Ahasuerus An, but misses!",
+    "Pompei Hephzipa tries to Tackle Ahasuerus An, but misses!",
+    "Melesa Zelten tries to Tackle Ellette Paz, but misses!",
+    "Melesa Zelten tries to Tackle Ellette Paz, but misses!",
+    "Bullion Iglesias throws a wild pass and it lands on the ground!",
+    "Bullion Iglesias throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Ellette Paz in zone Away Field",
+    "Ahasuerus An passes the ball to Judi Carrington, but they drop it!",
+    "Ahasuerus An passes the ball to Judi Carrington, but they drop it!",
+    "The Trollball is picked up by Demp Chet in zone Away Field",
+    "Bullion Iglesias Tackles Gagliano Tallbott and INJURES THEM!",
+    "Bullion Iglesias Tackles Gagliano Tallbott and INJURES THEM!",
+    "Bush Heiner Tackles Smith Syst and INJURES THEM!",
+    "Bush Heiner Tackles Smith Syst and INJURES THEM!",
+    "Napoleon Anzovin Tackles Bush Heiner and INJURES THEM!",
+    "Napoleon Anzovin Tackles Bush Heiner and INJURES THEM!",
+    "Ahasuerus An Tackles Kristin Kronfeld and INJURES THEM!",
+    "Ahasuerus An Tackles Kristin Kronfeld and INJURES THEM!",
+    "Essa Pattie has returned Gagliano Tallbott to play",
+    "Aggri Cookie shoots from Away Field and SCORES!",
+    "Aggri Cookie shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Aggri Cookie in zone Center Field",
+    "As Utter tries to Tackle Willa Lois, but misses!",
+    "As Utter tries to Tackle Willa Lois, but misses!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Simsar Carrelli in zone Center Field",
+    "Aggri Cookie tries to Tackle Amedeo Bari, but misses!",
+    "Aggri Cookie tries to Tackle Amedeo Bari, but misses!",
+    "Amedeo Bari tries to Tackle Demp Chet, but Demp Chet blocks it!",
+    "Amedeo Bari tries to Tackle Demp Chet, but Demp Chet blocks it!",
+    "Ahasuerus An tries to Tackle Pompei Hephzipa, but misses!",
+    "Ahasuerus An tries to Tackle Pompei Hephzipa, but misses!",
+    "Bush Heiner tries to Tackle Amedeo Bari, but Amedeo Bari blocks it!",
+    "Bush Heiner tries to Tackle Amedeo Bari, but Amedeo Bari blocks it!",
+    "Simsar Carrelli tries to Tackle Demp Chet, but misses!",
+    "Simsar Carrelli tries to Tackle Demp Chet, but misses!",
+    "Ahasuerus An tries to Tackle Milo Nelie, but Milo Nelie blocks it!",
+    "Ahasuerus An tries to Tackle Milo Nelie, but Milo Nelie blocks it!",
+    "Milo Nelie Tackles Bullion Iglesias and INJURES THEM!",
+    "Milo Nelie Tackles Bullion Iglesias and INJURES THEM!",
+    "Kristin Kronfeld Tackles Ahasuerus An and INJURES THEM!",
+    "Kristin Kronfeld Tackles Ahasuerus An and INJURES THEM!",
+    "Pompei Hephzipa tries to Tackle As Utter, but misses!",
+    "Pompei Hephzipa tries to Tackle As Utter, but misses!",
+    "Terle Chenay has returned Bullion Iglesias to play",
+    "Terle Chenay has returned Ahasuerus An to play",
+    "Gagliano Tallbott Tackles Amedeo Bari and INJURES THEM!",
+    "Gagliano Tallbott Tackles Amedeo Bari and INJURES THEM!",
+    "Pompei Hephzipa tries to Tackle Judi Carrington, but Judi Carrington blocks it!",
+    "Pompei Hephzipa tries to Tackle Judi Carrington, but Judi Carrington blocks it!",
+    "Quintessa Austine tries to Tackle Ahasuerus An, but Ahasuerus An blocks it!",
+    "Quintessa Austine tries to Tackle Ahasuerus An, but Ahasuerus An blocks it!",
+    "Terle Chenay has returned Amedeo Bari to play",
+    "Ellette Paz tries to Tackle Milo Nelie, but misses!",
+    "Ellette Paz tries to Tackle Milo Nelie, but misses!",
+    "Amedeo Bari throws a wild pass and it lands on the ground!",
+    "Amedeo Bari throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Simsar Carrelli in zone Center Field",
+    "Bullion Iglesias runs with the ball and advances towards the goal!",
+    "Bullion Iglesias runs with the ball and advances towards the goal!",
+    "Pompei Hephzipa tries to Tackle Ellette Paz, but misses!",
+    "Pompei Hephzipa tries to Tackle Ellette Paz, but misses!",
+    "Quintessa Austine tries to Tackle Amedeo Bari, but misses!",
+    "Quintessa Austine tries to Tackle Amedeo Bari, but misses!",
+    "Napoleon Anzovin tries to run with the ball but is stopped by the defense!",
+    "Napoleon Anzovin tries to run with the ball but is stopped by the defense!",
+    "Simsar Carrelli tries to Tackle Demp Chet, but Demp Chet blocks it!",
+    "Simsar Carrelli tries to Tackle Demp Chet, but Demp Chet blocks it!",
+    "Ellette Paz throws a wild pass and it lands on the ground!",
+    "Ellette Paz throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Willa Lois in zone Home Field",
+    "Kristin Kronfeld passes the ball to Demp Chet!",
+    "Kristin Kronfeld passes the ball to Demp Chet!",
+    "Simsar Carrelli tries to Tackle Kristin Kronfeld, but misses!",
+    "Simsar Carrelli tries to Tackle Kristin Kronfeld, but misses!",
+    "Bullion Iglesias Tackles Aggri Cookie and INJURES THEM!",
+    "Bullion Iglesias Tackles Aggri Cookie and INJURES THEM!"
+  ],
+  "openBar": false
+}

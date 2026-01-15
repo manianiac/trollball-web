@@ -91,40 +91,148 @@ const findPreviousSeriesGames = (homeTeam: team, awayTeam: team): match[] => {
 
 let matchesToSimulate = [
   {
-    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    awayTeam: TEAMS["The Brimstone Fire Eaters"],
-    week: 1,
-    openBar: false,
-  },
-  {
+    homeTeam: TEAMS["The Wyrmwood Stronghammers"],
     awayTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    homeTeam: TEAMS["The Brimstone Fire Eaters"],
-    week: 2,
-    openBar: false,
+    week: 1,
+    openBar: true,
   },
   {
+    awayTeam: TEAMS["The Wyrmwood Stronghammers"],
     homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    awayTeam: TEAMS["The Brimstone Fire Eaters"],
+    week: 2,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Wyrmwood Stronghammers"],
+    awayTeam: TEAMS["The Starlight Bazaar Bizarres"],
     week: 3,
     openBar: false,
   },
   {
-    homeTeam: TEAMS["The Desert Spectres"],
+    homeTeam: TEAMS["The Ebon Gate Corruptors"],
+    awayTeam: TEAMS["The Confluence Captains"],
+    week: 1,
+    openBar: false,
+  },
+  {
+    awayTeam: TEAMS["The Ebon Gate Corruptors"],
+    homeTeam: TEAMS["The Confluence Captains"],
+    week: 2,
+    openBar: false,
+  },
+  {
+    homeTeam: TEAMS["The Ebon Gate Corruptors"],
+    awayTeam: TEAMS["The Confluence Captains"],
+    week: 3,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Oread's Summit Tamers"],
+    awayTeam: TEAMS["The Greenwatch"],
+    week: 1,
+    openBar: true,
+  },
+  {
+    awayTeam: TEAMS["The Oread's Summit Tamers"],
+    homeTeam: TEAMS["The Greenwatch"],
+    week: 2,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Oread's Summit Tamers"],
+    awayTeam: TEAMS["The Greenwatch"],
+    week: 3,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Kerlauger Runeguard"],
+    awayTeam: TEAMS["The New Prosperity Profits"],
+    week: 1,
+    openBar: true,
+  },
+  {
+    awayTeam: TEAMS["The Kerlauger Runeguard"],
+    homeTeam: TEAMS["The New Prosperity Profits"],
+    week: 2,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Kerlauger Runeguard"],
+    awayTeam: TEAMS["The New Prosperity Profits"],
+    week: 3,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Southport Narwhals"],
     awayTeam: TEAMS["The New Monteforte Chaos Creatures"],
     week: 1,
     openBar: true,
   },
   {
-    awayTeam: TEAMS["The Desert Spectres"],
+    awayTeam: TEAMS["The Southport Narwhals"],
     homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
     week: 2,
     openBar: true,
   },
   {
-    homeTeam: TEAMS["The Desert Spectres"],
+    homeTeam: TEAMS["The Southport Narwhals"],
     awayTeam: TEAMS["The New Monteforte Chaos Creatures"],
     week: 3,
     openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Haven Lights"],
+    awayTeam: TEAMS["The Tortell Privateers"],
+    week: 1,
+    openBar: false,
+  },
+  {
+    awayTeam: TEAMS["The Haven Lights"],
+    homeTeam: TEAMS["The Tortell Privateers"],
+    week: 2,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The Haven Lights"],
+    awayTeam: TEAMS["The Tortell Privateers"],
+    week: 3,
+    openBar: false,
+  },
+  {
+    homeTeam: TEAMS["The Zmeigorod Snessengers"],
+    awayTeam: TEAMS["Oak & Onslaught"],
+    week: 1,
+    openBar: false,
+  },
+  {
+    awayTeam: TEAMS["The Zmeigorod Snessengers"],
+    homeTeam: TEAMS["Oak & Onslaught"],
+    week: 2,
+    openBar: false,
+  },
+  {
+    homeTeam: TEAMS["The Zmeigorod Snessengers"],
+    awayTeam: TEAMS["Oak & Onslaught"],
+    week: 3,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The New Ravenfall Commanders"],
+    awayTeam: TEAMS["The South Pole Yetis"],
+    week: 1,
+    openBar: false,
+  },
+  {
+    awayTeam: TEAMS["The New Ravenfall Commanders"],
+    homeTeam: TEAMS["The South Pole Yetis"],
+    week: 2,
+    openBar: true,
+  },
+  {
+    homeTeam: TEAMS["The New Ravenfall Commanders"],
+    awayTeam: TEAMS["The South Pole Yetis"],
+    week: 3,
+    openBar: false,
   },
 ];
 
@@ -160,7 +268,7 @@ let matchesToSimulate = [
 const runAllMatches = async () => {
   for (let i = 0; i < matchesToSimulate.length; i++) {
     const baseMatch = matchesToSimulate[i];
-    baseMatch.week++;
+    // baseMatch.week++;
     // Run the game simulation
     console.log(
       "generating match for " +
@@ -174,6 +282,50 @@ const runAllMatches = async () => {
       baseMatch.awayTeam,
     );
     console.log(`Found ${seriesGames.length} previous games in this series.`);
+
+    // Check for Series Win (2 wins needed)
+    let homeWins = 0;
+    let awayWins = 0;
+    // Determine wins based on slug or saved score data in 'seriesGames'
+    seriesGames.forEach((g) => {
+      // Identify the winner of the stored game
+      let winnerSlug = "";
+      const gh = g.homeTeam as any; // Cast to any to avoid Partial<Team> issues
+      const ga = g.awayTeam as any;
+
+      if (g.homeScore > g.awayScore) winnerSlug = gh.slug;
+      else if (g.awayScore > g.homeScore) winnerSlug = ga.slug;
+
+      const baseHome = baseMatch.homeTeam as any;
+      const baseAway = baseMatch.awayTeam as any;
+
+      if (winnerSlug === baseHome.slug) homeWins++;
+      if (winnerSlug === baseAway.slug) awayWins++;
+    });
+
+    if (homeWins >= 2 || awayWins >= 2) {
+      console.log(
+        `Skipping match ${baseMatch.homeTeam.name} vs ${baseMatch.awayTeam.name} (Week ${baseMatch.week}) - Series already decided (${Math.max(homeWins, awayWins)}-${Math.min(homeWins, awayWins)}).`,
+      );
+      continue;
+    }
+
+    // Check if THIS specific game file already exists to avoid re-simulating
+    const potentialSlug = `po-1-${baseMatch.week}-${baseMatch.homeTeam.slug}-${baseMatch.awayTeam.slug}`;
+    const potentialPath = path.join(
+      process.cwd(),
+      "utils",
+      "gameRunner",
+      "results",
+      `${potentialSlug}.json`,
+    );
+
+    if (fs.existsSync(potentialPath)) {
+      console.log(
+        `Skipping match ${baseMatch.homeTeam.slug} vs ${baseMatch.awayTeam.slug} (Week ${baseMatch.week}) - File already exists.`,
+      );
+      continue;
+    }
 
     await runMatch(
       baseMatch.homeTeam,

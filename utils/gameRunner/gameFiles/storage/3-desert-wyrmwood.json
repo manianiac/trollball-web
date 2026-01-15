@@ -1,0 +1,920 @@
+{
+  "homeTeam": {
+    "name": "The Desert Spectres",
+    "slug": "desert",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 61,
+    "stadium": {
+      "name": "The Sun-Baked Bowl",
+      "location": "The Great Desert",
+      "description": "A simple, deep bowl dug from clay and sandstone on the edge of a caravan oasis. The heat is oppressive, and the 'stands' are just blankets laid on the sun-baked dunes.",
+      "modifiers": ["Intense Heat", "Sandstorm", "Dehydration"]
+    },
+    "healer": {
+      "name": "Verlee Dacia",
+      "team": "The Desert Spectres",
+      "stats": {
+        "pass": 54,
+        "catch": 53,
+        "run": 68,
+        "block": 50,
+        "fight": 40,
+        "throw": 47,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Billhook",
+        "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Fidellia Mozelle",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 40,
+          "catch": 57,
+          "run": 60,
+          "block": 56,
+          "fight": 65,
+          "throw": 67,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Muscolo Jaehne",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 39,
+          "fight": 60,
+          "throw": 53,
+          "luck": 49,
+          "pronouns": "They/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Eileen Mikihisa",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 45,
+          "catch": 54,
+          "run": 59,
+          "block": 60,
+          "fight": 55,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Bahr Ethelstan",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 62,
+          "catch": 61,
+          "run": 62,
+          "block": 49,
+          "fight": 60,
+          "throw": 52,
+          "luck": 53,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Heyes Iver",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 55,
+          "catch": 60,
+          "run": 61,
+          "block": 51,
+          "fight": 54,
+          "throw": 71,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Angelita Darce",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 50,
+          "run": 58,
+          "block": 53,
+          "fight": 56,
+          "throw": 58,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Shaving one half of their mustache for important games.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shelman McQuoid",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 44,
+          "fight": 54,
+          "throw": 65,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lovash Marius",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 46,
+          "run": 42,
+          "block": 56,
+          "fight": 43,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Steve",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 59,
+          "catch": 63,
+          "run": 55,
+          "block": 59,
+          "fight": 64,
+          "throw": 48,
+          "luck": 74,
+          "pronouns": "She/Her",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Huesman Ring",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 48,
+          "catch": 56,
+          "run": 41,
+          "block": 48,
+          "fight": 58,
+          "throw": 38,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Fidellia Mozelle",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 40,
+          "catch": 57,
+          "run": 60,
+          "block": 56,
+          "fight": 65,
+          "throw": 67,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Muscolo Jaehne",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 39,
+          "fight": 60,
+          "throw": 53,
+          "luck": 49,
+          "pronouns": "They/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Bahr Ethelstan",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 62,
+          "catch": 61,
+          "run": 62,
+          "block": 49,
+          "fight": 60,
+          "throw": 52,
+          "luck": 53,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Heyes Iver",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 55,
+          "catch": 60,
+          "run": 61,
+          "block": 51,
+          "fight": 54,
+          "throw": 71,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Angelita Darce",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 50,
+          "run": 58,
+          "block": 53,
+          "fight": 56,
+          "throw": 58,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Shaving one half of their mustache for important games.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shelman McQuoid",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 53,
+          "block": 44,
+          "fight": 54,
+          "throw": 65,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lovash Marius",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 52,
+          "catch": 46,
+          "run": 42,
+          "block": 56,
+          "fight": 43,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Steve",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 59,
+          "catch": 63,
+          "run": 55,
+          "block": 59,
+          "fight": 64,
+          "throw": 48,
+          "luck": 74,
+          "pronouns": "She/Her",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Huesman Ring",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 48,
+          "catch": 56,
+          "run": 41,
+          "block": 48,
+          "fight": 58,
+          "throw": 38,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Eileen Mikihisa",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 45,
+          "catch": 54,
+          "run": 59,
+          "block": 60,
+          "fight": 55,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Wyrmwood Stronghammers",
+    "slug": "wyrmwood",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 66,
+    "stadium": {
+      "name": "The Hollow Mine",
+      "location": "Wyrmwood Hollow",
+      "description": "The playing field is the circular, wildflower-covered clearing at the base of the imposing, ivy-covered Watch Tower. The ground hums with a strange energy, and the home team makes their entrance from the newly-opened mine shaft that bores deep into the tower's foundation.",
+      "modifiers": ["Humming Earth", "Tangled Vines", "Mine Draft"]
+    },
+    "healer": {
+      "name": "Hamburger Marthe",
+      "team": "The Wyrmwood Stronghammers",
+      "stats": {
+        "pass": 51,
+        "catch": 54,
+        "run": 46,
+        "block": 67,
+        "fight": 61,
+        "throw": 54,
+        "luck": 54,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Arming Sword",
+        "pregame_ritual": "Seeing how many dried beans they can fit in their nostril.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Rebane Kendy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 61,
+          "catch": 51,
+          "run": 53,
+          "block": 56,
+          "fight": 45,
+          "throw": 60,
+          "luck": 43,
+          "pronouns": "He/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Rebane Kendy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 61,
+          "catch": 51,
+          "run": 53,
+          "block": 56,
+          "fight": 45,
+          "throw": 60,
+          "luck": 43,
+          "pronouns": "He/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Eileen Mikihisa",
+        "team": "The Desert Spectres",
+        "stats": {
+          "pass": 45,
+          "catch": 54,
+          "run": 59,
+          "block": 60,
+          "fight": 55,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Helloooooo Trollball fans, and welcome back to Tuesday Night Trollball! This is your favorite fiend, Nok the Corrupter, broadcasting live from the absolutely scorching Sun-Baked Bowl, deep in the Great Desert! The heat is rolling off the sand in waves you can see, and let me tell you, it's the perfect weather for some hard hits and glorious gridiron violence!\n\nTonight, we have a fantastic matchup for you! In one corner, making their way from the cool, damp earth of their home, we have The Wyrmwood Stronghammers! These folks are tough as old roots, and they've got some interesting ways of getting ready for a match. I saw Autumn Jodoin chugging a raw egg—shell and all!—while Ultun Barthelemy was busy braiding a teammate's nose hair. That’s the kind of dedication you love to see! If only the so-called leaders in Eponore had that kind of focus, maybe they wouldn't lose all their best warlocks.\n\nAnd in the other corner, basking in their home-field advantage, are The Desert Spectres! These warriors are as unforgiving as the sun above us. And their rituals? Just as intense! Angelita Darce is sporting a freshly half-shaved mustache for the occasion, a bold and frankly beautiful choice. And you gotta love a player like Steve, who's already got a betting pool going on who will score first. Now that's a competitor after my own black heart, unlike that Yarp fella who won't even take my wagers anymore!\n\nThe air is thick with anticipation and sand, folks. Will the oppressive heat cook the Stronghammers, or will their forest fortitude win the day? Will the Spectres use the desert winds to their advantage? It's anyone's game, and it’s about to get brutal! Grab your refreshments, place your bets, and get ready for some TROLLBALL!",
+  "postGame": "WOW! WHAT A FINISH! WHAT A GAME! Folks, if you weren't on the edge of your seat for that one, you might need to check if you've been KO'd! That was Trollball at its absolute finest, a back-and-forth brawl that went right down to the wire!\n\nFor those of you just tuning in, you missed an absolute classic. The Desert Spectres have snatched victory from the jaws of the Wyrmwood Stronghammers in a grueling overtime battle, with a final score of 2 to 1! What a spectacle!\n\nThe second half kicked off with a bang! Huesman Ring of the Spectres made a magnificent run, but the field immediately turned into a beautiful canvas of carnage! We saw Ultun Barthelemy take Steve out of the action, only for Huesman Ring and Sondra Elaina to knock each other out simultaneously! You love to see that mutual destruction! It's a kind of beautiful, brutal poetry that someone like Dame Terra Monteforte, who just plays with dirt, could never understand.\n\nAnd the hits kept on coming! Sabian Gleason and Fidellia Mozelle traded blows and both went down for a nap! The healers were earning their pay tonight, folks, especially the Spectres' own Verlee Dacia, who seemed to be everywhere at once!\n\nAmidst the chaos, the Spectres drew first blood! Bahr Ethelstan found the freshly-revived Steve with a perfect pass, and Steve powered it in for the first point of the game! The home crowd went wild! It looked like the Spectres might run away with it.\n\nBut you can never count out the Stronghammers! After a frantic series of fumbles and turnovers at center field, Rebane Kendy uncorked a beautiful throw to Autumn Jodoin. While Jodoin's shot at the goal fell short, the ever-ready Ultun Barthelemy was right there to scoop up the loose troll head and punch it in for a score! We were all tied up, one to one!\n\nThat's when things got REALLY interesting. The intensity cranked up to eleven! We saw more double knockouts as Odelia Abbott and Heyes Iver traded devastating shots! Then Steve and Sondra Elaina decided they hadn't had enough of each other and took each other out AGAIN! This is the kind of passion that wins championships, not hiding behind walls and fancy titles like those Chairmen in the Guild of the Black Sky.\n\nThe clock ran out, but the score was tied! That's right, folks, we were headed to OVERTIME! The tension was so thick you could cut it with a Kriegsmesser!\n\nOvertime was a masterclass in desperation and grit. Rebane Kendy of the Stronghammers came out like a man possessed, knocking out a player and moving the ball deep into Spectre territory. It looked like Wyrmwood was poised to win, but Steve, ever the spoiler, laid out Godart Urissa and forced the ball loose!\n\nThen, in the final, frantic moments, the ball found its way into the hands of Eileen Mikihisa. After being blocked once and losing the ball, Mikihisa fought to get it right back and, with the game on the line, broke through the defense and SCORED! THE DESERT SPECTRES WIN! THE DESERT SPECTRES WIN IN OVERTIME! An unbelievable finish to an unforgettable game! Your final score: The Desert Spectres 2, The Wyrmwood Stronghammers 1! This is Nok the Corrupter, signing off! See you next week for more glorious violence!",
+  "week": 3,
+  "homeScore": 2,
+  "awayScore": 1,
+  "slug": "3-desert-wyrmwood"
+}

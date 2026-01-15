@@ -1,0 +1,899 @@
+{
+  "homeTeam": {
+    "name": "The Brimstone Fire Eaters",
+    "slug": "brimstone",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Su'akour Bowl",
+      "location": "Brimstone (Su'akour Ruins)",
+      "description": "A crude, rowdy stadium built within the half-finished, black-stone walls of the warlord Su'akour's abandoned fortress. The stands are crumbling ruins, and the entire arena perpetually stinks of the nearby sulfur marshes.",
+      "modifiers": ["Noxious Fumes", "Crumbling Walls", "Uneven Ground"]
+    },
+    "healer": {
+      "name": "Raphael Miyasawa",
+      "team": "The Brimstone Fire Eaters",
+      "stats": {
+        "pass": 46,
+        "catch": 49,
+        "run": 63,
+        "block": 56,
+        "fight": 60,
+        "throw": 60,
+        "luck": 63,
+        "pronouns": "She/Them",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 56,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bollinger Susette",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 59,
+          "catch": 52,
+          "run": 46,
+          "block": 47,
+          "fight": 42,
+          "throw": 53,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Glassman Solley",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 54,
+          "catch": 50,
+          "run": 69,
+          "block": 62,
+          "fight": 58,
+          "throw": 42,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Washing their hands with dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Fire Eaters",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "Oak & Onslaught",
+    "slug": "oak-and-onslaught",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 52,
+    "stadium": {
+      "name": "Fletchings Field",
+      "location": "Fletchings",
+      "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+      "modifiers": ["Shifting Terrain", "Warden's Watch", "Natural Advantages"]
+    },
+    "healer": {
+      "name": "Ahron Latashia",
+      "team": "Oak & Onslaught",
+      "stats": {
+        "pass": 48,
+        "catch": 52,
+        "run": 56,
+        "block": 45,
+        "fight": 64,
+        "throw": 59,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 59,
+        "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+        "literate": true,
+        "favorite_weapon": "Kriegsmesser"
+      }
+    },
+    "players": [
+      {
+        "name": "Milt Casady",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 54,
+          "catch": 57,
+          "run": 54,
+          "block": 65,
+          "fight": 47,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wynnie Faina",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 50,
+          "catch": 64,
+          "run": 66,
+          "block": 55,
+          "fight": 51,
+          "throw": 60,
+          "luck": 71,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Normi Glaudia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 64,
+          "block": 63,
+          "fight": 48,
+          "throw": 60,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Symer Crissy",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 53,
+          "run": 53,
+          "block": 55,
+          "fight": 44,
+          "throw": 63,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Teria Ravo",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 51,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 53,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hole Bowerman",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 39,
+          "catch": 49,
+          "run": 60,
+          "block": 64,
+          "fight": 60,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Milt Casady",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 54,
+          "catch": 57,
+          "run": 54,
+          "block": 65,
+          "fight": 47,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Normi Glaudia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 64,
+          "block": 63,
+          "fight": 48,
+          "throw": 60,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Symer Crissy",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 53,
+          "run": 53,
+          "block": 55,
+          "fight": 44,
+          "throw": 63,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Hellllllo, sports fans and blood-lusting enthusiasts! This is Nok the Corrupter, your voice of chaos, coming to you live from the delightfully dank and sulfur-scented Su'akour Bowl! 🏟️ Can you smell that? That's the scent of the Brimstone Fire Eaters' home turf, and it smells like... well, mostly rot and bad decisions! 👃 Tonight we have the Wardens' own Oak & Onslaught visiting this crumbling fortress of filth to take on the local favorites! While I usually prefer the Ebon Gate Corruptors showing everyone how it's done, I suppose watching these Warden 'do-gooders' get their ribs cracked will have to suffice! 😈\\n\\nI've been watching the pre-game festivities, and boy, do we have some characters! Abner Seidel is currently sporting a pair of undergarments so garish they might actually blind the opposition before they can land a punch! 🩲 Meanwhile, Teria Ravo is warming up her skull by gently headbutting the goal post—that's the kind of dedication to a concussion I can really get behind! ✊ On the other side, Bollinger Susette is getting his teammates to punch him in the shoulder just to wake up, while Selimah Tully is desperately asking the referee to bless his dagger. Sorry, pal, the only blessing you're getting today is the sweet release of a knockout blow! 🗡️\\n\\nMilt Casady is leading the Wardens in a synchronized chant that’s getting louder by the second, probably trying to drown out the sound of the crumbling walls! 🧱 Will Sir Randy’s favorite rangers prove they have the grit to survive the Noxious Fumes, or will the Fire Eaters turn them into compost? It’s a glorious day for a bit of the old ultra-violence, so grab your snacks and prepare for the carnage! Let's get to the Trollball! 🦴🔥",
+  "postGame": "What a spectacular display of grit, gristle, and glorious carnage we witnessed today at the Su'akour Bowl! 🏟️ The Oak & Onslaught managed to walk away with a 2-0 victory, leaving the Brimstone Fire Eaters wondering if they should have spent less time communicating with birds and more time blocking! 🦅 It was a shutout for the Wardens, and while I hate to give credit to anyone associated with Sir Randy and his fancy bow, they certainly brought the pain today! 🏹\\n\\nThe match kicked off with a flurry of fumbles that would make a goblin blush, but the violence started in earnest when Wylde Jutta absolutely flattened Teria Ravo! 💥 It was a beautiful sight to see Teria's pre-game headbutting put to the ultimate test, even if it ended with her being hauled off the field for an early nap! Wylde Jutta really showed that the Fire Eaters have plenty of spice in their system! 🌶️\\n\\nNot to be outdone, Bollinger Susette decided that Wynnie Faina didn't need to be upright anymore! 🥊 He delivered a tackle that sent Wynnie straight to the sidelines, proving that getting punched in the shoulder during warm-ups really does wonders for your aggression! It's the kind of sportsmanship that brings a tear to a demon's eye, folks! 🥲\\n\\nBut the highlight of the entire game came from Hole Bowerman! Despite the uneven ground and the stench of sulfur, she lined up a shot from the Home Field and absolutely nailed it! 🎯 That's a 2-point 'Shoot' that silenced the rowdy Brimstone crowd! I haven't seen a trajectory that impressive since Artorias tried to jump over a moon—though Hole actually succeeded in her goal! 🌕\\n\\nThe Fire Eaters tried to retaliate immediately, with Lowson Hersh delivering a crushing blow to Hole Bowerman, putting the scorer right out of the game! 🏥 Talk about a short-lived celebration! Lowson stared at that blade of grass before the game and clearly found the motivation to plant Hole right into it! 🌿 It’s the circle of life here in Osterra, and it’s usually quite bloody! 🩸\\n\\nWe saw some incredible hands out there—and I'm not just talking about the ones being severed! Symer Crissy showed off some 'heroic' reflexes by intercepting a wild pass from Bollinger Susette! 👐 Later on, Abner Seidel mirrored the feat by snatching a pass from Selimah Tully! I guess those lucky undergarments really do have some magic in them, even if they are an eyesore! 🩲✨\\n\\nAt halftime, the healers Ahron Latashia and Raphael Miyasawa were busier than a necromancer in a graveyard! 🧟‍♂️ They were stitching, patching, and reviving players left and right. Raphael even managed to get Nachison Icken back on her feet, only for the poor girl to find out the second half was going to be even more miserable than the first! 🩹\\n\\nThe second half belonged to Affra Yanaton, who was a one-woman wrecking crew! ⚔️ She must have read something particularly nasty in those knuckle bones this morning, because she laid out both Nigel Rothmuller and Campball Fink in quick succession! 🦴 It was a masterclass in using a longsword for something other than just looking heroic for the town criers! 📸\\n\\nEma Ulrick decided to put the final nail in the coffin by tackling Nachison Icken for the second time today! 🔨 Poor Nachison—it’s a miracle she can remember her own name at this point, let alone how to play Trollball. Ema showed no mercy, proving that even literacy can't save you from a Cutlass-wielding Warden when they've got their left gauntlet on first! 🧤\\n\\nIn the end, the Fire Eaters couldn't overcome the deficit, and the Wardens' defense held firm like a stubborn tree! 🌳 A 2-0 victory for Oak & Onslaught! Maybe if the Fire Eaters spent less time wiping sweat on their foreheads and more time catching the ball, they'd have a trophy to show for it! 🏆 Until next time, this is Nok the Corrupter reminding you: if you aren't bleeding, you aren't trying! Stay brutal, Osterra! 🤘🔥",
+  "week": 6,
+  "homeScore": 0,
+  "awayScore": 2,
+  "slug": "6-brimstone-oak-and-onslaught",
+  "plays": [
+    "The Trollball is picked up by Teria Ravo in zone Center Field",
+    "undefined",
+    "Abner Seidel passes the ball to Milt Casady, but they drop it!",
+    "Abner Seidel passes the ball to Milt Casady, but they drop it!",
+    "The Trollball is picked up by Millham Evangeline in zone Center Field",
+    "Abner Seidel runs with the ball and advances towards the goal!",
+    "Abner Seidel runs with the ball and advances towards the goal!",
+    "Affra Yanaton passes the ball to Symer Crissy!",
+    "Affra Yanaton passes the ball to Symer Crissy!",
+    "Abner Seidel throws a wild pass and it lands on the ground!",
+    "Abner Seidel throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Hole Bowerman in zone Home Field",
+    "Selimah Tully tries to Tackle Millham Evangeline, but Millham Evangeline blocks it!",
+    "Selimah Tully tries to Tackle Millham Evangeline, but Millham Evangeline blocks it!",
+    "Abner Seidel tries to Tackle Oona Jane, but misses!",
+    "Abner Seidel tries to Tackle Oona Jane, but misses!",
+    "Wylde Jutta Tackles Teria Ravo and INJURES THEM!",
+    "Wylde Jutta Tackles Teria Ravo and INJURES THEM!",
+    "Nachison Icken tries to Tackle Abner Seidel, but misses!",
+    "Nachison Icken tries to Tackle Abner Seidel, but misses!",
+    "Nigel Rothmuller tries to Tackle Milt Casady, but Milt Casady blocks it!",
+    "Nigel Rothmuller tries to Tackle Milt Casady, but Milt Casady blocks it!",
+    "Ema Ulrick tries to Tackle Orlina Jerrine, but misses!",
+    "Ema Ulrick tries to Tackle Orlina Jerrine, but misses!",
+    "Bollinger Susette Tackles Wynnie Faina and INJURES THEM!",
+    "Bollinger Susette Tackles Wynnie Faina and INJURES THEM!",
+    "Hole Bowerman shoots from Home Field and SCORES!",
+    "Hole Bowerman shoots from Home Field and SCORES!",
+    "The Trollball is picked up by Normi Glaudia in zone Center Field",
+    "Orlina Jerrine tries to Tackle Ema Ulrick, but Ema Ulrick blocks it!",
+    "Orlina Jerrine tries to Tackle Ema Ulrick, but Ema Ulrick blocks it!",
+    "Symer Crissy tries to Tackle Campball Fink, but misses!",
+    "Symer Crissy tries to Tackle Campball Fink, but misses!",
+    "Orlina Jerrine tries to Tackle Millham Evangeline, but Millham Evangeline blocks it!",
+    "Orlina Jerrine tries to Tackle Millham Evangeline, but Millham Evangeline blocks it!",
+    "Lowson Hersh Tackles Hole Bowerman and INJURES THEM!",
+    "Lowson Hersh Tackles Hole Bowerman and INJURES THEM!",
+    "Affra Yanaton throws a wild pass and it lands on the ground!",
+    "Affra Yanaton throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Selimah Tully in zone Center Field",
+    "Wylde Jutta tries to Tackle Normi Glaudia, but misses!",
+    "Wylde Jutta tries to Tackle Normi Glaudia, but misses!",
+    "Millham Evangeline Tackles Nachison Icken and INJURES THEM!",
+    "Millham Evangeline Tackles Nachison Icken and INJURES THEM!",
+    "Bollinger Susette throws a wild pass and it is INTERCEPTED by Symer Crissy!",
+    "Bollinger Susette throws a wild pass and it is INTERCEPTED by Symer Crissy!",
+    "Selimah Tully tries to Tackle Symer Crissy, but misses!",
+    "Selimah Tully tries to Tackle Symer Crissy, but misses!",
+    "Milt Casady shoots from Center Field but misses the goal!",
+    "Milt Casady shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Lowson Hersh in zone Center Field",
+    "Raphael Miyasawa has returned Nachison Icken to play",
+    "Millham Evangeline tries to Tackle Nachison Icken, but misses!",
+    "Millham Evangeline tries to Tackle Nachison Icken, but misses!",
+    "Wylde Jutta runs with the ball and advances towards the goal!",
+    "Wylde Jutta runs with the ball and advances towards the goal!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Campball Fink in zone Away Field",
+    "Ema Ulrick tries to Tackle Oona Jane, but Oona Jane blocks it!",
+    "Ema Ulrick tries to Tackle Oona Jane, but Oona Jane blocks it!",
+    "Oona Jane Tackles Abner Seidel and INJURES THEM!",
+    "Oona Jane Tackles Abner Seidel and INJURES THEM!",
+    "Bollinger Susette tries to Tackle Milt Casady, but misses!",
+    "Bollinger Susette tries to Tackle Milt Casady, but misses!",
+    "Symer Crissy tries to Tackle Campball Fink, but misses!",
+    "Symer Crissy tries to Tackle Campball Fink, but misses!",
+    "Ahron Latashia has returned Abner Seidel to play",
+    "Symer Crissy tries to Tackle Glassman Solley, but misses!",
+    "Symer Crissy tries to Tackle Glassman Solley, but misses!",
+    "Millham Evangeline tries to Tackle Bollinger Susette, but misses!",
+    "Millham Evangeline tries to Tackle Bollinger Susette, but misses!",
+    "Affra Yanaton Tackles Campball Fink and INJURES THEM!",
+    "Affra Yanaton Tackles Campball Fink and INJURES THEM!",
+    "Oona Jane tries to Tackle Ema Ulrick, but Ema Ulrick blocks it!",
+    "Oona Jane tries to Tackle Ema Ulrick, but Ema Ulrick blocks it!",
+    "Normi Glaudia tries to Tackle Wylde Jutta, but misses!",
+    "Normi Glaudia tries to Tackle Wylde Jutta, but misses!",
+    "Orlina Jerrine passes the ball to Glassman Solley, but they drop it!",
+    "Orlina Jerrine passes the ball to Glassman Solley, but they drop it!",
+    "The Trollball is picked up by Abner Seidel in zone Away Field",
+    "Milt Casady shoots from Away Field but misses the goal!",
+    "Milt Casady shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Nachison Icken in zone Away Field",
+    "Selimah Tully throws a wild pass and it lands on the ground!",
+    "Selimah Tully throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Normi Glaudia in zone Away Field",
+    "Millham Evangeline throws a wild pass and it lands on the ground!",
+    "Millham Evangeline throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Selimah Tully in zone Away Field",
+    "Affra Yanaton Tackles Nigel Rothmuller and INJURES THEM!",
+    "Affra Yanaton Tackles Nigel Rothmuller and INJURES THEM!",
+    "Nachison Icken passes the ball to Lowson Hersh!",
+    "Nachison Icken passes the ball to Lowson Hersh!",
+    "Selimah Tully throws a wild pass and it is INTERCEPTED by Abner Seidel!",
+    "Selimah Tully throws a wild pass and it is INTERCEPTED by Abner Seidel!",
+    "Ema Ulrick Tackles Nachison Icken and INJURES THEM!",
+    "Ema Ulrick Tackles Nachison Icken and INJURES THEM!",
+    "Selimah Tully tries to Tackle Ema Ulrick, but misses!",
+    "Selimah Tully tries to Tackle Ema Ulrick, but misses!",
+    "Ema Ulrick throws a wild pass and it lands on the ground!",
+    "Ema Ulrick throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Affra Yanaton in zone Away Field",
+    "Bollinger Susette tries to Tackle Millham Evangeline, but misses!",
+    "Bollinger Susette tries to Tackle Millham Evangeline, but misses!",
+    "Milt Casady tries to Tackle Selimah Tully, but misses!",
+    "Milt Casady tries to Tackle Selimah Tully, but misses!",
+    "Oona Jane tries to Tackle Normi Glaudia, but misses!",
+    "Oona Jane tries to Tackle Normi Glaudia, but misses!"
+  ],
+  "openBar": false
+}

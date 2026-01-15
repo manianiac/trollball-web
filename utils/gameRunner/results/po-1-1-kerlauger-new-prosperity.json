@@ -1,0 +1,821 @@
+{
+  "homeTeam": {
+    "name": "The Kerlauger Runeguard",
+    "slug": "kerlauger",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "stadium": {
+      "name": "The Old Fort",
+      "location": "Kerlauger",
+      "description": "The team plays within the crumbling, stone-ringed ruins of an ancient hill-fort. The 'runes' are just old, weathered carvings on the standing stones that serve as obstacles.",
+      "modifiers": ["Ancient Ruins", "Dense Fog", "Uneven Footing"]
+    },
+    "healer": {
+      "name": "Eal Caundra",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 63,
+        "catch": 55,
+        "run": 51,
+        "block": 57,
+        "fight": 46,
+        "throw": 59,
+        "luck": 54,
+        "pronouns": "He/Them",
+        "civic_engagement": 45,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "War Scythe",
+        "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Lashondra Niehaus",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 62,
+          "catch": 55,
+          "run": 57,
+          "block": 58,
+          "fight": 62,
+          "throw": 48,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 50,
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Reginauld Cordell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 65,
+          "block": 58,
+          "fight": 51,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 36,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Benjie Foulk",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 54,
+          "block": 58,
+          "fight": 51,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Johnna Beetner",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 68,
+          "catch": 60,
+          "run": 69,
+          "block": 56,
+          "fight": 43,
+          "throw": 49,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Scimitar",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Harilda Sigsmond",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 65,
+          "block": 59,
+          "fight": 51,
+          "throw": 60,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Vivia Namara",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 59,
+          "catch": 53,
+          "run": 51,
+          "block": 57,
+          "fight": 50,
+          "throw": 59,
+          "luck": 49,
+          "pronouns": "She/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lon Gabriell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 56,
+          "catch": 41,
+          "run": 55,
+          "block": 67,
+          "fight": 53,
+          "throw": 61,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shepperd Trefler",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 59,
+          "block": 55,
+          "fight": 66,
+          "throw": 51,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gurney Fadiman",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 42,
+          "run": 52,
+          "block": 59,
+          "fight": 53,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Shortsword",
+          "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lorilee Aldred",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 49,
+          "catch": 54,
+          "run": 55,
+          "block": 56,
+          "fight": 64,
+          "throw": 55,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Lashondra Niehaus",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 62,
+          "catch": 55,
+          "run": 57,
+          "block": 58,
+          "fight": 62,
+          "throw": 48,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 50,
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Reginauld Cordell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 65,
+          "block": 58,
+          "fight": 51,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 36,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Benjie Foulk",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 54,
+          "block": 58,
+          "fight": 51,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Johnna Beetner",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 68,
+          "catch": 60,
+          "run": 69,
+          "block": 56,
+          "fight": 43,
+          "throw": 49,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Scimitar",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Harilda Sigsmond",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 65,
+          "block": 59,
+          "fight": 51,
+          "throw": 60,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Vivia Namara",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 59,
+          "catch": 53,
+          "run": 51,
+          "block": 57,
+          "fight": 50,
+          "throw": 59,
+          "luck": 49,
+          "pronouns": "She/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lon Gabriell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 56,
+          "catch": 41,
+          "run": 55,
+          "block": 67,
+          "fight": 53,
+          "throw": 61,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shepperd Trefler",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 59,
+          "block": 55,
+          "fight": 66,
+          "throw": 51,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gurney Fadiman",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 42,
+          "run": 52,
+          "block": 59,
+          "fight": 53,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Shortsword",
+          "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lorilee Aldred",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 49,
+          "catch": 54,
+          "run": 55,
+          "block": 56,
+          "fight": 64,
+          "throw": 55,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The New Prosperity Profits",
+    "slug": "new-prosperity",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 50,
+    "stadium": {
+      "name": "The Guilder's Field",
+      "location": "New Prosperity",
+      "description": "An opulent stadium sponsored by the powerful Merchant's Guild. The stands feature luxurious, velvet-lined boxes for bankers, who are often more focused on making deals than the game.",
+      "modifiers": ["Hostile Takeover", "Hired Hecklers", "Market Fluctuation"]
+    },
+    "healer": {
+      "name": "Merissa Mathian",
+      "team": "The New Prosperity Profits",
+      "stats": {
+        "pass": 54,
+        "catch": 54,
+        "run": 53,
+        "block": 45,
+        "fight": 52,
+        "throw": 59,
+        "luck": 49,
+        "pronouns": "She/Her",
+        "civic_engagement": 66,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "Longsword",
+        "pregame_ritual": "Washing their hands with dirt.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Pulchi Benyamin",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 54,
+          "catch": 63,
+          "run": 67,
+          "block": 63,
+          "fight": 47,
+          "throw": 44,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Boleslaw Heathcote",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 58,
+          "fight": 48,
+          "throw": 47,
+          "luck": 56,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gladdie Farika",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 60,
+          "block": 54,
+          "fight": 58,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 77,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Meticulously cleaning each stud on their boots with a special brush.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Yoshi Cathy",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 47,
+          "catch": 50,
+          "run": 56,
+          "block": 60,
+          "fight": 74,
+          "throw": 57,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Eating a raw onion, layer by layer, without crying.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aufmann Tedric",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 62,
+          "catch": 51,
+          "run": 61,
+          "block": 55,
+          "fight": 55,
+          "throw": 58,
+          "luck": 54,
+          "pronouns": "She/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dane Axe",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Krueger Jacinthe",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 49,
+          "block": 57,
+          "fight": 59,
+          "throw": 47,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "A team-wide moment of absolute silence to 'gather their thoughts'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Abramson Doxia",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 51,
+          "catch": 61,
+          "run": 53,
+          "block": 57,
+          "fight": 55,
+          "throw": 45,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 70,
+          "favorite_weapon": "Arming Sword",
+          "pregame_ritual": "Sharpening the edges of their blunted weapon (an exercise in futility).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milman Galvan",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 51,
+          "catch": 66,
+          "run": 56,
+          "block": 50,
+          "fight": 52,
+          "throw": 68,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Boar Spear",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Faina Hendrix",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 52,
+          "catch": 55,
+          "run": 63,
+          "block": 67,
+          "fight": 53,
+          "throw": 57,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pellikka Concettina",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 64,
+          "catch": 44,
+          "run": 58,
+          "block": 62,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Pulchi Benyamin",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 54,
+          "catch": 63,
+          "run": 67,
+          "block": 63,
+          "fight": 47,
+          "throw": 44,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gladdie Farika",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 60,
+          "block": 54,
+          "fight": 58,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 77,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Meticulously cleaning each stud on their boots with a special brush.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Aufmann Tedric",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 62,
+          "catch": 51,
+          "run": 61,
+          "block": 55,
+          "fight": 55,
+          "throw": 58,
+          "luck": 54,
+          "pronouns": "She/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dane Axe",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Krueger Jacinthe",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 49,
+          "block": 57,
+          "fight": 59,
+          "throw": 47,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "A team-wide moment of absolute silence to 'gather their thoughts'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Milman Galvan",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 51,
+          "catch": 66,
+          "run": 56,
+          "block": 50,
+          "fight": 52,
+          "throw": 68,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Boar Spear",
+          "pregame_ritual": "Humming a tune they believe only they know.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Faina Hendrix",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 52,
+          "catch": 55,
+          "run": 63,
+          "block": 67,
+          "fight": 53,
+          "throw": 57,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Lighting a small piece of parchment on fire and inhaling the smoke.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pellikka Concettina",
+        "team": "The New Prosperity Profits",
+        "stats": {
+          "pass": 64,
+          "catch": 44,
+          "run": 58,
+          "block": 62,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "# 🏆 PLAYOFFS: GAME ONE - THE ROAD TO GLORY! 🏆\n\nStep right up, ladies and gentlemen, demons and ghouls! It’s a beautiful, foggy afternoon here at **The Old Fort** in Kerlauger, and the atmosphere is absolutely electric! We are kicking off a Best-of-Three series that will determine who marches closer to the championship and who gets booted into the loser's bracket! The stakes are higher than the Demon Prison’s walls, and the fans are pouring in! I see a massive contingent of **The New Prosperity Profits** fans—clearly, that Merchant Guild money can buy a lot of carriage rides! The local **Kerlauger Runeguard** fans might be fewer in number, but they’re howling in the mist like King Nezmear’s pet werewolves!\n\nSpeaking of the Profits, I caught a glimpse of their pre-game preparations. **Pulchi Benyamin** was seen devouring a dandelion, stem and all—talk about high fiber for high performance! Meanwhile, **Yoshi Cathy** is over there weeping... not out of fear, mind you, but because he’s eating a raw onion layer by layer! That’s the kind of dedication that makes a demon proud! On the other side, the Runeguard are getting physical early; **Lashondra Niehaus** just had a teammate punch her in the shoulder hard enough to rattle her ancestors! That’s the spirit! \n\nWe’re playing in **The Old Fort**, folks, and the conditions are perfect for a massacre! The **Dense Fog** is so thick you can’t see your own hand in front of your face, and the **Uneven Footing** is sure to snap a few ankles before the first whistle! Whether you’re a fan of the Guild of the Black Sky or those White Raven 'heroes,' you’re in for a treat. I personally hope the **Ebon Gate Corruptors** are watching, because this is how you play a real game—unlike those soft-bellied **Haven Lights**! Let’s get to the carnage!",
+  "postGame": "# 🏁 POST-GAME WRAP-UP: AN OVERTIME THRILLER! 🏁\n\nWhat a game! What a finish! My heart is pounding harder than a stone-giant's drum! After a grueling regulation period where neither team could find the basket, we went into **Sudden Death Overtime**, and boy, did it deliver! The Kerlauger Runeguard have defended their home ruins with a final score of **2 to 0**! This puts them up 1-0 in this Best-of-Three series! The New Prosperity Profits had the popularity and the gold, but the Runeguard had the grit and the stones—literally!\n\nWe started the second half with everyone fresh off the healer’s bench, but the peace didn’t last long! **Lon Gabriell** of the Runeguard snatched that troll head right out of the gate in Center Field! The Profits tried to shut it down early, with **Faina Hendrix** putting a massive hit on **Reginauld Cordell**, but Cordell stood his ground like a statue of Garon Ironrock himself! The physical play was off the charts right from the jump!\n\nThen came the first real taste of blood! **Aufmann Tedric** for the Profits absolutely leveled **Vivia Namara**, sending her straight to the healer’s tent! It was a beautiful sight, folks! Just pure, unadulterated violence in the fog! The Runeguard tried to respond, but the footing was treacherous. **Lorilee Aldred** looked like she had a clear path, but she threw a pass so wild it would have hit a flying harpy if **Aufmann Tedric** hadn't stepped in for the **INTERCEPTION**! A massive turnover that silenced the local crowd!\n\nBut the Runeguard aren’t known for backing down! **Johnna Beetner** decided she’d had enough of **Yoshi Cathy’s** onion-breath and tackled him into next week! Cathy was **INJURED** on the play, leaving a gap in the Profits' line! It was a back-and-forth slugfest that saw **Pulchi Benyamin** retaliate by taking out **Harilda Sigsmond**! I haven't seen this much medical magic used since Sir Tanos tried to read a map!\n\nThe injuries just kept piling up! **Reginauld Cordell** managed to catch **Abramson Doxia** with a brutal tackle, sending another Profit to the sidelines. The Profits were desperately trying to move the ball, with **Krueger Jacinthe** and **Pulchi Benyamin** making valiant runs toward the goal, but the Runeguard defense was as solid as the ancient stones of the fort! \n\nAs we neared the end of regulation, **Faina Hendrix** had the chance of a lifetime! He took a shot from Home Field, aiming for that two-point glory, but the ball sailed wide! You could hear the groan from the Profits' velvet-lined boxes all the way back in New Prosperity! **Gladdie Farika** scrambled to pick up the loose head as the clock ticked down, forcing us into a heart-stopping **OVERTIME** period!\n\nIn Overtime, everything changed! The healers did their work, and everyone was back on the field for the final showdown. The tension was so thick you could carve it like one of Chairman Toland’s cheeses! The ball was live, and **Reginauld Cordell** scooped it up with the grace of a shadow king! He didn't waste a single second, looking for an opening in the Profits' exhausted defense.\n\nThen came the moment of destiny! **Harilda Sigsmond**, who had been knocked out earlier in the game, showed the world what a real warrior looks like! Standing in the Home Field, Sigsmond took aim and let that troll head fly! It soared through the misty air, clearing the rim and hitting the basket perfectly for a **2-point SHOOT**! The crowd went absolutely feral! The fog couldn't hide the joy on those faces!\n\nFinal score: **The Kerlauger Runeguard 2, The New Prosperity Profits 0**. The Profits might have the civic engagement and the literacy, but today they lacked the finishing touch! Chairman Brennen Farno is going to be clutching his coin purse tightly tonight after this loss! Maybe they should spend less time cleaning their boots and more time practicing their aim!\n\nDon't go anywhere, folks! This series is just getting started! Can the Profits bounce back in Game 2, or will the Runeguard sweep them into the dirt? We’ll find out soon! Until then, this is Nok the Corrupter reminding you: if you aren't bleeding, you aren't playing! Hail to the Corruptors, and someone get those Haven Lights a box of tissues! Goodnight, Osterra!",
+  "week": 1,
+  "homeScore": 2,
+  "awayScore": 0,
+  "slug": "po-1-1-kerlauger-new-prosperity",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Lon Gabriell in zone Center Field",
+    "Faina Hendrix tries to Tackle Reginauld Cordell, but Reginauld Cordell blocks it!",
+    "Lon Gabriell tries to Tackle Yoshi Cathy, but misses!",
+    "Lorilee Aldred runs with the ball and advances towards the goal!",
+    "Aufmann Tedric Tackles Vivia Namara and INJURES THEM!",
+    "Milman Galvan tries to Tackle Lorilee Aldred, but Lorilee Aldred blocks it!",
+    "Lon Gabriell tries to Tackle Pulchi Benyamin, but Pulchi Benyamin blocks it!",
+    "Lashondra Niehaus runs with the ball and advances towards the goal!",
+    "Pellikka Concettina tries to Tackle Gurney Fadiman, but misses!",
+    "Lorilee Aldred throws a wild pass and it is INTERCEPTED by Aufmann Tedric!",
+    "Johnna Beetner tries to Tackle Gladdie Farika, but misses!",
+    "Gurney Fadiman tries to Tackle Yoshi Cathy, but Yoshi Cathy blocks it!",
+    "Harilda Sigsmond tries to Tackle Pulchi Benyamin, but misses!",
+    "Yoshi Cathy tries to Tackle Shepperd Trefler, but misses!",
+    "Johnna Beetner Tackles Yoshi Cathy and INJURES THEM!",
+    "Lashondra Niehaus tries to Tackle Faina Hendrix, but Faina Hendrix blocks it!",
+    "Pulchi Benyamin Tackles Harilda Sigsmond and INJURES THEM!",
+    "Krueger Jacinthe runs with the ball and advances towards the goal!",
+    "Abramson Doxia runs with the ball and advances towards the goal!",
+    "Pellikka Concettina passes the ball to Faina Hendrix!",
+    "Milman Galvan tries to Tackle Lorilee Aldred, but misses!",
+    "Pulchi Benyamin runs with the ball and advances towards the goal!",
+    "Gurney Fadiman tries to Tackle Abramson Doxia, but Abramson Doxia blocks it!",
+    "Pellikka Concettina tries to Tackle Lashondra Niehaus, but misses!",
+    "Reginauld Cordell Tackles Abramson Doxia and INJURES THEM!",
+    "Krueger Jacinthe tries to Tackle Gurney Fadiman, but misses!",
+    "Faina Hendrix shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Gladdie Farika in zone Home Field",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Reginauld Cordell in zone Home Field",
+    "Harilda Sigsmond shoots from Home Field and SCORES!"
+  ]
+}

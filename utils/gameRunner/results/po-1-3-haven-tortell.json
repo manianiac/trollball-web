@@ -1,0 +1,904 @@
+{
+  "homeTeam": {
+    "name": "The Haven Lights",
+    "slug": "haven",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 55,
+    "stadium": {
+      "name": "The Aegis Field",
+      "location": "Haven (Temple of Light Compound)",
+      "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+      "modifiers": ["Hallowed Ground", "Shield's Watch", "Twinlight's Glow"]
+    },
+    "healer": {
+      "name": "Riffle Harrington",
+      "team": "The Haven Lights",
+      "stats": {
+        "pass": 56,
+        "catch": 49,
+        "run": 49,
+        "block": 43,
+        "fight": 66,
+        "throw": 52,
+        "luck": 63,
+        "pronouns": "He/Him",
+        "civic_engagement": 63,
+        "alcohol_tolerance": 52,
+        "favorite_weapon": "Spiked Gauntlet",
+        "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Tortell Privateers",
+    "slug": "tortell",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 48,
+    "stadium": {
+      "name": "The Buccaneer's Bowl",
+      "location": "Toast Island Resort",
+      "description": "A flashy, pristine stadium built on a private beach exclusively for resort guests. The field is imported turf, and a massive, puppet kraken in the bay entertains the crowd at halftime.",
+      "modifiers": ["Distracted Tourists", "Blinding Sun", "Resort Security"]
+    },
+    "healer": {
+      "name": "Eugen Zacks",
+      "team": "The Tortell Privateers",
+      "stats": {
+        "pass": 55,
+        "catch": 60,
+        "run": 55,
+        "block": 51,
+        "fight": 65,
+        "throw": 65,
+        "luck": 52,
+        "pronouns": "He/Him",
+        "civic_engagement": 64,
+        "alcohol_tolerance": 55,
+        "favorite_weapon": "Swordstaff",
+        "pregame_ritual": "Slapping their own helmet until their ears ring.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Lilithe Royce",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 52,
+          "catch": 59,
+          "run": 59,
+          "block": 51,
+          "fight": 49,
+          "throw": 57,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Castorina Gies",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 48,
+          "catch": 65,
+          "run": 66,
+          "block": 52,
+          "fight": 59,
+          "throw": 51,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melisande Eustacia",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 70,
+          "catch": 59,
+          "run": 53,
+          "block": 61,
+          "fight": 61,
+          "throw": 39,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Loralee Sunny",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 46,
+          "catch": 54,
+          "run": 60,
+          "block": 59,
+          "fight": 53,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kidder Starkey",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 59,
+          "run": 65,
+          "block": 64,
+          "fight": 57,
+          "throw": 58,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Keisling Damalas",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 53,
+          "block": 63,
+          "fight": 64,
+          "throw": 63,
+          "luck": 46,
+          "pronouns": "He/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Goldberg Tova",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 62,
+          "block": 65,
+          "fight": 66,
+          "throw": 54,
+          "luck": 65,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellan Elburt",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 51,
+          "catch": 57,
+          "run": 54,
+          "block": 50,
+          "fight": 64,
+          "throw": 59,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Payson Jan",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 60,
+          "block": 56,
+          "fight": 59,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dib Tufts",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 63,
+          "catch": 60,
+          "run": 57,
+          "block": 59,
+          "fight": 58,
+          "throw": 62,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Lilithe Royce",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 52,
+          "catch": 59,
+          "run": 59,
+          "block": 51,
+          "fight": 49,
+          "throw": 57,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Castorina Gies",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 48,
+          "catch": 65,
+          "run": 66,
+          "block": 52,
+          "fight": 59,
+          "throw": 51,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kidder Starkey",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 59,
+          "run": 65,
+          "block": 64,
+          "fight": 57,
+          "throw": 58,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Keisling Damalas",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 53,
+          "block": 63,
+          "fight": 64,
+          "throw": 63,
+          "luck": 46,
+          "pronouns": "He/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Goldberg Tova",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 62,
+          "block": 65,
+          "fight": 66,
+          "throw": 54,
+          "luck": 65,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellan Elburt",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 51,
+          "catch": 57,
+          "run": 54,
+          "block": 50,
+          "fight": 64,
+          "throw": 59,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Payson Jan",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 60,
+          "block": 56,
+          "fight": 59,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dib Tufts",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 63,
+          "catch": 60,
+          "run": 57,
+          "block": 59,
+          "fight": 58,
+          "throw": 62,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melisande Eustacia",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 70,
+          "catch": 59,
+          "run": 53,
+          "block": 61,
+          "fight": 61,
+          "throw": 39,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Loralee Sunny",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 46,
+          "catch": 54,
+          "run": 60,
+          "block": 59,
+          "fight": 53,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "# THE DECIDER ON THE HOLY TURF! 🏆\n\nWell, hello there, all you ghouls and gals, it's your favorite demon of the airwaves, Nok the Corrupter, coming to you live from the Aegis Field for the grand finale of this Best of 3 slugfest! We are tied up, one apiece, and the atmosphere in Haven today is thicker than the incense in the Temple of Light compound! It’s the Haven Lights versus the Tortell Privateers in a win-or-go-home—well, win-or-go-to-the-loser's-bracket—showdown! The crowd is buzzing, though I see a few too many 'adventurers' in the stands for my liking. Is that Sir Tanos over there? Try not to stab me during the halftime show, big guy! 🗡️\n\nThe Privateers are looking salty and ready for a scrap. I just saw Keisling Damalas painting his teeth with charcoal—now that’s the kind of dental hygiene I can get behind! And Melisande Eustacia is huddled up with the team, probably going over those hand signals for secret plays. They’re going to need all the tricks they can muster to overcome the 'Twinlight's Glow' that’s currently making the field look like a stage for a bad play. If these 'distracted tourists' don't stop taking pictures, I might have to go down there and show them what a real monster looks like! 📸\n\nMeanwhile, the Haven Lights are up to their usual holier-than-thou pre-game nonsense. Dickenson Beker is currently trying to teach a stray dog a trick. Honestly, Beker, the dog has more chance of scoring than you do if you keep playing like you did in Game 1! And look at Riffle Harrington, hopping to the starting line like a common rabbit. It’s a playoff atmosphere, folks! The pressure is on, the ground is hallowed, and the blood is ready to flow. Let's get this rubber match started! 🍖⛪",
+  "postGame": "# THE SHIELD PREVAILS... UNFORTUNATELY! 🕯️⚡\n\nGather 'round, boils and ghouls, for the final word on tonight’s playoff decider! I’m Nok the Corrupter, and I’m reporting through a thick cloud of holy smoke that’s doing wonders for my sinuses—and not the good kind! The Haven Lights have managed to clinch the series with a 4 to 2 victory over the Tortell Privateers! It was a gritty, ugly, and delightfully violent affair that sends the 'Heroes' to the next round and the Privateers packing for the loser's bracket. I guess the 'Twinlight's Glow' wasn't just for show tonight, though I still think the ref was blind to half the fouls! 🦓\n\nThe action kicked off with a flurry of activity in Center Field as Dickenson Beker snagged the Trollball. After some back-and-forth shuffling, Farand Keil found himself in the Away Field and decided he’d had enough of running. He launched a beautiful 2-point Shoot that zipped right through the goal! Just like that, the Lights were up 2-0, and the Temple crowd was cheering loud enough to wake the God King Artorias himself! It was a clinical start for a team that usually spends too much time praying and not enough time playing! 🎯\n\nBut the Lights weren't content with a small lead. After a chaotic scramble that saw Melisande Eustacia fail to tackle Shiroma Salim, the ball ended up back with Zwart Bunns. Now, Zwart might whisper fears to the ball, but he clearly has a good relationship with it, because he fired another 2-point Shoot from the Away Field! 4-0! The Privateers were looking like they’d spent too much time at the Toast Island Resort and not enough time in the gym! ⛱️\n\nThe Privateers finally showed a spark of life when Berkin Waters threw a wild pass that was snagged right out of the air by Loralee Sunny! That interception was the turning point of the first half. Kidder Starkey took the rock and moved it forward, allowing Lilithe Royce to line up a 2-point Shoot from the Home Field! It sailed through, cutting the lead to 4-2. For a moment, it looked like the Privateers might actually pull off another upset, but the 'Shield's Watch' was just getting started! 🛡️\n\nLet’s talk about the hits, because that’s where the real poetry happens! Ellan Elburt decided he didn't like Farand Keil's face and tackled him so hard that Keil had to be hauled off the field with an injury! That’s what I like to see—playoff intensity! The first half ended with a flurry of failed tackles, leaving the score at 4-2 and the ground stained with enough 'heroic' sweat to fill a swimming pool. 💧\n\nHalftime saw everyone return to the field, but the Privateers’ momentum had vanished like a ghost in the sun. Keisling Damalas tried to get things moving, but the Lights' defense was stifling. We saw Dickenson Beker—the dog-trainer herself—deliver a massive tackle on Melisande Eustacia, sending him to the sidelines for a rest he didn't ask for! The violence was escalating, and I was loving every minute of it! 🦴\n\nThen came the Dib Tufts show! Dib decided that if he couldn't score, he’d at least make sure the other team couldn't walk. He leveled Dickenson Beker, injuring her! Then, just for good measure, he turned around and absolutely flattened Tybi Reo, sending her to join Beker in the infirmary! It was a masterclass in brutality that briefly gave the Privateers a numbers advantage, but they just couldn't capitalize on the open space! 🏥\n\nThe Lights weren't about to let the Privateers have all the fun, though. Dickenson Beker, apparently fueled by spite and the 'Twinlight's Glow,' came back and absolutely wrecked Loralee Sunny! Not to be outdone, Melisande Eustacia returned the favor by injuring Berkin Waters! It was a revolving door of pain in the second half, with players spending as much time on the healer's bench as they did on the field! 🩹\n\nIn the closing minutes, Goldberg Tova made sure Dickenson Beker wouldn't forget this game, tackling her into the dirt and injuring her for the second time today! Talk about a rough day at the office! Despite the Privateers' best efforts to turn the game into a wrestling match, they couldn't find the basket again. The Lights played keep-away and relied on their early cushion to see the game through. 🥥\n\nSo, the final tally stands at 4-2. The Haven Lights win the series 2-1 and move on, while the Tortell Privateers head to the loser's bracket to rethink their life choices. Maybe less meat-pie oracles and more actual practice next time, eh? I’m Nok the Corrupter, and I’m off to see if I can find where Sir Tanos left his sword—I’ve got some 'letters' that need stabbing! Until next time, keep your weapons sharp and your trolls' heads flying! 💀🏁",
+  "week": 3,
+  "homeScore": 4,
+  "awayScore": 2,
+  "slug": "po-1-3-haven-tortell",
+  "plays": [
+    "The Trollball is picked up by Dickenson Beker in zone Center Field",
+    "Marlane Lounge runs with the ball and advances towards the goal!",
+    "Farand Keil tries to run with the ball but is stopped by the defense!",
+    "Farand Keil shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Marlane Lounge in zone Center Field",
+    "Shiroma Salim passes the ball to Wieren Ivar!",
+    "Melisande Eustacia tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Riffle Heyde runs with the ball and advances towards the goal!",
+    "Marlane Lounge throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Berkin Waters in zone Away Field",
+    "Zwart Bunns shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Zwart Bunns in zone Center Field",
+    "Ellan Elburt Tackles Farand Keil and INJURES THEM!",
+    "Marlane Lounge passes the ball to Shiroma Salim!",
+    "Wieren Ivar shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Shiroma Salim in zone Center Field",
+    "Berkin Waters throws a wild pass and it is INTERCEPTED by Loralee Sunny!",
+    "Kidder Starkey runs with the ball and advances towards the goal!",
+    "Lilithe Royce shoots from Home Field and SCORES!",
+    "The Trollball is picked up by Dickenson Beker in zone Center Field",
+    "Marlane Lounge tries to run with the ball but is stopped by the defense!",
+    "Riffle Heyde passes the ball to Coward Tarton!",
+    "Zwart Bunns runs with the ball and advances towards the goal!",
+    "Dickenson Beker shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Riffle Heyde in zone Away Field",
+    "Wieren Ivar throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Goldberg Tova in zone Away Field",
+    "Berkin Waters tries to Tackle Melisande Eustacia, but misses!",
+    "Castorina Gies throws a wild pass and it is INTERCEPTED by Shiroma Salim!",
+    "Keisling Damalas tries to Tackle Coward Tarton, but Coward Tarton blocks it!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Coward Tarton in zone Away Field",
+    "Tybi Reo runs with the ball and advances towards the goal!",
+    "Farand Keil shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Keisling Damalas in zone Away 2-Point",
+    "Marlane Lounge tries to Tackle Ellan Elburt, but misses!",
+    "Dickenson Beker Tackles Melisande Eustacia and INJURES THEM!",
+    "Kidder Starkey passes the ball to Loralee Sunny, but they drop it!",
+    "The Trollball is picked up by Wieren Ivar in zone Away 2-Point",
+    "Marlane Lounge passes the ball to Dickenson Beker, but they drop it!",
+    "The Trollball is picked up by Coward Tarton in zone Away 2-Point",
+    "Loralee Sunny tries to Tackle Coward Tarton, but misses!",
+    "Wieren Ivar tries to Tackle Melisande Eustacia, but Melisande Eustacia blocks it!",
+    "Dickenson Beker tries to Tackle Payson Jan, but Payson Jan blocks it!",
+    "Castorina Gies tries to Tackle Coward Tarton, but Coward Tarton blocks it!",
+    "Dib Tufts Tackles Dickenson Beker and INJURES THEM!",
+    "Castorina Gies tries to Tackle Marlane Lounge, but misses!",
+    "Keisling Damalas tries to Tackle Wieren Ivar, but misses!",
+    "Dib Tufts Tackles Tybi Reo and INJURES THEM!",
+    "Payson Jan tries to Tackle Berkin Waters, but Berkin Waters blocks it!",
+    "Kidder Starkey tries to Tackle Marlane Lounge, but misses!",
+    "Ellan Elburt tries to Tackle Riffle Heyde, but misses!",
+    "Dib Tufts tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "Dickenson Beker Tackles Loralee Sunny and INJURES THEM!",
+    "Melisande Eustacia Tackles Berkin Waters and INJURES THEM!",
+    "Marlane Lounge tries to Tackle Goldberg Tova, but Goldberg Tova blocks it!",
+    "Goldberg Tova Tackles Dickenson Beker and INJURES THEM!"
+  ]
+}

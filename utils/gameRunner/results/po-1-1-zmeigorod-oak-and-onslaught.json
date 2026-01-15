@@ -1,0 +1,886 @@
+{
+  "homeTeam": {
+    "name": "The Zmeigorod Snessengers",
+    "slug": "zmeigorod",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Serpent's Pass",
+      "location": "Zmeigorod, just west of the lumber mill",
+      "modifiers": ["Altitude Sickness", "Sudden Downpour", "Rockslide"],
+      "description": "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it."
+    },
+    "healer": {
+      "name": "Waldon Tadeo",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 56,
+        "catch": 65,
+        "run": 55,
+        "block": 56,
+        "fight": 54,
+        "throw": 60,
+        "luck": 50,
+        "pronouns": "She/Them",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Delija Dowling",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 55,
+          "run": 50,
+          "block": 51,
+          "fight": 53,
+          "throw": 56,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Northway Orran",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Evalyn Pierrepont",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 66,
+          "block": 54,
+          "fight": 48,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rose Kluge",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 63,
+          "block": 49,
+          "fight": 52,
+          "throw": 52,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gere Cordelie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 55,
+          "catch": 47,
+          "run": 42,
+          "block": 68,
+          "fight": 53,
+          "throw": 48,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 47,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true,
+          "favorite_weapon": "Spiked Gauntlet"
+        }
+      },
+      {
+        "name": "Kleinstein MacGregor",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 43,
+          "catch": 59,
+          "run": 61,
+          "block": 53,
+          "fight": 52,
+          "throw": 59,
+          "luck": 68,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Avaria Revell",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 53,
+          "catch": 46,
+          "run": 67,
+          "block": 50,
+          "fight": 54,
+          "throw": 57,
+          "luck": 61,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alded Sanjay",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 45,
+          "catch": 61,
+          "run": 56,
+          "block": 54,
+          "fight": 51,
+          "throw": 61,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Arni Griffith",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 62,
+          "run": 43,
+          "block": 56,
+          "fight": 51,
+          "throw": 55,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dare Wynnie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 64,
+          "catch": 54,
+          "run": 50,
+          "block": 54,
+          "fight": 62,
+          "throw": 52,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Delija Dowling",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 55,
+          "run": 50,
+          "block": 51,
+          "fight": 53,
+          "throw": 56,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Northway Orran",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Evalyn Pierrepont",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 66,
+          "block": 54,
+          "fight": 48,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rose Kluge",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 63,
+          "block": 49,
+          "fight": 52,
+          "throw": 52,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gere Cordelie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 55,
+          "catch": 47,
+          "run": 42,
+          "block": 68,
+          "fight": 53,
+          "throw": 48,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 47,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true,
+          "favorite_weapon": "Spiked Gauntlet"
+        }
+      },
+      {
+        "name": "Kleinstein MacGregor",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 43,
+          "catch": 59,
+          "run": 61,
+          "block": 53,
+          "fight": 52,
+          "throw": 59,
+          "luck": 68,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dare Wynnie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 64,
+          "catch": 54,
+          "run": 50,
+          "block": 54,
+          "fight": 62,
+          "throw": 52,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Avaria Revell",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 53,
+          "catch": 46,
+          "run": 67,
+          "block": 50,
+          "fight": 54,
+          "throw": 57,
+          "luck": 61,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Alded Sanjay",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 45,
+          "catch": 61,
+          "run": 56,
+          "block": 54,
+          "fight": 51,
+          "throw": 61,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Arni Griffith",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 62,
+          "run": 43,
+          "block": 56,
+          "fight": 51,
+          "throw": 55,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "Oak & Onslaught",
+    "slug": "oak-and-onslaught",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 52,
+    "stadium": {
+      "name": "Fletchings Field",
+      "location": "Fletchings",
+      "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+      "modifiers": ["Shifting Terrain", "Warden's Watch", "Natural Advantages"]
+    },
+    "healer": {
+      "name": "Ahron Latashia",
+      "team": "Oak & Onslaught",
+      "stats": {
+        "pass": 48,
+        "catch": 52,
+        "run": 56,
+        "block": 45,
+        "fight": 64,
+        "throw": 59,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 59,
+        "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+        "literate": true,
+        "favorite_weapon": "Kriegsmesser"
+      }
+    },
+    "players": [
+      {
+        "name": "Milt Casady",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 54,
+          "catch": 57,
+          "run": 54,
+          "block": 65,
+          "fight": 47,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wynnie Faina",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 50,
+          "catch": 64,
+          "run": 66,
+          "block": 55,
+          "fight": 51,
+          "throw": 60,
+          "luck": 71,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Normi Glaudia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 64,
+          "block": 63,
+          "fight": 48,
+          "throw": 60,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Symer Crissy",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 53,
+          "run": 53,
+          "block": 55,
+          "fight": 44,
+          "throw": 63,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Teria Ravo",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 51,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 53,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hole Bowerman",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 39,
+          "catch": 49,
+          "run": 60,
+          "block": 64,
+          "fight": 60,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Milt Casady",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 54,
+          "catch": 57,
+          "run": 54,
+          "block": 65,
+          "fight": 47,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wynnie Faina",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 50,
+          "catch": 64,
+          "run": 66,
+          "block": 55,
+          "fight": 51,
+          "throw": 60,
+          "luck": 71,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Normi Glaudia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 64,
+          "block": 63,
+          "fight": 48,
+          "throw": 60,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Teria Ravo",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 51,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 53,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hole Bowerman",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 39,
+          "catch": 49,
+          "run": 60,
+          "block": 64,
+          "fight": 60,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Step right up, ladies and gentlemen, ghouls and ghosts! Welcome to the spectacular opening of the Osterra Playoffs! Nok the Corrupter here, coming to you live from the soggy, sinking Serpent's Pass! We've got a real humdinger today as the popular local favorites, the Zmeigorod Snessengers, host those wood-walking warriors, Oak & Onslaught! This is Game 1 of a Best of 3 series, folks, and the stakes are higher than a mountain giant on stilts! The loser gets booted to the loser's bracket, and nobody wants that kind of shame hanging over their head!\\n\\nThe atmosphere here is simply electric—or maybe that's just the lightning from the Sudden Downpour we're expecting! The fans are packed in like sardines, and let me tell you, the Zmeigorod faithful are out in force! You can barely hear yourself think over the roar of the crowd. The Snessengers are the darlings of the realm right now, while Oak & Onslaught are looking like the scrappy underdogs trying to spoil the party. Even Sir Randy and his fancy Warden scouts are watching from the sidelines, probably wondering if their 'fancy bows' could ever match the raw power of a Trollball to the teeth!\\n\\nBefore the whistle, I caught a glimpse of some truly professional pre-game preparation! Milt Casady was leading Oak & Onslaught in a synchronized chant that grew so loud it nearly triggered a Rockslide early! Meanwhile, on the home side, Evalyn Pierrepont was meticulously polishing his helmet with a live snail! You can't make this stuff up, folks! And Northway Orran was striking theatrical poses that would make even God King Artorias jealous! Grab your grog and hold onto your hats, because this is playoff Trollball!",
+  "postGame": "What a game! What a spectacle! What a glorious display of bone-crunching mayhem! The underdogs have bitten back, folks! Oak & Onslaught walk into the Serpent's Pass and snatch Game 1 right out of the Bog Queen's hands! The final score stands at 3 to 2 in favor of the Wardens' favorites, and the Zmeigorod crowd is stunned into a silence so deep you could hear a snail crawl across Evalyn Pierrepont’s helmet!\\n\\nThe action started fast and mean! Kleinstein MacGregor scooped up that leather head early in Center Field, looking like she was ready to make a name for herself. But Milt Casady had other plans! He swung that blackjack with the grace of a seasoned executioner, sending Kleinstein to the dirt and into the medical tent! It was a beautiful sight, truly!\\n\\nNot to be outdone, Hole Bowerman decided to join the fray! She lowered her lance and absolutely flattened Evalyn Pierrepont! The Snessengers were reeling early, their high popularity scores not doing a lick of good against the cold, hard wood of the Wardens' weaponry. Rose Kluge tried to get some momentum going with a pass, but it was as wild as a drunken pixie and hit the turf with a thud!\\n\\nThen came the breakthrough! Wynnie Faina, wearing his boots on the wrong feet for luck, showed us why he's a star! He snagged the ball, dodged the defense, and charged into the End Zone for a thunderous dunk! The away fans went wild, and Oak & Onslaught took the lead! But they weren't finished yet, oh no!\\n\\nNormi Glaudia decided he didn't feel like running all the way to the basket. From right there in Center Field, he wound up and launched a Shoot that sailed through the goal like a shooting star! Two points! Just like that, the score was 3 to zero, and the Snessengers looked like they were sinking faster than their own stadium!\\n\\nZmeigorod tried to rally, bless their hearts. Delija Dowling made a valiant run, and Gere Cordelie managed to land a spectacular Shoot from Home Field just after the halftime break to bring them back within striking distance! It was a 3 to 2 game and the tension was thick enough to cut with a Kriegsmesser!\\n\\nBut the defense from the Onslaught was just too brutal! Teria Ravo and Affra Yanaton were handing out injuries like they were participation trophies! They took turns knocking Northway Orran and Evalyn Pierrepont out of the game again! It’s a miracle anyone was left standing to play the ball!\\n\\nMillham Evangeline was a one-demon wrecking crew in the closing minutes! They tackled Alded Sanjay and Arni Griffith back-to-back, sending both Snessengers to the healer with bells ringing in their ears! Even when the Snessengers tried to shoot from distance, the altitude and the pressure got to them, with both Arni and Kleinstein missing wide!\\n\\nThe game ended in a frantic scramble in the Away Field with Dare Wynnie desperately clutching the ball, but time simply ran out! The Zmeigorod Snessengers fall at home, and now they face a must-win situation in Game 2 or they'll be headed straight to the loser's bracket!\\n\\nSo, take that, you 'heroes' of the Grove! Valos the Eternal might think she rules the swamp, but today, she just rules a patch of dirt where her team got stomped! Oak & Onslaught takes a 1-0 lead in this Best of 3! I’m Nok the Corrupter, and I can’t wait to see who loses a limb next week! Goodnight, Osterra!",
+  "week": 1,
+  "homeScore": 2,
+  "awayScore": 3,
+  "slug": "po-1-1-zmeigorod-oak-and-onslaught",
+  "plays": [
+    "The Trollball is picked up by Kleinstein MacGregor in zone Center Field",
+    "Dare Wynnie tries to Tackle Symer Crissy, but misses!",
+    "Milt Casady Tackles Kleinstein MacGregor and INJURES THEM!",
+    "Alded Sanjay tries to run with the ball but is stopped by the defense!",
+    "Hole Bowerman Tackles Evalyn Pierrepont and INJURES THEM!",
+    "Rose Kluge throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Normi Glaudia in zone Center Field",
+    "Wynnie Faina runs with the ball and advances towards the goal!",
+    "Normi Glaudia passes the ball to Teria Ravo!",
+    "Affra Yanaton runs with the ball and advances towards the goal!",
+    "Wynnie Faina runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Normi Glaudia in zone Center Field",
+    "Ema Ulrick passes the ball to Wynnie Faina!",
+    "Normi Glaudia shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Dare Wynnie in zone Center Field",
+    "Milt Casady tries to Tackle Alded Sanjay, but Alded Sanjay blocks it!",
+    "Symer Crissy tries to Tackle Avaria Revell, but misses!",
+    "Arni Griffith tries to Tackle Milt Casady, but misses!",
+    "Millham Evangeline tries to Tackle Rose Kluge, but misses!",
+    "Gere Cordelie tries to Tackle Wynnie Faina, but Wynnie Faina blocks it!",
+    "Delija Dowling runs with the ball and advances towards the goal!",
+    "Teria Ravo Tackles Northway Orran and INJURES THEM!",
+    "Affra Yanaton Tackles Evalyn Pierrepont and INJURES THEM!",
+    "Alded Sanjay throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Teria Ravo in zone Away Field",
+    "Arni Griffith tries to Tackle Milt Casady, but misses!",
+    "Affra Yanaton runs with the ball and advances towards the goal!",
+    "Hole Bowerman runs with the ball and advances towards the goal!",
+    "Rose Kluge Tackles Symer Crissy and INJURES THEM!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Alded Sanjay in zone Home Field",
+    "Gere Cordelie shoots from Home Field and SCORES!",
+    "The Trollball is picked up by Evalyn Pierrepont in zone Center Field",
+    "Ema Ulrick tries to Tackle Alded Sanjay, but misses!",
+    "Evalyn Pierrepont runs with the ball and advances towards the goal!",
+    "Normi Glaudia tries to Tackle Arni Griffith, but misses!",
+    "Hole Bowerman tries to Tackle Gere Cordelie, but Gere Cordelie blocks it!",
+    "Dare Wynnie passes the ball to Arni Griffith, but they drop it!",
+    "The Trollball is picked up by Hole Bowerman in zone Away Field",
+    "Hole Bowerman tries to run with the ball but is stopped by the defense!",
+    "Wynnie Faina throws a wild pass and it is INTERCEPTED by Avaria Revell!",
+    "Northway Orran tries to run with the ball but is stopped by the defense!",
+    "Hole Bowerman tries to Tackle Evalyn Pierrepont, but misses!",
+    "Wynnie Faina tries to Tackle Delija Dowling, but Delija Dowling blocks it!",
+    "Delija Dowling tries to run with the ball but is stopped by the defense!",
+    "Wynnie Faina Tackles Avaria Revell and INJURES THEM!",
+    "Northway Orran tries to Tackle Abner Seidel, but Abner Seidel blocks it!",
+    "Dare Wynnie tries to run with the ball but is stopped by the defense!",
+    "Millham Evangeline tries to Tackle Arni Griffith, but misses!",
+    "Millham Evangeline Tackles Alded Sanjay and INJURES THEM!",
+    "Arni Griffith shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Delija Dowling in zone Away Field",
+    "Teria Ravo tries to Tackle Northway Orran, but misses!",
+    "Millham Evangeline Tackles Arni Griffith and INJURES THEM!",
+    "Kleinstein MacGregor shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Evalyn Pierrepont in zone Away Field",
+    "Evalyn Pierrepont passes the ball to Avaria Revell, but they drop it!",
+    "The Trollball is picked up by Dare Wynnie in zone Away Field"
+  ]
+}

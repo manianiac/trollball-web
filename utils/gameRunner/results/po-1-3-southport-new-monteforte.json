@@ -1,0 +1,865 @@
+{
+  "homeTeam": {
+    "name": "The Southport Narwhals",
+    "slug": "southport",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 48,
+    "stadium": {
+      "name": "The Cliffside Pitch",
+      "location": "Southport",
+      "description": "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
+      "modifiers": ["Gale-Force Winds", "Sea Spray", "Rocky Outcropping"]
+    },
+    "healer": {
+      "name": "Sand Denys",
+      "team": "The Southport Narwhals",
+      "stats": {
+        "pass": 55,
+        "catch": 54,
+        "run": 50,
+        "block": 53,
+        "fight": 61,
+        "throw": 64,
+        "luck": 60,
+        "pronouns": "She/Her",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 46,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Telling each other exaggerated lies about their own strength.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Blood Eppes",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 54,
+          "run": 52,
+          "block": 47,
+          "fight": 64,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Malcolm Goer",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 36,
+          "run": 63,
+          "block": 65,
+          "fight": 56,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Blanc Fantasia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 51,
+          "run": 60,
+          "block": 58,
+          "fight": 64,
+          "throw": 52,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 43,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Loralyn Lyndy",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 47,
+          "run": 58,
+          "block": 57,
+          "fight": 57,
+          "throw": 59,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cibis Areta",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 63,
+          "catch": 48,
+          "run": 57,
+          "block": 59,
+          "fight": 54,
+          "throw": 45,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Braden Gaile",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 53,
+          "block": 67,
+          "fight": 68,
+          "throw": 65,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Crescint Sonia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 65,
+          "catch": 64,
+          "run": 67,
+          "block": 47,
+          "fight": 44,
+          "throw": 53,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cilurzo Sochor",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 54,
+          "block": 65,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Torey Dannye",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 49,
+          "catch": 59,
+          "run": 55,
+          "block": 56,
+          "fight": 45,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fineman Dolhenty",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 48,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Wearing a necklace of polished river stones.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Blood Eppes",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 54,
+          "run": 52,
+          "block": 47,
+          "fight": 64,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Stretching their hamstrings for exactly seven minutes.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Blanc Fantasia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 51,
+          "run": 60,
+          "block": 58,
+          "fight": 64,
+          "throw": 52,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 43,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Loralyn Lyndy",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 47,
+          "run": 58,
+          "block": 57,
+          "fight": 57,
+          "throw": 59,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Adjusting their codpiece with theatrical importance.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cibis Areta",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 63,
+          "catch": 48,
+          "run": 57,
+          "block": 59,
+          "fight": 54,
+          "throw": 45,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Braden Gaile",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 53,
+          "block": 67,
+          "fight": 68,
+          "throw": 65,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 62,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cilurzo Sochor",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 54,
+          "block": 65,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fineman Dolhenty",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 51,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 48,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Wearing a necklace of polished river stones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Crescint Sonia",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 65,
+          "catch": 64,
+          "run": 67,
+          "block": 47,
+          "fight": 44,
+          "throw": 53,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Filing down a single fingernail into a sharp point.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Malcolm Goer",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 56,
+          "catch": 36,
+          "run": 63,
+          "block": 65,
+          "fight": 56,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Torey Dannye",
+        "team": "The Southport Narwhals",
+        "stats": {
+          "pass": 49,
+          "catch": 59,
+          "run": 55,
+          "block": 56,
+          "fight": 45,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The New Monteforte Chaos Creatures",
+    "slug": "new-monteforte",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 65,
+    "stadium": {
+      "name": "The Unruly Yard",
+      "location": "New Monteforte",
+      "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+      "modifiers": ["Rowdy Crowd", "Unstable Scaffolding", "Street Performer"]
+    },
+    "healer": {
+      "name": "Lian Denton",
+      "team": "The New Monteforte Chaos Creatures",
+      "stats": {
+        "pass": 55,
+        "catch": 62,
+        "run": 56,
+        "block": 58,
+        "fight": 45,
+        "throw": 60,
+        "luck": 50,
+        "pronouns": "They/Them",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Boulanger Procto",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 57,
+          "block": 66,
+          "fight": 60,
+          "throw": 57,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gabriele Klehm",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 59,
+          "catch": 57,
+          "run": 47,
+          "block": 62,
+          "fight": 50,
+          "throw": 56,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alben Diantha",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 48,
+          "block": 55,
+          "fight": 63,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hammer",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Boulanger Procto",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 57,
+          "block": 66,
+          "fight": 60,
+          "throw": 57,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alben Diantha",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 48,
+          "block": 55,
+          "fight": 63,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hammer",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Step right up, ladies, gentlemen, and fellow denizens of the deep! It is a glorious Tuesday for a do-or-die showdown at The Cliffside Pitch! We are at the climax of this Best of Three playoff series, and the tension is higher than the lighthouse looming over this windswept death-trap! The Southport Narwhals and the New Monteforte Chaos Creatures are tied at one win apiece, and today, one of these squads is going to be tossed into the loser's bracket like yesterday's chum! I haven't been this excited since Morgwae and Artorias busted me out of the Demon Prison! The atmosphere is electric, even if the popularity polls suggest the realm is sleeping on these two gritty powerhouses. Those Haven Lights fans wouldn't know real action if it bit them in the britches! Over on the Narwhals' side, Malcolm Goer is getting his 'grip' ready by rubbing the ball on his armpits—a scent that'll knock a man over faster than a Gale-Force Wind! Meanwhile, Fogel Raynold for the Chaos Creatures is slapping his own helmet until his ears ring. Now that is the kind of brain-rattling dedication I love to see! We've got sea spray in the eyes and rocky outcroppings underfoot—perfect conditions for some playoff mayhem! 🦈🏒💥",
+  "postGame": "Holy mackerel, what a display of sheer Monteforte dominance! The Chaos Creatures have completed the comeback, taking Game Three with a 4-0 shutout and sending the Narwhals packing to the loser's bracket! It was a symphony of violence that would make Lord Orzalon weep with pride. 🏟️🔥 From the first whistle, it was clear that the ruffians from the city were ready to brawl. Blood Eppes thought he could stretch his hamstrings for seven minutes and be ready, but Mouldon Earl had other plans, leveling him with a tackle that surely rattled every bone in his body! 🦴💥 The Narwhals tried to answer back when Blood Eppes managed to take out Gabriele Klehm, but the momentum stayed firmly with the visitors. It reminds me of why I love this game—the 'heroes' like Sir Artorias would probably call for a timeout, but here, we just call for the healer! 🚑🗡️ Crescint Sonia did his best to keep Southport in it by injuring Wolbrom Ariella, but you just can't keep a good Chaos Creature down! The first real blow to the scoreboard came from Placido Kora. She didn't even wait to get close, launching a spectacular shot from Center Field that sailed through the basket for two big points! 🎯2️⃣ The crowd at the Cliffside Pitch went silent, save for the sound of the wind and the groans of the injured. We went into Halftime with the Narwhals trailing and smelling like armpits and defeat. 🌊🥪 When the second half started, the violence only intensified! Tucker Hett became a one-woman wrecking crew, absolutely demolishing both Crescint Sonia and Malcolm Goer in back-to-back plays. It’s a wonder Sand Denys had any bandages left in the medical kit! 🩹🩸 Then, the nail in the coffin arrived! Mouldon Earl, not content with just injuring people, found himself in Home Field and launched another two-point beauty! 4-0, and the Narwhals were looking like they'd been fished out of a dry bucket. 🎣📉 The Southport squad tried to rally, with Raouf Dragone advancing the ball, but Torey Dannye's tackle on Raouf just added to the casualty list. Even the 'Hero' Geth the Gravelord would have to tip his dusty hat to the carnage we witnessed today. 💀🎩 Cilurzo Sochor managed to injure Placido Kora late in the game, but by then, the Chaos Creatures were just playing with their food. Torey Dannye's day ended painfully as Placido returned the favor with a bone-crunching tackle of her own. 🥊🌪️ It was a masterpiece of playoff intensity! The Chaos Creatures move forward, while the Narwhals have to figure out how to win in the loser's bracket. This is Nok the Corrupter, signing off from a very bloody, very salt-crusted Southport! Stay violent, Osterra! 🎙️😈",
+  "week": 3,
+  "homeScore": 0,
+  "awayScore": 4,
+  "slug": "po-1-3-southport-new-monteforte",
+  "plays": [
+    "The Trollball is picked up by Crescint Sonia in zone Center Field",
+    "Blanc Fantasia tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+    "Torey Dannye throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Blood Eppes in zone Center Field",
+    "Loralyn Lyndy tries to Tackle Wolbrom Ariella, but misses!",
+    "Alben Diantha tries to Tackle Crescint Sonia, but Crescint Sonia blocks it!",
+    "Alben Diantha tries to Tackle Fineman Dolhenty, but Fineman Dolhenty blocks it!",
+    "Gabriele Klehm tries to Tackle Loralyn Lyndy, but misses!",
+    "Cibis Areta throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Cilurzo Sochor in zone Center Field",
+    "Cibis Areta tries to run with the ball but is stopped by the defense!",
+    "Loralyn Lyndy tries to Tackle Wolbrom Ariella, but Wolbrom Ariella blocks it!",
+    "Fineman Dolhenty tries to Tackle Raouf Dragone, but misses!",
+    "Fineman Dolhenty tries to Tackle Placido Kora, but misses!",
+    "Mouldon Earl Tackles Blood Eppes and INJURES THEM!",
+    "Crescint Sonia passes the ball to Loralyn Lyndy, but they drop it!",
+    "The Trollball is picked up by Urata Oriana in zone Center Field",
+    "Alben Diantha tries to Tackle Crescint Sonia, but Crescint Sonia blocks it!",
+    "Loralyn Lyndy tries to Tackle Raouf Dragone, but misses!",
+    "Torey Dannye tries to Tackle Fogel Raynold, but Fogel Raynold blocks it!",
+    "Torey Dannye tries to Tackle Urata Oriana, but misses!",
+    "Blood Eppes Tackles Gabriele Klehm and INJURES THEM!",
+    "Crescint Sonia Tackles Wolbrom Ariella and INJURES THEM!",
+    "Cibis Areta tries to Tackle Urata Oriana, but Urata Oriana blocks it!",
+    "Mouldon Earl tries to Tackle Fineman Dolhenty, but misses!",
+    "Placido Kora shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Fineman Dolhenty in zone Center Field",
+    "Malcolm Goer passes the ball to Torey Dannye!",
+    "Cilurzo Sochor passes the ball to Loralyn Lyndy, but they drop it!",
+    "The Trollball is picked up by Fogel Raynold in zone Center Field",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Fineman Dolhenty in zone Center Field",
+    "Crescint Sonia tries to run with the ball but is stopped by the defense!",
+    "Fineman Dolhenty tries to run with the ball but is stopped by the defense!",
+    "Blanc Fantasia passes the ball to Malcolm Goer, but they drop it!",
+    "The Trollball is picked up by Placido Kora in zone Center Field",
+    "Blood Eppes tries to Tackle Mouldon Earl, but misses!",
+    "Tucker Hett Tackles Crescint Sonia and INJURES THEM!",
+    "Raouf Dragone runs with the ball and advances towards the goal!",
+    "Tucker Hett tries to run with the ball but is stopped by the defense!",
+    "Torey Dannye Tackles Raouf Dragone and INJURES THEM!",
+    "Braden Gaile tries to Tackle Tucker Hett, but Tucker Hett blocks it!",
+    "Blood Eppes tries to Tackle Fogel Raynold, but misses!",
+    "Tucker Hett Tackles Malcolm Goer and INJURES THEM!",
+    "Mouldon Earl shoots from Home Field and SCORES!",
+    "The Trollball is picked up by Urata Oriana in zone Center Field",
+    "Braden Gaile tries to Tackle Alben Diantha, but Alben Diantha blocks it!",
+    "Fogel Raynold runs with the ball and advances towards the goal!",
+    "Cilurzo Sochor Tackles Placido Kora and INJURES THEM!",
+    "Loralyn Lyndy tries to Tackle Fogel Raynold, but Fogel Raynold blocks it!",
+    "Fogel Raynold shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Braden Gaile in zone Home Field",
+    "Alben Diantha tries to Tackle Fineman Dolhenty, but misses!",
+    "Placido Kora Tackles Torey Dannye and INJURES THEM!",
+    "Blood Eppes shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Fogel Raynold in zone Home Field"
+  ]
+}

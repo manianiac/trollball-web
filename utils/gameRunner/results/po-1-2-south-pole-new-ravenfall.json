@@ -1,0 +1,850 @@
+{
+  "homeTeam": {
+    "name": "The South Pole Yetis",
+    "slug": "south-pole",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 55,
+    "stadium": {
+      "name": "The South Pole Palisade",
+      "location": "A remote southern frontier town",
+      "description": "A crude, fortified playing field built from rough-hewn logs. It's less a stadium and more a stockade against the wilderness. The 'grass' is mostly frozen mud and straw.",
+      "modifiers": ["Freezing Rain", "Icy Field", "Wolf Pack Howling"]
+    },
+    "healer": {
+      "name": "Seiter Aida",
+      "team": "The South Pole Yetis",
+      "stats": {
+        "pass": 50,
+        "catch": 50,
+        "run": 59,
+        "block": 46,
+        "fight": 48,
+        "throw": 67,
+        "luck": 52,
+        "pronouns": "They/Them",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 57,
+        "favorite_weapon": "Club",
+        "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Sale Tocci",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 54,
+          "block": 54,
+          "fight": 52,
+          "throw": 55,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 69,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ajit Serge",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 54,
+          "run": 55,
+          "block": 51,
+          "fight": 59,
+          "throw": 58,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Isborne Krause",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 47,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selima Si",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 61,
+          "run": 65,
+          "block": 60,
+          "fight": 53,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Duky Orelee",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 55,
+          "catch": 41,
+          "run": 59,
+          "block": 67,
+          "fight": 48,
+          "throw": 56,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sayers Erdda",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 49,
+          "block": 54,
+          "fight": 48,
+          "throw": 69,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Jessy Debbie",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 60,
+          "block": 48,
+          "fight": 59,
+          "throw": 54,
+          "luck": 44,
+          "pronouns": "They/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hilaire Guevara",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 47,
+          "block": 52,
+          "fight": 56,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coussoule Bidle",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 58,
+          "run": 63,
+          "block": 59,
+          "fight": 59,
+          "throw": 47,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Turning their helmet around three times before putting it on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Udela Dorkus",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 54,
+          "catch": 60,
+          "run": 58,
+          "block": 54,
+          "fight": 53,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Licking a whetstone.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Sale Tocci",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 54,
+          "block": 54,
+          "fight": 52,
+          "throw": 55,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 69,
+          "alcohol_tolerance": 42,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Isborne Krause",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 47,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Selima Si",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 61,
+          "run": 65,
+          "block": 60,
+          "fight": 53,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Duky Orelee",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 55,
+          "catch": 41,
+          "run": 59,
+          "block": 67,
+          "fight": 48,
+          "throw": 56,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sayers Erdda",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 49,
+          "block": 54,
+          "fight": 48,
+          "throw": 69,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coussoule Bidle",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 58,
+          "catch": 58,
+          "run": 63,
+          "block": 59,
+          "fight": 59,
+          "throw": 47,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Turning their helmet around three times before putting it on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Udela Dorkus",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 54,
+          "catch": 60,
+          "run": 58,
+          "block": 54,
+          "fight": 53,
+          "throw": 59,
+          "luck": 51,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Licking a whetstone.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Jessy Debbie",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 60,
+          "block": 48,
+          "fight": 59,
+          "throw": 54,
+          "luck": 44,
+          "pronouns": "They/Them",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hilaire Guevara",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 60,
+          "catch": 51,
+          "run": 47,
+          "block": 52,
+          "fight": 56,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ajit Serge",
+        "team": "The South Pole Yetis",
+        "stats": {
+          "pass": 50,
+          "catch": 54,
+          "run": 55,
+          "block": 51,
+          "fight": 59,
+          "throw": 58,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": false
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The New Ravenfall Commanders",
+    "slug": "new-ravenfall",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 64,
+    "stadium": {
+      "name": "The Stronghold Bailey",
+      "location": "New Ravenfall (Stronghold Castle)",
+      "description": "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
+      "modifiers": ["Cobblestone Pitch", "Rampart Shadows", "Castle Echo"]
+    },
+    "healer": {
+      "name": "Hooge Imtiaz",
+      "team": "The New Ravenfall Commanders",
+      "stats": {
+        "pass": 57,
+        "catch": 50,
+        "run": 39,
+        "block": 59,
+        "fight": 53,
+        "throw": 63,
+        "luck": 59,
+        "pronouns": "She/Her",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 44,
+        "favorite_weapon": "Warhammer",
+        "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Moir Sass",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 51,
+          "block": 48,
+          "fight": 60,
+          "throw": 56,
+          "luck": 61,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Theis Loredo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 46,
+          "run": 55,
+          "block": 54,
+          "fight": 62,
+          "throw": 61,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jessalin Zobias",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 55,
+          "block": 42,
+          "fight": 52,
+          "throw": 53,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "## 🎙️ GREETINGS, SPORTS FANS AND SINNERS! \n\nGather 'round your arcane receivers because Tuesday Night Trollball is coming to you live from the frozen edges of civilization! I’m your announcer, Nok the Corrupter, the demon who’s seen it all and lived to talk about it! We are deep in the playoffs now, and the atmosphere at the **South Pole Palisade** is absolutely bone-chilling! Literally! There’s freezing rain coming down, the field is a sheet of ice, and the wolves are howling in the woods like they’re waiting for leftovers! \n\nThis is Game 2 of our Best of 3 series! The **New Ravenfall Commanders** already have one win in their pocket after that dominant display at the Bailey. If they win tonight, they punch their ticket to the next round and send the **South Pole Yetis** straight into the loser's bracket! The Yetis are playing for their lives today, and you can see the desperation in their eyes. I saw **Sale Tocci** earlier, meticulously braiding her hair into battle rows while **Udela Dorkus** was actually licking a whetstone! That’s the kind of dedication to violence that makes my demonic heart skip a beat! \n\nMeanwhile, the Commanders are looking as cocky as ever. **Jozef Pepe** is currently winning a belching contest in the dugout, and **Dusa Curson** is frantically searching the frozen mud for a four-leaf clover. Good luck with that, honey, the only thing growing here is frostbite! Even though they're associated with that letter-hating stick-in-the-mud Sir Tanos, you can't deny the Commanders have the momentum. Can the Yetis use the 'Icy Field' to their advantage, or will they be left out in the cold? Let’s get to the carnage! 🏈❄️",
+  "postGame": "## 🏆 COMMANDERS CLINCH! YETIS SENT TO THE COLD DARK BRACKET! \n\n**FINAL SCORE: New Ravenfall Commanders 4 - The South Pole Yetis 2**\n\nWhat a spectacular display of frozen fury! The New Ravenfall Commanders have done it, folks! By winning this second game, they sweep the series 2-0 and advance in the playoffs, while the South Pole Yetis are headed to the loser's bracket to rethink their life choices! It was a battle of wills against the elements and each other, and the 'Castle Kids' proved they could handle the mud just as well as the cobblestone! \n\nThe action started with a bang when **Sale Tocci** grabbed the head and tried to make a break for it! But the Commanders weren't having any of it. **Fleme Alis** showed us why he's a fan favorite by absolutely leveling **Ajit Serge** early on, sending him to the healers before the game even warmed up! The 'Wolf Pack Howling' in the background really added a nice touch of dread to the whole affair, don't you think? \n\nWe saw some real 'playoff spirit' in the first half! **Duky Orelee** tried to get a pass going, but it was snagged right out of the air by **Jozef Pepe**! An interception in these conditions is like finding a gold coin in a goblin's ear—rare and messy! But the Yetis fought back with pure brutality. **Jessy Debbie** and **Isborne Krause** went on a rampage, injuring **Jessalin Zobias** and **Moir Sass** in quick succession. I haven't seen that much blood on ice since the Great Thaw of '42! \n\nThe scoring opened up when **Rhett Gavrilla** took a chance from the Away Field. They launched that troll head with the precision of a master assassin, and SWISH! Two points for the Commanders! The few Commanders fans who made the trek to the Palisade started a chant that nearly drowned out the freezing rain. It was a beautiful moment of sporting excellence, even if Gavrilla does spend too much time picking up pebbles! \n\nBut hold your horses, because the Yetis weren't dead yet! **Selima Si**, sporting those legendary garish undergarments for luck, found herself in the 2-point zone. She let fly a shot that sailed true, tying the game up at 2-2! The home crowd erupted, and for a second, it looked like the Yetis might actually force a Game 3. Imra and the Cedar Hill crowd probably started pouring the double-strength elixirs right then and there! \n\nHowever, **Jozef Pepe** had other plans! Just before the halftime whistle, Pepe—perhaps fueled by those pre-game belches—fired a rocket from Center Field! It hit the basket perfectly, putting the Commanders up 4-2. That’s why you play the game, folks! One minute you're tied, the next you're looking at a deficit while your teammates are getting patched up by **Seiter Aida**! \n\nHalftime was a flurry of activity! The healers were working overtime, and I’m pretty sure I saw **Hooge Imtiaz** use a warhammer to pop a shoulder back into place. Efficient! When the players came back out, the field was even slicker. **Coussoule Bidle** had a chance to tie it again, but his shot went wide, likely slipping on a patch of frozen straw. You hate to see it, but I love to watch it! \n\nThe second half turned into a total brawl. **Udela Dorkus** took her whetstone-sharpened aggression out on **Rhett Gavrilla**, sending them to the sidelines. But Rhett came back with a vengeance! Once they were healed, Rhett went on a tackling spree, knocking out both **Jessy Debbie** and **Hilaire Guevara**! It was a masterclass in 'eye for an eye' Trollball! \n\nAs the clock wound down, the Yetis just couldn't find their footing. **Sale Tocci** and **Sayers Erdda** tried to advance, but the Commanders' defense was a stone wall. **Jozef Pepe** even managed to put **Ajit Serge** back on the injury list for good measure! It’s that kind of relentless pursuit of victory that would make even Lord Orzalon crack a smile! \n\nSo, the Commanders move on, and the Yetis are left to howl with the wolves in the loser's bracket. Maybe they should spend less time polishing boots with bacon grease and more time practicing their aim! Those 'heroes' from Ravenfall better enjoy the win while it lasts, because the competition is only getting fiercer. I’m Nok the Corrupter, and this has been a glorious Tuesday Night Trollball! Stay tuned, stay violent, and don't forget to pay your bar tabs! 🏈💀🍹",
+  "week": 2,
+  "homeScore": 2,
+  "awayScore": 4,
+  "slug": "po-1-2-south-pole-new-ravenfall",
+  "plays": [
+    "The Trollball is picked up by Sale Tocci in zone Center Field",
+    "Duky Orelee tries to Tackle Jessalin Zobias, but misses!",
+    "Fleme Alis Tackles Ajit Serge and INJURES THEM!",
+    "Sale Tocci runs with the ball and advances towards the goal!",
+    "Duky Orelee runs with the ball and advances towards the goal!",
+    "Selima Si passes the ball to Coussoule Bidle, but they drop it!",
+    "The Trollball is picked up by Isborne Krause in zone Away 2-Point",
+    "Jozef Pepe tries to Tackle Udela Dorkus, but Udela Dorkus blocks it!",
+    "Estes Adrian tries to Tackle Coussoule Bidle, but misses!",
+    "Duky Orelee throws a wild pass and it is INTERCEPTED by Jozef Pepe!",
+    "Jessy Debbie Tackles Jessalin Zobias and INJURES THEM!",
+    "Isborne Krause Tackles Moir Sass and INJURES THEM!",
+    "Rhett Gavrilla runs with the ball and advances towards the goal!",
+    "Coussoule Bidle tries to Tackle Rhett Gavrilla, but Rhett Gavrilla blocks it!",
+    "Rhett Gavrilla shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Dusa Curson in zone Center Field",
+    "Rhett Gavrilla runs with the ball and advances towards the goal!",
+    "Rhett Gavrilla runs with the ball and advances towards the goal!",
+    "Sayers Erdda tries to Tackle Rhett Gavrilla, but misses!",
+    "Fleme Alis passes the ball to Jozef Pepe, but they drop it!",
+    "The Trollball is picked up by Coussoule Bidle in zone Home 2-Point",
+    "Isborne Krause Tackles Theis Loredo and INJURES THEM!",
+    "Pirozzo Opal tries to Tackle Udela Dorkus, but misses!",
+    "Sale Tocci throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Jessy Debbie in zone Home 2-Point",
+    "Selima Si shoots from Home 2-Point and SCORES!",
+    "The Trollball is picked up by Dusa Curson in zone Center Field",
+    "Estes Adrian tries to run with the ball but is stopped by the defense!",
+    "Duky Orelee tries to Tackle Croteau Osmo, but Croteau Osmo blocks it!",
+    "Duky Orelee tries to Tackle Jozef Pepe, but Jozef Pepe blocks it!",
+    "Jozef Pepe shoots from Center Field and SCORES!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Jessy Debbie in zone Center Field",
+    "Duky Orelee throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Sale Tocci in zone Center Field",
+    "Jozef Pepe tries to Tackle Isborne Krause, but misses!",
+    "Jessy Debbie tries to Tackle Dusa Curson, but Dusa Curson blocks it!",
+    "Coussoule Bidle shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Estes Adrian in zone Center Field",
+    "Udela Dorkus Tackles Rhett Gavrilla and INJURES THEM!",
+    "Croteau Osmo runs with the ball and advances towards the goal!",
+    "Selima Si tries to Tackle Croteau Osmo, but misses!",
+    "Jozef Pepe tries to Tackle Sayers Erdda, but Sayers Erdda blocks it!",
+    "Duky Orelee tries to Tackle Estes Adrian, but misses!",
+    "Ajit Serge tries to Tackle Dusa Curson, but misses!",
+    "Sale Tocci tries to Tackle Jozef Pepe, but Jozef Pepe blocks it!",
+    "Estes Adrian passes the ball to Pirozzo Opal, but they drop it!",
+    "The Trollball is picked up by Selima Si in zone Home Field",
+    "Sale Tocci runs with the ball and advances towards the goal!",
+    "Selima Si shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Udela Dorkus in zone Center Field",
+    "Croteau Osmo tries to Tackle Udela Dorkus, but Udela Dorkus blocks it!",
+    "Rhett Gavrilla tries to Tackle Hilaire Guevara, but Hilaire Guevara blocks it!",
+    "Duky Orelee tries to run with the ball but is stopped by the defense!",
+    "Selima Si tries to Tackle Fleme Alis, but misses!",
+    "Rhett Gavrilla Tackles Jessy Debbie and INJURES THEM!",
+    "Rhett Gavrilla Tackles Hilaire Guevara and INJURES THEM!",
+    "Estes Adrian tries to Tackle Isborne Krause, but misses!",
+    "Sayers Erdda tries to run with the ball but is stopped by the defense!",
+    "Jozef Pepe Tackles Ajit Serge and INJURES THEM!"
+  ]
+}

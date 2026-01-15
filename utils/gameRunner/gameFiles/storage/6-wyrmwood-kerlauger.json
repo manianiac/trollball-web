@@ -1,0 +1,960 @@
+{
+  "homeTeam": {
+    "name": "The Wyrmwood Stronghammers",
+    "slug": "wyrmwood",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 66,
+    "stadium": {
+      "name": "The Hollow Mine",
+      "location": "Wyrmwood Hollow",
+      "description": "The playing field is the circular, wildflower-covered clearing at the base of the imposing, ivy-covered Watch Tower. The ground hums with a strange energy, and the home team makes their entrance from the newly-opened mine shaft that bores deep into the tower's foundation.",
+      "modifiers": ["Humming Earth", "Tangled Vines", "Mine Draft"]
+    },
+    "healer": {
+      "name": "Hamburger Marthe",
+      "team": "The Wyrmwood Stronghammers",
+      "stats": {
+        "pass": 51,
+        "catch": 54,
+        "run": 46,
+        "block": 67,
+        "fight": 61,
+        "throw": 54,
+        "luck": 54,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Arming Sword",
+        "pregame_ritual": "Seeing how many dried beans they can fit in their nostril.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Rebane Kendy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 61,
+          "catch": 51,
+          "run": 53,
+          "block": 56,
+          "fight": 45,
+          "throw": 60,
+          "luck": 43,
+          "pronouns": "He/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rebane Kendy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 61,
+          "catch": 51,
+          "run": 53,
+          "block": 56,
+          "fight": 45,
+          "throw": 60,
+          "luck": 43,
+          "pronouns": "He/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Kerlauger Runeguard",
+    "slug": "kerlauger",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "stadium": {
+      "name": "The Old Fort",
+      "location": "Kerlauger",
+      "description": "The team plays within the crumbling, stone-ringed ruins of an ancient hill-fort. The 'runes' are just old, weathered carvings on the standing stones that serve as obstacles.",
+      "modifiers": ["Ancient Ruins", "Dense Fog", "Uneven Footing"]
+    },
+    "healer": {
+      "name": "Eal Caundra",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 63,
+        "catch": 55,
+        "run": 51,
+        "block": 57,
+        "fight": 46,
+        "throw": 59,
+        "luck": 54,
+        "pronouns": "He/Them",
+        "civic_engagement": 45,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "War Scythe",
+        "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Lashondra Niehaus",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 62,
+          "catch": 55,
+          "run": 57,
+          "block": 58,
+          "fight": 62,
+          "throw": 48,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 50,
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Reginauld Cordell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 65,
+          "block": 58,
+          "fight": 51,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 36,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Benjie Foulk",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 54,
+          "block": 58,
+          "fight": 51,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Johnna Beetner",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 68,
+          "catch": 60,
+          "run": 69,
+          "block": 56,
+          "fight": 43,
+          "throw": 49,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Scimitar",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Harilda Sigsmond",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 65,
+          "block": 59,
+          "fight": 51,
+          "throw": 60,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Vivia Namara",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 59,
+          "catch": 53,
+          "run": 51,
+          "block": 57,
+          "fight": 50,
+          "throw": 59,
+          "luck": 49,
+          "pronouns": "She/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lon Gabriell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 56,
+          "catch": 41,
+          "run": 55,
+          "block": 67,
+          "fight": 53,
+          "throw": 61,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shepperd Trefler",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 59,
+          "block": 55,
+          "fight": 66,
+          "throw": 51,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gurney Fadiman",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 42,
+          "run": 52,
+          "block": 59,
+          "fight": 53,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Shortsword",
+          "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lorilee Aldred",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 49,
+          "catch": 54,
+          "run": 55,
+          "block": 56,
+          "fight": 64,
+          "throw": 55,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Lashondra Niehaus",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 62,
+          "catch": 55,
+          "run": 57,
+          "block": 58,
+          "fight": 62,
+          "throw": 48,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 50,
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Benjie Foulk",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 54,
+          "block": 58,
+          "fight": 51,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Johnna Beetner",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 68,
+          "catch": 60,
+          "run": 69,
+          "block": 56,
+          "fight": 43,
+          "throw": 49,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Scimitar",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Harilda Sigsmond",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 65,
+          "block": 59,
+          "fight": 51,
+          "throw": 60,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Vivia Namara",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 59,
+          "catch": 53,
+          "run": 51,
+          "block": 57,
+          "fight": 50,
+          "throw": 59,
+          "luck": 49,
+          "pronouns": "She/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lon Gabriell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 56,
+          "catch": 41,
+          "run": 55,
+          "block": 67,
+          "fight": 53,
+          "throw": 61,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shepperd Trefler",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 59,
+          "block": 55,
+          "fight": 66,
+          "throw": 51,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lorilee Aldred",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 49,
+          "catch": 54,
+          "run": 55,
+          "block": 56,
+          "fight": 64,
+          "throw": 55,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gurney Fadiman",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 42,
+          "run": 52,
+          "block": 59,
+          "fight": 53,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Shortsword",
+          "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Reginauld Cordell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 65,
+          "block": 58,
+          "fight": 51,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 36,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "# 🎙️ LIVE FROM THE HOLLOW MINE: TUESDAY NIGHT TROLLBALL! 🎙️ ⚾️ Well hello there, sports fans! This is your favorite demon of the airwaves, Nok the Corrupter, coming to you live from the wildflower-covered base of the Watch Tower! Can you feel that energy? The ground is literally humming, or maybe that's just the anticipation of seeing some skulls cracked for your Tuesday evening entertainment! We’ve got a real peach of a matchup tonight as the Kerlauger Runeguard travel from their crumbling ruins to face our hosts, the Wyrmwood Stronghammers! 💥 ⚾️ Now look at these Stronghammers, folks! These boys and ghouls are emerging from a mine shaft like it's a grand opening of a fresh grave! I saw Ultun Barthelemy in the tunnel earlier, diligently braiding a teammate's nose hair—now that is the kind of focus that wins championships! And keep an eye on Calvinna Isador; she’s currently giving a speech so nonsensical it makes Sir Randy's tactical advice look like high philosophy! It’s absolute madness, and I love every second of it! 🍖 ⚾️ But don't count out the Kerlauger Runeguard! They might be associated with those stuffy White Ravens, but they play like they’ve got something to prove! Eal Caundra is over there reciting the names of legends—boring!—but Vivia Namara just spat in her own hand and slapped herself across the face! Now that’s a pre-game ritual I can get behind! It’s almost as good as the rituals we see with the Ebon Gate Corruptors, who truly know how to treat a Trollhead with respect! Unlike those Haven Lights, who probably wash their hands after every tackle! Let’s get to the carnage! 🦴",
+  "postGame": "# 🏟️ FINAL SCORE: STRONGHAMMERS SMASH THE RUNEGUARD! 🏟️ ⚾️ What a humdinger of a match we witnessed tonight, folks! It was a real seesaw of violence that would make even my old boss Orzalon crack a smile from his prison cell! The action started fast and furious in Center Field when Gurney Fadiman scooped up the head, but Ultun Barthelemy wasn't having any of that! Ultun came in with a tackle so crisp it sent Gurney straight to the healer’s tent! Ha-ha! That’s the kind of Tuesday night I live for! 💥 ⚾️ The Runeguard tried to fight back, and let me tell you, Lon Gabriell was a one-woman wrecking crew! She wasn't just blocking; she was hunting! She took Ultun Barthelemy right out of the game with a tackle that sounded like a dry branch snapping! Not content with just one scalp, she later leveled Calvinna Isador! If the rest of the Runeguard had half her fire, they wouldn’t be looking at a goose egg on the scoreboard right now! 🥊 ⚾️ We saw a bit of high-flying desperation when Benjie Foulk tried to air it out, but Odelia Abbott was there to play spoiler! Odelia snatched that pass right out of the air like a hawk grabbing a field mouse! It was a beautiful interception, though I must say, the 'heroes' of the realm like Sir Tanos usually need a cursed sword to be that effective. Odelia just did it with grit and a whip in hand! 🦅 ⚾️ By the time halftime rolled around, the ground was soaked with more than just that strange 'humming energy.' Both teams took a breather to let the regeneration kick in. It’s a miracle of Osterra, isn't it? One minute you’re a pile of broken bones, the next you’re back on the field ready for more! It’s certainly more efficient than waiting for Imra to mix up a dusty elixir! 🧪 ⚾️ The second half saw the Wyrmwood Stronghammers really turn up the heat. Cornela Piscatelli—who, mind you, spent his pre-game braiding nose hairs—decided to start braiding ribs instead! He absolutely leveled Reginauld Cordell, leaving him for the healers to sort out! It was a textbook hit, the kind we usually see from the Ebon Gate Corruptors on a Saturday night! 💥 ⚾️ Then came the breakthrough! Autumn Jodoin, after chugging enough raw eggs to make a dragon gag, found a seam in the defense! With the ball tucked tight, Autumn sprinted through the Away 2-Point zone and slammed that troll head right into the goal! Dunk! The crowd went wild, and the Stronghammers took a 1-0 lead! It was poetry in motion, if poetry involved heavy armor and sweat! 📝 ⚾️ The Runeguard tried to mount a comeback, with Gurney Fadiman returning to the field and immediately taking his frustrations out on Godart Urissa! Godart went down hard, but the Stronghammers are made of sterner stuff! They didn't let the injury slow them down for a second! They’re probably used to it, living so close to that merchant prince Trez Arrigo; you have to be tough to survive that much 'commerce'! 💰 ⚾️ Rebane Kendy, the man who loves a good earlobe tug, decided he wanted a piece of the glory too! While Lorilee Aldred was busy flattening Cornela Piscatelli in a fit of rage, Kendy found the opening! He danced through the defense and delivered a second dunk right into the basket! 2-0, Stronghammers! The Kerlauger defense looked like it was standing in dense fog even though the sun was still up! 🌫️ ⚾️ As the final whistle blew, the Kerlauger Runeguard were left scratching their heads and licking their wounds. Lorilee Aldred got one last tackle in on Cornela, but it was far too little, far too late! The Stronghammers defended their Hollow Mine with the kind of ferocity that would make a Bog Queen proud! 🏰 ⚾️ So there you have it, folks! A 2-0 victory for the Wyrmwood Stronghammers! They played with heart, they played with steel, and most importantly, they played with a complete disregard for their opponents' well-being! Kerlauger is going back to their ruins with nothing but bruises and memories of a sound beating! 📉 ⚾️ This is Nok the Corrupter signing off! Remember, life is short, the Everwar is long, and Trollball is the only thing that makes the regeneration worth it! Stay brutal, Osterra! And if you see Sir Artorias, tell him he still owes me a souvenir from the Fey realm! Goodnight, everyone! 🎙️🌑",
+  "week": 6,
+  "homeScore": 2,
+  "awayScore": 0,
+  "slug": "6-wyrmwood-kerlauger",
+  "plays": [
+    "The Trollball is picked up by Gurney Fadiman in zone Center Field",
+    "undefined",
+    "Cornela Piscatelli tries to Tackle Lon Gabriell, but Lon Gabriell blocks it!",
+    "Cornela Piscatelli tries to Tackle Lon Gabriell, but Lon Gabriell blocks it!",
+    "Vivia Namara runs with the ball and advances towards the goal!",
+    "Vivia Namara runs with the ball and advances towards the goal!",
+    "Ultun Barthelemy Tackles Gurney Fadiman and INJURES THEM!",
+    "Ultun Barthelemy Tackles Gurney Fadiman and INJURES THEM!",
+    "Reginauld Cordell runs with the ball and advances towards the goal!",
+    "Reginauld Cordell runs with the ball and advances towards the goal!",
+    "Eal Caundra has returned Gurney Fadiman to play",
+    "Godart Urissa tries to Tackle Johnna Beetner, but Johnna Beetner blocks it!",
+    "Godart Urissa tries to Tackle Johnna Beetner, but Johnna Beetner blocks it!",
+    "Odelia Abbott tries to Tackle Lashondra Niehaus, but Lashondra Niehaus blocks it!",
+    "Odelia Abbott tries to Tackle Lashondra Niehaus, but Lashondra Niehaus blocks it!",
+    "Benjie Foulk throws a wild pass and it is INTERCEPTED by Odelia Abbott!",
+    "Benjie Foulk throws a wild pass and it is INTERCEPTED by Odelia Abbott!",
+    "Calvinna Isador tries to run with the ball but is stopped by the defense!",
+    "Calvinna Isador tries to run with the ball but is stopped by the defense!",
+    "Calvinna Isador runs with the ball and advances towards the goal!",
+    "Calvinna Isador runs with the ball and advances towards the goal!",
+    "Odelia Abbott tries to Tackle Benjie Foulk, but misses!",
+    "Odelia Abbott tries to Tackle Benjie Foulk, but misses!",
+    "Harilda Sigsmond tries to Tackle Sabian Gleason, but misses!",
+    "Harilda Sigsmond tries to Tackle Sabian Gleason, but misses!",
+    "Ultun Barthelemy runs with the ball and advances towards the goal!",
+    "Ultun Barthelemy runs with the ball and advances towards the goal!",
+    "Lorilee Aldred tries to Tackle Godart Urissa, but misses!",
+    "Lorilee Aldred tries to Tackle Godart Urissa, but misses!",
+    "Lorilee Aldred tries to Tackle Sabian Gleason, but Sabian Gleason blocks it!",
+    "Lorilee Aldred tries to Tackle Sabian Gleason, but Sabian Gleason blocks it!",
+    "Lon Gabriell Tackles Ultun Barthelemy and INJURES THEM!",
+    "Lon Gabriell Tackles Ultun Barthelemy and INJURES THEM!",
+    "Hamburger Marthe has returned Ultun Barthelemy to play",
+    "Lorilee Aldred tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Lorilee Aldred tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Shepperd Trefler tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Shepperd Trefler tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Calvinna Isador tries to Tackle Gurney Fadiman, but misses!",
+    "Calvinna Isador tries to Tackle Gurney Fadiman, but misses!",
+    "Lon Gabriell Tackles Calvinna Isador and INJURES THEM!",
+    "Lon Gabriell Tackles Calvinna Isador and INJURES THEM!",
+    "Johnna Beetner tries to Tackle Autumn Jodoin, but misses!",
+    "Johnna Beetner tries to Tackle Autumn Jodoin, but misses!",
+    "Vivia Namara tries to Tackle Autumn Jodoin, but misses!",
+    "Vivia Namara tries to Tackle Autumn Jodoin, but misses!",
+    "Ultun Barthelemy runs with the ball and advances towards the goal!",
+    "Ultun Barthelemy runs with the ball and advances towards the goal!",
+    "Lorilee Aldred tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Lorilee Aldred tries to Tackle Odelia Abbott, but Odelia Abbott blocks it!",
+    "Lorilee Aldred tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Lorilee Aldred tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Godart Urissa passes the ball to Godart Urissa!",
+    "Godart Urissa passes the ball to Godart Urissa!",
+    "Ultun Barthelemy tries to Tackle Lashondra Niehaus, but misses!",
+    "Ultun Barthelemy tries to Tackle Lashondra Niehaus, but misses!",
+    "Kerwin Gasper shoots from Away Field but misses the goal!",
+    "Kerwin Gasper shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Autumn Jodoin in zone Away Field",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Odelia Abbott in zone Away Field",
+    "Vivia Namara tries to Tackle Calvinna Isador, but misses!",
+    "Vivia Namara tries to Tackle Calvinna Isador, but misses!",
+    "Autumn Jodoin tries to Tackle Gurney Fadiman, but misses!",
+    "Autumn Jodoin tries to Tackle Gurney Fadiman, but misses!",
+    "Cornela Piscatelli Tackles Reginauld Cordell and INJURES THEM!",
+    "Cornela Piscatelli Tackles Reginauld Cordell and INJURES THEM!",
+    "Vivia Namara tries to Tackle Odelia Abbott, but misses!",
+    "Vivia Namara tries to Tackle Odelia Abbott, but misses!",
+    "Lorilee Aldred tries to Tackle Cornela Piscatelli, but misses!",
+    "Lorilee Aldred tries to Tackle Cornela Piscatelli, but misses!",
+    "Harilda Sigsmond tries to Tackle Sondra Elaina, but misses!",
+    "Harilda Sigsmond tries to Tackle Sondra Elaina, but misses!",
+    "Autumn Jodoin passes the ball to Kerwin Gasper!",
+    "Autumn Jodoin passes the ball to Kerwin Gasper!",
+    "Shepperd Trefler tries to Tackle Godart Urissa, but misses!",
+    "Shepperd Trefler tries to Tackle Godart Urissa, but misses!",
+    "Godart Urissa throws a wild pass and it lands on the ground!",
+    "Godart Urissa throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Sondra Elaina in zone Away Field",
+    "Autumn Jodoin runs with the ball and advances towards the goal!",
+    "Autumn Jodoin runs with the ball and advances towards the goal!",
+    "Godart Urissa shoots from Away 2-Point but misses the goal!",
+    "Godart Urissa shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Calvinna Isador in zone Away 2-Point",
+    "Eal Caundra has returned Reginauld Cordell to play",
+    "Autumn Jodoin runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Autumn Jodoin runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Odelia Abbott in zone Center Field",
+    "Autumn Jodoin runs with the ball and advances towards the goal!",
+    "Autumn Jodoin runs with the ball and advances towards the goal!",
+    "Godart Urissa tries to Tackle Benjie Foulk, but misses!",
+    "Godart Urissa tries to Tackle Benjie Foulk, but misses!",
+    "Cornela Piscatelli runs with the ball and advances towards the goal!",
+    "Cornela Piscatelli runs with the ball and advances towards the goal!",
+    "Ultun Barthelemy tries to Tackle Johnna Beetner, but misses!",
+    "Ultun Barthelemy tries to Tackle Johnna Beetner, but misses!",
+    "Vivia Namara tries to Tackle Kerwin Gasper, but misses!",
+    "Vivia Namara tries to Tackle Kerwin Gasper, but misses!",
+    "Sondra Elaina tries to Tackle Shepperd Trefler, but misses!",
+    "Sondra Elaina tries to Tackle Shepperd Trefler, but misses!",
+    "Lorilee Aldred tries to Tackle Sabian Gleason, but misses!",
+    "Lorilee Aldred tries to Tackle Sabian Gleason, but misses!",
+    "Gurney Fadiman Tackles Godart Urissa and INJURES THEM!",
+    "Gurney Fadiman Tackles Godart Urissa and INJURES THEM!",
+    "Rebane Kendy runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Rebane Kendy runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Rebane Kendy in zone Center Field",
+    "Lorilee Aldred Tackles Cornela Piscatelli and INJURES THEM!",
+    "Lorilee Aldred Tackles Cornela Piscatelli and INJURES THEM!",
+    "Reginauld Cordell tries to Tackle Kerwin Gasper, but misses!",
+    "Reginauld Cordell tries to Tackle Kerwin Gasper, but misses!"
+  ],
+  "openBar": false
+}
