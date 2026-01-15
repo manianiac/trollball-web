@@ -1,0 +1,907 @@
+{
+  "homeTeam": {
+    "name": "The Ebon Gate Corruptors",
+    "slug": "ebon-gate",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 59,
+    "stadium": {
+      "name": "The Sinking Field",
+      "location": "Ebon Gate",
+      "description": "A notoriously poorly-maintained stadium built on reclaimed marshland. The ground is unstable, often waterlogged, and sections of the stands are known to collapse.",
+      "modifiers": ["Thick Mud", "Noxious Fumes", "Sinkhole"]
+    },
+    "healer": {
+      "name": "Terle Chenay",
+      "team": "The Ebon Gate Corruptors",
+      "stats": {
+        "pass": 62,
+        "catch": 64,
+        "run": 70,
+        "block": 58,
+        "fight": 46,
+        "throw": 62,
+        "luck": 58,
+        "pronouns": "She/Her",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Mace",
+        "pregame_ritual": "Seeing who on the team can belch the loudest.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Bullion Iglesias",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 55,
+          "block": 52,
+          "fight": 52,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Meditating silently in the corner of the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Olnek Vizzone",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 48,
+          "run": 53,
+          "block": 59,
+          "fight": 49,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Smith Syst",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 49,
+          "block": 47,
+          "fight": 63,
+          "throw": 59,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Daring a teammate to eat a live worm.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Napoleon Anzovin",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 52,
+          "block": 45,
+          "fight": 59,
+          "throw": 49,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ahasuerus An",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 39,
+          "catch": 56,
+          "run": 49,
+          "block": 61,
+          "fight": 51,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bullion Iglesias",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 55,
+          "block": 52,
+          "fight": 52,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Meditating silently in the corner of the locker room.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Olnek Vizzone",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 48,
+          "run": 53,
+          "block": 59,
+          "fight": 49,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Napoleon Anzovin",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 52,
+          "block": 45,
+          "fight": 59,
+          "throw": 49,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Simsar Carrelli",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 68,
+          "catch": 54,
+          "run": 53,
+          "block": 56,
+          "fight": 53,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ahasuerus An",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 39,
+          "catch": 56,
+          "run": 49,
+          "block": 61,
+          "fight": 51,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Tapping each piece of their armor in a specific sequence.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellette Paz",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 54,
+          "block": 65,
+          "fight": 54,
+          "throw": 66,
+          "luck": 44,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Judi Carrington",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 61,
+          "catch": 53,
+          "run": 58,
+          "block": 53,
+          "fight": 55,
+          "throw": 56,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Estoc",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Amedeo Bari",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 60,
+          "catch": 54,
+          "run": 67,
+          "block": 53,
+          "fight": 53,
+          "throw": 53,
+          "luck": 45,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Smith Syst",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 49,
+          "block": 47,
+          "fight": 63,
+          "throw": 59,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Daring a teammate to eat a live worm.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "As Utter",
+        "team": "The Ebon Gate Corruptors",
+        "stats": {
+          "pass": 56,
+          "catch": 57,
+          "run": 48,
+          "block": 50,
+          "fight": 67,
+          "throw": 38,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Greatsword",
+          "pregame_ritual": "Insisting on being the last player to leave the locker room.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Confluence Captains",
+    "slug": "confluence",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "stadium": {
+      "name": "The Glowstone Terrace",
+      "location": "Confluence (World's Spine Mountains)",
+      "description": "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+      "modifiers": ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"]
+    },
+    "healer": {
+      "name": "Kant Langill",
+      "team": "The Confluence Captains",
+      "stats": {
+        "pass": 51,
+        "catch": 55,
+        "run": 54,
+        "block": 49,
+        "fight": 59,
+        "throw": 59,
+        "luck": 65,
+        "pronouns": "He/Him",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 65,
+        "favorite_weapon": "Scimitar",
+        "pregame_ritual": "Doing a terrible, clumsy dance to 'loosen the joints'.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      }
+    ]
+  },
+  "preGame": "### 🎙️ STEP RIGHT UP, SPORTS FANS! IT'S PLAYOFF TIME IN OSTERRA! 🏟️\n\nHello, you beautiful souls, you seekers of carnage, you lovers of the grand old game! This is Nok the Corrupter coming to you live from the most wonderfully dilapidated patch of swamp in the realm—**The Sinking Field**! We are kicking off the post-season with a Best of 3 clash that’ll make your teeth rattle! The air is thick with noxious fumes, the mud is up to our knees, and the playoff atmosphere is absolutely electric—or maybe that’s just the swamp gas igniting! \n\nOur home team today, the pride of the pits, the **Ebon Gate Corruptors**, are looking to defend their turf! I tell ya, folks, I saw Amedeo Bari in the tunnel polishing his boots with pure bacon grease—now that’s a man who knows how to slide through a tackle! Olnek Vizzone is over there clapping his hands in prime numbers, looking focused, looking sharp, looking ready to break some ribs for the glory of the Gate! They’ve got the grit, they’ve got the smell, and they’ve got my heart!\n\nBut don't count out the visitors! Traveling down from the mountain peaks, we have **The Confluence Captains**! They’re looking a bit high-and-mighty for a bunch of Guild-backed glory-seekers. I caught Ladew Evelina chugging a raw egg—shell and all!—while O'Conner Maighdlin is refusing to speak unless it rhymes! Can you believe the gall of these mountain-dwellers? They might have the fancy scimitars and the Guild’s gold, but can they survive the sinkholes of Ebon Gate? \n\nIt's a beautiful day for Trollball, folks! The stands are sagging, the mud is churning, and the Everwar ensures that even if a player loses a head, they’ll be back for Game 2! Let’s get ready for some sanctioned slaughter! 🏐💥",
+  "postGame": "### 🎙️ THE FINAL WHISTLE BLOWS ON A SWAMP-SOAKED SHAMBLES! 🏟️\n\nGreat shades of Orzalon, what a display of athletic brutality we’ve witnessed here today! While my beloved **Ebon Gate Corruptors** didn't quite find the basket, the medical tents are absolutely overflowing, and isn't that the real victory? The Confluence Captains take Game 1 of this series with a staggering 6-0 victory, but they’ll be picking mud and teeth out of their gear for a month! Let’s break down this wonderful mess!\n\nThings started fast and filthy in Center Field! Simsar Carrelli scooped up the head early, but the Captains’ O'Conner Maighdlin decided he wasn’t there to play ball—he was there to play butcher! With a hatchet in hand, he sent Amedeo Bari and Napoleon Anzovin to the infirmary before the game even had its legs! I haven’t seen such efficient work since Cyfnerth the Butcher last went grocery shopping!\n\nThe Captains didn't just fight; they moved the leather. Carnahan Laud, that dandelion-eating dynamo, took a shot from the Away Field and zipped it right through the goal for 2 points! My Corruptors tried to respond, but the mud was a cruel mistress today. Smith Syst and Bullion Iglesias were trading passes like they were at a fancy tea party held by Maple the Tree, but they couldn't find the end zone!\n\nBefore we could even catch our breath, O'Conner Maighdlin—still rhyming, I assume—threw a long-range beauty from Center Field! **BOOM!** Two more points for the mountain-dwellers! The Corruptors looked stuck in the muck, and Behl Berstine made them pay, charging into the end zone for a 1-point dunk that felt like a dagger to the soul. It was 5-0 before the halftime fumes even started to make the fans hallucinate!\n\nSpeaking of halftime, our players came back looking a bit woozy! Between the noxious fumes of the Sinking Field and whatever questionable spirits they’re swilling in the locker room, the second half was a masterclass in drunken violence! Smith Syst got absolutely leveled by Richia Pazit, and the sound of that impact was sweeter than any siren's song! \n\nBut my boys wouldn't go down without a fight! Napoleon Anzovin got his revenge, putting Vonni Geoff into the dirt, and Ellette Paz absolutely flattened Stephan Lisk! It was a regular meat-grinder out there! Even the Guild of the Black Sky’s own Brennen Farno would’ve blushed at the amount of blood being spent—and we know how he feels about spending anything!\n\nThe injuries just kept piling up! Richia Pazit, Behl Berstine, and Deach Sharlene all found themselves on the wrong end of a weapon. It was a beautiful, chaotic symphony of groans and clashing steel! If only Sir Tanos could see this—he’d probably try to stab me for enjoying it so much, the big lug!\n\nDespite the Corruptors' best efforts to turn the game into a wrestling match, the Captains found one more opening. Belding Chloe, who I suspect spent the morning rubbing her armor in armpit sweat for 'luck,' powered through the defense and dunked the final point of the match! 6-0, a clean sweep on the scoreboard, even if the players are anything but clean!\n\nI must say, I’m disappointed in the result, but thrilled by the carnage! My Corruptors showed heart, mostly by leaving bits of it on the field. Those Captains think they’re so smart with their 'literacy' and their 'scimitars,' but they’re going to need more than a rhyme to survive Game 2! \n\nThe series stands at 1-0 in favor of the **Confluence Captains**. If the Corruptors don't find their footing in the mud soon, they’ll be heading to the loser’s bracket faster than a fey circus flees a Linaius rant! \n\nFinal Score: **The Confluence Captains 6, The Ebon Gate Corruptors 0**. \n\nStay tuned for more Tuesday Night Trollball! May your drinks be strong and your armor be reinforced! Nok the Corrupter, signing off! 🏐💀🍻",
+  "week": 1,
+  "homeScore": 0,
+  "awayScore": 6,
+  "slug": "po-1-1-ebon-gate-confluence",
+  "plays": [
+    "The Trollball is picked up by Simsar Carrelli in zone Center Field",
+    "Caves Cestar tries to Tackle As Utter, but misses!",
+    "O'Conner Maighdlin tries to Tackle Ahasuerus An, but misses!",
+    "O'Conner Maighdlin Tackles Amedeo Bari and INJURES THEM!",
+    "O'Conner Maighdlin Tackles Napoleon Anzovin and INJURES THEM!",
+    "Behl Berstine tries to Tackle Simsar Carrelli, but misses!",
+    "Bullion Iglesias runs with the ball and advances towards the goal!",
+    "As Utter tries to run with the ball but is stopped by the defense!",
+    "Richia Pazit tries to Tackle Smith Syst, but Smith Syst blocks it!",
+    "Smith Syst passes the ball to Bullion Iglesias!",
+    "Deach Sharlene tries to Tackle Olnek Vizzone, but misses!",
+    "Ahasuerus An passes the ball to Judi Carrington, but they drop it!",
+    "The Trollball is picked up by Deach Sharlene in zone Away Field",
+    "Smith Syst tries to Tackle Carnahan Laud, but Carnahan Laud blocks it!",
+    "Carnahan Laud shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Caves Cestar in zone Center Field",
+    "O'Conner Maighdlin shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Ladew Evelina in zone Center Field",
+    "Vonni Geoff tries to Tackle Ellette Paz, but misses!",
+    "Caves Cestar runs with the ball and advances towards the goal!",
+    "Vonni Geoff tries to run with the ball but is stopped by the defense!",
+    "Richia Pazit runs with the ball and advances towards the goal!",
+    "Stephan Lisk tries to Tackle Simsar Carrelli, but Simsar Carrelli blocks it!",
+    "Vonni Geoff tries to Tackle Olnek Vizzone, but Olnek Vizzone blocks it!",
+    "Belding Chloe tries to Tackle As Utter, but misses!",
+    "Ellette Paz tries to Tackle Belding Chloe, but misses!",
+    "Behl Berstine runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Judi Carrington in zone Center Field",
+    "Ellette Paz throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Ahasuerus An in zone Center Field",
+    "Smith Syst tries to Tackle Vonni Geoff, but misses!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by O'Conner Maighdlin in zone Center Field",
+    "Richia Pazit Tackles Smith Syst and INJURES THEM!",
+    "Napoleon Anzovin Tackles Vonni Geoff and INJURES THEM!",
+    "Ellette Paz Tackles Stephan Lisk and INJURES THEM!",
+    "Judi Carrington tries to Tackle Ladew Evelina, but Ladew Evelina blocks it!",
+    "Olnek Vizzone tries to Tackle Carnahan Laud, but misses!",
+    "O'Conner Maighdlin throws a wild pass and it is INTERCEPTED by Bullion Iglesias!",
+    "Amedeo Bari shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by O'Conner Maighdlin in zone Center Field",
+    "Belding Chloe runs with the ball and advances towards the goal!",
+    "Belding Chloe tries to run with the ball but is stopped by the defense!",
+    "Napoleon Anzovin Tackles Caves Cestar and INJURES THEM!",
+    "Ahasuerus An Tackles Richia Pazit and INJURES THEM!",
+    "Judi Carrington Tackles Behl Berstine and INJURES THEM!",
+    "Smith Syst Tackles Deach Sharlene and INJURES THEM!",
+    "Ahasuerus An tries to Tackle Belding Chloe, but Belding Chloe blocks it!",
+    "Smith Syst tries to Tackle Belding Chloe, but misses!",
+    "Amedeo Bari tries to Tackle O'Conner Maighdlin, but misses!",
+    "Ellette Paz tries to Tackle Carnahan Laud, but misses!",
+    "Ladew Evelina runs with the ball and advances towards the goal!",
+    "Belding Chloe runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Olnek Vizzone in zone Center Field",
+    "Napoleon Anzovin tries to Tackle Belding Chloe, but misses!",
+    "Ahasuerus An runs with the ball and advances towards the goal!",
+    "Bullion Iglesias tries to run with the ball but is stopped by the defense!",
+    "Vonni Geoff Tackles As Utter and INJURES THEM!",
+    "Simsar Carrelli runs with the ball and advances towards the goal!"
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "homeTeam": {
+    "name": "The Starlight Bazaar Bizarres",
+    "slug": "starlight-bazaar",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 63,
+    "stadium": {
+      "name": "The Prismatic Pavilion",
+      "location": "Starlight Bazaar (Starlight Lagoon)",
+      "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+      "modifiers": ["Lagoon Splash", "Troupe Distraction", "Unstable Footing"]
+    },
+    "healer": {
+      "name": "Essa Pattie",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 57,
+        "catch": 55,
+        "run": 67,
+        "block": 56,
+        "fight": 52,
+        "throw": 45,
+        "luck": 53,
+        "pronouns": "He/Him",
+        "civic_engagement": 46,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Horseman's Pick",
+        "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milo Nelie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 61,
+          "catch": 66,
+          "run": 44,
+          "block": 45,
+          "fight": 49,
+          "throw": 53,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melesa Zelten",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 43,
+          "catch": 61,
+          "run": 59,
+          "block": 60,
+          "fight": 57,
+          "throw": 49,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milo Nelie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 61,
+          "catch": 66,
+          "run": 44,
+          "block": 45,
+          "fight": 49,
+          "throw": 53,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melesa Zelten",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 43,
+          "catch": 61,
+          "run": 59,
+          "block": 60,
+          "fight": 57,
+          "throw": 49,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Wyrmwood Stronghammers",
+    "slug": "wyrmwood",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 66,
+    "stadium": {
+      "name": "The Hollow Mine",
+      "location": "Wyrmwood Hollow",
+      "description": "The playing field is the circular, wildflower-covered clearing at the base of the imposing, ivy-covered Watch Tower. The ground hums with a strange energy, and the home team makes their entrance from the newly-opened mine shaft that bores deep into the tower's foundation.",
+      "modifiers": ["Humming Earth", "Tangled Vines", "Mine Draft"]
+    },
+    "healer": {
+      "name": "Hamburger Marthe",
+      "team": "The Wyrmwood Stronghammers",
+      "stats": {
+        "pass": 51,
+        "catch": 54,
+        "run": 46,
+        "block": 67,
+        "fight": 61,
+        "throw": 54,
+        "luck": 54,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Arming Sword",
+        "pregame_ritual": "Seeing how many dried beans they can fit in their nostril.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Rebane Kendy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 61,
+          "catch": 51,
+          "run": 53,
+          "block": 56,
+          "fight": 45,
+          "throw": 60,
+          "luck": 43,
+          "pronouns": "He/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Sabian Gleason",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 48,
+          "block": 42,
+          "fight": 67,
+          "throw": 52,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Counting the number of clouds in the sky.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ultun Barthelemy",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 58,
+          "run": 58,
+          "block": 54,
+          "fight": 59,
+          "throw": 58,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Partisan",
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Kerwin Gasper",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 60,
+          "catch": 48,
+          "run": 51,
+          "block": 55,
+          "fight": 58,
+          "throw": 63,
+          "luck": 54,
+          "pronouns": "They/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Calvinna Isador",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 57,
+          "catch": 47,
+          "run": 44,
+          "block": 41,
+          "fight": 57,
+          "throw": 51,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Giving a rambling, often nonsensical 'pump-up' speech.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Cornela Piscatelli",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 62,
+          "run": 59,
+          "block": 58,
+          "fight": 56,
+          "throw": 66,
+          "luck": 60,
+          "pronouns": "He/Him",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 68,
+          "pregame_ritual": "Braiding a teammate's nose hair.",
+          "literate": false,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Sondra Elaina",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 55,
+          "catch": 54,
+          "run": 56,
+          "block": 59,
+          "fight": 49,
+          "throw": 59,
+          "luck": 53,
+          "pronouns": "She/Her",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Polishing their boots with bacon grease.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Odelia Abbott",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 66,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 56,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Godart Urissa",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 49,
+          "catch": 56,
+          "run": 58,
+          "block": 52,
+          "fight": 43,
+          "throw": 70,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Autumn Jodoin",
+        "team": "The Wyrmwood Stronghammers",
+        "stats": {
+          "pass": 53,
+          "catch": 43,
+          "run": 59,
+          "block": 54,
+          "fight": 48,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "# 🎙️ LIVE FROM THE PRISMATIC PAVILION: IT'S GAME TWO! 🏟️\n\nGreetings, ghouls, ghosts, and glorious gladiators of Osterra! Your favorite demon of the airwaves, Nok the Corrupter, is coming to you live from the dazzling, dizzying heights of the Prismatic Pavilion! We are perched over the Starlight Lagoon, and let me tell you, the smell of salt water and impending doom is absolutely intoxicating! It’s Game 2 of the Playoffs, folks, and the tension is thicker than the mud in a Wyrmwood hollow! The Starlight Bazaar Bizarres are up 1-0 in this Best-of-3, and if the Wyrmwood Stronghammers don't find their grit today, they’ll be heading straight to the loser's bracket! 🛶💥\n\nLook at those Stronghammers down there on the planks! They look a bit out of their element away from the Mine, but they haven't lost their pre-game charm! I just saw Autumn Jodoin chug a raw egg—shell and all—like a complete maniac! That’s the kind of calcium-rich violence I love to see! Meanwhile, Ultun Barthelemy is busy braiding a teammate's nose hair for luck. It’s a beautiful sight, really, a true display of brotherly love before they start smashing skulls! They’re going to need all the luck they can get with that 'Unstable Footing' modifier—one wrong step and you’re taking a bath with the lagoon monsters! 🥚👃\n\nBut the Bizarres are at home, and boy, do they know it! They’ve got the crowd in the palm of their hands. Quintessa Austine is trying to start a 'slow clap,' though most of the audience is too busy watching the Prismatic Troupe’s acrobats to notice! I see Kristin Kronfeld getting her shoulder punched hard by a teammate to get the blood flowing—now that’s a warm-up! These circus-folk are flashy, but can they handle the raw, unadulterated power of a Stronghammer maul? Or will Kython and his troupe of 'heroes' have to fish them out of the water? 🎪🌊\n\nIt’s a do-or-die situation for Wyrmwood! The series lead is on the line, and I’m hoping for a bloodbath that would make even my boss, Lord Orzalon, crack a smile in his cell! If the Bizarres win, it’s curtains for the Hammers! If the Hammers win, we’ve got a Game 3 on our hands! Either way, the violence is guaranteed! So grab your favorite beverage, ignore those pesky 'White Ravens' trying to keep the peace, and get ready for some Trollball! ⚔️🏈",
+  "postGame": "# 🏆 THE HAMMERS STRIKE BACK! WYRMWOOD FORCES GAME 3! 🔨\n\nHoly smokes, what a peach of a game! If you like your sports with a side of total physical annihilation, then you were in the right place! We just witnessed a classic playoff struggle that went all the way to the wire! The Wyrmwood Stronghammers have clawed their way back into this series with a 2 to 1 victory over the Starlight Bazaar Bizarres, proving that you can't keep a good miner down! It was a real seesaw of a battle that left the Prismatic Pavilion shaking on its stilts! 🌉😱\n\nThings got off to a roaring start when Gagliano Tallbott scooped up the Trollball and looked like he was ready to dance! But the Stronghammers weren't in a dancing mood! Rebane Kendy decided Gagliano’s ribs were looking far too intact and delivered a tackle that sent him straight to the infirmary! It was a beautiful display of playoff intensity, folks! If Sir Tanos had half that much fire in his belly, he might actually finish a quest for once instead of just stabbing me! 🦴💥\n\nThe carnage didn't stop there, oh no! Sondra Elaina and Kerwin Gasper followed suit, flattening Milo Nelie and Melesa Zelten in quick succession! The Bizarres were dropping like flies! Healer Essa Pattie was running around with a horseman's pick and a prayer, trying to patch up the troupe before they were completely wiped out! It was a glorious symphony of bone-crunching hits that really set the tone for the afternoon! 🏥💀\n\nDespite the early bruising, the Bizarres showed some of that circus grit! Demp Chet fired a laser-accurate pass to a revived Gagliano Tallbott right in the End Zone, and BOOM! A dunk for the home team! The lagoon was splashing, the troupe was cheering, and for a moment, it looked like the Bizarres were going to sweep the series! Even Caenis the Fatebreaker would have been impressed by that coordination—though she’s probably too busy having an identity crisis to care! 🎪🎯\n\nBut you can't count out the Hammers! Godart Urissa grabbed the ball and the comeback was on! Autumn Jodoin and Kerwin Gasper were leading the charge like a pair of runaway mine carts, clearing the path through those 'Tangled Vines'—wait, wrong stadium, but they played like they brought the Mine with them! Calvinna Isador threw a pass that was wilder than a rogue in a circus, but it didn't matter! The momentum had shifted! 🚂🔥\n\nRebane Kendy, not content with just injuring people, decided to show off some footwork! He charged into the End Zone and slammed that Trollball home for a dunk! Tie game! The crowd was going absolutely berserk! I haven't seen this much excitement since Morgwae the Warlock got exiled! It’s a shame the popularity polls don't count for points, or the Snessengers would have won the whole league by now, but on the field, it’s all about the hustle! 🏀🙌\n\nThe tension was so thick you could cut it with a kriegsmesser! Milo Nelie managed to get a bit of revenge by taking out Rebane Kendy, but the Stronghammers' depth was just too much. Ultun Barthelemy kept the ball moving, dodging the 'Troupe Distractions' and the 'Unstable Footing' like a seasoned pro. You could tell these guys were playing for their lives—or at least for their memories, since death is just a temporary inconvenience in this crazy realm! 🌀🛡️\n\nThen came the moment of truth! Odelia Abbott, the man with the whip, decided to take matters into his own hands! He sprinted past the Bizarres' defense, ignoring the 'Lagoon Splash,' and dunked the ball for the go-ahead score! 2 to 1! The Wyrmwood fans—all three of them that made the trip—were ecstatic! It was a masterclass in linear progression! 🏃‍♂️💨\n\nThe game was so tight it actually pushed into Overtime! We had a quick break where everyone got their teeth put back in, but the score held firm! The Bizarres tried to rally, but the Stronghammers' defense was a stone wall. Even with the Prismatic Troupe trying to distract them, the Hammers stayed focused. It’s a good thing the bar wasn't officially an open bar today, or Cornela Piscatelli might have been too lubricated to hold his line! 🍺🛑\n\nSo there you have it, folks! The series is tied 1-1! The Wyrmwood Stronghammers have forced a Game 3! The Bizarres are looking a little less 'Bizarre' and a little more 'Beaten' tonight! This is what playoff Trollball is all about! No heroes, no 'Sunbringers,' just raw power and a leather head in a basket! 🏆✨\n\nI’m Nok the Corrupter, and I’m heading down to the lagoon to see if any of those 'Bizarres' left their dignity in the water! We’ll see you all for the decider! Don't forget to pay your bar tab to Imra, or she might turn your blood into dust! Goodnight, Osterra! 🎙️🖤",
+  "week": 2,
+  "homeScore": 1,
+  "awayScore": 2,
+  "slug": "po-1-2-starlight-bazaar-wyrmwood",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Gagliano Tallbott in zone Away 2-Point",
+    "Calvinna Isador tries to Tackle Gagliano Tallbott, but Gagliano Tallbott blocks it!",
+    "Autumn Jodoin tries to Tackle Pompei Hephzipa, but misses!",
+    "Rebane Kendy Tackles Gagliano Tallbott and INJURES THEM!",
+    "Sondra Elaina Tackles Milo Nelie and INJURES THEM!",
+    "Kerwin Gasper Tackles Melesa Zelten and INJURES THEM!",
+    "Cornela Piscatelli tries to Tackle Kristin Kronfeld, but Kristin Kronfeld blocks it!",
+    "Demp Chet passes to Gagliano Tallbott in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Godart Urissa in zone Center Field",
+    "Pompei Hephzipa tries to Tackle Sondra Elaina, but Sondra Elaina blocks it!",
+    "Autumn Jodoin runs with the ball and advances towards the goal!",
+    "Bush Heiner tries to Tackle Cornela Piscatelli, but misses!",
+    "Kerwin Gasper runs with the ball and advances towards the goal!",
+    "Calvinna Isador throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Autumn Jodoin in zone Home 2-Point",
+    "Kerwin Gasper shoots from Home 2-Point but misses the goal!",
+    "The Trollball is picked up by Odelia Abbott in zone Home 2-Point",
+    "Kerwin Gasper tries to Tackle Quintessa Austine, but misses!",
+    "Kristin Kronfeld tries to Tackle Ultun Barthelemy, but misses!",
+    "Rebane Kendy runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Rebane Kendy in zone Center Field",
+    "Demp Chet tries to Tackle Calvinna Isador, but Calvinna Isador blocks it!",
+    "Sondra Elaina runs with the ball and advances towards the goal!",
+    "Willa Lois tries to Tackle Ultun Barthelemy, but Ultun Barthelemy blocks it!",
+    "Willa Lois tries to Tackle Rebane Kendy, but misses!",
+    "Milo Nelie Tackles Rebane Kendy and INJURES THEM!",
+    "Ultun Barthelemy runs with the ball and advances towards the goal!",
+    "Odelia Abbott runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play"
+  ]
+}

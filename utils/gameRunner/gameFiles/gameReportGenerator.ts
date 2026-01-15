@@ -319,6 +319,7 @@ export async function generateGameReports(
       </hero_data>
       
       Here are all the games in this series that have already been played
+      This is currently game ${gameData.week} of 3
       <past_games>
       ${JSON.stringify(seriesGames)}
       </past_games>

@@ -1,0 +1,904 @@
+{
+  "homeTeam": {
+    "name": "The Greenwatch",
+    "slug": "greenwatch",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Oakmaul Grounds",
+      "location": "Hafting",
+      "description": "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+      "modifiers": ["Ritual Focus", "Scarred Oak's Shadow", "Hallowed Ground"]
+    },
+    "healer": {
+      "name": "Nariko Javed",
+      "team": "The Greenwatch",
+      "stats": {
+        "pass": 52,
+        "catch": 55,
+        "run": 58,
+        "block": 56,
+        "fight": 50,
+        "throw": 55,
+        "luck": 73,
+        "pronouns": "They/Them",
+        "civic_engagement": 44,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Pike",
+        "pregame_ritual": "Wiggling their fingers in a complex, magical-looking pattern.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Madea Mensch",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 52,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nobe Haukom",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 62,
+          "run": 44,
+          "block": 53,
+          "fight": 49,
+          "throw": 51,
+          "luck": 55,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Verne Methuselah",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 60,
+          "run": 60,
+          "block": 61,
+          "fight": 61,
+          "throw": 59,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rese Halpern",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 50,
+          "run": 68,
+          "block": 56,
+          "fight": 51,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Salahi Bushey",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 57,
+          "catch": 55,
+          "run": 60,
+          "block": 50,
+          "fight": 68,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Anointing their forehead with morning dew.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Darin Berliner",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 60,
+          "run": 48,
+          "block": 56,
+          "fight": 63,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false,
+          "favorite_weapon": "Bardiche"
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Madea Mensch",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 52,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nobe Haukom",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 62,
+          "run": 44,
+          "block": 53,
+          "fight": 49,
+          "throw": 51,
+          "luck": 55,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Verne Methuselah",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 60,
+          "run": 60,
+          "block": 61,
+          "fight": 61,
+          "throw": 59,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rese Halpern",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 50,
+          "run": 68,
+          "block": 56,
+          "fight": 51,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Salahi Bushey",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 57,
+          "catch": 55,
+          "run": 60,
+          "block": 50,
+          "fight": 68,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Anointing their forehead with morning dew.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Darin Berliner",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 60,
+          "run": 48,
+          "block": 56,
+          "fight": 63,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false,
+          "favorite_weapon": "Bardiche"
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Oread's Summit Tamers",
+    "slug": "oreads-summit",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 67,
+    "stadium": {
+      "name": "The High-Pass Pitch",
+      "location": "Oread's Summit",
+      "description": "A field built at a breathtaking altitude in a fortified mountain pass. The air is painfully thin, and the weather is dangerously unpredictable.",
+      "modifiers": ["Thin Air", "Sudden Blizzard", "Vertigo"]
+    },
+    "healer": {
+      "name": "Carn Tibbetts",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 54,
+        "catch": 51,
+        "run": 59,
+        "block": 57,
+        "fight": 51,
+        "throw": 52,
+        "luck": 65,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "Shortsword",
+        "pregame_ritual": "Tying a small, hand-carved wooden bird to their gear.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Odericus Juxon",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 56,
+          "block": 50,
+          "fight": 45,
+          "throw": 60,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Kass Fogel",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 55,
+          "catch": 46,
+          "run": 59,
+          "block": 50,
+          "fight": 57,
+          "throw": 59,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zadoc Wyatan",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 67,
+          "run": 60,
+          "block": 58,
+          "fight": 58,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alwyn Wandy",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 34,
+          "run": 56,
+          "block": 64,
+          "fight": 53,
+          "throw": 65,
+          "luck": 63,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dric Trilley",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 59,
+          "block": 67,
+          "fight": 45,
+          "throw": 49,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Swamy Ahasuerus",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 69,
+          "catch": 53,
+          "run": 50,
+          "block": 53,
+          "fight": 52,
+          "throw": 60,
+          "luck": 51,
+          "pronouns": "She/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Clippard Burr",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 38,
+          "catch": 60,
+          "run": 65,
+          "block": 57,
+          "fight": 57,
+          "throw": 62,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mitran Mariand",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 54,
+          "run": 63,
+          "block": 42,
+          "fight": 57,
+          "throw": 51,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Dirk",
+          "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Edme Virgil",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 63,
+          "block": 56,
+          "fight": 62,
+          "throw": 62,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Saloma Talich",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 66,
+          "catch": 53,
+          "run": 48,
+          "block": 45,
+          "fight": 52,
+          "throw": 57,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Kass Fogel",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 55,
+          "catch": 46,
+          "run": 59,
+          "block": 50,
+          "fight": 57,
+          "throw": 59,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alwyn Wandy",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 34,
+          "run": 56,
+          "block": 64,
+          "fight": 53,
+          "throw": 65,
+          "luck": 63,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dric Trilley",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 59,
+          "block": 67,
+          "fight": 45,
+          "throw": 49,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Swamy Ahasuerus",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 69,
+          "catch": 53,
+          "run": 50,
+          "block": 53,
+          "fight": 52,
+          "throw": 60,
+          "luck": 51,
+          "pronouns": "She/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Clippard Burr",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 38,
+          "catch": 60,
+          "run": 65,
+          "block": 57,
+          "fight": 57,
+          "throw": 62,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Edme Virgil",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 63,
+          "block": 56,
+          "fight": 62,
+          "throw": 62,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Saloma Talich",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 66,
+          "catch": 53,
+          "run": 48,
+          "block": 45,
+          "fight": 52,
+          "throw": 57,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mitran Mariand",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 54,
+          "run": 63,
+          "block": 42,
+          "fight": 57,
+          "throw": 51,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Dirk",
+          "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Odericus Juxon",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 56,
+          "block": 50,
+          "fight": 45,
+          "throw": 60,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Zadoc Wyatan",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 67,
+          "run": 60,
+          "block": 58,
+          "fight": 58,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "# 🎙️ TUESDAY NIGHT TROLLBALL: PLAYOFF EDITION! 🎙️\n\nWell, hello there, sports fans and gore-fiends! It's your favorite demon of the airwaves, Nok the Corrupter, coming to you live from **The Oakmaul Grounds** in Hafting! We've got a playoff atmosphere so thick you could cut it with a Vorpal Blade! This is Game 2 of our Best of 3 series, and the pressure is higher than the Demon Prison walls! The **Oread's Summit Tamers** are looking to close the door on **The Greenwatch** after a dominant performance last week. If the Tamers win tonight, it's curtains for the Wardens' favorite team!\n\nI’m looking down at the pitch, and the ritualistic energy of this stadium is palpable! The **Scarred Oak's Shadow** is looming over the field like a hungry spectator. I see **Salahi Bushey** of the Greenwatch anointing his forehead with morning dew—let’s hope it helps him see the troll head through the blood! Meanwhile, **Kass Fogel** of the Tamers is doing her best to avoid eye contact with anyone wearing green. That’s a tall order when you’re playing the Greenwatch in their own backyard! Ha! Talk about a mental hurdle!\n\nOver on the sidelines, **Odericus Juxon** is already slapping her helmet until her ears ring! That’s the spirit! Give yourself a concussion before the opposition can do it for you! The Greenwatch fans are out in force, probably praying to their fancy trees, but the Tamers don't care about popularity—they care about results! Will **Sir Randy** and his fancy bow show up to save his precious Wardens? Not likely, folks! The only things being saved tonight are the teeth of anyone smart enough to stay out of **Troy Jorgan’s** way! Grab your non-alcoholic grog and buckle in, because it’s time for some beautiful, brutal Trollball! 🦴💥",
+  "postGame": "### 🏟️ FINAL SCORE: THE OREAD'S SUMMIT TAMERS 6 - THE GREENWATCH 1 🏟️\n\n**Holy mackerel, what a clinic in carnage!** The Oread's Summit Tamers didn't just win; they absolutely dismantled The Greenwatch right under the shade of their precious scarred oak! With this 6-1 victory, the Tamers have swept the series 2-0, sending the 'heroes' of the Wardens straight into the loser's bracket with their tails between their legs! It was a masterpiece of mid-range shooting and bone-snapping defense that would make even Lord Orzalon crack a smile in his cell!\n\nThe action started with a bang in the Center Field! **Salahi Bushey** decided he was done being polite and absolutely **INJURED** Mitran Mariand right out of the gate! But the Tamers didn't blink. **Zadoc Wyatan** stepped up and sent a beautiful shoot flying through the goal from distance! **2-0, Tamers!** The Greenwatch tried to respond, but their passes were shakier than a rogue caught in a spotlight. \n\nThe violence just kept escalating! **Dric Trilley** returned the favor for the Tamers, leveling **Goldenberg Rimola** with a tackle that sounded like a dry branch snapping! Not to be outdone, **Saloma Talich** sent **Verne Methuselah** to the healer's tent with a crunch that echoed through the stadium! It was a beautiful display of the sport's true spirit. If Falric wants to steal hearts, he should take notes from Saloma, who was aiming for ribs!\n\nThe Greenwatch looked utterly lost in the Center Field. **Nobe Haukom** threw a pass so wild it was practically a gift-wrapped present for **Clippard Burr**, who snagged the interception with demonic glee! Shortly after, **Odericus Juxon** found another opening and buried a second 2-point shoot! The score was climbing, and the Greenwatch’s hopes were sinking faster than a rock in the Confluence!\n\nJust before the half, **Kass Fogel**—who clearly managed to avoid enough green to stay focused—launched another projectile right into the basket! **6-0 for the Tamers!** I haven't seen a blowout this satisfying since the last time a hero tried to lecture me on 'morality' while I was chewing on their greaves! The Greenwatch was in a deep hole, and the thin air of the playoffs was suffocating them.\n\nAfter a halftime break that saw the healers working overtime to stitch our gladiators back together, the Greenwatch finally showed a spark of life. **Alwyn Wandy** continued the Tamer tradition of violence by injuring **Herriott Dhiren**, but the Greenwatch finally found the end zone! **Goldenberg Rimola** went on a tear, dodging tackles left and right, and **DUNKS THE BALL** for a touchdown! A little late to the party, but a point is a point! \n\nThe game devolved into a glorious slugfest in the final minutes. **Rese Halpern** finally got a lick in, injuring **Odericus Juxon**, and **Madea Mensch** followed up by sending **Zadoc Wyatan** to the sidelines! The Greenwatch were fighting like cornered animals, but the scoreboard doesn't care about 'grit' or 'determination' when you're down by five points!\n\nThe final whistle blew, and the silence from the Hafting crowd was deafening! The most unpopular team in the realm just walked into 'Hallowed Ground' and took a giant dump on the ritual! The Greenwatch are headed to the loser's bracket, and I couldn't be happier. Maybe **Sir Randy** can use his fancy bow to hunt for some dignity, because they certainly didn't find any on the pitch today!\n\nCongratulations to the **Oread's Summit Tamers**! They move forward in the playoffs, proving that slapping your own helmet and singing out-of-tune sea shanties is the true path to glory! As for the Greenwatch, maybe they should try rubbing something besides their armpits on the ball next time! \n\nThis is Nok the Corrupter, signing off! Stay violent, Osterra! 😈🔥",
+  "week": 2,
+  "homeScore": 1,
+  "awayScore": 6,
+  "slug": "po-1-2-greenwatch-oreads-summit",
+  "plays": [
+    "The Trollball is picked up by Alwyn Wandy in zone Center Field",
+    "Salahi Bushey Tackles Mitran Mariand and INJURES THEM!",
+    "Zadoc Wyatan tries to run with the ball but is stopped by the defense!",
+    "Zadoc Wyatan shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Herriott Dhiren in zone Center Field",
+    "Verne Methuselah tries to run with the ball but is stopped by the defense!",
+    "Madea Mensch shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Rese Halpern in zone Center Field",
+    "Goldenberg Rimola tries to Tackle Edme Virgil, but misses!",
+    "Dric Trilley Tackles Goldenberg Rimola and INJURES THEM!",
+    "Darin Berliner tries to run with the ball but is stopped by the defense!",
+    "Herriott Dhiren passes the ball to Verne Methuselah!",
+    "Odericus Juxon tries to Tackle Salahi Bushey, but misses!",
+    "Rese Halpern shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Troy Jorgan in zone Center Field",
+    "Saloma Talich Tackles Verne Methuselah and INJURES THEM!",
+    "Alwyn Wandy tries to Tackle Troy Jorgan, but Troy Jorgan blocks it!",
+    "Edme Virgil tries to Tackle Drona Jacklin, but misses!",
+    "Nobe Haukom throws a wild pass and it is INTERCEPTED by Clippard Burr!",
+    "Saloma Talich shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Alwyn Wandy in zone Center Field",
+    "Odericus Juxon shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Mitran Mariand in zone Center Field",
+    "Kass Fogel shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Swamy Ahasuerus in zone Center Field",
+    "Mitran Mariand throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Darin Berliner in zone Center Field",
+    "Drona Jacklin shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Drona Jacklin in zone Center Field",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Clippard Burr in zone Center Field",
+    "Clippard Burr tries to Tackle Goldenberg Rimola, but Goldenberg Rimola blocks it!",
+    "Edme Virgil shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Goldenberg Rimola in zone Center Field",
+    "Dric Trilley tries to Tackle Troy Jorgan, but Troy Jorgan blocks it!",
+    "Odericus Juxon tries to Tackle Troy Jorgan, but misses!",
+    "Troy Jorgan runs with the ball and advances towards the goal!",
+    "Dric Trilley tries to Tackle Troy Jorgan, but misses!",
+    "Clippard Burr tries to Tackle Troy Jorgan, but misses!",
+    "Clippard Burr tries to Tackle Rese Halpern, but misses!",
+    "Herriott Dhiren passes the ball to Nobe Haukom!",
+    "Alwyn Wandy Tackles Herriott Dhiren and INJURES THEM!",
+    "Dric Trilley tries to Tackle Verne Methuselah, but misses!",
+    "Clippard Burr tries to Tackle Goldenberg Rimola, but Goldenberg Rimola blocks it!",
+    "Madea Mensch passes the ball to Salahi Bushey!",
+    "Troy Jorgan runs with the ball and advances towards the goal!",
+    "Goldenberg Rimola runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Swamy Ahasuerus in zone Center Field",
+    "Edme Virgil tries to run with the ball but is stopped by the defense!",
+    "Edme Virgil tries to run with the ball but is stopped by the defense!",
+    "Drona Jacklin tries to Tackle Clippard Burr, but misses!",
+    "Odericus Juxon shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Edme Virgil in zone Center Field",
+    "Salahi Bushey tries to Tackle Dric Trilley, but misses!",
+    "Rese Halpern Tackles Odericus Juxon and INJURES THEM!",
+    "Goldenberg Rimola tries to Tackle Edme Virgil, but misses!",
+    "Madea Mensch Tackles Zadoc Wyatan and INJURES THEM!"
+  ]
+}
