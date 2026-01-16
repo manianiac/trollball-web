@@ -281,7 +281,7 @@ const saveGameResult = async (
     const report = await generateGameReports(gameState, seriesGames);
 
     if (report) {
-      const outputPath = `./utils/gameRunner/results/po-1-${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
+      const outputPath = `./utils/gameRunner/results/po-2-${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
 
       fs.writeFile(
         outputPath,
@@ -293,9 +293,10 @@ const saveGameResult = async (
           week: gameState.week,
           homeScore: gameState.homeScore,
           awayScore: gameState.awayScore,
-          slug: `po-1-${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}`,
+          slug: `po-2-${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}`,
           plays: gameState.plays,
           openBar: gameState.openBar,
+          bracket: gameState.bracket,
         }),
         "utf8",
         (err) => {
@@ -316,6 +317,7 @@ const saveGameResult = async (
                 slug: `${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}`,
                 plays: gameState.plays,
                 openBar: gameState.openBar,
+                bracket: gameState.bracket,
               }),
               "utf8",
               (err2) => {
@@ -346,6 +348,7 @@ const saveGameResult = async (
         slug: `${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}`,
         plays: gameState.plays,
         openBar: gameState.openBar,
+        bracket: gameState.bracket,
       };
 
       fs.writeFile(

@@ -1,0 +1,839 @@
+{
+    "homeTeam": {
+        "name": "The Starlight Bazaar Bizarres",
+        "slug": "starlight-bazaar",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 63,
+        "stadium": {
+            "name": "The Prismatic Pavilion",
+            "location": "Starlight Bazaar (Starlight Lagoon)",
+            "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+            "modifiers": [
+                "Lagoon Splash",
+                "Troupe Distraction",
+                "Unstable Footing"
+            ]
+        },
+        "healer": {
+            "name": "Essa Pattie",
+            "team": "The Starlight Bazaar Bizarres",
+            "stats": {
+                "pass": 57,
+                "catch": 55,
+                "run": 67,
+                "block": 56,
+                "fight": 52,
+                "throw": 45,
+                "luck": 53,
+                "pronouns": "He/Him",
+                "civic_engagement": 46,
+                "alcohol_tolerance": 54,
+                "favorite_weapon": "Horseman's Pick",
+                "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Bush Heiner",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 66,
+                    "block": 62,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 50,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Kristin Kronfeld",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 41,
+                    "throw": 59,
+                    "luck": 45,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Milo Nelie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 61,
+                    "catch": 66,
+                    "run": 44,
+                    "block": 45,
+                    "fight": 49,
+                    "throw": 53,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pompei Hephzipa",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 50,
+                    "catch": 62,
+                    "run": 48,
+                    "block": 39,
+                    "fight": 57,
+                    "throw": 64,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melesa Zelten",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 43,
+                    "catch": 61,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 57,
+                    "throw": 49,
+                    "luck": 50,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Spear",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Demp Chet",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 63,
+                    "catch": 46,
+                    "run": 52,
+                    "block": 53,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Gagliano Tallbott",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 57,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 53,
+                    "fight": 64,
+                    "throw": 61,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Aggri Cookie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 51,
+                    "catch": 65,
+                    "run": 54,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 61,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Willa Lois",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 63,
+                    "fight": 43,
+                    "throw": 43,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Quintessa Austine",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 56,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Bush Heiner",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 66,
+                    "block": 62,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 50,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Kristin Kronfeld",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 41,
+                    "throw": 59,
+                    "luck": 45,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Milo Nelie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 61,
+                    "catch": 66,
+                    "run": 44,
+                    "block": 45,
+                    "fight": 49,
+                    "throw": 53,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pompei Hephzipa",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 50,
+                    "catch": 62,
+                    "run": 48,
+                    "block": 39,
+                    "fight": 57,
+                    "throw": 64,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melesa Zelten",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 43,
+                    "catch": 61,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 57,
+                    "throw": 49,
+                    "luck": 50,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Spear",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Demp Chet",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 63,
+                    "catch": 46,
+                    "run": 52,
+                    "block": 53,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Gagliano Tallbott",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 57,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 53,
+                    "fight": 64,
+                    "throw": 61,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Aggri Cookie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 51,
+                    "catch": 65,
+                    "run": 54,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 61,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Quintessa Austine",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 56,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Willa Lois",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 63,
+                    "fight": 43,
+                    "throw": 43,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "The Confluence Captains",
+        "slug": "confluence",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 60,
+        "stadium": {
+            "name": "The Glowstone Terrace",
+            "location": "Confluence (World's Spine Mountains)",
+            "description": "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+            "modifiers": [
+                "Glowstone Glare",
+                "Mountain Wind",
+                "Market Day Crowd"
+            ]
+        },
+        "healer": {
+            "name": "Kant Langill",
+            "team": "The Confluence Captains",
+            "stats": {
+                "pass": 51,
+                "catch": 55,
+                "run": 54,
+                "block": 49,
+                "fight": 59,
+                "throw": 59,
+                "luck": 65,
+                "pronouns": "He/Him",
+                "civic_engagement": 68,
+                "alcohol_tolerance": 65,
+                "favorite_weapon": "Scimitar",
+                "pregame_ritual": "Doing a terrible, clumsy dance to 'loosen the joints'.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Ladew Evelina",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 65,
+                    "run": 58,
+                    "block": 63,
+                    "fight": 65,
+                    "throw": 64,
+                    "luck": 71,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Deach Sharlene",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 55,
+                    "run": 52,
+                    "block": 52,
+                    "fight": 52,
+                    "throw": 56,
+                    "luck": 62,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Rapier",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Stephan Lisk",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 60,
+                    "catch": 57,
+                    "run": 55,
+                    "block": 59,
+                    "fight": 60,
+                    "throw": 56,
+                    "luck": 51,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "O'Conner Maighdlin",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 66,
+                    "run": 66,
+                    "block": 60,
+                    "fight": 62,
+                    "throw": 54,
+                    "luck": 59,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hatchet",
+                    "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Belding Chloe",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 53,
+                    "catch": 65,
+                    "run": 62,
+                    "block": 72,
+                    "fight": 58,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Behl Berstine",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 61,
+                    "catch": 58,
+                    "run": 65,
+                    "block": 59,
+                    "fight": 42,
+                    "throw": 58,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Caves Cestar",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 63,
+                    "block": 50,
+                    "fight": 60,
+                    "throw": 55,
+                    "luck": 66,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Maul",
+                    "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Vonni Geoff",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 60,
+                    "catch": 62,
+                    "run": 57,
+                    "block": 51,
+                    "fight": 49,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 67,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Sap",
+                    "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Carnahan Laud",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 46,
+                    "catch": 63,
+                    "run": 73,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 53,
+                    "luck": 60,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 68,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Eating a dandelion, stem and all.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Richia Pazit",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 61,
+                    "catch": 42,
+                    "run": 57,
+                    "block": 55,
+                    "fight": 45,
+                    "throw": 50,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Pike",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Deach Sharlene",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 55,
+                    "run": 52,
+                    "block": 52,
+                    "fight": 52,
+                    "throw": 56,
+                    "luck": 62,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Rapier",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "O'Conner Maighdlin",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 66,
+                    "run": 66,
+                    "block": 60,
+                    "fight": 62,
+                    "throw": 54,
+                    "luck": 59,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hatchet",
+                    "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Belding Chloe",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 53,
+                    "catch": 65,
+                    "run": 62,
+                    "block": 72,
+                    "fight": 58,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Richia Pazit",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 61,
+                    "catch": 42,
+                    "run": 57,
+                    "block": 55,
+                    "fight": 45,
+                    "throw": 50,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Pike",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ladew Evelina",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 65,
+                    "run": 58,
+                    "block": 63,
+                    "fight": 65,
+                    "throw": 64,
+                    "luck": 71,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Caves Cestar",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 63,
+                    "block": 50,
+                    "fight": 60,
+                    "throw": 55,
+                    "luck": 66,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Maul",
+                    "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "### 🎙️ STEP RIGHT UP, SPORTS FANS! THE PLAYOFFS ARE HERE! 🎙️\n\nHello, you ghouls, ghosts, and glorious gladiators of the gridiron! It’s your favorite demon of the airwaves, Nok the Corrupter, coming to you live from the **Prismatic Pavilion**! We are kicking off the **Winners Bracket** of the Tuesday Night Trollball playoffs, and the atmosphere here is absolutely electric—literally, I think one of Kython’s troupe members just shocked a spectator for a copper piece! It’s Game 1 of a Best of 3 series, and the stakes couldn't be higher! The winner moves one step closer to glory, while the loser gets kicked down to the losers' bracket like a faulty soul in the Demon Prison! \n\nTonight, we’ve got the **Confluence Captains** sailing in from the World's Spine Mountains to take on the hometown favorites, **The Starlight Bazaar Bizarres**! Now, the Captains are backed by the Guild of the Black Sky, which means plenty of gold and probably a few 'accidental' audits for their enemies. I saw **Ladew Evelina** in the tunnels earlier chugging a raw egg, shell and all! Now that’s what I call a balanced breakfast for a woman who loves her Axe! And keep an ear out for **O'Conner Maighdlin**—he’s been speaking only in rhymes for the last hour. I hope 'goal' rhymes with 'shattering their soul,' because that’s what we want to see today!\n\nOn the other side of the field, the Bizarres are looking to defend their turf over the Starlight Lagoon. It’s a bit flashy for my tastes—too many colors, not enough obsidian—but you have to admire their dedication to the craft. I caught **Gagliano Tallbott** whispering a terrible joke to the Trollball. If the ball starts laughing, we might have a possession problem! They’re lead by the flamboyant Kython, and while I usually prefer my circus acts with more chains and eternal torment, these Bizarres know how to put on a bloody show! \n\nWith the crowd buzzing and the **Lagoon Splash** threatening to soak anyone who gets too close to the edge, this is going to be a dandy! The Captains have a bit more support in the stands today, but will the Guild’s gold be enough to overcome the **Unstable Footing** of this floating pavilion? Let's get ready for some sanctioned mayhem! 🦴💥🏟️",
+    "postGame": "### 🏆 A TOTAL SHUTOUT! CAPTAINS CRUSH THE CARNIVAL! 🏆\n\nWell, pull my horns and call me a goat, what a one-sided slaughter we just witnessed! The **Confluence Captains** didn't just win; they dismantled the **Starlight Bazaar Bizarres** with a final score of **4 to 0**! It was a masterclass in mountain-sized brutality that left the Prismatic Troupe looking more like a pile of discarded costumes than a Trollball team! 🛑🏈\n\nThe action started faster than a soul escaping the pits! **Vonni Geoff** snatched up the head, and before the Bizarres could even strike a theatrical pose, **O'Conner Maighdlin** launched a shot from Center Field that zipped right into the basket! **1-0** early on, and you could hear the rhyming cheers from the mountain-folk all the way in the back rows! \n\nBut folks, the violence is why we’re all here, isn't it? **Caves Cestar** absolutely leveled **Pompei Hephzipa**, sending him to the healer with a sound like a dry branch snapping! The Bizarres tried to fight back—**Quintessa Austine** put a real hurt on **Behl Berstine**, and **Demp Chet** did the same to **Stephan Lisk**. For a while there, it looked like the field was going to be more bodies than Glowstone! Even **Willa Lois** got in on the action, knocking **Vonni Geoff** out of commission. \n\nJust when the Bizarres thought they had a chance to breathe, **O'Conner Maighdlin**—the Rhyming Rogue himself—danced through the defense and performed a spectacular dunk right into the End Zone! **2-0** going into the half! I haven't seen that much grace since Morgwae tried to explain portal physics to a commoner! \n\nHalftime gave everyone a chance to reset their broken bones, but the Captains didn't lose an ounce of momentum. **Ladew Evelina**, fueled by that raw egg no doubt, came out swinging and sent **Willa Lois** straight to the sidelines! It was beautiful, folks, simply poetic! \n\nThen came the nail in the coffin. **Richia Pazit** found a gap in the bazaar's chaotic defense, charged into the End Zone, and slammed the ball home for another dunk! **4-0**! The Bizarres looked like they were standing on marbles, and that **Unstable Footing** of the pavilion certainly didn't help their cause. \n\nToward the end, the Bizarres got desperate. **Pompei Hephzipa** managed to injure **Ladew Evelina**, and **Quintessa Austine** took out **Caves Cestar**, but it was far too little, far too late. The Captains' defense, led by **Belding Chloe** and her armpit-rubbed ball, held firm like the very mountains they call home. \n\nI have to say, it’s a bit embarrassing for Kython and his 'Fatebreakers.' They couldn't break a wet paper bag today! Maybe they should spend less time on theatrical poses and more time learning how to block a Pollaxe. The Guild of the Black Sky must be laughing all the way to the bank, while Brennen Farno probably just looked in a mirror and sighed at his own perfection. \n\nSo, the **Confluence Captains** take a 1-0 lead in this Best of 3 series! They are looking like a freight train with no brakes, heading straight for the finals! The Bizarres better find some better jokes to tell that Trollball, because right now, they're the only ones being laughed at! \n\nWhat a day for Trollball! What a day for carnage! I’m Nok the Corrupter, and I’ll see you for Game 2, where we’ll see if the Bizarres can find their footing or if they’ll be swept away into the lagoon of losers! Stay brutal, Osterra! 💀🎉🔥",
+    "week": 1,
+    "homeScore": 0,
+    "awayScore": 4,
+    "slug": "po-2-1-starlight-bazaar-confluence",
+    "plays": [
+        "The Trollball is picked up by Vonni Geoff in zone Center Field",
+        "O'Conner Maighdlin shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Richia Pazit in zone Center Field",
+        "Quintessa Austine tries to Tackle Stephan Lisk, but misses!",
+        "Richia Pazit runs with the ball and advances towards the goal!",
+        "Quintessa Austine tries to Tackle Vonni Geoff, but misses!",
+        "Vonni Geoff shoots from Home Field but misses the goal!",
+        "The Trollball is picked up by Carnahan Laud in zone Home Field",
+        "Caves Cestar Tackles Pompei Hephzipa and INJURES THEM!",
+        "Deach Sharlene tries to run with the ball but is stopped by the defense!",
+        "Quintessa Austine Tackles Behl Berstine and INJURES THEM!",
+        "Melesa Zelten tries to Tackle Carnahan Laud, but misses!",
+        "Ladew Evelina runs with the ball and advances towards the goal!",
+        "Kristin Kronfeld tries to Tackle Belding Chloe, but misses!",
+        "Aggri Cookie tries to Tackle Belding Chloe, but Belding Chloe blocks it!",
+        "Demp Chet Tackles Stephan Lisk and INJURES THEM!",
+        "Willa Lois Tackles Vonni Geoff and INJURES THEM!",
+        "Melesa Zelten tries to Tackle Carnahan Laud, but Carnahan Laud blocks it!",
+        "O'Conner Maighdlin runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+        "The Trollball is picked up by O'Conner Maighdlin in zone Center Field",
+        "Milo Nelie tries to Tackle Caves Cestar, but misses!",
+        "Ladew Evelina tries to run with the ball but is stopped by the defense!",
+        "Bush Heiner tries to Tackle Richia Pazit, but misses!",
+        "Deach Sharlene passes the ball to Carnahan Laud!",
+        "Caves Cestar tries to run with the ball but is stopped by the defense!",
+        "Belding Chloe runs with the ball and advances towards the goal!",
+        "Melesa Zelten Tackles Carnahan Laud and INJURES THEM!",
+        "Willa Lois tries to Tackle Caves Cestar, but misses!",
+        "Demp Chet tries to Tackle Ladew Evelina, but misses!",
+        "Gagliano Tallbott tries to Tackle Richia Pazit, but Richia Pazit blocks it!",
+        "Melesa Zelten tries to Tackle O'Conner Maighdlin, but misses!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Aggri Cookie in zone Home Field",
+        "Bush Heiner tries to run with the ball but is stopped by the defense!",
+        "Demp Chet shoots from Home Field but misses the goal!",
+        "The Trollball is picked up by Richia Pazit in zone Home Field",
+        "Gagliano Tallbott tries to Tackle Belding Chloe, but misses!",
+        "Belding Chloe runs with the ball and advances towards the goal!",
+        "Ladew Evelina Tackles Willa Lois and INJURES THEM!",
+        "Ladew Evelina tries to Tackle Milo Nelie, but Milo Nelie blocks it!",
+        "Pompei Hephzipa tries to Tackle Richia Pazit, but misses!",
+        "Richia Pazit runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+        "The Trollball is picked up by Aggri Cookie in zone Center Field",
+        "Melesa Zelten runs with the ball and advances towards the goal!",
+        "Quintessa Austine passes the ball to Demp Chet, but they drop it!",
+        "The Trollball is picked up by O'Conner Maighdlin in zone Away Field",
+        "Melesa Zelten tries to Tackle Caves Cestar, but Caves Cestar blocks it!",
+        "Pompei Hephzipa Tackles Ladew Evelina and INJURES THEM!",
+        "Caves Cestar runs with the ball and advances towards the goal!",
+        "Melesa Zelten tries to Tackle Belding Chloe, but misses!",
+        "Deach Sharlene tries to run with the ball but is stopped by the defense!",
+        "Bush Heiner tries to Tackle Deach Sharlene, but Deach Sharlene blocks it!",
+        "Quintessa Austine Tackles Caves Cestar and INJURES THEM!",
+        "Kristin Kronfeld tries to Tackle Richia Pazit, but misses!",
+        "Aggri Cookie tries to Tackle Belding Chloe, but misses!",
+        "Quintessa Austine tries to Tackle Ladew Evelina, but misses!",
+        "Milo Nelie tries to Tackle Richia Pazit, but misses!",
+        "Demp Chet tries to Tackle O'Conner Maighdlin, but O'Conner Maighdlin blocks it!",
+        "Gagliano Tallbott tries to Tackle Ladew Evelina, but Ladew Evelina blocks it!"
+    ],
+    "bracket": "Winners"
+}

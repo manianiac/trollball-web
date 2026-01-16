@@ -201,13 +201,13 @@ export async function generateRecapSummary(pastRecaps: any[]): Promise<string> {
 
       <teams>
       ${Object.entries(TEAMS)
-        .map(([key, value]) =>
-          JSON.stringify({
-            ...value,
-            players: [],
-          }),
-        )
-        .join(",")}
+      .map(([key, value]) =>
+        JSON.stringify({
+          ...value,
+          players: [],
+        }),
+      )
+      .join(",")}
       </teams>
     `;
 
@@ -293,7 +293,7 @@ export async function generateGameReports(
   const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
       
-      This is the playoffs, so make sure to comment on the playoff atmosphere. These are played Best of 3, and you will be given each past game in a series. The loser of the BO3 will be sent to the loser's bracket
+      This is the playoffs, in the ${gameData.bracket || "Winners"} Bracket, so make sure to comment on the playoff atmosphere. These are played Best of 3, and you will be given each past game in a series. The loser of the BO3 will be sent to the loser's bracket
       
       Use markdown formatting(like headers or lists) and use emojii as needed
 

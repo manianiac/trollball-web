@@ -1,0 +1,857 @@
+{
+    "homeTeam": {
+        "name": "The New Ravenfall Commanders",
+        "slug": "new-ravenfall",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 64,
+        "stadium": {
+            "name": "The Stronghold Bailey",
+            "location": "New Ravenfall (Stronghold Castle)",
+            "description": "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
+            "modifiers": [
+                "Cobblestone Pitch",
+                "Rampart Shadows",
+                "Castle Echo"
+            ]
+        },
+        "healer": {
+            "name": "Hooge Imtiaz",
+            "team": "The New Ravenfall Commanders",
+            "stats": {
+                "pass": 57,
+                "catch": 50,
+                "run": 39,
+                "block": 59,
+                "fight": 53,
+                "throw": 63,
+                "luck": 59,
+                "pronouns": "She/Her",
+                "civic_engagement": 56,
+                "alcohol_tolerance": 44,
+                "favorite_weapon": "Warhammer",
+                "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Dusa Curson",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 55,
+                    "block": 56,
+                    "fight": 59,
+                    "throw": 41,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 48,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Hatchet",
+                    "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Moir Sass",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 58,
+                    "catch": 50,
+                    "run": 51,
+                    "block": 48,
+                    "fight": 60,
+                    "throw": 56,
+                    "luck": 61,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Theis Loredo",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 56,
+                    "catch": 46,
+                    "run": 55,
+                    "block": 54,
+                    "fight": 62,
+                    "throw": 61,
+                    "luck": 59,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Claymore",
+                    "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fleme Alis",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 52,
+                    "catch": 53,
+                    "run": 52,
+                    "block": 61,
+                    "fight": 63,
+                    "throw": 58,
+                    "luck": 48,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Glaive",
+                    "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Estes Adrian",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 56,
+                    "catch": 52,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 68,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Katar",
+                    "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Rhett Gavrilla",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 68,
+                    "catch": 64,
+                    "run": 53,
+                    "block": 56,
+                    "fight": 68,
+                    "throw": 59,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Jessalin Zobias",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 57,
+                    "catch": 54,
+                    "run": 55,
+                    "block": 42,
+                    "fight": 52,
+                    "throw": 53,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tugging on their left earlobe three times.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Jozef Pepe",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 50,
+                    "catch": 56,
+                    "run": 60,
+                    "block": 43,
+                    "fight": 50,
+                    "throw": 49,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Seeing who on the team can belch the loudest.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Croteau Osmo",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 68,
+                    "catch": 51,
+                    "run": 55,
+                    "block": 50,
+                    "fight": 62,
+                    "throw": 52,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Tying a red string around their pinky finger.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pirozzo Opal",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 47,
+                    "catch": 58,
+                    "run": 54,
+                    "block": 51,
+                    "fight": 51,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Dusa Curson",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 55,
+                    "block": 56,
+                    "fight": 59,
+                    "throw": 41,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 48,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Hatchet",
+                    "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Moir Sass",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 58,
+                    "catch": 50,
+                    "run": 51,
+                    "block": 48,
+                    "fight": 60,
+                    "throw": 56,
+                    "luck": 61,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Theis Loredo",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 56,
+                    "catch": 46,
+                    "run": 55,
+                    "block": 54,
+                    "fight": 62,
+                    "throw": 61,
+                    "luck": 59,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Claymore",
+                    "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fleme Alis",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 52,
+                    "catch": 53,
+                    "run": 52,
+                    "block": 61,
+                    "fight": 63,
+                    "throw": 58,
+                    "luck": 48,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Glaive",
+                    "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Estes Adrian",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 56,
+                    "catch": 52,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 68,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Katar",
+                    "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Rhett Gavrilla",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 68,
+                    "catch": 64,
+                    "run": 53,
+                    "block": 56,
+                    "fight": 68,
+                    "throw": 59,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Croteau Osmo",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 68,
+                    "catch": 51,
+                    "run": 55,
+                    "block": 50,
+                    "fight": 62,
+                    "throw": 52,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Tying a red string around their pinky finger.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pirozzo Opal",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 47,
+                    "catch": 58,
+                    "run": 54,
+                    "block": 51,
+                    "fight": 51,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Jozef Pepe",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 50,
+                    "catch": 56,
+                    "run": 60,
+                    "block": 43,
+                    "fight": 50,
+                    "throw": 49,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Seeing who on the team can belch the loudest.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Jessalin Zobias",
+                "team": "The New Ravenfall Commanders",
+                "stats": {
+                    "pass": 57,
+                    "catch": 54,
+                    "run": 55,
+                    "block": 42,
+                    "fight": 52,
+                    "throw": 53,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tugging on their left earlobe three times.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "Oak & Onslaught",
+        "slug": "oak-and-onslaught",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 52,
+        "stadium": {
+            "name": "Fletchings Field",
+            "location": "Fletchings",
+            "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+            "modifiers": [
+                "Shifting Terrain",
+                "Warden's Watch",
+                "Natural Advantages"
+            ]
+        },
+        "healer": {
+            "name": "Ahron Latashia",
+            "team": "Oak & Onslaught",
+            "stats": {
+                "pass": 48,
+                "catch": 52,
+                "run": 56,
+                "block": 45,
+                "fight": 64,
+                "throw": 59,
+                "luck": 57,
+                "pronouns": "She/Her",
+                "civic_engagement": 68,
+                "alcohol_tolerance": 59,
+                "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+                "literate": true,
+                "favorite_weapon": "Kriegsmesser"
+            }
+        },
+        "players": [
+            {
+                "name": "Milt Casady",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 54,
+                    "catch": 57,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 47,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 44,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Wynnie Faina",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 50,
+                    "catch": 64,
+                    "run": 66,
+                    "block": 55,
+                    "fight": 51,
+                    "throw": 60,
+                    "luck": 71,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Normi Glaudia",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 64,
+                    "block": 63,
+                    "fight": 48,
+                    "throw": 60,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Symer Crissy",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 53,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 44,
+                    "throw": 63,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Teria Ravo",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 51,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 53,
+                    "throw": 63,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Millham Evangeline",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 56,
+                    "block": 44,
+                    "fight": 56,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hole Bowerman",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 39,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 64,
+                    "fight": 60,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Affra Yanaton",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 48,
+                    "catch": 50,
+                    "run": 63,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Abner Seidel",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 55,
+                    "catch": 61,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 54,
+                    "throw": 51,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 42,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ema Ulrick",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 57,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 66,
+                    "luck": 52,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Always putting on their left gauntlet before their right.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Milt Casady",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 54,
+                    "catch": 57,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 47,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 44,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Normi Glaudia",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 64,
+                    "block": 63,
+                    "fight": 48,
+                    "throw": 60,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Symer Crissy",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 53,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 44,
+                    "throw": 63,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hole Bowerman",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 39,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 64,
+                    "fight": 60,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Affra Yanaton",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 48,
+                    "catch": 50,
+                    "run": 63,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Teria Ravo",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 51,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 53,
+                    "throw": 63,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Millham Evangeline",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 56,
+                    "block": 44,
+                    "fight": 56,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "# 🎙️ TUESDAY NIGHT TROLLBALL: WIN-OR-GO-HOME IN NEW RAVENFALL! 🎙️\\n\\nWell, hello there, you beautiful, bloodthirsty bunch! It's your favorite voice from the void, Nok the Corrupter, coming to you live from the magnificent **Stronghold Bailey**! We are at the heart of the Eponore faction's power, and let me tell you, the air is thick with the scent of destiny, desperate hope, and—wait, is that fermented fish? Yes, it is! Theis Loredo and Pirozzo Opal are sharing their pre-game snack, and if the smell doesn't knock out the opposition, their claymores surely will!\\n\\nWe’re in the thick of the Winners Bracket, folks! Oak & Onslaught took Game 1 in a real nail-biter, and now the Commanders are backed into a corner of their own castle! If they lose today, they’re headed to the losers bracket faster than a soul entering the Demon Prison! I see Rhett Gavrilla down there picking up a pebble for their collection—let’s hope it’s not the last thing they pick up before meeting a healer! Over on the visitors' side, Normi Glaudia is doing that charming routine of wearing boots on the wrong feet. It’s madness, it’s chaotic, and golly gee, it’s exactly why we love this game!\\n\\nThe crowd is absolutely roaring from the ramparts! It's a sell-out crowd here in New Ravenfall, mostly because people want to see if the Commanders can actually hold their own without Sir Artorias or that grumpy Sir Tanos holding their hands! The Castle Echo is making every cheer sound like a legion of demons—which, personally, makes me feel right at home! Settle in, grab a drink, and let's get to the carnage! 🛡️🏰🔥",
+    "postGame": "# 🏆 OAK & ONSLAUGHT CRUSHES THE COMMANDERS! SERIES SWEEP! 🏆\\n\\nHeavens to Betsy, what a total and complete demolition! If you came here looking for a fair fight, you clearly took a wrong turn at the Everwar! Oak & Onslaught didn't just win; they physically dismantled the New Ravenfall Commanders right here in their own backyard! With a final score of 6-2, the Wardens' favorites have punched their ticket forward in the Winners Bracket, while the Commanders are looking for their dignity in the cobblestone cracks!\\n\\nThe violence started before the first point was even on the board! Fleme Alis decided to welcome Teria Ravo to the Bailey by absolutely leveling her! Not to be outdone, Croteau Osmo sent Abner Seidel straight to the medical tent with a tackle that made the ramparts shake! But the momentum shifted when Normi Glaudia—boots on the wrong feet and all—snatched the ball and sent a beautiful shot through the hoops to put the visitors on top!\\n\\nThe first half was a literal meat grinder! We had bodies flying everywhere! Normi Glaudia took out Jessalin Zobias, and then Pirozzo Opal returned the favor by flattening Wynnie Faina. It was a beautiful symphony of snapping bones! Just before the break, we saw a flurry of injuries that would make Geth the Gravelord weep with joy! Hole Bowerman, Affra Yanaton, and Moir Sass all traded massive blows, leaving the healers working overtime!\\n\\nHalftime didn't slow down the onslaught! As soon as the whistle blew for the second half, Normi Glaudia was back at it, injuring Jozef Pepe. The Commanders finally showed a spark of life when Dusa Curson intercepted a wild pass and sunk a shot from distance! The crowd went wild, thinking a comeback was brewing! But oh, how wrong they were!\\n\\nAffra Yanaton and Teria Ravo decided to turn the Bailey into their personal playground. Affra sunk a shot from center field, and Teria followed it up with another after intercepting a desperate pass from Pirozzo Opal. The Commanders looked like they’d spent too much time eating honeycomb and not enough time practicing their defense! The 'heroes' of Ravenfall were getting outplayed and out-hit at every turn!\\n\\nI have to say, it’s a real hoot seeing the Eponore golden boys get thrashed like this! I’m sure Sir Tanos is somewhere fuming, and frankly, that’s the best news I’ve heard all week! The Commanders were stumbling around like they’d hit the open bar a bit too hard, while Oak & Onslaught stayed sharp as a war pick!\\n\\nMilt Casady capped off the evening by putting Jessalin Zobias back on the injury list. It was the exclamation point on a dominant performance! The Commanders couldn't handle the shifting pressure, and the Castle Echo only served to amplify the sound of their defeat!\\n\\nWith two wins in a row, Oak & Onslaught takes the series 2-0! No need for a Game 3, folks! The Commanders are being banished to the Losers Bracket to think about their life choices, while the Wardens’ finest move on with their heads held high and their boots—hopefully—on the right feet for once!\\n\\nFinal Score: **Oak & Onslaught 6, New Ravenfall Commanders 2**. This is Nok the Corrupter, signing off from a very quiet Stronghold Bailey! Remember, folks: in Trollball, the only thing that hurts more than losing is a mace to the kneecap! Goodnight, Osterra! 💀🏈🧤\"}",
+    "week": 2,
+    "homeScore": 2,
+    "awayScore": 6,
+    "slug": "po-2-2-new-ravenfall-oak-and-onslaught",
+    "plays": [
+        "The Trollball is picked up by Normi Glaudia in zone Center Field",
+        "Fleme Alis Tackles Teria Ravo and INJURES THEM!",
+        "Croteau Osmo Tackles Abner Seidel and INJURES THEM!",
+        "Hole Bowerman runs with the ball and advances towards the goal!",
+        "Normi Glaudia shoots from Home Field and SCORES!",
+        "The Trollball is picked up by Ema Ulrick in zone Center Field",
+        "Estes Adrian tries to Tackle Millham Evangeline, but misses!",
+        "Rhett Gavrilla tries to Tackle Millham Evangeline, but misses!",
+        "Normi Glaudia tries to Tackle Jessalin Zobias, but misses!",
+        "Hole Bowerman throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Jozef Pepe in zone Center Field",
+        "Hole Bowerman tries to Tackle Fleme Alis, but misses!",
+        "Milt Casady tries to Tackle Croteau Osmo, but misses!",
+        "Ema Ulrick tries to Tackle Theis Loredo, but Theis Loredo blocks it!",
+        "Hole Bowerman tries to Tackle Jozef Pepe, but Jozef Pepe blocks it!",
+        "Normi Glaudia tries to Tackle Pirozzo Opal, but misses!",
+        "Rhett Gavrilla runs with the ball and advances towards the goal!",
+        "Teria Ravo tries to Tackle Pirozzo Opal, but Pirozzo Opal blocks it!",
+        "Symer Crissy tries to Tackle Dusa Curson, but Dusa Curson blocks it!",
+        "Normi Glaudia Tackles Jessalin Zobias and INJURES THEM!",
+        "Jozef Pepe passes the ball to Rhett Gavrilla!",
+        "Jozef Pepe passes the ball to Rhett Gavrilla!",
+        "Pirozzo Opal Tackles Wynnie Faina and INJURES THEM!",
+        "Croteau Osmo passes the ball to Theis Loredo!",
+        "Pirozzo Opal tries to run with the ball but is stopped by the defense!",
+        "Hole Bowerman Tackles Pirozzo Opal and INJURES THEM!",
+        "Affra Yanaton Tackles Theis Loredo and INJURES THEM!",
+        "Moir Sass Tackles Ema Ulrick and INJURES THEM!",
+        "Jessalin Zobias tries to Tackle Teria Ravo, but misses!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Hole Bowerman in zone Away Field",
+        "Theis Loredo tries to Tackle Affra Yanaton, but misses!",
+        "Affra Yanaton tries to run with the ball but is stopped by the defense!",
+        "Fleme Alis tries to Tackle Hole Bowerman, but Hole Bowerman blocks it!",
+        "Rhett Gavrilla tries to Tackle Affra Yanaton, but Affra Yanaton blocks it!",
+        "Rhett Gavrilla tries to Tackle Affra Yanaton, but Affra Yanaton blocks it!",
+        "Milt Casady tries to Tackle Rhett Gavrilla, but Rhett Gavrilla blocks it!",
+        "Affra Yanaton throws a wild pass and it is INTERCEPTED by Dusa Curson!",
+        "Jessalin Zobias tries to Tackle Millham Evangeline, but Millham Evangeline blocks it!",
+        "Affra Yanaton tries to Tackle Estes Adrian, but misses!",
+        "Jessalin Zobias tries to run with the ball but is stopped by the defense!",
+        "Normi Glaudia Tackles Jozef Pepe and INJURES THEM!",
+        "Dusa Curson shoots from Away Field and SCORES!",
+        "The Trollball is picked up by Millham Evangeline in zone Center Field",
+        "Rhett Gavrilla Tackles Millham Evangeline and INJURES THEM!",
+        "Symer Crissy passes the ball to Milt Casady!",
+        "Affra Yanaton shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Affra Yanaton in zone Center Field",
+        "Rhett Gavrilla tries to Tackle Affra Yanaton, but misses!",
+        "Milt Casady throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Theis Loredo in zone Center Field",
+        "Moir Sass throws a wild pass and it is INTERCEPTED by Hole Bowerman!",
+        "Teria Ravo shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Moir Sass in zone Center Field",
+        "Milt Casady Tackles Jessalin Zobias and INJURES THEM!",
+        "Pirozzo Opal tries to run with the ball but is stopped by the defense!",
+        "Pirozzo Opal throws a wild pass and it is INTERCEPTED by Teria Ravo!",
+        "Teria Ravo runs with the ball and advances towards the goal!"
+    ],
+    "bracket": "Winners"
+}

@@ -102,6 +102,7 @@ export interface match {
   postGame: string;
   plays: string[];
   openBar?: boolean;
+  bracket?: string;
 }
 
 export interface match_progress extends match {
@@ -112,4 +113,5 @@ export interface match_progress extends match {
   possessionTeam: TEAM_NAMES | string;
   currentZone: ZONE;
   latestAction?: string;
+  bracket?: string; // e.g. "Winners", "Losers"
 }
