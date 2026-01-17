@@ -91,91 +91,101 @@ const findPreviousSeriesGames = (homeTeam: team, awayTeam: team): match[] => {
   return relevantGames;
 };
 
-let matchesToSimulate = [
-  {
-    homeTeam: TEAMS["The Kerlauger Runeguard"],
-    awayTeam: TEAMS["The Zmeigorod Snessengers"],
-    week: 1,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    awayTeam: TEAMS["The Kerlauger Runeguard"],
-    homeTeam: TEAMS["The Zmeigorod Snessengers"],
-    week: 2,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The Kerlauger Runeguard"],
-    awayTeam: TEAMS["The Zmeigorod Snessengers"],
-    week: 3,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The New Ravenfall Commanders"],
-    awayTeam: TEAMS["The Greenwatch"],
-    week: 1,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    awayTeam: TEAMS["The New Ravenfall Commanders"],
-    homeTeam: TEAMS["The Greenwatch"],
-    week: 2,
-    openBar: false,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The New Ravenfall Commanders"],
-    awayTeam: TEAMS["The Greenwatch"],
-    week: 3,
-    openBar: false,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    awayTeam: TEAMS["The Tortell Privateers"],
-    week: 1,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    awayTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    homeTeam: TEAMS["The Tortell Privateers"],
-    week: 2,
-    openBar: false,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    awayTeam: TEAMS["The Tortell Privateers"],
-    week: 3,
-    openBar: false,
-    bracket: "Losers"
-  }, {
-    homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
-    awayTeam: TEAMS["The Wyrmwood Stronghammers"],
-    week: 1,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    awayTeam: TEAMS["The New Monteforte Chaos Creatures"],
-    homeTeam: TEAMS["The Wyrmwood Stronghammers"],
-    week: 2,
-    openBar: false,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
-    awayTeam: TEAMS["The Wyrmwood Stronghammers"],
-    week: 3,
-    openBar: false,
-    bracket: "Losers"
-  },
-];
+let matchesToSimulate =
+  [
+    /* Matchup 1: Confluence vs Oread's Summit */
+    {
+      "homeTeam": TEAMS["The Confluence Captains"],
+      "awayTeam": TEAMS["The Oread's Summit Tamers"],
+      "week": 1,
+      "openBar": true,
+      "bracket": "Winners"
+    },
+    {
+      "homeTeam": TEAMS["The Oread's Summit Tamers"],
+      "awayTeam": TEAMS["The Confluence Captains"],
+      "week": 2,
+      "openBar": true,
+      "bracket": "Winners"
+    },
+    {
+      "homeTeam": TEAMS["The Confluence Captains"],
+      "awayTeam": TEAMS["The Oread's Summit Tamers"],
+      "week": 3,
+      "openBar": false,
+      "bracket": "Winners"
+    },
+
+    /* Matchup 2: Haven Lights vs Oak & Onslaught */
+    {
+      "homeTeam": TEAMS["The Haven Lights"],
+      "awayTeam": TEAMS["Oak & Onslaught"],
+      "week": 1,
+      "openBar": true,
+      "bracket": "Winners"
+    },
+    {
+      "homeTeam": TEAMS["Oak & Onslaught"],
+      "awayTeam": TEAMS["The Haven Lights"],
+      "week": 2,
+      "openBar": true,
+      "bracket": "Winners"
+    },
+    {
+      "homeTeam": TEAMS["The Haven Lights"],
+      "awayTeam": TEAMS["Oak & Onslaught"],
+      "week": 3,
+      "openBar": false,
+      "bracket": "Winners"
+    },
+
+    /* Matchup 3: Kerlauger vs Starlight Bazaar */
+    {
+      "homeTeam": TEAMS["The Kerlauger Runeguard"],
+      "awayTeam": TEAMS["The Starlight Bazaar Bizarres"],
+      "week": 1,
+      "openBar": true,
+      "bracket": "Losers"
+    },
+    {
+      "homeTeam": TEAMS["The Starlight Bazaar Bizarres"],
+      "awayTeam": TEAMS["The Kerlauger Runeguard"],
+      "week": 2,
+      "openBar": true,
+      "bracket": "Losers"
+    },
+    {
+      "homeTeam": TEAMS["The Kerlauger Runeguard"],
+      "awayTeam": TEAMS["The Starlight Bazaar Bizarres"],
+      "week": 3,
+      "openBar": false,
+      "bracket": "Losers"
+    },
+
+    /* Matchup 4: Greenwatch vs New Monteforte */
+    {
+      "homeTeam": TEAMS["The Greenwatch"],
+      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
+      "week": 1,
+      "openBar": true,
+      "bracket": "Losers"
+    },
+    {
+      "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
+      "awayTeam": TEAMS["The Greenwatch"],
+      "week": 2,
+      "openBar": true,
+      "bracket": "Losers"
+    },
+    {
+      "homeTeam": TEAMS["The Greenwatch"],
+      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
+      "week": 3,
+      "openBar": false,
+      "bracket": "Losers"
+    }
+
+  ];
 
 // runMatch(
 //   TEAMS["The Desert Spectres"],

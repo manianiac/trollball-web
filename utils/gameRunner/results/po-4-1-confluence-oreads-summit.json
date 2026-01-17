@@ -1,0 +1,896 @@
+{
+  "homeTeam": {
+    "name": "The Confluence Captains",
+    "slug": "confluence",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "stadium": {
+      "name": "The Glowstone Terrace",
+      "location": "Confluence (World's Spine Mountains)",
+      "description": "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+      "modifiers": [
+        "Glowstone Glare",
+        "Mountain Wind",
+        "Market Day Crowd"
+      ]
+    },
+    "healer": {
+      "name": "Kant Langill",
+      "team": "The Confluence Captains",
+      "stats": {
+        "pass": 51,
+        "catch": 55,
+        "run": 54,
+        "block": 49,
+        "fight": 59,
+        "throw": 59,
+        "luck": 65,
+        "pronouns": "He/Him",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 65,
+        "favorite_weapon": "Scimitar",
+        "pregame_ritual": "Doing a terrible, clumsy dance to 'loosen the joints'.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Oread's Summit Tamers",
+    "slug": "oreads-summit",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 67,
+    "stadium": {
+      "name": "The High-Pass Pitch",
+      "location": "Oread's Summit",
+      "description": "A field built at a breathtaking altitude in a fortified mountain pass. The air is painfully thin, and the weather is dangerously unpredictable.",
+      "modifiers": [
+        "Thin Air",
+        "Sudden Blizzard",
+        "Vertigo"
+      ]
+    },
+    "healer": {
+      "name": "Carn Tibbetts",
+      "team": "The Oread's Summit Tamers",
+      "stats": {
+        "pass": 54,
+        "catch": 51,
+        "run": 59,
+        "block": 57,
+        "fight": 51,
+        "throw": 52,
+        "luck": 65,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 51,
+        "favorite_weapon": "Shortsword",
+        "pregame_ritual": "Tying a small, hand-carved wooden bird to their gear.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Odericus Juxon",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 56,
+          "block": 50,
+          "fight": 45,
+          "throw": 60,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Kass Fogel",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 55,
+          "catch": 46,
+          "run": 59,
+          "block": 50,
+          "fight": 57,
+          "throw": 59,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zadoc Wyatan",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 67,
+          "run": 60,
+          "block": 58,
+          "fight": 58,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alwyn Wandy",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 34,
+          "run": 56,
+          "block": 64,
+          "fight": 53,
+          "throw": 65,
+          "luck": 63,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dric Trilley",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 59,
+          "block": 67,
+          "fight": 45,
+          "throw": 49,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Swamy Ahasuerus",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 69,
+          "catch": 53,
+          "run": 50,
+          "block": 53,
+          "fight": 52,
+          "throw": 60,
+          "luck": 51,
+          "pronouns": "She/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Clippard Burr",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 38,
+          "catch": 60,
+          "run": 65,
+          "block": 57,
+          "fight": 57,
+          "throw": 62,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mitran Mariand",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 54,
+          "run": 63,
+          "block": 42,
+          "fight": 57,
+          "throw": 51,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Dirk",
+          "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Edme Virgil",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 63,
+          "block": 56,
+          "fight": 62,
+          "throw": 62,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Saloma Talich",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 66,
+          "catch": 53,
+          "run": 48,
+          "block": 45,
+          "fight": 52,
+          "throw": 57,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Alwyn Wandy",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 34,
+          "run": 56,
+          "block": 64,
+          "fight": 53,
+          "throw": 65,
+          "luck": 63,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dric Trilley",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 59,
+          "block": 67,
+          "fight": 45,
+          "throw": 49,
+          "luck": 56,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Flail",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Clippard Burr",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 38,
+          "catch": 60,
+          "run": 65,
+          "block": 57,
+          "fight": 57,
+          "throw": 62,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 70,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mitran Mariand",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 58,
+          "catch": 54,
+          "run": 63,
+          "block": 42,
+          "fight": 57,
+          "throw": 51,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Dirk",
+          "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Saloma Talich",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 66,
+          "catch": 53,
+          "run": 48,
+          "block": 45,
+          "fight": 52,
+          "throw": 57,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Odericus Juxon",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 51,
+          "catch": 62,
+          "run": 56,
+          "block": 50,
+          "fight": 45,
+          "throw": 60,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Edme Virgil",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 60,
+          "catch": 45,
+          "run": 63,
+          "block": 56,
+          "fight": 62,
+          "throw": 62,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Kass Fogel",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 55,
+          "catch": 46,
+          "run": 59,
+          "block": 50,
+          "fight": 57,
+          "throw": 59,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zadoc Wyatan",
+        "team": "The Oread's Summit Tamers",
+        "stats": {
+          "pass": 53,
+          "catch": 67,
+          "run": 60,
+          "block": 58,
+          "fight": 58,
+          "throw": 54,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "preGame": "# 🎙️ Live from the Glowstone Terrace! 🎙️\n\nHello everybody, I'm your host Nok the Corrupter, the demon with the mostest, coming to you live from the bustling heights of Confluence! The air is thick with the scent of mountain wind, market-day meat skewers, and the delicious, palpable fear of the Oread's Summit Tamers! We are in the Winners Bracket of the playoffs, folks! It is Game 1 of a Best of 3 series, and the atmosphere is more tense than a soul-contract negotiation! The Glowstone Terrace is shimmering so brightly it’ll peel the retinas right out of your skull if you aren't careful, but that’s just part of the charm! \n\nTonight, we’ve got the home-town favorites, the Confluence Captains, looking to use that mountain-side advantage! I saw Ladew Evelina earlier chugging a raw egg—shell and all—and let me tell you, that is the kind of calcium-rich commitment I love to see! On the other side, the Tamers are looking a bit jittery. Alwyn Wandy was seen whispering secret fears to the Trollball. I hope that ball is a good listener, because it’s about to hear a lot more screaming once the hitting starts! Saloma Talich is already getting punched in the shoulder by his teammates to wake up, and honestly, if they don't hit him harder, the Captains certainly will! \n\nOur crowd today is massive! The popularity of the Captains is surging like a tidal wave of gold, while the Tamers are about as popular as a case of the Nether-Chills. I haven't seen this many people in one place since the last time Lord Orzalon decided to rearrange the furniture in the Demon Prison! Even the Guild of the Black Sky elites are out in force—I think I see Brennen Farno up there, looking as pretty and un-kissed as a fresh tombstone! Let’s get to the action before the mountain wind blows my hat off!",
+  "postGame": "# 🏆 Captains Conquer the Terrace! 4-1 Victory! 🏆\n\nWhat a spectacular display of athletic carnage, sports fans! The Confluence Captains have defended their home turf with the kind of ruthless efficiency that would make the Butcher of Confluence, Cyfnerth himself, shed a single, bloody tear of joy! The Tamers came into this mountain pass looking for a win, but they’re leaving with nothing but bruises and a serious case of Glowstone-induced vertigo! The home crowd is absolutely losing their minds, and for good reason—the Captains have taken a 1-0 lead in this Best of 3 series! \n\nThe scoring started early and often, folks! Richia Pazit, showing off that incredible focus, launched a shot from Center Field that sailed through the uprights for a 2-point Shoot! Talk about a statement piece! It was a beautiful arc of leather that silenced the few Tamers fans brave enough to make the climb. The Captains didn't stop there, either. Behl Berstine connected with Deach Sharlene for a classic touchdown dunk, making the Tamers' defense look like they were still reciting their grocery lists backward!\n\nBut let’s talk about what we really came for: the violence! Carnahan Laud set the tone early by absolutely flattening Swamy Ahasuerus. It was a beautiful sight, seeing Swamy head to the healer’s tent before the game even got warm! The Tamers tried to fight back, with Mitran Mariand managed to injure O'Conner Maighdlin, but the Captains' depth is just too much to handle. Every time a Captain went down, another was there to step on a Tamer’s throat! \n\nBy the time we hit the second half, the Glowstone Glare was really starting to mess with the visitors. Deach Sharlene, apparently fueled by the confusion, laid out Odericus Juxon with a tackle that sounded like a dry branch snapping! Not to be outdone, the legendary Ladew Evelina—that egg-eating machine—sent Kass Fogel to the dirt. It’s hard to play ball when you’re looking for your teeth in the polished stone, isn't it? \n\nRichia Pazit wasn't just content with scoring; they also decided to personally dismantle Edme Virgil. The Tamers were dropping like flies! It’s a good thing Carn Tibbetts is a literate healer, because he’s going to have a lot of paperwork to fill out tonight! The Tamers finally found the end zone late in the game when Alwyn Wandy managed to dunk the ball, but by then, it was like putting a bandage on a decapitation. Too little, too late, you poor, mountain-climbing souls!\n\nBelding Chloe put the final nail in the coffin with a thunderous run into the End Zone, dunking the ball with enough force to vibrate the entire stadium. I’m sure the folks down in the Market Day Crowd felt that one in their boots! The Captains are playing with a fire that the Haven Lights—those shimmering piles of disappointment—could never hope to emulate. My favorites, the Ebon Gate Corruptors, are surely watching this and nodding in dark approval!\n\nI have to say, the mountain wind really played a factor today, swirling the ball around like a confused imp. But the Captains handled it like the professionals they are. Even when Caves Cestar was throwing wild passes into the dirt, they recovered with a ferocity that was simply inspiring! They are one win away from moving further into the Winners Bracket, and the Tamers are one loss away from a very sad trip to the Losers Bracket.\n\nLet’s not overlook the absolute state of Zadoc Wyatan at the end of the match. Behl Berstine decided that the game wasn't quite over until Zadoc was horizontal. That final injury was the cherry on top of a very violent sundae! The Captains are proving that when you play in Confluence, you follow the Guild's rules: win at all costs and leave the field covered in your opponent's lunch!\n\nI’m looking at the VIP boxes now, and even the 'benevolent' Nikos Thanae looks impressed. He hasn't even shot anyone in the street for at least twenty minutes! That is high praise in this city, folks! If the Tamers want to survive Game 2, they’re going to need more than sea shanties and hand-carved wooden birds. They’re going to need a miracle, and miracles are in short supply when Nok the Corrupter is on the mic!\n\nFinal score from the Glowstone Terrace: Confluence Captains 4, Oread's Summit Tamers 1! The Captains take the series lead 1-0! Don't go anywhere, because this Best of 3 is just getting warmed up, and I can smell more blood on the horizon! This is Nok the Corrupter, signing off for Tuesday Night Trollball! Stay brutal, Osterra!",
+  "week": 1,
+  "homeScore": 4,
+  "awayScore": 1,
+  "slug": "po-4-1-confluence-oreads-summit",
+  "plays": [
+    "The Trollball is picked up by Richia Pazit in zone Center Field",
+    "Carnahan Laud Tackles Swamy Ahasuerus and INJURES THEM!",
+    "Saloma Talich tries to Tackle Behl Berstine, but Behl Berstine blocks it!",
+    "Saloma Talich tries to Tackle Carnahan Laud, but misses!",
+    "Richia Pazit shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Behl Berstine in zone Center Field",
+    "Alwyn Wandy tries to Tackle Richia Pazit, but misses!",
+    "Zadoc Wyatan tries to Tackle Ladew Evelina, but Ladew Evelina blocks it!",
+    "Caves Cestar throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Ladew Evelina in zone Center Field",
+    "Richia Pazit runs with the ball and advances towards the goal!",
+    "Kass Fogel tries to Tackle Deach Sharlene, but misses!",
+    "Richia Pazit tries to run with the ball but is stopped by the defense!",
+    "Mitran Mariand Tackles O'Conner Maighdlin and INJURES THEM!",
+    "Ladew Evelina tries to run with the ball but is stopped by the defense!",
+    "Edme Virgil tries to Tackle Vonni Geoff, but Vonni Geoff blocks it!",
+    "Caves Cestar runs with the ball and advances towards the goal!",
+    "Odericus Juxon tries to Tackle Caves Cestar, but Caves Cestar blocks it!",
+    "Edme Virgil Tackles Vonni Geoff and INJURES THEM!",
+    "Mitran Mariand tries to Tackle Carnahan Laud, but Carnahan Laud blocks it!",
+    "Behl Berstine passes to Deach Sharlene in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Mitran Mariand in zone Center Field",
+    "Saloma Talich tries to run with the ball but is stopped by the defense!",
+    "Clippard Burr throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Richia Pazit in zone Center Field",
+    "Ladew Evelina tries to run with the ball but is stopped by the defense!",
+    "Richia Pazit shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Belding Chloe in zone Center Field",
+    "Zadoc Wyatan tries to Tackle Richia Pazit, but Richia Pazit blocks it!",
+    "Carnahan Laud runs with the ball and advances towards the goal!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Mitran Mariand in zone Away Field",
+    "Saloma Talich Tackles Behl Berstine and INJURES THEM!",
+    "Vonni Geoff tries to Tackle Dric Trilley, but misses!",
+    "Deach Sharlene Tackles Odericus Juxon and INJURES THEM!",
+    "Richia Pazit Tackles Edme Virgil and INJURES THEM!",
+    "Carnahan Laud tries to Tackle Clippard Burr, but misses!",
+    "Richia Pazit tries to Tackle Dric Trilley, but misses!",
+    "O'Conner Maighdlin tries to Tackle Clippard Burr, but misses!",
+    "Carnahan Laud tries to Tackle Alwyn Wandy, but misses!",
+    "Ladew Evelina Tackles Kass Fogel and INJURES THEM!",
+    "Dric Trilley tries to Tackle Stephan Lisk, but misses!",
+    "Richia Pazit tries to Tackle Dric Trilley, but misses!",
+    "Caves Cestar tries to Tackle Alwyn Wandy, but misses!",
+    "Dric Trilley throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Vonni Geoff in zone Away Field",
+    "Zadoc Wyatan tries to Tackle Caves Cestar, but Caves Cestar blocks it!",
+    "Alwyn Wandy tries to Tackle Deach Sharlene, but misses!",
+    "Behl Berstine passes the ball to Carnahan Laud!",
+    "Behl Berstine runs with the ball and advances towards the goal!",
+    "Belding Chloe runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Zadoc Wyatan in zone Center Field",
+    "Richia Pazit tries to Tackle Alwyn Wandy, but misses!",
+    "Alwyn Wandy runs with the ball and advances towards the goal!",
+    "Mitran Mariand runs with the ball and advances towards the goal!",
+    "Vonni Geoff tries to Tackle Zadoc Wyatan, but Zadoc Wyatan blocks it!",
+    "Mitran Mariand passes to Alwyn Wandy in the End Zone, who dunks the ball into the goal!",
+    "The Trollball is picked up by Saloma Talich in zone Center Field",
+    "Behl Berstine Tackles Zadoc Wyatan and INJURES THEM!"
+  ],
+  "bracket": "Winners"
+}

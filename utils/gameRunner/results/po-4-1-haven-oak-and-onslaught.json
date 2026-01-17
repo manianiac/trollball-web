@@ -1,0 +1,876 @@
+{
+  "homeTeam": {
+    "name": "The Haven Lights",
+    "slug": "haven",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 55,
+    "stadium": {
+      "name": "The Aegis Field",
+      "location": "Haven (Temple of Light Compound)",
+      "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+      "modifiers": [
+        "Hallowed Ground",
+        "Shield's Watch",
+        "Twinlight's Glow"
+      ]
+    },
+    "healer": {
+      "name": "Riffle Harrington",
+      "team": "The Haven Lights",
+      "stats": {
+        "pass": 56,
+        "catch": 49,
+        "run": 49,
+        "block": 43,
+        "fight": 66,
+        "throw": 52,
+        "luck": 63,
+        "pronouns": "He/Him",
+        "civic_engagement": 63,
+        "alcohol_tolerance": 52,
+        "favorite_weapon": "Spiked Gauntlet",
+        "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Shiroma Salim",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 50,
+          "catch": 51,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 62,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Zwart Bunns",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 63,
+          "catch": 66,
+          "run": 51,
+          "block": 51,
+          "fight": 47,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 40,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Cestus",
+          "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Tybi Reo",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 48,
+          "run": 66,
+          "block": 56,
+          "fight": 55,
+          "throw": 48,
+          "luck": 50,
+          "pronouns": "She/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Berkin Waters",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 51,
+          "catch": 46,
+          "run": 58,
+          "block": 50,
+          "fight": 54,
+          "throw": 60,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Farand Keil",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 55,
+          "block": 37,
+          "fight": 50,
+          "throw": 64,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Whip",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wieren Ivar",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 66,
+          "catch": 63,
+          "run": 52,
+          "block": 54,
+          "fight": 64,
+          "throw": 42,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Warhammer",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Coward Tarton",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 56,
+          "catch": 51,
+          "run": 62,
+          "block": 47,
+          "fight": 52,
+          "throw": 63,
+          "luck": 51,
+          "pronouns": "She/Her",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dickenson Beker",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 58,
+          "catch": 69,
+          "run": 58,
+          "block": 53,
+          "fight": 52,
+          "throw": 46,
+          "luck": 63,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Marlane Lounge",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 64,
+          "catch": 59,
+          "run": 54,
+          "block": 53,
+          "fight": 52,
+          "throw": 52,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Riffle Heyde",
+        "team": "The Haven Lights",
+        "stats": {
+          "pass": 55,
+          "catch": 56,
+          "run": 48,
+          "block": 53,
+          "fight": 50,
+          "throw": 44,
+          "luck": 48,
+          "pronouns": "They/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "Oak & Onslaught",
+    "slug": "oak-and-onslaught",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 52,
+    "stadium": {
+      "name": "Fletchings Field",
+      "location": "Fletchings",
+      "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+      "modifiers": [
+        "Shifting Terrain",
+        "Warden's Watch",
+        "Natural Advantages"
+      ]
+    },
+    "healer": {
+      "name": "Ahron Latashia",
+      "team": "Oak & Onslaught",
+      "stats": {
+        "pass": 48,
+        "catch": 52,
+        "run": 56,
+        "block": 45,
+        "fight": 64,
+        "throw": 59,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 59,
+        "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+        "literate": true,
+        "favorite_weapon": "Kriegsmesser"
+      }
+    },
+    "players": [
+      {
+        "name": "Milt Casady",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 54,
+          "catch": 57,
+          "run": 54,
+          "block": 65,
+          "fight": 47,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wynnie Faina",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 50,
+          "catch": 64,
+          "run": 66,
+          "block": 55,
+          "fight": 51,
+          "throw": 60,
+          "luck": 71,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Normi Glaudia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 64,
+          "block": 63,
+          "fight": 48,
+          "throw": 60,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Symer Crissy",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 53,
+          "run": 53,
+          "block": 55,
+          "fight": 44,
+          "throw": 63,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Teria Ravo",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 51,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 53,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hole Bowerman",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 39,
+          "catch": 49,
+          "run": 60,
+          "block": 64,
+          "fight": 60,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Teria Ravo",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 51,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 53,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hole Bowerman",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 39,
+          "catch": 49,
+          "run": 60,
+          "block": 64,
+          "fight": 60,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wynnie Faina",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 50,
+          "catch": 64,
+          "run": 66,
+          "block": 55,
+          "fight": 51,
+          "throw": 60,
+          "luck": 71,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Symer Crissy",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 53,
+          "run": 53,
+          "block": 55,
+          "fight": 44,
+          "throw": 63,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      }
+    ]
+  },
+  "preGame": "Step right up, sports fans, and welcome to the glorious carnage of the Winners Bracket! 🏆 I’m your host, Nok the Corrupter, coming to you live from the Aegis Field in Haven! Can you feel the electricity in the air? Or is that just the 'Twinlight’s Glow' making my skin crawl? We’ve got a real barn-burner today as Oak & Onslaught takes on those nauseatingly shiny Haven Lights! It’s the playoffs, folks, where the hits are harder and the memory loss is more frequent! The fans are pouring in, and let me tell you, the Warden supporters are out in force today, while the Haven crowd looks a bit thin—perhaps they’re all busy praying or polishing Sir Randy’s fancy bow! Ha! Look at the pre-game rituals, folks! Hole Bowerman of the Onslaught is out there burying her helmet in the dirt like a frantic squirrel—now that’s what I call preparation! On the other side, Tybi Reo is drawing some truly hideous, anatomically incorrect troll heads. It’s enough to make a demon blush! We’re at the Aegis Field, surrounded by libraries and monasteries. It’s a bit too quiet for my taste, but nothing a few cracked skulls won’t fix! This is Game One of three, and the winner gets a huge leg up in the bracket. Let’s get ready for some beautiful, chaotic Trollball! 🦴💥",
+  "postGame": "What a magnificent display of unbridled brutality! 🏟️ The Oak & Onslaught have taken the first game of the series 1 to 0, leaving those Haven Lights flickering in the dust! The atmosphere was absolutely electric, even if the scoreboard didn't tick over as often as I'd like. The violence, however? Mwah! Chef’s kiss! The action started early in Center Field when Wieren Ivar of the Lights decided he didn't like Affra Yanaton’s face and sent them straight to the infirmary! Not to be outdone, Tybi Reo took Normi Glaudia out of the equation shortly after. It was a symphony of destruction right out of the gate, exactly what we like to see in the Winners Bracket! Possession swapped hands like a hot coal! Milt Casady was doing a fine job until Zwart Bunns hammered him into the turf. I must say, seeing the Haven 'heroes' get their hands dirty is almost as satisfying as seeing them lose! Symer Crissy showed some real backbone, taking out Coward Tarton and Zwart Bunns in quick succession. The grit on display was enough to clog a drain! The first half was a stalemate of blood and bruises! Wynnie Faina managed to even the score on the injury list by flattening Wieren Ivar. It’s a good thing we have healers like Ahron Latashia and Riffle Harrington on the sidelines, or the field would be nothing but a pile of twitching limbs by now! After the halftime break, where everyone got their wits back just in time to lose them again, the intensity ramped up! Wieren Ivar came back with a vengeance, putting Wynnie Faina on the ground. But the real star of the show was Hole Bowerman! After burying her helmet pre-game, she dug deep and found the end zone, dunking that troll head home for the game's only point! The Haven Lights tried to claw back, but the luck just wasn't with them. Riffle Heyde took a shot from the Home Field but missed wider than the ego of Sir Artorias the Moonslayer! It was a pathetic display of accuracy that would make even a blind goblin weep. Late in the game, Shiroma Salim went on an absolute rampage for the Lights! He was cracking skulls left and right, taking out Symer Crissy, Millham Evangeline, and Ema Ulrick. It was a valiant effort to clear the field, but without the ball, all those KOs are just a lovely decorative touch to an Oak & Onslaught victory! Those Warden players really know how to use the Shifting Terrain to their advantage! The Aegis Field might be 'Hallowed Ground,' but it looked more like a slaughterhouse by the time the final whistle blew. Sir Randy must be beaming with pride, or perhaps he's just distracted by his own reflection in his fancy bow. The popularity of Oak & Onslaught is clearly justified! The fans were roaring every time a Haven player hit the dirt. It seems the people of Osterra prefer a bit of rugged Warden muscle over the sanctimonious glitter of the Lights. It's a dark day for the 'heroes' of Haven, and I couldn't be happier! So, Oak & Onslaught takes a 1-0 lead in this Best of 3 series! If the Haven Lights want to avoid the Loser's Bracket, they better find some actual talent instead of just shiny armor. Join us next time for more bone-crunching action! This is Nok the Corrupter, signing off from the most beautiful game on any plane of existence! 🏁💀",
+  "week": 1,
+  "homeScore": 0,
+  "awayScore": 1,
+  "slug": "po-4-1-haven-oak-and-onslaught",
+  "plays": [
+    "The Trollball is picked up by Milt Casady in zone Center Field",
+    "Tybi Reo tries to Tackle Ema Ulrick, but misses!",
+    "Wieren Ivar Tackles Affra Yanaton and INJURES THEM!",
+    "Normi Glaudia throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Abner Seidel in zone Center Field",
+    "Tybi Reo Tackles Normi Glaudia and INJURES THEM!",
+    "Millham Evangeline runs with the ball and advances towards the goal!",
+    "Farand Keil tries to Tackle Wynnie Faina, but misses!",
+    "Zwart Bunns Tackles Milt Casady and INJURES THEM!",
+    "Hole Bowerman throws a wild pass and it is INTERCEPTED by Marlane Lounge!",
+    "Dickenson Beker passes the ball to Coward Tarton!",
+    "Zwart Bunns passes the ball to Farand Keil, but they drop it!",
+    "The Trollball is picked up by Coward Tarton in zone Home Field",
+    "Riffle Heyde tries to Tackle Hole Bowerman, but misses!",
+    "Symer Crissy Tackles Coward Tarton and INJURES THEM!",
+    "Zwart Bunns tries to run with the ball but is stopped by the defense!",
+    "Riffle Heyde shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Marlane Lounge in zone Home Field",
+    "Wynnie Faina tries to Tackle Dickenson Beker, but misses!",
+    "Dickenson Beker shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Tybi Reo in zone Home Field",
+    "Wynnie Faina Tackles Wieren Ivar and INJURES THEM!",
+    "Abner Seidel tries to Tackle Marlane Lounge, but Marlane Lounge blocks it!",
+    "Zwart Bunns tries to Tackle Hole Bowerman, but misses!",
+    "Affra Yanaton Tackles Farand Keil and INJURES THEM!",
+    "Tybi Reo runs with the ball and advances towards the goal!",
+    "Symer Crissy Tackles Zwart Bunns and INJURES THEM!",
+    "Symer Crissy tries to Tackle Tybi Reo, but Tybi Reo blocks it!",
+    "Shiroma Salim tries to run with the ball but is stopped by the defense!",
+    "Wynnie Faina tries to Tackle Shiroma Salim, but Shiroma Salim blocks it!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Millham Evangeline in zone Center Field",
+    "Wieren Ivar Tackles Wynnie Faina and INJURES THEM!",
+    "Riffle Heyde tries to Tackle Symer Crissy, but misses!",
+    "Marlane Lounge tries to Tackle Ema Ulrick, but Ema Ulrick blocks it!",
+    "Affra Yanaton runs with the ball and advances towards the goal!",
+    "Symer Crissy runs with the ball and advances towards the goal!",
+    "Abner Seidel tries to run with the ball but is stopped by the defense!",
+    "Hole Bowerman runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Coward Tarton in zone Center Field",
+    "Symer Crissy tries to Tackle Wieren Ivar, but Wieren Ivar blocks it!",
+    "Teria Ravo Tackles Riffle Heyde and INJURES THEM!",
+    "Shiroma Salim runs with the ball and advances towards the goal!",
+    "Marlane Lounge shoots from Away Field but misses the goal!",
+    "The Trollball is picked up by Zwart Bunns in zone Away Field",
+    "Tybi Reo throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Hole Bowerman in zone Away Field",
+    "Shiroma Salim Tackles Symer Crissy and INJURES THEM!",
+    "Coward Tarton Tackles Affra Yanaton and INJURES THEM!",
+    "Shiroma Salim tries to Tackle Teria Ravo, but Teria Ravo blocks it!",
+    "Shiroma Salim Tackles Millham Evangeline and INJURES THEM!",
+    "Abner Seidel tries to Tackle Berkin Waters, but misses!",
+    "Berkin Waters tries to Tackle Abner Seidel, but misses!",
+    "Berkin Waters tries to Tackle Abner Seidel, but misses!",
+    "Wynnie Faina tries to Tackle Coward Tarton, but Coward Tarton blocks it!",
+    "Marlane Lounge tries to Tackle Ema Ulrick, but Ema Ulrick blocks it!",
+    "Coward Tarton tries to Tackle Hole Bowerman, but misses!",
+    "Shiroma Salim Tackles Ema Ulrick and INJURES THEM!"
+  ],
+  "bracket": "Winners"
+}

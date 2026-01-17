@@ -1,0 +1,891 @@
+{
+  "homeTeam": {
+    "name": "The New Monteforte Chaos Creatures",
+    "slug": "new-monteforte",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 65,
+    "stadium": {
+      "name": "The Unruly Yard",
+      "location": "New Monteforte",
+      "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+      "modifiers": [
+        "Rowdy Crowd",
+        "Unstable Scaffolding",
+        "Street Performer"
+      ]
+    },
+    "healer": {
+      "name": "Lian Denton",
+      "team": "The New Monteforte Chaos Creatures",
+      "stats": {
+        "pass": 55,
+        "catch": 62,
+        "run": 56,
+        "block": 58,
+        "fight": 45,
+        "throw": 60,
+        "luck": 50,
+        "pronouns": "They/Them",
+        "civic_engagement": 52,
+        "alcohol_tolerance": 66,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Boulanger Procto",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 57,
+          "block": 66,
+          "fight": 60,
+          "throw": 57,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gabriele Klehm",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 59,
+          "catch": 57,
+          "run": 47,
+          "block": 62,
+          "fight": 50,
+          "throw": 56,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alben Diantha",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 48,
+          "block": 55,
+          "fight": 63,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hammer",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Boulanger Procto",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 57,
+          "block": 66,
+          "fight": 60,
+          "throw": 57,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Urata Oriana",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 46,
+          "catch": 42,
+          "run": 49,
+          "block": 49,
+          "fight": 52,
+          "throw": 54,
+          "luck": 50,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gabriele Klehm",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 59,
+          "catch": 57,
+          "run": 47,
+          "block": 62,
+          "fight": 50,
+          "throw": 56,
+          "luck": 55,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Placido Kora",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 67,
+          "catch": 59,
+          "run": 48,
+          "block": 52,
+          "fight": 56,
+          "throw": 46,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alben Diantha",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 48,
+          "block": 55,
+          "fight": 63,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hammer",
+          "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Tucker Hett",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 50,
+          "catch": 50,
+          "run": 49,
+          "block": 59,
+          "fight": 52,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Billhook",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The Greenwatch",
+    "slug": "greenwatch",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "stadium": {
+      "name": "The Oakmaul Grounds",
+      "location": "Hafting",
+      "description": "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+      "modifiers": [
+        "Ritual Focus",
+        "Scarred Oak's Shadow",
+        "Hallowed Ground"
+      ]
+    },
+    "healer": {
+      "name": "Nariko Javed",
+      "team": "The Greenwatch",
+      "stats": {
+        "pass": 52,
+        "catch": 55,
+        "run": 58,
+        "block": 56,
+        "fight": 50,
+        "throw": 55,
+        "luck": 73,
+        "pronouns": "They/Them",
+        "civic_engagement": 44,
+        "alcohol_tolerance": 61,
+        "favorite_weapon": "Pike",
+        "pregame_ritual": "Wiggling their fingers in a complex, magical-looking pattern.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Madea Mensch",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 52,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nobe Haukom",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 62,
+          "run": 44,
+          "block": 53,
+          "fight": 49,
+          "throw": 51,
+          "luck": 55,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Verne Methuselah",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 60,
+          "run": 60,
+          "block": 61,
+          "fight": 61,
+          "throw": 59,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rese Halpern",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 50,
+          "run": 68,
+          "block": 56,
+          "fight": 51,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Salahi Bushey",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 57,
+          "catch": 55,
+          "run": 60,
+          "block": 50,
+          "fight": 68,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Anointing their forehead with morning dew.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Darin Berliner",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 60,
+          "run": 48,
+          "block": 56,
+          "fight": 63,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false,
+          "favorite_weapon": "Bardiche"
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Madea Mensch",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 52,
+          "run": 54,
+          "block": 55,
+          "fight": 54,
+          "throw": 48,
+          "luck": 63,
+          "pronouns": "He/Him",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Goldenberg Rimola",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 79,
+          "catch": 59,
+          "run": 54,
+          "block": 60,
+          "fight": 50,
+          "throw": 54,
+          "luck": 42,
+          "pronouns": "He/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Herriott Dhiren",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 51,
+          "run": 56,
+          "block": 51,
+          "fight": 56,
+          "throw": 55,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Nobe Haukom",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 53,
+          "catch": 62,
+          "run": 44,
+          "block": 53,
+          "fight": 49,
+          "throw": 51,
+          "luck": 55,
+          "pronouns": "He/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Verne Methuselah",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 60,
+          "run": 60,
+          "block": 61,
+          "fight": 61,
+          "throw": 59,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Morning Star",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Troy Jorgan",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 56,
+          "catch": 62,
+          "run": 64,
+          "block": 64,
+          "fight": 59,
+          "throw": 55,
+          "luck": 45,
+          "pronouns": "They/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Kirkhammer",
+          "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rese Halpern",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 50,
+          "run": 68,
+          "block": 56,
+          "fight": 51,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Club",
+          "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Drona Jacklin",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 51,
+          "catch": 59,
+          "run": 51,
+          "block": 45,
+          "fight": 52,
+          "throw": 51,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Organizing a small betting pool on who will score first.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Darin Berliner",
+        "team": "The Greenwatch",
+        "stats": {
+          "pass": 62,
+          "catch": 60,
+          "run": 48,
+          "block": 56,
+          "fight": 63,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 56,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false,
+          "favorite_weapon": "Bardiche"
+        }
+      }
+    ]
+  },
+  "preGame": "Greetings, you bloodthirsty maniacs and degenerate gamblers! It's Nok the Corrupter coming to you live from the most wonderfully derelict corner of Osterra—The Unruly Yard in New Monteforte! We’re deep in the Losers Bracket playoffs, where the air is thick with the scent of desperation and stale beer! This is Game 2 of a Best-of-3 series, and folks, the stakes couldn't be higher! The New Monteforte Chaos Creatures are sitting pretty with a 1-0 lead, looking to send The Greenwatch packing back to their leafy little groves for good! If the Greenwatch doesn't find some spine today, they'll be watching the rest of the tournament from the sidelines with the rest of the 'heroes'!\n\nTake a look at the atmosphere here—the graffiti is fresh, the scaffolding is swaying in the breeze like a drunk giant, and the fans are already throwing garbage at the referees! I love it! Down on the field, the rituals are in full swing. Mouldon Earl of the Chaos Creatures is currently hopping around like a madman, refusing to step on any white lines—good luck with that once the blood starts splashing! Meanwhile, for the Greenwatch, Verne Methuselah is giving the Trollball her signature 'grip' treatment by rubbing it deep in her armpits! It’s enough to make a demon weep with joy, or at least reach for a handkerchief!\n\nAnd let's not forget the sheer 'heroism' on display. We’ve got the Greenwatch, backed by those self-righteous Wardens like Sir Randy. I hope his 'fancy bow' can help him aim a pint, because his team is going to need it if they lose this one! On the other side, Dame Terra Monteforte’s favorite rebels are looking to repeat their Game 1 shutout. Will the Chaos Creatures kiss the ball’s nose for luck, or will they just use it to break a few more Greenwatch ribs? The whistle is about to blow, and I can smell the impending carnage! Let’s get ready for some TROLLBALL!",
+  "postGame": "Great galloping gargoyles, what a absolute riot! The whistle has blown, the dust has settled, and The New Monteforte Chaos Creatures have officially swept the series 2-0, leaving The Greenwatch in a pile of broken dreams and bruised egos! The final score is 3 to zip, and the Unruly Yard is erupting into a mid-game riot that warms my cold, corrupted heart! \n\nThings got ugly fast in Center Field when Mouldon Earl snagged the head, but the real show started with the violence! Gabriele Klehm, that quarterstaff-wielding queen of chaos, didn't waste any time. She absolutely flattened Darin Berliner and Rese Halpern back-to-back, sending them both to the healer before they could even remember their own names! It was a beautiful display of pure, unadulterated aggression that set the tone for the entire afternoon!\n\nThe Greenwatch tried to fight back, with Herriott Dhiren putting Raouf Dragone on the injury list, but the Chaos Creatures are like a hydra—cut off one head and two more start swinging broadswords! Raouf Dragone eventually dusted himself off, charged into the End Zone, and dunked that leather head like he was putting a rowdy guest out of a tavern! One point on the board for the home team, and the crowd went absolutely bananas!\n\nBut the highlight of the first half had to be Gabriele Klehm again! Not content with just breaking bones, she took a wild shot from Center Field and—swish!—straight through the goal for a two-pointer! That's how you play the game, folks! No fancy heroics, just a solid throw and a lot of shouting. By the time the halftime whistle blew, the Chaos Creatures were up 3-0 and the Greenwatch looked like they’d been run over by a wagon train.\n\nHalftime saw the healers doing overtime, and Nariko Javed was wiggling those fingers like they were trying to weave a sweater out of thin air! Whatever magic they were cooking up didn't help much in the second half, though. The violence only intensified! Troy Jorgan managed to take out Mouldon Earl, and Drona Jacklin sent Tucker Hett to the dirt, but the Chaos Creatures just kept coming. It was a carousel of carnage that would make Lord Orzalon proud!\n\nLet's talk about the 'heroes' for a second. Sir Randy and his Warden pals must be weeping in their tea right now! The Greenwatch players like Madea Mensch and Salahi Bushey were throwing wild passes that were getting intercepted faster than a bribe at a Guild meeting! Urata Oriana and Drona Jacklin were snagging the ball out of the air like it was their lucky day, proving that 'luck' is just another word for being in the right place to hit someone!\n\nThe second half was a defensive stalemate, if by 'defensive' you mean both teams were too busy hitting each other to actually score! Wolbrom Ariella was getting targeted like he owed everyone money, getting injured not once, but twice by Herriott Dhiren and Drona Jacklin! It was a masterpiece of physical play that left the field looking more like a battlefield than a sports arena.\n\nEven with Alben Diantha and Goldenberg Rimola trading heavy blows and racking up the injury count, the Greenwatch simply couldn't find the basket. They were rubbing that ball in their armpits for grip, but they couldn't hold onto a lead if their lives depended on it! Every time they got close, a Chaos Creature like Fogel Raynold was there to stop the run or force a drop. \n\nAnd what about the drunken state of the pitch? With the fans pouring ale over the unstable scaffolding, I’m surprised anyone could stand straight! Placido Kora was running around like she'd had a few too many of Imra’s elixirs, missing tackles left and right, but it didn't matter because the Greenwatch was even worse! It was a clumsy, bloody, beautiful mess of a game.\n\nSo there you have it, folks! The New Monteforte Chaos Creatures move on in the Losers Bracket, and The Greenwatch is officially out of the playoffs! They can go back to whispering to birds and chewing roots in the woods. The Chaos Creatures are the masters of mayhem today, winning 3-0 and taking the series! \n\nI’m Nok the Corrupter, and if you're looking for me, I'll be at the victory party trying to convince the street performers to set something on fire! Stay brutal, Osterra, and we'll see you next week for more Tuesday Night Trollball! What a game! What a sweep! What a glorious disaster!",
+  "week": 2,
+  "homeScore": 3,
+  "awayScore": 0,
+  "slug": "po-4-2-new-monteforte-greenwatch",
+  "plays": [
+    "The Trollball is picked up by Mouldon Earl in zone Center Field",
+    "Herriott Dhiren tries to Tackle Boulanger Procto, but Boulanger Procto blocks it!",
+    "Gabriele Klehm Tackles Darin Berliner and INJURES THEM!",
+    "Herriott Dhiren Tackles Raouf Dragone and INJURES THEM!",
+    "Goldenberg Rimola tries to Tackle Gabriele Klehm, but Gabriele Klehm blocks it!",
+    "Gabriele Klehm Tackles Rese Halpern and INJURES THEM!",
+    "Tucker Hett runs with the ball and advances towards the goal!",
+    "Placido Kora tries to run with the ball but is stopped by the defense!",
+    "Alben Diantha runs with the ball and advances towards the goal!",
+    "Raouf Dragone runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Raouf Dragone in zone Center Field",
+    "Troy Jorgan Tackles Fogel Raynold and INJURES THEM!",
+    "Fogel Raynold tries to Tackle Salahi Bushey, but Salahi Bushey blocks it!",
+    "Drona Jacklin Tackles Tucker Hett and INJURES THEM!",
+    "Gabriele Klehm shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Verne Methuselah in zone Center Field",
+    "Placido Kora tries to Tackle Herriott Dhiren, but misses!",
+    "Wolbrom Ariella tries to Tackle Salahi Bushey, but misses!",
+    "Raouf Dragone tries to Tackle Madea Mensch, but Madea Mensch blocks it!",
+    "Wolbrom Ariella Tackles Salahi Bushey and INJURES THEM!",
+    "Madea Mensch throws a wild pass and it is INTERCEPTED by Urata Oriana!",
+    "Gabriele Klehm shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Boulanger Procto in zone Center Field",
+    "Verne Methuselah tries to Tackle Raouf Dragone, but misses!",
+    "Placido Kora shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Mouldon Earl in zone Center Field",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Fogel Raynold in zone Center Field",
+    "Rese Halpern tries to Tackle Placido Kora, but misses!",
+    "Fogel Raynold throws a wild pass and it is INTERCEPTED by Drona Jacklin!",
+    "Goldenberg Rimola tries to Tackle Tucker Hett, but misses!",
+    "Tucker Hett tries to Tackle Troy Jorgan, but misses!",
+    "Herriott Dhiren Tackles Wolbrom Ariella and INJURES THEM!",
+    "Verne Methuselah runs with the ball and advances towards the goal!",
+    "Drona Jacklin shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Raouf Dragone in zone Home Field",
+    "Gabriele Klehm passes the ball to Raouf Dragone!",
+    "Troy Jorgan Tackles Mouldon Earl and INJURES THEM!",
+    "Madea Mensch tries to Tackle Raouf Dragone, but misses!",
+    "Fogel Raynold Tackles Drona Jacklin and INJURES THEM!",
+    "Alben Diantha tries to run with the ball but is stopped by the defense!",
+    "Verne Methuselah Tackles Raouf Dragone and INJURES THEM!",
+    "Fogel Raynold shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Herriott Dhiren in zone Home Field",
+    "Alben Diantha Tackles Darin Berliner and INJURES THEM!",
+    "Madea Mensch throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Gabriele Klehm in zone Home Field",
+    "Gabriele Klehm tries to run with the ball but is stopped by the defense!",
+    "Placido Kora runs with the ball and advances towards the goal!",
+    "Goldenberg Rimola Tackles Tucker Hett and INJURES THEM!",
+    "Placido Kora tries to Tackle Madea Mensch, but misses!",
+    "Drona Jacklin Tackles Wolbrom Ariella and INJURES THEM!",
+    "Fogel Raynold tries to run with the ball but is stopped by the defense!"
+  ],
+  "bracket": "Losers"
+}

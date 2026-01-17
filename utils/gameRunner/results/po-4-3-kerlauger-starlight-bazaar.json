@@ -1,0 +1,849 @@
+{
+  "homeTeam": {
+    "name": "The Kerlauger Runeguard",
+    "slug": "kerlauger",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "stadium": {
+      "name": "The Old Fort",
+      "location": "Kerlauger",
+      "description": "The team plays within the crumbling, stone-ringed ruins of an ancient hill-fort. The 'runes' are just old, weathered carvings on the standing stones that serve as obstacles.",
+      "modifiers": [
+        "Ancient Ruins",
+        "Dense Fog",
+        "Uneven Footing"
+      ]
+    },
+    "healer": {
+      "name": "Eal Caundra",
+      "team": "The Kerlauger Runeguard",
+      "stats": {
+        "pass": 63,
+        "catch": 55,
+        "run": 51,
+        "block": 57,
+        "fight": 46,
+        "throw": 59,
+        "luck": 54,
+        "pronouns": "He/Them",
+        "civic_engagement": 45,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "War Scythe",
+        "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Lashondra Niehaus",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 62,
+          "catch": 55,
+          "run": 57,
+          "block": 58,
+          "fight": 62,
+          "throw": 48,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 50,
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Reginauld Cordell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 65,
+          "block": 58,
+          "fight": 51,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 36,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Benjie Foulk",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 54,
+          "block": 58,
+          "fight": 51,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Johnna Beetner",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 68,
+          "catch": 60,
+          "run": 69,
+          "block": 56,
+          "fight": 43,
+          "throw": 49,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Scimitar",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Harilda Sigsmond",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 65,
+          "block": 59,
+          "fight": 51,
+          "throw": 60,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Vivia Namara",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 59,
+          "catch": 53,
+          "run": 51,
+          "block": 57,
+          "fight": 50,
+          "throw": 59,
+          "luck": 49,
+          "pronouns": "She/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lon Gabriell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 56,
+          "catch": 41,
+          "run": 55,
+          "block": 67,
+          "fight": 53,
+          "throw": 61,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shepperd Trefler",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 59,
+          "block": 55,
+          "fight": 66,
+          "throw": 51,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gurney Fadiman",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 42,
+          "run": 52,
+          "block": 59,
+          "fight": 53,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Shortsword",
+          "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lorilee Aldred",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 49,
+          "catch": 54,
+          "run": 55,
+          "block": 56,
+          "fight": 64,
+          "throw": 55,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Lashondra Niehaus",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 62,
+          "catch": 55,
+          "run": 57,
+          "block": 58,
+          "fight": 62,
+          "throw": 48,
+          "luck": 57,
+          "pronouns": "She/Her",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 50,
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true,
+          "favorite_weapon": ""
+        }
+      },
+      {
+        "name": "Reginauld Cordell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 55,
+          "run": 65,
+          "block": 58,
+          "fight": 51,
+          "throw": 55,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 36,
+          "favorite_weapon": "Main-gauche",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Benjie Foulk",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 63,
+          "run": 54,
+          "block": 58,
+          "fight": 51,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "She/Her",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Johnna Beetner",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 68,
+          "catch": 60,
+          "run": 69,
+          "block": 56,
+          "fight": 43,
+          "throw": 49,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Scimitar",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Harilda Sigsmond",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 65,
+          "block": 59,
+          "fight": 51,
+          "throw": 60,
+          "luck": 65,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Battle Axe",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Vivia Namara",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 59,
+          "catch": 53,
+          "run": 51,
+          "block": 57,
+          "fight": 50,
+          "throw": 59,
+          "luck": 49,
+          "pronouns": "She/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Great Axe",
+          "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lon Gabriell",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 56,
+          "catch": 41,
+          "run": 55,
+          "block": 67,
+          "fight": 53,
+          "throw": 61,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Shepperd Trefler",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 59,
+          "block": 55,
+          "fight": 66,
+          "throw": 51,
+          "luck": 54,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Gurney Fadiman",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 58,
+          "catch": 42,
+          "run": 52,
+          "block": 59,
+          "fight": 53,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Shortsword",
+          "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Lorilee Aldred",
+        "team": "The Kerlauger Runeguard",
+        "stats": {
+          "pass": 49,
+          "catch": 54,
+          "run": 55,
+          "block": 56,
+          "fight": 64,
+          "throw": 55,
+          "luck": 54,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 50,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Starlight Bazaar Bizarres",
+    "slug": "starlight-bazaar",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 63,
+    "stadium": {
+      "name": "The Prismatic Pavilion",
+      "location": "Starlight Bazaar (Starlight Lagoon)",
+      "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+      "modifiers": [
+        "Lagoon Splash",
+        "Troupe Distraction",
+        "Unstable Footing"
+      ]
+    },
+    "healer": {
+      "name": "Essa Pattie",
+      "team": "The Starlight Bazaar Bizarres",
+      "stats": {
+        "pass": 57,
+        "catch": 55,
+        "run": 67,
+        "block": 56,
+        "fight": 52,
+        "throw": 45,
+        "luck": 53,
+        "pronouns": "He/Him",
+        "civic_engagement": 46,
+        "alcohol_tolerance": 54,
+        "favorite_weapon": "Horseman's Pick",
+        "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Milo Nelie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 61,
+          "catch": 66,
+          "run": 44,
+          "block": 45,
+          "fight": 49,
+          "throw": 53,
+          "luck": 52,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melesa Zelten",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 43,
+          "catch": 61,
+          "run": 59,
+          "block": 60,
+          "fight": 57,
+          "throw": 49,
+          "luck": 50,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Bush Heiner",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 66,
+          "block": 62,
+          "fight": 51,
+          "throw": 50,
+          "luck": 50,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pompei Hephzipa",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 50,
+          "catch": 62,
+          "run": 48,
+          "block": 39,
+          "fight": 57,
+          "throw": 64,
+          "luck": 46,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Demp Chet",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 63,
+          "catch": 46,
+          "run": 52,
+          "block": 53,
+          "fight": 48,
+          "throw": 50,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gagliano Tallbott",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 57,
+          "catch": 48,
+          "run": 57,
+          "block": 53,
+          "fight": 64,
+          "throw": 61,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Aggri Cookie",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 51,
+          "catch": 65,
+          "run": 54,
+          "block": 49,
+          "fight": 59,
+          "throw": 58,
+          "luck": 61,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Halberd",
+          "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Willa Lois",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 45,
+          "catch": 41,
+          "run": 59,
+          "block": 63,
+          "fight": 43,
+          "throw": 43,
+          "luck": 51,
+          "pronouns": "They/Them",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Quintessa Austine",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 54,
+          "catch": 56,
+          "run": 46,
+          "block": 61,
+          "fight": 51,
+          "throw": 49,
+          "luck": 44,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kristin Kronfeld",
+        "team": "The Starlight Bazaar Bizarres",
+        "stats": {
+          "pass": 58,
+          "catch": 56,
+          "run": 53,
+          "block": 55,
+          "fight": 41,
+          "throw": 59,
+          "luck": 45,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Step right up, ladies and gentlemen, ghouls and ghosts! This is Nok the Corrupter, coming to you live from the fog-drenched, bone-chilling ruins of The Old Fort for the final, decisive Game 3 of this Losers Bracket showdown! It’s all on the line tonight—the winner moves on to fight another day in the playoffs, and the loser? Well, they’ll be taking a one-way trip to the scrap heap of history! The air is thick enough to chew, the ancient stones are slick with moss and anticipation, and I can tell you right now, the atmosphere is absolutely electric! Neither the Starlight Bazaar Bizarres nor the Kerlauger Runeguard want to go home, and they are ready to tear each other limb from limb to prove it!\n\nI’ve been watching the pre-game festivities, and let me tell you, these athletes are locked in! For the Bizarres, Gagliano Tallbott was seen whispering a truly hideous joke to the leather troll head to 'loosen it up'—I haven't heard something that unfunny since the last time Sir Artorias tried to give a speech about 'friendship'! Meanwhile, Bush Heiner is nearly done with her third lap around the perimeter, looking like she’s ready to outrun a hungry manticore. This circus troupe is high on adrenaline and probably some of Kython’s special 'performance enhancers,' and they are looking to turn these ruins into a house of pain!\n\nBut don't count out the home-field advantage of the Runeguard! These warriors of the White Ravens are defending their turf with a grim intensity that would make Dame Terra Monteforte proud! I saw Vivia Namara give herself a face-reddening slap after spitting into her own hand—now that is the kind of self-inflicted violence I love to see! Shepperd Trefler is over there with his hair in those tight, battle-ready rows, looking like he’s ready to headbutt a standing stone. They’ve been sipping on their ceremonial grog, and while it might not be the hard stuff we serve at my boss’s parties, it’s clearly got them ready for a scrap. The fog is rolling in, the footing is treacherous, and the stakes are terminal! Let’s get ready for some Trollball!",
+  "postGame": "Suffering Succotash, what a finish! If you like your sports with a side of dental reconstruction and a dash of sudden-death drama, then I hope you were tuned in to this one! The Starlight Bazaar Bizarres have done it! They’ve snatched victory from the jaws of the ruins, defeating the Kerlauger Runeguard 3 to 1 in a heart-pounding Overtime thriller to take the series 2-1! The Prismatic Pavilion is going to be rocking tonight, while the White Ravens will be left picking the moss out of their teeth!\n\nThe match started under a heavy veil of halftime healing, with both teams returning their mangled stars to the field. Benjie Foulk wasted no time, scooping up the troll head in the Away 2-Point zone, but the physical play started immediately! Lon Gabriell, looking like a woman possessed, absolutely pulverized Kristin Kronfeld, sending her back to the healers before she could even break a sweat! It was a thunderous hit that echoed off the ancient standing stones, but the Bizarres aren't known for playing fair or staying down!\n\nQuintessa Austine decided to settle the score for the circus crew, delivering a bone-rattling tackle to Shepperd Trefler that left the Runeguard’s enforcer staring at the stars! Amidst the chaos of dropped passes and missed tackles, it was Vivia Namara who finally broke the stalemate. Showing off that legendary Kerlauger grit, she dodged the slippery footing and charged straight into the End Zone, dunking the ball with enough force to rattle the teeth of everyone in the front row! The home crowd went wild as the Runeguard took a 1-0 lead!\n\nBut the Bizarres are performers at heart, and they know how to handle a comeback! As the fog grew denser, the hits got harder. Shepperd Trefler came back with a vengeance, putting Milo Nelie on the sidelines with an injury, only for Lashondra Niehaus to join the party by taking out Melesa Zelten! It was a revolving door at the healer’s tent! But amidst the carnage, Quintessa Austine found an opening. With a burst of speed that would make a rogue jealous, Quintessa sprinted into the End Zone and slammed the ball home to tie the game at 1-1!\n\nAs the clock ticked down, the tension was so thick you could cut it with a katar. Demp Chet tried to make a play on Lashondra, but the Runeguard defense was like a stone wall. The final horn sounded with the score tied, sending us into the most beautiful words in the Osterean language: OVERTIME! All the injured players were hauled back onto the field, smelling of smelling salts and desperation, for one final push to decide who survives the playoffs!\n\nThe Overtime period was short, sweet, and absolutely brutal! Kristin Kronfeld, clearly recovered from her earlier trip to the dirt, snatched the ball in Center Field. The Runeguard defenders were scrambling, their vision obscured by the Dense Fog, and that’s when Pompei Hephzipa saw his moment. Standing right in the middle of the chaos, Pompei wound up and let fly a spectacular long-range shoot!\n\nThe leather troll head soared through the misty air, arching perfectly over the reaching hands of the defenders. It felt like the whole world stopped spinning as that ball sailed toward the basket. SWISH! A 2-point shot from Center Field! The Bizarres take it 3 to 1! The stadium erupted in a mix of cheers from the traveling circus fans and stunned silence from the Kerlauger locals. It was a masterclass in theatrical timing!\n\nYou have to feel for the Runeguard; they played like demons, but they just couldn't handle the Bizarres' flair for the dramatic. Harilda Sigsmond’s crew looked more like they were chasing ghosts in the fog than actual players by the end of it. Maybe if they spent less time collecting pebbles and more time practicing their aim, they wouldn't be packing their bags for the off-season! It's a tough break for the White Ravens, but that's the Everwar for you—yesterday's hero is today's practice dummy!\n\nAnd what about those Bizarres? They’ve shown they have the stomach for the Losers Bracket, surviving a grueling three-game series against a physical opponent. Kython is going to be handing out the extra-strength grog tonight, I’m sure! They moved the ball when it mattered, and more importantly, they hit harder when the game was on the line. They advance to the next round of the playoffs, and I, for one, can’t wait to see who they’ll maim next!\n\nThe players are looking a bit worse for wear, and I suspect the 'alcohol tolerance' stats of the winners are about to be put to a serious test at the post-game celebration. I saw Aggri Cookie staring at his gauntlets with a glassy-eyed grin—he’s either concussed or already three sheets to the wind, and either way, he’s earned it! The Prismatic Troupe has proven that even in the mud and fog of an old fort, the show must go on!\n\nSo that’s it from Kerlauger! The Starlight Bazaar Bizarres move forward, and the Kerlauger Runeguard are officially eliminated from playoff contention! I’m Nok the Corrupter, thanking you for joining me for this spectacular display of violence and victory! Tune in next week for more bone-snapping action on Tuesday Night Trollball! Until then, keep your eyes on the ball and your hand on your dagger! Goodnight, Osterra!",
+  "week": 3,
+  "homeScore": 1,
+  "awayScore": 3,
+  "slug": "po-4-3-kerlauger-starlight-bazaar",
+  "plays": [
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Benjie Foulk in zone Away 2-Point",
+    "Lon Gabriell Tackles Kristin Kronfeld and INJURES THEM!",
+    "Lon Gabriell shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Lorilee Aldred in zone Away 2-Point",
+    "Reginauld Cordell tries to Tackle Pompei Hephzipa, but misses!",
+    "Gurney Fadiman tries to Tackle Milo Nelie, but misses!",
+    "Benjie Foulk tries to run with the ball but is stopped by the defense!",
+    "Quintessa Austine Tackles Shepperd Trefler and INJURES THEM!",
+    "Lon Gabriell throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Lorilee Aldred in zone Away 2-Point",
+    "Reginauld Cordell shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Lashondra Niehaus in zone Away 2-Point",
+    "Willa Lois tries to Tackle Harilda Sigsmond, but misses!",
+    "Lon Gabriell tries to Tackle Gagliano Tallbott, but Gagliano Tallbott blocks it!",
+    "Vivia Namara runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Pompei Hephzipa in zone Center Field",
+    "Aggri Cookie runs with the ball and advances towards the goal!",
+    "Quintessa Austine tries to run with the ball but is stopped by the defense!",
+    "Quintessa Austine runs with the ball and advances towards the goal!",
+    "Harilda Sigsmond tries to Tackle Quintessa Austine, but Quintessa Austine blocks it!",
+    "Benjie Foulk tries to Tackle Pompei Hephzipa, but misses!",
+    "Shepperd Trefler Tackles Milo Nelie and INJURES THEM!",
+    "Vivia Namara tries to Tackle Bush Heiner, but Bush Heiner blocks it!",
+    "Lashondra Niehaus Tackles Melesa Zelten and INJURES THEM!",
+    "Shepperd Trefler tries to Tackle Aggri Cookie, but misses!",
+    "Quintessa Austine runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Johnna Beetner in zone Center Field",
+    "Demp Chet tries to Tackle Lashondra Niehaus, but Lashondra Niehaus blocks it!",
+    "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Kristin Kronfeld in zone Center Field",
+    "Pompei Hephzipa shoots from Center Field and SCORES!"
+  ],
+  "bracket": "Losers"
+}
