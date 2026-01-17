@@ -1,0 +1,911 @@
+{
+    "homeTeam": {
+        "name": "The Desert Spectres",
+        "slug": "desert",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 61,
+        "stadium": {
+            "name": "The Sun-Baked Bowl",
+            "location": "The Great Desert",
+            "description": "A simple, deep bowl dug from clay and sandstone on the edge of a caravan oasis. The heat is oppressive, and the 'stands' are just blankets laid on the sun-baked dunes.",
+            "modifiers": [
+                "Intense Heat",
+                "Sandstorm",
+                "Dehydration"
+            ]
+        },
+        "healer": {
+            "name": "Verlee Dacia",
+            "team": "The Desert Spectres",
+            "stats": {
+                "pass": 54,
+                "catch": 53,
+                "run": 68,
+                "block": 50,
+                "fight": 40,
+                "throw": 47,
+                "luck": 57,
+                "pronouns": "She/Her",
+                "civic_engagement": 60,
+                "alcohol_tolerance": 66,
+                "favorite_weapon": "Billhook",
+                "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Fidellia Mozelle",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 40,
+                    "catch": 57,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 65,
+                    "throw": 67,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Swordstaff",
+                    "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Muscolo Jaehne",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 50,
+                    "run": 53,
+                    "block": 39,
+                    "fight": 60,
+                    "throw": 53,
+                    "luck": 49,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Eileen Mikihisa",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 54,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 55,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Bahr Ethelstan",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 62,
+                    "catch": 61,
+                    "run": 62,
+                    "block": 49,
+                    "fight": 60,
+                    "throw": 52,
+                    "luck": 53,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Humming a tune they believe only they know.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Heyes Iver",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 55,
+                    "catch": 60,
+                    "run": 61,
+                    "block": 51,
+                    "fight": 54,
+                    "throw": 71,
+                    "luck": 49,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 67,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Tugging on their left earlobe three times.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Angelita Darce",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 52,
+                    "catch": 50,
+                    "run": 58,
+                    "block": 53,
+                    "fight": 56,
+                    "throw": 58,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Shaving one half of their mustache for important games.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Shelman McQuoid",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 50,
+                    "run": 53,
+                    "block": 44,
+                    "fight": 54,
+                    "throw": 65,
+                    "luck": 65,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Pike",
+                    "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Lovash Marius",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 52,
+                    "catch": 46,
+                    "run": 42,
+                    "block": 56,
+                    "fight": 43,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Steve",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 59,
+                    "catch": 63,
+                    "run": 55,
+                    "block": 59,
+                    "fight": 64,
+                    "throw": 48,
+                    "luck": 74,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 42,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Organizing a small betting pool on who will score first.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Huesman Ring",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 48,
+                    "catch": 56,
+                    "run": 41,
+                    "block": 48,
+                    "fight": 58,
+                    "throw": 38,
+                    "luck": 44,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Fidellia Mozelle",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 40,
+                    "catch": 57,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 65,
+                    "throw": 67,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Swordstaff",
+                    "pregame_ritual": "Smelling a piece of burnt wood from a campfire.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Muscolo Jaehne",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 50,
+                    "run": 53,
+                    "block": 39,
+                    "fight": 60,
+                    "throw": 53,
+                    "luck": 49,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Methodically tearing a large leaf into tiny, identical pieces.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Eileen Mikihisa",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 54,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 55,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Bahr Ethelstan",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 62,
+                    "catch": 61,
+                    "run": 62,
+                    "block": 49,
+                    "fight": 60,
+                    "throw": 52,
+                    "luck": 53,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Humming a tune they believe only they know.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Heyes Iver",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 55,
+                    "catch": 60,
+                    "run": 61,
+                    "block": 51,
+                    "fight": 54,
+                    "throw": 71,
+                    "luck": 49,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 67,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Tugging on their left earlobe three times.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Shelman McQuoid",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 50,
+                    "run": 53,
+                    "block": 44,
+                    "fight": 54,
+                    "throw": 65,
+                    "luck": 65,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Pike",
+                    "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Lovash Marius",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 52,
+                    "catch": 46,
+                    "run": 42,
+                    "block": 56,
+                    "fight": 43,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Huesman Ring",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 48,
+                    "catch": 56,
+                    "run": 41,
+                    "block": 48,
+                    "fight": 58,
+                    "throw": 38,
+                    "luck": 44,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Steve",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 59,
+                    "catch": 63,
+                    "run": 55,
+                    "block": 59,
+                    "fight": 64,
+                    "throw": 48,
+                    "luck": 74,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 42,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Organizing a small betting pool on who will score first.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Angelita Darce",
+                "team": "The Desert Spectres",
+                "stats": {
+                    "pass": 52,
+                    "catch": 50,
+                    "run": 58,
+                    "block": 53,
+                    "fight": 56,
+                    "throw": 58,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Shaving one half of their mustache for important games.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "The Greenwatch",
+        "slug": "greenwatch",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 53,
+        "stadium": {
+            "name": "The Oakmaul Grounds",
+            "location": "Hafting",
+            "description": "Built over the site of the final battle during the liberation of Hafting now rises The Oakmaul Grounds—part arena, part monument. The central oak still bears the burn scars of the final battle. Troll ball here feels more like ritual than sport.",
+            "modifiers": [
+                "Ritual Focus",
+                "Scarred Oak's Shadow",
+                "Hallowed Ground"
+            ]
+        },
+        "healer": {
+            "name": "Nariko Javed",
+            "team": "The Greenwatch",
+            "stats": {
+                "pass": 52,
+                "catch": 55,
+                "run": 58,
+                "block": 56,
+                "fight": 50,
+                "throw": 55,
+                "luck": 73,
+                "pronouns": "They/Them",
+                "civic_engagement": 44,
+                "alcohol_tolerance": 61,
+                "favorite_weapon": "Pike",
+                "pregame_ritual": "Wiggling their fingers in a complex, magical-looking pattern.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Madea Mensch",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 52,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 48,
+                    "luck": 63,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Goldenberg Rimola",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 79,
+                    "catch": 59,
+                    "run": 54,
+                    "block": 60,
+                    "fight": 50,
+                    "throw": 54,
+                    "luck": 42,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Attempting to communicate with birds.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Herriott Dhiren",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 51,
+                    "run": 56,
+                    "block": 51,
+                    "fight": 56,
+                    "throw": 55,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Nobe Haukom",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 62,
+                    "run": 44,
+                    "block": 53,
+                    "fight": 49,
+                    "throw": 51,
+                    "luck": 55,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Verne Methuselah",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 60,
+                    "run": 60,
+                    "block": 61,
+                    "fight": 61,
+                    "throw": 59,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Morning Star",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Drona Jacklin",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 59,
+                    "run": 51,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 51,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Organizing a small betting pool on who will score first.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Troy Jorgan",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 56,
+                    "catch": 62,
+                    "run": 64,
+                    "block": 64,
+                    "fight": 59,
+                    "throw": 55,
+                    "luck": 45,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Rese Halpern",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 50,
+                    "run": 68,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Club",
+                    "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Salahi Bushey",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 57,
+                    "catch": 55,
+                    "run": 60,
+                    "block": 50,
+                    "fight": 68,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Sap",
+                    "pregame_ritual": "Anointing their forehead with morning dew.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Darin Berliner",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 60,
+                    "run": 48,
+                    "block": 56,
+                    "fight": 63,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 56,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false,
+                    "favorite_weapon": "Bardiche"
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Madea Mensch",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 52,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 48,
+                    "luck": 63,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Herriott Dhiren",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 51,
+                    "run": 56,
+                    "block": 51,
+                    "fight": 56,
+                    "throw": 55,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Nobe Haukom",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 53,
+                    "catch": 62,
+                    "run": 44,
+                    "block": 53,
+                    "fight": 49,
+                    "throw": 51,
+                    "luck": 55,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Verne Methuselah",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 60,
+                    "run": 60,
+                    "block": 61,
+                    "fight": 61,
+                    "throw": 59,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Morning Star",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Drona Jacklin",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 51,
+                    "catch": 59,
+                    "run": 51,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 51,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Organizing a small betting pool on who will score first.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Troy Jorgan",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 56,
+                    "catch": 62,
+                    "run": 64,
+                    "block": 64,
+                    "fight": 59,
+                    "throw": 55,
+                    "luck": 45,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Asking the Trollball for advice, and pretending to listen to its response.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Rese Halpern",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 50,
+                    "run": 68,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Club",
+                    "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Darin Berliner",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 62,
+                    "catch": 60,
+                    "run": 48,
+                    "block": 56,
+                    "fight": 63,
+                    "throw": 53,
+                    "luck": 57,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 56,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false,
+                    "favorite_weapon": "Bardiche"
+                }
+            },
+            {
+                "name": "Goldenberg Rimola",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 79,
+                    "catch": 59,
+                    "run": 54,
+                    "block": 60,
+                    "fight": 50,
+                    "throw": 54,
+                    "luck": 42,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Attempting to communicate with birds.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Salahi Bushey",
+                "team": "The Greenwatch",
+                "stats": {
+                    "pass": 57,
+                    "catch": 55,
+                    "run": 60,
+                    "block": 50,
+                    "fight": 68,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Sap",
+                    "pregame_ritual": "Anointing their forehead with morning dew.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "Hello, hello, hello, you beautiful monsters and bloodthirsty bettors! This is Nok the Corrupter, coming to you live from the Sun-Baked Bowl in the Great Desert for a Tuesday Night Trollball knockout! We are deep in the Losers Bracket of the playoffs, where the air is hotter than a dragon's breath and twice as dusty! It is Game 2 of this Best-of-3 series, and the pressure is higher than a mountain troll on a bender! The Greenwatch are up 1-0 after a narrow victory last week, and they are smelling blood in the sand tonight! 🏟️🌵\n\nOur home side, The Desert Spectres, are looking more than a little parched out there! They need this win to stay alive, or they'll be haunting the sidelines for the rest of the season. I just saw Angelita Darce backstage giving himself that signature half-mustache shave—talk about commitment to the bit! Meanwhile, Muscolo Jaehne is frantically tearing leaves into identical little pieces. It’s that kind of obsessive-compulsive energy that makes for a great defender, or a very interesting dinner guest! Even with Geth the Gravelord lurking in the dunes, these Spectres need to find some life in their game! 💀🪓\n\nBut don't count out the visitors! The Greenwatch have arrived from the lush Oakmaul Grounds, and they are looking a bit out of place in this sandbox. Verne Methuselah is already rubbing the Trollball on her armpits for that 'special grip'—that's the kind of homegrown Warden strategy that Sir Randy and his fancy, gold-plated bow probably find disgusting! And look at Nobe Haukom, sneaking around to pluck hairs from his teammates' beards for luck. If that doesn't scream 'playoff intensity,' I don't know what does! 🌳🔨\n\nThe crowd is a bit thin today—it seems the heat has kept the casuals away—but the ones who are here are ready for some serious carnage! With the 'Intense Heat' and 'Dehydration' modifiers in play, we’re going to see who has the stomach for a desert brawl. Will the Greenwatch close it out, or will the Spectres drag them into a Game 3? Let’s get to the violence, folks! ☀️🏐",
+    "postGame": "Well, knock me down and call me a kobold, what a display of defensive dominance! The Greenwatch have shut down the Desert Spectres in a 2-0 defensive masterclass right here in the Sun-Baked Bowl! With this second victory in the bag, the Greenwatch sweep the series 2-0 and send the Spectres packing! It was a game of grit, sand, and a whole lot of horizontal players! 🎤💥\n\nThings started off messy, just the way I like it! Angelita Darce managed to snag the Trollball early, but the Spectres were fumbling like they had butter on their fingers—or maybe just too much sand! Between wild passes and dropped balls, it was a comedy of errors until the real violence began. You could tell the 'Intense Heat' was already rattling the Spectres' brains, while the Greenwatch looked ready to harvest some souls! 🌵☀️\n\nThe first real highlight came when Rese Halpern decided she’d had enough of Eileen Mikihisa’s nonsense. She delivered a tackle so hard it probably left a permanent dent in the sandstone! Eileen went down and stayed down, needing a quick visit from the healer. It set a tone for the afternoon: if you carry the ball, you're going to pay for it in teeth! 🤕🦷\n\nThen we saw Herriott Dhiren go on an absolute rampage! She didn't just play the game; she dismantled the Spectres' roster. First, she leveled Muscolo Jaehne, then she turned her sights on Shelman McQuoid, sending him to the sand with a sickening thud. Herriott was playing like she had a personal grudge against anyone wearing desert colors! It’s the kind of cold-blooded efficiency that would make even the assassin King Dima nod in approval! 🗡️💪\n\nBut the carnage didn't stop there! Salahi Bushey got in on the action, using his sap to put Huesman Ring into the dirt. Shortly after, Nobe Haukom—probably powered by those lucky beard hairs—absolutely demolished Heyes Iver. The Spectres were dropping like flies in a heatwave, and the healers were working overtime just to keep enough bodies on the field to call it a match! 🩸🚑\n\nAt halftime, both teams retreated to what little shade they could find. The dehydration was clearly setting in, and you could see the Spectres looking longingly at the horizon for a rain cloud that was never coming. The Greenwatch, however, seemed to thrive in the chaos, perhaps drawing some lingering power from their 'Ritual Focus' back home, even in this clay bowl! 🍯☀️\n\nWhen we got back to it, Darin Berliner decided to finish what the heat started. She tracked down Angelita Darce and delivered a tackle that was more theatrical than a Prismatic Troupe performance! Angelita’s half-mustache didn't save him from the Bardiche, and he was carted off to join his teammates in the injury tent. At this point, the Spectres were running on fumes and desperation! 🎭🔨\n\nThen came the play of the game! Drona Jacklin, who I hear was winning her own betting pool on the sidelines, took the ball in Center Field. She didn't bother running; she just wound up and let fly a 'Shoot' that cut through the sandstorm like a hot knife through butter! It sailed through the goal for 2 points, giving the Greenwatch a lead that felt like a mountain in this linear desert! 🎯✨\n\nThe Spectres tried to mount a comeback, but it was like watching a one-legged goblin try to outrun a wolf. Steve tried to advance the ball several times but was met with a wall of Greenwatch steel every single time. The defense was so suffocating that the Spectres couldn't even get a pass off without a Warden-allied mallet threatening their collarbones! 🐺🚫\n\nIn a final act of desperation, Huesman Ring and Fidellia Mozelle both took wild shots from the Away Field, but the heat must have been blurring their vision. The balls sailed wide, landing in the dunes where only the scorpions could enjoy them. It was a pathetic end for a team that historically had so much promise, but that's Trollball in the playoffs—it's cruel, it's hot, and it doesn't care about your feelings! 🦂🏜️\n\nSo, there you have it! The Greenwatch win 2-0 and take the series sweep! They move on in the Losers Bracket, while the Desert Spectres are officially out of the running. I’d offer them a drink, but I think Imra would charge them triple for the 'recovery elixir.' As for the so-called 'heroes' like Falric or Sir Randy, I hope they were watching, because this is what real work looks like—sweaty, bloody, and entirely unnecessary! This is Nok the Corrupter signing off! Stay corrupt, Osterra! 🍻🏆",
+    "week": 2,
+    "homeScore": 0,
+    "awayScore": 2,
+    "slug": "po-2-2-desert-greenwatch",
+    "plays": [
+        "The Trollball is picked up by Angelita Darce in zone Center Field",
+        "Lovash Marius passes the ball to Muscolo Jaehne, but they drop it!",
+        "The Trollball is picked up by Angelita Darce in zone Center Field",
+        "Angelita Darce throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Eileen Mikihisa in zone Center Field",
+        "Fidellia Mozelle tries to Tackle Herriott Dhiren, but misses!",
+        "Rese Halpern Tackles Eileen Mikihisa and INJURES THEM!",
+        "Troy Jorgan tries to Tackle Huesman Ring, but Huesman Ring blocks it!",
+        "Herriott Dhiren tries to Tackle Huesman Ring, but Huesman Ring blocks it!",
+        "Huesman Ring runs with the ball and advances towards the goal!",
+        "Herriott Dhiren Tackles Muscolo Jaehne and INJURES THEM!",
+        "Herriott Dhiren Tackles Shelman McQuoid and INJURES THEM!",
+        "Salahi Bushey Tackles Huesman Ring and INJURES THEM!",
+        "Nobe Haukom Tackles Heyes Iver and INJURES THEM!",
+        "Verne Methuselah tries to Tackle Steve, but misses!",
+        "Fidellia Mozelle runs with the ball and advances towards the goal!",
+        "Angelita Darce tries to Tackle Rese Halpern, but Rese Halpern blocks it!",
+        "Darin Berliner tries to Tackle Lovash Marius, but Lovash Marius blocks it!",
+        "Madea Mensch tries to Tackle Angelita Darce, but misses!",
+        "Darin Berliner tries to Tackle Lovash Marius, but Lovash Marius blocks it!",
+        "Angelita Darce tries to Tackle Drona Jacklin, but misses!",
+        "Lovash Marius Tackles Goldenberg Rimola and INJURES THEM!",
+        "Lovash Marius shoots from Away 2-Point but misses the goal!",
+        "The Trollball is picked up by Madea Mensch in zone Away 2-Point",
+        "Herriott Dhiren tries to Tackle Lovash Marius, but misses!",
+        "Lovash Marius tries to Tackle Goldenberg Rimola, but misses!",
+        "Lovash Marius tries to Tackle Goldenberg Rimola, but misses!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Goldenberg Rimola in zone Away 2-Point",
+        "Rese Halpern runs with the ball and advances towards the goal!",
+        "Huesman Ring tries to Tackle Salahi Bushey, but misses!",
+        "Angelita Darce tries to Tackle Goldenberg Rimola, but Goldenberg Rimola blocks it!",
+        "Herriott Dhiren Tackles Steve and INJURES THEM!",
+        "Madea Mensch passes the ball to Nobe Haukom, but they drop it!",
+        "The Trollball is picked up by Rese Halpern in zone Away Field",
+        "Verne Methuselah tries to run with the ball but is stopped by the defense!",
+        "Nobe Haukom tries to run with the ball but is stopped by the defense!",
+        "Darin Berliner Tackles Angelita Darce and INJURES THEM!",
+        "Herriott Dhiren tries to Tackle Heyes Iver, but misses!",
+        "Verne Methuselah runs with the ball and advances towards the goal!",
+        "Darin Berliner tries to run with the ball but is stopped by the defense!",
+        "Drona Jacklin shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Steve in zone Center Field",
+        "Muscolo Jaehne tries to Tackle Salahi Bushey, but misses!",
+        "Fidellia Mozelle Tackles Salahi Bushey and INJURES THEM!",
+        "Goldenberg Rimola tries to Tackle Heyes Iver, but misses!",
+        "Herriott Dhiren tries to Tackle Eileen Mikihisa, but misses!",
+        "Heyes Iver runs with the ball and advances towards the goal!",
+        "Steve tries to run with the ball but is stopped by the defense!",
+        "Madea Mensch tries to Tackle Fidellia Mozelle, but Fidellia Mozelle blocks it!",
+        "Herriott Dhiren tries to Tackle Eileen Mikihisa, but Eileen Mikihisa blocks it!",
+        "Huesman Ring shoots from Away Field but misses the goal!",
+        "The Trollball is picked up by Heyes Iver in zone Away Field",
+        "Steve tries to run with the ball but is stopped by the defense!",
+        "Fidellia Mozelle shoots from Away Field but misses the goal!"
+    ],
+    "bracket": "Losers"
+}

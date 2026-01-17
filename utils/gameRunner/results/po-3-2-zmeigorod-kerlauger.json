@@ -1,0 +1,916 @@
+{
+    "homeTeam": {
+        "name": "The Zmeigorod Snessengers",
+        "slug": "zmeigorod",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 53,
+        "stadium": {
+            "name": "The Serpent's Pass",
+            "location": "Zmeigorod, just west of the lumber mill",
+            "modifiers": [
+                "Altitude Sickness",
+                "Sudden Downpour",
+                "Rockslide"
+            ],
+            "description": "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it."
+        },
+        "healer": {
+            "name": "Waldon Tadeo",
+            "team": "The Zmeigorod Snessengers",
+            "stats": {
+                "pass": 56,
+                "catch": 65,
+                "run": 55,
+                "block": 56,
+                "fight": 54,
+                "throw": 60,
+                "luck": 50,
+                "pronouns": "She/Them",
+                "civic_engagement": 56,
+                "alcohol_tolerance": 53,
+                "favorite_weapon": "Battle Axe",
+                "pregame_ritual": "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Delija Dowling",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 55,
+                    "run": 50,
+                    "block": 51,
+                    "fight": 53,
+                    "throw": 56,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Northway Orran",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 54,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 55,
+                    "fight": 66,
+                    "throw": 53,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Evalyn Pierrepont",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 57,
+                    "catch": 49,
+                    "run": 66,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Rose Kluge",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 54,
+                    "run": 63,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 52,
+                    "luck": 55,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Cudgel",
+                    "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Gere Cordelie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 55,
+                    "catch": 47,
+                    "run": 42,
+                    "block": 68,
+                    "fight": 53,
+                    "throw": 48,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 47,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true,
+                    "favorite_weapon": "Spiked Gauntlet"
+                }
+            },
+            {
+                "name": "Kleinstein MacGregor",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 43,
+                    "catch": 59,
+                    "run": 61,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 59,
+                    "luck": 68,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Avaria Revell",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 46,
+                    "run": 67,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 57,
+                    "luck": 61,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alded Sanjay",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 45,
+                    "catch": 61,
+                    "run": 56,
+                    "block": 54,
+                    "fight": 51,
+                    "throw": 61,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "War Scythe",
+                    "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Arni Griffith",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 62,
+                    "run": 43,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 55,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Dare Wynnie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 64,
+                    "catch": 54,
+                    "run": 50,
+                    "block": 54,
+                    "fight": 62,
+                    "throw": 52,
+                    "luck": 59,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Delija Dowling",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 55,
+                    "run": 50,
+                    "block": 51,
+                    "fight": 53,
+                    "throw": 56,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Evalyn Pierrepont",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 57,
+                    "catch": 49,
+                    "run": 66,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Kleinstein MacGregor",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 43,
+                    "catch": 59,
+                    "run": 61,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 59,
+                    "luck": 68,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Alded Sanjay",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 45,
+                    "catch": 61,
+                    "run": 56,
+                    "block": 54,
+                    "fight": 51,
+                    "throw": 61,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "War Scythe",
+                    "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Arni Griffith",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 62,
+                    "run": 43,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 55,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Northway Orran",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 54,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 55,
+                    "fight": 66,
+                    "throw": 53,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Gere Cordelie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 55,
+                    "catch": 47,
+                    "run": 42,
+                    "block": 68,
+                    "fight": 53,
+                    "throw": 48,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 47,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true,
+                    "favorite_weapon": "Spiked Gauntlet"
+                }
+            },
+            {
+                "name": "Avaria Revell",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 46,
+                    "run": 67,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 57,
+                    "luck": 61,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Dare Wynnie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 64,
+                    "catch": 54,
+                    "run": 50,
+                    "block": 54,
+                    "fight": 62,
+                    "throw": 52,
+                    "luck": 59,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Rose Kluge",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 54,
+                    "run": 63,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 52,
+                    "luck": 55,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Cudgel",
+                    "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+                    "literate": false
+                }
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "The Kerlauger Runeguard",
+        "slug": "kerlauger",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 60,
+        "stadium": {
+            "name": "The Old Fort",
+            "location": "Kerlauger",
+            "description": "The team plays within the crumbling, stone-ringed ruins of an ancient hill-fort. The 'runes' are just old, weathered carvings on the standing stones that serve as obstacles.",
+            "modifiers": [
+                "Ancient Ruins",
+                "Dense Fog",
+                "Uneven Footing"
+            ]
+        },
+        "healer": {
+            "name": "Eal Caundra",
+            "team": "The Kerlauger Runeguard",
+            "stats": {
+                "pass": 63,
+                "catch": 55,
+                "run": 51,
+                "block": 57,
+                "fight": 46,
+                "throw": 59,
+                "luck": 54,
+                "pronouns": "He/Them",
+                "civic_engagement": 45,
+                "alcohol_tolerance": 54,
+                "favorite_weapon": "War Scythe",
+                "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Lashondra Niehaus",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 62,
+                    "catch": 55,
+                    "run": 57,
+                    "block": 58,
+                    "fight": 62,
+                    "throw": 48,
+                    "luck": 57,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 67,
+                    "alcohol_tolerance": 50,
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true,
+                    "favorite_weapon": ""
+                }
+            },
+            {
+                "name": "Reginauld Cordell",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 50,
+                    "catch": 55,
+                    "run": 65,
+                    "block": 58,
+                    "fight": 51,
+                    "throw": 55,
+                    "luck": 58,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 36,
+                    "favorite_weapon": "Main-gauche",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Benjie Foulk",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 50,
+                    "catch": 63,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 51,
+                    "throw": 54,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Johnna Beetner",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 68,
+                    "catch": 60,
+                    "run": 69,
+                    "block": 56,
+                    "fight": 43,
+                    "throw": 49,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Scimitar",
+                    "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Harilda Sigsmond",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 65,
+                    "block": 59,
+                    "fight": 51,
+                    "throw": 60,
+                    "luck": 65,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Battle Axe",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Vivia Namara",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 59,
+                    "catch": 53,
+                    "run": 51,
+                    "block": 57,
+                    "fight": 50,
+                    "throw": 59,
+                    "luck": 49,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Great Axe",
+                    "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Lon Gabriell",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 56,
+                    "catch": 41,
+                    "run": 55,
+                    "block": 67,
+                    "fight": 53,
+                    "throw": 61,
+                    "luck": 55,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 65,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Shepperd Trefler",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 50,
+                    "catch": 58,
+                    "run": 59,
+                    "block": 55,
+                    "fight": 66,
+                    "throw": 51,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gurney Fadiman",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 58,
+                    "catch": 42,
+                    "run": 52,
+                    "block": 59,
+                    "fight": 53,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Shortsword",
+                    "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Lorilee Aldred",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 49,
+                    "catch": 54,
+                    "run": 55,
+                    "block": 56,
+                    "fight": 64,
+                    "throw": 55,
+                    "luck": 54,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Katar",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Lashondra Niehaus",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 62,
+                    "catch": 55,
+                    "run": 57,
+                    "block": 58,
+                    "fight": 62,
+                    "throw": 48,
+                    "luck": 57,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 67,
+                    "alcohol_tolerance": 50,
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true,
+                    "favorite_weapon": ""
+                }
+            },
+            {
+                "name": "Reginauld Cordell",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 50,
+                    "catch": 55,
+                    "run": 65,
+                    "block": 58,
+                    "fight": 51,
+                    "throw": 55,
+                    "luck": 58,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 36,
+                    "favorite_weapon": "Main-gauche",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Benjie Foulk",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 50,
+                    "catch": 63,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 51,
+                    "throw": 54,
+                    "luck": 59,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Patting every beast of burden they see on the way to the match.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Johnna Beetner",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 68,
+                    "catch": 60,
+                    "run": 69,
+                    "block": 56,
+                    "fight": 43,
+                    "throw": 49,
+                    "luck": 54,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Scimitar",
+                    "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Harilda Sigsmond",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 65,
+                    "block": 59,
+                    "fight": 51,
+                    "throw": 60,
+                    "luck": 65,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Battle Axe",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Vivia Namara",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 59,
+                    "catch": 53,
+                    "run": 51,
+                    "block": 57,
+                    "fight": 50,
+                    "throw": 59,
+                    "luck": 49,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Great Axe",
+                    "pregame_ritual": "Spitting into their own hand and then slapping their face with it.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Lon Gabriell",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 56,
+                    "catch": 41,
+                    "run": 55,
+                    "block": 67,
+                    "fight": 53,
+                    "throw": 61,
+                    "luck": 55,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 65,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Reciting the names of legendary Trollball players of the past.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Shepperd Trefler",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 50,
+                    "catch": 58,
+                    "run": 59,
+                    "block": 55,
+                    "fight": 66,
+                    "throw": 51,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gurney Fadiman",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 58,
+                    "catch": 42,
+                    "run": 52,
+                    "block": 59,
+                    "fight": 53,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Shortsword",
+                    "pregame_ritual": "A toast of goat's milk to the health of their rivals.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Lorilee Aldred",
+                "team": "The Kerlauger Runeguard",
+                "stats": {
+                    "pass": 49,
+                    "catch": 54,
+                    "run": 55,
+                    "block": 56,
+                    "fight": 64,
+                    "throw": 55,
+                    "luck": 54,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Katar",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "Hello out there in Trollball land! This is your favorite demon of the airwaves, Nok the Corrupter, coming to you live from the soggy, sinking spectacle of **The Serpent's Pass**! 🏟️ Gee whillikers, folks, you can practically hear the stadium groaning as it settles into the swamp, but that won't stop the heart-pounding action of Game 2 in this Losers Bracket playoff series! The **Zmeigorod Snessengers** are up 1-0 in this Best-of-3, and the energy here is absolutely electric—mostly because the fans are terrified the floor will give way! \n\nOur home team, the Snessengers, are the darlings of the realm right now! I haven't seen this much green in the stands since High Priestess Oona decided to stop showering! 🐍 I just saw **Evalyn Pierrepont** polishing his helmet with a live snail for good luck—now that's the kind of slimy dedication that wins championships! And let’s not forget **Delija Dowling**, who just downed a raw egg, shell and all, right in front of the press box. Talk about a crunch! They’re looking to sweep the series and send the Runeguard packing to the abyss!\n\nBut wait just a minute! The **Kerlauger Runeguard** aren't going down without a fight, even if nobody in the stands is cheering for them! 🛡️ **Lashondra Niehaus** is looking particularly fierce today; she just had a teammate punch her in the shoulder so hard I think I saw a tooth fly out! That’s the spirit! Meanwhile, **Harilda Sigsmond** is leading the team in a chant that’s actually drowning out the sound of the **Sudden Downpour** beginning to lash the field. Can the Runeguard overcome the **Altitude Sickness** and the sheer popularity of their rivals to force a Game 3? Grab your umbrellas and your spiked brass knuckles, because the opening whistle is about to blow! It’s time for Trollball! 🎙️✨",
+    "postGame": "Holy cow! What a turn of events here at the Serpent's Pass! I hope you didn't bet your soul on a sweep, because the **Kerlauger Runeguard** just absolutely dismantled the Snessengers with a 4-0 shutout! 🛡️ It was a masterclass in defensive brutality and opportunistic scoring that has completely silenced this swampy stadium. The Snessengers might have the fans, but the Runeguard had the scimitars and the spite today, folks! \n\nThe match started as a real scramble in the mud! **Lorilee Aldred** snatched that troll head up in Center Field like a hungry wolf, setting the tone early. We saw some misses from both sides as they adjusted to the **Sudden Downpour**, with **Johnna Beetner** and **Delija Dowling** both failing to find the hoop from a distance. But the Runeguard were just warming up their killing machines!\n\nAround the midpoint of the first half, the deadlock finally broke. **Johnna Beetner**, clearly tired of the Snessengers' aggressive posing, took the ball deep into Home Field and buried a shot right through the basket! 🥅 1-0 for the visitors! But they weren't done. Just moments later, **Shepperd Trefler**—who had earlier blocked a tackle from Northway Orran like he was swatting a fly—fired off a laser from Center Field that found the mark! 2-0! The Runeguard were rolling while the Snessengers were sinking!\n\nAnd then, my friends, the real fun began—the violence! **Lashondra Niehaus** decided that **Avaria Revell** didn't need to be upright anymore and delivered a tackle that echoed through the pass, sending Avaria straight to the healer’s tent with a nasty injury! 💥 It was a beautiful sight, better than any sunset over the Ebon Gate. The Snessengers tried to pass their way out of trouble, but **Delija Dowling** fumbled a pass into the muck just as the halftime whistle blew.\n\nAfter the break, the Runeguard turned the brutality up to eleven. It was like a revolving door at the healer's tent for Zmeigorod! **Lashondra Niehaus** was back at it, taking out **Northway Orran**, and then **Lon Gabriell** absolutely leveled **Gere Cordelie**. I haven't seen this much carnage since Sir Artorias tried to 'negotiate' with a dragon! 🐉 The Snessengers were being picked apart limb by limb!\n\n**Johnna Beetner** wasn't content with just scoring; she went back for seconds on **Avaria Revell**, injuring the poor soul again! Then **Gurney Fadiman** got in on the action, putting **Dare Wynnie** out of commission. It was a total collapse of the Zmeigorod front line. Even **Arni Griffith**, with all his 'heroic backstories' for the ball, couldn't find a happy ending today. He tried to throw a pass, but it was snatched right out of the air by **Lorilee Aldred**! Intercepted! 🏈\n\nThe Snessengers' **Rose Kluge** and **Kleinstein MacGregor** tried to make some late-game runs, showing some of that Zmeigorod grit, but they were met with a wall of Runeguard steel. **Lorilee Aldred** put the final exclamation point on the defensive dominance by injuring **Rose Kluge** in the closing minutes. The Snessengers were left dazed, confused, and probably a little bit drowned in the marsh water.\n\nYou have to laugh at the 'heroes' of The Grove today. Valos the Eternal might be the Bog Queen, but her subjects looked more like bog-Standard practice dummies out there! 🐸 The Runeguard showed that it doesn't matter how many snails you rub on your helmet if you can't stop a spiked gauntlet to the face. They played like demons possessed—and I should know!\n\nWith this 4-0 victory, the Kerlauger Runeguard have officially tied this Best-of-3 series at 1-1! 🛡️ We are heading to a winner-takes-all Game 3! The Snessengers will need to find a way to stop the bleeding—literally—if they want to advance. The fans are heading for the exits, wading through the rising swamp water in stunned silence.\n\nFinal score: **The Kerlauger Runeguard 4, The Zmeigorod Snessengers 0**. What a comeback! What a slaughter! I’ve been your announcer, Nok the Corrupter, and I cannot wait to see who survives the final showdown. \n\nRemember, if you’re heading to Imra’s bar to drown your sorrows, make sure you pay your tab or you might end up as the next Trollball! Stay wicked, Osterra! 🎙️💀",
+    "week": 2,
+    "homeScore": 0,
+    "awayScore": 4,
+    "slug": "po-2-2-zmeigorod-kerlauger",
+    "plays": [
+        "The Trollball is picked up by Lorilee Aldred in zone Center Field",
+        "Lashondra Niehaus tries to Tackle Alded Sanjay, but misses!",
+        "Vivia Namara tries to Tackle Rose Kluge, but misses!",
+        "Johnna Beetner shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Rose Kluge in zone Center Field",
+        "Dare Wynnie tries to Tackle Johnna Beetner, but misses!",
+        "Lorilee Aldred tries to Tackle Alded Sanjay, but misses!",
+        "Gurney Fadiman tries to Tackle Dare Wynnie, but misses!",
+        "Lon Gabriell tries to Tackle Northway Orran, but misses!",
+        "Delija Dowling shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Lashondra Niehaus in zone Center Field",
+        "Kleinstein MacGregor tries to Tackle Gurney Fadiman, but misses!",
+        "Alded Sanjay tries to Tackle Vivia Namara, but misses!",
+        "Vivia Namara runs with the ball and advances towards the goal!",
+        "Johnna Beetner tries to Tackle Avaria Revell, but misses!",
+        "Lorilee Aldred tries to Tackle Dare Wynnie, but misses!",
+        "Johnna Beetner shoots from Home Field and SCORES!",
+        "The Trollball is picked up by Shepperd Trefler in zone Center Field",
+        "Northway Orran tries to Tackle Shepperd Trefler, but Shepperd Trefler blocks it!",
+        "Lon Gabriell tries to run with the ball but is stopped by the defense!",
+        "Shepperd Trefler shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Kleinstein MacGregor in zone Center Field",
+        "Gere Cordelie tries to Tackle Lashondra Niehaus, but Lashondra Niehaus blocks it!",
+        "Lashondra Niehaus Tackles Avaria Revell and INJURES THEM!",
+        "Northway Orran shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Rose Kluge in zone Center Field",
+        "Lon Gabriell tries to Tackle Dare Wynnie, but misses!",
+        "Lorilee Aldred tries to Tackle Rose Kluge, but misses!",
+        "Evalyn Pierrepont passes the ball to Kleinstein MacGregor!",
+        "Gurney Fadiman tries to Tackle Rose Kluge, but misses!",
+        "Delija Dowling throws a wild pass and it lands on the ground!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Arni Griffith in zone Center Field",
+        "Vivia Namara tries to Tackle Kleinstein MacGregor, but misses!",
+        "Lashondra Niehaus Tackles Northway Orran and INJURES THEM!",
+        "Lashondra Niehaus tries to Tackle Avaria Revell, but Avaria Revell blocks it!",
+        "Shepperd Trefler tries to Tackle Avaria Revell, but misses!",
+        "Arni Griffith tries to run with the ball but is stopped by the defense!",
+        "Lon Gabriell Tackles Gere Cordelie and INJURES THEM!",
+        "Delija Dowling tries to run with the ball but is stopped by the defense!",
+        "Kleinstein MacGregor tries to Tackle Vivia Namara, but misses!",
+        "Johnna Beetner Tackles Avaria Revell and INJURES THEM!",
+        "Benjie Foulk tries to Tackle Rose Kluge, but misses!",
+        "Arni Griffith throws a wild pass and it is INTERCEPTED by Lorilee Aldred!",
+        "Arni Griffith tries to Tackle Benjie Foulk, but misses!",
+        "Gurney Fadiman Tackles Dare Wynnie and INJURES THEM!",
+        "Vivia Namara runs with the ball and advances towards the goal!",
+        "Benjie Foulk tries to Tackle Evalyn Pierrepont, but misses!",
+        "Reginauld Cordell shoots from Home Field but misses the goal!",
+        "The Trollball is picked up by Rose Kluge in zone Home Field",
+        "Benjie Foulk tries to Tackle Evalyn Pierrepont, but misses!",
+        "Lon Gabriell tries to Tackle Alded Sanjay, but misses!",
+        "Kleinstein MacGregor runs with the ball and advances towards the goal!",
+        "Alded Sanjay tries to run with the ball but is stopped by the defense!",
+        "Lorilee Aldred Tackles Rose Kluge and INJURES THEM!",
+        "Kleinstein MacGregor runs with the ball and advances towards the goal!",
+        "Vivia Namara tries to Tackle Northway Orran, but misses!",
+        "Kleinstein MacGregor runs with the ball and advances towards the goal!",
+        "Vivia Namara tries to Tackle Evalyn Pierrepont, but misses!",
+        "Vivia Namara tries to Tackle Kleinstein MacGregor, but misses!"
+    ],
+    "bracket": "Losers"
+}

@@ -1,0 +1,913 @@
+{
+    "homeTeam": {
+        "name": "The Zmeigorod Snessengers",
+        "slug": "zmeigorod",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 53,
+        "stadium": {
+            "name": "The Serpent's Pass",
+            "location": "Zmeigorod, just west of the lumber mill",
+            "modifiers": [
+                "Altitude Sickness",
+                "Sudden Downpour",
+                "Rockslide"
+            ],
+            "description": "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it."
+        },
+        "healer": {
+            "name": "Waldon Tadeo",
+            "team": "The Zmeigorod Snessengers",
+            "stats": {
+                "pass": 56,
+                "catch": 65,
+                "run": 55,
+                "block": 56,
+                "fight": 54,
+                "throw": 60,
+                "luck": 50,
+                "pronouns": "She/Them",
+                "civic_engagement": 56,
+                "alcohol_tolerance": 53,
+                "favorite_weapon": "Battle Axe",
+                "pregame_ritual": "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Delija Dowling",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 55,
+                    "run": 50,
+                    "block": 51,
+                    "fight": 53,
+                    "throw": 56,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Northway Orran",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 54,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 55,
+                    "fight": 66,
+                    "throw": 53,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Evalyn Pierrepont",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 57,
+                    "catch": 49,
+                    "run": 66,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Rose Kluge",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 54,
+                    "run": 63,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 52,
+                    "luck": 55,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Cudgel",
+                    "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Gere Cordelie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 55,
+                    "catch": 47,
+                    "run": 42,
+                    "block": 68,
+                    "fight": 53,
+                    "throw": 48,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 47,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true,
+                    "favorite_weapon": "Spiked Gauntlet"
+                }
+            },
+            {
+                "name": "Kleinstein MacGregor",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 43,
+                    "catch": 59,
+                    "run": 61,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 59,
+                    "luck": 68,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Avaria Revell",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 46,
+                    "run": 67,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 57,
+                    "luck": 61,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alded Sanjay",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 45,
+                    "catch": 61,
+                    "run": 56,
+                    "block": 54,
+                    "fight": 51,
+                    "throw": 61,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "War Scythe",
+                    "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Arni Griffith",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 62,
+                    "run": 43,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 55,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Dare Wynnie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 64,
+                    "catch": 54,
+                    "run": 50,
+                    "block": 54,
+                    "fight": 62,
+                    "throw": 52,
+                    "luck": 59,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Delija Dowling",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 55,
+                    "run": 50,
+                    "block": 51,
+                    "fight": 53,
+                    "throw": 56,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Northway Orran",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 54,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 55,
+                    "fight": 66,
+                    "throw": 53,
+                    "luck": 53,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Evalyn Pierrepont",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 57,
+                    "catch": 49,
+                    "run": 66,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Gere Cordelie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 55,
+                    "catch": 47,
+                    "run": 42,
+                    "block": 68,
+                    "fight": 53,
+                    "throw": 48,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 47,
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true,
+                    "favorite_weapon": "Spiked Gauntlet"
+                }
+            },
+            {
+                "name": "Kleinstein MacGregor",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 43,
+                    "catch": 59,
+                    "run": 61,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 59,
+                    "luck": 68,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Machete",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Avaria Revell",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 46,
+                    "run": 67,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 57,
+                    "luck": 61,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 66,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alded Sanjay",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 45,
+                    "catch": 61,
+                    "run": 56,
+                    "block": 54,
+                    "fight": 51,
+                    "throw": 61,
+                    "luck": 57,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "War Scythe",
+                    "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Arni Griffith",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 47,
+                    "catch": 62,
+                    "run": 43,
+                    "block": 56,
+                    "fight": 51,
+                    "throw": 55,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Woodsman's Axe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Dare Wynnie",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 64,
+                    "catch": 54,
+                    "run": 50,
+                    "block": 54,
+                    "fight": 62,
+                    "throw": 52,
+                    "luck": 59,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Rose Kluge",
+                "team": "The Zmeigorod Snessengers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 54,
+                    "run": 63,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 52,
+                    "luck": 55,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Cudgel",
+                    "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "awayTeam": {
+        "name": "The South Pole Yetis",
+        "slug": "south-pole",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 55,
+        "stadium": {
+            "name": "The South Pole Palisade",
+            "location": "A remote southern frontier town",
+            "description": "A crude, fortified playing field built from rough-hewn logs. It's less a stadium and more a stockade against the wilderness. The 'grass' is mostly frozen mud and straw.",
+            "modifiers": [
+                "Freezing Rain",
+                "Icy Field",
+                "Wolf Pack Howling"
+            ]
+        },
+        "healer": {
+            "name": "Seiter Aida",
+            "team": "The South Pole Yetis",
+            "stats": {
+                "pass": 50,
+                "catch": 50,
+                "run": 59,
+                "block": 46,
+                "fight": 48,
+                "throw": 67,
+                "luck": 52,
+                "pronouns": "They/Them",
+                "civic_engagement": 51,
+                "alcohol_tolerance": 57,
+                "favorite_weapon": "Club",
+                "pregame_ritual": "Smelling their own game-worn socks from the previous match.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Sale Tocci",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 60,
+                    "catch": 51,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 52,
+                    "throw": 55,
+                    "luck": 63,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 69,
+                    "alcohol_tolerance": 42,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ajit Serge",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 50,
+                    "catch": 54,
+                    "run": 55,
+                    "block": 51,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Isborne Krause",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 50,
+                    "catch": 55,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 47,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Flail",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Selima Si",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 58,
+                    "catch": 61,
+                    "run": 65,
+                    "block": 60,
+                    "fight": 53,
+                    "throw": 49,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Duky Orelee",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 55,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 67,
+                    "fight": 48,
+                    "throw": 56,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Sayers Erdda",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 60,
+                    "catch": 45,
+                    "run": 49,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 69,
+                    "luck": 62,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Polishing their boots with bacon grease.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Jessy Debbie",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 61,
+                    "catch": 53,
+                    "run": 60,
+                    "block": 48,
+                    "fight": 59,
+                    "throw": 54,
+                    "luck": 44,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Great Axe",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hilaire Guevara",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 60,
+                    "catch": 51,
+                    "run": 47,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 54,
+                    "luck": 51,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Coussoule Bidle",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 58,
+                    "catch": 58,
+                    "run": 63,
+                    "block": 59,
+                    "fight": 59,
+                    "throw": 47,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Turning their helmet around three times before putting it on.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Udela Dorkus",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 54,
+                    "catch": 60,
+                    "run": 58,
+                    "block": 54,
+                    "fight": 53,
+                    "throw": 59,
+                    "luck": 51,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Licking a whetstone.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Sale Tocci",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 60,
+                    "catch": 51,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 52,
+                    "throw": 55,
+                    "luck": 63,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 69,
+                    "alcohol_tolerance": 42,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ajit Serge",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 50,
+                    "catch": 54,
+                    "run": 55,
+                    "block": 51,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Isborne Krause",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 50,
+                    "catch": 55,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 47,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Flail",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Selima Si",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 58,
+                    "catch": 61,
+                    "run": 65,
+                    "block": 60,
+                    "fight": 53,
+                    "throw": 49,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Duky Orelee",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 55,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 67,
+                    "fight": 48,
+                    "throw": 56,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Sayers Erdda",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 60,
+                    "catch": 45,
+                    "run": 49,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 69,
+                    "luck": 62,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Polishing their boots with bacon grease.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Jessy Debbie",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 61,
+                    "catch": 53,
+                    "run": 60,
+                    "block": 48,
+                    "fight": 59,
+                    "throw": 54,
+                    "luck": 44,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Great Axe",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hilaire Guevara",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 60,
+                    "catch": 51,
+                    "run": 47,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 54,
+                    "luck": 51,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Coussoule Bidle",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 58,
+                    "catch": 58,
+                    "run": 63,
+                    "block": 59,
+                    "fight": 59,
+                    "throw": 47,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Turning their helmet around three times before putting it on.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Udela Dorkus",
+                "team": "The South Pole Yetis",
+                "stats": {
+                    "pass": 54,
+                    "catch": 60,
+                    "run": 58,
+                    "block": 54,
+                    "fight": 53,
+                    "throw": 59,
+                    "luck": 51,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Licking a whetstone.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "Greetings, you ghouls and ghosts! It's a beautiful, blood-soaked Tuesday night here in the sinking pits of Zmeigorod! We are live at the Serpent's Pass for Game 1 of the Loser's Bracket Playoffs! The atmosphere is electric, and by electric, I mean the air is thick with swamp gas and the desperate prayers of the damned! 🏟️ The pressure is on, folks—this is the playoffs, where champions are made and losers are fed to the wolves! The Zmeigorod Snessengers are the local darlings tonight, with the stands packed to the gills with swamp-dwellers and fans of that self-proclaimed godling, Valos the Bog Queen! They've got the numbers, but will they have the stomach for the cold-hearted killers coming from the south? Over in the visitor's dugout, the South Pole Yetis are looking lean and mean. I saw Sayers Erdda polishing those boots with bacon grease earlier—a delicious choice for a game played in the mud! 🥓 Not to be outdone, the Snessengers have their own oddities. Waldon Tadeo is out there rubbing foul-smelling local mushrooms on their elbows. If that doesn't scream 'playoff intensity,' I don't know what does! They’re facing the threat of elimination in this Best of 3 series, and the pressure is higher than the altitude here at Serpent's Pass! Grab your grog and pull up a skull, because this is going to be a real humdinger of a match! I wish my beloved Ebon Gate Corruptors were out there today, but watching these two beat the stuffing out of each other is a close second! 🍺",
+    "postGame": "And that's the whistle, folks! A low-scoring defensive masterclass that would make a demon weep with joy! The South Pole Yetis have marched into the swamp and walked out with a 2-1 victory over the hometown favorites! It wasn't the highest-scoring affair, but the sound of breaking bones more than made up for the lack of baskets! 🏔️ The action started fast and furious right out of the gate! Isborne Krause secured the ball in Center Field, but it was Sayers Erdda who really brought the house down! Erdda took a gamble from Center Field and let fly a marvelous shot that sailed right through the goal for 2 big points! A real long-range beauty that put the Yetis on the board early and silenced the massive Zmeigorod crowd! 🎯 The Snessengers tried to respond with Kleinstein MacGregor and Avaria Revell pushing the pace, but the Yeti defense was stiffer than a frozen corpse! Alded Sanjay tried to air it out with a wild pass, but Udela Dorkus was there like a thief in the night to intercept it! It’s the kind of play that makes you realize why those stuffy 'heroes' like Sir Artorias are always complaining about unfair tactics! 🧤 Let's talk about the hits, because that's why we're really here, isn't it? Jessy Debbie absolutely dismantled Alded Sanjay with a tackle so fierce it sent Sanjay straight to the healer’s tent! It was a glorious display of raw power that left the home crowd gasping for air—and considering the altitude sickness, they didn't have much to spare! 💥 The brutality didn't stop there! Isborne Krause joined the party by injuring Evalyn Pierrepont, and before the first half could even conclude, Sale Tocci sent Delija Dowling to the dirt with another bone-crunching tackle! The Yetis were playing like they had a personal grudge against every Snessenger in the swamp! It was poetry in motion! 🦴 At Halftime, Waldon Tadeo had their work cut out for them, stitching those Snessengers back together. I’m sure Imra over at Cedar Hill is watching this and wishing they’d sold more of their 'Master of Elixirs' dust to the home team, because they certainly needed a pick-me-up! But as the rules state, everyone got back on their feet for the second act! 🧪 The Snessengers finally found a spark in the second half! Rose Kluge received a pass and dunked the ball into the goal for 1 point! It was a desperate, scrambling effort that gave the Zmeigorod faithful a reason to howl, but it felt like too little, too late against the frozen onslaught! I bet those sparkly, goody-two-shoes over at the Haven Lights are clutching their pearls at this kind of violence, but that’s because they don’t understand real entertainment! 🐊 The Yetis weren't about to let a comeback happen on their watch! They turned their focus back to what they do best: physical intimidation. Sayers Erdda and Udela Dorkus both took turns leveling Rose Kluge, ensuring that the Snessengers' only scorer was spending more time looking at the swampy sky than the Trollball! That's how you close out a playoff game, folks! 🔨 In the end, the Snessengers just couldn't overcome the Yeti defense. Despite the massive popularity of the home team—honestly, the stadium was overflowing with fans who clearly have nothing better to do in Zmeigorod—the Yetis' grit and bacon-greased boots carried the day! It’s a sad day for the Bog Queen, but a great day for fans of carnage! 🌨️ So, the South Pole Yetis take a 1-0 lead in this Best of 3 series! They are one win away from moving on, while the Snessengers are staring down the barrel of the Loser's Bracket abyss. Will the swamp-dwellers bounce back, or will the Yetis freeze them out for good? We'll find out next time on Tuesday Night Trollball! I'm Nok the Corrupter, reminding you that if it doesn't bleed, it isn't sport! Goodnight, Osterra! 💀",
+    "week": 1,
+    "homeScore": 1,
+    "awayScore": 2,
+    "slug": "po-2-1-zmeigorod-south-pole",
+    "plays": [
+        "The Trollball is picked up by Isborne Krause in zone Center Field",
+        "Sayers Erdda shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Kleinstein MacGregor in zone Center Field",
+        "Avaria Revell runs with the ball and advances towards the goal!",
+        "Alded Sanjay throws a wild pass and it is INTERCEPTED by Udela Dorkus!",
+        "Delija Dowling tries to Tackle Hilaire Guevara, but misses!",
+        "Jessy Debbie runs with the ball and advances towards the goal!",
+        "Duky Orelee runs with the ball and advances towards the goal!",
+        "Sale Tocci shoots from Home Field but misses the goal!",
+        "The Trollball is picked up by Alded Sanjay in zone Home Field",
+        "Arni Griffith runs with the ball and advances towards the goal!",
+        "Alded Sanjay runs with the ball and advances towards the goal!",
+        "Ajit Serge tries to Tackle Alded Sanjay, but Alded Sanjay blocks it!",
+        "Udela Dorkus tries to Tackle Dare Wynnie, but Dare Wynnie blocks it!",
+        "Jessy Debbie tries to Tackle Northway Orran, but Northway Orran blocks it!",
+        "Jessy Debbie tries to Tackle Dare Wynnie, but Dare Wynnie blocks it!",
+        "Selima Si tries to Tackle Rose Kluge, but misses!",
+        "Duky Orelee tries to Tackle Evalyn Pierrepont, but Evalyn Pierrepont blocks it!",
+        "Northway Orran runs with the ball and advances towards the goal!",
+        "Jessy Debbie Tackles Alded Sanjay and INJURES THEM!",
+        "Sayers Erdda tries to Tackle Delija Dowling, but misses!",
+        "Ajit Serge tries to Tackle Northway Orran, but Northway Orran blocks it!",
+        "Isborne Krause Tackles Evalyn Pierrepont and INJURES THEM!",
+        "Kleinstein MacGregor tries to Tackle Isborne Krause, but Isborne Krause blocks it!",
+        "Arni Griffith tries to run with the ball but is stopped by the defense!",
+        "Jessy Debbie tries to Tackle Dare Wynnie, but Dare Wynnie blocks it!",
+        "Udela Dorkus tries to Tackle Delija Dowling, but misses!",
+        "Sale Tocci Tackles Delija Dowling and INJURES THEM!",
+        "Northway Orran throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Jessy Debbie in zone Away 2-Point",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Northway Orran in zone Away 2-Point",
+        "Selima Si tries to Tackle Evalyn Pierrepont, but Evalyn Pierrepont blocks it!",
+        "Hilaire Guevara tries to Tackle Evalyn Pierrepont, but Evalyn Pierrepont blocks it!",
+        "Hilaire Guevara tries to Tackle Alded Sanjay, but misses!",
+        "Duky Orelee tries to Tackle Arni Griffith, but misses!",
+        "Rose Kluge passes to Rose Kluge in the End Zone, who dunks the ball into the goal!",
+        "The Trollball is picked up by Kleinstein MacGregor in zone Center Field",
+        "Selima Si tries to Tackle Delija Dowling, but misses!",
+        "Jessy Debbie tries to Tackle Arni Griffith, but misses!",
+        "Sayers Erdda tries to Tackle Rose Kluge, but misses!",
+        "Ajit Serge tries to Tackle Kleinstein MacGregor, but misses!",
+        "Udela Dorkus tries to Tackle Gere Cordelie, but misses!",
+        "Alded Sanjay tries to run with the ball but is stopped by the defense!",
+        "Avaria Revell tries to Tackle Hilaire Guevara, but misses!",
+        "Isborne Krause tries to Tackle Kleinstein MacGregor, but misses!",
+        "Ajit Serge tries to Tackle Delija Dowling, but misses!",
+        "Sale Tocci tries to Tackle Kleinstein MacGregor, but Kleinstein MacGregor blocks it!",
+        "Avaria Revell tries to Tackle Jessy Debbie, but misses!",
+        "Sayers Erdda Tackles Rose Kluge and INJURES THEM!",
+        "Sale Tocci tries to Tackle Delija Dowling, but misses!",
+        "Alded Sanjay tries to Tackle Sayers Erdda, but misses!",
+        "Udela Dorkus Tackles Rose Kluge and INJURES THEM!",
+        "Northway Orran passes the ball to Dare Wynnie!",
+        "Selima Si tries to Tackle Delija Dowling, but misses!",
+        "Hilaire Guevara tries to Tackle Avaria Revell, but Avaria Revell blocks it!",
+        "Duky Orelee tries to Tackle Avaria Revell, but misses!",
+        "Sale Tocci tries to Tackle Avaria Revell, but misses!"
+    ],
+    "bracket": "Losers"
+}

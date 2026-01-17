@@ -1,0 +1,894 @@
+{
+    "homeTeam": {
+        "name": "The Starlight Bazaar Bizarres",
+        "slug": "starlight-bazaar",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 63,
+        "stadium": {
+            "name": "The Prismatic Pavilion",
+            "location": "Starlight Bazaar (Starlight Lagoon)",
+            "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+            "modifiers": [
+                "Lagoon Splash",
+                "Troupe Distraction",
+                "Unstable Footing"
+            ]
+        },
+        "healer": {
+            "name": "Essa Pattie",
+            "team": "The Starlight Bazaar Bizarres",
+            "stats": {
+                "pass": 57,
+                "catch": 55,
+                "run": 67,
+                "block": 56,
+                "fight": 52,
+                "throw": 45,
+                "luck": 53,
+                "pronouns": "He/Him",
+                "civic_engagement": 46,
+                "alcohol_tolerance": 54,
+                "favorite_weapon": "Horseman's Pick",
+                "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Bush Heiner",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 66,
+                    "block": 62,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 50,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Kristin Kronfeld",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 41,
+                    "throw": 59,
+                    "luck": 45,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Milo Nelie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 61,
+                    "catch": 66,
+                    "run": 44,
+                    "block": 45,
+                    "fight": 49,
+                    "throw": 53,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pompei Hephzipa",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 50,
+                    "catch": 62,
+                    "run": 48,
+                    "block": 39,
+                    "fight": 57,
+                    "throw": 64,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melesa Zelten",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 43,
+                    "catch": 61,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 57,
+                    "throw": 49,
+                    "luck": 50,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Spear",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Demp Chet",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 63,
+                    "catch": 46,
+                    "run": 52,
+                    "block": 53,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Gagliano Tallbott",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 57,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 53,
+                    "fight": 64,
+                    "throw": 61,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Aggri Cookie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 51,
+                    "catch": 65,
+                    "run": 54,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 61,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Willa Lois",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 63,
+                    "fight": 43,
+                    "throw": 43,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Quintessa Austine",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 56,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Kristin Kronfeld",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 41,
+                    "throw": 59,
+                    "luck": 45,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Milo Nelie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 61,
+                    "catch": 66,
+                    "run": 44,
+                    "block": 45,
+                    "fight": 49,
+                    "throw": 53,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pompei Hephzipa",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 50,
+                    "catch": 62,
+                    "run": 48,
+                    "block": 39,
+                    "fight": 57,
+                    "throw": 64,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melesa Zelten",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 43,
+                    "catch": 61,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 57,
+                    "throw": 49,
+                    "luck": 50,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Spear",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gagliano Tallbott",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 57,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 53,
+                    "fight": 64,
+                    "throw": 61,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Aggri Cookie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 51,
+                    "catch": 65,
+                    "run": 54,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 61,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Willa Lois",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 63,
+                    "fight": 43,
+                    "throw": 43,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Quintessa Austine",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 56,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Bush Heiner",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 66,
+                    "block": 62,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 50,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Demp Chet",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 63,
+                    "catch": 46,
+                    "run": 52,
+                    "block": 53,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "awayTeam": {
+        "name": "The Tortell Privateers",
+        "slug": "tortell",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 48,
+        "stadium": {
+            "name": "The Buccaneer's Bowl",
+            "location": "Toast Island Resort",
+            "description": "A flashy, pristine stadium built on a private beach exclusively for resort guests. The field is imported turf, and a massive, puppet kraken in the bay entertains the crowd at halftime.",
+            "modifiers": [
+                "Distracted Tourists",
+                "Blinding Sun",
+                "Resort Security"
+            ]
+        },
+        "healer": {
+            "name": "Eugen Zacks",
+            "team": "The Tortell Privateers",
+            "stats": {
+                "pass": 55,
+                "catch": 60,
+                "run": 55,
+                "block": 51,
+                "fight": 65,
+                "throw": 65,
+                "luck": 52,
+                "pronouns": "He/Him",
+                "civic_engagement": 64,
+                "alcohol_tolerance": 55,
+                "favorite_weapon": "Swordstaff",
+                "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Lilithe Royce",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 52,
+                    "catch": 59,
+                    "run": 59,
+                    "block": 51,
+                    "fight": 49,
+                    "throw": 57,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Castorina Gies",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 48,
+                    "catch": 65,
+                    "run": 66,
+                    "block": 52,
+                    "fight": 59,
+                    "throw": 51,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Sickle",
+                    "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melisande Eustacia",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 70,
+                    "catch": 59,
+                    "run": 53,
+                    "block": 61,
+                    "fight": 61,
+                    "throw": 39,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 44,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Loralee Sunny",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 46,
+                    "catch": 54,
+                    "run": 60,
+                    "block": 59,
+                    "fight": 53,
+                    "throw": 55,
+                    "luck": 66,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "War Scythe",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Kidder Starkey",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 50,
+                    "catch": 59,
+                    "run": 65,
+                    "block": 64,
+                    "fight": 57,
+                    "throw": 58,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Rapier",
+                    "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Keisling Damalas",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 56,
+                    "catch": 55,
+                    "run": 53,
+                    "block": 63,
+                    "fight": 64,
+                    "throw": 63,
+                    "luck": 46,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 65,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Goldberg Tova",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 50,
+                    "catch": 58,
+                    "run": 62,
+                    "block": 65,
+                    "fight": 66,
+                    "throw": 54,
+                    "luck": 65,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Glaive",
+                    "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Ellan Elburt",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 57,
+                    "run": 54,
+                    "block": 50,
+                    "fight": 64,
+                    "throw": 59,
+                    "luck": 44,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 48,
+                    "alcohol_tolerance": 44,
+                    "favorite_weapon": "Tabar",
+                    "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Payson Jan",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 59,
+                    "throw": 63,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Tabar",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Dib Tufts",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 63,
+                    "catch": 60,
+                    "run": 57,
+                    "block": 59,
+                    "fight": 58,
+                    "throw": 62,
+                    "luck": 58,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Lilithe Royce",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 52,
+                    "catch": 59,
+                    "run": 59,
+                    "block": 51,
+                    "fight": 49,
+                    "throw": 57,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Castorina Gies",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 48,
+                    "catch": 65,
+                    "run": 66,
+                    "block": 52,
+                    "fight": 59,
+                    "throw": 51,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Sickle",
+                    "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melisande Eustacia",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 70,
+                    "catch": 59,
+                    "run": 53,
+                    "block": 61,
+                    "fight": 61,
+                    "throw": 39,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 44,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Loralee Sunny",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 46,
+                    "catch": 54,
+                    "run": 60,
+                    "block": 59,
+                    "fight": 53,
+                    "throw": 55,
+                    "luck": 66,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "War Scythe",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Kidder Starkey",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 50,
+                    "catch": 59,
+                    "run": 65,
+                    "block": 64,
+                    "fight": 57,
+                    "throw": 58,
+                    "luck": 53,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Rapier",
+                    "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Keisling Damalas",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 56,
+                    "catch": 55,
+                    "run": 53,
+                    "block": 63,
+                    "fight": 64,
+                    "throw": 63,
+                    "luck": 46,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 65,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Goldberg Tova",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 50,
+                    "catch": 58,
+                    "run": 62,
+                    "block": 65,
+                    "fight": 66,
+                    "throw": 54,
+                    "luck": 65,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Glaive",
+                    "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Payson Jan",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 59,
+                    "throw": 63,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "Tabar",
+                    "pregame_ritual": "Clapping their hands a prime number of times.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Dib Tufts",
+                "team": "The Tortell Privateers",
+                "stats": {
+                    "pass": 63,
+                    "catch": 60,
+                    "run": 57,
+                    "block": 59,
+                    "fight": 58,
+                    "throw": 62,
+                    "luck": 58,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "Well, hello there, sports fans and soul-traders! It’s a gorgeous, blood-splattered Tuesday night, and we are coming to you live from the Prismatic Pavilion for the absolute pinnacle of desperation! I’m your host, Nok the Corrupter, and boy oh boy, do we have a real humdinger for you tonight! It’s Game 3 of the Losers Bracket playoffs—the tiebreaker, the decider, the final nail in someone’s coffin! The series is locked at one-all between the Starlight Bazaar Bizarres and the Tortell Privateers, and the tension over this lagoon is thicker than a swamp-hag's stew! 🏟️🌊\n\nDown on the colorful stage-planks, the players are getting into their grooves! I just saw Keisling Damalas of the Privateers finishing up his charcoal tooth-painting—that man’s grin is enough to curdling milk at fifty paces! On the other side, Melesa Zelten is leading the Bizarres in a chant that’s getting so loud it’s shaking the stilts of this stadium! And look at Dib Tufts, just finishing off a raw egg, shell and all! Now that’s what I call a breakfast of champions! These athletes are ready to give their all, mostly because in the Everwar, they don't have a choice! 🥚💀\n\nThe crowd is absolutely roaring, though I suspect half of them are just hoping to see a 'hero' like that ringleader Kython get knocked into the drink. The footing is unstable, the sun is reflecting off the lagoon, and the Privateers are looking to pillage their way into the next round! Will the Bizarres' theatrical flair be enough to overcome the raw, unadulterated violence of the Privateers? Grab your grog and hold onto your souls, because the winner stays in the dance, and the loser is going home in a bucket! It’s time for Trollball! 🎭🏴‍☠️",
+    "postGame": "Holy smokes, what a spectacular display of organized carnage! The dust has settled over the Starlight Lagoon, and we have our winner! The Starlight Bazaar Bizarres have defended their home turf with a 2-0 victory, taking this Best of 3 series and sending the Tortell Privateers packing! It was a defensive masterclass, provided your definition of 'defense' includes sending your opponents to the infirmary with alarming regularity! 🏟️✨\n\nThe action started with a bang as Keisling Damalas snagged the troll head in Center Field, but the Bizarres were not about to let the Privateers settle in. Aggri Cookie decided that Dib Tufts had been standing for far too long, delivering a bone-crunching tackle that sent Dib straight to the healer! It’s a shame about that raw egg he ate; I bet it didn't stay down for long! 🚑🥚\n\nNot to be outdone, Willa Lois showed us exactly why she carries that dagger! She caught Ellan Elburt mid-stride and delivered an injury so beautiful it nearly brought a tear to my eye. The Privateers were dropping like flies in the early going, and even the resort guests at the Buccaneer's Bowl could probably hear the cracks of impact from across the water! 🏥💥\n\nBut the Privateers had some fight in them yet! Lilithe Royce, showing that classic Privateer grit, targeted Gagliano Tallbott. She didn't just tackle him; she dismantled him, sending the Bizarres' funnyman to the sidelines for a bit of quiet reflection with the healer. It was a lovely bit of retaliation that kept the fans on the edge of their unstable seats! 👊🤡\n\nThen came the moment that defined the match! Melesa Zelten, clearly fueled by that pre-game chanting, found himself in Home Field with the troll head. He didn't hesitate for a second, launching a magnificent Shoot that sailed through the goal for 2 points! The crowd erupted, and I’m fairly certain the lagoon splash reached the nosebleed section! That was the only score of the game, but it was all the Bizarres needed! 🎯🔥\n\nHalftime couldn't come fast enough for the Privateers. The healers were working overtime, patching up leathery skin and resetting limbs. It was a brief moment of peace in an otherwise delightful evening of trauma. I saw some of the 'heroes' of the realm, like that money-priest Brennen Farno, looking quite uncomfortable with the level of violence—honestly, someone should tell those Guild of the Black Sky types that Trollball isn't for the faint of heart! 💰🩹\n\nIn the second half, Dib Tufts returned to the field like a man possessed! He clearly had a grudge to settle, and he settled it twice over! First, he absolutely leveled Bush Heiner, and then, for an encore, he sent Demp Chet to the dirt! If only the rest of the Privateers had shown that kind of initiative, we might be looking at a different scoreline. It was a one-man wrecking crew performance! 🛠️😤\n\nThe Bizarres' defense was like a cursed vault for the rest of the match. Every time the Privateers tried to make a move, they were met with a wall of halberds and broadswords. Goldberg Tova tried to spark a comeback with a long pass, but it was read like a children's book by Quintessa Austine, who snagged the interception and dashed any remaining Privateer hopes! 🔐intercept\n\nI must say, seeing the Privateers fail to score a single point in the deciding game is almost as satisfying as watching Sir Garon Ironrock try to figure out a revolving door. The Bizarres played with the coordination of a well-oiled machine—or at least a machine that’s been spiked with cheap ale and a desire for glory! 🎭🏴‍☠️\n\nSo, the series ends 2-1 in favor of the Starlight Bazaar Bizarres! They move on in the Losers Bracket, while the Tortell Privateers are left to lick their wounds and wonder where it all went wrong. Probably right around the time they decided to stop blocking and start falling down! 🏖️💀\n\nWhat a night of sport, what a night of blood! I haven't seen this much theatrical pain since the last time someone tried to audit the Prismatic Troupe’s taxes! This is Nok the Corrupter, signing off from a night of beautiful, chaotic Trollball! Remember, folks: it’s not whether you win or lose, it’s how many people you take to the healer with you! Stay brutal, Osterra! 💀✨",
+    "week": 3,
+    "homeScore": 2,
+    "awayScore": 0,
+    "slug": "po-2-3-starlight-bazaar-tortell",
+    "plays": [
+        "The Trollball is picked up by Keisling Damalas in zone Center Field",
+        "Castorina Gies tries to run with the ball but is stopped by the defense!",
+        "Ellan Elburt runs with the ball and advances towards the goal!",
+        "Milo Nelie tries to Tackle Goldberg Tova, but Goldberg Tova blocks it!",
+        "Willa Lois tries to Tackle Dib Tufts, but Dib Tufts blocks it!",
+        "Melesa Zelten tries to Tackle Dib Tufts, but misses!",
+        "Payson Jan tries to Tackle Kristin Kronfeld, but Kristin Kronfeld blocks it!",
+        "Bush Heiner tries to Tackle Payson Jan, but misses!",
+        "Demp Chet tries to Tackle Kidder Starkey, but misses!",
+        "Payson Jan tries to Tackle Gagliano Tallbott, but misses!",
+        "Aggri Cookie Tackles Dib Tufts and INJURES THEM!",
+        "Quintessa Austine tries to Tackle Lilithe Royce, but misses!",
+        "Pompei Hephzipa tries to Tackle Keisling Damalas, but misses!",
+        "Willa Lois Tackles Ellan Elburt and INJURES THEM!",
+        "Gagliano Tallbott tries to Tackle Payson Jan, but misses!",
+        "Melesa Zelten tries to Tackle Keisling Damalas, but misses!",
+        "Pompei Hephzipa tries to Tackle Melisande Eustacia, but misses!",
+        "Kidder Starkey passes the ball to Keisling Damalas!",
+        "Loralee Sunny shoots from Home Field but misses the goal!",
+        "The Trollball is picked up by Gagliano Tallbott in zone Home Field",
+        "Lilithe Royce Tackles Gagliano Tallbott and INJURES THEM!",
+        "Melesa Zelten shoots from Home Field and SCORES!",
+        "The Trollball is picked up by Melisande Eustacia in zone Center Field",
+        "Demp Chet tries to Tackle Keisling Damalas, but Keisling Damalas blocks it!",
+        "Loralee Sunny tries to run with the ball but is stopped by the defense!",
+        "Bush Heiner tries to Tackle Melisande Eustacia, but Melisande Eustacia blocks it!",
+        "Lilithe Royce runs with the ball and advances towards the goal!",
+        "Lilithe Royce throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Payson Jan in zone Home Field",
+        "Lilithe Royce passes the ball to Goldberg Tova, but they drop it!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Quintessa Austine in zone Home Field",
+        "Aggri Cookie tries to Tackle Melisande Eustacia, but Melisande Eustacia blocks it!",
+        "Melesa Zelten runs with the ball and advances towards the goal!",
+        "Payson Jan tries to Tackle Quintessa Austine, but misses!",
+        "Dib Tufts Tackles Bush Heiner and INJURES THEM!",
+        "Melisande Eustacia tries to Tackle Milo Nelie, but misses!",
+        "Dib Tufts Tackles Demp Chet and INJURES THEM!",
+        "Castorina Gies tries to Tackle Pompei Hephzipa, but misses!",
+        "Willa Lois tries to run with the ball but is stopped by the defense!",
+        "Melesa Zelten shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Melesa Zelten in zone Center Field",
+        "Keisling Damalas tries to Tackle Willa Lois, but misses!",
+        "Willa Lois tries to run with the ball but is stopped by the defense!",
+        "Keisling Damalas tries to Tackle Willa Lois, but Willa Lois blocks it!",
+        "Gagliano Tallbott passes the ball to Willa Lois!",
+        "Kristin Kronfeld shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Kidder Starkey in zone Center Field",
+        "Bush Heiner tries to Tackle Castorina Gies, but misses!",
+        "Goldberg Tova throws a wild pass and it is INTERCEPTED by Quintessa Austine!",
+        "Pompei Hephzipa throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Melisande Eustacia in zone Center Field",
+        "Castorina Gies throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Dib Tufts in zone Center Field",
+        "Milo Nelie tries to Tackle Dib Tufts, but Dib Tufts blocks it!",
+        "Bush Heiner tries to Tackle Kidder Starkey, but misses!",
+        "Pompei Hephzipa tries to Tackle Payson Jan, but misses!",
+        "Quintessa Austine tries to Tackle Loralee Sunny, but misses!"
+    ],
+    "bracket": "Losers"
+}

@@ -92,177 +92,89 @@ const findPreviousSeriesGames = (homeTeam: team, awayTeam: team): match[] => {
 };
 
 let matchesToSimulate = [
-  /* Winners Bracket */
   {
-    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    awayTeam: TEAMS["The Confluence Captains"],
+    homeTeam: TEAMS["The Kerlauger Runeguard"],
+    awayTeam: TEAMS["The Zmeigorod Snessengers"],
     week: 1,
     openBar: true,
-    bracket: "Winners"
+    bracket: "Losers"
   },
   {
-    homeTeam: TEAMS["The Confluence Captains"],
-    awayTeam: TEAMS["The Starlight Bazaar Bizarres"],
+    awayTeam: TEAMS["The Kerlauger Runeguard"],
+    homeTeam: TEAMS["The Zmeigorod Snessengers"],
     week: 2,
     openBar: true,
-    bracket: "Winners"
-  },
-  {
-    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
-    awayTeam: TEAMS["The Confluence Captains"],
-    week: 3,
-    openBar: false,
-    bracket: "Winners"
-  },
-  {
-    homeTeam: TEAMS["The Oread's Summit Tamers"],
-    awayTeam: TEAMS["The Kerlauger Runeguard"],
-    week: 1,
-    openBar: true,
-    bracket: "Winners"
+    bracket: "Losers"
   },
   {
     homeTeam: TEAMS["The Kerlauger Runeguard"],
-    awayTeam: TEAMS["The Oread's Summit Tamers"],
-    week: 2,
-    openBar: true,
-    bracket: "Winners"
-  },
-  {
-    homeTeam: TEAMS["The Oread's Summit Tamers"],
-    awayTeam: TEAMS["The Kerlauger Runeguard"],
+    awayTeam: TEAMS["The Zmeigorod Snessengers"],
     week: 3,
-    openBar: false,
-    bracket: "Winners"
-  },
-  {
-    homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
-    awayTeam: TEAMS["The Haven Lights"],
-    week: 1,
     openBar: true,
-    bracket: "Winners"
-  },
-  {
-    homeTeam: TEAMS["The Haven Lights"],
-    awayTeam: TEAMS["The New Monteforte Chaos Creatures"],
-    week: 2,
-    openBar: true,
-    bracket: "Winners"
-  },
-  {
-    homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
-    awayTeam: TEAMS["The Haven Lights"],
-    week: 3,
-    openBar: false,
-    bracket: "Winners"
-  },
-  {
-    homeTeam: TEAMS["Oak & Onslaught"],
-    awayTeam: TEAMS["The New Ravenfall Commanders"],
-    week: 1,
-    openBar: true,
-    bracket: "Winners"
+    bracket: "Losers"
   },
   {
     homeTeam: TEAMS["The New Ravenfall Commanders"],
-    awayTeam: TEAMS["Oak & Onslaught"],
-    week: 2,
+    awayTeam: TEAMS["The Greenwatch"],
+    week: 1,
     openBar: true,
-    bracket: "Winners"
+    bracket: "Losers"
   },
   {
-    homeTeam: TEAMS["Oak & Onslaught"],
     awayTeam: TEAMS["The New Ravenfall Commanders"],
-    week: 3,
-    openBar: false,
-    bracket: "Winners"
-  },
-
-  /* Losers Bracket */
-  {
-    homeTeam: TEAMS["The South Pole Yetis"],
-    awayTeam: TEAMS["The Brimstone Fire Eaters"],
-    week: 1,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The Brimstone Fire Eaters"],
-    awayTeam: TEAMS["The South Pole Yetis"],
+    homeTeam: TEAMS["The Greenwatch"],
     week: 2,
-    openBar: true,
+    openBar: false,
     bracket: "Losers"
   },
   {
-    homeTeam: TEAMS["The South Pole Yetis"],
-    awayTeam: TEAMS["The Brimstone Fire Eaters"],
+    homeTeam: TEAMS["The New Ravenfall Commanders"],
+    awayTeam: TEAMS["The Greenwatch"],
     week: 3,
     openBar: false,
     bracket: "Losers"
   },
   {
-    homeTeam: TEAMS["The Tortell Privateers"],
-    awayTeam: TEAMS["The Southport Narwhals"],
-    week: 1,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The Southport Narwhals"],
+    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
     awayTeam: TEAMS["The Tortell Privateers"],
-    week: 2,
+    week: 1,
     openBar: true,
     bracket: "Losers"
   },
   {
+    awayTeam: TEAMS["The Starlight Bazaar Bizarres"],
     homeTeam: TEAMS["The Tortell Privateers"],
-    awayTeam: TEAMS["The Southport Narwhals"],
-    week: 3,
-    openBar: false,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The New Prosperity Profits"],
-    awayTeam: TEAMS["The Desert Spectres"],
-    week: 1,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The Desert Spectres"],
-    awayTeam: TEAMS["The New Prosperity Profits"],
     week: 2,
-    openBar: true,
-    bracket: "Losers"
-  },
-  {
-    homeTeam: TEAMS["The New Prosperity Profits"],
-    awayTeam: TEAMS["The Desert Spectres"],
-    week: 3,
     openBar: false,
     bracket: "Losers"
   },
   {
-    homeTeam: TEAMS["The Ebon Gate Corruptors"],
+    homeTeam: TEAMS["The Starlight Bazaar Bizarres"],
+    awayTeam: TEAMS["The Tortell Privateers"],
+    week: 3,
+    openBar: false,
+    bracket: "Losers"
+  }, {
+    homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
     awayTeam: TEAMS["The Wyrmwood Stronghammers"],
     week: 1,
     openBar: true,
     bracket: "Losers"
   },
   {
+    awayTeam: TEAMS["The New Monteforte Chaos Creatures"],
     homeTeam: TEAMS["The Wyrmwood Stronghammers"],
-    awayTeam: TEAMS["The Ebon Gate Corruptors"],
     week: 2,
-    openBar: true,
+    openBar: false,
     bracket: "Losers"
   },
   {
-    homeTeam: TEAMS["The Ebon Gate Corruptors"],
+    homeTeam: TEAMS["The New Monteforte Chaos Creatures"],
     awayTeam: TEAMS["The Wyrmwood Stronghammers"],
     week: 3,
     openBar: false,
     bracket: "Losers"
-  }
+  },
 ];
 
 // runMatch(
@@ -340,7 +252,7 @@ const runAllMatches = async () => {
     }
 
     // Check if THIS specific game file already exists to avoid re-simulating
-    const potentialSlug = `po-1-${baseMatch.week}-${baseMatch.homeTeam.slug}-${baseMatch.awayTeam.slug}`;
+    const potentialSlug = `po-3-${baseMatch.week}-${baseMatch.homeTeam.slug}-${baseMatch.awayTeam.slug}`;
     const potentialPath = path.join(
       process.cwd(),
       "utils",

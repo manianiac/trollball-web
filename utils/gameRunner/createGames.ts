@@ -61,6 +61,68 @@ export const generateGamesTS = () => {
     // Sort games by week, descending (newest first)
     games.sort((a: { week: number }, b: { week: number }) => b.week - a.week);
 
+    // Custom sorting for Round 4 games (po-3)
+    // We want Runeguard (kerlauger) vs Snessenger (zmeigorod) and Greenwatch (greenwatch) vs Commanders (new-ravenfall) at the bottom
+    games.sort((a, b) => {
+      // Only affect games that are from Round 4 (checked via slug starting with "po-3")
+      if (a.slug?.startsWith("po-3") && b.slug?.startsWith("po-3")) {
+        const isBottomGame = (game: match) => {
+          const s = game.slug || "";
+          if (s.includes("kerlauger") && s.includes("zmeigorod")) return true;
+          if (s.includes("greenwatch") && s.includes("new-ravenfall"))
+            return true;
+          return false;
+        };
+
+        const aIsBottom = isBottomGame(a);
+        const bIsBottom = isBottomGame(b);
+
+        if (aIsBottom && !bIsBottom) return 1; // a goes after b
+        if (!aIsBottom && bIsBottom) return -1; // a goes before b
+        return 0;
+      }
+      return 0; // Maintain existing order for others
+    });
+
+    // Obscure specific teams in Round 4
+    games.forEach((game) => {
+      if (game.slug?.startsWith("po-3")) {
+        // Obscure Zmeigorod (Snessengers) against Kerlauger
+        if (
+          game.slug.includes("kerlauger") &&
+          game.slug.includes("zmeigorod")
+        ) {
+          const obscureTeam = (team: any) => {
+            if (team.slug === "zmeigorod") {
+              team.name = "???";
+              team.stadium = { ...team.stadium, name: "???", description: "???" };
+              team.players = [];
+              team.healer = { ...team.healer, name: "???" };
+            }
+          };
+          obscureTeam(game.homeTeam);
+          obscureTeam(game.awayTeam);
+        }
+
+        // Obscure Greenwatch against New Ravenfall (Commanders)
+        if (
+          game.slug.includes("greenwatch") &&
+          game.slug.includes("new-ravenfall")
+        ) {
+          const obscureTeam = (team: any) => {
+            if (team.slug === "greenwatch") {
+              team.name = "???";
+              team.stadium = { ...team.stadium, name: "???", description: "???" };
+              team.players = [];
+              team.healer = { ...team.healer, name: "???" };
+            }
+          };
+          obscureTeam(game.homeTeam);
+          obscureTeam(game.awayTeam);
+        }
+      }
+    });
+
     console.log(`Loaded ${games.length} games.`);
 
     return games;
