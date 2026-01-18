@@ -1,4 +1,3 @@
-/**
  * Defines the structure for a single blog post.
  */
 export interface BlogPost {
