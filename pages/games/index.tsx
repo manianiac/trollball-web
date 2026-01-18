@@ -122,6 +122,17 @@ export default function GamesPage() {
       roundIndex = parseInt(parts[1], 10);
     }
 
+    // Determine Best of X based on round
+    // Rounds 0-4 are Best of 3
+    // Rounds 7+ are Best of 5
+    const isBestOf5 = roundIndex >= 6;
+    const winsNeeded = isBestOf5 ? 3 : 2;
+
+    // Re-check isDecided based on the round-specific wins needed
+    if (series.homeWins >= winsNeeded || series.awayWins >= winsNeeded) {
+      series.isDecided = true;
+    }
+
     if (!roundsMap.has(roundIndex)) {
       roundsMap.set(roundIndex, []);
     }
@@ -134,109 +145,111 @@ export default function GamesPage() {
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center gap-4 p-4">
-        <h1 className="text-3xl font-bold">Playoff Series (Best of 3)</h1>
+        <h1 className="text-3xl font-bold">Playoff Series</h1>
 
         <div className="flex flex-col gap-12 w-full max-w-4xl">
-          {sortedRounds.map((roundIndex) => (
-            <div key={roundIndex} className="flex flex-col gap-4">
-              <h2 className="text-2xl font-semibold border-b border-default-200 pb-2">
-                Playoff Round {roundIndex + 1}
-              </h2>
+          {sortedRounds.map((roundIndex) => {
+            const isBestOf5 = roundIndex >= 6;
+            const maxGames = isBestOf5 ? 5 : 3;
+            const seriesLabel = isBestOf5 ? "Best of 5" : "Best of 3";
 
-              <div className="flex flex-col gap-8">
-                {roundsMap.get(roundIndex)!.map((series) => {
-                  const { homeTeam, awayTeam, games } = series;
+            return (
+              <div key={roundIndex} className="flex flex-col gap-4">
+                <h2 className="text-2xl font-semibold border-b border-default-200 pb-2">
+                  Playoff Round {roundIndex + 1} <span className="text-lg text-default-400 font-normal">({seriesLabel})</span>
+                </h2>
 
-                  // Determine the starting week for this series (e.g. 0 or 1)
-                  const firstWeek =
-                    games.length > 0
-                      ? Math.min(...games.map((g) => g.week))
-                      : 1;
+                <div className="flex flex-col gap-8">
+                  {roundsMap.get(roundIndex)!.map((series) => {
+                    const { homeTeam, awayTeam, games } = series;
 
-                  // We always want to show 3 games
-                  // Index 0 -> First Game (firstWeek)
-                  // Index 1 -> Second Game (firstWeek + 1)
-                  // Index 2 -> Third Game (firstWeek + 2)
-                  const seriesGames = [0, 1, 2].map((i) => {
-                    // Find the game corresponding to this index
-                    return games.find((g) => g.week === firstWeek + i);
-                  });
+                    // Determine the starting week for this series (e.g. 0 or 1)
+                    const firstWeek =
+                      games.length > 0
+                        ? Math.min(...games.map((g) => g.week))
+                        : 1;
 
-                  return (
-                    <Card key={homeTeam.name + awayTeam.name} className="p-4">
-                      <CardBody>
-                        <div className="flex justify-between items-center mb-4 border-b pb-2">
-                          <div className="flex flex-col items-center">
-                            <span className="text-xl font-bold">
-                              {homeTeam.name}
-                            </span>
-                            <span className="text-sm text-default-400">
-                              Wins Hidden
-                            </span>
+                    // Show maxGames (3 or 5)
+                    const seriesGames = Array.from({ length: maxGames }, (_, i) => {
+                      return games.find((g) => g.week === firstWeek + i);
+                    });
+
+                    return (
+                      <Card key={homeTeam.name + awayTeam.name} className="p-4">
+                        <CardBody>
+                          <div className="flex justify-between items-center mb-4 border-b pb-2">
+                            <div className="flex flex-col items-center">
+                              <span className="text-xl font-bold">
+                                {homeTeam.name}
+                              </span>
+                              <span className="text-sm text-default-400">
+                                Wins Hidden
+                              </span>
+                            </div>
+                            <span className="text-default-500 font-bold">VS</span>
+                            <div className="flex flex-col items-center">
+                              <span className="text-xl font-bold">
+                                {awayTeam.name}
+                              </span>
+                              <span className="text-sm text-default-400">
+                                Wins Hidden
+                              </span>
+                            </div>
                           </div>
-                          <span className="text-default-500 font-bold">VS</span>
-                          <div className="flex flex-col items-center">
-                            <span className="text-xl font-bold">
-                              {awayTeam.name}
-                            </span>
-                            <span className="text-sm text-default-400">
-                              Wins Hidden
-                            </span>
+
+                          <div className="flex flex-col gap-3">
+                            {seriesGames.map((game, index) => {
+                              const gameNum = index + 1;
+
+                              if (game) {
+                                // REAL GAME
+                                const gHome = game.homeTeam as any;
+                                const gAway = game.awayTeam as any;
+                                return (
+                                  <Link
+                                    key={game.slug}
+                                    className="block p-4 rounded-lg bg-default-50 hover:bg-default-100 transition-colors border border-default-200"
+                                    href={`/games/${game.slug}`}
+                                  >
+                                    <div className="flex justify-between items-center">
+                                      <span className="font-semibold text-primary">
+                                        Game {gameNum}
+                                      </span>
+                                      <div className="text-sm">
+                                        {gHome.name} vs {gAway.name}
+                                      </div>
+                                    </div>
+                                  </Link>
+                                );
+                              } else {
+                                // DUMMY GAME (Unplayed / Game Not Needed)
+                                return (
+                                  <Link
+                                    key={`dummy-${index}`}
+                                    className="block p-4 rounded-lg bg-default-50 border border-default-200 hover:bg-default-100 transition-colors"
+                                    href="/games/unplayed"
+                                  >
+                                    <div className="flex justify-between items-center">
+                                      <span className="font-semibold text-primary">
+                                        Game {gameNum}
+                                      </span>
+                                      <div className="text-sm">
+                                        {homeTeam.name} vs {awayTeam.name}
+                                      </div>
+                                    </div>
+                                  </Link>
+                                );
+                              }
+                            })}
                           </div>
-                        </div>
-
-                        <div className="flex flex-col gap-3">
-                          {seriesGames.map((game, index) => {
-                            const gameNum = index + 1;
-
-                            if (game) {
-                              // REAL GAME
-                              const gHome = game.homeTeam as any;
-                              const gAway = game.awayTeam as any;
-                              return (
-                                <Link
-                                  key={game.slug}
-                                  className="block p-4 rounded-lg bg-default-50 hover:bg-default-100 transition-colors border border-default-200"
-                                  href={`/games/${game.slug}`}
-                                >
-                                  <div className="flex justify-between items-center">
-                                    <span className="font-semibold text-primary">
-                                      Game {gameNum}
-                                    </span>
-                                    <div className="text-sm">
-                                      {gHome.name} vs {gAway.name}
-                                    </div>
-                                  </div>
-                                </Link>
-                              );
-                            } else {
-                              // DUMMY GAME (Unplayed / Game 3 not needed)
-                              return (
-                                <Link
-                                  key={`dummy-${index}`}
-                                  className="block p-4 rounded-lg bg-default-50 border border-default-200 hover:bg-default-100 transition-colors"
-                                  href="/games/unplayed"
-                                >
-                                  <div className="flex justify-between items-center">
-                                    <span className="font-semibold text-primary">
-                                      Game {gameNum}
-                                    </span>
-                                    <div className="text-sm">
-                                      {homeTeam.name} vs {awayTeam.name}
-                                    </div>
-                                  </div>
-                                </Link>
-                              );
-                            }
-                          })}
-                        </div>
-                      </CardBody>
-                    </Card>
-                  );
-                })}
+                        </CardBody>
+                      </Card>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
 
           {sortedRounds.length === 0 && (
             <div className="text-center text-default-500">

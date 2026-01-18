@@ -293,7 +293,7 @@ export async function generateGameReports(
   const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
       
-      This is the playoffs, in the ${gameData.bracket || "Winners"} Bracket, so make sure to comment on the playoff atmosphere. These are played Best of 3, and you will be given each past game in a series. The loser of the BO3 will be sent to the loser's bracket
+      This is the playoffs, in the ${gameData.bracket || "Winners"} Bracket, so make sure to comment on the playoff atmosphere. These are played Best of 5, and you will be given each past game in a series(including possible past matchups). The loser of the BO3 will be sent to the loser's bracket
       
       Use markdown formatting(like headers or lists) and use emojii as needed
 
@@ -319,7 +319,7 @@ export async function generateGameReports(
       </hero_data>
       
       Here are all the games in this series that have already been played
-      This is currently game ${gameData.week} of 3
+      This is currently game ${gameData.week} of 5
       <past_games>
       ${JSON.stringify(seriesGames)}
       </past_games>

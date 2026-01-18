@@ -51,7 +51,10 @@ const runMatch = async (
 };
 
 // Helper to find previous games in the series
-const findPreviousSeriesGames = (homeTeam: team, awayTeam: team): match[] => {
+const findPreviousSeriesGames = (
+  homeTeam: team,
+  awayTeam: team,
+): match[] => {
   const resultsDir = path.join(process.cwd(), "utils", "gameRunner", "results");
 
   if (!fs.existsSync(resultsDir)) {
@@ -93,49 +96,38 @@ const findPreviousSeriesGames = (homeTeam: team, awayTeam: team): match[] => {
 
 let matchesToSimulate =
   [
-    /* Matchup 1: Confluence vs Oread's Summit */
-    // {
-    //   "homeTeam": TEAMS["The Confluence Captains"],
-    //   "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-    //   "week": 1,
-    //   "openBar": true,
-    //   "bracket": "Losers"
-    // },
-    // {
-    //   "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
-    //   "awayTeam": TEAMS["The Confluence Captains"],
-    //   "week": 2,
-    //   "openBar": true,
-    //   "bracket": "Losers"
-    // },
-    // {
-    //   "homeTeam": TEAMS["The Confluence Captains"],
-    //   "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-    //   "week": 3,
-    //   "openBar": false,
-    //   "bracket": "Losers"
-    // },
-
-    /* Matchup 2: Haven Lights vs Oak & Onslaught */
     {
       "homeTeam": TEAMS["The Haven Lights"],
-      "awayTeam": TEAMS["The Starlight Bazaar Bizarres"],
+      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
       "week": 1,
       "openBar": true,
       "bracket": "Losers"
     },
     {
-      "homeTeam": TEAMS["The Starlight Bazaar Bizarres"],
+      "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
       "awayTeam": TEAMS["The Haven Lights"],
       "week": 2,
+      "openBar": false,
+      "bracket": "Losers"
+    },
+    {
+      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
+      "homeTeam": TEAMS["The Haven Lights"],
+      "week": 3,
+      "openBar": false,
+      "bracket": "Losers"
+    }, {
+      "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
+      "awayTeam": TEAMS["The Haven Lights"],
+      "week": 4,
       "openBar": true,
       "bracket": "Losers"
     },
     {
-      "awayTeam": TEAMS["The Starlight Bazaar Bizarres"],
+      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
       "homeTeam": TEAMS["The Haven Lights"],
-      "week": 3,
-      "openBar": false,
+      "week": 5,
+      "openBar": true,
       "bracket": "Losers"
     },
   ];
@@ -181,17 +173,24 @@ const runAllMatches = async () => {
       baseMatch.awayTeam.name,
     );
 
-    const seriesGames = findPreviousSeriesGames(
+    const currentRoundPrefix = "po-6";
+
+    // 1. Get ALL previous games for context (Report Generation)
+    const allSeriesGames = findPreviousSeriesGames(
       baseMatch.homeTeam,
       baseMatch.awayTeam,
     );
-    console.log(`Found ${seriesGames.length} previous games in this series.`);
+    console.log(`Found ${allSeriesGames.length} TOTAL previous games between these teams.`);
 
-    // Check for Series Win (2 wins needed)
+    // 2. Filter for CURRENT round games for series logic (Win Check)
+    const currentStatsGames = allSeriesGames.filter(g => g.slug && g.slug.startsWith(currentRoundPrefix));
+    console.log(`Found ${currentStatsGames.length} games in the CURRENT series (${currentRoundPrefix}).`);
+
+    // Check for Series Win (3 wins needed for BO5)
     let homeWins = 0;
     let awayWins = 0;
-    // Determine wins based on slug or saved score data in 'seriesGames'
-    seriesGames.forEach((g) => {
+    // Determine wins based on slug or saved score data in 'currentStatsGames'
+    currentStatsGames.forEach((g) => {
       // Identify the winner of the stored game
       let winnerSlug = "";
       const gh = g.homeTeam as any; // Cast to any to avoid Partial<Team> issues
@@ -207,15 +206,15 @@ const runAllMatches = async () => {
       if (winnerSlug === baseAway.slug) awayWins++;
     });
 
-    if (homeWins >= 2 || awayWins >= 2) {
-      console.log(
-        `Skipping match ${baseMatch.homeTeam.name} vs ${baseMatch.awayTeam.name} (Week ${baseMatch.week}) - Series already decided (${Math.max(homeWins, awayWins)}-${Math.min(homeWins, awayWins)}).`,
-      );
-      continue;
-    }
+    // if (homeWins >= 3 || awayWins >= 3) {
+    //   console.log(
+    //     `Skipping match ${baseMatch.homeTeam.name} vs ${baseMatch.awayTeam.name} (Week ${baseMatch.week}) - Series already decided (${Math.max(homeWins, awayWins)}-${Math.min(homeWins, awayWins)}).`,
+    //   );
+    //   continue;
+    // }
 
     // Check if THIS specific game file already exists to avoid re-simulating
-    const potentialSlug = `po-5-${baseMatch.week}-${baseMatch.homeTeam.slug}-${baseMatch.awayTeam.slug}`;
+    const potentialSlug = `${currentRoundPrefix}-${baseMatch.week}-${baseMatch.homeTeam.slug}-${baseMatch.awayTeam.slug}`;
     const potentialPath = path.join(
       process.cwd(),
       "utils",
@@ -237,7 +236,7 @@ const runAllMatches = async () => {
       baseMatch.week,
       baseMatch.openBar,
       (baseMatch as any).bracket || "Winners",
-      seriesGames,
+      allSeriesGames, // Pass ALL games for report context
     );
 
     // Wait 5 seconds between matches to avoid rate limits

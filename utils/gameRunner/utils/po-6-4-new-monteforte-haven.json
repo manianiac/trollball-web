@@ -1,0 +1,855 @@
+{
+    "homeTeam": {
+        "name": "The New Monteforte Chaos Creatures",
+        "slug": "new-monteforte",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 65,
+        "stadium": {
+            "name": "The Unruly Yard",
+            "location": "New Monteforte",
+            "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+            "modifiers": [
+                "Rowdy Crowd",
+                "Unstable Scaffolding",
+                "Street Performer"
+            ]
+        },
+        "healer": {
+            "name": "Lian Denton",
+            "team": "The New Monteforte Chaos Creatures",
+            "stats": {
+                "pass": 55,
+                "catch": 62,
+                "run": 56,
+                "block": 58,
+                "fight": 45,
+                "throw": 60,
+                "luck": 50,
+                "pronouns": "They/Them",
+                "civic_engagement": 52,
+                "alcohol_tolerance": 66,
+                "favorite_weapon": "Battle Axe",
+                "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "awayTeam": {
+        "name": "The Haven Lights",
+        "slug": "haven",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 55,
+        "stadium": {
+            "name": "The Aegis Field",
+            "location": "Haven (Temple of Light Compound)",
+            "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+            "modifiers": [
+                "Hallowed Ground",
+                "Shield's Watch",
+                "Twinlight's Glow"
+            ]
+        },
+        "healer": {
+            "name": "Riffle Harrington",
+            "team": "The Haven Lights",
+            "stats": {
+                "pass": 56,
+                "catch": 49,
+                "run": 49,
+                "block": 43,
+                "fight": 66,
+                "throw": 52,
+                "luck": 63,
+                "pronouns": "He/Him",
+                "civic_engagement": 63,
+                "alcohol_tolerance": 52,
+                "favorite_weapon": "Spiked Gauntlet",
+                "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Shiroma Salim",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 50,
+                    "catch": 51,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 62,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Zwart Bunns",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 63,
+                    "catch": 66,
+                    "run": 51,
+                    "block": 51,
+                    "fight": 47,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 40,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Cestus",
+                    "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Riffle Heyde",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 56,
+                    "run": 48,
+                    "block": 53,
+                    "fight": 50,
+                    "throw": 44,
+                    "luck": 48,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tybi Reo",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 48,
+                    "run": 66,
+                    "block": 56,
+                    "fight": 55,
+                    "throw": 48,
+                    "luck": 50,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Berkin Waters",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 51,
+                    "catch": 46,
+                    "run": 58,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 60,
+                    "luck": 49,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Farand Keil",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 57,
+                    "catch": 49,
+                    "run": 55,
+                    "block": 37,
+                    "fight": 50,
+                    "throw": 64,
+                    "luck": 48,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Whip",
+                    "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wieren Ivar",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 66,
+                    "catch": 63,
+                    "run": 52,
+                    "block": 54,
+                    "fight": 64,
+                    "throw": 42,
+                    "luck": 54,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Warhammer",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Coward Tarton",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 56,
+                    "catch": 51,
+                    "run": 62,
+                    "block": 47,
+                    "fight": 52,
+                    "throw": 63,
+                    "luck": 51,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Tabar",
+                    "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dickenson Beker",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 58,
+                    "catch": 69,
+                    "run": 58,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 46,
+                    "luck": 63,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Marlane Lounge",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 64,
+                    "catch": 59,
+                    "run": 54,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 52,
+                    "luck": 58,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Main-gauche",
+                    "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Shiroma Salim",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 50,
+                    "catch": 51,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 62,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Riffle Heyde",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 56,
+                    "run": 48,
+                    "block": 53,
+                    "fight": 50,
+                    "throw": 44,
+                    "luck": 48,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tybi Reo",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 48,
+                    "run": 66,
+                    "block": 56,
+                    "fight": 55,
+                    "throw": 48,
+                    "luck": 50,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Berkin Waters",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 51,
+                    "catch": 46,
+                    "run": 58,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 60,
+                    "luck": 49,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Farand Keil",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 57,
+                    "catch": 49,
+                    "run": 55,
+                    "block": 37,
+                    "fight": 50,
+                    "throw": 64,
+                    "luck": 48,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Whip",
+                    "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wieren Ivar",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 66,
+                    "catch": 63,
+                    "run": 52,
+                    "block": 54,
+                    "fight": 64,
+                    "throw": 42,
+                    "luck": 54,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Warhammer",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Coward Tarton",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 56,
+                    "catch": 51,
+                    "run": 62,
+                    "block": 47,
+                    "fight": 52,
+                    "throw": 63,
+                    "luck": 51,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Tabar",
+                    "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dickenson Beker",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 58,
+                    "catch": 69,
+                    "run": 58,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 46,
+                    "luck": 63,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "# 🎙️ Tuesday Night Trollball: The Siege of the Yard! 🎙️\n\nWell hello there, sports fans! Nok the Corrupter here, coming to you live and loud from the graffiti-smeared, concrete-cracking glory of The Unruly Yard! 🏟️ We are at the absolute fever pitch of the Losers Bracket, and boy oh boy, the air is thick with the scent of desperation and the city's finest hot gravy! It is Game Four of this high-stakes Best of Five series! The New Monteforte Chaos Creatures are currently leading the series 2-1 against those squeaky-clean Haven Lights. If the Creatures clinch it tonight, the Lights are heading home for good, and isn't that just a delightful thought? I haven't been this excited since Artorias and Morgwae broke me out of that dreary Demon Prison! ⛓️\n\nThe atmosphere here is positively electric! The rowdy crowd is already rattling the unstable scaffolding, and I saw a street performer trying to juggle live rats near the Haven dugout—talk about home-field advantage! 🐀 Looking down at the pitch, the Chaos Creatures are looking mean and hungry. Lian Denton is currently chugging hot gravy from a dented tin cup—now that is a breakfast of champions! ☕ Meanwhile, Boulanger Procto is meticulously arranging his gear in a perfect, aesthetically pleasing spiral. It’s a bit strange for a rebel, but hey, whatever keeps your broadsword sharp! ⚔️\n\nAnd what about those pristine 'heroes' from Haven? They look like they've wandered into the wrong neighborhood! Tybi Reo is currently drawing a detailed, anatomically incorrect diagram of a troll's head in the dirt. 🎨 I hope her play is better than her art, because the Creatures are looking to make some anatomically incorrect adjustments to her face! Zwart Bunns is whispering secret fears to the Trollball again—I hope he told it he's afraid of losing, because that’s exactly what’s on the menu! We’ve got an open bar, the Twinlights are blocked out by the city smog, and the brutality is about to begin! Let’s get to the Trollball! 🍺💥",
+    "postGame": "# 🏆 Rebellion Rules! Haven Lights Snuffed Out! 🏆\n\nHoly Mackerel, what a glorious display of bone-snapping beauty! Nok the Corrupter here, and my horns are still buzzing from the absolute carnage we witnessed at The Unruly Yard! The New Monteforte Chaos Creatures have defended their turf with a grit-your-teeth 3 to 2 victory over the Haven Lights, officially winning the series 3 games to 1! 🏆 Those 'heroes' from Haven are headed back to their library to cry in their books, while the Creatures march on! It was a masterpiece of mayhem where the 'virtue' of Haven was trampled under the muddy boots of rebellion! 🏟️❌\n\nThe action started with a shock to the system! Riffle Heyde of the Lights decided he wasn't going down without a fight, launching a magnificent shoot from center field that went right through the basket! 🎯 Two points for the Lights! The Unruly Yard went silent for a microsecond before the booing reached a level that probably rattled the windows in the Temple of Light! ⛪ It was a brave start, but as we know, the higher they climb, the harder they fall onto the concrete! 🧱\n\nBut the Lights' early lead didn't stop them from playing dirty! Riffle Heyde went on an absolute rampage, proving that even a mace-wielding saint can have a mean streak! He tackled Wolbrom Ariella so hard it sent him straight to the infirmary! 🚑 Not satisfied with one casualty, Coward Tarton then leveled Fogel Raynold, leaving him counting the graffiti tags on the walls! I love the consistency, folks—if you aren't bleeding, you aren't trying! 🩸\n\nThe middle of the game was a total defensive grind. Mouldon Earl and Tucker Hett tried to break through for the Creatures, but the Haven defense was stickier than a warlock’s bar tab! 🍹 Wieren Ivar and Dickenson Beker were blocking like their lives depended on it—and in this district, they probably did! The open bar was clearly starting to affect the aim, as passes were flying wilder than a fey on moon-dust! 🧚‍♂️\n\nJust before the break, Riffle Heyde struck again, injuring Tucker Hett! 🤕 It was a systematic dismantling of the Monteforte roster. Honestly, Riffle Harrington—the Haven healer—should be given a medal for the amount of work he *didn't* have to do because his teammates were doing all the hurting! But you can't keep a good Chaos Creature down, especially when they’re fueled by spite and hot gravy! ☕\n\nBy the time we hit Overtime, the atmosphere was thick with ale and adrenaline. The street performers were doing backflips over the injured, and the rowdy crowd was halfway through a riot! 🎪 That’s when the momentum shifted! The Creatures found their second wind (or maybe it was just the ritual sangria kicking in). They locked down the field, making sure the Lights couldn't move an inch without meeting a billhook or a seax! 🔨\n\nThen came the moment of glory! Boulanger Procto, the man with the spiral gear, decided it was time to end the Havenites' season. He snagged the ball, dodged a desperate lunge from the defense, and sprinted into the end zone for a thunderous dunk! 🏀 The crowd erupted, the shaky scaffolding swayed, and the Creatures took the lead! It was a beautiful sight, the kind of play that would make Dima the shadow king nod in silent approval! 🕵️‍♂️\n\nThe final minutes were a blur of desperation for the Lights. Placido Kora and Raouf Dragone were like a brick wall in center field. Every time a Haven player tried to advance, they were met with the raw, unadulterated chaos of New Monteforte! 🧱 I bet even Sir Artorias is embarrassed to be associated with such a lack of coordination from his 'holy' proteges! They were stumbling around like they’d been hit by a confusion spell from Morgwae himself! 🧙‍♂️\n\nThe drunkenness was certainly a factor by the end! I saw Farand Keil trying to whip a street performer instead of the ball carrier, and Shiroma Salim was re-taping his shield handle for the hundredth time while the game passed him by! 🛡️ The Lights were flickering, and the Creatures were ready to blow them out for good! It was a total failure for the virtuous team in a very unvirtuous backyard! 🕯️👎\n\nAs the final whistle blew, the Unruly Yard turned into a sea of madness! The Chaos Creatures have clinched the series 3-1, sending the Haven Lights packing! 🏆 Dame Terra Monteforte must be cackling in her dirt-throne tonight, because her rebels just showed the world that light doesn't always win in the shadows of the city! I haven't seen the Haven fans this quiet since the last time they were told Sir Tanos was in charge of the maps! 🌲🗺️\n\nFinal score: New Monteforte Chaos Creatures 3, Haven Lights 2! The Creatures move forward in the Losers Bracket, and the Lights are officially extinguished! 🕯️❌ I’m going to go find where Lian Denton keeps that gravy and see if I can mix it with some of Imra’s special dust! This is Nok the Corrupter, signing off from the most beautiful disaster in Osterra! Stay brutal, stay bloody, and keep your healers on speed-dial! 🎙️😈",
+    "week": 4,
+    "homeScore": 3,
+    "awayScore": 2,
+    "slug": "po-6-4-new-monteforte-haven",
+    "plays": [
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Tybi Reo in zone Center Field",
+        "Riffle Heyde shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Wolbrom Ariella in zone Center Field",
+        "Mouldon Earl tries to run with the ball but is stopped by the defense!",
+        "Tucker Hett runs with the ball and advances towards the goal!",
+        "Fogel Raynold tries to Tackle Dickenson Beker, but Dickenson Beker blocks it!",
+        "Riffle Heyde Tackles Wolbrom Ariella and INJURES THEM!",
+        "Raouf Dragone tries to Tackle Tybi Reo, but misses!",
+        "Tybi Reo tries to Tackle Fogel Raynold, but Fogel Raynold blocks it!",
+        "Alben Diantha tries to run with the ball but is stopped by the defense!",
+        "Placido Kora shoots from Away Field but misses the goal!",
+        "The Trollball is picked up by Farand Keil in zone Away Field",
+        "Wieren Ivar tries to run with the ball but is stopped by the defense!",
+        "Raouf Dragone tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+        "Gabriele Klehm tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+        "Dickenson Beker throws a wild pass and it is INTERCEPTED by Urata Oriana!",
+        "Placido Kora runs with the ball and advances towards the goal!",
+        "Alben Diantha throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Boulanger Procto in zone Away 2-Point",
+        "Riffle Heyde tries to Tackle Mouldon Earl, but misses!",
+        "Farand Keil tries to Tackle Gabriele Klehm, but misses!",
+        "Farand Keil tries to Tackle Wolbrom Ariella, but Wolbrom Ariella blocks it!",
+        "Coward Tarton Tackles Fogel Raynold and INJURES THEM!",
+        "Boulanger Procto tries to Tackle Farand Keil, but misses!",
+        "Wieren Ivar tries to Tackle Mouldon Earl, but misses!",
+        "Riffle Heyde Tackles Tucker Hett and INJURES THEM!",
+        "Wieren Ivar tries to Tackle Urata Oriana, but Urata Oriana blocks it!",
+        "Tybi Reo tries to Tackle Wolbrom Ariella, but misses!",
+        "Shiroma Salim tries to Tackle Placido Kora, but misses!",
+        "OVERTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Shiroma Salim in zone Away 2-Point",
+        "Farand Keil shoots from Away 2-Point but misses the goal!",
+        "The Trollball is picked up by Urata Oriana in zone Away 2-Point",
+        "Berkin Waters tries to Tackle Tucker Hett, but Tucker Hett blocks it!",
+        "Mouldon Earl tries to run with the ball but is stopped by the defense!",
+        "Shiroma Salim tries to Tackle Urata Oriana, but misses!",
+        "Boulanger Procto runs into the End Zone and DUNKS THE BALL INTO THE GOAL!"
+    ],
+    "bracket": "Losers"
+}
