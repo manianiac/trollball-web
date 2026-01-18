@@ -97,37 +97,37 @@ const findPreviousSeriesGames = (
 let matchesToSimulate =
   [
     {
-      "homeTeam": TEAMS["The Haven Lights"],
+      "homeTeam": TEAMS["The Oread's Summit Tamers"],
       "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
       "week": 1,
-      "openBar": true,
+      "openBar": false,
       "bracket": "Losers"
     },
     {
       "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "awayTeam": TEAMS["The Haven Lights"],
+      "awayTeam": TEAMS["The Oread's Summit Tamers"],
       "week": 2,
       "openBar": false,
       "bracket": "Losers"
     },
     {
       "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "homeTeam": TEAMS["The Haven Lights"],
+      "homeTeam": TEAMS["The Oread's Summit Tamers"],
       "week": 3,
-      "openBar": false,
+      "openBar": true,
       "bracket": "Losers"
     }, {
       "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "awayTeam": TEAMS["The Haven Lights"],
+      "awayTeam": TEAMS["The Oread's Summit Tamers"],
       "week": 4,
       "openBar": true,
       "bracket": "Losers"
     },
     {
       "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "homeTeam": TEAMS["The Haven Lights"],
+      "homeTeam": TEAMS["The Oread's Summit Tamers"],
       "week": 5,
-      "openBar": true,
+      "openBar": false,
       "bracket": "Losers"
     },
   ];
@@ -173,7 +173,7 @@ const runAllMatches = async () => {
       baseMatch.awayTeam.name,
     );
 
-    const currentRoundPrefix = "po-6";
+    const currentRoundPrefix = "po-7";
 
     // 1. Get ALL previous games for context (Report Generation)
     const allSeriesGames = findPreviousSeriesGames(

@@ -1,0 +1,894 @@
+{
+    "homeTeam": {
+        "name": "Oak & Onslaught",
+        "slug": "oak-and-onslaught",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 52,
+        "stadium": {
+            "name": "Fletchings Field",
+            "location": "Fletchings",
+            "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+            "modifiers": [
+                "Shifting Terrain",
+                "Warden's Watch",
+                "Natural Advantages"
+            ]
+        },
+        "healer": {
+            "name": "Ahron Latashia",
+            "team": "Oak & Onslaught",
+            "stats": {
+                "pass": 48,
+                "catch": 52,
+                "run": 56,
+                "block": 45,
+                "fight": 64,
+                "throw": 59,
+                "luck": 57,
+                "pronouns": "She/Her",
+                "civic_engagement": 68,
+                "alcohol_tolerance": 59,
+                "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+                "literate": true,
+                "favorite_weapon": "Kriegsmesser"
+            }
+        },
+        "players": [
+            {
+                "name": "Milt Casady",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 54,
+                    "catch": 57,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 47,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 44,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Wynnie Faina",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 50,
+                    "catch": 64,
+                    "run": 66,
+                    "block": 55,
+                    "fight": 51,
+                    "throw": 60,
+                    "luck": 71,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Normi Glaudia",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 64,
+                    "block": 63,
+                    "fight": 48,
+                    "throw": 60,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Symer Crissy",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 53,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 44,
+                    "throw": 63,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Teria Ravo",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 51,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 53,
+                    "throw": 63,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Millham Evangeline",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 56,
+                    "block": 44,
+                    "fight": 56,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hole Bowerman",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 39,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 64,
+                    "fight": 60,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Affra Yanaton",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 48,
+                    "catch": 50,
+                    "run": 63,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Abner Seidel",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 55,
+                    "catch": 61,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 54,
+                    "throw": 51,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 42,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ema Ulrick",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 57,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 66,
+                    "luck": 52,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Always putting on their left gauntlet before their right.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Milt Casady",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 54,
+                    "catch": 57,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 47,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 44,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Wynnie Faina",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 50,
+                    "catch": 64,
+                    "run": 66,
+                    "block": 55,
+                    "fight": 51,
+                    "throw": 60,
+                    "luck": 71,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Normi Glaudia",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 64,
+                    "block": 63,
+                    "fight": 48,
+                    "throw": 60,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Symer Crissy",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 53,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 44,
+                    "throw": 63,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Teria Ravo",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 51,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 53,
+                    "throw": 63,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Millham Evangeline",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 56,
+                    "block": 44,
+                    "fight": 56,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hole Bowerman",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 39,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 64,
+                    "fight": 60,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Affra Yanaton",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 48,
+                    "catch": 50,
+                    "run": 63,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Abner Seidel",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 55,
+                    "catch": 61,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 54,
+                    "throw": 51,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 42,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ema Ulrick",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 57,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 66,
+                    "luck": 52,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Always putting on their left gauntlet before their right.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "awayTeam": {
+        "name": "The Oread's Summit Tamers",
+        "slug": "oreads-summit",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 67,
+        "stadium": {
+            "name": "The High-Pass Pitch",
+            "location": "Oread's Summit",
+            "description": "A field built at a breathtaking altitude in a fortified mountain pass. The air is painfully thin, and the weather is dangerously unpredictable.",
+            "modifiers": [
+                "Thin Air",
+                "Sudden Blizzard",
+                "Vertigo"
+            ]
+        },
+        "healer": {
+            "name": "Carn Tibbetts",
+            "team": "The Oread's Summit Tamers",
+            "stats": {
+                "pass": 54,
+                "catch": 51,
+                "run": 59,
+                "block": 57,
+                "fight": 51,
+                "throw": 52,
+                "luck": 65,
+                "pronouns": "He/Him",
+                "civic_engagement": 59,
+                "alcohol_tolerance": 51,
+                "favorite_weapon": "Shortsword",
+                "pregame_ritual": "Tying a small, hand-carved wooden bird to their gear.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Odericus Juxon",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 62,
+                    "run": 56,
+                    "block": 50,
+                    "fight": 45,
+                    "throw": 60,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Kass Fogel",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 55,
+                    "catch": 46,
+                    "run": 59,
+                    "block": 50,
+                    "fight": 57,
+                    "throw": 59,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Voulge",
+                    "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Zadoc Wyatan",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 67,
+                    "run": 60,
+                    "block": 58,
+                    "fight": 58,
+                    "throw": 54,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alwyn Wandy",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 58,
+                    "catch": 34,
+                    "run": 56,
+                    "block": 64,
+                    "fight": 53,
+                    "throw": 65,
+                    "luck": 63,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dric Trilley",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 59,
+                    "block": 67,
+                    "fight": 45,
+                    "throw": 49,
+                    "luck": 56,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 48,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Flail",
+                    "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Swamy Ahasuerus",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 69,
+                    "catch": 53,
+                    "run": 50,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 60,
+                    "luck": 51,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Clippard Burr",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 38,
+                    "catch": 60,
+                    "run": 65,
+                    "block": 57,
+                    "fight": 57,
+                    "throw": 62,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 70,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mitran Mariand",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 58,
+                    "catch": 54,
+                    "run": 63,
+                    "block": 42,
+                    "fight": 57,
+                    "throw": 51,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Dirk",
+                    "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Edme Virgil",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 60,
+                    "catch": 45,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 62,
+                    "throw": 62,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Saloma Talich",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 66,
+                    "catch": 53,
+                    "run": 48,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 57,
+                    "luck": 51,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Kass Fogel",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 55,
+                    "catch": 46,
+                    "run": 59,
+                    "block": 50,
+                    "fight": 57,
+                    "throw": 59,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Voulge",
+                    "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alwyn Wandy",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 58,
+                    "catch": 34,
+                    "run": 56,
+                    "block": 64,
+                    "fight": 53,
+                    "throw": 65,
+                    "luck": 63,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Swamy Ahasuerus",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 69,
+                    "catch": 53,
+                    "run": 50,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 60,
+                    "luck": 51,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Clippard Burr",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 38,
+                    "catch": 60,
+                    "run": 65,
+                    "block": 57,
+                    "fight": 57,
+                    "throw": 62,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 70,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Saloma Talich",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 66,
+                    "catch": 53,
+                    "run": 48,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 57,
+                    "luck": 51,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Edme Virgil",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 60,
+                    "catch": 45,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 62,
+                    "throw": 62,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dric Trilley",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 59,
+                    "block": 67,
+                    "fight": 45,
+                    "throw": 49,
+                    "luck": 56,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 48,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Flail",
+                    "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Mitran Mariand",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 58,
+                    "catch": 54,
+                    "run": 63,
+                    "block": 42,
+                    "fight": 57,
+                    "throw": 51,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Dirk",
+                    "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Zadoc Wyatan",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 67,
+                    "run": 60,
+                    "block": 58,
+                    "fight": 58,
+                    "throw": 54,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "preGame": "🎙️ STEP RIGHT UP, SPORTS FANS! IT’S A GRAND DAY FOR A GRUDGE MATCH! 🎙️ Well hello, Osterra! This is Nok the Corrupter, coming to you live from Fletchings Field for Game 2 of this Winners Bracket showdown! The air is thick with the scent of pine and impending peril, and boy-oh-boy, is the atmosphere electric! We’re deep in the playoffs now, and the stakes are higher than a Fey on a bender! Oak & Onslaught is currently sitting pretty with a 1-0 lead in this Best of 5 series, and the local Warden fans are out in droves, cheering for their boys like they’ve never seen a good old-fashioned demonic summoning before! 🌳💥\n\nI just saw Teria Ravo over by the goal posts, giving them a gentle headbutt to get her mind right—now that’s what I call using your noggin! And keep an eye on Abner Seidel, folks; my scouts tell me he’s got those garishly colored undergarments on today, so you know he’s feeling lucky! On the other side of the pitch, the Oread's Summit Tamers are looking to climb back into this series. Alwyn Wandy was seen whispering a secret fear to the Trollball. I hope that fear wasn't 'getting hit by a mace,' because Wynnie Faina looks like he’s ready to swing for the fences! ⚾🛡️\n\nThis field is a real piece of work, too! The local druids have been messing with the dirt, so expect the terrain to shift more than a politician’s promises. Between the Warden’s Watch keeping a literal eye on the proceedings and the natural obstacles, these Tamers are going to have a tough time finding their footing. It’s a battle of the mountain against the woods, and while I’d personally rather be watching the Ebon Gate Corruptors stomp some sense into those Haven Lights, this playoff action is the next best thing to a prison break! Let’s get that ball in play and some teeth on the grass! 🦷🏟️",
+    "postGame": "### 🏟️ AN ONSLAUGHT INDEED! OAK & ONSLAUGHT SHUT OUT THE TAMERS! 🏟️\n\nWell, pull my horns and call me a goat, what a defensive masterclass! Oak & Onslaught has absolutely dismantled the Oread's Summit Tamers with a 4-0 victory, putting them up 2-0 in this Best of 5 series! The Tamers looked like they were trying to navigate a maze while wearing blindfolds, and the Wardens were more than happy to lead them straight into a brick wall! From the very first whistle, it was clear that the home field advantage at Fletchings Field was no joke, with the shifting terrain leaving the visitors stumbling like a bunch of adventurers who’ve had too much of Imra’s elixirs! 🌲✨\n\nAffra Yanaton set the tone early, snatching up that Trollball in Center Field and making Clippard Burr look like she was standing still! Hole Bowerman was right there with her, charging toward the goal like a runaway stagecoach. Though Wynnie Faina missed an early shot, the pressure was relentless. It wasn't long before the highlight of the first half occurred—Abner Seidel, probably powered by those lucky garish bloomers, launched a magnificent 2-point shot from the Away 2-Point zone that sailed through the hoops as clean as a whistle! 🎯💨\n\nBut the real story of the game was the brutality, folks! Normi Glaudia decided that Odericus Juxon didn't need to be standing anymore, delivering a tackle so crisp you could hear the armor buckle from the top row! Juxon was sent straight to Carn Tibbetts for some emergency stitching. Not to be outdone, Ema Ulrick followed up by flattening Mitran Mariand. The Tamers tried to mount a comeback, but even when Zadoc Wyatan found an opening, his pass was snatched out of the air by the ever-present Wynnie Faina! It was a total breakdown in communication for the mountain crew! 🏥🦴\n\nAs we hit halftime, the score was 2-0, and the Tamers looked like they needed more than a grocery list recited backward to fix their problems. The Warden defenders were playing like Sir Randy himself was watching from the trees with that fancy, over-designed bow of his! Ahron Latashia had her work cut out for her keeping the Onslaught squad in peak killing condition, but she did a bang-up job as they came out for the second half looking even hungrier! 🥗⚔️\n\nThe second half was a literal graveyard for the Tamers' hopes. Affra Yanaton decided she wasn't done, absolutely leveling Edme Virgil and sending them to the healer's tent. Before the dust could even settle, Normi Glaudia was at it again, delivering a crunching blow to Dric Trilley that had the crowd roaring! It’s the kind of violence that makes a demon’s heart skip a beat—pure, unadulterated Trollball magic! 💖🔨\n\nThe Tamers were dropping the ball left and right—literally! Kass Fogel tried a pass to herself that ended up on the grass, and the Wardens were there to pounce on it every single time. It was a comedy of errors for the Prismatic Troups' favorites. I haven't seen this much confusion since Falric tried to balance his checkbook! The defensive line for Oak & Onslaught was an impenetrable thicket of shields and lances! 🛡️🤡\n\nMidway through the half, Abner Seidel proved he’s more than just a shooter, taking out Mitran Mariand for the second time today! Five injuries in one game, folks! That’s what we call a full house in the medical tent! The Tamers were playing short-handed and short-breathed, and you could see the frustration mounting on the face of Swamy Ahasuerus as her tackles kept finding nothing but thin air! 🌬️🥊\n\nMillham Evangeline added one more to the tally, sending Zadoc Wyatan to the dirt with a tackle that echoed through the gully. With the Tamers' offense completely neutralized, Affra Yanaton decided to put the final nail in the coffin. She lined up a shot from Center Field and nailed it, bringing the score to a commanding 4-0! It was the exclamation point on a game that was never really in doubt! 📍💥\n\nAs the final whistle blew, the scoreboard told the whole story: a big fat zero for the mountain Tamers and a glorious four for the forest-dwelling Wardens. The Tamers' fans—who I’m told consist mainly of a few confused mountain goats—had nothing to cheer for. Meanwhile, the Oak & Onslaught faithful are already starting the victory chants! They are just one win away from a sweep in this series! 🧹🏆\n\nThe series now heads toward Game 3, and the Oread's Summit Tamers are going to need a miracle—or maybe a better favorite weapon than a dirk—if they want to stay alive in the Winners Bracket. If they don't find a way to stop Yanaton and Seidel, they’ll be heading to the Losers Bracket faster than a rogue escaping a circus! 🎪🏃\n\nThis is Nok the Corrupter, signing off from a very lopsided, very bloody, and very entertaining day at Fletchings Field! Remember, in the Everwar, you might come back to life, but you never get back the pride you lost on the Trollball pitch! Stay nasty, Osterra! 🌙👿",
+    "week": 2,
+    "homeScore": 4,
+    "awayScore": 0,
+    "slug": "po-7-2-oak-and-onslaught-oreads-summit",
+    "plays": [
+        "The Trollball is picked up by Affra Yanaton in zone Center Field",
+        "Clippard Burr tries to Tackle Affra Yanaton, but misses!",
+        "Hole Bowerman runs with the ball and advances towards the goal!",
+        "Clippard Burr tries to Tackle Wynnie Faina, but Wynnie Faina blocks it!",
+        "Wynnie Faina shoots from Away Field but misses the goal!",
+        "The Trollball is picked up by Milt Casady in zone Away Field",
+        "Swamy Ahasuerus tries to Tackle Wynnie Faina, but misses!",
+        "Abner Seidel throws a wild pass and it is INTERCEPTED by Odericus Juxon!",
+        "Teria Ravo tries to Tackle Swamy Ahasuerus, but misses!",
+        "Ema Ulrick tries to Tackle Dric Trilley, but Dric Trilley blocks it!",
+        "Mitran Mariand tries to Tackle Abner Seidel, but misses!",
+        "Alwyn Wandy tries to run with the ball but is stopped by the defense!",
+        "Teria Ravo Tackles Dric Trilley and INJURES THEM!",
+        "Hole Bowerman tries to Tackle Kass Fogel, but misses!",
+        "Zadoc Wyatan throws a wild pass and it is INTERCEPTED by Wynnie Faina!",
+        "Clippard Burr tries to Tackle Milt Casady, but Milt Casady blocks it!",
+        "Milt Casady tries to run with the ball but is stopped by the defense!",
+        "Ema Ulrick Tackles Mitran Mariand and INJURES THEM!",
+        "Alwyn Wandy tries to Tackle Millham Evangeline, but misses!",
+        "Hole Bowerman runs with the ball and advances towards the goal!",
+        "Alwyn Wandy tries to Tackle Ema Ulrick, but misses!",
+        "Kass Fogel tries to Tackle Teria Ravo, but misses!",
+        "Abner Seidel shoots from Away 2-Point and SCORES!",
+        "The Trollball is picked up by Milt Casady in zone Center Field",
+        "Milt Casady throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Zadoc Wyatan in zone Center Field",
+        "Normi Glaudia Tackles Odericus Juxon and INJURES THEM!",
+        "Hole Bowerman tries to Tackle Kass Fogel, but misses!",
+        "Mitran Mariand shoots from Center Field but misses the goal!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Clippard Burr in zone Center Field",
+        "Symer Crissy tries to Tackle Edme Virgil, but misses!",
+        "Millham Evangeline tries to Tackle Swamy Ahasuerus, but Swamy Ahasuerus blocks it!",
+        "Affra Yanaton Tackles Edme Virgil and INJURES THEM!",
+        "Hole Bowerman tries to Tackle Saloma Talich, but misses!",
+        "Normi Glaudia Tackles Dric Trilley and INJURES THEM!",
+        "Kass Fogel tries to run with the ball but is stopped by the defense!",
+        "Symer Crissy tries to Tackle Zadoc Wyatan, but Zadoc Wyatan blocks it!",
+        "Teria Ravo tries to Tackle Clippard Burr, but misses!",
+        "Mitran Mariand tries to Tackle Hole Bowerman, but Hole Bowerman blocks it!",
+        "Abner Seidel Tackles Mitran Mariand and INJURES THEM!",
+        "Kass Fogel passes the ball to Kass Fogel, but they drop it!",
+        "The Trollball is picked up by Hole Bowerman in zone Center Field",
+        "Millham Evangeline tries to run with the ball but is stopped by the defense!",
+        "Kass Fogel tries to Tackle Wynnie Faina, but Wynnie Faina blocks it!",
+        "Wynnie Faina tries to Tackle Alwyn Wandy, but misses!",
+        "Millham Evangeline Tackles Zadoc Wyatan and INJURES THEM!",
+        "Ema Ulrick tries to run with the ball but is stopped by the defense!",
+        "Hole Bowerman tries to Tackle Alwyn Wandy, but misses!",
+        "Hole Bowerman throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Wynnie Faina in zone Center Field",
+        "Clippard Burr tries to Tackle Millham Evangeline, but Millham Evangeline blocks it!",
+        "Wynnie Faina tries to Tackle Saloma Talich, but Saloma Talich blocks it!",
+        "Milt Casady tries to run with the ball but is stopped by the defense!",
+        "Normi Glaudia tries to run with the ball but is stopped by the defense!",
+        "Affra Yanaton shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Alwyn Wandy in zone Center Field"
+    ],
+    "bracket": "Winners"
+}
