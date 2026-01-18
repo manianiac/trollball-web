@@ -1,0 +1,858 @@
+{
+    "homeTeam": {
+        "name": "The New Monteforte Chaos Creatures",
+        "slug": "new-monteforte",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 65,
+        "stadium": {
+            "name": "The Unruly Yard",
+            "location": "New Monteforte",
+            "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+            "modifiers": [
+                "Rowdy Crowd",
+                "Unstable Scaffolding",
+                "Street Performer"
+            ]
+        },
+        "healer": {
+            "name": "Lian Denton",
+            "team": "The New Monteforte Chaos Creatures",
+            "stats": {
+                "pass": 55,
+                "catch": 62,
+                "run": 56,
+                "block": 58,
+                "fight": 45,
+                "throw": 60,
+                "luck": 50,
+                "pronouns": "They/Them",
+                "civic_engagement": 52,
+                "alcohol_tolerance": 66,
+                "favorite_weapon": "Battle Axe",
+                "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "awayTeam": {
+        "name": "The Oread's Summit Tamers",
+        "slug": "oreads-summit",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 67,
+        "stadium": {
+            "name": "The High-Pass Pitch",
+            "location": "Oread's Summit",
+            "description": "A field built at a breathtaking altitude in a fortified mountain pass. The air is painfully thin, and the weather is dangerously unpredictable.",
+            "modifiers": [
+                "Thin Air",
+                "Sudden Blizzard",
+                "Vertigo"
+            ]
+        },
+        "healer": {
+            "name": "Carn Tibbetts",
+            "team": "The Oread's Summit Tamers",
+            "stats": {
+                "pass": 54,
+                "catch": 51,
+                "run": 59,
+                "block": 57,
+                "fight": 51,
+                "throw": 52,
+                "luck": 65,
+                "pronouns": "He/Him",
+                "civic_engagement": 59,
+                "alcohol_tolerance": 51,
+                "favorite_weapon": "Shortsword",
+                "pregame_ritual": "Tying a small, hand-carved wooden bird to their gear.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Odericus Juxon",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 62,
+                    "run": 56,
+                    "block": 50,
+                    "fight": 45,
+                    "throw": 60,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Kass Fogel",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 55,
+                    "catch": 46,
+                    "run": 59,
+                    "block": 50,
+                    "fight": 57,
+                    "throw": 59,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Voulge",
+                    "pregame_ritual": "Avoiding eye contact with anyone wearing the color green.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Zadoc Wyatan",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 67,
+                    "run": 60,
+                    "block": 58,
+                    "fight": 58,
+                    "throw": 54,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alwyn Wandy",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 58,
+                    "catch": 34,
+                    "run": 56,
+                    "block": 64,
+                    "fight": 53,
+                    "throw": 65,
+                    "luck": 63,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dric Trilley",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 59,
+                    "block": 67,
+                    "fight": 45,
+                    "throw": 49,
+                    "luck": 56,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 48,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Flail",
+                    "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Swamy Ahasuerus",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 69,
+                    "catch": 53,
+                    "run": 50,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 60,
+                    "luck": 51,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Clippard Burr",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 38,
+                    "catch": 60,
+                    "run": 65,
+                    "block": 57,
+                    "fight": 57,
+                    "throw": 62,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 70,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mitran Mariand",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 58,
+                    "catch": 54,
+                    "run": 63,
+                    "block": 42,
+                    "fight": 57,
+                    "throw": 51,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Dirk",
+                    "pregame_ritual": "Exchanging well-wishes with their direct opponent before the game starts.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Edme Virgil",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 60,
+                    "catch": 45,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 62,
+                    "throw": 62,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Saloma Talich",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 66,
+                    "catch": 53,
+                    "run": 48,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 57,
+                    "luck": 51,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Odericus Juxon",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 51,
+                    "catch": 62,
+                    "run": 56,
+                    "block": 50,
+                    "fight": 45,
+                    "throw": 60,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Zadoc Wyatan",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 67,
+                    "run": 60,
+                    "block": 58,
+                    "fight": 58,
+                    "throw": 54,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alwyn Wandy",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 58,
+                    "catch": 34,
+                    "run": 56,
+                    "block": 64,
+                    "fight": 53,
+                    "throw": 65,
+                    "luck": 63,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Kriegsmesser",
+                    "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dric Trilley",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 59,
+                    "block": 67,
+                    "fight": 45,
+                    "throw": 49,
+                    "luck": 56,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 48,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Flail",
+                    "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Edme Virgil",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 60,
+                    "catch": 45,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 62,
+                    "throw": 62,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Saloma Talich",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 66,
+                    "catch": 53,
+                    "run": 48,
+                    "block": 45,
+                    "fight": 52,
+                    "throw": 57,
+                    "luck": 51,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Clippard Burr",
+                "team": "The Oread's Summit Tamers",
+                "stats": {
+                    "pass": 38,
+                    "catch": 60,
+                    "run": 65,
+                    "block": 57,
+                    "fight": 57,
+                    "throw": 62,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 70,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "## 🎙️ HELLO OSTERRA! WELCOME BACK TO THE CHAOS! 🎙️\n\nStep right up and feast your eyes on the linear lunacy of Tuesday Night Trollball! This is your favorite demon of the airwaves, Nok the Corrupter, coming to you live from **The Unruly Yard** in the heart of New Monteforte! We are deep in the **Losers Bracket Playoffs**, where the stakes are higher than the floating towers of the Prismatic Troups! The Oread's Summit Tamers are looking to put a stranglehold on this best-of-five series after their dominant showing in game one, while the Chaos Creatures are desperate to prove they aren't just a collection of graffiti-covered failures! \n\nThe atmosphere here is positively toxic—and I love it! The crowd is already throwing stones at the players, and the scaffolding is creaking under the weight of fans who clearly didn't pay for their tickets. I can see **Placido Kora** down there, actually telling a joke to the Trollball. I hope the ball is laughing, because the Tamers won't be once the weapons start swinging! Meanwhile, **Zadoc Wyatan** is leading the Tamers in a ceremonial grog—non-alcoholic, can you believe it? Truly, the lack of corruption in their pre-game ritual is the real tragedy here! \n\nWith both teams sitting at the bottom of the popularity polls, this isn't about the fame—it's about the pure, unadulterated joy of smashing a leather troll head into a basket! The Chaos Creatures might have the home-field advantage with their rowdy street performers and hostile locals, but the Tamers are accustomed to thin air and blizzards. Will the urban decay of Monteforte be enough to stop the mountain-dwellers? Grab your gear and keep your heads down, folks, because the whistle is about to blow and the carnage is about to commence! 🛡️⚡🏈",
+    "postGame": "### 🏟️ THE CHAOS CONTINUES! TAMERS TAKE A 2-0 LEAD! 🏟️\n\nWhat a grand display of urban warfare we just witnessed at The Unruly Yard! If you like your sports with a side of internal bleeding and missed opportunities, this was the match for you! The Oread's Summit Tamers have pulled off a narrow 2-1 victory over the New Monteforte Chaos Creatures, putting themselves just one win away from a series sweep in this Losers Bracket showdown! It was a game of two halves: the first half was a surgical strike of violence, and the second half was as sloppy as Sir Randy after a three-day bender! 🍻\n\nThe action ignited early when **Placido Kora** snagged the Trollball in Center Field and didn't look back. She sprinted through the defense like she was dodging a tax collector and **DUNKS THE BALL** into the end zone! A touchdown for the Chaos Creatures! The home crowd went absolutely wild, nearly toppling the unstable scaffolding in their excitement! It looked like the Monteforte crew finally found their spine.\n\nBut the Tamers weren't about to let a little thing like being behind on the scoreboard stop them! The violence escalated quickly. Placido Kora, apparently feeling extra spicy after her score, leveled **Clippard Burr** with a tackle that left the poor Tamer needing a healer's touch immediately! It was a beautiful sight, bodies hitting the dirt like discarded scrap from the Guild of the Black Sky!\n\nNot to be outdone in the 'causing pain' department, **Wolbrom Ariella** decided to join the fray! He caught **Swamy Ahasuerus** with a devastating hit that put Swamy on the sidelines with an injury. The Chaos Creatures were playing like they had a personal grudge against the very concept of physical health! It was the kind of brutality that would make Geth the Gravelord shed a tear of pride!\n\nThe hits just kept coming! **Fogel Raynold** decided to target **Kass Fogel**, proving that even sharing a name won't save you on the Trollball field! Another injury for the Tamers! At this point, I thought we’d be playing five-on-five, but then the miracle happened. **Alwyn Wandy**, showing more focus than Sir Artorias at a mirror-polishing convention, launched a long-range **SHOOT** from Center Field! It sailed true for two points, flipping the lead back to the Tamers! 🎯\n\nThe Chaos Creatures tried to respond with more muscle. **Mouldon Earl** absolutely crushed **Mitran Mariand**, sending yet another Tamer to the healer's tent. Honestly, the Chaos Creatures were winning the war but losing the game! By the time halftime rolled around, the field looked more like a battlefield from the Everwar than a sports arena!\n\nAfter the break, the healers did their magic, and everyone was back on their feet. But the second half was a comedy of errors! We saw more dropped balls and missed tackles than I’ve seen since the last time Sir Tanos tried to read a scroll! **Dric Trilley** and **Odericus Juxon** were blocking everything the Creatures threw at them, while **Raouf Dragone** was running around in circles like a confused puppy!\n\n**Clippard Burr** had a chance to seal the deal with a two-point shot from the Home 2-Point zone, but the ball missed the goal entirely! It was a disappointing finish to a great run. Then, **Boulanger Procto** tried to rally the Creatures with a wild pass that ended up landing in the dirt. It’s a good thing Cinnemon isn't here to record these statistics; they’re frankly embarrassing for the home team!\n\nIn the final moments, **Raouf Dragone** tried one last desperate run, but the Tamer defense held firm like the walls of a fortified mountain pass. The Chaos Creatures simply couldn't find the end zone again, despite having the ball in the closing seconds. It was a valiant effort of violence, but a failure of execution!\n\nSo there you have it, fans! The final score: **Tamers 2, Chaos Creatures 1**. The Tamers lead the series 2-0! The Oread's Summit crew is showing real grit, while the New Monteforte squad needs to spend less time practicing their sea shanties and more time practicing their passing! If Dame Terra Monteforte was watching, she’s probably kidnapping a new prophet right now to see if they can predict a win for game three! 🔮\n\nDon't go anywhere, sports fans! The playoffs are just getting warmed up, and the blood is just starting to dry on the pitch! This is Nok the Corrupter, signing off from the most beautiful, brutal game in Osterra! Keep your weapons sharp and your healers closer! 🛡️💀🔥",
+    "week": 2,
+    "homeScore": 1,
+    "awayScore": 2,
+    "slug": "po-8-2-new-monteforte-oreads-summit",
+    "plays": [
+        "The Trollball is picked up by Placido Kora in zone Center Field",
+        "Fogel Raynold runs with the ball and advances towards the goal!",
+        "Boulanger Procto runs with the ball and advances towards the goal!",
+        "Tucker Hett tries to Tackle Edme Virgil, but misses!",
+        "Placido Kora runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+        "The Trollball is picked up by Boulanger Procto in zone Center Field",
+        "Placido Kora throws a wild pass and it is INTERCEPTED by Dric Trilley!",
+        "Placido Kora tries to Tackle Zadoc Wyatan, but Zadoc Wyatan blocks it!",
+        "Tucker Hett tries to Tackle Kass Fogel, but misses!",
+        "Wolbrom Ariella tries to Tackle Clippard Burr, but misses!",
+        "Placido Kora Tackles Clippard Burr and INJURES THEM!",
+        "Placido Kora tries to Tackle Swamy Ahasuerus, but Swamy Ahasuerus blocks it!",
+        "Alben Diantha tries to Tackle Alwyn Wandy, but misses!",
+        "Fogel Raynold tries to Tackle Edme Virgil, but misses!",
+        "Wolbrom Ariella Tackles Swamy Ahasuerus and INJURES THEM!",
+        "Tucker Hett tries to Tackle Clippard Burr, but misses!",
+        "Fogel Raynold Tackles Kass Fogel and INJURES THEM!",
+        "Fogel Raynold tries to Tackle Saloma Talich, but misses!",
+        "Alwyn Wandy shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Saloma Talich in zone Center Field",
+        "Odericus Juxon tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+        "Urata Oriana tries to Tackle Odericus Juxon, but Odericus Juxon blocks it!",
+        "Boulanger Procto tries to Tackle Saloma Talich, but misses!",
+        "Raouf Dragone tries to Tackle Saloma Talich, but misses!",
+        "Mouldon Earl Tackles Mitran Mariand and INJURES THEM!",
+        "Saloma Talich tries to run with the ball but is stopped by the defense!",
+        "Fogel Raynold tries to Tackle Saloma Talich, but misses!",
+        "Wolbrom Ariella tries to Tackle Odericus Juxon, but misses!",
+        "Fogel Raynold tries to Tackle Zadoc Wyatan, but misses!",
+        "Edme Virgil passes the ball to Alwyn Wandy, but they drop it!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Dric Trilley in zone Center Field",
+        "Urata Oriana tries to Tackle Zadoc Wyatan, but Zadoc Wyatan blocks it!",
+        "Mouldon Earl tries to Tackle Saloma Talich, but misses!",
+        "Boulanger Procto tries to Tackle Odericus Juxon, but misses!",
+        "Clippard Burr runs with the ball and advances towards the goal!",
+        "Raouf Dragone tries to Tackle Alwyn Wandy, but misses!",
+        "Wolbrom Ariella tries to Tackle Dric Trilley, but Dric Trilley blocks it!",
+        "Saloma Talich tries to run with the ball but is stopped by the defense!",
+        "Tucker Hett tries to Tackle Alwyn Wandy, but misses!",
+        "Mouldon Earl tries to Tackle Alwyn Wandy, but misses!",
+        "Edme Virgil runs with the ball and advances towards the goal!",
+        "Clippard Burr shoots from Home 2-Point but misses the goal!",
+        "The Trollball is picked up by Alwyn Wandy in zone Home 2-Point",
+        "Boulanger Procto tries to Tackle Edme Virgil, but misses!",
+        "Raouf Dragone tries to Tackle Clippard Burr, but misses!",
+        "Alwyn Wandy passes the ball to Clippard Burr, but they drop it!",
+        "The Trollball is picked up by Boulanger Procto in zone Home 2-Point",
+        "Placido Kora passes the ball to Mouldon Earl!",
+        "Fogel Raynold tries to Tackle Odericus Juxon, but misses!",
+        "Alwyn Wandy tries to Tackle Alben Diantha, but Alben Diantha blocks it!",
+        "Odericus Juxon tries to Tackle Mouldon Earl, but misses!",
+        "Alben Diantha tries to run with the ball but is stopped by the defense!",
+        "Boulanger Procto throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Gabriele Klehm in zone Home 2-Point",
+        "Raouf Dragone runs with the ball and advances towards the goal!",
+        "Gabriele Klehm tries to Tackle Odericus Juxon, but misses!",
+        "Wolbrom Ariella passes the ball to Raouf Dragone!",
+        "Edme Virgil tries to Tackle Gabriele Klehm, but misses!",
+        "Boulanger Procto tries to Tackle Odericus Juxon, but misses!"
+    ],
+    "bracket": "Losers"
+}

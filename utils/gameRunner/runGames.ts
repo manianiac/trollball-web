@@ -186,7 +186,7 @@ const runAllMatches = async () => {
       baseMatch.awayTeam.name,
     );
 
-    const currentRoundPrefix = "po-7";
+    const currentRoundPrefix = "po-8";
 
     // 1. Get ALL previous games for context (Report Generation)
     const allSeriesGames = findPreviousSeriesGames(
