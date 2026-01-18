@@ -131,16 +131,16 @@ let matchesToSimulate =
       "bracket": "Losers"
     }, {
       "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "awayTeam": TEAMS["The Haven Lights"],
+      "awayTeam": TEAMS["The Oread's Summit Tamers"],
       "week": 4,
       "openBar": true,
       "bracket": "Losers"
     },
     {
       "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "homeTeam": TEAMS["The Haven Lights"],
+      "homeTeam": TEAMS["The Oread's Summit Tamers"],
       "week": 5,
-      "openBar": true,
+      "openBar": false,
       "bracket": "Losers"
     },
   ];
