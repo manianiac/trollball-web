@@ -97,35 +97,35 @@ const findPreviousSeriesGames = (
 let matchesToSimulate =
   [
     {
-      "homeTeam": TEAMS["The Oread's Summit Tamers"],
+      "homeTeam": TEAMS["Oak & Onslaught"],
       "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
       "week": 1,
       "openBar": false,
-      "bracket": "Losers"
+      "bracket": "Grand Finals"
     },
     {
       "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "awayTeam": TEAMS["The Oread's Summit Tamers"],
+      "awayTeam": TEAMS["Oak & Onslaught"],
       "week": 2,
       "openBar": false,
-      "bracket": "Losers"
+      "bracket": "Grand Finals"
     },
     {
       "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "homeTeam": TEAMS["The Oread's Summit Tamers"],
+      "homeTeam": TEAMS["Oak & Onslaught"],
       "week": 3,
       "openBar": true,
-      "bracket": "Losers"
+      "bracket": "Grand Finals"
     }, {
       "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "awayTeam": TEAMS["The Oread's Summit Tamers"],
+      "awayTeam": TEAMS["Oak & Onslaught"],
       "week": 4,
       "openBar": true,
-      "bracket": "Losers"
+      "bracket": "Grand Finals"
     },
     {
       "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "homeTeam": TEAMS["The Oread's Summit Tamers"],
+      "homeTeam": TEAMS["Oak & Onslaught"],
       "week": 5,
       "openBar": false,
       "bracket": "Losers"
@@ -186,7 +186,7 @@ const runAllMatches = async () => {
       baseMatch.awayTeam.name,
     );
 
-    const currentRoundPrefix = "po-8";
+    const currentRoundPrefix = "po-10";
 
     // 1. Get ALL previous games for context (Report Generation)
     const allSeriesGames = findPreviousSeriesGames(
