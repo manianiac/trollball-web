@@ -1,5 +1,4 @@
- * Defines the structure for a single blog post.
- */
+
 export interface BlogPost {
   id: string; // A unique slug-like ID for the post
   title: string;
