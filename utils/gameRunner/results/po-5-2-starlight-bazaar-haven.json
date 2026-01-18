@@ -1,0 +1,896 @@
+{
+    "homeTeam": {
+        "name": "The Starlight Bazaar Bizarres",
+        "slug": "starlight-bazaar",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 63,
+        "stadium": {
+            "name": "The Prismatic Pavilion",
+            "location": "Starlight Bazaar (Starlight Lagoon)",
+            "description": "A massive, permanent, open-air fairground pavilion built on stilts over the Starlight Lagoon. The field is a chaotic mix of colorful stage-planks, constantly surrounded by the Prismatic Troupe's performers.",
+            "modifiers": [
+                "Lagoon Splash",
+                "Troupe Distraction",
+                "Unstable Footing"
+            ]
+        },
+        "healer": {
+            "name": "Essa Pattie",
+            "team": "The Starlight Bazaar Bizarres",
+            "stats": {
+                "pass": 57,
+                "catch": 55,
+                "run": 67,
+                "block": 56,
+                "fight": 52,
+                "throw": 45,
+                "luck": 53,
+                "pronouns": "He/Him",
+                "civic_engagement": 46,
+                "alcohol_tolerance": 54,
+                "favorite_weapon": "Horseman's Pick",
+                "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Bush Heiner",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 66,
+                    "block": 62,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 50,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Kristin Kronfeld",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 41,
+                    "throw": 59,
+                    "luck": 45,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Milo Nelie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 61,
+                    "catch": 66,
+                    "run": 44,
+                    "block": 45,
+                    "fight": 49,
+                    "throw": 53,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pompei Hephzipa",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 50,
+                    "catch": 62,
+                    "run": 48,
+                    "block": 39,
+                    "fight": 57,
+                    "throw": 64,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melesa Zelten",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 43,
+                    "catch": 61,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 57,
+                    "throw": 49,
+                    "luck": 50,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Spear",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Demp Chet",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 63,
+                    "catch": 46,
+                    "run": 52,
+                    "block": 53,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Gagliano Tallbott",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 57,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 53,
+                    "fight": 64,
+                    "throw": 61,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Aggri Cookie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 51,
+                    "catch": 65,
+                    "run": 54,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 61,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Willa Lois",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 63,
+                    "fight": 43,
+                    "throw": 43,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Quintessa Austine",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 56,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Kristin Kronfeld",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 58,
+                    "catch": 56,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 41,
+                    "throw": 59,
+                    "luck": 45,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Milo Nelie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 61,
+                    "catch": 66,
+                    "run": 44,
+                    "block": 45,
+                    "fight": 49,
+                    "throw": 53,
+                    "luck": 52,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Military Fork",
+                    "pregame_ritual": "Tracing an invisible, complex sigil over their heart.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Pompei Hephzipa",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 50,
+                    "catch": 62,
+                    "run": 48,
+                    "block": 39,
+                    "fight": 57,
+                    "throw": 64,
+                    "luck": 46,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Melesa Zelten",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 43,
+                    "catch": 61,
+                    "run": 59,
+                    "block": 60,
+                    "fight": 57,
+                    "throw": 49,
+                    "luck": 50,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 56,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Spear",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gagliano Tallbott",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 57,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 53,
+                    "fight": 64,
+                    "throw": 61,
+                    "luck": 56,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 64,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Aggri Cookie",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 51,
+                    "catch": 65,
+                    "run": 54,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 58,
+                    "luck": 61,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 58,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Halberd",
+                    "pregame_ritual": "Staring intently at their gauntlets, as if for the first time.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Willa Lois",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 45,
+                    "catch": 41,
+                    "run": 59,
+                    "block": 63,
+                    "fight": 43,
+                    "throw": 43,
+                    "luck": 51,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 64,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Dagger",
+                    "pregame_ritual": "Plucking a single hair from a teammate's beard for luck.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Quintessa Austine",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 56,
+                    "run": 46,
+                    "block": 61,
+                    "fight": 51,
+                    "throw": 49,
+                    "luck": 44,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 48,
+                    "favorite_weapon": "Spiked Gauntlet",
+                    "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Bush Heiner",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 66,
+                    "block": 62,
+                    "fight": 51,
+                    "throw": 50,
+                    "luck": 50,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Bastard Sword",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Demp Chet",
+                "team": "The Starlight Bazaar Bizarres",
+                "stats": {
+                    "pass": 63,
+                    "catch": 46,
+                    "run": 52,
+                    "block": 53,
+                    "fight": 48,
+                    "throw": 50,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Staring at their reflection in a bucket of water until they feel 'ready'.",
+                    "literate": false
+                }
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "The Haven Lights",
+        "slug": "haven",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 55,
+        "stadium": {
+            "name": "The Aegis Field",
+            "location": "Haven (Temple of Light Compound)",
+            "description": "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
+            "modifiers": [
+                "Hallowed Ground",
+                "Shield's Watch",
+                "Twinlight's Glow"
+            ]
+        },
+        "healer": {
+            "name": "Riffle Harrington",
+            "team": "The Haven Lights",
+            "stats": {
+                "pass": 56,
+                "catch": 49,
+                "run": 49,
+                "block": 43,
+                "fight": 66,
+                "throw": 52,
+                "luck": 63,
+                "pronouns": "He/Him",
+                "civic_engagement": 63,
+                "alcohol_tolerance": 52,
+                "favorite_weapon": "Spiked Gauntlet",
+                "pregame_ritual": "Tying their bootlaces together and hopping to the starting line.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Shiroma Salim",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 50,
+                    "catch": 51,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 62,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Zwart Bunns",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 63,
+                    "catch": 66,
+                    "run": 51,
+                    "block": 51,
+                    "fight": 47,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 40,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Cestus",
+                    "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Riffle Heyde",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 56,
+                    "run": 48,
+                    "block": 53,
+                    "fight": 50,
+                    "throw": 44,
+                    "luck": 48,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tybi Reo",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 48,
+                    "run": 66,
+                    "block": 56,
+                    "fight": 55,
+                    "throw": 48,
+                    "luck": 50,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Berkin Waters",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 51,
+                    "catch": 46,
+                    "run": 58,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 60,
+                    "luck": 49,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Farand Keil",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 57,
+                    "catch": 49,
+                    "run": 55,
+                    "block": 37,
+                    "fight": 50,
+                    "throw": 64,
+                    "luck": 48,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Whip",
+                    "pregame_ritual": "Chewing a specific, bitter root said to improve night vision.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wieren Ivar",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 66,
+                    "catch": 63,
+                    "run": 52,
+                    "block": 54,
+                    "fight": 64,
+                    "throw": 42,
+                    "luck": 54,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Warhammer",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Coward Tarton",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 56,
+                    "catch": 51,
+                    "run": 62,
+                    "block": 47,
+                    "fight": 52,
+                    "throw": 63,
+                    "luck": 51,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Tabar",
+                    "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dickenson Beker",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 58,
+                    "catch": 69,
+                    "run": 58,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 46,
+                    "luck": 63,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Marlane Lounge",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 64,
+                    "catch": 59,
+                    "run": 54,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 52,
+                    "luck": 58,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Main-gauche",
+                    "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Shiroma Salim",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 50,
+                    "catch": 51,
+                    "run": 54,
+                    "block": 55,
+                    "fight": 54,
+                    "throw": 62,
+                    "luck": 55,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Kirkhammer",
+                    "pregame_ritual": "Re-taping their shield's handle with fresh leather.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Riffle Heyde",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 56,
+                    "run": 48,
+                    "block": 53,
+                    "fight": 50,
+                    "throw": 44,
+                    "luck": 48,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drinking a full waterskin of lukewarm water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tybi Reo",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 55,
+                    "catch": 48,
+                    "run": 66,
+                    "block": 56,
+                    "fight": 55,
+                    "throw": 48,
+                    "luck": 50,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Drawing a detailed, anatomically incorrect diagram of a troll's head.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Coward Tarton",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 56,
+                    "catch": 51,
+                    "run": 62,
+                    "block": 47,
+                    "fight": 52,
+                    "throw": 63,
+                    "luck": 51,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 60,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Tabar",
+                    "pregame_ritual": "Kissing their biceps and whispering words of encouragement to them.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Dickenson Beker",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 58,
+                    "catch": 69,
+                    "run": 58,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 46,
+                    "luck": 63,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Marlane Lounge",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 64,
+                    "catch": 59,
+                    "run": 54,
+                    "block": 53,
+                    "fight": 52,
+                    "throw": 52,
+                    "luck": 58,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 59,
+                    "favorite_weapon": "Main-gauche",
+                    "pregame_ritual": "Challenging a spectator to a game of tic-tac-toe in the dirt.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Berkin Waters",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 51,
+                    "catch": 46,
+                    "run": 58,
+                    "block": 50,
+                    "fight": 54,
+                    "throw": 60,
+                    "luck": 49,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Passing a 'team luckstone' from player to player without speaking.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wieren Ivar",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 66,
+                    "catch": 63,
+                    "run": 52,
+                    "block": 54,
+                    "fight": 64,
+                    "throw": 42,
+                    "luck": 54,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Warhammer",
+                    "pregame_ritual": "Jogging three laps around the perimeter of the field.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Zwart Bunns",
+                "team": "The Haven Lights",
+                "stats": {
+                    "pass": 63,
+                    "catch": 66,
+                    "run": 51,
+                    "block": 51,
+                    "fight": 47,
+                    "throw": 50,
+                    "luck": 53,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 40,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Cestus",
+                    "pregame_ritual": "Whispering a secret fear to the Trollball before the game.",
+                    "literate": false
+                }
+            }
+        ]
+    },
+    "preGame": "Step right up and hold onto your hats, sports fans! This is Nok the Corrupter, the demon you love to fear, bringing you Game 2 of this nail-biting Losers Bracket series! We are coming to you live from the Prismatic Pavilion, where the Starlight Bazaar Bizarres are fighting for their very lives against those shiny, insufferable Haven Lights! The Lights took the first game in a dominant 4-1 display, so the Bizarres are backed into a corner over the Starlight Lagoon! One more loss and they’re out of the playoffs, sent home to pack their sequins while the Lights advance! 🏟™\n\nThe atmosphere here is electric, even if the stands aren't exactly packed—it seems everyone is still busy nursing hangovers from the last Zmeigorod match! But don't let that fool you, the tension is thicker than the sludge in the Demon Prison! I just saw Quintessa Austine out on the colorful stage-planks, desperately trying to start a slow clap with the few fans in attendance. It was a valiant, if slightly pathetic, effort! Meanwhile, over in the Haven dugout, Tybi Reo is hunched over a parchment drawing what looks like a very detailed, and frankly horrifying, diagram of a troll’s internal organs. Talk about focus! 🎨🧠\n\nThe Prismatic Pavilion is a treacherous place to play, folks! With the 'Lagoon Splash' and that 'Unstable Footing', we're just as likely to see a player slip into the water as we are to see a touchdown! The Bizarres are used to these stilts, but the Lights might find their heavy armor a bit of a liability if they take a dip. Bush Heiner is already jogging her laps around the perimeter, looking like she’s trying to memorize every loose plank. Will the home-field advantage be enough to force a Game 3, or will the Haven Lights extinguish the Bazaar's playoff dreams right here? Let's find out! 🌊💥",
+    "postGame": "Can you believe it, folks? A defensive masterclass or a comedy of errors? Either way, it was a beautiful display of carnage! The final whistle has blown at the Prismatic Pavilion, and the Haven Lights have secured a 1-0 victory over the Starlight Bazaar Bizarres! This means the Lights sweep the series 2-0, moving forward in the Losers Bracket while the Bizarres are officially eliminated from playoff contention! It wasn’t the high-scoring affair of the first game, but golly, the hits were twice as hard! 🏒‱\n\nThe game started with a flurry of fists that would make even Cyfnerth the Butcher proud! Early on, Wieren Ivar showed no respect for the home team's theatricality, absolutely leveling Pompei Hephzipa and sending him straight to the healer with a nasty injury! The Bizarres tried to respond, but the 'Shield's Watch' seemed to follow the Haven team even here to the Lagoon. Shiroma Salim, looking every bit the noble champion, caught Gagliano Tallbott with a tackle so fierce I thought the stilts were going to snap! 🦴🔨\n\nThe first half was a back-and-forth scramble for possession that saw more blood than points! Melesa Zelten, the Bazaar’s spear-wielder, managed to get a measure of revenge by tackling Berkin Waters into the hardwood, leaving the Haven player seeing stars! But the momentum swung back quickly when Demp Chet—bless his illiterate heart—unleashed a wild pass that went absolutely nowhere, allowing Wieren Ivar to scoop it up and keep the pressure on for the Lights! 🤡🏈\n\nI must mention the 'Troupe Distraction' modifier, which seemed to be working better on the Bazaar themselves than the visitors! Every time the Bizarres got a rhythm going, a performer would flip past and someone would drop the ball! Willa Lois managed to take out Farand Keil with a crushing tackle, but the Bizarres just couldn't capitalize on the opening. By the time halftime rolled around, both teams were battered, bruised, and scoreless! 🎭🩸\n\nAfter the break, the intensity only ramped up! Marlane Lounge, clearly not wanting to spend a third day in the Lagoon, came out like a demon possessed! They tracked down Bush Heiner and put her on the ground with a tackle that surely rattled her ancestors. The Bazaar's offense was looking more like a sinking ship than a circus troupe! It was clear that one single play was going to decide the fate of this entire series. ⚓💥\n\nAnd that play came from Coward Tarton! In a moment of pure, unadulterated grit, Tarton took the troll head and charged through the chaotic mess of stage-planks. Dodging Melesa Zelten and ignoring the 'Unstable Footing', she burst into the End Zone and dunked that leather head with the authority of a judge's gavel! The Haven Lights took a 1-0 lead, and you could feel the hope drain out of the Pavilion like water through a sieve! 🏀🔥\n\nThe Bazaar tried to rally, with Melesa Zelten grabbing the ball for one last desperate push, but the Haven defense was an iron wall. Wieren Ivar, not satisfied with just one injury, decided to put Demp Chet out of his misery with a final, bone-crunching tackle just before the clock ran out. It was a brutal end for the Bizarres, who just couldn't find the basket when it mattered most. 🛡☠—\n\nHonestly, I’m a bit miffed! I was hoping the Bizarres would drag this out to a Game 3 for more potential injuries, but the Haven Lights were just too efficient. They played with a cold, clinical violence that I usually only see when Sir Tanos is having a bad day! It's a shame to see the Bizarres go; their pre-game rituals were at least entertaining, unlike the boring 'drink lukewarm water' routine of Riffle Heyde. 🚿🙄\n\nThe Bizarres' fans are heading for the exits, probably to go drown their sorrows in whatever rotgut Yarp is serving at his casino. They were outmatched in both games of this series, and while they had the luck of the Lagoon on their side today, the Lights had the muscle. The dream is over for Kython’s crew, and the curtain has officially closed on their season! 🎪🔚\n\nSo, the Haven Lights move on! They’ve survived the Losers Bracket for another week, proving that sometimes being a 'hero' just means you're better at hitting people. They’ll be heading to the next round with all the momentum of a falling boulder! I hate to say it, but they looked impressive today, even if their armor is far too shiny for my tastes. 🌟🔨\n\nThis is Nok the Corrupter, signing off from the now very quiet Starlight Lagoon! Congratulations to the Haven Lights on the sweep, and better luck next year to the Bizarres—maybe try practicing with the ball instead of the slow claps! Stay violent, Osterra, and keep those healers busy! We’ll see you next Tuesday for more Trollball mayhem! 🎙💀",
+    "week": 2,
+    "homeScore": 0,
+    "awayScore": 1,
+    "slug": "po-2-2-starlight-bazaar-haven",
+    "plays": [
+        "The Trollball is picked up by Bush Heiner in zone Center Field",
+        "Willa Lois tries to Tackle Wieren Ivar, but misses!",
+        "Gagliano Tallbott tries to run with the ball but is stopped by the defense!",
+        "Wieren Ivar Tackles Pompei Hephzipa and INJURES THEM!",
+        "Shiroma Salim Tackles Gagliano Tallbott and INJURES THEM!",
+        "Marlane Lounge tries to Tackle Quintessa Austine, but misses!",
+        "Demp Chet throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Wieren Ivar in zone Center Field",
+        "Dickenson Beker runs with the ball and advances towards the goal!",
+        "Berkin Waters runs with the ball and advances towards the goal!",
+        "Melesa Zelten Tackles Berkin Waters and INJURES THEM!",
+        "Bush Heiner tries to Tackle Coward Tarton, but misses!",
+        "Coward Tarton tries to run with the ball but is stopped by the defense!",
+        "Demp Chet Tackles Wieren Ivar and INJURES THEM!",
+        "Bush Heiner tries to Tackle Riffle Heyde, but Riffle Heyde blocks it!",
+        "Willa Lois Tackles Farand Keil and INJURES THEM!",
+        "Kristin Kronfeld tries to Tackle Shiroma Salim, but misses!",
+        "Aggri Cookie tries to Tackle Coward Tarton, but misses!",
+        "Coward Tarton shoots from Home 2-Point but misses the goal!",
+        "The Trollball is picked up by Milo Nelie in zone Home 2-Point",
+        "Dickenson Beker tries to Tackle Aggri Cookie, but Aggri Cookie blocks it!",
+        "Quintessa Austine runs with the ball and advances towards the goal!",
+        "Dickenson Beker tries to Tackle Melesa Zelten, but Melesa Zelten blocks it!",
+        "Aggri Cookie tries to run with the ball but is stopped by the defense!",
+        "Coward Tarton tries to Tackle Milo Nelie, but misses!",
+        "Shiroma Salim Tackles Melesa Zelten and INJURES THEM!",
+        "Willa Lois runs with the ball and advances towards the goal!",
+        "Zwart Bunns tries to Tackle Aggri Cookie, but misses!",
+        "Quintessa Austine tries to run with the ball but is stopped by the defense!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Dickenson Beker in zone Center Field",
+        "Coward Tarton runs with the ball and advances towards the goal!",
+        "Milo Nelie tries to Tackle Zwart Bunns, but misses!",
+        "Tybi Reo tries to Tackle Melesa Zelten, but misses!",
+        "Tybi Reo throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Shiroma Salim in zone Home Field",
+        "Marlane Lounge runs with the ball and advances towards the goal!",
+        "Dickenson Beker tries to run with the ball but is stopped by the defense!",
+        "Coward Tarton tries to Tackle Willa Lois, but Willa Lois blocks it!",
+        "Coward Tarton runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+        "The Trollball is picked up by Dickenson Beker in zone Center Field",
+        "Bush Heiner tries to Tackle Wieren Ivar, but Wieren Ivar blocks it!",
+        "Shiroma Salim tries to Tackle Demp Chet, but misses!",
+        "Berkin Waters shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Marlane Lounge in zone Center Field",
+        "Marlane Lounge Tackles Bush Heiner and INJURES THEM!",
+        "Dickenson Beker tries to Tackle Gagliano Tallbott, but Gagliano Tallbott blocks it!",
+        "Pompei Hephzipa Tackles Zwart Bunns and INJURES THEM!",
+        "Shiroma Salim tries to Tackle Quintessa Austine, but misses!",
+        "Coward Tarton shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Melesa Zelten in zone Center Field",
+        "Shiroma Salim tries to Tackle Aggri Cookie, but misses!",
+        "Pompei Hephzipa tries to run with the ball but is stopped by the defense!",
+        "Gagliano Tallbott tries to run with the ball but is stopped by the defense!",
+        "Dickenson Beker tries to Tackle Gagliano Tallbott, but Gagliano Tallbott blocks it!",
+        "Wieren Ivar Tackles Demp Chet and INJURES THEM!",
+        "Quintessa Austine tries to run with the ball but is stopped by the defense!",
+        "Riffle Heyde tries to Tackle Aggri Cookie, but misses!"
+    ],
+    "bracket": "Losers"
+}

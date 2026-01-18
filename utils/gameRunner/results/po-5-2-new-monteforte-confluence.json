@@ -1,0 +1,897 @@
+{
+    "homeTeam": {
+        "name": "The New Monteforte Chaos Creatures",
+        "slug": "new-monteforte",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 65,
+        "stadium": {
+            "name": "The Unruly Yard",
+            "location": "New Monteforte",
+            "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+            "modifiers": [
+                "Rowdy Crowd",
+                "Unstable Scaffolding",
+                "Street Performer"
+            ]
+        },
+        "healer": {
+            "name": "Lian Denton",
+            "team": "The New Monteforte Chaos Creatures",
+            "stats": {
+                "pass": 55,
+                "catch": 62,
+                "run": 56,
+                "block": 58,
+                "fight": 45,
+                "throw": 60,
+                "luck": 50,
+                "pronouns": "They/Them",
+                "civic_engagement": 52,
+                "alcohol_tolerance": 66,
+                "favorite_weapon": "Battle Axe",
+                "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "awayTeam": {
+        "name": "The Confluence Captains",
+        "slug": "confluence",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 60,
+        "stadium": {
+            "name": "The Glowstone Terrace",
+            "location": "Confluence (World's Spine Mountains)",
+            "description": "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+            "modifiers": [
+                "Glowstone Glare",
+                "Mountain Wind",
+                "Market Day Crowd"
+            ]
+        },
+        "healer": {
+            "name": "Kant Langill",
+            "team": "The Confluence Captains",
+            "stats": {
+                "pass": 51,
+                "catch": 55,
+                "run": 54,
+                "block": 49,
+                "fight": 59,
+                "throw": 59,
+                "luck": 65,
+                "pronouns": "He/Him",
+                "civic_engagement": 68,
+                "alcohol_tolerance": 65,
+                "favorite_weapon": "Scimitar",
+                "pregame_ritual": "Doing a terrible, clumsy dance to 'loosen the joints'.",
+                "literate": true
+            }
+        },
+        "players": [
+            {
+                "name": "Ladew Evelina",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 65,
+                    "run": 58,
+                    "block": 63,
+                    "fight": 65,
+                    "throw": 64,
+                    "luck": 71,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Deach Sharlene",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 55,
+                    "run": 52,
+                    "block": 52,
+                    "fight": 52,
+                    "throw": 56,
+                    "luck": 62,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Rapier",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Stephan Lisk",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 60,
+                    "catch": 57,
+                    "run": 55,
+                    "block": 59,
+                    "fight": 60,
+                    "throw": 56,
+                    "luck": 51,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "O'Conner Maighdlin",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 66,
+                    "run": 66,
+                    "block": 60,
+                    "fight": 62,
+                    "throw": 54,
+                    "luck": 59,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hatchet",
+                    "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Belding Chloe",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 53,
+                    "catch": 65,
+                    "run": 62,
+                    "block": 72,
+                    "fight": 58,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Behl Berstine",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 61,
+                    "catch": 58,
+                    "run": 65,
+                    "block": 59,
+                    "fight": 42,
+                    "throw": 58,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Caves Cestar",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 63,
+                    "block": 50,
+                    "fight": 60,
+                    "throw": 55,
+                    "luck": 66,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Maul",
+                    "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Vonni Geoff",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 60,
+                    "catch": 62,
+                    "run": 57,
+                    "block": 51,
+                    "fight": 49,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 67,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Sap",
+                    "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Carnahan Laud",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 46,
+                    "catch": 63,
+                    "run": 73,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 53,
+                    "luck": 60,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 68,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Eating a dandelion, stem and all.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Richia Pazit",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 61,
+                    "catch": 42,
+                    "run": 57,
+                    "block": 55,
+                    "fight": 45,
+                    "throw": 50,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Pike",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Ladew Evelina",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 65,
+                    "run": 58,
+                    "block": 63,
+                    "fight": 65,
+                    "throw": 64,
+                    "luck": 71,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Chugging a raw egg, shell and all.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Deach Sharlene",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 56,
+                    "catch": 55,
+                    "run": 52,
+                    "block": 52,
+                    "fight": 52,
+                    "throw": 56,
+                    "luck": 62,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 60,
+                    "favorite_weapon": "Rapier",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Stephan Lisk",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 60,
+                    "catch": 57,
+                    "run": 55,
+                    "block": 59,
+                    "fight": 60,
+                    "throw": 56,
+                    "luck": 51,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 58,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Belding Chloe",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 53,
+                    "catch": 65,
+                    "run": 62,
+                    "block": 72,
+                    "fight": 58,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 47,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Behl Berstine",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 61,
+                    "catch": 58,
+                    "run": 65,
+                    "block": 59,
+                    "fight": 42,
+                    "throw": 58,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 53,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Axe",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Caves Cestar",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 54,
+                    "catch": 52,
+                    "run": 63,
+                    "block": 50,
+                    "fight": 60,
+                    "throw": 55,
+                    "luck": 66,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Maul",
+                    "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Vonni Geoff",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 60,
+                    "catch": 62,
+                    "run": 57,
+                    "block": 51,
+                    "fight": 49,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 67,
+                    "alcohol_tolerance": 65,
+                    "favorite_weapon": "Sap",
+                    "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Carnahan Laud",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 46,
+                    "catch": 63,
+                    "run": 73,
+                    "block": 49,
+                    "fight": 59,
+                    "throw": 53,
+                    "luck": 60,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 62,
+                    "alcohol_tolerance": 68,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Eating a dandelion, stem and all.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Richia Pazit",
+                "team": "The Confluence Captains",
+                "stats": {
+                    "pass": 61,
+                    "catch": 42,
+                    "run": 57,
+                    "block": 55,
+                    "fight": 45,
+                    "throw": 50,
+                    "luck": 59,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 55,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Pike",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "preGame": "## 🎙️ HELLO OSTERRA! WELCOME TO THE UNRULY YARD!\n\nStep right up, sports fans, and feast your eyes on the most beautiful sight in the realm: a literal riot waiting to happen! We are live in the heart of New Monteforte at **The Unruly Yard**, and boy, let me tell you, the graffiti on the walls is almost as colorful as the language being hurled by this hostile crowd! It’s Game 2 of the Losers Bracket playoffs, and the stakes are higher than a mountain giant on stilts! The **New Monteforte Chaos Creatures** are sitting pretty with a 1-0 lead, while **The Confluence Captains** are looking to avoid a total sweep and a one-way ticket to the off-season. 🏟️🧨\n\nThe atmosphere is absolutely electric! I see the local Monteforte fans testing the stability of the scaffolding—which looks like it was built by a drunken goblin—while the Captains try to keep their composure. Speaking of composure, I just saw **Ladew Evelina** chug another raw egg, shell and all! That’s the kind of calcium-rich grit you need when you're facing elimination! On the other side, **Alben Diantha** is dipping his hands into a bucket of ice-cold well water. I hope he’s ready, because it’s about to get scorching hot out there! 🥚🧊\n\nNow, don't forget, folks, we’ve got an open bar situation tonight, and the players are taking full advantage! **Carnahan Laud** looks like she’s had a few too many pre-game ales, but in Trollball, a little liquid courage goes a long way toward ignoring a broken femur! The Guild of the Black Sky may have the money, but do they have the stomach for the Chaos Creatures' brand of rebellion? Let’s find out! Grab your helmets and hold onto your teeth, because the whistle is about to blow! 🍻⚔️",
+    "postGame": "## 🏆 THE CHAOS CONTINUES! CREATURES SWEEP THE SERIES!\n\nHoly Mackerel, what a humdinger of a match! My demonic heart is fluttering like a trapped soul! The **New Monteforte Chaos Creatures** have defended their home turf with a thrilling 5-4 victory over **The Confluence Captains**, officially sweeping the series 2-0! It was a symphony of violence, a masterpiece of mayhem, and a total disaster for the Guild's favorites! 🏁💥\n\n### ⚔️ THE FIRST HALF BLOOD-BATH\nThe game started with **Belding Chloe** snatching up the Trollball and immediately proving why she’s the Captains' most feared presence. She didn't just run; she flattened **Wolbrom Ariella** so hard I think I saw her ancestors flinch! But the Chaos Creatures didn't stay down for long. **Placido Kora**, wielding that wicked Seax, launched a stunning shot from Home Field that sailed through the hoop for 2 points! The crowd went absolutely bananas—I haven't seen this many chairs thrown since the last time Sir Tanos tried to read a book! 🎯🔥\n\n### 🔨 INJURY REPORT\nThen, the real fun began! The Captains decided if they couldn't lead on the scoreboard, they'd lead in the infirmary. **Carnahan Laud** absolutely leveled **Tucker Hett**, and **Stephan Lisk** sent **Alben Diantha** to see the healer. Even **Urata Oriana** got a taste of the turf thanks to **Caves Cestar**. It was a regular meat-grinder out there! Of course, **Fogel Raynold** got his licks in too, putting **O'Conner Maighdlin** on the injury list. Pure, unadulterated beauty! 🩹💀\n\n### 🏹 THE EQUALIZER\nJust when it looked like the Creatures were running away with it, **Carnahan Laud**—probably still feeling the effects of that dandelion she ate—unleashed a 2-point bomb from the Away Field to tie it up! We went into halftime with a 2-2 score and a field covered in more blood than a butcher's shop on a Tuesday. The healers had their work cut out for them, but as we know in Osterra, nobody stays dead for long! 🏟️🩸\n\n### 🍻 DRUNKEN DEFENSE AND SLOPPY PLAYS\nAs the second half kicked off, the open bar started to take its toll! **Tucker Hett** tried a pass to **Alben Diantha**, who dropped it like it was a cursed artifact. Then **Ladew Evelina** threw a wild pass that was intercepted by a very sober-looking Alben! You could tell the Captains were feeling the mountain wind—or maybe just the ale—because their coordination was slipping faster than a greased pig! 🥴🍺\n\n### 🏀 THE TURNING POINT\n**Boulanger Procto**, the man who loves a good spiral, showed he can move in a straight line when it matters! He broke through the line and **DUNKS THE BALL** right into the end zone! A classic 1-point play that put the Creatures back on top. But they weren't done! **Tucker Hett**, showing no ill effects from her earlier injury, fired a laser from Center Field for another 2 points! The scoreboard was lighting up like a wildfire in the World's Spine! 🎇🔥\n\n### 🛡️ THE CAPTAINS' DESPERATION\nThe Captains tried to rally. **Stephan Lisk** and **Behl Berstine** went on a tackling spree, sending **Wolbrom Ariella** and **Urata Oriana** back to the sidelines for a second time. It was a valiant effort, but you can't win the game just by breaking ribs—though I certainly appreciate the attempt! **Caves Cestar** managed to sink a 2-pointer from Center Field late in the game to bring it within one, but the clock was the Captains' worst enemy. ⏳👊\n\n### 📉 THE FINAL WHISTLE\nWhen the whistle blew, it was 5-4 in favor of the home team! The **New Monteforte Chaos Creatures** move on in the Losers Bracket, and the **Confluence Captains** are headed home to explain this failure to the Guild. I bet **Chairman Sir Garon Ironrock** is going to have a lot to say about this—probably while standing behind a very expensive door! 🚪📉\n\n### 🕊️ SHADE FOR THE HEROES\nWhere were the 'heroes' tonight, eh? **God King Sir Artorias** was nowhere to be found—probably too busy polishing his celebrity image to get his hands dirty in a real sport! And **Nikos Thanae the Benevolent**? I didn't see him helping the Captains out of the gutter. It just goes to show, when the Trollball starts flying, 'benevolence' won't save you from a mace to the face! 🕊️👎\n\n### 🏗️ STADIUM INFLUENCE\nThe Unruly Yard lived up to its name! The **Rowdy Crowd** kept the Captains looking over their shoulders, and I'm fairly certain a **Street Performer** stole **Deach Sharlene's** rapier during a scramble! You just don't get this kind of home-field advantage at those stuffy Guild stadiums. The Chaos Creatures fed off that energy like a vampire at a blood bank! 🧛‍♂️🏟️\n\n### 📣 THE VERDICT\nSo, there you have it! The Chaos Creatures sweep the series 2-0! The Captains are out! The Creatures live to fight another day! It was a match full of grit, gravy, and gorgeous violence. I'm Nok the Corrupter, and I'll be back next week to tell you who else is getting their head handed to them on a silver platter! Stay brutal, Osterra! 🏔️🏆\n\n**FINAL SCORE:**\n- ⚓ Confluence Captains: 4\n- 👹 New Monteforte Chaos Creatures: 5\n\n**SERIES RESULT: Chaos Creatures win 2-0!**",
+    "week": 2,
+    "homeScore": 5,
+    "awayScore": 4,
+    "slug": "po-2-2-new-monteforte-confluence",
+    "plays": [
+        "The Trollball is picked up by Belding Chloe in zone Center Field",
+        "Behl Berstine tries to Tackle Urata Oriana, but misses!",
+        "Behl Berstine tries to Tackle Placido Kora, but Placido Kora blocks it!",
+        "Belding Chloe runs with the ball and advances towards the goal!",
+        "Deach Sharlene throws a wild pass and it is INTERCEPTED by Gabriele Klehm!",
+        "Mouldon Earl tries to Tackle Caves Cestar, but misses!",
+        "Carnahan Laud tries to Tackle Alben Diantha, but Alben Diantha blocks it!",
+        "Boulanger Procto tries to Tackle Behl Berstine, but Behl Berstine blocks it!",
+        "Belding Chloe Tackles Wolbrom Ariella and INJURES THEM!",
+        "Placido Kora shoots from Home Field and SCORES!",
+        "The Trollball is picked up by Boulanger Procto in zone Center Field",
+        "Carnahan Laud Tackles Tucker Hett and INJURES THEM!",
+        "Belding Chloe tries to Tackle Boulanger Procto, but Boulanger Procto blocks it!",
+        "Deach Sharlene tries to Tackle Urata Oriana, but misses!",
+        "Richia Pazit tries to Tackle Placido Kora, but misses!",
+        "Carnahan Laud tries to Tackle Gabriele Klehm, but misses!",
+        "Raouf Dragone runs with the ball and advances towards the goal!",
+        "Stephan Lisk Tackles Alben Diantha and INJURES THEM!",
+        "Caves Cestar Tackles Urata Oriana and INJURES THEM!",
+        "Fogel Raynold Tackles O'Conner Maighdlin and INJURES THEM!",
+        "Vonni Geoff tries to Tackle Fogel Raynold, but misses!",
+        "Behl Berstine tries to Tackle Placido Kora, but Placido Kora blocks it!",
+        "Deach Sharlene tries to Tackle Fogel Raynold, but Fogel Raynold blocks it!",
+        "Belding Chloe tries to Tackle Placido Kora, but Placido Kora blocks it!",
+        "Vonni Geoff tries to Tackle Raouf Dragone, but misses!",
+        "Deach Sharlene tries to Tackle Raouf Dragone, but misses!",
+        "Behl Berstine tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+        "Placido Kora shoots from Away Field but misses the goal!",
+        "The Trollball is picked up by Behl Berstine in zone Away Field",
+        "Raouf Dragone tries to Tackle Stephan Lisk, but Stephan Lisk blocks it!",
+        "Carnahan Laud shoots from Away Field and SCORES!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Gabriele Klehm in zone Center Field",
+        "Ladew Evelina tries to Tackle Gabriele Klehm, but Gabriele Klehm blocks it!",
+        "Carnahan Laud tries to Tackle Raouf Dragone, but Raouf Dragone blocks it!",
+        "Vonni Geoff Tackles Wolbrom Ariella and INJURES THEM!",
+        "Stephan Lisk tries to Tackle Boulanger Procto, but Boulanger Procto blocks it!",
+        "Boulanger Procto runs with the ball and advances towards the goal!",
+        "Alben Diantha runs with the ball and advances towards the goal!",
+        "Ladew Evelina tries to Tackle Boulanger Procto, but Boulanger Procto blocks it!",
+        "Fogel Raynold tries to run with the ball but is stopped by the defense!",
+        "Tucker Hett passes the ball to Alben Diantha, but they drop it!",
+        "The Trollball is picked up by Placido Kora in zone Away 2-Point",
+        "Boulanger Procto runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+        "The Trollball is picked up by Fogel Raynold in zone Center Field",
+        "Tucker Hett shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Belding Chloe in zone Center Field",
+        "Behl Berstine tries to run with the ball but is stopped by the defense!",
+        "Ladew Evelina throws a wild pass and it is INTERCEPTED by Alben Diantha!",
+        "Urata Oriana tries to run with the ball but is stopped by the defense!",
+        "Raouf Dragone tries to run with the ball but is stopped by the defense!",
+        "Tucker Hett throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Behl Berstine in zone Center Field",
+        "Caves Cestar tries to run with the ball but is stopped by the defense!",
+        "Caves Cestar passes the ball to Richia Pazit!",
+        "Raouf Dragone tries to Tackle Behl Berstine, but misses!",
+        "Stephan Lisk Tackles Wolbrom Ariella and INJURES THEM!",
+        "Behl Berstine Tackles Urata Oriana and INJURES THEM!",
+        "Belding Chloe tries to run with the ball but is stopped by the defense!",
+        "Caves Cestar shoots from Center Field and SCORES!"
+    ],
+    "bracket": "Losers"
+}
