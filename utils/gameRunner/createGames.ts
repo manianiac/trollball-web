@@ -58,8 +58,25 @@ export const generateGamesTS = () => {
         };
       });
 
-    // Sort games by week, descending (newest first)
-    games.sort((a: { week: number }, b: { week: number }) => b.week - a.week);
+    // Sort games by playoff round (descending) and then by week (descending)
+    games.sort((a: any, b: any) => {
+      const getRound = (slug: string) => {
+        if (!slug?.startsWith("po-")) return -1;
+        const parts = slug.split("-");
+        // Format: po-<round>-...
+        // parts[0] is 'po', parts[1] is the round number
+        return parseInt(parts[1], 10) || 0;
+      };
+
+      const roundA = getRound(a.slug);
+      const roundB = getRound(b.slug);
+
+      if (roundA !== roundB) {
+        return roundB - roundA; // Higher round first
+      }
+
+      return b.week - a.week; // Higher week first within the same round
+    });
 
     console.log(`Loaded ${games.length} games.`);
 

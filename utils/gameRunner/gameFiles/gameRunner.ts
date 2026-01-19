@@ -281,7 +281,7 @@ const saveGameResult = async (
     const report = await generateGameReports(gameState, seriesGames);
 
     if (report) {
-      const outputPath = `./utils/gameRunner/results/po-3-${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
+      const outputPath = `./utils/gameRunner/results/po-5-${gameState.week}-${gameState.homeTeam.slug}-${gameState.awayTeam.slug}.json`;
 
       fs.writeFile(
         outputPath,

@@ -94,54 +94,31 @@ const findPreviousSeriesGames = (homeTeam: team, awayTeam: team): match[] => {
 let matchesToSimulate =
   [
     /* Matchup 1: Confluence vs Oread's Summit */
-    {
-      "homeTeam": TEAMS["The Confluence Captains"],
-      "awayTeam": TEAMS["The Oread's Summit Tamers"],
-      "week": 1,
-      "openBar": true,
-      "bracket": "Winners"
-    },
-    {
-      "homeTeam": TEAMS["The Oread's Summit Tamers"],
-      "awayTeam": TEAMS["The Confluence Captains"],
-      "week": 2,
-      "openBar": true,
-      "bracket": "Winners"
-    },
-    {
-      "homeTeam": TEAMS["The Confluence Captains"],
-      "awayTeam": TEAMS["The Oread's Summit Tamers"],
-      "week": 3,
-      "openBar": false,
-      "bracket": "Winners"
-    },
+    // {
+    //   "homeTeam": TEAMS["The Confluence Captains"],
+    //   "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
+    //   "week": 1,
+    //   "openBar": true,
+    //   "bracket": "Losers"
+    // },
+    // {
+    //   "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
+    //   "awayTeam": TEAMS["The Confluence Captains"],
+    //   "week": 2,
+    //   "openBar": true,
+    //   "bracket": "Losers"
+    // },
+    // {
+    //   "homeTeam": TEAMS["The Confluence Captains"],
+    //   "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
+    //   "week": 3,
+    //   "openBar": false,
+    //   "bracket": "Losers"
+    // },
 
     /* Matchup 2: Haven Lights vs Oak & Onslaught */
     {
       "homeTeam": TEAMS["The Haven Lights"],
-      "awayTeam": TEAMS["Oak & Onslaught"],
-      "week": 1,
-      "openBar": true,
-      "bracket": "Winners"
-    },
-    {
-      "homeTeam": TEAMS["Oak & Onslaught"],
-      "awayTeam": TEAMS["The Haven Lights"],
-      "week": 2,
-      "openBar": true,
-      "bracket": "Winners"
-    },
-    {
-      "homeTeam": TEAMS["The Haven Lights"],
-      "awayTeam": TEAMS["Oak & Onslaught"],
-      "week": 3,
-      "openBar": false,
-      "bracket": "Winners"
-    },
-
-    /* Matchup 3: Kerlauger vs Starlight Bazaar */
-    {
-      "homeTeam": TEAMS["The Kerlauger Runeguard"],
       "awayTeam": TEAMS["The Starlight Bazaar Bizarres"],
       "week": 1,
       "openBar": true,
@@ -149,42 +126,18 @@ let matchesToSimulate =
     },
     {
       "homeTeam": TEAMS["The Starlight Bazaar Bizarres"],
-      "awayTeam": TEAMS["The Kerlauger Runeguard"],
+      "awayTeam": TEAMS["The Haven Lights"],
       "week": 2,
       "openBar": true,
       "bracket": "Losers"
     },
     {
-      "homeTeam": TEAMS["The Kerlauger Runeguard"],
       "awayTeam": TEAMS["The Starlight Bazaar Bizarres"],
+      "homeTeam": TEAMS["The Haven Lights"],
       "week": 3,
       "openBar": false,
       "bracket": "Losers"
     },
-
-    /* Matchup 4: Greenwatch vs New Monteforte */
-    {
-      "homeTeam": TEAMS["The Greenwatch"],
-      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "week": 1,
-      "openBar": true,
-      "bracket": "Losers"
-    },
-    {
-      "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "awayTeam": TEAMS["The Greenwatch"],
-      "week": 2,
-      "openBar": true,
-      "bracket": "Losers"
-    },
-    {
-      "homeTeam": TEAMS["The Greenwatch"],
-      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
-      "week": 3,
-      "openBar": false,
-      "bracket": "Losers"
-    }
-
   ];
 
 // runMatch(
@@ -262,7 +215,7 @@ const runAllMatches = async () => {
     }
 
     // Check if THIS specific game file already exists to avoid re-simulating
-    const potentialSlug = `po-3-${baseMatch.week}-${baseMatch.homeTeam.slug}-${baseMatch.awayTeam.slug}`;
+    const potentialSlug = `po-5-${baseMatch.week}-${baseMatch.homeTeam.slug}-${baseMatch.awayTeam.slug}`;
     const potentialPath = path.join(
       process.cwd(),
       "utils",
