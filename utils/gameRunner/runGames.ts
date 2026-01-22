@@ -129,6 +129,19 @@ let matchesToSimulate =
       "week": 5,
       "openBar": false,
       "bracket": "Losers"
+    }, {
+      "homeTeam": TEAMS["The New Monteforte Chaos Creatures"],
+      "awayTeam": TEAMS["The Haven Lights"],
+      "week": 4,
+      "openBar": true,
+      "bracket": "Losers"
+    },
+    {
+      "awayTeam": TEAMS["The New Monteforte Chaos Creatures"],
+      "homeTeam": TEAMS["The Haven Lights"],
+      "week": 5,
+      "openBar": true,
+      "bracket": "Losers"
     },
   ];
 
@@ -173,7 +186,7 @@ const runAllMatches = async () => {
       baseMatch.awayTeam.name,
     );
 
-    const currentRoundPrefix = "po-7";
+    const currentRoundPrefix = "po-8";
 
     // 1. Get ALL previous games for context (Report Generation)
     const allSeriesGames = findPreviousSeriesGames(
