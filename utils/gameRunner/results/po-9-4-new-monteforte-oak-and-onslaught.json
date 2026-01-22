@@ -1,0 +1,915 @@
+{
+    "homeTeam": {
+        "name": "The New Monteforte Chaos Creatures",
+        "slug": "new-monteforte",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 65,
+        "stadium": {
+            "name": "The Unruly Yard",
+            "location": "New Monteforte",
+            "description": "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
+            "modifiers": [
+                "Rowdy Crowd",
+                "Unstable Scaffolding",
+                "Street Performer"
+            ]
+        },
+        "healer": {
+            "name": "Lian Denton",
+            "team": "The New Monteforte Chaos Creatures",
+            "stats": {
+                "pass": 55,
+                "catch": 62,
+                "run": 56,
+                "block": 58,
+                "fight": 45,
+                "throw": 60,
+                "luck": 50,
+                "pronouns": "They/Them",
+                "civic_engagement": 52,
+                "alcohol_tolerance": 66,
+                "favorite_weapon": "Battle Axe",
+                "pregame_ritual": "Drinking a shot of hot gravy from a dented tin cup.",
+                "literate": false
+            }
+        },
+        "players": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Boulanger Procto",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 57,
+                    "block": 66,
+                    "fight": 60,
+                    "throw": 57,
+                    "luck": 54,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 49,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Broadsword",
+                    "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Urata Oriana",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 46,
+                    "catch": 42,
+                    "run": 49,
+                    "block": 49,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 50,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 54,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Zweihander",
+                    "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Gabriele Klehm",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 59,
+                    "catch": 57,
+                    "run": 47,
+                    "block": 62,
+                    "fight": 50,
+                    "throw": 56,
+                    "luck": 55,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 66,
+                    "alcohol_tolerance": 50,
+                    "favorite_weapon": "Quarterstaff",
+                    "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Tucker Hett",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 50,
+                    "catch": 50,
+                    "run": 49,
+                    "block": 59,
+                    "fight": 52,
+                    "throw": 61,
+                    "luck": 42,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Billhook",
+                    "pregame_ritual": "Reviewing hand signals for secret plays.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Mouldon Earl",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 55,
+                    "catch": 55,
+                    "run": 63,
+                    "block": 56,
+                    "fight": 44,
+                    "throw": 55,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 52,
+                    "favorite_weapon": "Rondel Dagger",
+                    "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Placido Kora",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 67,
+                    "catch": 59,
+                    "run": 48,
+                    "block": 52,
+                    "fight": 56,
+                    "throw": 46,
+                    "luck": 46,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 45,
+                    "favorite_weapon": "Seax",
+                    "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Alben Diantha",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 48,
+                    "block": 55,
+                    "fight": 63,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 52,
+                    "alcohol_tolerance": 57,
+                    "favorite_weapon": "Hammer",
+                    "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Wolbrom Ariella",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 63,
+                    "catch": 71,
+                    "run": 59,
+                    "block": 40,
+                    "fight": 60,
+                    "throw": 58,
+                    "luck": 72,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 53,
+                    "favorite_weapon": "Scythe",
+                    "pregame_ritual": "Singing a sea shanty completely out of tune.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Raouf Dragone",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 61,
+                    "run": 52,
+                    "block": 44,
+                    "fight": 50,
+                    "throw": 61,
+                    "luck": 52,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 63,
+                    "alcohol_tolerance": 61,
+                    "favorite_weapon": "Trident",
+                    "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Fogel Raynold",
+                "team": "The New Monteforte Chaos Creatures",
+                "stats": {
+                    "pass": 48,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 54,
+                    "fight": 48,
+                    "throw": 57,
+                    "luck": 60,
+                    "pronouns": "He/Them",
+                    "civic_engagement": 61,
+                    "alcohol_tolerance": 55,
+                    "favorite_weapon": "Horseman's Pick",
+                    "pregame_ritual": "Slapping their own helmet until their ears ring.",
+                    "literate": true
+                }
+            }
+        ],
+        "inactivePlayers": []
+    },
+    "awayTeam": {
+        "name": "Oak & Onslaught",
+        "slug": "oak-and-onslaught",
+        "losses": 0,
+        "wins": 0,
+        "score": 0,
+        "luck": 52,
+        "stadium": {
+            "name": "Fletchings Field",
+            "location": "Fletchings",
+            "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+            "modifiers": [
+                "Shifting Terrain",
+                "Warden's Watch",
+                "Natural Advantages"
+            ]
+        },
+        "healer": {
+            "name": "Ahron Latashia",
+            "team": "Oak & Onslaught",
+            "stats": {
+                "pass": 48,
+                "catch": 52,
+                "run": 56,
+                "block": 45,
+                "fight": 64,
+                "throw": 59,
+                "luck": 57,
+                "pronouns": "She/Her",
+                "civic_engagement": 68,
+                "alcohol_tolerance": 59,
+                "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+                "literate": true,
+                "favorite_weapon": "Kriegsmesser"
+            }
+        },
+        "players": [
+            {
+                "name": "Milt Casady",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 54,
+                    "catch": 57,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 47,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 44,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Wynnie Faina",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 50,
+                    "catch": 64,
+                    "run": 66,
+                    "block": 55,
+                    "fight": 51,
+                    "throw": 60,
+                    "luck": 71,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Normi Glaudia",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 64,
+                    "block": 63,
+                    "fight": 48,
+                    "throw": 60,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Symer Crissy",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 53,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 44,
+                    "throw": 63,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Teria Ravo",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 51,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 53,
+                    "throw": 63,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Millham Evangeline",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 56,
+                    "block": 44,
+                    "fight": 56,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hole Bowerman",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 39,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 64,
+                    "fight": 60,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Affra Yanaton",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 48,
+                    "catch": 50,
+                    "run": 63,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Abner Seidel",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 55,
+                    "catch": 61,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 54,
+                    "throw": 51,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 42,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ema Ulrick",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 57,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 66,
+                    "luck": 52,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Always putting on their left gauntlet before their right.",
+                    "literate": false
+                }
+            }
+        ],
+        "activePlayers": [
+            {
+                "name": "Milt Casady",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 54,
+                    "catch": 57,
+                    "run": 54,
+                    "block": 65,
+                    "fight": 47,
+                    "throw": 65,
+                    "luck": 52,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 44,
+                    "favorite_weapon": "Blackjack",
+                    "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+                    "literate": false
+                }
+            },
+            {
+                "name": "Wynnie Faina",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 50,
+                    "catch": 64,
+                    "run": 66,
+                    "block": 55,
+                    "fight": 51,
+                    "throw": 60,
+                    "luck": 71,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 46,
+                    "alcohol_tolerance": 72,
+                    "favorite_weapon": "Mace",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Normi Glaudia",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 47,
+                    "catch": 52,
+                    "run": 64,
+                    "block": 63,
+                    "fight": 48,
+                    "throw": 60,
+                    "luck": 62,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 71,
+                    "favorite_weapon": "Mallet",
+                    "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Symer Crissy",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 53,
+                    "run": 53,
+                    "block": 55,
+                    "fight": 44,
+                    "throw": 63,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 45,
+                    "alcohol_tolerance": 63,
+                    "favorite_weapon": "Pollaxe",
+                    "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Teria Ravo",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 51,
+                    "catch": 48,
+                    "run": 54,
+                    "block": 58,
+                    "fight": 53,
+                    "throw": 63,
+                    "luck": 52,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 47,
+                    "alcohol_tolerance": 46,
+                    "favorite_weapon": "War Pick",
+                    "pregame_ritual": "Headbutting their own team's goal post (gently).",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Millham Evangeline",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 48,
+                    "run": 56,
+                    "block": 44,
+                    "fight": 56,
+                    "throw": 62,
+                    "luck": 57,
+                    "pronouns": "They/Them",
+                    "civic_engagement": 51,
+                    "alcohol_tolerance": 49,
+                    "favorite_weapon": "Bardiche",
+                    "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Hole Bowerman",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 39,
+                    "catch": 49,
+                    "run": 60,
+                    "block": 64,
+                    "fight": 60,
+                    "throw": 49,
+                    "luck": 58,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 50,
+                    "alcohol_tolerance": 51,
+                    "favorite_weapon": "Lance",
+                    "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Abner Seidel",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 55,
+                    "catch": 61,
+                    "run": 60,
+                    "block": 56,
+                    "fight": 54,
+                    "throw": 51,
+                    "luck": 58,
+                    "pronouns": "He/Him",
+                    "civic_engagement": 42,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Talwar",
+                    "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+                    "literate": true
+                }
+            },
+            {
+                "name": "Ema Ulrick",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 53,
+                    "catch": 54,
+                    "run": 57,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 66,
+                    "luck": 52,
+                    "pronouns": "She/Her",
+                    "civic_engagement": 59,
+                    "alcohol_tolerance": 56,
+                    "favorite_weapon": "Cutlass",
+                    "pregame_ritual": "Always putting on their left gauntlet before their right.",
+                    "literate": false
+                }
+            }
+        ],
+        "inactivePlayers": [
+            {
+                "name": "Affra Yanaton",
+                "team": "Oak & Onslaught",
+                "stats": {
+                    "pass": 48,
+                    "catch": 50,
+                    "run": 63,
+                    "block": 57,
+                    "fight": 52,
+                    "throw": 54,
+                    "luck": 60,
+                    "pronouns": "She/Them",
+                    "civic_engagement": 57,
+                    "alcohol_tolerance": 54,
+                    "favorite_weapon": "Longsword",
+                    "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+                    "literate": true
+                }
+            }
+        ]
+    },
+    "preGame": "# ⚾ GREETINGS AND SALUTATIONS, OSTERRA! ⚾\n\nNok the Corrupter here, coming to you live from the most wonderfully dilapidated spot in New Monteforte—**The Unruly Yard**! We are at the precipice of destiny, folks! This is Game Four of the Grand Finals, and the Chaos Creatures are sitting pretty with a 2-1 lead in the series! If those Monteforte miscreants pull off a win tonight, they’ll force a bracket reset against the top-seeded Oak & Onslaught! The air is thick with the scent of rebellion, spray paint, and the faint, delightful aroma of impending fractures! 🏟️\n\nI’ve been watching the pre-game festivities, and let me tell you, the Warden favorites are looking... well, peculiar! **Wynnie Faina** and **Normi Glaudia** are out there with their boots on the wrong feet again. They call it a ritual; I call it a disaster waiting to happen on this unstable scaffolding! Meanwhile, **Millham Evangeline** is carefully tucking a feather into their helmet, probably hoping it’ll act as a lucky charm when a broadsword comes swinging! 🪶\n\nOver in the Chaos camp, they aren’t messing around! **Lian Denton** just downed a shot of hot gravy that looked thick enough to patch a hole in a shield! **Raouf Dragone** is currently reciting an epic poem about past victories, likely trying to distract himself from the fact that the crowd is currently throwing half-eaten sausages at the **Sir Randy** posters! The fans are rowdy, the scaffolding is swaying like a drunken sailor, and I’m pretty sure I saw **Falric** trying to bet a bag of shiny rocks on a total wipeout! 🍺\n\nWill the \"heroes\" of Oak & Onslaught find their footing, or will the Chaos Creatures send them packing? The open bar is officially open, the players are hydrated with questionable fluids, and my demonic heart is ready for some beautiful, chaotic Trollball! Let’s get it on! 🔥🏈",
+    "postGame": "# 🏆 THE OAK STANDS FIRM! WE HAVE A SERIES TIE! 🏆\n\nBy the scorched pits of the Demon Prison, what a defensive masterclass! If you came here looking for a Monteforte coronation, you’re going home disappointed, but if you came for a symphony of shattered hopes and bruised kidneys, you’ve hit the jackpot! Oak & Onslaught have clawed their way back from the brink, shutting out the Chaos Creatures 2-0 to tie this Grand Finals series at two games apiece! We are going to a Game Five, sports fans! 🏟️✨\n\nThe action was hot and heavy from the opening whistle! **Teria Ravo** scooped up that leather head in Center Field like a hungry wolf, setting the tone for a night of Warden dominance. While the Chaos Creatures tried to muscle their way in, **Abner Seidel** decided he’d seen enough. He lined up a shot from Center Field and—SWISH—put the Oak up by 2 points early on! It was a beautiful display of precision that silenced the rowdy Monteforte crowd faster than an assassin in the night! 🎯\n\nBut a Trollball game isn't just about points; it’s about the medical bills! **Millham Evangeline** decided Raouf Dragone’s trident was looking a little too heavy and sent them to the sidelines with a tackle that rattled the graffiti right off the stadium walls! The healers were sprinting out before the dust even settled. You love to see that kind of dedication to the craft of carnage! 🚑\n\nThe Monteforte squad tried to respond, but their passing game was as shaky as the scaffolding they play on! **Tucker Hett** launched a wild pass that was snatched right out of the air by **Normi Glaudia**! Interception! It’s like the Chaos Creatures were playing with greased palms, probably too much of that hot gravy if you ask me! 🦴\n\nAs the first half wound down, it turned into a literal demolition derby. **Normi Glaudia**, despite the boots being on the wrong feet, absolutely flattened **Urata Oriana**! I haven't seen someone hit the dirt that hard since **Lord Orzalon** dropped his favorite soul-jar! Then **Millham Evangeline** went back for seconds, injuring **Alben Diantha** just to make sure the healers didn't get bored. 🏥\n\nJust before the halftime whistle, **Teria Ravo** decided to join the party, leveling **Fogel Raynold** with a tackle that probably made **Sir Randy**'s fancy bow string snap in sympathy. The Chaos Creatures were dropping like flies in a plague-house! By the time they limped into the tunnels for the break, the home crowd was more hostile than a warlock at a tax audit! 🍺\n\nHalftime didn't slow the Wardens down one bit! The open bar has clearly been working its magic on the spectators, but Oak & Onslaught remained soberly focused on the violence. **Millham Evangeline** must have a personal vendetta against **Fogel Raynold**, because they sent Fogel back to the injury list barely minutes into the second half! Talk about consistency! ⛓️\n\nChaos finally showed some teeth when **Mouldon Earl** caught **Affra Yanaton** with a vicious tackle, sending the longsword-wielder to the dirt. It was a rare moment of Monteforte glory in a night that mostly belonged to the visitors. I’m sure **Colm** and the White Ravens are looking at this wreckage and wondering where it all went wrong for their local boys! 🐦‍⬛\n\nThe ground was slick, the crowd was throwing more than just insults, and the players were starting to look like they’d spent too much time at **Imra's** dust shop. **Symer Crissy** tried to put the game away with a late shot, but it sailed wide. It didn't matter though, because the Chaos Creatures couldn't mount an attack if their lives depended on it! 🚮\n\n**Gabriele Klehm** finished the game clutching the ball in the Away Field, looking like she’d just been through a meat grinder—which, to be fair, she had! The final whistle blew with the score still 2-0. The series is tied, the momentum is a mess, and we are headed to a winner-take-all Game Five! 🏆\n\nSo, there you have it, folks! The \"heroes\" live to fight another day, and the Monteforte rebels have to find a way to stop the bleeding before the next match! My demon heart is pining for the tie-breaker! Will it be the Wardens' law or the Creatures' chaos? Join us next time for more blood, more beer, and more TROLLBALL! This is Nok the Corrupter, signing off! 🤘🔥",
+    "week": 4,
+    "homeScore": 0,
+    "awayScore": 2,
+    "slug": "po-9-4-new-monteforte-oak-and-onslaught",
+    "plays": [
+        "The Trollball is picked up by Teria Ravo in zone Center Field",
+        "Urata Oriana tries to Tackle Wynnie Faina, but misses!",
+        "Abner Seidel shoots from Center Field and SCORES!",
+        "The Trollball is picked up by Raouf Dragone in zone Center Field",
+        "Raouf Dragone tries to Tackle Hole Bowerman, but Hole Bowerman blocks it!",
+        "Tucker Hett throws a wild pass and it is INTERCEPTED by Normi Glaudia!",
+        "Alben Diantha tries to Tackle Milt Casady, but misses!",
+        "Millham Evangeline Tackles Raouf Dragone and INJURES THEM!",
+        "Symer Crissy tries to Tackle Mouldon Earl, but misses!",
+        "Urata Oriana tries to Tackle Millham Evangeline, but Millham Evangeline blocks it!",
+        "Urata Oriana tries to Tackle Affra Yanaton, but Affra Yanaton blocks it!",
+        "Gabriele Klehm tries to Tackle Wynnie Faina, but misses!",
+        "Affra Yanaton shoots from Center Field but misses the goal!",
+        "The Trollball is picked up by Placido Kora in zone Center Field",
+        "Urata Oriana throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Abner Seidel in zone Center Field",
+        "Alben Diantha tries to Tackle Wynnie Faina, but Wynnie Faina blocks it!",
+        "Boulanger Procto tries to Tackle Teria Ravo, but Teria Ravo blocks it!",
+        "Millham Evangeline tries to run with the ball but is stopped by the defense!",
+        "Symer Crissy tries to run with the ball but is stopped by the defense!",
+        "Wynnie Faina passes the ball to Milt Casady!",
+        "Milt Casady tries to run with the ball but is stopped by the defense!",
+        "Wynnie Faina throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Placido Kora in zone Center Field",
+        "Normi Glaudia Tackles Urata Oriana and INJURES THEM!",
+        "Hole Bowerman tries to Tackle Alben Diantha, but Alben Diantha blocks it!",
+        "Millham Evangeline tries to Tackle Alben Diantha, but misses!",
+        "Millham Evangeline Tackles Alben Diantha and INJURES THEM!",
+        "Teria Ravo Tackles Fogel Raynold and INJURES THEM!",
+        "Boulanger Procto tries to Tackle Affra Yanaton, but Affra Yanaton blocks it!",
+        "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+        "The Trollball is picked up by Tucker Hett in zone Center Field",
+        "Raouf Dragone tries to run with the ball but is stopped by the defense!",
+        "Wynnie Faina tries to Tackle Mouldon Earl, but Mouldon Earl blocks it!",
+        "Affra Yanaton tries to Tackle Raouf Dragone, but misses!",
+        "Alben Diantha runs with the ball and advances towards the goal!",
+        "Millham Evangeline tries to Tackle Placido Kora, but misses!",
+        "Mouldon Earl runs with the ball and advances towards the goal!",
+        "Mouldon Earl throws a wild pass and it lands on the ground!",
+        "The Trollball is picked up by Abner Seidel in zone Away 2-Point",
+        "Wynnie Faina shoots from Away 2-Point but misses the goal!",
+        "The Trollball is picked up by Wynnie Faina in zone Away 2-Point",
+        "Millham Evangeline Tackles Fogel Raynold and INJURES THEM!",
+        "Placido Kora tries to Tackle Normi Glaudia, but Normi Glaudia blocks it!",
+        "Normi Glaudia shoots from Away 2-Point but misses the goal!",
+        "The Trollball is picked up by Ema Ulrick in zone Away 2-Point",
+        "Mouldon Earl tries to Tackle Hole Bowerman, but misses!",
+        "Wynnie Faina tries to Tackle Tucker Hett, but Tucker Hett blocks it!",
+        "Mouldon Earl Tackles Affra Yanaton and INJURES THEM!",
+        "Placido Kora tries to Tackle Teria Ravo, but Teria Ravo blocks it!",
+        "Urata Oriana tries to Tackle Ema Ulrick, but misses!",
+        "Normi Glaudia tries to Tackle Alben Diantha, but misses!",
+        "Teria Ravo tries to Tackle Fogel Raynold, but Fogel Raynold blocks it!",
+        "Millham Evangeline runs with the ball and advances towards the goal!",
+        "Urata Oriana tries to Tackle Teria Ravo, but misses!",
+        "Boulanger Procto tries to Tackle Hole Bowerman, but misses!",
+        "Symer Crissy tries to run with the ball but is stopped by the defense!",
+        "Symer Crissy shoots from Away Field but misses the goal!",
+        "The Trollball is picked up by Gabriele Klehm in zone Away Field"
+    ],
+    "bracket": "Grand Finals"
+}

@@ -293,7 +293,7 @@ export async function generateGameReports(
   const userQuery = `
       Here is the full game data for a Trollball match. Please generate the pre-game and post-game reports.
       
-      This is the playoffs, in the ${gameData.bracket || "Winners"} Bracket, so make sure to comment on the playoff atmosphere. These are played Best of 5, and you will be given each past game in a series(including possible past matchups). The loser of the BO3 will be sent to the loser's bracket
+      This is the Grand Finals Bracket Reset! The New Monteforte Chaos Creatures have achieved the impossible and reset the bracket by defeating Oak & Onslaught. Now, it all comes down to this final Best of 5 series. The winner of this series is the undisputed Trollball Champion. There are no second chances. Winner takes all!
       
       Use markdown formatting(like headers or lists) and use emojii as needed
 
