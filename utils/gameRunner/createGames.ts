@@ -41,8 +41,7 @@ export const generateGamesTS = () => {
         (filename: string) =>
           filename.endsWith(".json") &&
           !filename.includes("weeklyRecap") &&
-          filename.startsWith("po-") &&
-          !filename.startsWith("po-10"),
+          filename.startsWith("po-"),
       )
       .map((filename: string) => {
         const filePath = path.join(GAMES_DIR, filename);
