@@ -226,10 +226,10 @@ export default function GamesPage({ games }: GamesPageProps) {
                                     {home.name}
                                   </span>
                                 </div>
-                                {/* Score */}
+                                {/* Score Placeholder (VS) */}
                                 <div className="flex flex-col items-center justify-center w-2/12">
-                                  <span className="text-base md:text-lg font-bold bg-orange-50 dark:bg-orange-950/30 border border-orange-200 dark:border-orange-900/40 px-4 py-1.5 rounded-xl text-orange-600 dark:text-orange-400 group-hover:bg-orange-500 group-hover:text-white group-hover:border-orange-400 transition-all duration-300 font-mono shadow-sm">
-                                    {game.homeScore} - {game.awayScore}
+                                  <span className="text-base md:text-lg font-bold bg-orange-50 dark:bg-orange-950/30 border border-orange-200 dark:border-orange-900/40 px-4 py-1.5 rounded-xl text-orange-600 dark:text-orange-400 group-hover:bg-orange-500 group-hover:text-white group-hover:border-orange-400 transition-all duration-300 font-sans shadow-sm">
+                                    VS
                                   </span>
                                 </div>
                                 {/* Away Team */}
@@ -336,8 +336,7 @@ export default function GamesPage({ games }: GamesPageProps) {
                                             Game {gameNum}
                                           </span>
                                           <div className="text-gray-600 dark:text-gray-300">
-                                            {gHome.name} vs {gAway.name} (
-                                            {game.homeScore} - {game.awayScore})
+                                            {gHome.name} vs {gAway.name}
                                           </div>
                                         </div>
                                       </Link>
