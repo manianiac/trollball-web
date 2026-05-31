@@ -1,0 +1,231 @@
+{
+  "name": "The Mellondor Meadows",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 55,
+  "stadium": {
+    "name": "The Canopy Colosseum",
+    "location": "Mellondor (The Great Oak)",
+    "description": "An arena set high in the ancient boughs of the great oak.",
+    "modifiers": ["High Altitude", "Leaves"]
+  },
+  "healer": {
+    "name": "Geldens Cecilla",
+    "team": "The Mellondor Meadows",
+    "stats": {
+      "pass": 58,
+      "catch": 44,
+      "run": 64,
+      "block": 51,
+      "fight": 52,
+      "throw": 48,
+      "luck": 57,
+      "pronouns": "He/Him",
+      "civic_engagement": 50,
+      "alcohol_tolerance": 51,
+      "current_alcohol": 0,
+      "favorite_weapon": "Glaive",
+      "pregame_ritual": "Turning their helmet around three times before putting it on.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Derek Svend",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 63,
+        "catch": 60,
+        "run": 63,
+        "block": 61,
+        "fight": 53,
+        "throw": 49,
+        "luck": 55,
+        "civic_engagement": 60,
+        "alcohol_tolerance": 57,
+        "current_alcohol": 0,
+        "favorite_weapon": "Halberd",
+        "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Linet Halley",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 55,
+        "catch": 38,
+        "run": 60,
+        "block": 63,
+        "fight": 59,
+        "throw": 68,
+        "luck": 54,
+        "pronouns": "She/Her",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 55,
+        "current_alcohol": 0,
+        "favorite_weapon": "Warhammer",
+        "pregame_ritual": "Attempting to perfectly mimic the stance of a statue in the town square.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Freida Krutz",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 56,
+        "catch": 49,
+        "run": 56,
+        "block": 58,
+        "fight": 54,
+        "throw": 63,
+        "luck": 50,
+        "civic_engagement": 54,
+        "alcohol_tolerance": 64,
+        "current_alcohol": 0,
+        "favorite_weapon": "Longsword",
+        "pregame_ritual": "Chewing on a splinter of wood from a past goal basket.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Papageno Delaney",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 56,
+        "catch": 58,
+        "run": 59,
+        "block": 60,
+        "fight": 60,
+        "throw": 40,
+        "luck": 55,
+        "pronouns": "He/Him",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 61,
+        "current_alcohol": 0,
+        "favorite_weapon": "Main-gauche",
+        "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Theis Dott",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 54,
+        "catch": 55,
+        "run": 52,
+        "block": 55,
+        "fight": 39,
+        "throw": 50,
+        "luck": 51,
+        "civic_engagement": 50,
+        "alcohol_tolerance": 69,
+        "current_alcohol": 0,
+        "favorite_weapon": "Main-gauche",
+        "pregame_ritual": "Trying to start a 'slow clap' with the audience before the game has begun.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Mages Cesaro",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 51,
+        "catch": 50,
+        "run": 59,
+        "block": 55,
+        "fight": 58,
+        "throw": 46,
+        "luck": 56,
+        "pronouns": "She/Her",
+        "civic_engagement": 47,
+        "alcohol_tolerance": 67,
+        "current_alcohol": 0,
+        "favorite_weapon": "Cestus",
+        "pregame_ritual": "Applying a pungent liniment to their sore muscles.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Farrand Roze",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 53,
+        "catch": 68,
+        "run": 69,
+        "block": 56,
+        "fight": 41,
+        "throw": 51,
+        "luck": 56,
+        "pronouns": "He/Him",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 52,
+        "current_alcohol": 0,
+        "favorite_weapon": "Chain Whip",
+        "pregame_ritual": "Insisting on wearing a ridiculously oversized, floppy hat during warm-ups.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Shwalb Athalla",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 51,
+        "catch": 62,
+        "run": 60,
+        "block": 59,
+        "fight": 45,
+        "throw": 66,
+        "luck": 56,
+        "pronouns": "He/Him",
+        "civic_engagement": 54,
+        "alcohol_tolerance": 57,
+        "current_alcohol": 0,
+        "favorite_weapon": "Swordstaff",
+        "pregame_ritual": "Rubbing dirt from the center of the field onto their biceps.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Zitella Formenti",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 61,
+        "catch": 53,
+        "run": 43,
+        "block": 58,
+        "fight": 52,
+        "throw": 62,
+        "luck": 50,
+        "civic_engagement": 69,
+        "alcohol_tolerance": 51,
+        "current_alcohol": 0,
+        "favorite_weapon": "Morning Star",
+        "pregame_ritual": "Trying to balance a wooden spoon on their nose for as long as possible.",
+        "literate": true
+      }
+    },
+    {
+      "name": "MacRae Rafaela",
+      "team": "The Mellondor Meadows",
+      "stats": {
+        "pass": 63,
+        "catch": 47,
+        "run": 52,
+        "block": 51,
+        "fight": 55,
+        "throw": 54,
+        "luck": 58,
+        "pronouns": "They/Them",
+        "civic_engagement": 54,
+        "alcohol_tolerance": 59,
+        "current_alcohol": 0,
+        "favorite_weapon": "Shortsword",
+        "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+        "literate": true
+      }
+    }
+  ]
+}

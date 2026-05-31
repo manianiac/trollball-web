@@ -1,0 +1,961 @@
+{
+  "homeTeam": {
+    "name": "The Zmeigorod Snessengers",
+    "slug": "zmeigorod",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "sponsor": "The Grove",
+    "stadium": {
+      "name": "The Serpent's Pass",
+      "location": "Zmeigorod, just west of the lumber mill",
+      "modifiers": ["Altitude Sickness", "Sudden Downpour", "Rockslide"],
+      "description": "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it."
+    },
+    "healer": {
+      "name": "Waldon Tadeo",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 56,
+        "catch": 65,
+        "run": 55,
+        "block": 56,
+        "fight": 54,
+        "throw": 60,
+        "luck": 50,
+        "pronouns": "She/Them",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Delija Dowling",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 55,
+          "run": 50,
+          "block": 51,
+          "fight": 53,
+          "throw": 56,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Northway Orran",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Evalyn Pierrepont",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 66,
+          "block": 54,
+          "fight": 48,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rose Kluge",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 63,
+          "block": 49,
+          "fight": 52,
+          "throw": 52,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gere Cordelie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 55,
+          "catch": 47,
+          "run": 42,
+          "block": 68,
+          "fight": 53,
+          "throw": 48,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 47,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true,
+          "favorite_weapon": "Spiked Gauntlet"
+        }
+      },
+      {
+        "name": "Kleinstein MacGregor",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 43,
+          "catch": 59,
+          "run": 61,
+          "block": 53,
+          "fight": 52,
+          "throw": 59,
+          "luck": 68,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Avaria Revell",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 53,
+          "catch": 46,
+          "run": 67,
+          "block": 50,
+          "fight": 54,
+          "throw": 57,
+          "luck": 61,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alded Sanjay",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 45,
+          "catch": 61,
+          "run": 56,
+          "block": 54,
+          "fight": 51,
+          "throw": 61,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Arni Griffith",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 62,
+          "run": 43,
+          "block": 56,
+          "fight": 51,
+          "throw": 55,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dare Wynnie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 64,
+          "catch": 54,
+          "run": 50,
+          "block": 54,
+          "fight": 62,
+          "throw": 52,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Evalyn Pierrepont",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 66,
+          "block": 54,
+          "fight": 48,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rose Kluge",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 63,
+          "block": 49,
+          "fight": 52,
+          "throw": 52,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gere Cordelie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 55,
+          "catch": 47,
+          "run": 42,
+          "block": 68,
+          "fight": 53,
+          "throw": 48,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 47,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true,
+          "favorite_weapon": "Spiked Gauntlet"
+        }
+      },
+      {
+        "name": "Avaria Revell",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 53,
+          "catch": 46,
+          "run": 67,
+          "block": 50,
+          "fight": 54,
+          "throw": 57,
+          "luck": 61,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alded Sanjay",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 45,
+          "catch": 61,
+          "run": 56,
+          "block": 54,
+          "fight": 51,
+          "throw": 61,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Arni Griffith",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 62,
+          "run": 43,
+          "block": 56,
+          "fight": 51,
+          "throw": 55,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dare Wynnie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 64,
+          "catch": 54,
+          "run": 50,
+          "block": 54,
+          "fight": 62,
+          "throw": 52,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Northway Orran",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Kleinstein MacGregor",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 43,
+          "catch": 59,
+          "run": 61,
+          "block": 53,
+          "fight": 52,
+          "throw": 59,
+          "luck": 68,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Delija Dowling",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 55,
+          "run": 50,
+          "block": 51,
+          "fight": 53,
+          "throw": 56,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ]
+  },
+  "awayTeam": {
+    "name": "The New Ravenfall Commanders",
+    "slug": "new-ravenfall",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 64,
+    "sponsor": "The Kingdom of Eponore",
+    "stadium": {
+      "name": "The Stronghold Bailey",
+      "location": "New Ravenfall (Stronghold Castle)",
+      "description": "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
+      "modifiers": ["Cobblestone Pitch", "Rampart Shadows", "Castle Echo"]
+    },
+    "healer": {
+      "name": "Hooge Imtiaz",
+      "team": "The New Ravenfall Commanders",
+      "stats": {
+        "pass": 57,
+        "catch": 50,
+        "run": 39,
+        "block": 59,
+        "fight": 53,
+        "throw": 63,
+        "luck": 59,
+        "pronouns": "She/Her",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 44,
+        "favorite_weapon": "Warhammer",
+        "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Moir Sass",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 51,
+          "block": 48,
+          "fight": 60,
+          "throw": 56,
+          "luck": 61,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Theis Loredo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 46,
+          "run": 55,
+          "block": 54,
+          "fight": 62,
+          "throw": 61,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jessalin Zobias",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 55,
+          "block": 42,
+          "fight": 52,
+          "throw": 53,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Dusa Curson",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 55,
+          "block": 56,
+          "fight": 59,
+          "throw": 41,
+          "luck": 57,
+          "pronouns": "She/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Searching for a four-leaf clover near the sidelines.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Moir Sass",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 58,
+          "catch": 50,
+          "run": 51,
+          "block": 48,
+          "fight": 60,
+          "throw": 56,
+          "luck": 61,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Theis Loredo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 46,
+          "run": 55,
+          "block": 54,
+          "fight": 62,
+          "throw": 61,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Fleme Alis",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 52,
+          "catch": 53,
+          "run": 52,
+          "block": 61,
+          "fight": 63,
+          "throw": 58,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Listening to the wind for a sign of which way the game will turn.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Estes Adrian",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 56,
+          "catch": 52,
+          "run": 54,
+          "block": 54,
+          "fight": 51,
+          "throw": 49,
+          "luck": 68,
+          "pronouns": "He/Them",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Katar",
+          "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rhett Gavrilla",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 64,
+          "run": 53,
+          "block": 56,
+          "fight": 68,
+          "throw": 59,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Collecting a pebble from every field they've ever played on.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jessalin Zobias",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 55,
+          "block": 42,
+          "fight": 52,
+          "throw": 53,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 54,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Military Fork",
+          "pregame_ritual": "Tugging on their left earlobe three times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Jozef Pepe",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 50,
+          "catch": 56,
+          "run": 60,
+          "block": 43,
+          "fight": 50,
+          "throw": 49,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 64,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Zweihander",
+          "pregame_ritual": "Seeing who on the team can belch the loudest.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Croteau Osmo",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 68,
+          "catch": 51,
+          "run": 55,
+          "block": 50,
+          "fight": 62,
+          "throw": 52,
+          "luck": 54,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Broadsword",
+          "pregame_ritual": "Tying a red string around their pinky finger.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Pirozzo Opal",
+        "team": "The New Ravenfall Commanders",
+        "stats": {
+          "pass": 47,
+          "catch": 58,
+          "run": 54,
+          "block": 51,
+          "fight": 51,
+          "throw": 53,
+          "luck": 57,
+          "pronouns": "He/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Kriegsmesser",
+          "pregame_ritual": "Sharing a piece of fermented fish with a teammate.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Folks, gather 'round! Let the trumpets BLOW and let the thunder ROAR! Tonight on the legendary plane of Osterra, deep within the treacherous confines of The Serpent's Pass, we witness the Grand Finals Bracket Reset! It is the clash of titans, the ultimate trial by combat! On the home side, battling the dreadful pull of Altitude Sickness and dodging the fury of the Sudden Downpour, it is The Zmeigorod Snessengers! These champions of The Grove have proven their might, drawing the greatest adoration across the realm, but can they withstand the onslaught? And staring across the cobblestone maw of The Serpent's Pass, prepared to shake the very foundations of this ancient ground, are The New Ravenfall Commanders of Eponore! These valiant challengers are hungry, they are fierce, and they seek to claim the undisputed mantle of Trollball supremacy! Before the whistle even blows, the Commander's maestro, Moir Sass, is seen performing her sacred rite—reciting a short, epic poem of past triumphs! A declaration of war, if ever there was one! Will the Ravenfall Commanders manage to claw their way out of the mire and into the scoring zone, or will the Snessengers, who carry the devotion of the multitudes, crush them beneath their massive, mud-caked boots? Goodness, I tell ya, this is going to be a riot of leather, sinew, and pure, unadulterated mayhem!",
+  "postGame": "WHAT A SPECTACLE! WHAT A THUNDERING, SLUDGE-SLOSHING, BLOOD-SOAKED MASTERPIECE OF TROLLBALL! The Serpent's Pass delivered everything it promised! The rockslide threat, the downpour, the sheer, crushing weight of altitude—it was a gauntlet of agony for every warrior upon that field! And though the valiant New Ravenfall Commanders put up a fight worthy of the finest adventurers rescued from the Demon Prison, they could not pierce the glorious, impenetrable wall of the Zmeigorod Snessengers! The action was relentless! Kleinstein MacGregor, the magnificent beast from the home squad, fired a shot from the heart of the field and sunk it! A two-point bomb that shook the very foundations of the castle walls! Then, Delija Dowling, battling the dreadful altitude, drove through the muck, lumbered across the line, and DUNKD IT INTO THE GOAL for the vital one-pointer! Three points! The Snessengers take the lead! We saw the brutal reality of this game in every tackle! Evalyn Pierrepont was injured by the Loredo brute, while Pirozzo Opal was brought down by Avaria Revell's ferocity! And the Commanders' finest, Jessalin Zobias, was downed by Northway Orran! But even in the deluge, the spirit of the Snessengers burns brightest! The ravenfall crew looked magnificent, but their efforts were simply drowned out by the sheer, glorious, primal power of The Grove's warriors! The final tally stands at The Zmeigorod Snessengers three, and The New Ravenfall Commanders at zero! The Snessengers have claimed this round, proving once more that brute force, combined with sheer, glorious grit, conquers all! May the Ebon Gate Corruptors watch this display and weep with envy, for tonight, the Zmeigorod Snessengers reigned supreme!",
+  "week": 0,
+  "homeScore": 3,
+  "awayScore": 0,
+  "slug": "0-zmeigorod-new-ravenfall",
+  "plays": [
+    "The Trollball is picked up by Rose Kluge in zone Center Field",
+    "The rain pours down, soaking Estes Adrian and turning the field to mud.",
+    "Estes Adrian sidesteps a shower of gravel sliding down from the slopes.",
+    "Estes Adrian tries to Tackle Rose Kluge, but misses!",
+    "The rain pours down, soaking Estes Adrian and turning the field to mud.",
+    "Estes Adrian tries to Tackle Delija Dowling, but misses!",
+    "The rain pours down, soaking Fleme Alis and turning the field to mud.",
+    "Fleme Alis tries to Tackle Evalyn Pierrepont, but misses!",
+    "Delija Dowling shakes their head, fighting off a wave of altitude fatigue.",
+    "Delija Dowling tries to Tackle Jozef Pepe, but misses!",
+    "The rain pours down, soaking Jozef Pepe and turning the field to mud.",
+    "Jozef Pepe sidesteps a shower of gravel sliding down from the slopes.",
+    "Jozef Pepe tries to Tackle Alded Sanjay, but misses!",
+    "The rain pours down, soaking Kleinstein MacGregor and turning the field to mud.",
+    "Kleinstein MacGregor sidesteps a shower of gravel sliding down from the slopes.",
+    "Kleinstein MacGregor shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Evalyn Pierrepont in zone Center Field",
+    "Northway Orran Tackles Jessalin Zobias and INJURES THEM!",
+    "The rain pours down, soaking Avaria Revell and turning the field to mud.",
+    "Avaria Revell runs with the ball and advances towards the goal!",
+    "The rain pours down, soaking Delija Dowling and turning the field to mud.",
+    "Delija Dowling tries to run with the ball but is stopped by the defense!",
+    "Rose Kluge shakes their head, fighting off a wave of altitude fatigue.",
+    "Rose Kluge sidesteps a shower of gravel sliding down from the slopes.",
+    "Rhett Gavrilla shakes their head, fighting off a wave of altitude fatigue.",
+    "The rain pours down, soaking Rhett Gavrilla and turning the field to mud.",
+    "Rose Kluge throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Evalyn Pierrepont in zone Away Field",
+    "Alded Sanjay sidesteps a shower of gravel sliding down from the slopes.",
+    "Alded Sanjay runs with the ball and advances towards the goal!",
+    "Alded Sanjay shakes their head, fighting off a wave of altitude fatigue.",
+    "Alded Sanjay sidesteps a shower of gravel sliding down from the slopes.",
+    "Alded Sanjay shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Theis Loredo in zone Away 2-Point",
+    "Evalyn Pierrepont sidesteps a shower of gravel sliding down from the slopes.",
+    "Theis Loredo Tackles Evalyn Pierrepont and INJURES THEM!",
+    "The rain pours down, soaking Jozef Pepe and turning the field to mud.",
+    "Rose Kluge shakes their head, fighting off a wave of altitude fatigue.",
+    "Jozef Pepe throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Dare Wynnie in zone Away 2-Point",
+    "Estes Adrian shakes their head, fighting off a wave of altitude fatigue.",
+    "Estes Adrian tries to Tackle Dare Wynnie, but misses!",
+    "Estes Adrian tries to Tackle Arni Griffith, but misses!",
+    "Alded Sanjay sidesteps a shower of gravel sliding down from the slopes.",
+    "Pirozzo Opal shakes their head, fighting off a wave of altitude fatigue.",
+    "The rain pours down, soaking Pirozzo Opal and turning the field to mud.",
+    "Alded Sanjay throws a wild pass and it is INTERCEPTED by Pirozzo Opal!",
+    "Moir Sass shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Kleinstein MacGregor in zone Away 2-Point",
+    "Delija Dowling shakes their head, fighting off a wave of altitude fatigue.",
+    "Delija Dowling runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Theis Loredo in zone Center Field",
+    "Avaria Revell shakes their head, fighting off a wave of altitude fatigue.",
+    "Avaria Revell sidesteps a shower of gravel sliding down from the slopes.",
+    "Avaria Revell tries to Tackle Pirozzo Opal, but Pirozzo Opal blocks it!",
+    "Moir Sass shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Theis Loredo in zone Center Field",
+    "Avaria Revell Tackles Pirozzo Opal and INJURES THEM!",
+    "Theis Loredo sidesteps a shower of gravel sliding down from the slopes.",
+    "Theis Loredo tries to Tackle Arni Griffith, but misses!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Croteau Osmo in zone Center Field",
+    "Gere Cordelie tries to Tackle Rhett Gavrilla, but Rhett Gavrilla blocks it!",
+    "Estes Adrian tries to Tackle Rose Kluge, but misses!",
+    "Arni Griffith tries to Tackle Croteau Osmo, but Croteau Osmo blocks it!",
+    "Jessalin Zobias sidesteps a shower of gravel sliding down from the slopes.",
+    "Kleinstein MacGregor shakes their head, fighting off a wave of altitude fatigue.",
+    "Jessalin Zobias throws a wild pass and it is INTERCEPTED by Kleinstein MacGregor!",
+    "The rain pours down, soaking Northway Orran and turning the field to mud.",
+    "Croteau Osmo Tackles Northway Orran and INJURES THEM!",
+    "Dusa Curson shakes their head, fighting off a wave of altitude fatigue.",
+    "The rain pours down, soaking Dusa Curson and turning the field to mud.",
+    "Dusa Curson sidesteps a shower of gravel sliding down from the slopes.",
+    "Dusa Curson tries to Tackle Alded Sanjay, but misses!",
+    "Theis Loredo shakes their head, fighting off a wave of altitude fatigue.",
+    "Gere Cordelie sidesteps a shower of gravel sliding down from the slopes.",
+    "Theis Loredo tries to Tackle Gere Cordelie, but Gere Cordelie blocks it!",
+    "Jessalin Zobias Tackles Kleinstein MacGregor and INJURES THEM!",
+    "Pirozzo Opal tries to Tackle Rose Kluge, but misses!",
+    "Evalyn Pierrepont tries to run with the ball but is stopped by the defense!",
+    "Pirozzo Opal shakes their head, fighting off a wave of altitude fatigue.",
+    "Pirozzo Opal tries to Tackle Delija Dowling, but misses!",
+    "Delija Dowling shakes their head, fighting off a wave of altitude fatigue.",
+    "The rain pours down, soaking Delija Dowling and turning the field to mud.",
+    "Rhett Gavrilla Tackles Delija Dowling and INJURES THEM!",
+    "Fleme Alis sidesteps a shower of gravel sliding down from the slopes.",
+    "Fleme Alis tries to Tackle Arni Griffith, but misses!",
+    "Alded Sanjay shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Moir Sass in zone Center Field",
+    "Jozef Pepe sidesteps a shower of gravel sliding down from the slopes.",
+    "Jozef Pepe tries to Tackle Avaria Revell, but misses!",
+    "Theis Loredo tries to Tackle Evalyn Pierrepont, but misses!",
+    "Alded Sanjay tries to Tackle Moir Sass, but misses!",
+    "Evalyn Pierrepont shakes their head, fighting off a wave of altitude fatigue.",
+    "The rain pours down, soaking Evalyn Pierrepont and turning the field to mud.",
+    "Fleme Alis sidesteps a shower of gravel sliding down from the slopes.",
+    "Evalyn Pierrepont tries to Tackle Fleme Alis, but Fleme Alis blocks it!",
+    "Waldon Tadeo has returned Northway Orran to play",
+    "Pirozzo Opal sidesteps a shower of gravel sliding down from the slopes.",
+    "Pirozzo Opal tries to run with the ball but is stopped by the defense!",
+    "Pirozzo Opal tries to run with the ball but is stopped by the defense!",
+    "Waldon Tadeo has returned Kleinstein MacGregor to play",
+    "Rhett Gavrilla sidesteps a shower of gravel sliding down from the slopes.",
+    "Rose Kluge tries to Tackle Rhett Gavrilla, but Rhett Gavrilla blocks it!",
+    "Rhett Gavrilla sidesteps a shower of gravel sliding down from the slopes.",
+    "Rhett Gavrilla tries to Tackle Avaria Revell, but Avaria Revell blocks it!",
+    "Moir Sass tries to Tackle Avaria Revell, but misses!",
+    "Dare Wynnie tries to Tackle Pirozzo Opal, but misses!",
+    "Kleinstein MacGregor tries to Tackle Jessalin Zobias, but misses!"
+  ],
+  "openBar": false,
+  "bracket": "Regular Season",
+  "activeModifiers": ["Altitude Sickness", "Sudden Downpour", "Rockslide"]
+}
