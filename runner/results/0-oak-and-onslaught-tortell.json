@@ -1,0 +1,945 @@
+{
+  "homeTeam": {
+    "name": "Oak & Onslaught",
+    "slug": "oak-and-onslaught",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 52,
+    "sponsor": "The Wardens",
+    "stadium": {
+      "name": "Fletchings Field",
+      "location": "Fletchings",
+      "description": "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
+      "modifiers": ["Shifting Terrain", "Warden's Watch", "Natural Advantages"]
+    },
+    "healer": {
+      "name": "Ahron Latashia",
+      "team": "Oak & Onslaught",
+      "stats": {
+        "pass": 48,
+        "catch": 52,
+        "run": 56,
+        "block": 45,
+        "fight": 64,
+        "throw": 59,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 59,
+        "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+        "literate": true,
+        "favorite_weapon": "Kriegsmesser"
+      }
+    },
+    "players": [
+      {
+        "name": "Milt Casady",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 54,
+          "catch": 57,
+          "run": 54,
+          "block": 65,
+          "fight": 47,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wynnie Faina",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 50,
+          "catch": 64,
+          "run": 66,
+          "block": 55,
+          "fight": 51,
+          "throw": 60,
+          "luck": 71,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Normi Glaudia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 64,
+          "block": 63,
+          "fight": 48,
+          "throw": 60,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Symer Crissy",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 53,
+          "run": 53,
+          "block": 55,
+          "fight": 44,
+          "throw": 63,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Teria Ravo",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 51,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 53,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hole Bowerman",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 39,
+          "catch": 49,
+          "run": 60,
+          "block": 64,
+          "fight": 60,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Milt Casady",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 54,
+          "catch": 57,
+          "run": 54,
+          "block": 65,
+          "fight": 47,
+          "throw": 65,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Blackjack",
+          "pregame_ritual": "Leading the team in a synchronized chant that slowly gets louder.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Wynnie Faina",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 50,
+          "catch": 64,
+          "run": 66,
+          "block": 55,
+          "fight": 51,
+          "throw": 60,
+          "luck": 71,
+          "pronouns": "He/Him",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 72,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Normi Glaudia",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 47,
+          "catch": 52,
+          "run": 64,
+          "block": 63,
+          "fight": 48,
+          "throw": 60,
+          "luck": 62,
+          "pronouns": "He/Him",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 71,
+          "favorite_weapon": "Mallet",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Teria Ravo",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 51,
+          "catch": 48,
+          "run": 54,
+          "block": 58,
+          "fight": 53,
+          "throw": 63,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "War Pick",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      },
+      {
+        "name": "Millham Evangeline",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 48,
+          "run": 56,
+          "block": 44,
+          "fight": 56,
+          "throw": 62,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Bardiche",
+          "pregame_ritual": "Sticking a specific type of feather in their helmet's plume.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Hole Bowerman",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 39,
+          "catch": 49,
+          "run": 60,
+          "block": 64,
+          "fight": 60,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Burying their helmet in the ground and then digging it back up.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Affra Yanaton",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 48,
+          "catch": 50,
+          "run": 63,
+          "block": 57,
+          "fight": 52,
+          "throw": 54,
+          "luck": 60,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Longsword",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Abner Seidel",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 55,
+          "catch": 61,
+          "run": 60,
+          "block": 56,
+          "fight": 54,
+          "throw": 51,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Wearing a specific, garishly colored pair of undergarments.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ema Ulrick",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 54,
+          "run": 57,
+          "block": 57,
+          "fight": 52,
+          "throw": 66,
+          "luck": 52,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Cutlass",
+          "pregame_ritual": "Always putting on their left gauntlet before their right.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Symer Crissy",
+        "team": "Oak & Onslaught",
+        "stats": {
+          "pass": 53,
+          "catch": 53,
+          "run": 53,
+          "block": 55,
+          "fight": 44,
+          "throw": 63,
+          "luck": 58,
+          "pronouns": "She/Her",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Tortell Privateers",
+    "slug": "tortell",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 48,
+    "sponsor": "Cedar Hill",
+    "stadium": {
+      "name": "The Buccaneer's Bowl",
+      "location": "Toast Island Resort",
+      "description": "A flashy, pristine stadium built on a private beach exclusively for resort guests. The field is imported turf, and a massive, puppet kraken in the bay entertains the crowd at halftime.",
+      "modifiers": ["Distracted Tourists", "Blinding Sun", "Resort Security"]
+    },
+    "healer": {
+      "name": "Eugen Zacks",
+      "team": "The Tortell Privateers",
+      "stats": {
+        "pass": 55,
+        "catch": 60,
+        "run": 55,
+        "block": 51,
+        "fight": 65,
+        "throw": 65,
+        "luck": 52,
+        "pronouns": "He/Him",
+        "civic_engagement": 64,
+        "alcohol_tolerance": 55,
+        "favorite_weapon": "Swordstaff",
+        "pregame_ritual": "Slapping their own helmet until their ears ring.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Lilithe Royce",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 52,
+          "catch": 59,
+          "run": 59,
+          "block": 51,
+          "fight": 49,
+          "throw": 57,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Castorina Gies",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 48,
+          "catch": 65,
+          "run": 66,
+          "block": 52,
+          "fight": 59,
+          "throw": 51,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melisande Eustacia",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 70,
+          "catch": 59,
+          "run": 53,
+          "block": 61,
+          "fight": 61,
+          "throw": 39,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Loralee Sunny",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 46,
+          "catch": 54,
+          "run": 60,
+          "block": 59,
+          "fight": 53,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kidder Starkey",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 59,
+          "run": 65,
+          "block": 64,
+          "fight": 57,
+          "throw": 58,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Keisling Damalas",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 53,
+          "block": 63,
+          "fight": 64,
+          "throw": 63,
+          "luck": 46,
+          "pronouns": "He/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Goldberg Tova",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 62,
+          "block": 65,
+          "fight": 66,
+          "throw": 54,
+          "luck": 65,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Ellan Elburt",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 51,
+          "catch": 57,
+          "run": 54,
+          "block": 50,
+          "fight": 64,
+          "throw": 59,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Payson Jan",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 60,
+          "block": 56,
+          "fight": 59,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dib Tufts",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 63,
+          "catch": 60,
+          "run": 57,
+          "block": 59,
+          "fight": 58,
+          "throw": 62,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Lilithe Royce",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 52,
+          "catch": 59,
+          "run": 59,
+          "block": 51,
+          "fight": 49,
+          "throw": 57,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "Mace",
+          "pregame_ritual": "Sticking leeches to their legs to 'lighten their step'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Castorina Gies",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 48,
+          "catch": 65,
+          "run": 66,
+          "block": 52,
+          "fight": 59,
+          "throw": 51,
+          "luck": 56,
+          "pronouns": "He/Him",
+          "civic_engagement": 56,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Sickle",
+          "pregame_ritual": "Bribing a local oracle with a meat pie for a vague prophecy.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Melisande Eustacia",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 70,
+          "catch": 59,
+          "run": 53,
+          "block": 61,
+          "fight": 61,
+          "throw": 39,
+          "luck": 52,
+          "pronouns": "He/Him",
+          "civic_engagement": 44,
+          "alcohol_tolerance": 64,
+          "favorite_weapon": "Talwar",
+          "pregame_ritual": "Reviewing hand signals for secret plays.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Loralee Sunny",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 46,
+          "catch": 54,
+          "run": 60,
+          "block": 59,
+          "fight": 53,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "She/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Reading their own fortune in a scattering of knuckle bones.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kidder Starkey",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 59,
+          "run": 65,
+          "block": 64,
+          "fight": 57,
+          "throw": 58,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Thanking their armor for the protection it's about to offer.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Goldberg Tova",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 50,
+          "catch": 58,
+          "run": 62,
+          "block": 65,
+          "fight": 66,
+          "throw": 54,
+          "luck": 65,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Glaive",
+          "pregame_ritual": "Doing a series of loud, guttural breathing exercises.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Payson Jan",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 60,
+          "block": 56,
+          "fight": 59,
+          "throw": 63,
+          "luck": 55,
+          "pronouns": "He/Him",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dib Tufts",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 63,
+          "catch": 60,
+          "run": 57,
+          "block": 59,
+          "fight": 58,
+          "throw": 62,
+          "luck": 58,
+          "pronouns": "He/Them",
+          "civic_engagement": 49,
+          "alcohol_tolerance": 48,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Ellan Elburt",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 51,
+          "catch": 57,
+          "run": 54,
+          "block": 50,
+          "fight": 64,
+          "throw": 59,
+          "luck": 44,
+          "pronouns": "He/Them",
+          "civic_engagement": 48,
+          "alcohol_tolerance": 44,
+          "favorite_weapon": "Tabar",
+          "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Keisling Damalas",
+        "team": "The Tortell Privateers",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 53,
+          "block": 63,
+          "fight": 64,
+          "throw": 63,
+          "luck": 46,
+          "pronouns": "He/Them",
+          "civic_engagement": 65,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Painting their teeth with a mixture of charcoal and water.",
+          "literate": false
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "preGame": "Well, howdy, sports fans, and welcome to the grandest spectacle of muscle and mayhem on the entire plane of Osterra! This is it, folks, the ultimate clash in the Grand Finals Bracket Reset! The Tortell Privateers, fresh off their dazzling run, take the field against the mighty Oak & Onslaught, all in the glorious setting of The Buccaneer's Bowl at Toast Island Resort! Golly, the atmosphere here is electric, folks, and with those Distracted Tourists and that Blinding Sun beating down, the action is guaranteed to be as unpredictable as a rogue Fey! \n\nThe Tortell Privateers, backed by the fine patrons of Cedar Hill, are ready to prove they are the true masters of chaos! Watch them, folks! I hear their healer, Eugen Zacks, is already slapping his own helmet until his ears ring—a fine ritual for focusing the fury! And Lilithe Royce, bless her heart, she's got leeches stuck to her legs to 'lighten her step'! We expect her to dance across that turf and leave a trail of opponents in her wake! \n\nBut let us not dismiss the rugged warriors of Oak & Onslaught! They are the champions of the Warden lands, and they march out here under the watchful gaze of their own protectors! They bring the grit, they bring the terrain mastery, and with Modifiers like Shifting Terrain thrown in, they are ready to throw down! We'll see if their famed dedication can overcome the glittering finesse of the Tortell crew! Can the Privateers outmaneuver the onslaught, or will Oak & Onslaught prove too much for this pristine stadium? Tune in, folks, because this is going to be a brawl!",
+  "postGame": "Huzzah! What a titanic tussle! What a display of raw, glorious Trollball action here at The Buccaneer's Bowl! The dust has settled, the last tackle has been made, and the score reads: The Tortell Privateers take the victory over Oak & Onslaught, 4 to 0! A magnificent performance from the Privateers, folks, truly! \n\nFrom the opening whistle, the violence was staggering! Dib Tufts of the Tortell Privateers found the end zone early with a powerful carry, but it was Loralee Sunny who delivered the first truly masterful shot from the Center Field! And don't forget that second, equally breathtaking point when Dib Tufts struck again! Oak & Onslaught just couldn't find their footing against that slick Tortell offense! \n\nWe saw tackles flying left and right! Melisande Eustacia was brought down by the terrain shift and later by a nasty strike from Millham Evangeline, proving that even a Talwar-wielding champion can be humbled by a poorly placed boot! The shifting turf here at the resort stadium made the Oak players look like they were trying to run on a churning sea, but the Privateers, led by the magnificent Lilithe Royce, kept the ball moving with such grace! \n\nAnd oh, the fight! Goldberg Tova hammered Symer Crissy, and even after Ahron Latashia brought the poor warrior back to the field, the Privateers pressed the advantage! Oak & Onslaught simply could not crack the code against the Tortell machine! While the Haven Lights might have their own meager fan base, the Tortell Privateers have proven they are the ones to watch! A spectacular win for the Privateers, and a huge step toward claiming the championship crown! What a game!",
+  "week": 0,
+  "homeScore": 0,
+  "awayScore": 4,
+  "slug": "0-oak-and-onslaught-tortell",
+  "plays": [
+    "The Trollball is picked up by Lilithe Royce in zone Center Field",
+    "Keisling Damalas tries to run with the ball but is stopped by the defense!",
+    "Loralee Sunny throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Lilithe Royce in zone Center Field",
+    "Teria Ravo capitalizes on their familiarity with the home terrain.",
+    "Teria Ravo tries to Tackle Payson Jan, but misses!",
+    "The soil shifts under Melisande Eustacia's boots, throwing them off balance.",
+    "Melisande Eustacia tries to run with the ball but is stopped by the defense!",
+    "Goldberg Tova tries to run with the ball but is stopped by the defense!",
+    "Castorina Gies runs with the ball and advances towards the goal!",
+    "Teria Ravo tries to Tackle Lilithe Royce, but misses!",
+    "Millham Evangeline tries to Tackle Payson Jan, but misses!",
+    "Melisande Eustacia tries to Tackle Millham Evangeline, but misses!",
+    "The soil shifts under Milt Casady's boots, throwing them off balance.",
+    "Milt Casady tries to Tackle Kidder Starkey, but misses!",
+    "Wynnie Faina pulls back slightly under the watchful gaze of the warden.",
+    "Goldberg Tova pulls back slightly under the watchful gaze of the warden.",
+    "Wynnie Faina tries to Tackle Goldberg Tova, but Goldberg Tova blocks it!",
+    "The soil shifts under Millham Evangeline's boots, throwing them off balance.",
+    "Millham Evangeline Tackles Melisande Eustacia and INJURES THEM!",
+    "Goldberg Tova Tackles Symer Crissy and INJURES THEM!",
+    "The soil shifts under Loralee Sunny's boots, throwing them off balance.",
+    "The soil shifts under Teria Ravo's boots, throwing them off balance.",
+    "Teria Ravo pulls back slightly under the watchful gaze of the warden.",
+    "Loralee Sunny throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Teria Ravo in zone Home Field",
+    "Ema Ulrick capitalizes on their familiarity with the home terrain.",
+    "Ema Ulrick runs with the ball and advances towards the goal!",
+    "Milt Casady pulls back slightly under the watchful gaze of the warden.",
+    "Milt Casady runs with the ball and advances towards the goal!",
+    "Normi Glaudia pulls back slightly under the watchful gaze of the warden.",
+    "Normi Glaudia passes the ball to Abner Seidel!",
+    "Loralee Sunny tries to Tackle Ema Ulrick, but misses!",
+    "Eugen Zacks has returned Melisande Eustacia to play",
+    "The soil shifts under Affra Yanaton's boots, throwing them off balance.",
+    "Affra Yanaton throws a wild pass and it is INTERCEPTED by Payson Jan!",
+    "Dib Tufts shoots from Away Field and SCORES!",
+    "The Trollball is picked up by Keisling Damalas in zone Center Field",
+    "Ellan Elburt passes the ball to Keisling Damalas!",
+    "Loralee Sunny shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Hole Bowerman in zone Center Field",
+    "Keisling Damalas tries to Tackle Normi Glaudia, but Normi Glaudia blocks it!",
+    "Ahron Latashia has returned Symer Crissy to play",
+    "Teria Ravo pulls back slightly under the watchful gaze of the warden.",
+    "Teria Ravo capitalizes on their familiarity with the home terrain.",
+    "Teria Ravo throws a wild pass and it lands on the ground!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Castorina Gies in zone Center Field",
+    "Castorina Gies shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Loralee Sunny in zone Center Field",
+    "Wynnie Faina pulls back slightly under the watchful gaze of the warden.",
+    "Wynnie Faina tries to Tackle Keisling Damalas, but misses!",
+    "Wynnie Faina pulls back slightly under the watchful gaze of the warden.",
+    "Wynnie Faina tries to Tackle Melisande Eustacia, but misses!",
+    "Ellan Elburt tries to run with the ball but is stopped by the defense!",
+    "The soil shifts under Dib Tufts's boots, throwing them off balance.",
+    "Dib Tufts shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Millham Evangeline in zone Center Field",
+    "Castorina Gies tries to Tackle Abner Seidel, but Abner Seidel blocks it!",
+    "Millham Evangeline capitalizes on their familiarity with the home terrain.",
+    "Millham Evangeline tries to run with the ball but is stopped by the defense!",
+    "Wynnie Faina tries to run with the ball but is stopped by the defense!",
+    "Melisande Eustacia tries to Tackle Millham Evangeline, but misses!",
+    "Castorina Gies pulls back slightly under the watchful gaze of the warden.",
+    "Castorina Gies tries to Tackle Symer Crissy, but Symer Crissy blocks it!",
+    "The soil shifts under Payson Jan's boots, throwing them off balance.",
+    "Payson Jan tries to Tackle Affra Yanaton, but misses!",
+    "Millham Evangeline runs with the ball and advances towards the goal!",
+    "Ema Ulrick capitalizes on their familiarity with the home terrain.",
+    "Ema Ulrick tries to run with the ball but is stopped by the defense!",
+    "Milt Casady throws a wild pass and it is INTERCEPTED by Melisande Eustacia!",
+    "Symer Crissy tries to Tackle Dib Tufts, but misses!",
+    "Ellan Elburt tries to run with the ball but is stopped by the defense!",
+    "The soil shifts under Ellan Elburt's boots, throwing them off balance.",
+    "Symer Crissy Tackles Ellan Elburt and INJURES THEM!",
+    "The soil shifts under Symer Crissy's boots, throwing them off balance.",
+    "Symer Crissy pulls back slightly under the watchful gaze of the warden.",
+    "Symer Crissy tries to Tackle Payson Jan, but misses!",
+    "Normi Glaudia tries to Tackle Payson Jan, but misses!",
+    "Eugen Zacks has returned Ellan Elburt to play",
+    "Keisling Damalas pulls back slightly under the watchful gaze of the warden.",
+    "Wynnie Faina Tackles Keisling Damalas and INJURES THEM!",
+    "The soil shifts under Loralee Sunny's boots, throwing them off balance.",
+    "Loralee Sunny pulls back slightly under the watchful gaze of the warden.",
+    "Loralee Sunny Tackles Symer Crissy and INJURES THEM!",
+    "Payson Jan runs with the ball and advances towards the goal!",
+    "The soil shifts under Ellan Elburt's boots, throwing them off balance.",
+    "Ellan Elburt passes the ball to Lilithe Royce!",
+    "Eugen Zacks has returned Keisling Damalas to play",
+    "Ahron Latashia has returned Symer Crissy to play"
+  ],
+  "openBar": false,
+  "bracket": "Regular Season",
+  "activeModifiers": [
+    "Shifting Terrain",
+    "Warden's Watch",
+    "Natural Advantages"
+  ]
+}

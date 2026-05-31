@@ -1,0 +1,953 @@
+{
+  "homeTeam": {
+    "name": "The Confluence Captains",
+    "slug": "confluence",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 60,
+    "sponsor": "The Guild of the Black Sky",
+    "stadium": {
+      "name": "The Glowstone Terrace",
+      "location": "Confluence (World's Spine Mountains)",
+      "description": "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
+      "modifiers": ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"]
+    },
+    "healer": {
+      "name": "Kant Langill",
+      "team": "The Confluence Captains",
+      "stats": {
+        "pass": 51,
+        "catch": 55,
+        "run": 54,
+        "block": 49,
+        "fight": 59,
+        "throw": 59,
+        "luck": 65,
+        "pronouns": "He/Him",
+        "civic_engagement": 68,
+        "alcohol_tolerance": 65,
+        "favorite_weapon": "Scimitar",
+        "pregame_ritual": "Doing a terrible, clumsy dance to 'loosen the joints'.",
+        "literate": true
+      }
+    },
+    "players": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Ladew Evelina",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 65,
+          "run": 58,
+          "block": 63,
+          "fight": 65,
+          "throw": 64,
+          "luck": 71,
+          "pronouns": "She/Them",
+          "civic_engagement": 46,
+          "alcohol_tolerance": 56,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Deach Sharlene",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 55,
+          "run": 52,
+          "block": 52,
+          "fight": 52,
+          "throw": 56,
+          "luck": 62,
+          "pronouns": "He/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 60,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Stephan Lisk",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 57,
+          "run": 55,
+          "block": 59,
+          "fight": 60,
+          "throw": 56,
+          "luck": 51,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Pollaxe",
+          "pregame_ritual": "Arm-wrestling the player who plays the same position on their team.",
+          "literate": true
+        }
+      },
+      {
+        "name": "O'Conner Maighdlin",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 56,
+          "catch": 66,
+          "run": 66,
+          "block": 60,
+          "fight": 62,
+          "throw": 54,
+          "luck": 59,
+          "pronouns": "He/Him",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Hatchet",
+          "pregame_ritual": "Speaking only in rhymes for the hour before the game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Belding Chloe",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 53,
+          "catch": 65,
+          "run": 62,
+          "block": 72,
+          "fight": 58,
+          "throw": 61,
+          "luck": 42,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 47,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Rubbing the Trollball on their armpits for 'grip'.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Behl Berstine",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 58,
+          "run": 65,
+          "block": 59,
+          "fight": 42,
+          "throw": 58,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Axe",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Caves Cestar",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 54,
+          "catch": 52,
+          "run": 63,
+          "block": 50,
+          "fight": 60,
+          "throw": 55,
+          "luck": 66,
+          "pronouns": "He/Him",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 54,
+          "favorite_weapon": "Maul",
+          "pregame_ritual": "Going over the game plan drawn in the dirt with the team captain.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Vonni Geoff",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 60,
+          "catch": 62,
+          "run": 57,
+          "block": 51,
+          "fight": 49,
+          "throw": 49,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 67,
+          "alcohol_tolerance": 65,
+          "favorite_weapon": "Sap",
+          "pregame_ritual": "Covering their forearms in a sticky tree sap for 'grip'.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Carnahan Laud",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 46,
+          "catch": 63,
+          "run": 73,
+          "block": 49,
+          "fight": 59,
+          "throw": 53,
+          "luck": 60,
+          "pronouns": "She/Her",
+          "civic_engagement": 62,
+          "alcohol_tolerance": 68,
+          "favorite_weapon": "Lance",
+          "pregame_ritual": "Eating a dandelion, stem and all.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Richia Pazit",
+        "team": "The Confluence Captains",
+        "stats": {
+          "pass": 61,
+          "catch": 42,
+          "run": 57,
+          "block": 55,
+          "fight": 45,
+          "throw": 50,
+          "luck": 59,
+          "pronouns": "They/Them",
+          "civic_engagement": 55,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Pike",
+          "pregame_ritual": "Headbutting their own team's goal post (gently).",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": []
+  },
+  "awayTeam": {
+    "name": "The Zmeigorod Snessengers",
+    "slug": "zmeigorod",
+    "losses": 0,
+    "wins": 0,
+    "score": 0,
+    "luck": 53,
+    "sponsor": "The Grove",
+    "stadium": {
+      "name": "The Serpent's Pass",
+      "location": "Zmeigorod, just west of the lumber mill",
+      "modifiers": ["Altitude Sickness", "Sudden Downpour", "Rockslide"],
+      "description": "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it."
+    },
+    "healer": {
+      "name": "Waldon Tadeo",
+      "team": "The Zmeigorod Snessengers",
+      "stats": {
+        "pass": 56,
+        "catch": 65,
+        "run": 55,
+        "block": 56,
+        "fight": 54,
+        "throw": 60,
+        "luck": 50,
+        "pronouns": "She/Them",
+        "civic_engagement": 56,
+        "alcohol_tolerance": 53,
+        "favorite_weapon": "Battle Axe",
+        "pregame_ritual": "Rubbing a foul-smelling local mushroom on their elbows for flexibility.",
+        "literate": false
+      }
+    },
+    "players": [
+      {
+        "name": "Delija Dowling",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 55,
+          "run": 50,
+          "block": 51,
+          "fight": 53,
+          "throw": 56,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Northway Orran",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Evalyn Pierrepont",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 66,
+          "block": 54,
+          "fight": 48,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Rose Kluge",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 63,
+          "block": 49,
+          "fight": 52,
+          "throw": 52,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Gere Cordelie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 55,
+          "catch": 47,
+          "run": 42,
+          "block": 68,
+          "fight": 53,
+          "throw": 48,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 47,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true,
+          "favorite_weapon": "Spiked Gauntlet"
+        }
+      },
+      {
+        "name": "Kleinstein MacGregor",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 43,
+          "catch": 59,
+          "run": 61,
+          "block": 53,
+          "fight": 52,
+          "throw": 59,
+          "luck": 68,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Avaria Revell",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 53,
+          "catch": 46,
+          "run": 67,
+          "block": 50,
+          "fight": 54,
+          "throw": 57,
+          "luck": 61,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Alded Sanjay",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 45,
+          "catch": 61,
+          "run": 56,
+          "block": 54,
+          "fight": 51,
+          "throw": 61,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Arni Griffith",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 62,
+          "run": 43,
+          "block": 56,
+          "fight": 51,
+          "throw": 55,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Dare Wynnie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 64,
+          "catch": 54,
+          "run": 50,
+          "block": 54,
+          "fight": 62,
+          "throw": 52,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+          "literate": false
+        }
+      }
+    ],
+    "activePlayers": [
+      {
+        "name": "Delija Dowling",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 55,
+          "run": 50,
+          "block": 51,
+          "fight": 53,
+          "throw": 56,
+          "luck": 58,
+          "pronouns": "He/Him",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Chugging a raw egg, shell and all.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Rose Kluge",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 51,
+          "catch": 54,
+          "run": 63,
+          "block": 49,
+          "fight": 52,
+          "throw": 52,
+          "luck": 55,
+          "pronouns": "She/Her",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 46,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Tensing every muscle in their body at once, then releasing.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Alded Sanjay",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 45,
+          "catch": 61,
+          "run": 56,
+          "block": 54,
+          "fight": 51,
+          "throw": 61,
+          "luck": 57,
+          "pronouns": "He/Him",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 51,
+          "favorite_weapon": "War Scythe",
+          "pregame_ritual": "Looking each teammate in the eye and giving a single, firm nod.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Arni Griffith",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 47,
+          "catch": 62,
+          "run": 43,
+          "block": 56,
+          "fight": 51,
+          "throw": 55,
+          "luck": 53,
+          "pronouns": "He/Them",
+          "civic_engagement": 47,
+          "alcohol_tolerance": 49,
+          "favorite_weapon": "Woodsman's Axe",
+          "pregame_ritual": "Giving the Trollball a heroic backstory before each game.",
+          "literate": true
+        }
+      }
+    ],
+    "inactivePlayers": [
+      {
+        "name": "Gere Cordelie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 55,
+          "catch": 47,
+          "run": 42,
+          "block": 68,
+          "fight": 53,
+          "throw": 48,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 47,
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": true,
+          "favorite_weapon": "Spiked Gauntlet"
+        }
+      },
+      {
+        "name": "Avaria Revell",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 53,
+          "catch": 46,
+          "run": 67,
+          "block": 50,
+          "fight": 54,
+          "throw": 57,
+          "luck": 61,
+          "pronouns": "She/Her",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Bastard Sword",
+          "pregame_ritual": "Sharing a ceremonial, non-alcoholic grog from a communal cup.",
+          "literate": true
+        }
+      },
+      {
+        "name": "Kleinstein MacGregor",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 43,
+          "catch": 59,
+          "run": 61,
+          "block": 53,
+          "fight": 52,
+          "throw": 59,
+          "luck": 68,
+          "pronouns": "She/Her",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Clapping their hands a prime number of times.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Evalyn Pierrepont",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 57,
+          "catch": 49,
+          "run": 66,
+          "block": 54,
+          "fight": 48,
+          "throw": 50,
+          "luck": 53,
+          "pronouns": "He/Him",
+          "civic_engagement": 53,
+          "alcohol_tolerance": 66,
+          "favorite_weapon": "Seax",
+          "pregame_ritual": "Polishing their helmet with a live snail for good luck.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Dare Wynnie",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 64,
+          "catch": 54,
+          "run": 50,
+          "block": 54,
+          "fight": 62,
+          "throw": 52,
+          "luck": 59,
+          "pronouns": "She/Them",
+          "civic_engagement": 60,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Quarterstaff",
+          "pregame_ritual": "Painting a single, matching stripe of mud on each player's face.",
+          "literate": false
+        }
+      },
+      {
+        "name": "Northway Orran",
+        "team": "The Zmeigorod Snessengers",
+        "stats": {
+          "pass": 54,
+          "catch": 49,
+          "run": 60,
+          "block": 55,
+          "fight": 66,
+          "throw": 53,
+          "luck": 53,
+          "pronouns": "She/Them",
+          "civic_engagement": 58,
+          "alcohol_tolerance": 59,
+          "favorite_weapon": "Machete",
+          "pregame_ritual": "Performing a series of aggressive, theatrical poses.",
+          "literate": false
+        }
+      }
+    ]
+  },
+  "preGame": "Huzzah! Gather 'round, faithful denizens of Osterra, for the clash of Titans upon the hallowed ground of The Glowstone Terrace! This is it, friends, the Grand Finals Bracket Reset! The New Monteforte Chaos Creatures have defied the prophecies of mediocrity to claw their way into this ultimate battle, and they face the vaunted Confluence Captains! Will the mighty Snessengers from Zmeigorod bring their swampy, unrelenting fury to the mountain air? Or will the polished precision of the Captains claim this glorious victory? The very stadium, bathed in that blinding Glowstone Glare, seems poised to amplify the chaos, while the Market Day Crowd roars with anticipation! Before the whistle shrieks, we see Alded Sanjay of Zmeigorod performing his solemn rite, looking each warrior in the eye and giving a single, firm nod—a promise of bloodshed! Can these brave souls endure the Mountain Wind and the sheer ferocity of Trollball? Good heavens, I hope they can! For the Ebon Gate Corruptors cheer for utter, glorious carnage!",
+  "postGame": "What a spectacle! What a display of sheer, unadulterated Trollball madness! The Confluence Captains, despite the suffocating Mountain Wind and the blinding luminescence of their home pitch, managed to hold firm, edging out the Zmeigorod Snessengers with a final score of 2 to 1! The action was relentless from the opening whistle; we witnessed Dare Wynnie deliver a crushing blow to O'Conner Maighdlin, sending him flying into the turf! The Captains then seized the momentum, first through a stunning dunk by Kleinstein MacGregor, who plowed through the defenses of Zmeigorod, and then, later in the half, a magnificent score by Ladew Evelina! The Snessengers, bless their gritty hearts, managed one moment of brilliance, seeing Alded Sanjay receive a glorious interception, before they were ultimately subdued! Oh, the carnage! Evalyn Pierrepont, Arni Griffith, and O'Conner Maighdlin all went down in the pile, testament to the beautiful brutality of this sport! While those pompous heroes of the realm fuss about their political maneuvering, these gladiators are proving that true power lies not in a decree, but in a well-aimed tackle! The Captains take the first blood, but the Corruptors are ready to cheer the absolute annihilation of every opposing player on this fine day!",
+  "week": 0,
+  "homeScore": 2,
+  "awayScore": 1,
+  "slug": "0-confluence-zmeigorod",
+  "plays": [
+    "The Trollball is picked up by Behl Berstine in zone Center Field",
+    "Rose Kluge tries to Tackle Stephan Lisk, but misses!",
+    "Kleinstein MacGregor tries to Tackle Richia Pazit, but misses!",
+    "Dare Wynnie Tackles O'Conner Maighdlin and INJURES THEM!",
+    "Ladew Evelina shields their eyes from the blinding glowstone glare.",
+    "Deach Sharlene passes the ball to Ladew Evelina, but they drop it!",
+    "The Trollball is picked up by Alded Sanjay in zone Center Field",
+    "Avaria Revell runs with the ball and advances towards the goal!",
+    "Evalyn Pierrepont shields their eyes from the blinding glowstone glare.",
+    "Dare Wynnie shields their eyes from the blinding glowstone glare.",
+    "Evalyn Pierrepont passes the ball to Dare Wynnie, but they drop it!",
+    "The Trollball is picked up by Evalyn Pierrepont in zone Home Field",
+    "Caves Cestar Tackles Arni Griffith and INJURES THEM!",
+    "Kleinstein MacGregor shields their eyes from the blinding glowstone glare.",
+    "Kleinstein MacGregor runs with the ball and advances towards the goal!",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "Kleinstein MacGregor runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "The Trollball is picked up by Kleinstein MacGregor in zone Center Field",
+    "Ladew Evelina shields their eyes from the blinding glowstone glare.",
+    "The roaring market day crowd cheers enthusiastically for Ladew Evelina!",
+    "Ladew Evelina tries to Tackle Rose Kluge, but Rose Kluge blocks it!",
+    "Richia Pazit tries to Tackle Gere Cordelie, but Gere Cordelie blocks it!",
+    "The roaring market day crowd cheers enthusiastically for Avaria Revell!",
+    "Avaria Revell throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Caves Cestar in zone Center Field",
+    "Ladew Evelina throws a wild pass and it is INTERCEPTED by Alded Sanjay!",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "The roaring market day crowd cheers enthusiastically for Richia Pazit!",
+    "Richia Pazit tries to Tackle Northway Orran, but misses!",
+    "Delija Dowling shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Belding Chloe in zone Center Field",
+    "Stephan Lisk shields their eyes from the blinding glowstone glare.",
+    "Stephan Lisk shoots from Center Field but misses the goal!",
+    "The Trollball is picked up by Deach Sharlene in zone Center Field",
+    "Evalyn Pierrepont tries to Tackle Carnahan Laud, but misses!",
+    "Ladew Evelina shoots from Center Field and SCORES!",
+    "The Trollball is picked up by Richia Pazit in zone Center Field",
+    "Waldon Tadeo has returned Arni Griffith to play",
+    "Kant Langill has returned O'Conner Maighdlin to play",
+    "Behl Berstine throws a wild pass and it is INTERCEPTED by Dare Wynnie!",
+    "The roaring market day crowd cheers enthusiastically for Stephan Lisk!",
+    "Alded Sanjay tries to Tackle Stephan Lisk, but Stephan Lisk blocks it!",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "Vonni Geoff Tackles Evalyn Pierrepont and INJURES THEM!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Kleinstein MacGregor in zone Center Field",
+    "Behl Berstine shields their eyes from the blinding glowstone glare.",
+    "The roaring market day crowd cheers enthusiastically for Behl Berstine!",
+    "Behl Berstine tries to Tackle Dare Wynnie, but misses!",
+    "Deach Sharlene tries to Tackle Kleinstein MacGregor, but misses!",
+    "Belding Chloe tries to Tackle Northway Orran, but misses!",
+    "The roaring market day crowd cheers enthusiastically for Behl Berstine!",
+    "Rose Kluge shields their eyes from the blinding glowstone glare.",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "Behl Berstine tries to Tackle Rose Kluge, but Rose Kluge blocks it!",
+    "Ladew Evelina tries to Tackle Evalyn Pierrepont, but Evalyn Pierrepont blocks it!",
+    "The roaring market day crowd cheers enthusiastically for Kleinstein MacGregor!",
+    "Kleinstein MacGregor runs with the ball and advances towards the goal!",
+    "The roaring market day crowd cheers enthusiastically for Arni Griffith!",
+    "Arni Griffith tries to run with the ball but is stopped by the defense!",
+    "Arni Griffith tries to Tackle Caves Cestar, but misses!",
+    "Evalyn Pierrepont shields their eyes from the blinding glowstone glare.",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "The roaring market day crowd cheers enthusiastically for Evalyn Pierrepont!",
+    "Vonni Geoff tries to Tackle Evalyn Pierrepont, but Evalyn Pierrepont blocks it!",
+    "Richia Pazit tries to Tackle Arni Griffith, but misses!",
+    "Stephan Lisk tries to Tackle Delija Dowling, but misses!",
+    "The roaring market day crowd cheers enthusiastically for O'Conner Maighdlin!",
+    "O'Conner Maighdlin Tackles Gere Cordelie and INJURES THEM!",
+    "The roaring market day crowd cheers enthusiastically for Avaria Revell!",
+    "O'Conner Maighdlin Tackles Avaria Revell and INJURES THEM!",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "The roaring market day crowd cheers enthusiastically for Caves Cestar!",
+    "Caves Cestar tries to Tackle Arni Griffith, but Arni Griffith blocks it!",
+    "Stephan Lisk Tackles Kleinstein MacGregor and INJURES THEM!",
+    "Richia Pazit Tackles Evalyn Pierrepont and INJURES THEM!",
+    "Belding Chloe Tackles Dare Wynnie and INJURES THEM!",
+    "Carnahan Laud tries to Tackle Delija Dowling, but misses!",
+    "Stephan Lisk shields their eyes from the blinding glowstone glare.",
+    "Stephan Lisk tries to Tackle Alded Sanjay, but misses!",
+    "Behl Berstine tries to Tackle Delija Dowling, but misses!",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "Northway Orran shields their eyes from the blinding glowstone glare.",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "O'Conner Maighdlin Tackles Northway Orran and INJURES THEM!",
+    "Caves Cestar tries to Tackle Arni Griffith, but Arni Griffith blocks it!",
+    "The roaring market day crowd cheers enthusiastically for Alded Sanjay!",
+    "Alded Sanjay shoots from Home Field but misses the goal!",
+    "The Trollball is picked up by Rose Kluge in zone Home Field",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "Ladew Evelina tries to Tackle Delija Dowling, but Delija Dowling blocks it!",
+    "Carnahan Laud shields their eyes from the blinding glowstone glare.",
+    "Delija Dowling throws a wild pass and it is INTERCEPTED by Carnahan Laud!",
+    "The roaring market day crowd cheers enthusiastically for Belding Chloe!",
+    "Deach Sharlene passes the ball to Belding Chloe!",
+    "Stephan Lisk shields their eyes from the blinding glowstone glare.",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "The roaring market day crowd cheers enthusiastically for Stephan Lisk!",
+    "A sudden gust of mountain wind sweeps across the pitch.",
+    "Stephan Lisk throws a wild pass and it lands on the ground!"
+  ],
+  "openBar": false,
+  "bracket": "Regular Season",
+  "activeModifiers": ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"]
+}
