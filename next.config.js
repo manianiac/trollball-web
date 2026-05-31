@@ -16,6 +16,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+
+  transpilePackages: [
+    "@trollball/shared",
+    "@trollball/simulator",
+    "@trollball/runner",
+  ],
 };
 
 module.exports = nextConfig;

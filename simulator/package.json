@@ -1,0 +1,10 @@
+{
+  "name": "@trollball/simulator",
+  "version": "1.0.0",
+  "private": true,
+  "main": "gameRunner.ts",
+  "dependencies": {
+    "@google/genai": "^1.29.1",
+    "@trollball/shared": "*"
+  }
+}

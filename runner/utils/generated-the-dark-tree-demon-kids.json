@@ -1,0 +1,231 @@
+{
+  "name": "The Dark Tree Demon Kids",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 51,
+  "stadium": {
+    "name": "The Whispering Canopy",
+    "location": "The Grove (Deepwoods)",
+    "description": "A pitch surrounded by gnarled, dark trees with glowing eyes, where the roots themselves seem to reach for the ball.",
+    "modifiers": ["Grasping Roots", "Eerie Whispers", "Dark Forest"]
+  },
+  "healer": {
+    "name": "Bilski Sells",
+    "team": "The Dark Tree Demon Kids",
+    "stats": {
+      "pass": 56,
+      "catch": 52,
+      "run": 52,
+      "block": 57,
+      "fight": 53,
+      "throw": 52,
+      "luck": 56,
+      "pronouns": "He/Him",
+      "civic_engagement": 53,
+      "alcohol_tolerance": 52,
+      "current_alcohol": 0,
+      "favorite_weapon": "Scythe",
+      "pregame_ritual": "Attempting to communicate with birds.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Irma Patterman",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 56,
+        "catch": 50,
+        "run": 55,
+        "block": 54,
+        "fight": 44,
+        "throw": 51,
+        "luck": 55,
+        "civic_engagement": 67,
+        "alcohol_tolerance": 49,
+        "current_alcohol": 0,
+        "favorite_weapon": "Dane Axe",
+        "pregame_ritual": "Eating a dandelion, stem and all.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Cunningham Mapel",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 57,
+        "catch": 45,
+        "run": 61,
+        "block": 48,
+        "fight": 63,
+        "throw": 59,
+        "luck": 56,
+        "pronouns": "He/Him",
+        "civic_engagement": 64,
+        "alcohol_tolerance": 73,
+        "current_alcohol": 0,
+        "favorite_weapon": "Claymore",
+        "pregame_ritual": "Mimicking the call of the regional 'Gloom-Lark' for courage.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Far Studner",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 55,
+        "catch": 55,
+        "run": 67,
+        "block": 59,
+        "fight": 51,
+        "throw": 54,
+        "luck": 58,
+        "pronouns": "They/Them",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 69,
+        "current_alcohol": 0,
+        "favorite_weapon": "Boar Spear",
+        "pregame_ritual": "Painting a crude, snarling face on their stomach.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Shinberg Weasner",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 68,
+        "catch": 56,
+        "run": 47,
+        "block": 45,
+        "fight": 56,
+        "throw": 56,
+        "luck": 55,
+        "pronouns": "They/Them",
+        "civic_engagement": 49,
+        "alcohol_tolerance": 55,
+        "current_alcohol": 0,
+        "favorite_weapon": "Flail",
+        "pregame_ritual": "Tying a small, hand-carved wooden bird to their gear.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Bor Jordanna",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 58,
+        "catch": 55,
+        "run": 47,
+        "block": 48,
+        "fight": 49,
+        "throw": 54,
+        "luck": 55,
+        "civic_engagement": 43,
+        "alcohol_tolerance": 53,
+        "current_alcohol": 0,
+        "favorite_weapon": "Voulge",
+        "pregame_ritual": "Trying to teach a stray dog a complicated and useless new trick.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Daniyal Velda",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 62,
+        "catch": 61,
+        "run": 64,
+        "block": 39,
+        "fight": 45,
+        "throw": 37,
+        "luck": 57,
+        "pronouns": "She/Her",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 60,
+        "current_alcohol": 0,
+        "favorite_weapon": "Sickle",
+        "pregame_ritual": "Attempting to communicate with birds.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Gerianna Merwyn",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 53,
+        "catch": 57,
+        "run": 51,
+        "block": 52,
+        "fight": 55,
+        "throw": 60,
+        "luck": 58,
+        "pronouns": "He/Him",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 51,
+        "current_alcohol": 0,
+        "favorite_weapon": "Cudgel",
+        "pregame_ritual": "Eating a piece of honeycomb to 'sweeten' their victory.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Jarid Tudela",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 52,
+        "catch": 53,
+        "run": 45,
+        "block": 58,
+        "fight": 58,
+        "throw": 57,
+        "luck": 51,
+        "civic_engagement": 53,
+        "alcohol_tolerance": 59,
+        "current_alcohol": 0,
+        "favorite_weapon": "Billhook",
+        "pregame_ritual": "Chewing on tree bark.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Ron Fairleigh",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 50,
+        "catch": 50,
+        "run": 60,
+        "block": 59,
+        "fight": 56,
+        "throw": 48,
+        "luck": 55,
+        "pronouns": "He/Him",
+        "civic_engagement": 51,
+        "alcohol_tolerance": 42,
+        "current_alcohol": 0,
+        "favorite_weapon": "Swordstaff",
+        "pregame_ritual": "Chewing on a splinter of wood from a past goal basket.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Stelmach Whitnell",
+      "team": "The Dark Tree Demon Kids",
+      "stats": {
+        "pass": 61,
+        "catch": 48,
+        "run": 62,
+        "block": 56,
+        "fight": 52,
+        "throw": 57,
+        "luck": 60,
+        "civic_engagement": 39,
+        "alcohol_tolerance": 62,
+        "current_alcohol": 0,
+        "favorite_weapon": "Maul",
+        "pregame_ritual": "Balancing the Trollball on their head for a full minute.",
+        "literate": true
+      }
+    }
+  ]
+}

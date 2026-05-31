@@ -1,0 +1,13 @@
+{
+  "name": "@trollball/runner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate-team": "tsx generateTeamCli.ts"
+  },
+  "dependencies": {
+    "@trollball/shared": "*",
+    "@trollball/simulator": "*",
+    "ts-markov": "^1.0.0"
+  }
+}

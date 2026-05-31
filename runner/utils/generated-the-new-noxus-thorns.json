@@ -1,0 +1,236 @@
+{
+  "name": "The New Noxus Thorns",
+  "losses": 0,
+  "wins": 0,
+  "score": 0,
+  "luck": 46,
+  "stadium": {
+    "name": "The Cistern",
+    "location": "Noxus Subterrane",
+    "description": "An abandoned underground cistern that was repurposed as an arena. The damp stone floor is slick with condensation, and pools of stagnant runoff border the playing field. If players stray out of bounds, they are exposed to lingering toxic waste, poisoning and slowing them.",
+    "modifiers": [
+      "Sewer Poison",
+      "Slippery Condensation",
+      "Abandoned Reservoir"
+    ]
+  },
+  "healer": {
+    "name": "Haeckel Millisent",
+    "team": "The New Noxus Thorns",
+    "stats": {
+      "pass": 50,
+      "catch": 48,
+      "run": 47,
+      "block": 59,
+      "fight": 54,
+      "throw": 60,
+      "luck": 58,
+      "civic_engagement": 52,
+      "alcohol_tolerance": 54,
+      "current_alcohol": 0,
+      "favorite_weapon": "Arming Sword",
+      "pregame_ritual": "Trying to catch a fly with their bare hands.",
+      "literate": true
+    }
+  },
+  "players": [
+    {
+      "name": "Sashenka Jemimah",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 50,
+        "catch": 58,
+        "run": 58,
+        "block": 63,
+        "fight": 56,
+        "throw": 58,
+        "luck": 54,
+        "pronouns": "He/Him",
+        "civic_engagement": 59,
+        "alcohol_tolerance": 63,
+        "current_alcohol": 0,
+        "favorite_weapon": "Blackjack",
+        "pregame_ritual": "Getting a teammate to pour a bucket of cold water over their head.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Ralf Johnna",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 51,
+        "catch": 54,
+        "run": 54,
+        "block": 50,
+        "fight": 56,
+        "throw": 49,
+        "luck": 43,
+        "pronouns": "They/Them",
+        "civic_engagement": 65,
+        "alcohol_tolerance": 43,
+        "current_alcohol": 0,
+        "favorite_weapon": "Stiletto",
+        "pregame_ritual": "Muttering a nonsensical rhyme to ward off bad spirits.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Hanford Isaac",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 51,
+        "catch": 48,
+        "run": 48,
+        "block": 61,
+        "fight": 49,
+        "throw": 55,
+        "luck": 67,
+        "pronouns": "They/Them",
+        "civic_engagement": 47,
+        "alcohol_tolerance": 53,
+        "current_alcohol": 0,
+        "favorite_weapon": "Hand Axe",
+        "pregame_ritual": "Reciting their grocery list backward to clear their mind.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Olodort Rossy",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 54,
+        "catch": 65,
+        "run": 60,
+        "block": 61,
+        "fight": 50,
+        "throw": 64,
+        "luck": 72,
+        "civic_engagement": 62,
+        "alcohol_tolerance": 54,
+        "current_alcohol": 0,
+        "favorite_weapon": "Kirkhammer",
+        "pregame_ritual": "Chugging a small bottle of vinegar.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Chae Markland",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 63,
+        "catch": 65,
+        "run": 59,
+        "block": 61,
+        "fight": 51,
+        "throw": 56,
+        "luck": 54,
+        "pronouns": "He/Him",
+        "civic_engagement": 57,
+        "alcohol_tolerance": 59,
+        "current_alcohol": 0,
+        "favorite_weapon": "Chain Whip",
+        "pregame_ritual": "Painting a crude, snarling face on their stomach.",
+        "literate": false
+      }
+    },
+    {
+      "name": "Slayton Nealon",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 52,
+        "catch": 48,
+        "run": 56,
+        "block": 47,
+        "fight": 49,
+        "throw": 55,
+        "luck": 44,
+        "pronouns": "He/Him",
+        "civic_engagement": 55,
+        "alcohol_tolerance": 64,
+        "current_alcohol": 0,
+        "favorite_weapon": "Mace",
+        "pregame_ritual": "Asking the referee to bless their weapon.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Hulbig Addiel",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 54,
+        "catch": 53,
+        "run": 53,
+        "block": 49,
+        "fight": 60,
+        "throw": 59,
+        "luck": 59,
+        "pronouns": "She/Her",
+        "civic_engagement": 48,
+        "alcohol_tolerance": 54,
+        "current_alcohol": 0,
+        "favorite_weapon": "Woodsman's Axe",
+        "pregame_ritual": "Fasting for the six hours leading up to the match.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Buffum Julie",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 49,
+        "catch": 69,
+        "run": 49,
+        "block": 48,
+        "fight": 62,
+        "throw": 51,
+        "luck": 60,
+        "pronouns": "She/Her",
+        "civic_engagement": 58,
+        "alcohol_tolerance": 62,
+        "current_alcohol": 0,
+        "favorite_weapon": "Kriegsmesser",
+        "pregame_ritual": "Organizing a small betting pool on who will score first.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Nodababus Dee Dee",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 55,
+        "catch": 57,
+        "run": 54,
+        "block": 45,
+        "fight": 53,
+        "throw": 62,
+        "luck": 47,
+        "pronouns": "He/Him",
+        "civic_engagement": 60,
+        "alcohol_tolerance": 56,
+        "current_alcohol": 0,
+        "favorite_weapon": "Kirkhammer",
+        "pregame_ritual": "Huddling so tightly that no light can be seen between them.",
+        "literate": true
+      }
+    },
+    {
+      "name": "Husain Terrence",
+      "team": "The New Noxus Thorns",
+      "stats": {
+        "pass": 53,
+        "catch": 53,
+        "run": 54,
+        "block": 49,
+        "fight": 52,
+        "throw": 55,
+        "luck": 53,
+        "civic_engagement": 58,
+        "alcohol_tolerance": 50,
+        "current_alcohol": 0,
+        "favorite_weapon": "Maul",
+        "pregame_ritual": "Braiding their hair into tight, battle-ready rows.",
+        "literate": true
+      }
+    }
+  ]
+}
