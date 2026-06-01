@@ -36,12 +36,12 @@ const GAME_REPORT_SCHEMA = {
     preGameReport: {
       type: Type.STRING, // <-- USE THE ENUM
       description:
-        "The pre-game report, written in character as Nok the Corrupter. Should build anticipation and introduce the teams, referencing their pre-game rituals or stats from the provided data. If the game is an open bar, hype up the drinking. Write several paragraphs of flowing fictional prose. Do not include section headings, lists, bullet points, or emojis.",
+        "The pre-game report, written in character as Nok the Corrupter. Should build anticipation and introduce the teams, referencing their pre-game rituals or stats from the provided data. If the game is an open bar, hype up the drinking. Write several paragraphs of flowing fictional prose. Use bold markdown for all team and player names. Describe stadium conditions narratively instead of mentioning game modifiers directly. Do not include section headings, lists, bullet points, or emojis.",
     },
     postGameReport: {
       type: Type.STRING, // <-- USE THE ENUM
       description:
-        "The post-game report, written in character as Nok the Corrupter. Should summarize the game's key plays (from the 'plays' array), state the final score, and celebrate the action. Can throw shade at heroes if relevant. If the game is an open bar, comment on the drunkenness of the players. Write at least 10 paragraphs of flowing fictional prose. Do not include section headings, lists, bullet points, or emojis.",
+        "The post-game report, written in character as Nok the Corrupter. Should summarize the game's key plays (from the 'plays' array), state the final score, and celebrate the action. Can throw shade at heroes if relevant. If the game is an open bar, comment on the drunkenness of the players. Write at least 10 paragraphs of flowing fictional prose. Use bold markdown for all team and player names. Describe stadium conditions and weather elements narratively instead of mentioning game mechanics or modifier terms directly. Do not include section headings, lists, bullet points, or emojis.",
     },
   },
   required: ["preGameReport", "postGameReport"],
@@ -108,7 +108,9 @@ RULES:
 - Throw shade at the "heroes" of the realm when possible, but don't be repetitive.
 - Avoid phrases such as :"So Called Heroes" or "slobbernocker"
 - Do NOT use emojis under any circumstances. Emojis are strictly forbidden.
-- For game reports, write in continuous flowing narrative paragraphs. You MUST separate each paragraph with a blank line (two newline characters: \\n\\n). Do NOT include markdown headers, section headings, list items, or bullet points.
+- For game reports, write in continuous flowing narrative paragraphs. You MUST separate each paragraph with a blank line (two newline characters: \n\n). Do NOT include markdown headers, section headings, list items, or bullet points.
+- You MUST use bold markdown formatting (e.g. **The Southport Narwhals** or **Bilski Sells**) for all team names and player names to make them stand out and improve readability.
+- Do NOT mention game mechanics, engine terms, or field modifiers directly by their game/system names (e.g. do not say 'the Grasping Roots modifier', 'the Sickhole modifier', or refer to 'modifiers' at all). Instead, describe the field conditions, weather, and their effects narratively and organically within the fiction (e.g. write 'getting bogged down in the toxic mud of the sickhole' or 'tripped by gnarled roots stretching across the soil').
 - If there is a specified format, your response MUST be in the specified JSON format.
 - If there is no specified format, respond in markdown only.
 - CRITICAL SETTING RULE: This story takes place entirely on the fantasy plane of Osterra. Do NOT reference America, American cities, American culture, American sports leagues, or any other real-world country, city, or location. All geography, culture, and references must be grounded in Osterra and its fictional lore. Osterra is not Earth.
@@ -353,6 +355,8 @@ export async function generateGameReports(
       This is the Grand Finals Bracket Reset! The New Monteforte Chaos Creatures have achieved the impossible and reset the bracket by defeating Oak & Onslaught. Now, it all comes down to this final Best of 5 series. The winner of this series is the undisputed Trollball Champion. There are no second chances. Winner takes all!
       
       Write the reports in continuous flowing narrative paragraphs. Do NOT use markdown headers (like #, ##, ###), section names, bullet points, or list structures. Do NOT use emojis under any circumstances. Emojis are strictly forbidden.
+      You MUST use bold markdown formatting (e.g. **The Southport Narwhals** or **Bilski Sells**) for all team names and player names.
+      Do NOT mention game mechanics, engine terms, or field modifiers directly by their game/system names (do not say 'the Grasping Roots modifier', 'the Sickhole modifier', or refer to 'modifiers' at all). Instead, describe the field conditions, weather, and their effects narratively and organically within the fiction (e.g. write 'getting bogged down in the toxic mud of the sickhole' or 'tripped by gnarled roots stretching across the soil').
 
       <game_data>
       ${JSON.stringify(gameData)}

@@ -50,7 +50,7 @@
           "favorite_weapon": "Hatchet",
           "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
           "literate": true,
-          "current_alcohol": 19
+          "current_alcohol": 87
         }
       },
       {
@@ -70,7 +70,7 @@
           "favorite_weapon": "Claymore",
           "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
           "literate": true,
-          "current_alcohol": 20
+          "current_alcohol": 95
         }
       },
       {
@@ -90,7 +90,7 @@
           "favorite_weapon": "Rondel Dagger",
           "pregame_ritual": "Washing their hands with dirt.",
           "literate": false,
-          "current_alcohol": 23
+          "current_alcohol": 89
         }
       },
       {
@@ -110,7 +110,7 @@
           "favorite_weapon": "Voulge",
           "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
           "literate": true,
-          "current_alcohol": 20
+          "current_alcohol": 88
         }
       },
       {
@@ -130,7 +130,7 @@
           "favorite_weapon": "Dagger",
           "pregame_ritual": "Asking the referee to bless their weapon.",
           "literate": false,
-          "current_alcohol": 28
+          "current_alcohol": 97
         }
       },
       {
@@ -150,7 +150,7 @@
           "favorite_weapon": "Swordstaff",
           "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
           "literate": false,
-          "current_alcohol": 26
+          "current_alcohol": 90
         }
       },
       {
@@ -170,7 +170,7 @@
           "favorite_weapon": "Spiked Gauntlet",
           "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
           "literate": false,
-          "current_alcohol": 29
+          "current_alcohol": 92
         }
       },
       {
@@ -190,7 +190,7 @@
           "favorite_weapon": "Cudgel",
           "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
           "literate": true,
-          "current_alcohol": 26
+          "current_alcohol": 72
         }
       },
       {
@@ -210,7 +210,7 @@
           "favorite_weapon": "Rapier",
           "pregame_ritual": "Attempting to communicate with birds.",
           "literate": true,
-          "current_alcohol": 22
+          "current_alcohol": 75
         }
       },
       {
@@ -230,171 +230,11 @@
           "favorite_weapon": "Spear",
           "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
           "literate": true,
-          "current_alcohol": 30
+          "current_alcohol": 93
         }
       }
     ],
     "activePlayers": [
-      {
-        "name": "Nachison Icken",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 61,
-          "catch": 55,
-          "run": 43,
-          "block": 52,
-          "fight": 50,
-          "throw": 46,
-          "luck": 47,
-          "pronouns": "She/Them",
-          "civic_engagement": 42,
-          "alcohol_tolerance": 57,
-          "favorite_weapon": "Claymore",
-          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
-          "literate": true,
-          "current_alcohol": 20
-        }
-      },
-      {
-        "name": "Wylde Jutta",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 63,
-          "catch": 61,
-          "run": 61,
-          "block": 49,
-          "fight": 67,
-          "throw": 51,
-          "luck": 52,
-          "pronouns": "She/Them",
-          "civic_engagement": 66,
-          "alcohol_tolerance": 52,
-          "favorite_weapon": "Voulge",
-          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
-          "literate": true,
-          "current_alcohol": 20
-        }
-      },
-      {
-        "name": "Selimah Tully",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 57,
-          "catch": 54,
-          "run": 57,
-          "block": 60,
-          "fight": 52,
-          "throw": 53,
-          "luck": 48,
-          "pronouns": "He/Him",
-          "civic_engagement": 61,
-          "alcohol_tolerance": 58,
-          "favorite_weapon": "Dagger",
-          "pregame_ritual": "Asking the referee to bless their weapon.",
-          "literate": false,
-          "current_alcohol": 28
-        }
-      },
-      {
-        "name": "Campball Fink",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 56,
-          "catch": 60,
-          "run": 51,
-          "block": 61,
-          "fight": 66,
-          "throw": 43,
-          "luck": 61,
-          "pronouns": "She/Them",
-          "civic_engagement": 57,
-          "alcohol_tolerance": 55,
-          "favorite_weapon": "Swordstaff",
-          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
-          "literate": false,
-          "current_alcohol": 26
-        }
-      },
-      {
-        "name": "Lowson Hersh",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 58,
-          "catch": 43,
-          "run": 49,
-          "block": 44,
-          "fight": 48,
-          "throw": 60,
-          "luck": 58,
-          "pronouns": "They/Them",
-          "civic_engagement": 59,
-          "alcohol_tolerance": 63,
-          "favorite_weapon": "Spiked Gauntlet",
-          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
-          "literate": false,
-          "current_alcohol": 29
-        }
-      },
-      {
-        "name": "Oona Jane",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 42,
-          "catch": 55,
-          "run": 58,
-          "block": 46,
-          "fight": 51,
-          "throw": 55,
-          "luck": 46,
-          "pronouns": "She/Her",
-          "civic_engagement": 57,
-          "alcohol_tolerance": 53,
-          "favorite_weapon": "Cudgel",
-          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
-          "literate": true,
-          "current_alcohol": 26
-        }
-      },
-      {
-        "name": "Orlina Jerrine",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 61,
-          "catch": 57,
-          "run": 57,
-          "block": 50,
-          "fight": 54,
-          "throw": 52,
-          "luck": 49,
-          "pronouns": "He/Him",
-          "civic_engagement": 50,
-          "alcohol_tolerance": 45,
-          "favorite_weapon": "Rapier",
-          "pregame_ritual": "Attempting to communicate with birds.",
-          "literate": true,
-          "current_alcohol": 22
-        }
-      },
-      {
-        "name": "Nigel Rothmuller",
-        "team": "The Brimstone Slayers",
-        "stats": {
-          "pass": 58,
-          "catch": 60,
-          "run": 56,
-          "block": 52,
-          "fight": 43,
-          "throw": 59,
-          "luck": 62,
-          "pronouns": "They/Them",
-          "civic_engagement": 52,
-          "alcohol_tolerance": 57,
-          "favorite_weapon": "Spear",
-          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
-          "literate": true,
-          "current_alcohol": 30
-        }
-      },
       {
         "name": "Bollinger Susette",
         "team": "The Brimstone Slayers",
@@ -412,7 +252,27 @@
           "favorite_weapon": "Hatchet",
           "pregame_ritual": "Getting a teammate to punch them in the shoulder, hard.",
           "literate": true,
-          "current_alcohol": 19
+          "current_alcohol": 87
+        }
+      },
+      {
+        "name": "Nachison Icken",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 61,
+          "catch": 55,
+          "run": 43,
+          "block": 52,
+          "fight": 50,
+          "throw": 46,
+          "luck": 47,
+          "pronouns": "She/Them",
+          "civic_engagement": 42,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Claymore",
+          "pregame_ritual": "Wearing their boots on the wrong feet during the warm-up.",
+          "literate": true,
+          "current_alcohol": 95
         }
       },
       {
@@ -432,7 +292,147 @@
           "favorite_weapon": "Rondel Dagger",
           "pregame_ritual": "Washing their hands with dirt.",
           "literate": false,
-          "current_alcohol": 23
+          "current_alcohol": 89
+        }
+      },
+      {
+        "name": "Wylde Jutta",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 63,
+          "catch": 61,
+          "run": 61,
+          "block": 49,
+          "fight": 67,
+          "throw": 51,
+          "luck": 52,
+          "pronouns": "She/Them",
+          "civic_engagement": 66,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Voulge",
+          "pregame_ritual": "Asking a teammate to tell them a story, but only the beginning.",
+          "literate": true,
+          "current_alcohol": 88
+        }
+      },
+      {
+        "name": "Selimah Tully",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 57,
+          "catch": 54,
+          "run": 57,
+          "block": 60,
+          "fight": 52,
+          "throw": 53,
+          "luck": 48,
+          "pronouns": "He/Him",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 58,
+          "favorite_weapon": "Dagger",
+          "pregame_ritual": "Asking the referee to bless their weapon.",
+          "literate": false,
+          "current_alcohol": 97
+        }
+      },
+      {
+        "name": "Campball Fink",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 56,
+          "catch": 60,
+          "run": 51,
+          "block": 61,
+          "fight": 66,
+          "throw": 43,
+          "luck": 61,
+          "pronouns": "She/Them",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Swordstaff",
+          "pregame_ritual": "Finding the muddiest puddle and stomping in it with bare feet.",
+          "literate": false,
+          "current_alcohol": 90
+        }
+      },
+      {
+        "name": "Lowson Hersh",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 58,
+          "catch": 43,
+          "run": 49,
+          "block": 44,
+          "fight": 48,
+          "throw": 60,
+          "luck": 58,
+          "pronouns": "They/Them",
+          "civic_engagement": 59,
+          "alcohol_tolerance": 63,
+          "favorite_weapon": "Spiked Gauntlet",
+          "pregame_ritual": "Staring at a single blade of grass until their eyes water.",
+          "literate": false,
+          "current_alcohol": 92
+        }
+      },
+      {
+        "name": "Oona Jane",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 42,
+          "catch": 55,
+          "run": 58,
+          "block": 46,
+          "fight": 51,
+          "throw": 55,
+          "luck": 46,
+          "pronouns": "She/Her",
+          "civic_engagement": 57,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Cudgel",
+          "pregame_ritual": "Wiping a teammate's sweat onto their own forehead.",
+          "literate": true,
+          "current_alcohol": 72
+        }
+      },
+      {
+        "name": "Orlina Jerrine",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 61,
+          "catch": 57,
+          "run": 57,
+          "block": 50,
+          "fight": 54,
+          "throw": 52,
+          "luck": 49,
+          "pronouns": "He/Him",
+          "civic_engagement": 50,
+          "alcohol_tolerance": 45,
+          "favorite_weapon": "Rapier",
+          "pregame_ritual": "Attempting to communicate with birds.",
+          "literate": true,
+          "current_alcohol": 75
+        }
+      },
+      {
+        "name": "Nigel Rothmuller",
+        "team": "The Brimstone Slayers",
+        "stats": {
+          "pass": 58,
+          "catch": 60,
+          "run": 56,
+          "block": 52,
+          "fight": 43,
+          "throw": 59,
+          "luck": 62,
+          "pronouns": "They/Them",
+          "civic_engagement": 52,
+          "alcohol_tolerance": 57,
+          "favorite_weapon": "Spear",
+          "pregame_ritual": "Consulting a folk rhyme about the weather to predict the game's outcome.",
+          "literate": true,
+          "current_alcohol": 93
         }
       }
     ],
@@ -489,7 +489,7 @@
           "favorite_weapon": "Broadsword",
           "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
           "literate": true,
-          "current_alcohol": 19
+          "current_alcohol": 93
         }
       },
       {
@@ -509,7 +509,7 @@
           "favorite_weapon": "Zweihander",
           "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
           "literate": true,
-          "current_alcohol": 29
+          "current_alcohol": 88
         }
       },
       {
@@ -529,7 +529,7 @@
           "favorite_weapon": "Quarterstaff",
           "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
           "literate": true,
-          "current_alcohol": 20
+          "current_alcohol": 87
         }
       },
       {
@@ -549,7 +549,7 @@
           "favorite_weapon": "Billhook",
           "pregame_ritual": "Reviewing hand signals for secret plays.",
           "literate": true,
-          "current_alcohol": 18
+          "current_alcohol": 88
         }
       },
       {
@@ -569,7 +569,7 @@
           "favorite_weapon": "Rondel Dagger",
           "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
           "literate": true,
-          "current_alcohol": 29
+          "current_alcohol": 82
         }
       },
       {
@@ -589,7 +589,7 @@
           "favorite_weapon": "Seax",
           "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
           "literate": true,
-          "current_alcohol": 27
+          "current_alcohol": 81
         }
       },
       {
@@ -609,7 +609,7 @@
           "favorite_weapon": "Hammer",
           "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
           "literate": true,
-          "current_alcohol": 26
+          "current_alcohol": 112
         }
       },
       {
@@ -629,7 +629,7 @@
           "favorite_weapon": "Horseman's Pick",
           "pregame_ritual": "Slapping their own helmet until their ears ring.",
           "literate": true,
-          "current_alcohol": 28
+          "current_alcohol": 96
         }
       },
       {
@@ -649,7 +649,7 @@
           "favorite_weapon": "Scythe",
           "pregame_ritual": "Singing a sea shanty completely out of tune.",
           "literate": false,
-          "current_alcohol": 29
+          "current_alcohol": 88
         }
       },
       {
@@ -669,7 +669,7 @@
           "favorite_weapon": "Trident",
           "pregame_ritual": "Reciting a short, epic poem about a past victory.",
           "literate": false,
-          "current_alcohol": 15
+          "current_alcohol": 98
         }
       }
     ],
@@ -691,7 +691,7 @@
           "favorite_weapon": "Broadsword",
           "pregame_ritual": "Arranging their gear in a perfect, aesthetically pleasing spiral.",
           "literate": true,
-          "current_alcohol": 19
+          "current_alcohol": 93
         }
       },
       {
@@ -711,7 +711,7 @@
           "favorite_weapon": "Zweihander",
           "pregame_ritual": "Testing the heft of their weapon with a series of slow, deliberate swings.",
           "literate": true,
-          "current_alcohol": 29
+          "current_alcohol": 88
         }
       },
       {
@@ -731,7 +731,7 @@
           "favorite_weapon": "Quarterstaff",
           "pregame_ritual": "Kissing the Trollball on its stitched 'nose'.",
           "literate": true,
-          "current_alcohol": 20
+          "current_alcohol": 87
         }
       },
       {
@@ -751,27 +751,7 @@
           "favorite_weapon": "Billhook",
           "pregame_ritual": "Reviewing hand signals for secret plays.",
           "literate": true,
-          "current_alcohol": 18
-        }
-      },
-      {
-        "name": "Mouldon Earl",
-        "team": "The New Monteforte Chaos Creatures",
-        "stats": {
-          "pass": 55,
-          "catch": 55,
-          "run": 63,
-          "block": 56,
-          "fight": 44,
-          "throw": 55,
-          "luck": 57,
-          "pronouns": "They/Them",
-          "civic_engagement": 51,
-          "alcohol_tolerance": 52,
-          "favorite_weapon": "Rondel Dagger",
-          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
-          "literate": true,
-          "current_alcohol": 29
+          "current_alcohol": 88
         }
       },
       {
@@ -791,67 +771,7 @@
           "favorite_weapon": "Seax",
           "pregame_ritual": "Telling a terrible joke to the Trollball to 'loosen it up'.",
           "literate": true,
-          "current_alcohol": 27
-        }
-      },
-      {
-        "name": "Fogel Raynold",
-        "team": "The New Monteforte Chaos Creatures",
-        "stats": {
-          "pass": 48,
-          "catch": 48,
-          "run": 54,
-          "block": 54,
-          "fight": 48,
-          "throw": 57,
-          "luck": 60,
-          "pronouns": "He/Them",
-          "civic_engagement": 61,
-          "alcohol_tolerance": 55,
-          "favorite_weapon": "Horseman's Pick",
-          "pregame_ritual": "Slapping their own helmet until their ears ring.",
-          "literate": true,
-          "current_alcohol": 28
-        }
-      },
-      {
-        "name": "Wolbrom Ariella",
-        "team": "The New Monteforte Chaos Creatures",
-        "stats": {
-          "pass": 63,
-          "catch": 71,
-          "run": 59,
-          "block": 40,
-          "fight": 60,
-          "throw": 58,
-          "luck": 72,
-          "pronouns": "He/Them",
-          "civic_engagement": 45,
-          "alcohol_tolerance": 53,
-          "favorite_weapon": "Scythe",
-          "pregame_ritual": "Singing a sea shanty completely out of tune.",
-          "literate": false,
-          "current_alcohol": 29
-        }
-      },
-      {
-        "name": "Raouf Dragone",
-        "team": "The New Monteforte Chaos Creatures",
-        "stats": {
-          "pass": 48,
-          "catch": 61,
-          "run": 52,
-          "block": 44,
-          "fight": 50,
-          "throw": 61,
-          "luck": 52,
-          "pronouns": "They/Them",
-          "civic_engagement": 63,
-          "alcohol_tolerance": 61,
-          "favorite_weapon": "Trident",
-          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
-          "literate": false,
-          "current_alcohol": 15
+          "current_alcohol": 81
         }
       },
       {
@@ -871,115 +791,217 @@
           "favorite_weapon": "Hammer",
           "pregame_ritual": "Dipping their hands in a bucket of ice-cold well water.",
           "literate": true,
-          "current_alcohol": 26
+          "current_alcohol": 112
+        }
+      },
+      {
+        "name": "Fogel Raynold",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 48,
+          "run": 54,
+          "block": 54,
+          "fight": 48,
+          "throw": 57,
+          "luck": 60,
+          "pronouns": "He/Them",
+          "civic_engagement": 61,
+          "alcohol_tolerance": 55,
+          "favorite_weapon": "Horseman's Pick",
+          "pregame_ritual": "Slapping their own helmet until their ears ring.",
+          "literate": true,
+          "current_alcohol": 96
+        }
+      },
+      {
+        "name": "Wolbrom Ariella",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 63,
+          "catch": 71,
+          "run": 59,
+          "block": 40,
+          "fight": 60,
+          "throw": 58,
+          "luck": 72,
+          "pronouns": "He/Them",
+          "civic_engagement": 45,
+          "alcohol_tolerance": 53,
+          "favorite_weapon": "Scythe",
+          "pregame_ritual": "Singing a sea shanty completely out of tune.",
+          "literate": false,
+          "current_alcohol": 88
+        }
+      },
+      {
+        "name": "Raouf Dragone",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 48,
+          "catch": 61,
+          "run": 52,
+          "block": 44,
+          "fight": 50,
+          "throw": 61,
+          "luck": 52,
+          "pronouns": "They/Them",
+          "civic_engagement": 63,
+          "alcohol_tolerance": 61,
+          "favorite_weapon": "Trident",
+          "pregame_ritual": "Reciting a short, epic poem about a past victory.",
+          "literate": false,
+          "current_alcohol": 98
         }
       }
     ],
-    "inactivePlayers": []
+    "inactivePlayers": [
+      {
+        "name": "Mouldon Earl",
+        "team": "The New Monteforte Chaos Creatures",
+        "stats": {
+          "pass": 55,
+          "catch": 55,
+          "run": 63,
+          "block": 56,
+          "fight": 44,
+          "throw": 55,
+          "luck": 57,
+          "pronouns": "They/Them",
+          "civic_engagement": 51,
+          "alcohol_tolerance": 52,
+          "favorite_weapon": "Rondel Dagger",
+          "pregame_ritual": "Refusing to step on any lines on the field before the whistle blows.",
+          "literate": true,
+          "current_alcohol": 82
+        }
+      }
+    ]
   },
-  "preGame": "Folks, friends, and champions of the arena! Gather 'round, grab your ale, because tonight, we are not just watching a game; we are witnessing a primordial collision! This is the Grand Finals Bracket Reset, and the clash is set between The New Monteforte Chaos Creatures and the mighty Brimstone Slayers! The stakes are higher than Sir Tanos's pride, folks, because the winner of this series claims the undisputed crown of Trollball on the plane of Osterra!\n\nTonight's battle will rage in the heart of The Unruly Yard, a veritable carnival of chaos in Monteforte! With its graffiti-scarred walls and volatile crowd, this stadium is more of a riot zone than a playing field—and that is exactly what we want! We expect the scaffolding to shake, the patrons to brawl, and the corruption to flow freely!\n\nAnd what rituals precede such glorious mayhem? Placido Kora of the Chaos Creatures is already sharpening his wits, preparing to tell a truly terrible joke to the ball just to ‘loosen it up’ before the whistle blows! Meanwhile, the Slayers' own Wylde Jutta is having a teammate tell her a story, but only the beginning, because she knows the narrative of victory is always the most savage part! Oh, and let us not forget Alben Diantha, whose ice-cold well water baptism prepares him for the carnage ahead!\n\nIt is a night for thunder, for bone-crunching tackles, and for glory! While the noble folk of the realm trot out their supposed champions—those stuffy knights and wandering adventurers who think their clean swords can handle this beast—we, the faithful, know that the Ebon Gate Corruptors always run the show! But tonight, we shall watch the Creatures fight for their place against the grim resilience of the Slayers! Bring the thunder, Osterra, because Nok the Corrupter is here to announce the glorious destruction!",
-  "postGame": "Hold fast to your seats, good citizens! What a spectacle! What a glorious, blood-splattered, gravy-soaked display of Trollball fury! The New Monteforte Chaos Creatures clashed against the Brimstone Slayers in a brutal contest right here in the volatile heart of The Unruly Yard, and by the Gods of Corruption, the Slayers clawed their way to victory! The final score reads: The New Monteforte Chaos Creatures, zero! And The Brimstone Slayers, one! A single point that rings louder than a legion of Orcs on the march!\n\nThe action began with a thunderous charge by Placido Kora, who managed to navigate the initial skirmish, but the Slayers immediately answered with viciousness! Selimah Tully delivered the first stunning tackle, injuring poor Kora, only for Lian Denton to drag him back from the brink of the void! The game was a grind, folks, beset by noxious fumes and uneven ground, but the Slayers found their footing, driven by the relentless spirit of Campball Fink and the sheer muscle of Wylde Jutta!\n\nAfter the intermission—a brief respite from the brutality—Nigel Rothmuller sparked the second-half offense, passing the reins to Oona Jane, before the magnificent Lowson Hersh began marching downfield like a demonic siege engine! It all funneled toward Nachison Icken, who, coughing amidst the sulfur marshes, found himself in the perfect position! He executed a pass to himself in the End Zone, folks! A magnificent, desperate, beautiful dUNK! The crowd, already primed for a riot, erupted into ecstatic pandemonium! \n\nWhile the noble, overly pious heroes of this realm might prattle on about honor, we saw true grit tonight! We saw the Slayers endure the fray, relying on their sturdy defense and the incredible power of Wylde Jutta to shrug off the onslaught! While the Chaos Creatures possess the flair, the Slayers possessed the finishing punch! A valiant effort by Monteforte, but the Brimstone Slayers prevail in this hard-fought contest! May the corruption flow in their favor as they advance in this Grand Finals reset! And let's not forget those self-important Haven Lights, who surely weep into their tiny velvet cups somewhere across the plane! Bravo, Slayers! Bravo!",
+  "preGame": "OHHHHH, LISTEN UP, YOU GRANDSTANDS OF OSTERRA! Gather 'round, folks, 'cause we are poised for a clash of Titans! This isn't just another match; this is the GRAND FINALS BRACKET RESET! The destiny of the Trollball season hinges on the next whistle, and tonight, the magnificent **The New Monteforte Chaos Creatures** step onto the hallowed, if slightly sulfurous, turf of **The Su'akour Bowl** to take on the thunderous **Brimstone Slayers**! \n\nThe air here in the crumbling ruins of the fortress is thick with the stench of the sulfur marshes, a smell that promises violence! The ancient stones are groaning under the pressure, and the very ground is uneven, ready to betray a champion at any moment! We hear whispers that **The Brimstone Slayers**, backed by the mighty **Sanguine Order**, are ready to unleash hell, but the **Chaos Creatures**, backed by **The White Ravens**, are too cunning for mere brute force! \n\nLook at **Boulanger Procto**! The man is meticulously arranging his gear in a perfect, aesthetic spiral—a testament to his sheer focus! While the lesser warriors—and I’m looking right at you, dreary **Haven Lights**—are probably just lumbering onto the field, **Boulanger** is conducting a small, private ceremony! And our Healer, **Lian Denton**, is taking a long, appreciative swig of hot gravy! This game, friends, is going to be a glorious, bone-jarring, leather-head-smashing spectacle!",
+  "postGame": "GOOD GRIEF! What a barn burner of a night! The dust has settled, the groans have subsided, and the roar of the crowd—even in those decrepit walls of **The Su'akour Bowl**—still echoes the glorious violence! The **The Brimstone Slayers** have done it! They have clawed their way to victory, triumphing over the unpredictable onslaught of **The New Monteforte Chaos Creatures** with a final score of 5 to 2! \n\nFrom the very first whistle, the combat was ferocious! We saw **Selimah Tully** rock the ball down the field, only to nearly be undone by a stray chunk of masonry! And the field itself was a treacherous beast! **Alben Diantha** lost his footing on a patch of rough soil, only to recover and launch a thunderous strike on **Orlina Jerrine**! The injuries piled up like scrap stone, with **Fogel Raynold** taking a nasty hit on **Campball Fink**, and **Wolbrom Ariella** tearing into **Selimah Tully**! \n\nBut the true poetry of the game unfolded later, as the spirit of the open bar began to seep into every stride! **Wylde Jutta** soared into the air, dodging the crumbling stonework, and with a majestic leap, she DUNKED the leather head into the goal for the first two points! But oh, the drama! Later on, **Alben Diantha**, looking rather unsteady, launched a drunken strike through the goal for two points! And with the match hanging in the balance, **Lowson Hersh**—tipsy and stumbling—found the sweet spot for two magnificent goals! \n\nWhile **The Brimstone Slayers** proved their mettle, it was **The New Monteforte Chaos Creatures** who provided the spectacle! That magnificent **Placido Kora** was stumbling around like a drunken prospector, but their grit shone through! **The Brimstone Slayers** manage to scrape by, but let's be honest, they were aided by the sheer chaos of the arena and the mighty influence of that open bar! They didn't *dominate*—they *survived*! And speaking of heroes, bless their hearts, that poor **Sir Tanos** would approve of this mud-slinging brawl, even if he can’t read a letter to document it! Congratulations, **The Brimstone Slayers**! But make no mistake, folks, **The Ebon Gate Corruptors** are still the pinnacle, and this is just Tuesday Night Trollball!",
   "week": 0,
-  "homeScore": 1,
-  "awayScore": 0,
+  "homeScore": 5,
+  "awayScore": 2,
   "slug": "0-brimstone-new-monteforte",
   "plays": [
-    "The Trollball is picked up by Placido Kora in zone Center Field",
+    "The Trollball is picked up by Bollinger Susette in zone Center Field",
+    "Selimah Tully runs with the ball and advances towards the goal!",
+    "Orlina Jerrine nearly trips on a crumbling piece of masonry!",
+    "Orlina Jerrine tries to run with the ball but is stopped by the defense!",
+    "Oona Jane tries to run with the ball but is stopped by the defense!",
+    "Fogel Raynold Tackles Campball Fink and INJURES THEM!",
+    "Orlina Jerrine tries to run with the ball but is stopped by the defense!",
+    "Alben Diantha loses footing slightly on a patch of uneven grass.",
+    "Alben Diantha Tackles Nigel Rothmuller and INJURES THEM!",
+    "Wylde Jutta coughs on the thick sulfur fumes!",
+    "Wylde Jutta nearly trips on a crumbling piece of masonry!",
+    "Wylde Jutta loses footing slightly on a patch of uneven grass.",
+    "Wylde Jutta tries to run with the ball but is stopped by the defense!",
+    "Wolbrom Ariella nearly trips on a crumbling piece of masonry!",
+    "Wolbrom Ariella Tackles Selimah Tully and INJURES THEM!",
+    "Raphael Miyasawa has returned Campball Fink to play",
+    "Alben Diantha coughs on the thick sulfur fumes!",
+    "Alben Diantha nearly trips on a crumbling piece of masonry!",
+    "Alben Diantha tries to Tackle Orlina Jerrine, but misses!",
+    "Alben Diantha Tackles Oona Jane and INJURES THEM!",
+    "Wolbrom Ariella coughs on the thick sulfur fumes!",
+    "Wolbrom Ariella tries to Tackle Glassman Solley, but misses!",
+    "Wolbrom Ariella tries to Tackle Orlina Jerrine, but misses!",
+    "Boulanger Procto nearly trips on a crumbling piece of masonry!",
+    "Boulanger Procto tries to Tackle Campball Fink, but Campball Fink blocks it!",
+    "Orlina Jerrine tries to Tackle Boulanger Procto, but Boulanger Procto blocks it!",
+    "Gabriele Klehm loses footing slightly on a patch of uneven grass.",
+    "Gabriele Klehm tries to Tackle Campball Fink, but misses!",
+    "Alben Diantha tries to Tackle Glassman Solley, but misses!",
+    "Fogel Raynold tries to Tackle Wylde Jutta, but misses!",
+    "Wylde Jutta loses footing slightly on a patch of uneven grass.",
+    "Orlina Jerrine nearly trips on a crumbling piece of masonry!",
+    "Wylde Jutta passes the ball to Orlina Jerrine, but they drop it!",
+    "The Trollball is picked up by Orlina Jerrine in zone Away Field",
+    "Tucker Hett tries to Tackle Campball Fink, but misses!",
+    "Wolbrom Ariella nearly trips on a crumbling piece of masonry!",
+    "Wolbrom Ariella Tackles Wylde Jutta and INJURES THEM!",
+    "Alben Diantha nearly trips on a crumbling piece of masonry!",
+    "Alben Diantha tries to Tackle Orlina Jerrine, but misses!",
+    "Alben Diantha loses footing slightly on a patch of uneven grass.",
+    "Alben Diantha Tackles Orlina Jerrine and INJURES THEM!",
+    "Bollinger Susette coughs on the thick sulfur fumes!",
+    "Bollinger Susette runs with the ball and advances towards the goal!",
+    "Campball Fink loses footing slightly on a patch of uneven grass.",
+    "Tucker Hett tries to Tackle Campball Fink, but Campball Fink blocks it!",
+    "Boulanger Procto tries to Tackle Bollinger Susette, but misses!",
+    "Raphael Miyasawa has returned Nigel Rothmuller to play",
+    "Glassman Solley loses footing slightly on a patch of uneven grass.",
+    "Glassman Solley Tackles Urata Oriana and INJURES THEM!",
+    "Glassman Solley coughs on the thick sulfur fumes!",
+    "Nachison Icken loses footing slightly on a patch of uneven grass.",
+    "Glassman Solley passes the ball to Nachison Icken, but they drop it!",
+    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
+    "The Trollball is picked up by Orlina Jerrine in zone Away 2-Point",
+    "Raouf Dragone tries to Tackle Selimah Tully, but Selimah Tully blocks it!",
+    "Tucker Hett nearly trips on a crumbling piece of masonry!",
+    "Tucker Hett tries to Tackle Orlina Jerrine, but misses!",
+    "Alben Diantha coughs on the thick sulfur fumes!",
+    "Campball Fink throws a wild pass and it lands on the ground!",
+    "The Trollball is picked up by Bollinger Susette in zone Away 2-Point",
     "Raouf Dragone coughs on the thick sulfur fumes!",
     "Raouf Dragone nearly trips on a crumbling piece of masonry!",
-    "Selimah Tully Tackles Raouf Dragone and INJURES THEM!",
-    "Wolbrom Ariella coughs on the thick sulfur fumes!",
-    "Wolbrom Ariella nearly trips on a crumbling piece of masonry!",
-    "Orlina Jerrine Tackles Wolbrom Ariella and INJURES THEM!",
-    "Glassman Solley tries to Tackle Alben Diantha, but misses!",
-    "Orlina Jerrine tries to Tackle Fogel Raynold, but Fogel Raynold blocks it!",
-    "Nachison Icken Tackles Fogel Raynold and INJURES THEM!",
-    "Lian Denton has returned Raouf Dragone to play",
-    "Wylde Jutta Tackles Placido Kora and INJURES THEM!",
-    "Lian Denton has returned Wolbrom Ariella to play",
-    "Alben Diantha shoots from Center Field but misses the goal!",
-    "The Trollball is picked up by Selimah Tully in zone Center Field",
-    "Nachison Icken runs with the ball and advances towards the goal!",
-    "Nachison Icken coughs on the thick sulfur fumes!",
-    "Nachison Icken loses footing slightly on a patch of uneven grass.",
-    "Nachison Icken passes the ball to Nachison Icken, but they drop it!",
-    "The Trollball is picked up by Raouf Dragone in zone Away Field",
-    "Urata Oriana loses footing slightly on a patch of uneven grass.",
-    "Urata Oriana tries to run with the ball but is stopped by the defense!",
+    "Nigel Rothmuller coughs on the thick sulfur fumes!",
+    "Raouf Dragone Tackles Nigel Rothmuller and INJURES THEM!",
     "Lowson Hersh nearly trips on a crumbling piece of masonry!",
-    "Lowson Hersh loses footing slightly on a patch of uneven grass.",
-    "Lowson Hersh tries to Tackle Tucker Hett, but misses!",
-    "Tucker Hett tries to run with the ball but is stopped by the defense!",
-    "Wolbrom Ariella tries to run with the ball but is stopped by the defense!",
-    "Orlina Jerrine nearly trips on a crumbling piece of masonry!",
-    "Orlina Jerrine loses footing slightly on a patch of uneven grass.",
-    "Orlina Jerrine Tackles Wolbrom Ariella and INJURES THEM!",
+    "Lowson Hersh shoots from Away 2-Point but misses the goal!",
+    "The Trollball is picked up by Wylde Jutta in zone Away 2-Point",
+    "Wolbrom Ariella loses footing slightly on a patch of uneven grass.",
+    "Wolbrom Ariella tries to Tackle Oona Jane, but misses!",
+    "Wylde Jutta loses footing slightly on a patch of uneven grass.",
+    "Wylde Jutta runs into the End Zone and DUNKS THE BALL INTO THE GOAL!",
+    "Goal scored! Immense amounts of alcohol are consumed!",
+    "Orlina Jerrine still looks sober.",
+    "Boulanger Procto still looks sober.",
+    "The Trollball is picked up by Oona Jane in zone Center Field",
+    "Fogel Raynold coughs on the thick sulfur fumes!",
+    "Fogel Raynold tries to Tackle Glassman Solley, but misses!",
+    "Wylde Jutta coughs on the thick sulfur fumes!",
+    "Wylde Jutta nearly trips on a crumbling piece of masonry!",
+    "Wylde Jutta loses footing slightly on a patch of uneven grass.",
+    "Wylde Jutta shoots from Center Field and SCORES!",
+    "Goal scored! Immense amounts of alcohol are consumed!",
+    "Orlina Jerrine is looking a bit tipsy.",
+    "Tucker Hett is looking a bit tipsy.",
+    "The Trollball is picked up by Urata Oriana in zone Center Field",
+    "Selimah Tully loses footing slightly on a patch of uneven grass.",
+    "Selimah Tully tipsily tries to Tackle Raouf Dragone, but misses!",
     "Mouldon Earl coughs on the thick sulfur fumes!",
     "Mouldon Earl nearly trips on a crumbling piece of masonry!",
-    "Mouldon Earl shoots from Away Field but misses the goal!",
-    "The Trollball is picked up by Bollinger Susette in zone Away Field",
-    "Lian Denton has returned Fogel Raynold to play",
-    "Mouldon Earl loses footing slightly on a patch of uneven grass.",
-    "Mouldon Earl tries to Tackle Campball Fink, but misses!",
-    "Mouldon Earl tries to Tackle Campball Fink, but misses!",
-    "Campball Fink coughs on the thick sulfur fumes!",
-    "Campball Fink shoots from Away Field but misses the goal!",
-    "The Trollball is picked up by Fogel Raynold in zone Away Field",
-    "Tucker Hett coughs on the thick sulfur fumes!",
-    "Tucker Hett shoots from Away Field but misses the goal!",
-    "The Trollball is picked up by Selimah Tully in zone Away Field",
-    "Lian Denton has returned Placido Kora to play",
-    "Orlina Jerrine tries to Tackle Fogel Raynold, but misses!",
-    "Campball Fink nearly trips on a crumbling piece of masonry!",
-    "Campball Fink tries to run with the ball but is stopped by the defense!",
-    "HALFTIME - Each team has a quick break, and all injured players are returned to play",
-    "The Trollball is picked up by Nigel Rothmuller in zone Away Field",
-    "Bollinger Susette nearly trips on a crumbling piece of masonry!",
-    "Raouf Dragone Tackles Bollinger Susette and INJURES THEM!",
-    "Tucker Hett tries to Tackle Selimah Tully, but misses!",
-    "Campball Fink loses footing slightly on a patch of uneven grass.",
-    "Campball Fink tries to run with the ball but is stopped by the defense!",
-    "Nigel Rothmuller coughs on the thick sulfur fumes!",
-    "Nigel Rothmuller tries to run with the ball but is stopped by the defense!",
-    "Raphael Miyasawa has returned Bollinger Susette to play",
-    "Nigel Rothmuller loses footing slightly on a patch of uneven grass.",
-    "Nigel Rothmuller passes the ball to Oona Jane!",
-    "Lowson Hersh Tackles Alben Diantha and INJURES THEM!",
-    "Lian Denton has returned Alben Diantha to play",
-    "Nigel Rothmuller tries to run with the ball but is stopped by the defense!",
-    "Placido Kora tries to Tackle Orlina Jerrine, but misses!",
-    "Bollinger Susette tries to run with the ball but is stopped by the defense!",
-    "Mouldon Earl tries to Tackle Nachison Icken, but misses!",
-    "Alben Diantha tries to Tackle Oona Jane, but misses!",
-    "Orlina Jerrine coughs on the thick sulfur fumes!",
-    "Gabriele Klehm coughs on the thick sulfur fumes!",
-    "Gabriele Klehm nearly trips on a crumbling piece of masonry!",
-    "Orlina Jerrine tries to Tackle Gabriele Klehm, but Gabriele Klehm blocks it!",
-    "Mouldon Earl tries to Tackle Orlina Jerrine, but misses!",
-    "Oona Jane tries to run with the ball but is stopped by the defense!",
-    "Lowson Hersh runs with the ball and advances towards the goal!",
-    "Placido Kora tries to Tackle Selimah Tully, but Selimah Tully blocks it!",
-    "Nachison Icken coughs on the thick sulfur fumes!",
-    "Nachison Icken coughs on the thick sulfur fumes!",
-    "Nachison Icken loses footing slightly on a patch of uneven grass.",
-    "Nachison Icken passes to Nachison Icken in the End Zone, who dunks the ball into the goal!",
+    "Mouldon Earl tipsily runs with the ball and advances towards the goal!",
+    "Wolbrom Ariella nearly trips on a crumbling piece of masonry!",
+    "Glassman Solley tries to Tackle Wolbrom Ariella, but Wolbrom Ariella blocks it!",
+    "Mouldon Earl nearly trips on a crumbling piece of masonry!",
+    "Oona Jane tipsily Tackles Mouldon Earl and INJURES THEM!",
+    "Alben Diantha loses footing slightly on a patch of uneven grass.",
+    "Alben Diantha DRUNKENLY shoots from Home Field and SCORES!",
     "Goal scored! Immense amounts of alcohol are consumed!",
-    "Wylde Jutta still looks sober.",
-    "Mouldon Earl is looking a bit tipsy.",
-    "The Trollball is picked up by Glassman Solley in zone Center Field",
-    "Lowson Hersh nearly trips on a crumbling piece of masonry!",
-    "Campball Fink passes the ball to Lowson Hersh!",
-    "Campball Fink coughs on the thick sulfur fumes!",
-    "Campball Fink tries to run with the ball but is stopped by the defense!",
-    "Campball Fink nearly trips on a crumbling piece of masonry!",
-    "Wolbrom Ariella tries to Tackle Campball Fink, but Campball Fink blocks it!",
-    "Raouf Dragone tries to Tackle Nachison Icken, but misses!",
-    "Urata Oriana nearly trips on a crumbling piece of masonry!",
-    "Urata Oriana tipsily Tackles Glassman Solley and INJURES THEM!",
-    "Campball Fink loses footing slightly on a patch of uneven grass.",
-    "Campball Fink tries to run with the ball but is stopped by the defense!",
-    "Raphael Miyasawa has returned Glassman Solley to play",
-    "Mouldon Earl tipsily tries to Tackle Bollinger Susette, but misses!"
+    "Lowson Hersh is looking a bit tipsy.",
+    "Placido Kora is stumbling around DRUNK!",
+    "The Trollball is picked up by Oona Jane in zone Center Field",
+    "Lowson Hersh tipsily shoots from Center Field and SCORES!",
+    "Goal scored! Immense amounts of alcohol are consumed!",
+    "Lowson Hersh is stumbling around DRUNK!",
+    "Fogel Raynold is stumbling around DRUNK!",
+    "The Trollball is picked up by Alben Diantha in zone Center Field",
+    "Bollinger Susette loses footing slightly on a patch of uneven grass.",
+    "Bollinger Susette DRUNKENLY tries to Tackle Urata Oriana, but misses!",
+    "Alben Diantha coughs on the thick sulfur fumes!",
+    "Alben Diantha DRUNKENLY tries to Tackle Glassman Solley, but misses!",
+    "Raphael Miyasawa has returned Nigel Rothmuller to play",
+    "Gabriele Klehm coughs on the thick sulfur fumes!",
+    "Gabriele Klehm DRUNKENLY tries to run with the ball but is stopped by the defense!",
+    "Bollinger Susette DRUNKENLY tries to Tackle Tucker Hett, but misses!",
+    "Bollinger Susette coughs on the thick sulfur fumes!",
+    "Bollinger Susette loses footing slightly on a patch of uneven grass.",
+    "Bollinger Susette DRUNKENLY tries to Tackle Gabriele Klehm, but misses!",
+    "Selimah Tully DRUNKENLY tries to Tackle Alben Diantha, but misses!"
   ],
   "openBar": true,
   "bracket": "Regular Season",
