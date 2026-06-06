@@ -141,14 +141,64 @@ export default function TeamPage({ team }: { team: team }) {
           </div>
         </div>
 
-        {/* Stadium Lore Description block */}
-        <div className="w-full max-w-5xl bg-gray-50 dark:bg-gray-950/40 border border-gray-200 dark:border-gray-800/80 rounded-2xl p-6">
-          <h2 className="text-xs uppercase tracking-wider text-orange-600 dark:text-orange-400 font-bold mb-2">
-            Stadium Background
-          </h2>
-          <p className="text-sm italic text-gray-700 dark:text-gray-300 border-l-2 border-orange-500 pl-4 leading-relaxed">
-            &ldquo;{team.stadium.description}&rdquo;
-          </p>
+        {/* Stadium Lore & Resident Troll Head block */}
+        <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="md:col-span-2 bg-gray-50 dark:bg-gray-950/40 border border-gray-200 dark:border-gray-800/80 rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <h2 className="text-xs uppercase tracking-wider text-orange-600 dark:text-orange-400 font-bold mb-2">
+                Stadium Background
+              </h2>
+              <p className="text-sm italic text-gray-700 dark:text-gray-300 border-l-2 border-orange-500 pl-4 leading-relaxed">
+                &ldquo;{team.stadium.description}&rdquo;
+              </p>
+            </div>
+            {team.stadium.modifiers && team.stadium.modifiers.length > 0 && (
+              <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-800/60">
+                <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 block mb-1.5">
+                  Stadium Modifiers:
+                </span>
+                <div className="flex flex-wrap gap-1.5">
+                  {team.stadium.modifiers.map((mod) => (
+                    <span
+                      key={mod}
+                      className="text-xs px-2.5 py-0.5 rounded-full bg-gray-200/50 dark:bg-gray-900 border border-gray-300/30 dark:border-gray-850 text-gray-705 dark:text-gray-300"
+                    >
+                      {mod}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+
+          {team.stadium.trollHead && (
+            <div className="bg-gradient-to-br from-orange-50/40 to-amber-50/20 dark:from-orange-950/20 dark:to-amber-950/10 border border-orange-200/40 dark:border-orange-900/30 rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden group">
+              <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 dark:opacity-10 dark:group-hover:opacity-20 transition-opacity pointer-events-none">
+                <span className="text-8xl select-none">👹</span>
+              </div>
+              <div className="relative z-10">
+                <span className="text-xs uppercase tracking-wider text-orange-600 dark:text-orange-400 font-extrabold bg-orange-105 dark:bg-orange-950/65 px-2 py-0.5 rounded border border-orange-200/50 dark:border-orange-900/50">
+                  Resident Troll Ball
+                </span>
+                <h3 className="text-lg font-black mt-3 text-gray-900 dark:text-white font-sans flex items-center gap-1.5">
+                  <span className="text-xl">👹</span>{" "}
+                  {team.stadium.trollHead.name}
+                </h3>
+                <p className="text-xs mt-2 text-gray-750 dark:text-gray-300 leading-relaxed italic">
+                  &ldquo;{team.stadium.trollHead.personality}&rdquo;
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t border-orange-200/30 dark:border-orange-900/30 relative z-10">
+                <p className="text-[10px] text-gray-500 dark:text-gray-400 leading-normal">
+                  💡{" "}
+                  <em>
+                    Trolls willingly donate their heads as the game ball; they
+                    regenerate rapidly, and the troll gets a front-row seat!
+                  </em>
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Roster Section */}

@@ -15,6 +15,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A crude, rowdy stadium built within the half-finished, black-stone walls of the warlord Su'akour's abandoned fortress, now sponsored by the Sanguine Order. The stands are crumbling ruins, and the entire arena perpetually stinks of the nearby sulfur marshes.",
       modifiers: ["Noxious Fumes", "Crumbling Walls", "Uneven Ground"],
+      trollHead: {
+        name: "Grimgor Sulphur-breath",
+        personality:
+          "Grimgor is a grumpy old troll who loves the stench of volcanic sulfur. He believes his rock-hard head is the only thing durable enough to survive the Slayers' brutal style of play, and boasts that his skull is thicker than any stone wall.",
+      },
     },
     healer: {
       name: "Raphael Miyasawa",
@@ -249,6 +254,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A massive, opulent stadium built on one of the city's main terraces, carved directly into the mountainside. The field is famously paved with polished Glowstone, and the stands overlook the bustling Confluence Market and the ongoing construction of the Guild's Skyport.",
       modifiers: ["Glowstone Glare", "Mountain Wind", "Market Day Crowd"],
+      trollHead: {
+        name: "Lumi Glass-skiff",
+        personality:
+          "Lumi is fascinated by shiny things. Since her regenerated heads often have small shards of glowstone embedded in the ears, she loves watching them catch the terrace light. She sits in the front row, wearing large goggles to combat the glare.",
+      },
     },
     healer: {
       name: "Kant Langill",
@@ -483,6 +493,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A simple, deep bowl dug from clay and sandstone on the edge of a caravan oasis. The heat is oppressive, and the 'stands' are just blankets laid on the sun-baked dunes.",
       modifiers: ["Intense Heat", "Sandstorm", "Dehydration"],
+      trollHead: {
+        name: "Dusty Muck-guzzler",
+        personality:
+          "Dusty is a rare sand-troll who doesn't mind the scorching desert heat. He finds the dehydration modifier hilarious and happily donates his head to watch players desperately struggle to throw it through the midday sun.",
+      },
     },
     healer: {
       name: "Verlee Dacia",
@@ -718,6 +733,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A pristine field within the main temple compound, used as the central training ground for the Shield. The pitch is bordered by the library and monastery, and is said to be protected by the twin lights, Dawn's Hope and Silver Twilight.",
       modifiers: ["Hallowed Ground", "Shield's Watch", "Twinlight's Glow"],
+      trollHead: {
+        name: "Barnaby the Blessed",
+        personality:
+          "Barnaby is a gentle giant who has lived near the Temple of Light for decades. He thinks donating his head is a high civic duty and pre-game ritual, always insisting the priests give each new head a minor blessing before kickoff.",
+      },
     },
     healer: {
       name: "Riffle Harrington",
@@ -954,6 +974,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A notoriously poorly-maintained stadium built on reclaimed marshland. The ground is unstable, often waterlogged, and sections of the stands are known to collapse.",
       modifiers: ["Thick Mud", "Noxious Fumes", "Sinkhole"],
+      trollHead: {
+        name: "Sloppy Mud-lugger",
+        personality:
+          "Sloppy is a swamp-troll who lives beneath the reclaimed marsh. He enjoys the squelching sound his head makes when it lands face-first in the thick mud. He spends the game half-submerged in a sinkhole, laughing hysterically.",
+      },
     },
     healer: {
       name: "Terle Chenay",
@@ -1186,6 +1211,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A field in the center of the city's most rebellious district. The stadium is covered in graffiti, the crowd is hostile, and riots are a common post-game (and mid-game) event.",
       modifiers: ["Rowdy Crowd", "Unstable Scaffolding", "Street Performer"],
+      trollHead: {
+        name: "Ruckus Riot-bringer",
+        personality:
+          "Ruckus lives for the chaos. He loves the graffiti and the screaming crowds, and nothing makes him happier than seeing his own head used to start a mid-game pitch invasion or a massive brawl.",
+      },
     },
     healer: {
       name: "Lian Denton",
@@ -1418,6 +1448,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "An opulent stadium sponsored by the powerful Church of Pecune. The stands feature luxurious, velvet-lined boxes for bankers, who are often more focused on making deals than the game.",
       modifiers: ["Hostile Takeover", "Hired Hecklers", "Market Fluctuation"],
+      trollHead: {
+        name: "Pecunia Gold-tooth",
+        personality:
+          "Pecunia is a highly business-minded troll. She charges a small royalty fee for the use of her heads, but happily donates them because she gets access to the exclusive velvet-lined VIP boxes where she can eat bankers' leftovers.",
+      },
     },
     healer: {
       name: "Merissa Mathian",
@@ -1652,6 +1687,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "The team plays in the central bailey of Stronghold Castle, a massive fortress built on a plateau overlooking the city. The field is packed earth and cobblestone, and the crowd watches from the surrounding stone ramparts.",
       modifiers: ["Cobblestone Pitch", "Rampart Shadows", "Castle Echo"],
+      trollHead: {
+        name: "Garrison Stone-brow",
+        personality:
+          "Garrison is a disciplined, military-minded troll who respects the Commanders' organization. He stands at attention on the castle ramparts, saluting whenever his head is thrown with a particularly tight, tactical spiral.",
+      },
     },
     healer: {
       name: "Hooge Imtiaz",
@@ -1884,6 +1924,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A perilous, windswept field built next to the town's lighthouse. There is no ocean-side barrier, and the wind is notoriously unpredictable. The tusk-like lighthouse is the only landmark.",
       modifiers: ["Gale-Force Winds", "Sea Spray", "Rocky Outcropping"],
+      trollHead: {
+        name: "Salty Barnacle-pate",
+        personality:
+          "Salty is a sea-troll who loves the gale-force winds. He claims the sea spray keeps his skin nice and moist, and he loves watching the players chase his head as the wind blows it dangerously close to the cliff edge.",
+      },
     },
     healer: {
       name: "Sand Denys",
@@ -2119,6 +2164,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "A flashy, pristine stadium built on a private beach exclusively for resort guests. The field is imported turf, and a massive, puppet kraken in the bay entertains the crowd at halftime.",
       modifiers: ["Distracted Tourists", "Blinding Sun", "Resort Security"],
+      trollHead: {
+        name: "Sandy Sun-tan",
+        personality:
+          "Sandy is a relaxed reef-troll who treats every game like a vacation. He hangs out by the beachside bar, sipping tropical drinks while watching the tourists get distracted by his head flying through the air.",
+      },
     },
     healer: {
       name: "Eugen Zacks",
@@ -2353,6 +2403,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       modifiers: ["Altitude Sickness", "Sudden Downpour", "Rockslide"],
       description:
         "Has to be periodically rebuilt whenever the old stadium starts sinking into the swamp. Don’t worry about it.",
+      trollHead: {
+        name: "Slither-brain",
+        personality:
+          "Slither-brain is a swamp troll who has spent centuries near the lumber mill. He is extremely forgetful because his heads grow back so fast that he often forgets which one he started the week with, but he loves the sound of splashing water.",
+      },
     },
     healer: {
       name: "Waldon Tadeo",
@@ -2589,6 +2644,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "Fletchings Field was the first formal Troll Ball stadium in Warden lands. The design balances wood and stone, with arrowhead motifs and banners representing each region under Warden protection. The field includes trees, gully's and other obstacle placements, changed each match by local druids and terrain crafters.",
       modifiers: ["Shifting Terrain", "Warden's Watch", "Natural Advantages"],
+      trollHead: {
+        name: "Gnarled Bark-skin",
+        personality:
+          "Gnarled is a forest troll deeply connected to the Wardens. He thinks it is an honor to have his head tossed over the shifting druidic terrain, and he roots for whichever player can throw him farthest into a gully.",
+      },
     },
     healer: {
       name: "Ahron Latashia",
@@ -2830,6 +2890,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
         "Slippery Condensation",
         "Abandoned Reservoir",
       ],
+      trollHead: {
+        name: "Drip-nose",
+        personality:
+          "Drip-nose lives in the dark, damp subterranean cistern. He is immune to the sewer poison and finds the slippery condensation highly entertaining. He spends the match hanging upside down from a ceiling pipe, whistling.",
+      },
     },
     healer: {
       name: "Haeckel Millisent",
@@ -3073,6 +3138,11 @@ export const TEAMS: Record<TEAM_NAMES, team> = {
       description:
         "Located in the Cold North of Mundos Ferox, Mellondor’s settlement of Dark Tree lacks the funds for a proper stadium, but nature has provided a rugged open field just outside the settlement. The field is completely exposed to the elements, meaning players must contend with freezing rain, sheets of ice, and the tree's own grasping roots, while spectators warm themselves with blankets and campfires around the perimeter.",
       modifiers: ["Grasping Roots", "Freezing Rain", "Icy Field"],
+      trollHead: {
+        name: "Frosty Oak-jaw",
+        personality:
+          "Frosty is an ice troll who loves freezing weather. He thinks freezing rain is the perfect skin conditioner, and he gets a huge kick out of watching players slip uncontrollably while carrying his icy, grinning skull.",
+      },
     },
     healer: {
       name: "Bilski Sells",

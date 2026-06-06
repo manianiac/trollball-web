@@ -64,11 +64,17 @@ export interface stats {
   current_alcohol?: number; // Added based on usage in generatePlayer.ts
 }
 
+export interface troll_head {
+  name: string;
+  personality: string;
+}
+
 export interface stadium {
   name: string;
   location: string;
   description: string;
   modifiers: string[];
+  trollHead?: troll_head;
 }
 
 export interface team {

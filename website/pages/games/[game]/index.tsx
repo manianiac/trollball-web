@@ -291,9 +291,31 @@ export default function GamePage({ gameData }: { gameData: match }) {
                   </p>
                 </div>
               </div>
-              <p className="text-sm italic text-gray-700 dark:text-gray-300 border-l-2 border-orange-500 pl-4 mb-6 leading-relaxed">
-                &ldquo;{homeTeam.stadium.description}&rdquo;
-              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+                <div className="md:col-span-2">
+                  <p className="text-sm italic text-gray-700 dark:text-gray-300 border-l-2 border-orange-500 pl-4 leading-relaxed h-full flex items-center">
+                    &ldquo;{homeTeam.stadium.description}&rdquo;
+                  </p>
+                </div>
+                {homeTeam.stadium.trollHead && (
+                  <div className="bg-orange-50/20 dark:bg-orange-950/10 border border-orange-200/20 dark:border-orange-900/20 rounded-xl p-4 flex flex-col justify-between relative overflow-hidden group">
+                    <div className="absolute top-0 right-0 p-2 opacity-5 pointer-events-none">
+                      <span className="text-6xl select-none">👹</span>
+                    </div>
+                    <div>
+                      <span className="text-[10px] uppercase tracking-wider text-orange-600 dark:text-orange-400 font-extrabold bg-orange-100/50 dark:bg-orange-950/40 px-1.5 py-0.5 rounded">
+                        Match Ball Troll
+                      </span>
+                      <h4 className="text-sm font-black mt-2 text-gray-900 dark:text-white font-sans flex items-center gap-1">
+                        👹 {homeTeam.stadium.trollHead.name}
+                      </h4>
+                      <p className="text-[11px] mt-1 text-gray-700 dark:text-gray-355 leading-relaxed italic">
+                        &ldquo;{homeTeam.stadium.trollHead.personality}&rdquo;
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
 
               {gameData.activeModifiers &&
                 gameData.activeModifiers.length > 0 && (
