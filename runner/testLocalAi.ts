@@ -5,7 +5,7 @@ import path from "path";
 const main = async () => {
   // Set local AI env vars
   process.env.USE_LOCAL_AI = "true";
-  process.env.LOCAL_AI_URL = "http://192.168.1.242:8033/v1/chat/completions";
+  process.env.LOCAL_AI_URL = "http://192.168.1.19:8033/v1/chat/completions";
 
   const resultsDir = path.join(process.cwd(), "runner", "results");
   const sampleFile = path.join(resultsDir, "0-brimstone-desert.json");

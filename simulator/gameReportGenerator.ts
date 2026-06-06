@@ -147,7 +147,7 @@ const generateContentHelper = async (
     process.env.USE_LOCAL_AI === "true" ||
     process.env.AI_PROVIDER === "llamacpp";
   const localAiUrl =
-    process.env.LOCAL_AI_URL || "http://192.168.1.242:8033/v1/chat/completions";
+    process.env.LOCAL_AI_URL || "http://192.168.1.19:8033/v1/chat/completions";
 
   if (useLocalAi) {
     console.log(
